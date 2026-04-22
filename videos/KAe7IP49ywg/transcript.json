@@ -1,0 +1,631 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 9.0,
+      "text": "Thank you for joining us today. My name is Enrique Mineses and I'm going to present from problems to more of the changes I read the AS system with MCP.",
+      "words": []
+    },
+    {
+      "start": 11.0,
+      "end": 21.0,
+      "text": "The agenda for today is the context. Well, we are going to see a little bit about what was the problem and well the context.",
+      "words": []
+    },
+    {
+      "start": 22.0,
+      "end": 34.0,
+      "text": "How I developed this application, then we're going to see what is an MCP, an MCP, one part of the A8 called modern context protocol.",
+      "words": []
+    },
+    {
+      "start": 35.0,
+      "end": 47.0,
+      "text": "And then after that, we're going to see the general architecture of the MCP and after that, we're going to see a little bit of some examples with videos that I prepared for today. So it's pretty simple.",
+      "words": []
+    },
+    {
+      "start": 48.0,
+      "end": 52.0,
+      "text": "Well, this is one of the phrases that inspired me. It says,",
+      "words": []
+    },
+    {
+      "start": 53.0,
+      "end": 73.0,
+      "text": "Sinari Garantisa el Maniana, el Oyse webing means, so if no ones of warranties today, sorry, tomorrow today it's in meant so it is like something that inspired me every time to check if I'm doing the things that I need to do every day to continue.",
+      "words": []
+    },
+    {
+      "start": 74.0,
+      "end": 87.0,
+      "text": "Okay, let's see a little bit about the context and the problem. The context, well, we have a lot of different kind of models, a lot of different information on that.",
+      "words": []
+    },
+    {
+      "start": 88.0,
+      "end": 102.0,
+      "text": "Every single model has a purpose that sometimes you need someone managing that information, also producing that information, that it's too difficult to access to that information when the people are doing the same.",
+      "words": []
+    },
+    {
+      "start": 103.0,
+      "end": 116.0,
+      "text": "And then people, you know, just working on it. And also you need to check everything in an easy way to, you know, share the information with the external members.",
+      "words": []
+    },
+    {
+      "start": 117.0,
+      "end": 131.0,
+      "text": "Sometimes the people is already involving what they are doing and they don't want to share or they don't know exactly how to do the quality check or they don't know exactly what the other members needs.",
+      "words": []
+    },
+    {
+      "start": 131.0,
+      "end": 141.0,
+      "text": "So I want to democratize this process and to leave everyone at the studio information. I guess on AI integration, yet good option.",
+      "words": []
+    },
+    {
+      "start": 142.0,
+      "end": 155.0,
+      "text": "Even if the user is not an expert user, if you have an LLM connected to the rabbit and you have some tools posted, you can extract information from rabbit to be used.",
+      "words": []
+    },
+    {
+      "start": 155.0,
+      "end": 165.0,
+      "text": "Even if you are not a specialist or not, I really good user, you can just interact with the LLM and then extract information that you want.",
+      "words": []
+    },
+    {
+      "start": 166.0,
+      "end": 184.0,
+      "text": "This is one of the biggest options that you want to find MCP. If you are not a big, well, a good user of an specific tool, but you have an LLM that use some tools to extract information or to interact with that software, then you got it.",
+      "words": []
+    },
+    {
+      "start": 185.0,
+      "end": 195.0,
+      "text": "Very simple. Well, that was the problem that it would be up to the context, to be honest, is very simple.",
+      "words": []
+    },
+    {
+      "start": 196.0,
+      "end": 214.0,
+      "text": "I'm trying to, you know, improve the process, delivering some tools using artificial intelligence to struct information from the models and check that information out of the chem process without passing to the external members.",
+      "words": []
+    },
+    {
+      "start": 215.0,
+      "end": 220.0,
+      "text": "I'm just going to talk about the specialist, just to interact with that information in an easy way.",
+      "words": []
+    },
+    {
+      "start": 221.0,
+      "end": 230.0,
+      "text": "Now, let's see what is an MCP. Well, the model context protocol, it's one of the options that you have to interact with the LLM.",
+      "words": []
+    },
+    {
+      "start": 230.0,
+      "end": 248.0,
+      "text": "The large language model, it's one of the tools that we have to interact with these agents, with these big agents that are companies like GPT or like chat GPT or like a cloud or like pilot are producing.",
+      "words": []
+    },
+    {
+      "start": 249.0,
+      "end": 256.0,
+      "text": "The model context protocol is one tool that brings us that opportunity to interact with them in a special way.",
+      "words": []
+    },
+    {
+      "start": 256.0,
+      "end": 264.0,
+      "text": "I always pull this technology like let's imagine that the LLM is a chance.",
+      "words": []
+    },
+    {
+      "start": 265.0,
+      "end": 275.0,
+      "text": "Well, that chef cannot produce the dish. It doesn't know exactly the recipe that he needs to apply to produce that dish.",
+      "words": []
+    },
+    {
+      "start": 275.0,
+      "end": 286.0,
+      "text": "It's not in the correct environment, even if in the recipe he will be able to produce them.",
+      "words": []
+    },
+    {
+      "start": 287.0,
+      "end": 295.0,
+      "text": "Well, here the LLM is a chef and the tool that we're going to post to the LLM is the recipe.",
+      "words": []
+    },
+    {
+      "start": 295.0,
+      "end": 320.0,
+      "text": "So now that we know how to act with the information that we deliver and also well in the correct environment that's imagine, rabbi, tautaca, dotus, cout, that the environment to be the correct space to produce or to, you know, put it on to run that specific tool.",
+      "words": []
+    },
+    {
+      "start": 320.0,
+      "end": 328.0,
+      "text": "So in this way we are combining LLM's, the tools, the environment and well, the outcome meets whatever we want.",
+      "words": []
+    },
+    {
+      "start": 329.0,
+      "end": 342.0,
+      "text": "The tool is not, you know, to use trade or if you can do whatever you want, the process can be adapted by you and well, by your team.",
+      "words": []
+    },
+    {
+      "start": 343.0,
+      "end": 344.0,
+      "text": "So it's pretty simple.",
+      "words": []
+    },
+    {
+      "start": 345.0,
+      "end": 364.0,
+      "text": "Okay, let's see a little bit about the general chapter of the solution. We have the M, sorry, we have the LLM, the LLM, it's the brain, it's the model that is going to do all the processing of the information.",
+      "words": []
+    },
+    {
+      "start": 364.0,
+      "end": 386.0,
+      "text": "Then we will have the tools, the tools that we're going to present to the LLM to be executed, the tools can be attached to one specific software or to one specific environment and going to say with the file firm, it's out there, social plot and then we will have the output.",
+      "words": []
+    },
+    {
+      "start": 386.0,
+      "end": 396.0,
+      "text": "So it's pretty simple. The process to balance is pretty simple and well, you have the option to add more and more, sorry, I pulled this up.",
+      "words": []
+    },
+    {
+      "start": 397.0,
+      "end": 402.0,
+      "text": "For more information to, so now let's go to the example videos.",
+      "words": []
+    },
+    {
+      "start": 406.0,
+      "end": 408.0,
+      "text": "Okay, hmm sure.",
+      "words": []
+    },
+    {
+      "start": 408.0,
+      "end": 420.0,
+      "text": "Okay, well, here to be showing us one case of study here, I'm interactive with cloud, cloud is going to receive the videos.",
+      "words": []
+    },
+    {
+      "start": 421.0,
+      "end": 434.0,
+      "text": "Sorry, the sheets that I want to produce are exposed to some tools, not a lot of create reads, create levels, create walls, create a super frame, means create calls.",
+      "words": []
+    },
+    {
+      "start": 434.0,
+      "end": 439.0,
+      "text": "So here the LLM is receiving the plant that I want to model.",
+      "words": []
+    },
+    {
+      "start": 440.0,
+      "end": 447.0,
+      "text": "The model, it's going to be produced without any kind of human interaction.",
+      "words": []
+    },
+    {
+      "start": 448.0,
+      "end": 461.0,
+      "text": "Well, what is happening here is that them is taking the tool of create reads, it's taking the information that is in the plants and it's producing all the all the great.",
+      "words": []
+    },
+    {
+      "start": 462.0,
+      "end": 481.0,
+      "text": "As I said, I have the specific plants to be the model, but it's not just for that kind of PDF plants, you can, you know, just split out the information in an image or in a sketch or something like that.",
+      "words": []
+    },
+    {
+      "start": 482.0,
+      "end": 501.0,
+      "text": "And then cloud is going to produce the elements, it has the correct tools. So here cloud is producing them, the levels also, I have the levels in another PDF and produce the levels.",
+      "words": []
+    },
+    {
+      "start": 501.0,
+      "end": 508.0,
+      "text": "So now using that creates a levels, what are these going to produce all the columns.",
+      "words": []
+    },
+    {
+      "start": 509.0,
+      "end": 512.0,
+      "text": "After that, we're going to produce framing.",
+      "words": []
+    },
+    {
+      "start": 513.0,
+      "end": 524.0,
+      "text": "The short important part is that after I shared the information of PDF and the base is already in the model, like creates and levels.",
+      "words": []
+    },
+    {
+      "start": 525.0,
+      "end": 539.0,
+      "text": "If you know what you want to model, you don't need to pass it again at the end for something that is just prompting it, you're just using the current, you can interact with cloud produced that modeling.",
+      "words": []
+    },
+    {
+      "start": 540.0,
+      "end": 550.0,
+      "text": "In this specific example, I'm trying to interact with cloud and say, hey, I can you model the columns on the specific rate.",
+      "words": []
+    },
+    {
+      "start": 551.0,
+      "end": 561.0,
+      "text": "And across each with the other, the verticals, the grid. So it's finishing all the columns with that specific information.",
+      "words": []
+    },
+    {
+      "start": 562.0,
+      "end": 568.0,
+      "text": "After it produces it knows exactly where they were produced.",
+      "words": []
+    },
+    {
+      "start": 569.0,
+      "end": 577.0,
+      "text": "It has a memory in the background a little bit, the knowledge of what's what he produced in the model.",
+      "words": []
+    },
+    {
+      "start": 577.0,
+      "end": 588.0,
+      "text": "So you didn't reach every time the context for sure if you have an image, you have something to add to the LLM, well sorry to the conversation with the LLM.",
+      "words": []
+    },
+    {
+      "start": 589.0,
+      "end": 596.0,
+      "text": "It can be told to the conversation, but per C del LLM is going to have the information.",
+      "words": []
+    },
+    {
+      "start": 597.0,
+      "end": 602.0,
+      "text": "After you produce the columns, we are going to use the structure of framing tools.",
+      "words": []
+    },
+    {
+      "start": 602.0,
+      "end": 631.0,
+      "text": "And here comes the tricky part, even if you're from this good and even if the tool exists, sometimes the LLM is not having the correct or the specific location, because well maybe the location is in the point to us here on the LLM is taking the latest column and it's going to produce the true curve for instance, another part or maybe this scale is different.",
+      "words": []
+    },
+    {
+      "start": 632.0,
+      "end": 647.0,
+      "text": "You need to be sure and take care of it. That's why the human needs to still interact with the model and say hey you're producing it where we're going to do girl framing, they start pointing this one on the end point is this one.",
+      "words": []
+    },
+    {
+      "start": 647.0,
+      "end": 665.0,
+      "text": "So it is pretty simple, you can adapt and check the prediction, the model prediction to be honest in real time, but you need to take care and have an eye on what it's being produced.",
+      "words": []
+    },
+    {
+      "start": 665.0,
+      "end": 687.0,
+      "text": "I think it's a good option to interact with the LLM's, but just to if you want on a specific sample, I produce just a module in an hour maybe for a little for an especially for a rabbit on all the litter for many well trained person.",
+      "words": []
+    },
+    {
+      "start": 687.0,
+      "end": 708.0,
+      "text": "Just know that big field you know well the person kept producing just called it maybe in a half an hour or something like that and you're going to spend time prompting it well maybe you're going to spend too much time prompting it and you're going to live time just you know trying to explain to the LLM what it needs to do.",
+      "words": []
+    },
+    {
+      "start": 708.0,
+      "end": 723.0,
+      "text": "So you need to be really smart you know in the use of this LLM even if you have the tool sometimes it's better you know just check and review if we need to use it or not.",
+      "words": []
+    },
+    {
+      "start": 723.0,
+      "end": 738.0,
+      "text": "After that said well as you can see we'll talk about the model and as done sometimes the LLM is failing but at the end of the day well it can be adjusted.",
+      "words": []
+    },
+    {
+      "start": 738.0,
+      "end": 744.0,
+      "text": "This is just one example of what you can do using it.",
+      "words": []
+    },
+    {
+      "start": 744.0,
+      "end": 756.0,
+      "text": "Let's pass to the next video that's another example about how we can use the other context protocol that now we GPT.",
+      "words": []
+    },
+    {
+      "start": 756.0,
+      "end": 771.0,
+      "text": "So well here is another example using GPT okay well here I am using chat GPT to you know instruct information from the model.",
+      "words": []
+    },
+    {
+      "start": 771.0,
+      "end": 787.0,
+      "text": "So what is going to happen here is this is another LLM and this is another large language model and what is going to happen is and need this LLM to extract information from rabbit.",
+      "words": []
+    },
+    {
+      "start": 787.0,
+      "end": 807.0,
+      "text": "This is another option because I guess in this specific scenario the user can interact with the model not modeling proceed just struct information and well as you can see the LLM is going to check if the rabbit is open and which kind of elements we have.",
+      "words": []
+    },
+    {
+      "start": 807.0,
+      "end": 826.0,
+      "text": "I'm going to start you know just trying to get what just getting information from the floors and the walls and the kind of things so I ask for a communication of floors and then well that LLM is going to give me that specific information.",
+      "words": []
+    },
+    {
+      "start": 826.0,
+      "end": 835.0,
+      "text": "Also if I want to start the other information like floors or like other kind of items for sure it can be done.",
+      "words": []
+    },
+    {
+      "start": 835.0,
+      "end": 847.0,
+      "text": "But here this special part is what I try to put in the table to have a specific information about this example.",
+      "words": []
+    },
+    {
+      "start": 847.0,
+      "end": 873.0,
+      "text": "The other thing that I want to talk about is LLM is not just for cloud LLM is also for GPT or for Microsoft compiled but the use of it it's a little bit different also as you can see the time that chat GPT is taking to think about the question and apply the specific word flow to execute the tool.",
+      "words": []
+    },
+    {
+      "start": 873.0,
+      "end": 896.0,
+      "text": "It's bigger than in cloud that well this is something curious to be honest I prefer to get GPT because in cloud we have our limit of use and sometimes could be not a good option if you have a limit but well on agents in GPT you don't have that restriction.",
+      "words": []
+    },
+    {
+      "start": 896.0,
+      "end": 912.0,
+      "text": "So it's a good option also to use GPT to struct information also if you want to add information to some specific elements for sure you can select elements and well you can you can check if everything is going correctly or not.",
+      "words": []
+    },
+    {
+      "start": 913.0,
+      "end": 924.0,
+      "text": "You can struct information about the levels about the I don't know floors or walls or any kind of any kind of elements.",
+      "words": []
+    },
+    {
+      "start": 924.0,
+      "end": 935.0,
+      "text": "Also you can add information to them on if you select floors and you want to add information to want to specific field well for sure you can do it.",
+      "words": []
+    },
+    {
+      "start": 935.0,
+      "end": 945.0,
+      "text": "You can also override the visibility graphics in for a bit just to check if everything is going to do it.",
+      "words": []
+    },
+    {
+      "start": 945.0,
+      "end": 957.0,
+      "text": "In this example what I did is okay give me all the levels give me all the floors and then please let's check if everything is correct.",
+      "words": []
+    },
+    {
+      "start": 957.0,
+      "end": 973.0,
+      "text": "Here the human interaction is a little bit different you need to take care of what you are requesting and what you want to present to your well what you want to strike into",
+      "words": []
+    },
+    {
+      "start": 973.0,
+      "end": 989.0,
+      "text": "to your team because even if the process is very simple here I ask for for a dollar's communication you need to check if the information that the LLM is collecting from rabbit it's correct.",
+      "words": []
+    },
+    {
+      "start": 989.0,
+      "end": 1007.0,
+      "text": "So the user is not going to be replaced every time that you use an LLM use a new tool for sure the user needs to check if the information that is being pulled out from the model is correct.",
+      "words": []
+    },
+    {
+      "start": 1007.0,
+      "end": 1019.0,
+      "text": "Well after that if you evaluate that information you are pretty sure that this information is correct.",
+      "words": []
+    },
+    {
+      "start": 1019.0,
+      "end": 1029.0,
+      "text": "Well that's something that you want to share with your team in the dashboard or any other kind of presentation.",
+      "words": []
+    },
+    {
+      "start": 1029.0,
+      "end": 1045.0,
+      "text": "So this is a good option also if you want to start information from rabbit if you are not on specialist or not a really good user or if you just want to interact with rabbit to add more information.",
+      "words": []
+    },
+    {
+      "start": 1045.0,
+      "end": 1063.0,
+      "text": "I taught on this example for people like project managers or cast to controlling managers or people that is just using rabbit to distract information.",
+      "words": []
+    },
+    {
+      "start": 1063.0,
+      "end": 1069.0,
+      "text": "So well that's another option let's pass to the next video.",
+      "words": []
+    },
+    {
+      "start": 1069.0,
+      "end": 1085.0,
+      "text": "Here's the last video. Here well as you can see the interaction is going to be with cloud and well the interaction is going to be different.",
+      "words": []
+    },
+    {
+      "start": 1085.0,
+      "end": 1097.0,
+      "text": "Here what I am doing is first of all I will do the login on my account using my user and password I'm going to be authenticated.",
+      "words": []
+    },
+    {
+      "start": 1097.0,
+      "end": 1109.0,
+      "text": "So with that specific notification I can check if I don't know if I have the information in a specific project or a specific model.",
+      "words": []
+    },
+    {
+      "start": 1109.0,
+      "end": 1137.0,
+      "text": "So here comes a good part of it even if you're not passing in auto format your information is already there let's let me explain this you are not using auto format per see you are not in the platform but cloud exploring out that information because that information is living in auto format.",
+      "words": []
+    },
+    {
+      "start": 1137.0,
+      "end": 1147.0,
+      "text": "I'm trying to know asking for okay give me all the projects that I have on my account and then give me all the models in one specific project.",
+      "words": []
+    },
+    {
+      "start": 1147.0,
+      "end": 1163.0,
+      "text": "So what is happening is okay let me check you know those former I have access to your projects I'm going to list them and after I list them I'm going to check all the models in one specific project.",
+      "words": []
+    },
+    {
+      "start": 1163.0,
+      "end": 1173.0,
+      "text": "So again the question is going to be addresses to out this close to cloud and well the information is going to come from the LLM and that's it.",
+      "words": []
+    },
+    {
+      "start": 1173.0,
+      "end": 1185.0,
+      "text": "As you can see I already request the qualification of walls and the qualification of some other elements and they can produce reports using that specific information.",
+      "words": []
+    },
+    {
+      "start": 1185.0,
+      "end": 1197.0,
+      "text": "I just pulled out the information of this specific tool because I want to show you okay this is what you can do using this specific workflow.",
+      "words": []
+    },
+    {
+      "start": 1197.0,
+      "end": 1203.0,
+      "text": "So let's pass to the last part of the presentation this is the live demo.",
+      "words": []
+    },
+    {
+      "start": 1203.0,
+      "end": 1219.0,
+      "text": "Here I have a cloud and I already have to give myself and I'm going to interact a little bit with this specific tool.",
+      "words": []
+    },
+    {
+      "start": 1219.0,
+      "end": 1231.0,
+      "text": "So I'm going to request can you tell me the projects that I had on my account.",
+      "words": []
+    },
+    {
+      "start": 1231.0,
+      "end": 1253.0,
+      "text": "The LLM is going to do the request to the out to special class and well he's going to pull out all the elements as you can see his you know checking the tool that we have and after that he's going to take all the information of that tool.",
+      "words": []
+    },
+    {
+      "start": 1253.0,
+      "end": 1269.0,
+      "text": "So here is the list of projects but that's many that I want use this product and tell me the issues we find out.",
+      "words": []
+    },
+    {
+      "start": 1269.0,
+      "end": 1275.0,
+      "text": "So again the information is going to be pulled on the LLM.",
+      "words": []
+    },
+    {
+      "start": 1275.0,
+      "end": 1287.0,
+      "text": "It's going to check if it has the tool to extract that information about the issues and then well the information is going to be pulled in this conversation.",
+      "words": []
+    },
+    {
+      "start": 1287.0,
+      "end": 1298.0,
+      "text": "Sometimes if you have a lot of information well the interaction is going to be difficult because the context window it's really small.",
+      "words": []
+    },
+    {
+      "start": 1298.0,
+      "end": 1304.0,
+      "text": "And well this is going to pass also in rabbit or another so far so you have just.",
+      "words": []
+    },
+    {
+      "start": 1304.0,
+      "end": 1327.0,
+      "text": "And small context window to interact with the with this specific LLM and also sometimes is if you have a lot of a lot of information that time that is going to be taking to produce that report or produce that answer can be more than the time that you maybe can spend.",
+      "words": []
+    },
+    {
+      "start": 1327.0,
+      "end": 1345.0,
+      "text": "If you access to the to the platform so here well it's checking all the all the issues we have to 35 issues on this project and it's doing the list of issues I can produce ultra report of that issues what I'm trying to explain is.",
+      "words": []
+    },
+    {
+      "start": 1345.0,
+      "end": 1365.0,
+      "text": "You are not passing proceed to the specific you know platform you are not on that specific one firm that the request of information is going to work because at the end of the day you are just using the tool and well producing the report.",
+      "words": []
+    },
+    {
+      "start": 1365.0,
+      "end": 1385.0,
+      "text": "So here's a report of the issues and well here's information about them so as you can see we can access to that information without the use of out this culture club and this is not limited to models this is for all the tools that we have trained out this.",
+      "words": []
+    },
+    {
+      "start": 1385.0,
+      "end": 1396.0,
+      "text": "So that was live demo now I guess question answers and then we can finish thank you very much for your time and that's it.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T04:58:35.993930+00:00"
+}

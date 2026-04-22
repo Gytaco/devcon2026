@@ -1,0 +1,517 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.6000000000000005,
+      "text": "Hello, welcome back to Wadi. Today I'm going to inform you regarding the building degree in data pipeline.",
+      "words": []
+    },
+    {
+      "start": 5.6000000000000005,
+      "end": 10.8,
+      "text": "From APS to Microsoft Fabric to Co-Pilot for real time to stay in the military metric.",
+      "words": []
+    },
+    {
+      "start": 10.8,
+      "end": 21.3,
+      "text": "First of all, who am I? I'm a 7 Daniels, a spin data engineer at Heimungst and I'm building data pipelines for one half a year now.",
+      "words": []
+    },
+    {
+      "start": 21.3,
+      "end": 28.0,
+      "text": "And yeah, I'm going to take you with me today and how I run one. So join me please.",
+      "words": []
+    },
+    {
+      "start": 29.0,
+      "end": 45.8,
+      "text": "First of all, I'm on what do we do? We build bridges tunnels. We do make roads. All this infrastructural construction. We do it all internally from realization and design.",
+      "words": []
+    },
+    {
+      "start": 45.8,
+      "end": 48.8,
+      "text": "And I'm personally from the design department.",
+      "words": []
+    },
+    {
+      "start": 49.8,
+      "end": 61.599999999999994,
+      "text": "Why I'm talking to you about this topic today, I think I already know is the reality is a main topic and we're building a lot of infrastructural in our nature.",
+      "words": []
+    },
+    {
+      "start": 61.599999999999994,
+      "end": 71.1,
+      "text": "And therefore, we think it's important to make sure we do it with great intelligence and therefore I present to you this point today.",
+      "words": []
+    },
+    {
+      "start": 72.1,
+      "end": 80.39999999999999,
+      "text": "That's all about the why I guess everybody feels the same about how important durability is and taking care of our environment.",
+      "words": []
+    },
+    {
+      "start": 80.39999999999999,
+      "end": 93.0,
+      "text": "So I've been talking a lot with people internally and this sentence is mainly coming up where design data is rich with sustainability inside its manual and comes to late.",
+      "words": []
+    },
+    {
+      "start": 93.0,
+      "end": 105.5,
+      "text": "There's a lot of data available with the data isn't on the right moment at the right time and the current solution may have a may improve this a lot.",
+      "words": []
+    },
+    {
+      "start": 108.0,
+      "end": 114.5,
+      "text": "Therefore it's rich, it's manual and late and the richness we will make automatic and enzyme that's the goal.",
+      "words": []
+    },
+    {
+      "start": 115.5,
+      "end": 127.5,
+      "text": "So in many of you will have seen this triangle before it's not only the technology which will make progress. It's also the people and the processes.",
+      "words": []
+    },
+    {
+      "start": 127.5,
+      "end": 139.0,
+      "text": "The people for you have to activate to make things happen the processes so everything things align and the technology which makes things possible mainly for today.",
+      "words": []
+    },
+    {
+      "start": 139.0,
+      "end": 152.5,
+      "text": "I'll focus on a technology part because that's what I mostly do and other people from my team focus on the other two words mainly so that's dive in.",
+      "words": []
+    },
+    {
+      "start": 153.5,
+      "end": 181.5,
+      "text": "API so we are obviously connecting to APF and there we get a few APIs like the first one is the versions I'll show you in a minute like in the ACC you will have model versions and this is what we request those and when we have like an ACC model you often have multiple versions and we want to make sure we have all those versions.",
+      "words": []
+    },
+    {
+      "start": 181.5,
+      "end": 208.5,
+      "text": "Therefore we first go to this API and actually out of this construction cloud APIs is currently former but still in the presentation we fetch the model properties and first one the batch status on a ps2 make sure it's on there and then we fetch the fields and the properties.",
+      "words": []
+    },
+    {
+      "start": 208.5,
+      "end": 210.5,
+      "text": "More on that later.",
+      "words": []
+    },
+    {
+      "start": 213.5,
+      "end": 225.5,
+      "text": "First the properties so many of you have seen if you click on the ACC you will have like a 3D view and you click on an object and it will show you a lot of properties regarding that object.",
+      "words": []
+    },
+    {
+      "start": 226.5,
+      "end": 239.5,
+      "text": "Now first you if you request the property that the APS you get this list like this is snippet of it and this is very confusing because you only see like the keys in there.",
+      "words": []
+    },
+    {
+      "start": 240.5,
+      "end": 253.5,
+      "text": "So you'll need another API to get the facts the fields and these fields contain like a unit name and category but I'm mainly interested in a name.",
+      "words": []
+    },
+    {
+      "start": 253.5,
+      "end": 275.5,
+      "text": "And this one is for example concrete compression and has like a key with a key value and in the properties these keys will be will be living so my goal is to map these keys and with the mapping I'll make sure I know which properties which.",
+      "words": []
+    },
+    {
+      "start": 276.5,
+      "end": 284.5,
+      "text": "And I'll show you in the data pipeline later but this is the main and the main activity you have to you have to do.",
+      "words": []
+    },
+    {
+      "start": 287.5,
+      "end": 304.5,
+      "text": "Once I have these properties I will make unique assemblies so I'll define a unique assembly based on object type this can be like a concrete slab or a pile and this object has a location so it's defined regarding some kind of location.",
+      "words": []
+    },
+    {
+      "start": 305.5,
+      "end": 312.5,
+      "text": "And it has a discipline for example like a civil infrastructure or like a road discipline so these three.",
+      "words": []
+    },
+    {
+      "start": 313.5,
+      "end": 317.5,
+      "text": "The distinct parameters will form like one unique assembly.",
+      "words": []
+    },
+    {
+      "start": 318.5,
+      "end": 333.5,
+      "text": "And you'll see later why it is important mainly because we want to allocate like a code to it mainly the product code and this product code will be connected to for example the durability database you'll see later.",
+      "words": []
+    },
+    {
+      "start": 336.5,
+      "end": 357.5,
+      "text": "So once we have these unique assemblies this for example is like a concrete slab that you will have like a volume and this volume will be calculated with a vermilcle cost indicator which is also defined in and volumes cubic metrics and then we'll have like our mental call.",
+      "words": []
+    },
+    {
+      "start": 358.5,
+      "end": 379.5,
+      "text": "This is like the basic the theoretical explanation of what I'm going to show you later so it's a unique assembly times the environmental cost indicator and then we have a very medical in Dutch is mkai therefore you'll see mkai a bit more later but this is the main theory.",
+      "words": []
+    },
+    {
+      "start": 380.5,
+      "end": 388.5,
+      "text": "So I'd like to give you with me to like the example of the coordination model.",
+      "words": []
+    },
+    {
+      "start": 392.5,
+      "end": 394.5,
+      "text": "And it will have to go on.",
+      "words": []
+    },
+    {
+      "start": 394.5,
+      "end": 404.5,
+      "text": "And go here this is out of this format and it will be shown in 3d.",
+      "words": []
+    },
+    {
+      "start": 405.5,
+      "end": 422.5,
+      "text": "This is the example project I'm going to show you today as I was telling you before I was talking about these properties and these are like the properties I'll show you before is the key and the value and this is the properties which have to replace with the field.",
+      "words": []
+    },
+    {
+      "start": 422.5,
+      "end": 440.5,
+      "text": "So many of you have seen this few or before and I'm mainly extracting this data into the pipeline so you'll see like mode 4 this is like the segmentation of the structure and it's like the type.",
+      "words": []
+    },
+    {
+      "start": 441.5,
+      "end": 449.5,
+      "text": "So this is what I was telling you before location object type and it will be defined as a discipline of civil construction for today.",
+      "words": []
+    },
+    {
+      "start": 449.5,
+      "end": 454.5,
+      "text": "So we have our tree parameters I'm showing you here.",
+      "words": []
+    },
+    {
+      "start": 455.5,
+      "end": 463.5,
+      "text": "Let me also create like a dashboard for this so we have like the data in a different format and this will look like this.",
+      "words": []
+    },
+    {
+      "start": 464.5,
+      "end": 475.5,
+      "text": "This is the different good custom dashboard we create for other purposes to share our data.",
+      "words": []
+    },
+    {
+      "start": 476.5,
+      "end": 482.5,
+      "text": "So you see the same structure with a few more disciplines and here's the data in there as well.",
+      "words": []
+    },
+    {
+      "start": 483.5,
+      "end": 488.5,
+      "text": "So now I want to take you with me within into the demo.",
+      "words": []
+    },
+    {
+      "start": 489.5,
+      "end": 491.5,
+      "text": "Let's see.",
+      "words": []
+    },
+    {
+      "start": 494.5,
+      "end": 497.5,
+      "text": "And this will take place in Microsoft fabric.",
+      "words": []
+    },
+    {
+      "start": 497.5,
+      "end": 517.5,
+      "text": "So Microsoft fabric is looking like this mainly you can define like your your data flow and we will always start with authentication because Autodesk has like a authentication work flow in there and we have to maintain a tree like it token.",
+      "words": []
+    },
+    {
+      "start": 517.5,
+      "end": 528.5,
+      "text": "I'm not going deeper into that today but most of you know that this is a mandatory to fetch if you want to ask more personal data from a PS.",
+      "words": []
+    },
+    {
+      "start": 529.5,
+      "end": 537.5,
+      "text": "So we define like a medallion met medallion structure where we have bronze silver gold visualized and agents.",
+      "words": []
+    },
+    {
+      "start": 537.5,
+      "end": 557.5,
+      "text": "So in the bronze layer we will fetch everything all the raw data for my PS in the silver layer we will map the field with the properties like I told you before and in the gold layer you filter all the objects we need out of the big database we have when we call a PS.",
+      "words": []
+    },
+    {
+      "start": 557.5,
+      "end": 572.5,
+      "text": "So this is the flow we maintain to visualize and to feed our agents with current data and the data pipeline is the one we will ignite every script and in a good sequence.",
+      "words": []
+    },
+    {
+      "start": 572.5,
+      "end": 593.5,
+      "text": "So yeah this is like the main overview and I want to kick off the pipeline with you so we'll click on execute sorry the thing is in Dutch so we have to sometimes translate but what I was telling you before first we're getting the version.",
+      "words": []
+    },
+    {
+      "start": 593.5,
+      "end": 617.5,
+      "text": "So our model currently has only one version for simplicity but it will fetch them anyway then we'll fetch the properties so you'll you'll it will fetch the values we need and then the fields to make sure the keys are filled with the right name and then we will map them.",
+      "words": []
+    },
+    {
+      "start": 618.5,
+      "end": 630.5,
+      "text": "And then we will filter them and then we have our data complete and then the next steps is to make sure this data will be connected to the to the durability to the product code.",
+      "words": []
+    },
+    {
+      "start": 630.5,
+      "end": 659.5,
+      "text": "So this script will make the unique assemblies and then I will make sure it will be sent to the SQL database for the durability coordinator who can allocate the product codes to the unique assemblies because that's the missing link we have all the elements but we have no link to the durability data and therefore we allocate the product code to every unique assembly and this unique assembly.",
+      "words": []
+    },
+    {
+      "start": 660.5,
+      "end": 675.5,
+      "text": "Can then be calculated with the simple formula formula I gave you before where the environmental cost index will be times the unique assembly volume and then you have the environmental cost.",
+      "words": []
+    },
+    {
+      "start": 676.5,
+      "end": 690.5,
+      "text": "So this will run for a while and in the meantime I'll show you the data input which the durability coordinator needs to fill in to make sure this can be allocated.",
+      "words": []
+    },
+    {
+      "start": 691.5,
+      "end": 708.5,
+      "text": "So therefore we made another dashboard which is more like an app it could be replaced with a great app but for simplicity for everybody can make part of your dashboard so it will be making it much easier.",
+      "words": []
+    },
+    {
+      "start": 709.5,
+      "end": 735.5,
+      "text": "So here we have the assemblies this is the ones I will tell you about and you see the discipline you see the type object and you see the location and this makes up for like one assembly which we can allocate a product code to I already did that before but I'll do it for one for a few objects as well.",
+      "words": []
+    },
+    {
+      "start": 735.5,
+      "end": 764.5,
+      "text": "So here we have this unique assembly and then we can like at the product code to it and this way it will make sure that this code will be allocated to this object and we also get like detail and it says congratulations the product code is added and for validation purposes we also add the product ID so at the name.",
+      "words": []
+    },
+    {
+      "start": 765.5,
+      "end": 781.5,
+      "text": "The item knows which object is allocated without the only this code maybe people will not know what it is and here they're validated on the fact that it's the tone is concrete and with a class segment and the unit is in the cubic metrics.",
+      "words": []
+    },
+    {
+      "start": 781.5,
+      "end": 798.5,
+      "text": "So this data is from the database and you see the durability database for the element I just allocated and this one is a see one thousand two and it's like nineteen.",
+      "words": []
+    },
+    {
+      "start": 798.5,
+      "end": 827.5,
+      "text": "Because environmental cost index value so this this value can be calculated with the volume of the total structure and then we have the environmental cost so it's the volume of the structure times nineteen in this case will be the costume in impact for this object and it's from the durability index eight to one tree it's a method to define durability I'm not going into that for now but I'm going to do it.",
+      "words": []
+    },
+    {
+      "start": 828.5,
+      "end": 831.5,
+      "text": "People will know we know.",
+      "words": []
+    },
+    {
+      "start": 831.5,
+      "end": 856.5,
+      "text": "So this way I'll write the product to the database and then the database knows which environmental code is allocated to it a semi unique unique semi and if that's done we can progress to the next part because then we can make the calculation so the environmental cost times the volume of the object.",
+      "words": []
+    },
+    {
+      "start": 856.5,
+      "end": 864.5,
+      "text": "That's what we do in a and another small pipeline so we'll go back to that and if this one.",
+      "words": []
+    },
+    {
+      "start": 864.5,
+      "end": 877.5,
+      "text": "It will fetch the assembly unique assembly with the product code from the database again and I already ran it today but I can execute it again.",
+      "words": []
+    },
+    {
+      "start": 877.5,
+      "end": 894.5,
+      "text": "And then it will fetch the new ones we just we just allocated and I will kick off the calculation script it also does it automatically when I added it but for yeah for information purposes I'll show it you now.",
+      "words": []
+    },
+    {
+      "start": 894.5,
+      "end": 900.5,
+      "text": "And as you can see it's not sure if you can see it.",
+      "words": []
+    },
+    {
+      "start": 900.5,
+      "end": 923.5,
+      "text": "Not yet started but it will start soon and then the then we have the everything connected and then the calculations will be made on background and this could be like an automatic process every time the model is updated this camera and every day and people have only had to allocate once and then once they have allocated.",
+      "words": []
+    },
+    {
+      "start": 923.5,
+      "end": 943.5,
+      "text": "They have like a calculation every day with the latest version so now we all have all these data it's also very useful to make it make a dashboard to show the data to other people so let's first check the current state of the pipeline still getting virgins.",
+      "words": []
+    },
+    {
+      "start": 943.5,
+      "end": 951.5,
+      "text": "So that's why I prepared a bit to a third time sake.",
+      "words": []
+    },
+    {
+      "start": 951.5,
+      "end": 968.5,
+      "text": "This could be like the results of the data pipeline that this ran so we are after unique assemblies and now we have the a1 to a3 this is the 19 again for this object.",
+      "words": []
+    },
+    {
+      "start": 968.5,
+      "end": 972.5,
+      "text": "And it is calculated for every unique assembly.",
+      "words": []
+    },
+    {
+      "start": 972.5,
+      "end": 995.5,
+      "text": "But the interesting part is which assemblies are the most impact for example so here you see this is some of the circular total so how many objects can be replaced in the future and then we have the the totals of the cost of environmental cost index the mk.",
+      "words": []
+    },
+    {
+      "start": 995.5,
+      "end": 1015.5,
+      "text": "At all jimmy 4 and here we can see that these objects have the most impact because they are of the concrete of the ice class and the lot of volumes so it will go from high to low and if you're making design decisions you can for example check this list on an FVF to make a lot of impact today.",
+      "words": []
+    },
+    {
+      "start": 1015.5,
+      "end": 1031.5,
+      "text": "How can we compare the objects of the design as we make with the environmental impact and this way we can provide the engineers with the correct data to make decisions during their work.",
+      "words": []
+    },
+    {
+      "start": 1031.5,
+      "end": 1046.5,
+      "text": "Often this is of course if this data has to go have to be sent from like a durability coordinator it will be too late and it will probably be too expensive to do this method makes it.",
+      "words": []
+    },
+    {
+      "start": 1046.5,
+      "end": 1073.5,
+      "text": "This is one of the most important things in the beginning but the autonomous project will be built in the long term and this way we can make sure our engineers make the durability decisions they have to to make the most impact because in the beginning of the project it is always these decisions will have to be changed later in the project the decisions are made and there is no way back.",
+      "words": []
+    },
+    {
+      "start": 1073.5,
+      "end": 1091.5,
+      "text": "Therefore we want to be on time and always provide the right data on a wrong time and this is again as this viewer to share this quickly and this of course we cannot miss any AI in here so.",
+      "words": []
+    },
+    {
+      "start": 1091.5,
+      "end": 1120.5,
+      "text": "MCP is probably one of the technologies people have heard before the great thing is if you pull your data into fabric it will be shown into can be shown in databases and it can also be provided with MCP server from the data agent and here I made like an example already so this is co-pilot studio and of course in co-pilot studio we can also see the data.",
+      "words": []
+    },
+    {
+      "start": 1121.5,
+      "end": 1133.5,
+      "text": "We can ask some questions regarding this data so we can ask what unique assemblies make the most.",
+      "words": []
+    },
+    {
+      "start": 1133.5,
+      "end": 1139.5,
+      "text": "This is the environmental cost index impact.",
+      "words": []
+    },
+    {
+      "start": 1139.5,
+      "end": 1168.5,
+      "text": "This is the MCP description of our data agent which is connected to the database and you see it will be executed in the data is fetched from the fabric services and often this is a bit buggy and I have to ask it two times but here it is so we see that this flooring construction has like 12000 mpi.",
+      "words": []
+    },
+    {
+      "start": 1168.5,
+      "end": 1186.5,
+      "text": "This is the highest and so we can see which objects have most impact when we have the design decisions and you can imagine that you can also the same for a similarity.",
+      "words": []
+    },
+    {
+      "start": 1186.5,
+      "end": 1215.5,
+      "text": "I am not sure if it spoke correctly but I will provide a reflex here and fill searching so we will translate in Dutch for now but here it is and you can see the similarity of these projects are like 50-25 and 16% and these both have like impact on how you make and derivative the design is in.",
+      "words": []
+    },
+    {
+      "start": 1217.5,
+      "end": 1240.5,
+      "text": "The pipeline is still running and it has the properties and the field is mapping the filter and then it will ignite again and this flooring can be continuous every day or you can connect to a web whoop to make sure it finishes when the 3d modeler is finished.",
+      "words": []
+    },
+    {
+      "start": 1240.5,
+      "end": 1246.5,
+      "text": "We can have terbeck correct environmental data only month.",
+      "words": []
+    },
+    {
+      "start": 1246.5,
+      "end": 1265.5,
+      "text": "It is for the demo and I would like to thank you for watching today and if you want to connect you can always connect me on LinkedIn or anything else and thank you for listening.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T05:00:35.603267+00:00"
+}

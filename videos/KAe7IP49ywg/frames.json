@@ -1,0 +1,124 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1450\\videos\\KAe7IP49ywg\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows an agenda slide from an Autodesk DevCon presentation with topics like context, MCP, and a live demo.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Agenda",
+        "Context and Problem",
+        "What is MCP?",
+        "General architecture",
+        "MCP Example Videos",
+        "Live Demo"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1450\\videos\\KAe7IP49ywg\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "slides",
+      "keep": true,
+      "description": "The video frame shows a slide presentation at Autodesk DevCon discussing 'Context and Problem' with a backdrop labeled 'AI'.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Context and Problem"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1450\\videos\\KAe7IP49ywg\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide discussing 'Context and Problem' related to Revit models and AI assistants.",
+      "products_visible": [
+        "Autodesk",
+        "Revit"
+      ],
+      "ui_elements": [
+        "Context and Problem",
+        "Context",
+        "Problem"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1450\\videos\\KAe7IP49ywg\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide titled 'General Architecture' with a person interacting with machinery in a workshop setting.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "General Architecture"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1450\\videos\\KAe7IP49ywg\\frames\\frame_000014.jpg",
+      "timestamp_seconds": 390.0,
+      "frame_index": 14,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing a diagram of a general architecture with user input, LLM, and tools connected to various outputs.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "General Architecture",
+        "Example Videos",
+        "User input",
+        "LLM",
+        "TOOLS"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1450\\videos\\KAe7IP49ywg\\frames\\frame_000015.jpg",
+      "timestamp_seconds": 420.0,
+      "frame_index": 15,
+      "category": "demo",
+      "keep": true,
+      "description": "A presentation slide shows integration of Claude MCP with Revit, displaying an architectural floor plan design in Revit software.",
+      "products_visible": [
+        "Claude MCP",
+        "Revit",
+        "AutoCAD"
+      ],
+      "ui_elements": [
+        "Level 00",
+        "Create Grids",
+        "Horizontal Grids",
+        "Vertical Grids"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1450\\videos\\KAe7IP49ywg\\frames\\frame_000026.jpg",
+      "timestamp_seconds": 750.0,
+      "frame_index": 26,
+      "category": "demo",
+      "keep": true,
+      "description": "The video frame shows a demo featuring GPT Agents integrated with Autodesk Revit, with a visible interface of a chat window and a CAD model in Revit.",
+      "products_visible": [
+        "GPT Agents",
+        "Revit"
+      ],
+      "ui_elements": [
+        "TAD-GPT",
+        "Chat Window",
+        "3D Model"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T04:59:12.387433+00:00"
+}

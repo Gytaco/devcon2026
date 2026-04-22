@@ -1,0 +1,67 @@
+{
+  "video_id": "KAe7IP49ywg",
+  "demo_timestamps": [
+    {
+      "start": 414.0,
+      "end": 648.0,
+      "description": "Interacting with Claude to automate BIM model creation tasks such as creating grids, levels, and columns."
+    },
+    {
+      "start": 936.0,
+      "end": 1017.0,
+      "description": "Using ChatGPT to extract information from Revit models and generate reports."
+    },
+    {
+      "start": 1069.0,
+      "end": 1304.0,
+      "description": "Interaction with Cloud to access Autodesk Construction Cloud projects and issues."
+    },
+    {
+      "start": 1253.0,
+      "end": 1385.0,
+      "description": "List of issues in BIM project being analyzed by a deterministic AI agent to produce a report"
+    }
+  ],
+  "themes": [
+    "Integration of AI in BIM processes",
+    "Utilizing LLMs for model interaction and data extraction",
+    "Deterministic AI for BIM QA",
+    "Efficiency in Building Information Modeling"
+  ],
+  "client_mentions": [],
+  "autodesk_products": [
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 582.0
+    },
+    {
+      "name": "Autodesk Construction Cloud",
+      "is_api": false,
+      "timestamp": 1069.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "Claude",
+      "category": "llm",
+      "context": "Automating model creation tasks in BIM.",
+      "timestamp": 414.0
+    },
+    {
+      "name": "ChatGPT",
+      "category": "llm",
+      "context": "Extracting information from Revit models.",
+      "timestamp": 936.0
+    },
+    {
+      "name": "LLM",
+      "category": "llm",
+      "context": "Used to extract and analyze project issues in BIM",
+      "timestamp": 1269.0
+    }
+  ],
+  "summary": "The video discusses building deterministic AI agents for BIM Quality Assurance using the Revit API, leveraging AI technologies like Claude and ChatGPT to automate model creation and extract information effectively. It also highlights the integration of these tools to improve efficiency in managing data from platforms like Revit and Autodesk Construction Cloud, while showcasing the use of language models to identify and report issues within BIM projects, addressing challenges such as context window limitations.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T04:59:20.400565+00:00"
+}

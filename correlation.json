@@ -1,0 +1,81 @@
+{
+  "shared_themes": [
+    {
+      "theme": "Automation in Design and Construction",
+      "video_ids": [
+        "KAe7IP49ywg",
+        "CIs6Zz1ARFM"
+      ],
+      "description": "Both videos explore the use of automation in improving efficiency in design and construction processes, with one focusing on BIM Quality Assurance and the other on sustainability metrics."
+    }
+  ],
+  "client_matrix": [
+    {
+      "client": "Heimungst",
+      "video_ids": [
+        "CIs6Zz1ARFM"
+      ]
+    }
+  ],
+  "product_matrix": [
+    {
+      "product": "Autodesk Construction Cloud",
+      "video_ids": [
+        "KAe7IP49ywg",
+        "CIs6Zz1ARFM"
+      ],
+      "usage_context": "Used as a platform for integrating AI technologies to enhance efficiency and sustainability within construction management and data interactions."
+    },
+    {
+      "product": "Revit",
+      "video_ids": [
+        "KAe7IP49ywg"
+      ],
+      "usage_context": "Utilized for developing deterministic AI agents to automate BIM Quality Assurance processes."
+    },
+    {
+      "product": "APS",
+      "video_ids": [
+        "CIs6Zz1ARFM"
+      ],
+      "usage_context": "Used in conjunction with AI technologies to automate data extraction and processing related to sustainability metrics."
+    }
+  ],
+  "ai_matrix": [
+    {
+      "technology": "Claude",
+      "category": "llm",
+      "video_ids": [
+        "KAe7IP49ywg"
+      ],
+      "context": "Used for automating model creation and information extraction in BIM processes."
+    },
+    {
+      "technology": "ChatGPT",
+      "category": "llm",
+      "video_ids": [
+        "KAe7IP49ywg"
+      ],
+      "context": "Used alongside Claude to improve model interaction through advanced language understanding and data extraction."
+    },
+    {
+      "technology": "Co-Pilot",
+      "category": "agent",
+      "video_ids": [
+        "CIs6Zz1ARFM"
+      ],
+      "context": "Used to assist in building data pipelines for automating sustainability metrics generation from construction models."
+    },
+    {
+      "technology": "MCP",
+      "category": "agent",
+      "video_ids": [
+        "CIs6Zz1ARFM"
+      ],
+      "context": "Facilitates automated processes related to environmental impact assessments in infrastructure projects."
+    }
+  ],
+  "executive_summary": "The analyzed videos highlight the integration of AI and automation to enhance design and construction processes. One video emphasizes deterministic AI agents for BIM Quality Assurance using technologies like Claude and ChatGPT, focusing on efficiency and integration with Autodesk Construction Cloud. The other video demonstrates the use of AI agents like Co-Pilot and MCP to automate sustainability metrics assessment, leveraging Autodesk Platform Services. The client Heimungst is involved in projects using these advanced technologies to improve infrastructure impacts. Overall, Autodesk products like Revit and Construction Cloud are pivotal in achieving these automation goals.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T05:01:22.285178+00:00"
+}
