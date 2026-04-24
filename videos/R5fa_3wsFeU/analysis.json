@@ -1,0 +1,50 @@
+{
+  "video_id": "R5fa_3wsFeU",
+  "demo_timestamps": [
+    {
+      "start": 0.0,
+      "end": 468.0,
+      "description": "Step-by-step guide on creating a digital twin system architecture and setup in Autodesk Tandem for real-time data visualization"
+    }
+  ],
+  "themes": [
+    "Digital Twins in Building Operations",
+    "Real-Time Data Integration",
+    "AI and IoT in Infrastructure Management"
+  ],
+  "client_mentions": [
+    {
+      "name": "Sondotecnica",
+      "context": "Engineering and technological partner involved in the presentation and implementation of digital twins",
+      "timestamp": 19.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "Autodesk Tandem",
+      "is_api": false,
+      "timestamp": 61.0
+    },
+    {
+      "name": "APS",
+      "is_api": true,
+      "timestamp": 16.0
+    },
+    {
+      "name": "Autodesk Tandem Connect",
+      "is_api": false,
+      "timestamp": 835.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "YOLO v2",
+      "category": "ml",
+      "context": "Used for real-time people counting with cameras in the digital twin setup",
+      "timestamp": 505.0
+    }
+  ],
+  "summary": "The session discusses the integration of IoT, APS, and AI to create intelligent digital twins for building operations. Utilizing Autodesk Tandem, the presentation demonstrates configuring a digital twin to visualize real-time data and send notifications via Microsoft Teams. The deployment includes sensors for environmental quality and AI models for occupancy detection, highlighting multidisciplinary collaboration and scalable solutions for data-driven decision-making.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:41:10.899812+00:00"
+}

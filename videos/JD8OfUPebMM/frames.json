@@ -1,0 +1,194 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\JD8OfUPebMM\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide showing an agenda with sections including defining the problem, tools, and proposed solution with a demo.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Agenda",
+        "Define the Problem",
+        "Tools we're using and Why",
+        "Proposed Solution with Demo",
+        "Supporting Information",
+        "Closing Items"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\JD8OfUPebMM\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "The video frame shows slides about the speakers at Autodesk DevCon, including their roles and responsibilities.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "About the Speakers",
+        "Zach, Smith",
+        "Autodesk Platform Developer",
+        "Andrell, Laniewicz",
+        "Digital Delivery Lead"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\JD8OfUPebMM\\frames\\frame_000005.jpg",
+      "timestamp_seconds": 120.0,
+      "frame_index": 5,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide discussing various aspects like architectures, data sources, and developer teams as factors determined by developers.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\JD8OfUPebMM\\frames\\frame_000006.jpg",
+      "timestamp_seconds": 150.0,
+      "frame_index": 6,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon discussing developer problems with unclear requirements.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Never on the same page",
+        "Developer Problems",
+        "Unclear requirements"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\JD8OfUPebMM\\frames\\frame_000010.jpg",
+      "timestamp_seconds": 270.0,
+      "frame_index": 10,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide showing the integration of VIKTOR.AI with Autodesk Platform Services highlighting low/no code AI solutions.",
+      "products_visible": [
+        "VIKTOR.AI",
+        "Autodesk Platform Services"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "Low/No Code Language Based AI"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\JD8OfUPebMM\\frames\\frame_000013.jpg",
+      "timestamp_seconds": 360.0,
+      "frame_index": 13,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide discussing the benefits of VIKTOR, focusing on security, user interface, job security, and AI's LLM.",
+      "products_visible": [
+        "VIKTOR"
+      ],
+      "ui_elements": [
+        "You don't have permission to perform this action"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\JD8OfUPebMM\\frames\\frame_000018.jpg",
+      "timestamp_seconds": 510.0,
+      "frame_index": 18,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing steps for someone who is not a programmer to start an automation task using Autodesk API.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "I'm not a programmer...",
+        "Trained on VIKTOR",
+        "Understand Autodesk API"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\JD8OfUPebMM\\frames\\frame_000026.jpg",
+      "timestamp_seconds": 750.0,
+      "frame_index": 26,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents a process for updating an app with integrations, steps, and updated terms, featuring a file sync process.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Update App: add integrations, steps, updated terms",
+        "3-step Parametrization",
+        "ACC .prj File Sync"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\JD8OfUPebMM\\frames\\frame_000028.jpg",
+      "timestamp_seconds": 810.0,
+      "frame_index": 28,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide discussing error fixing automation with a screenshot of a code interface for scanning orphaned project files.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Scan for Orphans",
+        "Find Orphaned .prj Files",
+        "Zachary Smith",
+        "VIKTOR"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\JD8OfUPebMM\\frames\\frame_000030.jpg",
+      "timestamp_seconds": 870.0,
+      "frame_index": 30,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide presented at Autodesk DevCon discussing development features like App Builder, UI/UX preview, and code review.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "App Builder for input",
+        "Preview for UI/UX",
+        "Code for source code",
+        "Show Changes for code review",
+        "Console for run-time feedback"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\JD8OfUPebMM\\frames\\frame_000033.jpg",
+      "timestamp_seconds": 960.0,
+      "frame_index": 33,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide discussing the benefits of an aligned team with points on understanding, communication, and stronger product outcomes.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "An Aligned Team will Create Stronger Results"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\JD8OfUPebMM\\frames\\frame_000036.jpg",
+      "timestamp_seconds": 1050.0,
+      "frame_index": 36,
+      "category": "transition",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:21:57.068023+00:00"
+}

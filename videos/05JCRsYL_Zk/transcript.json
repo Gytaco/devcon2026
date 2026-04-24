@@ -1,0 +1,727 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 12.52,
+      "text": "Hi everyone and welcome to the MCP Workshop series where we break down everything you need",
+      "words": []
+    },
+    {
+      "start": 12.52,
+      "end": 18.44,
+      "text": "to know to build intelligent AI agents for the AC industry.",
+      "words": []
+    },
+    {
+      "start": 18.44,
+      "end": 21.88,
+      "text": "This series is structured around four pillars.",
+      "words": []
+    },
+    {
+      "start": 21.88,
+      "end": 28.88,
+      "text": "Data, AI, API and MCP.",
+      "words": []
+    },
+    {
+      "start": 28.88,
+      "end": 34.32,
+      "text": "Each one is independent but together they form the foundation of any intelligent system.",
+      "words": []
+    },
+    {
+      "start": 34.32,
+      "end": 39.56,
+      "text": "We'll cover the theory behind each pillar and then move into hands-on implementation",
+      "words": []
+    },
+    {
+      "start": 39.56,
+      "end": 42.879999999999995,
+      "text": "where we build a full MCP system from scratch.",
+      "words": []
+    },
+    {
+      "start": 42.879999999999995,
+      "end": 46.76,
+      "text": "Step by step with real code and real Autodesk data.",
+      "words": []
+    },
+    {
+      "start": 46.76,
+      "end": 50.04,
+      "text": "Today we start with the first pillar, data.",
+      "words": []
+    },
+    {
+      "start": 50.04,
+      "end": 53.120000000000005,
+      "text": "Let's get the most important point out of the way.",
+      "words": []
+    },
+    {
+      "start": 53.120000000000005,
+      "end": 56.08,
+      "text": "AI is entirely dependent on data.",
+      "words": []
+    },
+    {
+      "start": 56.08,
+      "end": 57.879999999999995,
+      "text": "There is no way around it.",
+      "words": []
+    },
+    {
+      "start": 57.88,
+      "end": 63.32,
+      "text": "The quality of AI system is directly proportional to the quality of your data.",
+      "words": []
+    },
+    {
+      "start": 63.32,
+      "end": 67.12,
+      "text": "If your data is messy, your model will be messy.",
+      "words": []
+    },
+    {
+      "start": 67.12,
+      "end": 71.92,
+      "text": "And this is especially relevant in AC where data is often incomplete, heterogeneous and",
+      "words": []
+    },
+    {
+      "start": 71.92,
+      "end": 74.76,
+      "text": "scattered across disconnected systems.",
+      "words": []
+    },
+    {
+      "start": 74.76,
+      "end": 79.24000000000001,
+      "text": "You might have a rapid model that says one thing, a spreadsheet that says another,",
+      "words": []
+    },
+    {
+      "start": 79.24000000000001,
+      "end": 82.6,
+      "text": "and the PDF plan set that contradicts both.",
+      "words": []
+    },
+    {
+      "start": 82.6,
+      "end": 87.72,
+      "text": "So before we talk about AI, before we talk about APIs or MCP, we need to understand what",
+      "words": []
+    },
+    {
+      "start": 87.72,
+      "end": 91.16,
+      "text": "data we're working with and how to evaluate it.",
+      "words": []
+    },
+    {
+      "start": 91.16,
+      "end": 96.56,
+      "text": "There are six main categories of data that matter in our industry.",
+      "words": []
+    },
+    {
+      "start": 96.56,
+      "end": 104.68,
+      "text": "Numeric, text, audio, visual or 2D, video and geometric or 3D.",
+      "words": []
+    },
+    {
+      "start": 104.68,
+      "end": 111.72,
+      "text": "Each one behaves differently, its process differently and comes with its own set of challenges.",
+      "words": []
+    },
+    {
+      "start": 111.72,
+      "end": 113.56,
+      "text": "Let's go through them quickly.",
+      "words": []
+    },
+    {
+      "start": 113.56,
+      "end": 119.88,
+      "text": "Characteristic data is information expressed as numbers for measurement or calculation.",
+      "words": []
+    },
+    {
+      "start": 119.88,
+      "end": 125.68,
+      "text": "In AC, this includes cost data, planning data, telemetry from sensors and resource utilization",
+      "words": []
+    },
+    {
+      "start": 125.68,
+      "end": 126.68,
+      "text": "metrics.",
+      "words": []
+    },
+    {
+      "start": 126.68,
+      "end": 132.8,
+      "text": "This is often the easiest type of data to work with because it's inherently structured,",
+      "words": []
+    },
+    {
+      "start": 132.8,
+      "end": 136.72,
+      "text": "but it still needs to be accurate and consistent.",
+      "words": []
+    },
+    {
+      "start": 136.72,
+      "end": 142.24,
+      "text": "Text data is information conveyed through sequences of characters or words.",
+      "words": []
+    },
+    {
+      "start": 142.24,
+      "end": 147.68,
+      "text": "Texting site reports, contract documents, standards and project specifications.",
+      "words": []
+    },
+    {
+      "start": 147.68,
+      "end": 151.68,
+      "text": "Text is rich in context, but hard to process automatically.",
+      "words": []
+    },
+    {
+      "start": 151.68,
+      "end": 158.44,
+      "text": "A sentence like, the beam should be reinforced, carries meaning that's obvious to a human,",
+      "words": []
+    },
+    {
+      "start": 158.44,
+      "end": 163.68,
+      "text": "but requires natural language processing for a machine to interpret.",
+      "words": []
+    },
+    {
+      "start": 163.68,
+      "end": 168.88,
+      "text": "Audio data is information captured as variations in sound over time.",
+      "words": []
+    },
+    {
+      "start": 168.88,
+      "end": 175.79999999999998,
+      "text": "This covers meeting recordings, voice notes, noise monitoring and safety briefings on site.",
+      "words": []
+    },
+    {
+      "start": 175.79999999999998,
+      "end": 177.92,
+      "text": "Audio is temporal and dense.",
+      "words": []
+    },
+    {
+      "start": 177.92,
+      "end": 184.12,
+      "text": "One hour recording contains far more information than most people realize, and extracting useful",
+      "words": []
+    },
+    {
+      "start": 184.12,
+      "end": 189.68,
+      "text": "data from it requires transcription, filtering and context.",
+      "words": []
+    },
+    {
+      "start": 189.68,
+      "end": 194.8,
+      "text": "Visual or 2D data is represented as a flat grid of pixels.",
+      "words": []
+    },
+    {
+      "start": 194.8,
+      "end": 202.32000000000002,
+      "text": "This includes 2D CAD drawings, PDF plan sets, photographs and scan sketches.",
+      "words": []
+    },
+    {
+      "start": 202.32000000000002,
+      "end": 205.72,
+      "text": "Video text is further by adding the dimension of time.",
+      "words": []
+    },
+    {
+      "start": 205.72,
+      "end": 210.64000000000001,
+      "text": "Drone footage, progress images, side videos and training recordings all fall into this",
+      "words": []
+    },
+    {
+      "start": 210.64000000000001,
+      "end": 212.72000000000003,
+      "text": "category.",
+      "words": []
+    },
+    {
+      "start": 212.72000000000003,
+      "end": 217.92000000000002,
+      "text": "Both are powerful sources of information, but they're unstructured by nature and require",
+      "words": []
+    },
+    {
+      "start": 217.92000000000002,
+      "end": 222.48000000000002,
+      "text": "computer vision techniques to extract meaning.",
+      "words": []
+    },
+    {
+      "start": 222.48,
+      "end": 228.44,
+      "text": "The basic or 3D data is defined by points or shapes in three-dimensional space.",
+      "words": []
+    },
+    {
+      "start": 228.44,
+      "end": 233.88,
+      "text": "This is where rev it and beam models live, along with GIS models, lighter scans and point",
+      "words": []
+    },
+    {
+      "start": 233.88,
+      "end": 235.48,
+      "text": "clouds.",
+      "words": []
+    },
+    {
+      "start": 235.48,
+      "end": 241.64,
+      "text": "This is arguably the most valuable type of data in AC, but it's also the most complex.",
+      "words": []
+    },
+    {
+      "start": 241.64,
+      "end": 243.88,
+      "text": "A beam model isn't just geometry.",
+      "words": []
+    },
+    {
+      "start": 243.88,
+      "end": 249.12,
+      "text": "It's geometry plus metadata, relationships and context.",
+      "words": []
+    },
+    {
+      "start": 249.12,
+      "end": 254.88,
+      "text": "Now that we know what types of data exist, the next question is, how do we evaluate",
+      "words": []
+    },
+    {
+      "start": 254.88,
+      "end": 258.0,
+      "text": "whether our data is any good?",
+      "words": []
+    },
+    {
+      "start": 258.0,
+      "end": 261.04,
+      "text": "There are four key attributes.",
+      "words": []
+    },
+    {
+      "start": 261.04,
+      "end": 263.36,
+      "text": "First, accuracy.",
+      "words": []
+    },
+    {
+      "start": 263.36,
+      "end": 267.0,
+      "text": "Does the data correctly reflect real-world facts?",
+      "words": []
+    },
+    {
+      "start": 267.0,
+      "end": 269.88,
+      "text": "An accurate dataset hits the target.",
+      "words": []
+    },
+    {
+      "start": 269.88,
+      "end": 275.52,
+      "text": "A precise but inaccurate dataset clustered tightly but in the wrong place.",
+      "words": []
+    },
+    {
+      "start": 275.52,
+      "end": 281.91999999999996,
+      "text": "In AC this could be a model that shows dimensions consistently, but they're all 5 cm off from",
+      "words": []
+    },
+    {
+      "start": 281.91999999999996,
+      "end": 284.03999999999996,
+      "text": "the actual site.",
+      "words": []
+    },
+    {
+      "start": 284.03999999999996,
+      "end": 286.56,
+      "text": "Second, consistency.",
+      "words": []
+    },
+    {
+      "start": 286.56,
+      "end": 290.2,
+      "text": "Is the data represented identically across systems?",
+      "words": []
+    },
+    {
+      "start": 290.2,
+      "end": 296.96,
+      "text": "If one system calls an element A01 cube with dimensions in meters and another one calls",
+      "words": []
+    },
+    {
+      "start": 296.96,
+      "end": 303.03999999999996,
+      "text": "it cube A1 with dimensions in this emitters, you have a consistency problem.",
+      "words": []
+    },
+    {
+      "start": 303.04,
+      "end": 306.24,
+      "text": "One object, different representations.",
+      "words": []
+    },
+    {
+      "start": 306.24,
+      "end": 307.8,
+      "text": "Third, completeness.",
+      "words": []
+    },
+    {
+      "start": 307.8,
+      "end": 311.96000000000004,
+      "text": "Is all required data captured with non-necessary parts missing?",
+      "words": []
+    },
+    {
+      "start": 311.96000000000004,
+      "end": 315.68,
+      "text": "An incomplete dataset is like a puzzle with missing pieces.",
+      "words": []
+    },
+    {
+      "start": 315.68,
+      "end": 319.84000000000003,
+      "text": "You might be able to guess what goes there, but your AI system counts.",
+      "words": []
+    },
+    {
+      "start": 319.84000000000003,
+      "end": 322.16,
+      "text": "Fourth, accessibility.",
+      "words": []
+    },
+    {
+      "start": 322.16,
+      "end": 329.36,
+      "text": "Can authorized users actually locate, retrieve and use the data when they need it?",
+      "words": []
+    },
+    {
+      "start": 329.36,
+      "end": 334.88,
+      "text": "The log behind permissions, buried in legacy systems or stored in formats nobody can read",
+      "words": []
+    },
+    {
+      "start": 334.88,
+      "end": 337.6,
+      "text": "is effectively invisible.",
+      "words": []
+    },
+    {
+      "start": 337.6,
+      "end": 343.96000000000004,
+      "text": "It's also important to distinguish between internal and external data quality.",
+      "words": []
+    },
+    {
+      "start": 343.96000000000004,
+      "end": 349.52000000000004,
+      "text": "Internal data quality is about evaluating the data contained in your own systems.",
+      "words": []
+    },
+    {
+      "start": 349.52000000000004,
+      "end": 351.56,
+      "text": "You have full control over this.",
+      "words": []
+    },
+    {
+      "start": 351.56,
+      "end": 355.68,
+      "text": "You set the rules, the format, the naming conventions.",
+      "words": []
+    },
+    {
+      "start": 355.68,
+      "end": 360.72,
+      "text": "Full quality is about how your data interfaces with external systems.",
+      "words": []
+    },
+    {
+      "start": 360.72,
+      "end": 365.48,
+      "text": "Here you need to comply with industry standards and partner specifications.",
+      "words": []
+    },
+    {
+      "start": 365.48,
+      "end": 369.44,
+      "text": "You don't control the format, you adapt to it.",
+      "words": []
+    },
+    {
+      "start": 369.44,
+      "end": 374.64,
+      "text": "Another critical distinction is structured versus unstructured data.",
+      "words": []
+    },
+    {
+      "start": 374.64,
+      "end": 378.48,
+      "text": "Structured data is organized in defined format.",
+      "words": []
+    },
+    {
+      "start": 378.48,
+      "end": 385.12,
+      "text": "Tables, columns, fields, Excel spreadsheets, SQL databases, sensor measurements, easy",
+      "words": []
+    },
+    {
+      "start": 385.12,
+      "end": 388.04,
+      "text": "to query and connect across systems.",
+      "words": []
+    },
+    {
+      "start": 388.04,
+      "end": 391.04,
+      "text": "Unstructured data has no fixed format.",
+      "words": []
+    },
+    {
+      "start": 391.04,
+      "end": 396.2,
+      "text": "Emails, PDFs, images, videos, conversations, scan plans.",
+      "words": []
+    },
+    {
+      "start": 396.2,
+      "end": 401.52,
+      "text": "It's difficult to analyze automatically but often rich in context.",
+      "words": []
+    },
+    {
+      "start": 401.52,
+      "end": 406.96,
+      "text": "The good news is that unstructured data can be transformed into structured elements.",
+      "words": []
+    },
+    {
+      "start": 406.96,
+      "end": 412.12,
+      "text": "You can use automatic document classification, object detection or entity recognition to",
+      "words": []
+    },
+    {
+      "start": 412.12,
+      "end": 416.92,
+      "text": "extract names, places and numbers from free text.",
+      "words": []
+    },
+    {
+      "start": 416.92,
+      "end": 420.96,
+      "text": "Two more concepts to cover before we wrap up.",
+      "words": []
+    },
+    {
+      "start": 420.96,
+      "end": 424.12,
+      "text": "Data quantity is a balancing act.",
+      "words": []
+    },
+    {
+      "start": 424.12,
+      "end": 427.6,
+      "text": "Two little data limits analysis and reliability.",
+      "words": []
+    },
+    {
+      "start": 427.6,
+      "end": 431.76,
+      "text": "Too much data makes management and access complex.",
+      "words": []
+    },
+    {
+      "start": 431.76,
+      "end": 437.48,
+      "text": "A database with a million records can be less useful than a sample of 100,000 that covers",
+      "words": []
+    },
+    {
+      "start": 437.48,
+      "end": 440.12,
+      "text": "all observed situations.",
+      "words": []
+    },
+    {
+      "start": 440.12,
+      "end": 445.2,
+      "text": "Data should always be evaluated relative to coverage and intent and use.",
+      "words": []
+    },
+    {
+      "start": 445.2,
+      "end": 447.6,
+      "text": "Noise is the other side of the coin.",
+      "words": []
+    },
+    {
+      "start": 447.6,
+      "end": 452.68,
+      "text": "Noise refers to error news, inconsistent or random values that don't represent observed",
+      "words": []
+    },
+    {
+      "start": 452.68,
+      "end": 454.08,
+      "text": "reality.",
+      "words": []
+    },
+    {
+      "start": 454.08,
+      "end": 457.68,
+      "text": "It hides real trends and reduces reliability.",
+      "words": []
+    },
+    {
+      "start": 457.68,
+      "end": 463.68,
+      "text": "Sources include data entry errors, miscalibrated sensors, incomplete records and byte format",
+      "words": []
+    },
+    {
+      "start": 463.68,
+      "end": 465.2,
+      "text": "conversions.",
+      "words": []
+    },
+    {
+      "start": 465.2,
+      "end": 470.0,
+      "text": "Noise never disappears completely but it can be reduced through verification, outlier",
+      "words": []
+    },
+    {
+      "start": 470.04,
+      "end": 474.72,
+      "text": "detection and more importantly domain expertise.",
+      "words": []
+    },
+    {
+      "start": 474.72,
+      "end": 479.44,
+      "text": "Finally, let's look at the AC data pipeline.",
+      "words": []
+    },
+    {
+      "start": 479.44,
+      "end": 485.4,
+      "text": "This is the five stage process that takes raw data and makes it usable.",
+      "words": []
+    },
+    {
+      "start": 485.4,
+      "end": 489.6,
+      "text": "Collection, evaluation, structuring, cleaning and enrichment.",
+      "words": []
+    },
+    {
+      "start": 489.6,
+      "end": 494.88,
+      "text": "Each stage builds on the previous one and skipping any of them means your downstream AI",
+      "words": []
+    },
+    {
+      "start": 494.88,
+      "end": 496.8,
+      "text": "systems will suffer.",
+      "words": []
+    },
+    {
+      "start": 496.8,
+      "end": 503.08,
+      "text": "This pipeline is what connects the data pillar to everything else will cover in this series.",
+      "words": []
+    },
+    {
+      "start": 503.08,
+      "end": 510.16,
+      "text": "Clean, structured and rich data is what feeds the AI models, flows through the APIs and gets",
+      "words": []
+    },
+    {
+      "start": 510.16,
+      "end": 513.84,
+      "text": "exposed via MCP.",
+      "words": []
+    },
+    {
+      "start": 513.84,
+      "end": 515.8,
+      "text": "That's our first pillar covered.",
+      "words": []
+    },
+    {
+      "start": 515.8,
+      "end": 519.4,
+      "text": "Data is the foundation, everything else builds on.",
+      "words": []
+    },
+    {
+      "start": 519.4,
+      "end": 522.96,
+      "text": "Next time we'll move to the second pillar, AI.",
+      "words": []
+    },
+    {
+      "start": 522.96,
+      "end": 528.4000000000001,
+      "text": "We'll look at what types of AI exist, how they map to human capabilities and where they're",
+      "words": []
+    },
+    {
+      "start": 528.4000000000001,
+      "end": 531.64,
+      "text": "being applied in AC right now.",
+      "words": []
+    },
+    {
+      "start": 531.64,
+      "end": 534.64,
+      "text": "Leave your questions in the comments and I'll see you for the next one.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-23T00:08:16.346401+00:00"
+}

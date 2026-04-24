@@ -1,0 +1,178 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\ShPGtHUZc64\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\ShPGtHUZc64\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon highlighting three individuals and their roles, along with a talking head of a speaker.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Autodesk DevCon",
+        "Jeroen Gadellaa",
+        "Rein Goedhart",
+        "Divy Kishor Tiwary",
+        "Enterprise Architect",
+        "BIM Engineer",
+        "Product Manager"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\ShPGtHUZc64\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide featuring financial and environmental metrics of the Royal BAM Group, alongside an image of a cityscape and a presenter.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "ROYAL BAM GROUP",
+        "\u20ac 7,040 MILLION",
+        "14.167",
+        "CDP A RATING"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\ShPGtHUZc64\\frames\\frame_000006.jpg",
+      "timestamp_seconds": 150.0,
+      "frame_index": 6,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing a bridge with traffic, discussing deteriorating infrastructure.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "BRUGGEN VERSLIJTEN"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\ShPGtHUZc64\\frames\\frame_000007.jpg",
+      "timestamp_seconds": 180.0,
+      "frame_index": 7,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide with a speaker and an image of an electric road roller with text about extending lifespans displayed.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "DevCon",
+        "BAM"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\ShPGtHUZc64\\frames\\frame_000008.jpg",
+      "timestamp_seconds": 210.0,
+      "frame_index": 8,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\ShPGtHUZc64\\frames\\frame_000009.jpg",
+      "timestamp_seconds": 240.0,
+      "frame_index": 9,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\ShPGtHUZc64\\frames\\frame_000016.jpg",
+      "timestamp_seconds": 450.0,
+      "frame_index": 16,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide includes information about BAM's construction and operation projects, with statistics on Forma environments, active models, and projects per year.",
+      "products_visible": [
+        "AutoDesk"
+      ],
+      "ui_elements": [
+        "BAM",
+        "SCHIPHOL",
+        "CONSTRUCTION",
+        "MEETS",
+        "OPERATION",
+        "FORMA ENVIRONMENTS",
+        "ACTIVE MODELS",
+        "MONTHLY CLIENT UPDATES",
+        "PROJECTS PER YEAR"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\ShPGtHUZc64\\frames\\frame_000025.jpg",
+      "timestamp_seconds": 720.0,
+      "frame_index": 25,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide about project control at Schiphol, emphasizing improved governance and access control.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "PROJECT CONTROL AT SCHIPHOL",
+        "From hours of manual checks to seconds",
+        "Improved governance and access control"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\ShPGtHUZc64\\frames\\frame_000031.jpg",
+      "timestamp_seconds": 900.0,
+      "frame_index": 31,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon discussing BAM IFC Exporter and its key challenges related to manual exports and automation.",
+      "products_visible": [
+        "Autodesk DevCon",
+        "BAM IFC Exporter"
+      ],
+      "ui_elements": [
+        "Configure Exports",
+        "Download Revit tool",
+        "View Exports",
+        "Export Schedule"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\ShPGtHUZc64\\frames\\frame_000036.jpg",
+      "timestamp_seconds": 1050.0,
+      "frame_index": 36,
+      "category": "slides",
+      "keep": true,
+      "description": "A quote about Autodesk Platform Services is displayed alongside an individual talking.",
+      "products_visible": [
+        "Autodesk Platform Services"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "bam"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-23T00:10:57.121154+00:00"
+}

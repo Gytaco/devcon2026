@@ -1,0 +1,1585 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.2,
+      "text": "Hello everyone, my name is Juan de R\u00edurtado.",
+      "words": []
+    },
+    {
+      "start": 3.2,
+      "end": 5.92,
+      "text": "I'm an general manager of L\u00fabert Coffee.",
+      "words": []
+    },
+    {
+      "start": 5.92,
+      "end": 10.88,
+      "text": "We are a Nespaciality Coffee brand located in Colombia.",
+      "words": []
+    },
+    {
+      "start": 10.88,
+      "end": 13.36,
+      "text": "Today I want to share a story,",
+      "words": []
+    },
+    {
+      "start": 13.36,
+      "end": 16.56,
+      "text": "and it's about two worlds that rather limit",
+      "words": []
+    },
+    {
+      "start": 16.56,
+      "end": 21.12,
+      "text": "and it's advanced digital design and traditional agriculture.",
+      "words": []
+    },
+    {
+      "start": 21.12,
+      "end": 23.52,
+      "text": "So bringing them together will help protect",
+      "words": []
+    },
+    {
+      "start": 23.52,
+      "end": 26.080000000000002,
+      "text": "our food system from time of change.",
+      "words": []
+    },
+    {
+      "start": 26.080000000000002,
+      "end": 27.68,
+      "text": "So welcome to this talk,",
+      "words": []
+    },
+    {
+      "start": 27.759999999999998,
+      "end": 30.64,
+      "text": "designing climate-receiving agriculture first-recester",
+      "words": []
+    },
+    {
+      "start": 30.64,
+      "end": 33.28,
+      "text": "with Autodasforma and APS.",
+      "words": []
+    },
+    {
+      "start": 33.28,
+      "end": 36.56,
+      "text": "We will see an applai and apply kings to coffee farm.",
+      "words": []
+    },
+    {
+      "start": 39.28,
+      "end": 41.68,
+      "text": "So this is where everything begins.",
+      "words": []
+    },
+    {
+      "start": 41.68,
+      "end": 44.879999999999995,
+      "text": "A coffee farm in the mountains of Colombia.",
+      "words": []
+    },
+    {
+      "start": 44.879999999999995,
+      "end": 48.08,
+      "text": "Beautiful, quiet, alized, but also fresh.",
+      "words": []
+    },
+    {
+      "start": 58.08,
+      "end": 60.08,
+      "text": "Okay.",
+      "words": []
+    },
+    {
+      "start": 60.08,
+      "end": 62.08,
+      "text": "Okay.",
+      "words": []
+    },
+    {
+      "start": 62.08,
+      "end": 64.08,
+      "text": "So I'm Juan de R\u00edurtado,",
+      "words": []
+    },
+    {
+      "start": 64.08,
+      "end": 68.08,
+      "text": "and I have been living between the intersection",
+      "words": []
+    },
+    {
+      "start": 68.08,
+      "end": 70.08,
+      "text": "of two worlds colliding.",
+      "words": []
+    },
+    {
+      "start": 70.08,
+      "end": 73.28,
+      "text": "And it's being in a mechanical engineer,",
+      "words": []
+    },
+    {
+      "start": 73.28,
+      "end": 77.28,
+      "text": "and I'm going to talk about the world.",
+      "words": []
+    },
+    {
+      "start": 77.28,
+      "end": 79.28,
+      "text": "I'm going to talk about the world.",
+      "words": []
+    },
+    {
+      "start": 79.28,
+      "end": 81.28,
+      "text": "I'm going to talk about the world.",
+      "words": []
+    },
+    {
+      "start": 81.28,
+      "end": 83.28,
+      "text": "I'm going to talk about the world.",
+      "words": []
+    },
+    {
+      "start": 83.28,
+      "end": 85.28,
+      "text": "I'm going to talk about the world.",
+      "words": []
+    },
+    {
+      "start": 85.68,
+      "end": 88.88,
+      "text": "It's being in a mechanical engineer working with Ben,",
+      "words": []
+    },
+    {
+      "start": 88.88,
+      "end": 90.88,
+      "text": "VDC, and Digital Man of Hattori.",
+      "words": []
+    },
+    {
+      "start": 91.84,
+      "end": 95.04,
+      "text": "So on the left side, you will see me as an engineer,",
+      "words": []
+    },
+    {
+      "start": 95.04,
+      "end": 97.68,
+      "text": "even being a speaker on the Autodas University.",
+      "words": []
+    },
+    {
+      "start": 98.88,
+      "end": 101.28,
+      "text": "And on the right side, it's me as a farmer.",
+      "words": []
+    },
+    {
+      "start": 102.08,
+      "end": 104.08,
+      "text": "Now being a speaker at the Deppond,",
+      "words": []
+    },
+    {
+      "start": 104.08,
+      "end": 105.68,
+      "text": "what it's pretty awesome.",
+      "words": []
+    },
+    {
+      "start": 105.68,
+      "end": 106.88,
+      "text": "And what?",
+      "words": []
+    },
+    {
+      "start": 106.88,
+      "end": 108.48,
+      "text": "Pretty decent outgics, right?",
+      "words": []
+    },
+    {
+      "start": 110.88,
+      "end": 113.28,
+      "text": "So let's talk about agriculture.",
+      "words": []
+    },
+    {
+      "start": 113.68,
+      "end": 116.88,
+      "text": "So I'm going to call two fits more than eight pinion people.",
+      "words": []
+    },
+    {
+      "start": 117.68,
+      "end": 119.68,
+      "text": "And yet it is one of the industries",
+      "words": []
+    },
+    {
+      "start": 119.68,
+      "end": 121.68,
+      "text": "most exposed to climate and stability.",
+      "words": []
+    },
+    {
+      "start": 126.48,
+      "end": 128.88,
+      "text": "And well, coffee, especially a replica",
+      "words": []
+    },
+    {
+      "start": 128.88,
+      "end": 130.88,
+      "text": "in this extreme time-at-sensitive,",
+      "words": []
+    },
+    {
+      "start": 130.88,
+      "end": 132.88,
+      "text": "a few degrees of warming",
+      "words": []
+    },
+    {
+      "start": 132.88,
+      "end": 133.68,
+      "text": "can come,",
+      "words": []
+    },
+    {
+      "start": 133.68,
+      "end": 136.88,
+      "text": "can we change productivity and quality?",
+      "words": []
+    },
+    {
+      "start": 138.88,
+      "end": 140.88,
+      "text": "And here is the alarming projection.",
+      "words": []
+    },
+    {
+      "start": 140.88,
+      "end": 144.48,
+      "text": "By 2015, and according to the World Coffee Research,",
+      "words": []
+    },
+    {
+      "start": 144.48,
+      "end": 146.48,
+      "text": "a nearly-housle of today's",
+      "words": []
+    },
+    {
+      "start": 146.48,
+      "end": 148.48,
+      "text": "land-sheetable store coffee production",
+      "words": []
+    },
+    {
+      "start": 148.48,
+      "end": 150.48,
+      "text": "may become unsuitable.",
+      "words": []
+    },
+    {
+      "start": 150.48,
+      "end": 152.88,
+      "text": "That means millions of farmers at risk",
+      "words": []
+    },
+    {
+      "start": 152.88,
+      "end": 154.88,
+      "text": "and coffee availability itself.",
+      "words": []
+    },
+    {
+      "start": 157.28,
+      "end": 161.28,
+      "text": "And today, most coffee is still grown in vulnerable conditions.",
+      "words": []
+    },
+    {
+      "start": 161.28,
+      "end": 164.48,
+      "text": "Coffee industry occupies around 10 million hectares.",
+      "words": []
+    },
+    {
+      "start": 165.28,
+      "end": 167.28,
+      "text": "With 41 percent,",
+      "words": []
+    },
+    {
+      "start": 167.28,
+      "end": 168.88,
+      "text": "the modics all stood as one.",
+      "words": []
+    },
+    {
+      "start": 168.88,
+      "end": 170.88,
+      "text": "A 35 percent is grown",
+      "words": []
+    },
+    {
+      "start": 170.88,
+      "end": 174.88,
+      "text": "between a shadow of 1 percent to 40 percent.",
+      "words": []
+    },
+    {
+      "start": 174.88,
+      "end": 177.68,
+      "text": "And just in remaining 24 percent",
+      "words": []
+    },
+    {
+      "start": 177.68,
+      "end": 180.88,
+      "text": "is grown with at least 40 percent of shadow,",
+      "words": []
+    },
+    {
+      "start": 180.88,
+      "end": 182.88,
+      "text": "which means most farms",
+      "words": []
+    },
+    {
+      "start": 182.88,
+      "end": 184.88,
+      "text": "are not resilient.",
+      "words": []
+    },
+    {
+      "start": 184.88,
+      "end": 187.68,
+      "text": "In order for a crop to be considered resilient,",
+      "words": []
+    },
+    {
+      "start": 187.68,
+      "end": 190.88,
+      "text": "it needs to have a shade of 40 percent.",
+      "words": []
+    },
+    {
+      "start": 190.88,
+      "end": 194.48,
+      "text": "Sometimes achieving up to 70 percent of shadow,",
+      "words": []
+    },
+    {
+      "start": 194.48,
+      "end": 196.88,
+      "text": "depending on the conditions of the farm.",
+      "words": []
+    },
+    {
+      "start": 197.28,
+      "end": 201.28,
+      "text": "And the consequences are already visible.",
+      "words": []
+    },
+    {
+      "start": 201.28,
+      "end": 203.28,
+      "text": "With high-end temperatures,",
+      "words": []
+    },
+    {
+      "start": 203.28,
+      "end": 204.48,
+      "text": "more pests,",
+      "words": []
+    },
+    {
+      "start": 204.48,
+      "end": 205.68,
+      "text": "declining yields,",
+      "words": []
+    },
+    {
+      "start": 205.68,
+      "end": 206.88,
+      "text": "among other things.",
+      "words": []
+    },
+    {
+      "start": 206.88,
+      "end": 213.68,
+      "text": "And still, we have some real farm evidence.",
+      "words": []
+    },
+    {
+      "start": 213.68,
+      "end": 215.28,
+      "text": "So on my own farm,",
+      "words": []
+    },
+    {
+      "start": 215.28,
+      "end": 218.48,
+      "text": "we analyzed 25 years of production data.",
+      "words": []
+    },
+    {
+      "start": 218.48,
+      "end": 220.48,
+      "text": "And the trend is clear.",
+      "words": []
+    },
+    {
+      "start": 220.48,
+      "end": 223.28,
+      "text": "Yelts have been steadily declining.",
+      "words": []
+    },
+    {
+      "start": 223.28,
+      "end": 224.88,
+      "text": "And this is not theory.",
+      "words": []
+    },
+    {
+      "start": 224.88,
+      "end": 226.07999999999998,
+      "text": "It's real.",
+      "words": []
+    },
+    {
+      "start": 226.48000000000002,
+      "end": 228.88000000000002,
+      "text": "Climate change is affecting our crops.",
+      "words": []
+    },
+    {
+      "start": 228.88000000000002,
+      "end": 232.48000000000002,
+      "text": "So compared to 2003 production,",
+      "words": []
+    },
+    {
+      "start": 232.48000000000002,
+      "end": 235.68,
+      "text": "last year we saw almost 80 percent reduction.",
+      "words": []
+    },
+    {
+      "start": 238.48000000000002,
+      "end": 239.68,
+      "text": "But there is hope.",
+      "words": []
+    },
+    {
+      "start": 239.68,
+      "end": 241.68,
+      "text": "And it's called Agroforestry.",
+      "words": []
+    },
+    {
+      "start": 241.68,
+      "end": 243.68,
+      "text": "And it brings several benefits",
+      "words": []
+    },
+    {
+      "start": 243.68,
+      "end": 246.08,
+      "text": "that helps to fight climate change.",
+      "words": []
+    },
+    {
+      "start": 251.28,
+      "end": 254.08,
+      "text": "So Agroforestry integrates trees,",
+      "words": []
+    },
+    {
+      "start": 254.08,
+      "end": 256.08000000000004,
+      "text": "crops, sometimes cattle,",
+      "words": []
+    },
+    {
+      "start": 256.08000000000004,
+      "end": 258.88,
+      "text": "and biodiversity into one system.",
+      "words": []
+    },
+    {
+      "start": 258.88,
+      "end": 261.68,
+      "text": "It basically mimics natural ecosystems.",
+      "words": []
+    },
+    {
+      "start": 261.68,
+      "end": 264.48,
+      "text": "And it helps to have more resilient landscapes.",
+      "words": []
+    },
+    {
+      "start": 266.08000000000004,
+      "end": 268.88,
+      "text": "Okay, so according to some research,",
+      "words": []
+    },
+    {
+      "start": 268.88,
+      "end": 271.28000000000003,
+      "text": "dying shows incredible benefits.",
+      "words": []
+    },
+    {
+      "start": 271.28000000000003,
+      "end": 275.28000000000003,
+      "text": "Up to 58 percent increase in pollination.",
+      "words": []
+    },
+    {
+      "start": 275.28000000000003,
+      "end": 278.88,
+      "text": "Up to 60 percent increase in natural pest control.",
+      "words": []
+    },
+    {
+      "start": 278.88,
+      "end": 280.88,
+      "text": "A better nutrient site.",
+      "words": []
+    },
+    {
+      "start": 280.88,
+      "end": 282.88,
+      "text": "And it helps to retain moisture.",
+      "words": []
+    },
+    {
+      "start": 284.08,
+      "end": 286.08,
+      "text": "They also improve coffee quality,",
+      "words": []
+    },
+    {
+      "start": 286.08,
+      "end": 288.47999999999996,
+      "text": "increasing flavor complexity,",
+      "words": []
+    },
+    {
+      "start": 288.47999999999996,
+      "end": 290.88,
+      "text": "promoting floral and sweet flavors.",
+      "words": []
+    },
+    {
+      "start": 290.88,
+      "end": 292.47999999999996,
+      "text": "And statistically,",
+      "words": []
+    },
+    {
+      "start": 292.47999999999996,
+      "end": 294.47999999999996,
+      "text": "shade grown coffee is preferred",
+      "words": []
+    },
+    {
+      "start": 294.47999999999996,
+      "end": 296.47999999999996,
+      "text": "by copying central appendants.",
+      "words": []
+    },
+    {
+      "start": 296.47999999999996,
+      "end": 298.88,
+      "text": "It also enables to sell carbon credits",
+      "words": []
+    },
+    {
+      "start": 298.88,
+      "end": 300.47999999999996,
+      "text": "through the carbon capture.",
+      "words": []
+    },
+    {
+      "start": 300.47999999999996,
+      "end": 303.28,
+      "text": "And create a diversified income streams",
+      "words": []
+    },
+    {
+      "start": 303.28,
+      "end": 305.28,
+      "text": "from other crops and word production.",
+      "words": []
+    },
+    {
+      "start": 308.88,
+      "end": 311.28,
+      "text": "But there's a key design challenge here.",
+      "words": []
+    },
+    {
+      "start": 311.28,
+      "end": 313.68,
+      "text": "And it's the optimal productivity range.",
+      "words": []
+    },
+    {
+      "start": 314.47999999999996,
+      "end": 318.08,
+      "text": "That it's between 35 and 50 percent shade.",
+      "words": []
+    },
+    {
+      "start": 318.08,
+      "end": 321.28,
+      "text": "So defining the right canopy becomes critical.",
+      "words": []
+    },
+    {
+      "start": 321.28,
+      "end": 324.47999999999996,
+      "text": "The shade criteria can change between farms.",
+      "words": []
+    },
+    {
+      "start": 328.47999999999996,
+      "end": 330.08,
+      "text": "And well, here's the card problem.",
+      "words": []
+    },
+    {
+      "start": 330.08,
+      "end": 333.28,
+      "text": "Agroforestry decisions take years to validate.",
+      "words": []
+    },
+    {
+      "start": 333.28,
+      "end": 338.08,
+      "text": "A wrong-trip plan can take five to ten years to rebuild.",
+      "words": []
+    },
+    {
+      "start": 338.88,
+      "end": 340.88,
+      "text": "So we ask ourselves,",
+      "words": []
+    },
+    {
+      "start": 340.88,
+      "end": 342.88,
+      "text": "what if we could simulate the future?",
+      "words": []
+    },
+    {
+      "start": 344.08,
+      "end": 346.88,
+      "text": "And of course, before planting a single tree.",
+      "words": []
+    },
+    {
+      "start": 346.88,
+      "end": 348.88,
+      "text": "So a mechanical engineer.",
+      "words": []
+    },
+    {
+      "start": 348.88,
+      "end": 350.88,
+      "text": "And back to the future farm board.",
+      "words": []
+    },
+    {
+      "start": 350.88,
+      "end": 352.88,
+      "text": "I thought that was the decision.",
+      "words": []
+    },
+    {
+      "start": 352.88,
+      "end": 354.88,
+      "text": "I got a time machine.",
+      "words": []
+    },
+    {
+      "start": 354.88,
+      "end": 357.68,
+      "text": "First I tried with the Lorean.",
+      "words": []
+    },
+    {
+      "start": 357.68,
+      "end": 360.88,
+      "text": "But then do they have road conditions up the farm?",
+      "words": []
+    },
+    {
+      "start": 360.88,
+      "end": 364.08,
+      "text": "I had to switch for a for drone call.",
+      "words": []
+    },
+    {
+      "start": 366.08,
+      "end": 368.08,
+      "text": "And well,",
+      "words": []
+    },
+    {
+      "start": 368.08,
+      "end": 369.28,
+      "text": "you will see here,",
+      "words": []
+    },
+    {
+      "start": 369.28,
+      "end": 370.88,
+      "text": "they in the farm.",
+      "words": []
+    },
+    {
+      "start": 370.88,
+      "end": 372.88,
+      "text": "In this video,",
+      "words": []
+    },
+    {
+      "start": 372.88,
+      "end": 376.08,
+      "text": "you will know a little bit about me and about this branch.",
+      "words": []
+    },
+    {
+      "start": 376.08,
+      "end": 378.08,
+      "text": "I hope you enjoyed the video.",
+      "words": []
+    },
+    {
+      "start": 384.08,
+      "end": 386.08,
+      "text": "Abra.",
+      "words": []
+    },
+    {
+      "start": 392.08,
+      "end": 395.68,
+      "text": "Sometimes the most meaningful ideas are born between two worlds.",
+      "words": []
+    },
+    {
+      "start": 398.08,
+      "end": 399.68,
+      "text": "My name is Juan David Urtalo.",
+      "words": []
+    },
+    {
+      "start": 399.68,
+      "end": 401.68,
+      "text": "I'm a Columbia Mechanical Engineer.",
+      "words": []
+    },
+    {
+      "start": 402.48,
+      "end": 404.48,
+      "text": "For the last 15 years,",
+      "words": []
+    },
+    {
+      "start": 404.48,
+      "end": 406.88,
+      "text": "I have worked in the construction industry,",
+      "words": []
+    },
+    {
+      "start": 406.88,
+      "end": 410.0,
+      "text": "helping design and deliver complex projects,",
+      "words": []
+    },
+    {
+      "start": 410.0,
+      "end": 412.88,
+      "text": "airports, hotels, residential towers,",
+      "words": []
+    },
+    {
+      "start": 412.88,
+      "end": 414.48,
+      "text": "data centers, among others.",
+      "words": []
+    },
+    {
+      "start": 415.28000000000003,
+      "end": 418.48,
+      "text": "Lating international teams, working across Colombia",
+      "words": []
+    },
+    {
+      "start": 418.48,
+      "end": 422.08,
+      "text": "and the United States, using technologies like BIM,",
+      "words": []
+    },
+    {
+      "start": 422.08,
+      "end": 426.08,
+      "text": "BDC, and digital manufacturing to bring precision",
+      "words": []
+    },
+    {
+      "start": 426.08,
+      "end": 428.08,
+      "text": "and predictability to the build world.",
+      "words": []
+    },
+    {
+      "start": 428.88,
+      "end": 432.47999999999996,
+      "text": "But there's another world that has always been part of who I am.",
+      "words": []
+    },
+    {
+      "start": 432.47999999999996,
+      "end": 435.68,
+      "text": "I come from a four-generation coffee farming family.",
+      "words": []
+    },
+    {
+      "start": 435.68,
+      "end": 438.08,
+      "text": "Coffee is not just a business for us.",
+      "words": []
+    },
+    {
+      "start": 438.08,
+      "end": 440.88,
+      "text": "It's something that runs into our veins.",
+      "words": []
+    },
+    {
+      "start": 440.88,
+      "end": 444.47999999999996,
+      "text": "So my life has always moved between two passions.",
+      "words": []
+    },
+    {
+      "start": 444.47999999999996,
+      "end": 446.08,
+      "text": "The world of engineering,",
+      "words": []
+    },
+    {
+      "start": 446.08,
+      "end": 449.28,
+      "text": "where technology allows to simulate, predict,",
+      "words": []
+    },
+    {
+      "start": 449.28,
+      "end": 450.47999999999996,
+      "text": "and optimize,",
+      "words": []
+    },
+    {
+      "start": 450.47999999999996,
+      "end": 452.47999999999996,
+      "text": "and the world of agriculture,",
+      "words": []
+    },
+    {
+      "start": 452.47999999999996,
+      "end": 454.47999999999996,
+      "text": "where everything depends of patience,",
+      "words": []
+    },
+    {
+      "start": 454.47999999999996,
+      "end": 455.68,
+      "text": "resilience,",
+      "words": []
+    },
+    {
+      "start": 455.68,
+      "end": 457.28,
+      "text": "and working with nature.",
+      "words": []
+    },
+    {
+      "start": 457.67999999999995,
+      "end": 460.88,
+      "text": "And one day, a simple question starts to grow.",
+      "words": []
+    },
+    {
+      "start": 460.88,
+      "end": 463.67999999999995,
+      "text": "If we can simulate cities and buildings,",
+      "words": []
+    },
+    {
+      "start": 463.67999999999995,
+      "end": 466.47999999999996,
+      "text": "why can't we do the same for coffee farms?",
+      "words": []
+    },
+    {
+      "start": 466.47999999999996,
+      "end": 470.08,
+      "text": "Why do you teach that twins and the technologies we use to design",
+      "words": []
+    },
+    {
+      "start": 470.08,
+      "end": 471.67999999999995,
+      "text": "the built environment,",
+      "words": []
+    },
+    {
+      "start": 471.67999999999995,
+      "end": 474.88,
+      "text": "cool health farmers design more resilient landscapes?",
+      "words": []
+    },
+    {
+      "start": 474.88,
+      "end": 476.88,
+      "text": "That question became a project.",
+      "words": []
+    },
+    {
+      "start": 476.88,
+      "end": 482.08,
+      "text": "Asking to myself how other technologies can help us to do that.",
+      "words": []
+    },
+    {
+      "start": 482.08,
+      "end": 485.28,
+      "text": "A project to bring new tools to coffee farming,",
+      "words": []
+    },
+    {
+      "start": 485.67999999999995,
+      "end": 489.28,
+      "text": "to design a reinforced resistance that respond to climate change,",
+      "words": []
+    },
+    {
+      "start": 489.28,
+      "end": 491.67999999999995,
+      "text": "to make agriculture more sustainable,",
+      "words": []
+    },
+    {
+      "start": 491.67999999999995,
+      "end": 494.88,
+      "text": "more intelligent, and more connect to the future.",
+      "words": []
+    },
+    {
+      "start": 494.88,
+      "end": 499.67999999999995,
+      "text": "Because sometimes innovation doesn't happen by choice in between two worlds.",
+      "words": []
+    },
+    {
+      "start": 499.67999999999995,
+      "end": 502.47999999999996,
+      "text": "It happens when you finally bring them together.",
+      "words": []
+    },
+    {
+      "start": 516.0799999999999,
+      "end": 518.0799999999999,
+      "text": "Do that.",
+      "words": []
+    },
+    {
+      "start": 524.0799999999999,
+      "end": 527.68,
+      "text": "Okay, so that's where digital twins coming.",
+      "words": []
+    },
+    {
+      "start": 527.68,
+      "end": 530.0799999999999,
+      "text": "A virtual representation of the farm,",
+      "words": []
+    },
+    {
+      "start": 530.0799999999999,
+      "end": 532.48,
+      "text": "combining terrain, crops,",
+      "words": []
+    },
+    {
+      "start": 532.48,
+      "end": 535.68,
+      "text": "climate data, and environmental variables.",
+      "words": []
+    },
+    {
+      "start": 537.28,
+      "end": 542.0799999999999,
+      "text": "So here, I'll show you a quick video",
+      "words": []
+    },
+    {
+      "start": 542.0799999999999,
+      "end": 544.0799999999999,
+      "text": "about how to use forma",
+      "words": []
+    },
+    {
+      "start": 544.88,
+      "end": 546.88,
+      "text": "on the farm.",
+      "words": []
+    },
+    {
+      "start": 548.88,
+      "end": 552.88,
+      "text": "So basically, we are using the shadow simulation",
+      "words": []
+    },
+    {
+      "start": 552.88,
+      "end": 554.88,
+      "text": "with the Sonar Analysis,",
+      "words": []
+    },
+    {
+      "start": 554.88,
+      "end": 559.6800000000001,
+      "text": "where we can take measures of the shadow over the crop.",
+      "words": []
+    },
+    {
+      "start": 559.6800000000001,
+      "end": 564.88,
+      "text": "We can even compare between different proposals of layouts.",
+      "words": []
+    },
+    {
+      "start": 564.88,
+      "end": 570.08,
+      "text": "So here, we are comparing our carbon layout",
+      "words": []
+    },
+    {
+      "start": 570.48,
+      "end": 575.2800000000001,
+      "text": "with the previous one, where we can see the changes",
+      "words": []
+    },
+    {
+      "start": 577.2800000000001,
+      "end": 578.88,
+      "text": "between both versions.",
+      "words": []
+    },
+    {
+      "start": 578.88,
+      "end": 584.88,
+      "text": "We can compare on both versions and see how we are reducing the Sonar Exposure.",
+      "words": []
+    },
+    {
+      "start": 590.88,
+      "end": 594.08,
+      "text": "So in a nutshell, but we are getting from Autotus Forma",
+      "words": []
+    },
+    {
+      "start": 594.08,
+      "end": 596.08,
+      "text": "is our Sonar Exposure,",
+      "words": []
+    },
+    {
+      "start": 596.88,
+      "end": 600.88,
+      "text": "shape distribution, and also an approximate microclimate behavior.",
+      "words": []
+    },
+    {
+      "start": 604.48,
+      "end": 606.88,
+      "text": "So we test three scenarios.",
+      "words": []
+    },
+    {
+      "start": 606.88,
+      "end": 610.08,
+      "text": "The current trees that we have that we have in the farm,",
+      "words": []
+    },
+    {
+      "start": 610.88,
+      "end": 613.2800000000001,
+      "text": "they are the trees planned back in 1980.",
+      "words": []
+    },
+    {
+      "start": 614.08,
+      "end": 620.48,
+      "text": "The current trees plus platene and banana crops that we plan back in 2024.",
+      "words": []
+    },
+    {
+      "start": 621.28,
+      "end": 624.48,
+      "text": "And, and optimize our first three layouts",
+      "words": []
+    },
+    {
+      "start": 624.48,
+      "end": 626.48,
+      "text": "in which we are still working.",
+      "words": []
+    },
+    {
+      "start": 627.6800000000001,
+      "end": 629.6800000000001,
+      "text": "And the results were powered.",
+      "words": []
+    },
+    {
+      "start": 629.6800000000001,
+      "end": 634.48,
+      "text": "We could visualize exactly how canopy coverage changes",
+      "words": []
+    },
+    {
+      "start": 634.48,
+      "end": 637.28,
+      "text": "through the year with the different scenarios",
+      "words": []
+    },
+    {
+      "start": 637.28,
+      "end": 641.28,
+      "text": "and how we move closer to this 50% shade target",
+      "words": []
+    },
+    {
+      "start": 641.28,
+      "end": 643.28,
+      "text": "that is the target that we have right now.",
+      "words": []
+    },
+    {
+      "start": 644.0799999999999,
+      "end": 651.28,
+      "text": "So the results show a 29.5% shade in a scenario one,",
+      "words": []
+    },
+    {
+      "start": 651.28,
+      "end": 655.28,
+      "text": "a 42.2% in a scenario two,",
+      "words": []
+    },
+    {
+      "start": 655.28,
+      "end": 659.28,
+      "text": "and a 44.2% in a scenario two.",
+      "words": []
+    },
+    {
+      "start": 661.28,
+      "end": 667.28,
+      "text": "And here we have a comparison of our current layout",
+      "words": []
+    },
+    {
+      "start": 667.28,
+      "end": 671.28,
+      "text": "and the project I would first resist them",
+      "words": []
+    },
+    {
+      "start": 671.28,
+      "end": 673.28,
+      "text": "which we are still working.",
+      "words": []
+    },
+    {
+      "start": 677.28,
+      "end": 679.68,
+      "text": "Well, there are some assumptions and limitations",
+      "words": []
+    },
+    {
+      "start": 679.68,
+      "end": 681.68,
+      "text": "that are important to mention here.",
+      "words": []
+    },
+    {
+      "start": 681.68,
+      "end": 684.0799999999999,
+      "text": "So for climate analysis,",
+      "words": []
+    },
+    {
+      "start": 684.0799999999999,
+      "end": 686.88,
+      "text": "a generic climate service dataset is used.",
+      "words": []
+    },
+    {
+      "start": 688.0799999999999,
+      "end": 689.68,
+      "text": "For one role analysis,",
+      "words": []
+    },
+    {
+      "start": 689.68,
+      "end": 692.88,
+      "text": "we have to say that is not considered in the simulation",
+      "words": []
+    },
+    {
+      "start": 692.88,
+      "end": 696.0799999999999,
+      "text": "due to the elevation changes on the toporoking.",
+      "words": []
+    },
+    {
+      "start": 696.0799999999999,
+      "end": 699.28,
+      "text": "Cloudiness is not including the simulation.",
+      "words": []
+    },
+    {
+      "start": 700.0799999999999,
+      "end": 704.0799999999999,
+      "text": "The terrain outside the fine map is not included in the simulation too.",
+      "words": []
+    },
+    {
+      "start": 705.04,
+      "end": 708.48,
+      "text": "And finally, it doesn't include effect of short braces.",
+      "words": []
+    },
+    {
+      "start": 708.48,
+      "end": 710.88,
+      "text": "But even with these limitations,",
+      "words": []
+    },
+    {
+      "start": 710.88,
+      "end": 712.88,
+      "text": "they provide a normal decision-vending.",
+      "words": []
+    },
+    {
+      "start": 712.88,
+      "end": 716.48,
+      "text": "Okay, so simulation alone is not enough.",
+      "words": []
+    },
+    {
+      "start": 716.48,
+      "end": 718.48,
+      "text": "We also need to collect field data.",
+      "words": []
+    },
+    {
+      "start": 721.68,
+      "end": 724.48,
+      "text": "So we use the photos model from Forma",
+      "words": []
+    },
+    {
+      "start": 724.48,
+      "end": 727.68,
+      "text": "to identify taking pictures on the field",
+      "words": []
+    },
+    {
+      "start": 728.0799999999999,
+      "end": 732.0799999999999,
+      "text": "by location with the use of the image,",
+      "words": []
+    },
+    {
+      "start": 732.0799999999999,
+      "end": 733.28,
+      "text": "crop condition,",
+      "words": []
+    },
+    {
+      "start": 733.28,
+      "end": 735.28,
+      "text": "activity among others.",
+      "words": []
+    },
+    {
+      "start": 737.68,
+      "end": 740.0799999999999,
+      "text": "And we also use the issues model",
+      "words": []
+    },
+    {
+      "start": 740.0799999999999,
+      "end": 745.28,
+      "text": "combined with the photos as tools for tracking workflow.",
+      "words": []
+    },
+    {
+      "start": 745.28,
+      "end": 748.88,
+      "text": "So it's being useful to track things like",
+      "words": []
+    },
+    {
+      "start": 748.88,
+      "end": 750.88,
+      "text": "the seas and the efficiencies,",
+      "words": []
+    },
+    {
+      "start": 750.88,
+      "end": 752.4799999999999,
+      "text": "agriculture, the tracking,",
+      "words": []
+    },
+    {
+      "start": 752.4799999999999,
+      "end": 754.4799999999999,
+      "text": "the bridge level,",
+      "words": []
+    },
+    {
+      "start": 754.48,
+      "end": 756.08,
+      "text": "the blossom season,",
+      "words": []
+    },
+    {
+      "start": 756.08,
+      "end": 758.88,
+      "text": "and other important tasks from the farm.",
+      "words": []
+    },
+    {
+      "start": 761.28,
+      "end": 764.88,
+      "text": "Then we're using APS to extract data.",
+      "words": []
+    },
+    {
+      "start": 764.88,
+      "end": 767.28,
+      "text": "So for now, we're extracting data",
+      "words": []
+    },
+    {
+      "start": 767.28,
+      "end": 770.88,
+      "text": "that allow us to identify the purpose of the picture",
+      "words": []
+    },
+    {
+      "start": 770.88,
+      "end": 772.48,
+      "text": "and or the issue,",
+      "words": []
+    },
+    {
+      "start": 772.48,
+      "end": 775.28,
+      "text": "including their GPS location.",
+      "words": []
+    },
+    {
+      "start": 775.28,
+      "end": 778.48,
+      "text": "And we are using that information on custom mobile labs",
+      "words": []
+    },
+    {
+      "start": 778.48,
+      "end": 782.08,
+      "text": "to locate the places where the photos or data is collected.",
+      "words": []
+    },
+    {
+      "start": 784.88,
+      "end": 786.88,
+      "text": "So with that say,",
+      "words": []
+    },
+    {
+      "start": 786.88,
+      "end": 788.88,
+      "text": "we can say that when simulation",
+      "words": []
+    },
+    {
+      "start": 788.88,
+      "end": 793.28,
+      "text": "and field data come together with the science behind coffee,",
+      "words": []
+    },
+    {
+      "start": 793.28,
+      "end": 795.6800000000001,
+      "text": "we can start generating intelligence",
+      "words": []
+    },
+    {
+      "start": 795.6800000000001,
+      "end": 797.28,
+      "text": "for better decision making.",
+      "words": []
+    },
+    {
+      "start": 800.08,
+      "end": 801.6800000000001,
+      "text": "And here is the roadmap.",
+      "words": []
+    },
+    {
+      "start": 801.6800000000001,
+      "end": 805.28,
+      "text": "So imagine AI that can recommend three layouts",
+      "words": []
+    },
+    {
+      "start": 805.28,
+      "end": 807.28,
+      "text": "using generative design,",
+      "words": []
+    },
+    {
+      "start": 807.28,
+      "end": 811.6800000000001,
+      "text": "or detect crop diseases automatically in real time,",
+      "words": []
+    },
+    {
+      "start": 811.68,
+      "end": 815.28,
+      "text": "or maybe predict optimal coffee varieties and trees",
+      "words": []
+    },
+    {
+      "start": 815.28,
+      "end": 819.28,
+      "text": "to be planned based on simulations and analysis,",
+      "words": []
+    },
+    {
+      "start": 819.28,
+      "end": 822.4799999999999,
+      "text": "or maybe estimate the current cap.",
+      "words": []
+    },
+    {
+      "start": 822.4799999999999,
+      "end": 824.4799999999999,
+      "text": "This is not science-stitch.",
+      "words": []
+    },
+    {
+      "start": 824.4799999999999,
+      "end": 826.4799999999999,
+      "text": "It's already within reach.",
+      "words": []
+    },
+    {
+      "start": 828.4799999999999,
+      "end": 831.68,
+      "text": "So the long-term vision is clear.",
+      "words": []
+    },
+    {
+      "start": 831.68,
+      "end": 834.4799999999999,
+      "text": "Digital ecosystems for agriculture,",
+      "words": []
+    },
+    {
+      "start": 834.4799999999999,
+      "end": 836.88,
+      "text": "where farms become data-driven,",
+      "words": []
+    },
+    {
+      "start": 836.88,
+      "end": 838.88,
+      "text": "climate-resistant systems.",
+      "words": []
+    },
+    {
+      "start": 839.68,
+      "end": 841.28,
+      "text": "But beyond technology,",
+      "words": []
+    },
+    {
+      "start": 841.28,
+      "end": 843.28,
+      "text": "consists of a response ability,",
+      "words": []
+    },
+    {
+      "start": 843.28,
+      "end": 846.08,
+      "text": "because food security is not warranty.",
+      "words": []
+    },
+    {
+      "start": 846.08,
+      "end": 847.08,
+      "text": "Here.",
+      "words": []
+    },
+    {
+      "start": 847.08,
+      "end": 850.88,
+      "text": "The future of farming should be both digital and ecological,",
+      "words": []
+    },
+    {
+      "start": 850.88,
+      "end": 855.28,
+      "text": "because protecting agriculture is protecting humanity itself.",
+      "words": []
+    },
+    {
+      "start": 856.48,
+      "end": 858.08,
+      "text": "Thank you very much.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:51:24.688382+00:00"
+}

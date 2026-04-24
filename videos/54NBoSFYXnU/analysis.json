@@ -1,0 +1,69 @@
+{
+  "video_id": "54NBoSFYXnU",
+  "demo_timestamps": [
+    {
+      "start": 354.0,
+      "end": 381.0,
+      "description": "Automated data extraction upon Revit model synchronization"
+    },
+    {
+      "start": 661.0,
+      "end": 708.0,
+      "description": "Building K&N model using Python and machine learning libraries"
+    },
+    {
+      "start": 868.0,
+      "end": 930.0,
+      "description": "Predictive modeling process with various acceptance thresholds"
+    }
+  ],
+  "themes": [
+    "AI-Powered Predictive QA/QC",
+    "Machine Learning in Construction"
+  ],
+  "client_mentions": [
+    {
+      "name": "KEO International Consultants",
+      "context": "End-to-end services in the architectural engineering, construction and operational space",
+      "timestamp": 42.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 329.0
+    },
+    {
+      "name": "Autodesk Platform Services",
+      "is_api": true,
+      "timestamp": 95.0
+    },
+    {
+      "name": "ACC",
+      "is_api": false,
+      "timestamp": 757.0
+    },
+    {
+      "name": "Forma",
+      "is_api": false,
+      "timestamp": 757.0
+    },
+    {
+      "name": "APS Automation API",
+      "is_api": true,
+      "timestamp": 0.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "Generative AI",
+      "category": "llm",
+      "context": "Support in identifying critical health metrics and creating source code for custom solutions",
+      "timestamp": 317.0
+    }
+  ],
+  "summary": "The video introduces AI-powered predictive QA/QC systems using Autodesk Platform Services, focusing on building predictive models for the AECO industry. It emphasizes the use of machine learning, particularly the K-nearest neighbors algorithm, to enhance quality assurance and control processes.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:14:57.126096+00:00"
+}

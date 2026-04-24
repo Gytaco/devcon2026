@@ -1,0 +1,805 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "text": "Hello everyone, thank you for joining us today. It's a pleasure to welcome you to our session",
+      "words": []
+    },
+    {
+      "start": 8.0,
+      "end": 17.84,
+      "text": "from IoT to intelligent digital twins integrating APS, AI and auto-destination for real-time",
+      "words": []
+    },
+    {
+      "start": 17.84,
+      "end": 19.84,
+      "text": "building operations.",
+      "words": []
+    },
+    {
+      "start": 19.84,
+      "end": 25.84,
+      "text": "Hello, my name is Natalya Barros, I am architect at Santo Tecnica.",
+      "words": []
+    },
+    {
+      "start": 25.84,
+      "end": 34.08,
+      "text": "I am Eluisa Lvergy, I am also an architect and urban planning here at Santo Tecnica Engineering.",
+      "words": []
+    },
+    {
+      "start": 34.08,
+      "end": 36.6,
+      "text": "We are both from Brazil.",
+      "words": []
+    },
+    {
+      "start": 36.6,
+      "end": 42.92,
+      "text": "In this presentation, we will begin with an introduction to the key challenges and concepts",
+      "words": []
+    },
+    {
+      "start": 42.92,
+      "end": 44.92,
+      "text": "of digital twins.",
+      "words": []
+    },
+    {
+      "start": 44.92,
+      "end": 53.56,
+      "text": "Next, we will provide a step-by-step guide on how to create the digital twin system architecture.",
+      "words": []
+    },
+    {
+      "start": 53.56,
+      "end": 61.56,
+      "text": "We will demonstrate how to set up a digital twin and configure it at dashboard in auto-desk",
+      "words": []
+    },
+    {
+      "start": 61.56,
+      "end": 71.08,
+      "text": "standing to visualize real-time data such as AI-powered people counting and environmental",
+      "words": []
+    },
+    {
+      "start": 71.08,
+      "end": 73.4,
+      "text": "comfort metrics.",
+      "words": []
+    },
+    {
+      "start": 73.4,
+      "end": 81.6,
+      "text": "After that, we will show how to use auto-desk standing connect to send automated notifications,",
+      "words": []
+    },
+    {
+      "start": 81.6,
+      "end": 84.64,
+      "text": "via Microsoft Teams.",
+      "words": []
+    },
+    {
+      "start": 84.64,
+      "end": 95.6,
+      "text": "Finally, we will discuss the key benefits and strategic impacts of digital twins.",
+      "words": []
+    },
+    {
+      "start": 95.6,
+      "end": 101.11999999999999,
+      "text": "We will start by introducing the key points.",
+      "words": []
+    },
+    {
+      "start": 101.11999999999999,
+      "end": 108.91999999999999,
+      "text": "One of today's key challenges is maintaining comfort in work spaces.",
+      "words": []
+    },
+    {
+      "start": 108.92,
+      "end": 117.2,
+      "text": "Usually, the occupants only report issues once this comfort sets in, prompting a reactive",
+      "words": []
+    },
+    {
+      "start": 117.2,
+      "end": 120.68,
+      "text": "call to the operational team.",
+      "words": []
+    },
+    {
+      "start": 120.68,
+      "end": 127.92,
+      "text": "At the same time, operations team often lack a clear understanding of how spaces are",
+      "words": []
+    },
+    {
+      "start": 127.92,
+      "end": 130.0,
+      "text": "actually used.",
+      "words": []
+    },
+    {
+      "start": 130.0,
+      "end": 137.68,
+      "text": "Without real-time data, decisions end up based on guesswork.",
+      "words": []
+    },
+    {
+      "start": 137.68,
+      "end": 141.08,
+      "text": "This is where digital twins come in.",
+      "words": []
+    },
+    {
+      "start": 141.08,
+      "end": 148.52,
+      "text": "They provide visibility, enable data-driven decision-making based on real behavior, rather",
+      "words": []
+    },
+    {
+      "start": 148.52,
+      "end": 150.6,
+      "text": "than assumptions.",
+      "words": []
+    },
+    {
+      "start": 150.6,
+      "end": 158.0,
+      "text": "These are challenges that many professionals face every day.",
+      "words": []
+    },
+    {
+      "start": 158.0,
+      "end": 164.04000000000002,
+      "text": "These challenges prevent us from gaining clear visibility into what's really happening",
+      "words": []
+    },
+    {
+      "start": 164.04000000000002,
+      "end": 165.92000000000002,
+      "text": "with the asset.",
+      "words": []
+    },
+    {
+      "start": 165.92000000000002,
+      "end": 166.92000000000002,
+      "text": "After all, what we do is, we do not have a clear understanding of the problem.",
+      "words": []
+    },
+    {
+      "start": 166.95999999999998,
+      "end": 171.23999999999998,
+      "text": "What we can't measure, we can't manage.",
+      "words": []
+    },
+    {
+      "start": 171.23999999999998,
+      "end": 180.88,
+      "text": "Digital twins provide us with vision, memory and prediction, all within a single platform.",
+      "words": []
+    },
+    {
+      "start": 180.88,
+      "end": 184.95999999999998,
+      "text": "A digital twin consists of three core components.",
+      "words": []
+    },
+    {
+      "start": 184.95999999999998,
+      "end": 193.35999999999999,
+      "text": "First, the physical environment, second, the virtual environment, and third, the data flow",
+      "words": []
+    },
+    {
+      "start": 193.35999999999999,
+      "end": 195.95999999999998,
+      "text": "that connects them.",
+      "words": []
+    },
+    {
+      "start": 195.96,
+      "end": 204.0,
+      "text": "These two spaces are linked through a bidirectional connection that keeps them synchronized and",
+      "words": []
+    },
+    {
+      "start": 204.0,
+      "end": 213.92000000000002,
+      "text": "enables the change of control data between the physical and digital worlds.",
+      "words": []
+    },
+    {
+      "start": 213.92000000000002,
+      "end": 223.28,
+      "text": "We implemented our digital twin at TechLab, SONDO Technicas, Technology and Innovation Hub.",
+      "words": []
+    },
+    {
+      "start": 223.28,
+      "end": 230.2,
+      "text": "Let's now leave the Autodesk Dev, continue and travel to downtown S\u00e3o Paulo, Brazil.",
+      "words": []
+    },
+    {
+      "start": 230.2,
+      "end": 237.32,
+      "text": "A neighborhood rich in history, culture and architecture, with buildings that reflect",
+      "words": []
+    },
+    {
+      "start": 237.32,
+      "end": 239.4,
+      "text": "the city's legacy.",
+      "words": []
+    },
+    {
+      "start": 239.4,
+      "end": 246.4,
+      "text": "TechLab is more than just an oft-off-seafield with desks and computers.",
+      "words": []
+    },
+    {
+      "start": 246.4,
+      "end": 254.84,
+      "text": "It is a creative space where we explore new technologies and conduct experiments.",
+      "words": []
+    },
+    {
+      "start": 254.84,
+      "end": 264.24,
+      "text": "Additionally, TechLab serves as a venue for presentations and workshops, welcoming clients",
+      "words": []
+    },
+    {
+      "start": 264.24,
+      "end": 266.84000000000003,
+      "text": "and fostering innovation.",
+      "words": []
+    },
+    {
+      "start": 266.84000000000003,
+      "end": 273.4,
+      "text": "It also includes four smaller rooms designed to board and management meetings.",
+      "words": []
+    },
+    {
+      "start": 273.4,
+      "end": 282.03999999999996,
+      "text": "In other words, TechLab functions as both a workplace and an innovation laboratory, allowing",
+      "words": []
+    },
+    {
+      "start": 282.03999999999996,
+      "end": 289.32,
+      "text": "ideas to move quickly from concept to practice.",
+      "words": []
+    },
+    {
+      "start": 289.32,
+      "end": 293.08,
+      "text": "We present the digital twin system implementation.",
+      "words": []
+    },
+    {
+      "start": 293.08,
+      "end": 298.28,
+      "text": "First, we capture the physical environment using MatterPort.",
+      "words": []
+    },
+    {
+      "start": 298.44,
+      "end": 304.67999999999995,
+      "text": "A tool is consistent that combines images with spatial sensing.",
+      "words": []
+    },
+    {
+      "start": 304.67999999999995,
+      "end": 311.4,
+      "text": "This generates a navigable virtual environment, precise spatial measurements and a point",
+      "words": []
+    },
+    {
+      "start": 311.4,
+      "end": 315.96,
+      "text": "cloud representation of the as-built conditions.",
+      "words": []
+    },
+    {
+      "start": 315.96,
+      "end": 323.0,
+      "text": "Then the point cloud was clean, optimized and classified to identify architectural and",
+      "words": []
+    },
+    {
+      "start": 323.0,
+      "end": 325.0,
+      "text": "s-t elements.",
+      "words": []
+    },
+    {
+      "start": 325.0,
+      "end": 332.64,
+      "text": "Finally, we develop it, being model from the point cloud, modeling our buildings, elements",
+      "words": []
+    },
+    {
+      "start": 332.64,
+      "end": 337.56,
+      "text": "and adding s-t attributes and semantic information.",
+      "words": []
+    },
+    {
+      "start": 337.56,
+      "end": 345.88,
+      "text": "Second, we collect data related to indoor environmental quality and s-t management.",
+      "words": []
+    },
+    {
+      "start": 345.88,
+      "end": 352.4,
+      "text": "To do this, we start with a nice sensor, temperature and humidity sensor, energy consumption",
+      "words": []
+    },
+    {
+      "start": 352.4,
+      "end": 357.03999999999996,
+      "text": "sensor and cameras through half the environment.",
+      "words": []
+    },
+    {
+      "start": 357.03999999999996,
+      "end": 364.28,
+      "text": "The scientific information packets in JSO contain fields such as ID, time stamp, temperature,",
+      "words": []
+    },
+    {
+      "start": 364.28,
+      "end": 368.67999999999995,
+      "text": "humidity, among others to IoT gateway.",
+      "words": []
+    },
+    {
+      "start": 368.67999999999995,
+      "end": 373.4,
+      "text": "This gateway is responsible for locally processing the data.",
+      "words": []
+    },
+    {
+      "start": 373.4,
+      "end": 377.52,
+      "text": "It's built with a Raspberry Pi board.",
+      "words": []
+    },
+    {
+      "start": 378.24,
+      "end": 385.59999999999997,
+      "text": "In a digit, two cameras were started in strategic spots in the office to count people in real-time.",
+      "words": []
+    },
+    {
+      "start": 385.59999999999997,
+      "end": 389.52,
+      "text": "The AI model use it is JOLO-12.",
+      "words": []
+    },
+    {
+      "start": 389.52,
+      "end": 395.52,
+      "text": "The system records the height's number of people detected and calculates the average",
+      "words": []
+    },
+    {
+      "start": 395.52,
+      "end": 399.03999999999996,
+      "text": "confidence level for the detection.",
+      "words": []
+    },
+    {
+      "start": 399.03999999999996,
+      "end": 405.44,
+      "text": "The results include the camera ID, time stamp, location, number of people detected,",
+      "words": []
+    },
+    {
+      "start": 405.44,
+      "end": 408.88,
+      "text": "AI model and method use it.",
+      "words": []
+    },
+    {
+      "start": 408.88,
+      "end": 412.88,
+      "text": "And are sent to gateway.",
+      "words": []
+    },
+    {
+      "start": 412.88,
+      "end": 420.88,
+      "text": "After saving the data, the IoT gateway sends the data via HTTP request to the API, hosted",
+      "words": []
+    },
+    {
+      "start": 420.88,
+      "end": 423.52,
+      "text": "on Microsoft Azure.",
+      "words": []
+    },
+    {
+      "start": 423.52,
+      "end": 431.44,
+      "text": "A TypeScript code developed by Sondotecnica receives, process and stars the sensor data.",
+      "words": []
+    },
+    {
+      "start": 431.44,
+      "end": 438.0,
+      "text": "Each sensor camera is identified by two main keys that facilitate organization and visualization",
+      "words": []
+    },
+    {
+      "start": 438.0,
+      "end": 441.44,
+      "text": "in other desktop and in the database.",
+      "words": []
+    },
+    {
+      "start": 441.44,
+      "end": 447.44,
+      "text": "A main key address which ensures the unique hardware identification and a unique name to",
+      "words": []
+    },
+    {
+      "start": 447.44,
+      "end": 450.08,
+      "text": "identify the device.",
+      "words": []
+    },
+    {
+      "start": 450.08,
+      "end": 454.88,
+      "text": "The payloads then follows two simultaneous flows.",
+      "words": []
+    },
+    {
+      "start": 454.88,
+      "end": 461.44,
+      "text": "In the first, the data is stored in the post-screal database within Azure.",
+      "words": []
+    },
+    {
+      "start": 461.44,
+      "end": 468.15999999999997,
+      "text": "A second, it sends you to Autodesk Tunding, linking it to the tech lab office digit out",
+      "words": []
+    },
+    {
+      "start": 468.15999999999997,
+      "end": 470.64,
+      "text": "way.",
+      "words": []
+    },
+    {
+      "start": 470.64,
+      "end": 477.28,
+      "text": "In the Autodesk Tunding, we link the IoT data to being model, creating the digital twin,",
+      "words": []
+    },
+    {
+      "start": 477.28,
+      "end": 480.88,
+      "text": "where we visualize the real-time data.",
+      "words": []
+    },
+    {
+      "start": 480.88,
+      "end": 488.4,
+      "text": "Each object within the being model comes with the data information such as materials, dimensions",
+      "words": []
+    },
+    {
+      "start": 488.4,
+      "end": 490.64,
+      "text": "and inventory numbers.",
+      "words": []
+    },
+    {
+      "start": 490.64,
+      "end": 496.4,
+      "text": "The digital twin displays real-time data collected from IoT sensors.",
+      "words": []
+    },
+    {
+      "start": 496.4,
+      "end": 500.4,
+      "text": "Each balance represents an IoT sensor.",
+      "words": []
+    },
+    {
+      "start": 500.4,
+      "end": 507.71999999999997,
+      "text": "Additionally, the platform can showcase the hit maps and charts, which is added to analyze",
+      "words": []
+    },
+    {
+      "start": 507.96000000000004,
+      "end": 511.96000000000004,
+      "text": "and monitor the environment.",
+      "words": []
+    },
+    {
+      "start": 511.96000000000004,
+      "end": 519.4,
+      "text": "You can see the dashboard to field the being model, real-time data, compare temperature and humidity",
+      "words": []
+    },
+    {
+      "start": 519.4,
+      "end": 526.9200000000001,
+      "text": "across different areas and assess the data for improving monitoring and durability.",
+      "words": []
+    },
+    {
+      "start": 528.9200000000001,
+      "end": 535.1600000000001,
+      "text": "And finally, we show you how to configure it to Autodesk Tunding Connect to send the",
+      "words": []
+    },
+    {
+      "start": 535.16,
+      "end": 538.6,
+      "text": "automatic notifications via Microsoft's Tings.",
+      "words": []
+    },
+    {
+      "start": 538.6,
+      "end": 545.7199999999999,
+      "text": "To connect Tunding to Tings, we use the two five plugins in Autodesk Tunding Connect.",
+      "words": []
+    },
+    {
+      "start": 545.7199999999999,
+      "end": 553.4,
+      "text": "The first is the scheduled data string, which runs the pipeline every two minutes.",
+      "words": []
+    },
+    {
+      "start": 554.76,
+      "end": 561.48,
+      "text": "The second is the Autodesk Tunding service plugin, which connects directly to the digital",
+      "words": []
+    },
+    {
+      "start": 561.8000000000001,
+      "end": 565.72,
+      "text": "twin. We use the option retrieve the string-time",
+      "words": []
+    },
+    {
+      "start": 565.72,
+      "end": 573.24,
+      "text": "serial data to bring it in the sensory history and after that, we use it to convert.",
+      "words": []
+    },
+    {
+      "start": 574.2,
+      "end": 580.84,
+      "text": "The first converter filters the data, keeping only the last five in-mune to subject temperature",
+      "words": []
+    },
+    {
+      "start": 580.84,
+      "end": 588.52,
+      "text": "ratings. A second converter sets the other two routes, like the maximum temperature and the",
+      "words": []
+    },
+    {
+      "start": 588.52,
+      "end": 594.68,
+      "text": "message that you will be sent. Finally, the Microsoft's Tings plugin sends the",
+      "words": []
+    },
+    {
+      "start": 594.68,
+      "end": 599.64,
+      "text": "other two messages to a channel, which is especially the webihook you want to",
+      "words": []
+    },
+    {
+      "start": 599.64,
+      "end": 606.4399999999999,
+      "text": "use from Tings to Tunding Connect and the other two are sent automatically.",
+      "words": []
+    },
+    {
+      "start": 609.8,
+      "end": 616.1999999999999,
+      "text": "After configuring everything, you can receive the other two rightfully in Tings and also see",
+      "words": []
+    },
+    {
+      "start": 616.2,
+      "end": 623.08,
+      "text": "temperature differences in Tunding and on the dashboard. This allows real-time visualization",
+      "words": []
+    },
+    {
+      "start": 623.08,
+      "end": 629.4000000000001,
+      "text": "of the collection data. So, when a sensor detects a temperature available above normal,",
+      "words": []
+    },
+    {
+      "start": 629.4000000000001,
+      "end": 633.08,
+      "text": "the change appears in the digital twin and on the dashboard.",
+      "words": []
+    },
+    {
+      "start": 633.8000000000001,
+      "end": 640.84,
+      "text": "An alert message is sent directly to Tings. In short, the architecture of the digital",
+      "words": []
+    },
+    {
+      "start": 641.0,
+      "end": 647.4,
+      "text": "twin system consists of four layers. The perception layer focuses on data collection,",
+      "words": []
+    },
+    {
+      "start": 647.4,
+      "end": 654.6,
+      "text": "including activities, sensors, and communication components. The data layer involves cloud",
+      "words": []
+    },
+    {
+      "start": 654.6,
+      "end": 660.52,
+      "text": "storage, which holds the BIM model and the data collected from the sensors.",
+      "words": []
+    },
+    {
+      "start": 661.8000000000001,
+      "end": 666.6,
+      "text": "The services layer impresses analysis services, where artificial intelligence",
+      "words": []
+    },
+    {
+      "start": 666.6,
+      "end": 673.64,
+      "text": "algorithms process and analyze the data. Finally, the application layer provides a real-time",
+      "words": []
+    },
+    {
+      "start": 673.64,
+      "end": 680.76,
+      "text": "in-data visualization within the other SDTundays environments and sends notifications via Microsoft's",
+      "words": []
+    },
+    {
+      "start": 680.76,
+      "end": 691.88,
+      "text": "strings, Pro or SDConnect. To conclude, I would like to highlight five key points. First,",
+      "words": []
+    },
+    {
+      "start": 691.96,
+      "end": 698.4399999999999,
+      "text": "the necessity of a multidisciplinary team, building an intelligent digital twin isn't just",
+      "words": []
+    },
+    {
+      "start": 699.16,
+      "end": 705.64,
+      "text": "technical challenge. It requires collaboration between architects, software developers,",
+      "words": []
+    },
+    {
+      "start": 705.64,
+      "end": 714.92,
+      "text": "data engineers, and operations professionals. Integration only works when diverse expertise",
+      "words": []
+    },
+    {
+      "start": 715.24,
+      "end": 725.4,
+      "text": "come together. Second, this is a low cost and scalable solution, by using IoT sensors,",
+      "words": []
+    },
+    {
+      "start": 725.4,
+      "end": 732.92,
+      "text": "edge processing, and Autodesk platform service, we built a robust architecture without",
+      "words": []
+    },
+    {
+      "start": 732.92,
+      "end": 740.8399999999999,
+      "text": "heavy infrastructure investments. Tinteligence comes from smart integration, not from expensive",
+      "words": []
+    },
+    {
+      "start": 740.84,
+      "end": 751.08,
+      "text": "hardware. Third, the solution enables data-driven decision-making. Instead of relying on assumptions,",
+      "words": []
+    },
+    {
+      "start": 751.08,
+      "end": 759.8000000000001,
+      "text": "facility managers can act based on life, environmental, and occupancy data directly connected to",
+      "words": []
+    },
+    {
+      "start": 759.8000000000001,
+      "end": 768.0400000000001,
+      "text": "the digital twin. Fourth, real-time notifications enable rapid response.",
+      "words": []
+    },
+    {
+      "start": 768.8399999999999,
+      "end": 778.04,
+      "text": "Through ultimate workloads, alert triggers immediately when thresholds are exceeded,",
+      "words": []
+    },
+    {
+      "start": 778.04,
+      "end": 783.8,
+      "text": "reducing response time and preventing operational issues before they escalate.",
+      "words": []
+    },
+    {
+      "start": 784.5999999999999,
+      "end": 793.24,
+      "text": "Fifth, this is just the beginning. The next step is expanding monitoring to incorporate",
+      "words": []
+    },
+    {
+      "start": 793.24,
+      "end": 801.64,
+      "text": "additional variables such as energy consumption, water usage, and predictive analysis analytics.",
+      "words": []
+    },
+    {
+      "start": 802.6800000000001,
+      "end": 809.96,
+      "text": "Moving toward a more autonomous and intelligent building ecosystem. Ultimately,",
+      "words": []
+    },
+    {
+      "start": 809.96,
+      "end": 817.16,
+      "text": "the digital twin is no longer just a model. It becomes a powerful decision support system.",
+      "words": []
+    },
+    {
+      "start": 817.8,
+      "end": 826.76,
+      "text": "I'd like to thank this amazing and highly skilled team that supported us in building the digital",
+      "words": []
+    },
+    {
+      "start": 826.76,
+      "end": 834.6,
+      "text": "twin. Our team includes a big specialist assisting analysts, a process data specialist,",
+      "words": []
+    },
+    {
+      "start": 834.6,
+      "end": 842.76,
+      "text": "and IIT and AI-speciting. So thank you so much for our attention. Thank you.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:40:23.826310+00:00"
+}

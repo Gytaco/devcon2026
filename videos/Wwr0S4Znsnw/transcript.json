@@ -1,0 +1,673 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.0,
+      "text": "Hello everyone. I'm Greg Lemons, a senior developer with SymmetryUS.",
+      "words": []
+    },
+    {
+      "start": 6.0,
+      "end": 14.0,
+      "text": "And in the next 15 minutes, I want to show a simple idea with three concrete examples.",
+      "words": []
+    },
+    {
+      "start": 14.0,
+      "end": 26.0,
+      "text": "Web hooks by themselves are just signals. The real value shows up when that signal starts the next useful action, automatically inside the Autodesk workflows people are already using.",
+      "words": []
+    },
+    {
+      "start": 27.0,
+      "end": 35.0,
+      "text": "So we're going to stay close to real integration patterns here. Two examples are going to come from manufacturing with Fusion Manage.",
+      "words": []
+    },
+    {
+      "start": 35.0,
+      "end": 40.0,
+      "text": "And one is going to come from Forma in the AEC space.",
+      "words": []
+    },
+    {
+      "start": 40.0,
+      "end": 52.0,
+      "text": "In every case, the pattern is the same, receive an event, gather context, let AI reason over the context, and then write the result back into the system of record.",
+      "words": []
+    },
+    {
+      "start": 52.0,
+      "end": 60.0,
+      "text": "So a lot of systems notify us when something changes. The part is that part's not the hard part anymore.",
+      "words": []
+    },
+    {
+      "start": 60.0,
+      "end": 65.0,
+      "text": "The hard part is everything people have to do after the Hiller arrives.",
+      "words": []
+    },
+    {
+      "start": 65.0,
+      "end": 73.0,
+      "text": "Someone has to read it, gather related context, summarize what matters, and decide what to create or update next.",
+      "words": []
+    },
+    {
+      "start": 73.0,
+      "end": 82.0,
+      "text": "The opportunity for AI and integrations is not just better text generation, it is reducing the manual gap between an event and the next business action.",
+      "words": []
+    },
+    {
+      "start": 82.0,
+      "end": 90.0,
+      "text": "This is what all three of these examples are about, not another notification, but a started outcome.",
+      "words": []
+    },
+    {
+      "start": 90.0,
+      "end": 98.0,
+      "text": "Before we do jump in straight into demos, this is a reusable pattern. And I want you to keep that in mind.",
+      "words": []
+    },
+    {
+      "start": 98.0,
+      "end": 106.0,
+      "text": "First, an event, an APS webhook or data management event tells us that something meaningful happened.",
+      "words": []
+    },
+    {
+      "start": 106.0,
+      "end": 119.0,
+      "text": "Second, the integration loads the surrounding context, also using Autodesk platform services, gets related records, metadata attachments, document content, whatever the model needs.",
+      "words": []
+    },
+    {
+      "start": 119.0,
+      "end": 128.0,
+      "text": "Third, AI produces a useful decision artifact and assessment of summary or a draft action.",
+      "words": []
+    },
+    {
+      "start": 128.0,
+      "end": 142.0,
+      "text": "Fourth, the integration writes that output back into Autodesk. That right back is the difference between an interesting experiment and real workflow automation.",
+      "words": []
+    },
+    {
+      "start": 143.0,
+      "end": 154.0,
+      "text": "So it's going to be three workflows, one pattern. Here's the roadmap. First, we're going to show a change impact analysis in a fusion manage involved integration.",
+      "words": []
+    },
+    {
+      "start": 154.0,
+      "end": 162.0,
+      "text": "Second, in that same integration, we'll show a release note generation when an item reaches release.",
+      "words": []
+    },
+    {
+      "start": 162.0,
+      "end": 171.0,
+      "text": "And third, we'll move to Forma, where a newly uploaded document can become a draft RFI.",
+      "words": []
+    },
+    {
+      "start": 171.0,
+      "end": 183.0,
+      "text": "Now I'm going to walk through the examples using Autodesk platform service APIs and Forgeflow, which is our integration platform.",
+      "words": []
+    },
+    {
+      "start": 183.0,
+      "end": 194.0,
+      "text": "So we're going to roll right into demo one. And this is what we should look for as we express this demo.",
+      "words": []
+    },
+    {
+      "start": 194.0,
+      "end": 207.0,
+      "text": "We're going to have a webhook firing. We're going to load that context. We're going to have AI make a decision or assess a situation. And we're going to write back to that record.",
+      "words": []
+    },
+    {
+      "start": 207.0,
+      "end": 220.0,
+      "text": "So before we get into this first demo, I want to give a quick overview of the platform that will be demonstrating the integration processes on today.",
+      "words": []
+    },
+    {
+      "start": 221.0,
+      "end": 236.0,
+      "text": "This is Forgeflow. This is our integration platform. It's designed to follow that pattern that we just talked about all events around the left hand side. Those are triggers coming from different systems.",
+      "words": []
+    },
+    {
+      "start": 236.0,
+      "end": 246.0,
+      "text": "We've got Vault transition triggers. We've got webhooks coming from Fusion Manage. And then to the right are all of the action nodes that complete those processes.",
+      "words": []
+    },
+    {
+      "start": 246.0,
+      "end": 255.0,
+      "text": "So inside these triggers, we can actually create them inside the integration platform where we can create webhooks themselves.",
+      "words": []
+    },
+    {
+      "start": 255.0,
+      "end": 268.0,
+      "text": "And then a lot of dynamic nodes and kind of features that allow us to be very flexible with the processes that are built in here.",
+      "words": []
+    },
+    {
+      "start": 268.0,
+      "end": 280.0,
+      "text": "So the orange ones are generally Fusion Manage. The yellow ones are generally Vault in this case. And this is going to be the kind of platform that will show the examples on today.",
+      "words": []
+    },
+    {
+      "start": 280.0,
+      "end": 287.0,
+      "text": "So for this first demo, we're going to want to look for these things that we talked about in that pattern, a webhook fires, an event, a remote event.",
+      "words": []
+    },
+    {
+      "start": 287.0,
+      "end": 300.0,
+      "text": "We're going to load as much context as we can. And then we're going to have a ISS that context. And then of course, we got to write it back to a system.",
+      "words": []
+    },
+    {
+      "start": 300.0,
+      "end": 312.0,
+      "text": "So for the first integration, we start in the middle of a change order already in progress. So the, this is Fusion Manage that we're looking at right now, one of the systems of record.",
+      "words": []
+    },
+    {
+      "start": 312.0,
+      "end": 325.0,
+      "text": "And we've already added the affected items to this change order. And subsequently or previously, we had done the begin work transition that does move the items involved to a work in progress state. And so now we're in work.",
+      "words": []
+    },
+    {
+      "start": 325.0,
+      "end": 331.0,
+      "text": "And in this state, the engineer is making those changes is doing the changes that were requested of him.",
+      "words": []
+    },
+    {
+      "start": 331.0,
+      "end": 338.0,
+      "text": "He will eventually finish that change or at least finish it to the point where it needs to be reviewed.",
+      "words": []
+    },
+    {
+      "start": 338.0,
+      "end": 346.0,
+      "text": "And at that point, he will move those those states to in review. Once that's done, this workflow can be moved to task completed.",
+      "words": []
+    },
+    {
+      "start": 346.0,
+      "end": 357.0,
+      "text": "And this is where our first integration webhook comes in. So we'll switch really quickly from task completed over to the integration designer because it happens pretty quick.",
+      "words": []
+    },
+    {
+      "start": 357.0,
+      "end": 362.0,
+      "text": "But so we're going to go ahead and advance this transition.",
+      "words": []
+    },
+    {
+      "start": 362.0,
+      "end": 367.0,
+      "text": "And I'm going to quickly switch over so we can see the action in our integration.",
+      "words": []
+    },
+    {
+      "start": 367.0,
+      "end": 377.0,
+      "text": "And there you go, the trigger hit, we got the change order. Now we're getting affected items from that change aggregating that getting the new changes to those affected items.",
+      "words": []
+    },
+    {
+      "start": 377.0,
+      "end": 386.0,
+      "text": "And then using all that context and feeding it into an LLM to get kind of evaluate that change impact.",
+      "words": []
+    },
+    {
+      "start": 386.0,
+      "end": 390.0,
+      "text": "And then here is the final step of us writing it back to Fusion Manage.",
+      "words": []
+    },
+    {
+      "start": 390.0,
+      "end": 403.0,
+      "text": "And so for the proofs of those, we can go ahead and go over to Fusion Manage. And if we go ahead and look in the change order, we've created a field called change impact.",
+      "words": []
+    },
+    {
+      "start": 403.0,
+      "end": 412.0,
+      "text": "And this is not hallucinated AI. This is AI answering based on real data and context given to it.",
+      "words": []
+    },
+    {
+      "start": 412.0,
+      "end": 424.0,
+      "text": "So the change impact kind of talks about what they may be used for potential changes in that set.",
+      "words": []
+    },
+    {
+      "start": 424.0,
+      "end": 440.0,
+      "text": "And so that is kind of the first demonstration of just assisting with the review process for the PLM representatives, give them a step up on how to make that next step.",
+      "words": []
+    },
+    {
+      "start": 440.0,
+      "end": 450.0,
+      "text": "Now the second demo is going to follow the same pattern, but we're going to be using different events. And we're going to be creating a different kind of asset at the end.",
+      "words": []
+    },
+    {
+      "start": 450.0,
+      "end": 459.0,
+      "text": "This time, we're going to go for the item release event. So when an item in Fusion Manage gets released, we're going to gather all the release context that we can.",
+      "words": []
+    },
+    {
+      "start": 459.0,
+      "end": 472.0,
+      "text": "And we're going to build a release notes out of it. And we're going to attach that back to the PLM item as both a field of data and a PDF document.",
+      "words": []
+    },
+    {
+      "start": 472.0,
+      "end": 479.0,
+      "text": "So here we're in Fusion Manage where we left off. You see, we went past the tasks and completed and we're now in this results view.",
+      "words": []
+    },
+    {
+      "start": 479.0,
+      "end": 493.0,
+      "text": "This is one of the standard workflows within Fusion Manage Change. But it's now the PLM representatives chance to kind of move this state along.",
+      "words": []
+    },
+    {
+      "start": 493.0,
+      "end": 507.0,
+      "text": "So with that change impact, they can review the changes that the engineer made and decide whether or not it needs to go to this change control board, which is the final say in these workflows.",
+      "words": []
+    },
+    {
+      "start": 507.0,
+      "end": 514.0,
+      "text": "Now, we'll pretend that the review went fine and we did move it to change control board here.",
+      "words": []
+    },
+    {
+      "start": 514.0,
+      "end": 525.0,
+      "text": "And our integration is going to pick up when the change control board does the final approval. This final approval, if you can see in the workflow through Fusion Manage, we'll release the item.",
+      "words": []
+    },
+    {
+      "start": 525.0,
+      "end": 533.0,
+      "text": "What we're going to do is also some final approval activities in the integration. So we'll switch over to it real quick.",
+      "words": []
+    },
+    {
+      "start": 533.0,
+      "end": 549.0,
+      "text": "And now we're running the, the next flow, we're getting the affected items. There, we're transitioning the items involved to release, gathering more context. And now we're crafting those release notes.",
+      "words": []
+    },
+    {
+      "start": 549.0,
+      "end": 563.0,
+      "text": "So we're writing back to the system. And in this case, we're going to go ahead and generate a PDF document of that of those release notes as well. It could be used for distribution.",
+      "words": []
+    },
+    {
+      "start": 563.0,
+      "end": 569.0,
+      "text": "We'll go look at the results of that integration.",
+      "words": []
+    },
+    {
+      "start": 569.0,
+      "end": 579.0,
+      "text": "And in order because we did bring the release notes into a data field within Fusion Manage.",
+      "words": []
+    },
+    {
+      "start": 579.0,
+      "end": 592.0,
+      "text": "But if you look, we've got an attachment to. And so the integration actually generated a PDF document with, you know, themed logos and things like that on it.",
+      "words": []
+    },
+    {
+      "start": 592.0,
+      "end": 605.0,
+      "text": "And then we're going to use it for distribution. We'll go ahead and look at it real quick.",
+      "words": []
+    },
+    {
+      "start": 605.0,
+      "end": 612.0,
+      "text": "And there it is. So that's a document attached to that change order.",
+      "words": []
+    },
+    {
+      "start": 612.0,
+      "end": 625.0,
+      "text": "And maybe, you know, you probably don't want to attach to release notes to a single item, but I hope you get the idea of kind of the way that these integrations can work and the flexibility in them.",
+      "words": []
+    },
+    {
+      "start": 625.0,
+      "end": 637.0,
+      "text": "So the, so yeah, it did transition the items to vault to release as well, which gives the kind of the engineer.",
+      "words": []
+    },
+    {
+      "start": 637.0,
+      "end": 641.0,
+      "text": "And to edit those files anymore on their end.",
+      "words": []
+    },
+    {
+      "start": 641.0,
+      "end": 643.0,
+      "text": "Okay.",
+      "words": []
+    },
+    {
+      "start": 643.0,
+      "end": 650.0,
+      "text": "The last one that we want to show today is using form a.",
+      "words": []
+    },
+    {
+      "start": 650.0,
+      "end": 659.0,
+      "text": "And when a document is added to a form a project, we have an opportunity to get an event.",
+      "words": []
+    },
+    {
+      "start": 659.0,
+      "end": 670.0,
+      "text": "And we can pull project context that that event happened from the form a project.",
+      "words": []
+    },
+    {
+      "start": 670.0,
+      "end": 673.0,
+      "text": "And we can draft actions, right.",
+      "words": []
+    },
+    {
+      "start": 673.0,
+      "end": 685.0,
+      "text": "In this case, we are going to create an RFI issue within forma based on a visual analysis.",
+      "words": []
+    },
+    {
+      "start": 685.0,
+      "end": 692.0,
+      "text": "And this one might be a little silly. So it's a simpler integration, one process.",
+      "words": []
+    },
+    {
+      "start": 692.0,
+      "end": 697.0,
+      "text": "And on the left, we have the version added event following our same pattern.",
+      "words": []
+    },
+    {
+      "start": 697.0,
+      "end": 703.0,
+      "text": "We created that web hook based on the folder structure of the new of the form a project.",
+      "words": []
+    },
+    {
+      "start": 703.0,
+      "end": 708.0,
+      "text": "And it is going to be hitting that end point. Then we're going to analyze.",
+      "words": []
+    },
+    {
+      "start": 708.0,
+      "end": 714.0,
+      "text": "And the, in this case, we're going to be looking for an image that dropped there.",
+      "words": []
+    },
+    {
+      "start": 714.0,
+      "end": 717.0,
+      "text": "And we're going to analyze it with.",
+      "words": []
+    },
+    {
+      "start": 717.0,
+      "end": 719.0,
+      "text": "With an AI.",
+      "words": []
+    },
+    {
+      "start": 719.0,
+      "end": 723.0,
+      "text": "Now, we, this is where it gets a little silly maybe.",
+      "words": []
+    },
+    {
+      "start": 723.0,
+      "end": 727.0,
+      "text": "So granted, there's probably.",
+      "words": []
+    },
+    {
+      "start": 727.0,
+      "end": 730.0,
+      "text": "Some more practical examples to use here.",
+      "words": []
+    },
+    {
+      "start": 730.0,
+      "end": 733.0,
+      "text": "But in this case, we wanted to show.",
+      "words": []
+    },
+    {
+      "start": 733.0,
+      "end": 735.0,
+      "text": "And we wanted to make a decision.",
+      "words": []
+    },
+    {
+      "start": 735.0,
+      "end": 747.0,
+      "text": "So upon the analysis of the image, it's going to either determine that it's a cat or it's not a cat or some type of cat.",
+      "words": []
+    },
+    {
+      "start": 747.0,
+      "end": 750.0,
+      "text": "We only like a color cat.",
+      "words": []
+    },
+    {
+      "start": 750.0,
+      "end": 752.0,
+      "text": "We hate all other cats.",
+      "words": []
+    },
+    {
+      "start": 752.0,
+      "end": 757.0,
+      "text": "And so if you notice on the integration flow, this is not a color cat.",
+      "words": []
+    },
+    {
+      "start": 757.0,
+      "end": 769.0,
+      "text": "So I expect when I add this cat to the form of file section that what we'll get is our integration firing, determining that no that isn't a cat that we want.",
+      "words": []
+    },
+    {
+      "start": 769.0,
+      "end": 777.0,
+      "text": "It's a black and white cat and drafting an RFI asking questions to the submitter of that file.",
+      "words": []
+    },
+    {
+      "start": 777.0,
+      "end": 780.0,
+      "text": "So we'll give this a second.",
+      "words": []
+    },
+    {
+      "start": 780.0,
+      "end": 792.0,
+      "text": "It's a little longer for the web hooks to hit from data management events because of the additional processing that happens when you upload files into these projects.",
+      "words": []
+    },
+    {
+      "start": 792.0,
+      "end": 799.0,
+      "text": "So we'll see it fire off here in just a second.",
+      "words": []
+    },
+    {
+      "start": 799.0,
+      "end": 801.0,
+      "text": "And here it goes.",
+      "words": []
+    },
+    {
+      "start": 801.0,
+      "end": 804.0,
+      "text": "And it happens pretty quick.",
+      "words": []
+    },
+    {
+      "start": 804.0,
+      "end": 806.0,
+      "text": "But it went through every single one of those nodes.",
+      "words": []
+    },
+    {
+      "start": 806.0,
+      "end": 814.0,
+      "text": "And now it is creating that RFI draft in forma.",
+      "words": []
+    },
+    {
+      "start": 814.0,
+      "end": 820.0,
+      "text": "So here in form of should be able to see it directly now.",
+      "words": []
+    },
+    {
+      "start": 820.0,
+      "end": 821.0,
+      "text": "And here it is.",
+      "words": []
+    },
+    {
+      "start": 821.0,
+      "end": 825.0,
+      "text": "The drafted RFI in a draft.",
+      "words": []
+    },
+    {
+      "start": 825.0,
+      "end": 834.0,
+      "text": "And is this even a cat would be the question we want clarified from from the supplier there.",
+      "words": []
+    },
+    {
+      "start": 834.0,
+      "end": 836.0,
+      "text": "So maybe not practical.",
+      "words": []
+    },
+    {
+      "start": 836.0,
+      "end": 841.0,
+      "text": "I hope you can see the use cases for that.",
+      "words": []
+    },
+    {
+      "start": 841.0,
+      "end": 849.0,
+      "text": "And so what makes these integrations production ready?",
+      "words": []
+    },
+    {
+      "start": 849.0,
+      "end": 852.0,
+      "text": "Well, except for the cat one maybe.",
+      "words": []
+    },
+    {
+      "start": 852.0,
+      "end": 859.0,
+      "text": "Before things matter event filtering, not every event, you know, deserves automation.",
+      "words": []
+    },
+    {
+      "start": 859.0,
+      "end": 862.0,
+      "text": "Second is the context retrieval.",
+      "words": []
+    },
+    {
+      "start": 862.0,
+      "end": 874.0,
+      "text": "So the results you get from a request to an AM model depends heavily on whether you load the right auto desk data around the event.",
+      "words": []
+    },
+    {
+      "start": 874.0,
+      "end": 879.0,
+      "text": "\u0451L But you can currently translate with email, interest rates and virtual algorithms or digital frames and then you can look this way.",
+      "words": []
+    },
+    {
+      "start": 879.0,
+      "end": 893.0,
+      "text": "policy controls. And fourth, right back, if the output lands in Autodesk, it becomes part of the workflow record instead of just a disconnected AI side note.",
+      "words": []
+    },
+    {
+      "start": 896.0,
+      "end": 905.0,
+      "text": "So web hooks are the signal. AI is the reasoning layer, right back is where automation becomes workflow.",
+      "words": []
+    },
+    {
+      "start": 905.0,
+      "end": 915.0,
+      "text": "That's the kind of one clear point we want to leave you with. Start with a high value event, close one manual loop and then scale that pattern.",
+      "words": []
+    },
+    {
+      "start": 917.0,
+      "end": 921.0,
+      "text": "So thank you. I'm Greg Lemons. We'll be happy to talk after the session.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:35:42.539879+00:00"
+}

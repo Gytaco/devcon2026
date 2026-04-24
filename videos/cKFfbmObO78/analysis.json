@@ -1,0 +1,44 @@
+{
+  "video_id": "cKFfbmObO78",
+  "demo_timestamps": [
+    {
+      "start": 180.0,
+      "end": 222.0,
+      "description": "A small web application built using .NET and APS demonstrating model creation and cloud automation."
+    },
+    {
+      "start": 259.0,
+      "end": 335.0,
+      "description": "AI agent links two Revit models based on simple instructions, demonstrating agentic ecosystems."
+    }
+  ],
+  "themes": [
+    "Automation of Revit Project Setup",
+    "Cloud-Based Infrastructure",
+    "AI and Agentic Ecosystems in AEC"
+  ],
+  "client_mentions": [],
+  "autodesk_products": [
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 234.0
+    },
+    {
+      "name": "APS",
+      "is_api": false,
+      "timestamp": 186.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "AI agents",
+      "category": "agent",
+      "context": "Used to orchestrate autonomous operations in AEC projects.",
+      "timestamp": 259.0
+    }
+  ],
+  "summary": "The video, presented by Pedro Nadal from Autodesk, outlines the evolution of BIM project setup from manual processes to cloud-based automation, highlighting the limitations of previous methods that require manual UI interactions. By leveraging Autodesk Platform Services (APS), project provisioning can now be automated entirely in the cloud, making it scalable and agent-ready. Demos showcase how AI agents can streamline these processes, illustrating the potential for transforming project workflows in the architecture, engineering, and construction (AEC) industry.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T21:59:54.319603+00:00"
+}

@@ -1,0 +1,87 @@
+{
+  "video_id": "IdGdruRnmB0",
+  "demo_timestamps": [],
+  "themes": [
+    "AI in architecture and engineering",
+    "AI integration in workflows",
+    "Trust and transparency in AI implementation",
+    "AI integration into software development",
+    "Impact of AI on industry processes",
+    "Human-AI collaboration in engineering and architecture"
+  ],
+  "client_mentions": [
+    {
+      "name": "Chaos",
+      "context": "Discussing how Chaos uses AI in visualization and rendering.",
+      "timestamp": 0.1
+    },
+    {
+      "name": "SWECCO",
+      "context": "Explaining SWECCO's use of AI and their internal AI system.",
+      "timestamp": 0.13
+    },
+    {
+      "name": "Sweco",
+      "context": "Discussion on reconfiguring roles and AI strategy",
+      "timestamp": 1206.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "APS",
+      "is_api": true,
+      "timestamp": 0.16
+    },
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 1530.0
+    },
+    {
+      "name": "Fusion",
+      "is_api": false,
+      "timestamp": 1530.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "Claude Cod",
+      "category": "llm",
+      "context": "Used for autonomous software development tasks.",
+      "timestamp": 0.06
+    },
+    {
+      "name": "GPT",
+      "category": "llm",
+      "context": "Used in SWECCO's internal AI system for productivity.",
+      "timestamp": 0.14
+    },
+    {
+      "name": "ChatGPT",
+      "category": "llm",
+      "context": "Influenced the creation of SWECCO GPD.",
+      "timestamp": 0.14
+    },
+    {
+      "name": "Copilot",
+      "category": "agent",
+      "context": "Mentioned as a tool for improving software development productivity.",
+      "timestamp": 0.17
+    },
+    {
+      "name": "AI agents",
+      "category": "agent",
+      "context": "Used in software development to improve productivity",
+      "timestamp": 1026.0
+    },
+    {
+      "name": "Neural AI",
+      "category": "ml",
+      "context": "Investments in model training related to architectural design",
+      "timestamp": 1437.0
+    }
+  ],
+  "summary": "The video explores the integration of AI in architecture and engineering, highlighting the roles of companies like Chaos and SWECCO in utilizing AI technologies for visualization, internal processes, and software development. It emphasizes the importance of trustworthy AI application, transparency, client engagement, and the challenges faced by companies in adapting to AI's rapid advancements while improving productivity and transforming industry standards.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T21:27:53.887217+00:00"
+}

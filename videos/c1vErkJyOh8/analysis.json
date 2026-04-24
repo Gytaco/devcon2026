@@ -1,0 +1,124 @@
+{
+  "video_id": "c1vErkJyOh8",
+  "demo_timestamps": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "description": "Installation parser visualization"
+    },
+    {
+      "start": 0.13,
+      "end": 0.16,
+      "description": "Checking if relevant data is present in models"
+    },
+    {
+      "start": 0.16,
+      "end": 0.2,
+      "description": "Logging in and configuring models with APS and Forge"
+    },
+    {
+      "start": 0.17,
+      "end": 0.18,
+      "description": "Selecting elements in the viewer to see database data"
+    },
+    {
+      "start": 0.18,
+      "end": 0.18,
+      "description": "Displaying data from database"
+    },
+    {
+      "start": 1079.0,
+      "end": 1137.0,
+      "description": "Filling data for multiple elements simultaneously and visualizing installations"
+    },
+    {
+      "start": 1489.0,
+      "end": 1510.0,
+      "description": "Extracting and presenting engineering data in a connected data platform"
+    }
+  ],
+  "themes": [
+    "Data management and automation using Autodesk technologies",
+    "Automation in design data management",
+    "Integration of Autodesk technologies",
+    "Enhancing data accuracy and decision making in projects"
+  ],
+  "client_mentions": [
+    {
+      "name": "SBE",
+      "context": "Independent engineering design consultancy company using Autodesk solutions",
+      "timestamp": 0.02
+    },
+    {
+      "name": "Agenskapiegen Everkir",
+      "context": "Provided the OOTL compliance requirements",
+      "timestamp": 0.04
+    },
+    {
+      "name": "AWV",
+      "context": "Mentioned in context of object type library",
+      "timestamp": 1408.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 0.02
+    },
+    {
+      "name": "AutoCAD",
+      "is_api": false,
+      "timestamp": 0.02
+    },
+    {
+      "name": "Navisworks",
+      "is_api": false,
+      "timestamp": 0.11
+    },
+    {
+      "name": "Inventor",
+      "is_api": false,
+      "timestamp": 0.11
+    },
+    {
+      "name": "Civil 3D",
+      "is_api": false,
+      "timestamp": 0.11
+    },
+    {
+      "name": "Autodesk Forma",
+      "is_api": false,
+      "timestamp": 0.11
+    },
+    {
+      "name": "Autodesk Construction Cloud",
+      "is_api": false,
+      "timestamp": 0.11
+    },
+    {
+      "name": "APS",
+      "is_api": true,
+      "timestamp": 0.12
+    },
+    {
+      "name": "ACC",
+      "is_api": false,
+      "timestamp": 0.0
+    },
+    {
+      "name": "Forma",
+      "is_api": false,
+      "timestamp": 1128.0
+    },
+    {
+      "name": "BIM 360",
+      "is_api": false,
+      "timestamp": 1641.0
+    }
+  ],
+  "ai_technologies": [],
+  "summary": "The video explains how SBE, an engineering consultancy, used Autodesk tools like APS, Revit, and AutoCAD to automate object type library compliance within Autodesk Construction Cloud, significantly reducing manual setup time and improving data management specifically for Agenskapiegen Everkir's requirements. It highlights the benefits of integrating various Autodesk products to enhance data accuracy and decision-making in engineering projects, and discusses SBE's future goals of collaborating with Autodesk to leverage digital twins and standardized data workflows.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:35:31.859760+00:00"
+}

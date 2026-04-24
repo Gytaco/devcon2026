@@ -1,0 +1,3859 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.04,
+      "text": "Thank you for joining me today.",
+      "words": []
+    },
+    {
+      "start": 3.04,
+      "end": 5.34,
+      "text": "This presentation will be over our journey",
+      "words": []
+    },
+    {
+      "start": 5.34,
+      "end": 7.5200000000000005,
+      "text": "from automation to autonomy,",
+      "words": []
+    },
+    {
+      "start": 7.5200000000000005,
+      "end": 9.48,
+      "text": "orchestrating AEC project delivery",
+      "words": []
+    },
+    {
+      "start": 9.48,
+      "end": 12.16,
+      "text": "with Autodesk, AI, and MCP.",
+      "words": []
+    },
+    {
+      "start": 12.16,
+      "end": 14.88,
+      "text": "First, we have our obligatory safe hardware statement.",
+      "words": []
+    },
+    {
+      "start": 14.88,
+      "end": 16.16,
+      "text": "Please don't make purchasing decisions",
+      "words": []
+    },
+    {
+      "start": 16.16,
+      "end": 17.84,
+      "text": "based on what's presented here today.",
+      "words": []
+    },
+    {
+      "start": 17.84,
+      "end": 18.96,
+      "text": "My name is Lewis Samron",
+      "words": []
+    },
+    {
+      "start": 18.96,
+      "end": 21.96,
+      "text": "and I'm a senior digital systems engineer at PEC.",
+      "words": []
+    },
+    {
+      "start": 22.84,
+      "end": 24.28,
+      "text": "I've only been in the AEC industry",
+      "words": []
+    },
+    {
+      "start": 24.28,
+      "end": 25.88,
+      "text": "for just under three years now,",
+      "words": []
+    },
+    {
+      "start": 25.88,
+      "end": 28.68,
+      "text": "where I mostly work on desktop web applications,",
+      "words": []
+    },
+    {
+      "start": 28.68,
+      "end": 30.32,
+      "text": "Revit Add-ins, dashboards,",
+      "words": []
+    },
+    {
+      "start": 30.32,
+      "end": 32.76,
+      "text": "and other software solutions and automations.",
+      "words": []
+    },
+    {
+      "start": 32.76,
+      "end": 35.56,
+      "text": "Here's what we have on the agenda for this session.",
+      "words": []
+    },
+    {
+      "start": 35.56,
+      "end": 38.04,
+      "text": "First, I'll talk a little bit about PEC",
+      "words": []
+    },
+    {
+      "start": 38.04,
+      "end": 39.12,
+      "text": "and then I'll talk about the problems",
+      "words": []
+    },
+    {
+      "start": 39.12,
+      "end": 40.24,
+      "text": "we're trying to address.",
+      "words": []
+    },
+    {
+      "start": 41.2,
+      "end": 43.04,
+      "text": "We'll talk about our MCP server,",
+      "words": []
+    },
+    {
+      "start": 43.04,
+      "end": 45.44,
+      "text": "how is implemented, and finally,",
+      "words": []
+    },
+    {
+      "start": 45.44,
+      "end": 47.4,
+      "text": "what the next plans are for implementation.",
+      "words": []
+    },
+    {
+      "start": 50.68,
+      "end": 53.4,
+      "text": "First off, I'd like to talk a little bit about us at PEC.",
+      "words": []
+    },
+    {
+      "start": 54.480000000000004,
+      "end": 57.2,
+      "text": "PEC stands for Professional Engineering Consultants.",
+      "words": []
+    },
+    {
+      "start": 58.8,
+      "end": 61.48,
+      "text": "At PEC, we're more than just engineers.",
+      "words": []
+    },
+    {
+      "start": 61.48,
+      "end": 63.16,
+      "text": "We're to move over 400 professionals",
+      "words": []
+    },
+    {
+      "start": 63.16,
+      "end": 64.8,
+      "text": "united by a shared mission",
+      "words": []
+    },
+    {
+      "start": 64.8,
+      "end": 67.84,
+      "text": "to energize communities, shape the future, and guide the way.",
+      "words": []
+    },
+    {
+      "start": 68.96,
+      "end": 71.12,
+      "text": "Our vision is to be the holistic industry",
+      "words": []
+    },
+    {
+      "start": 71.12,
+      "end": 73.08,
+      "text": "and infrastructure solutions provider,",
+      "words": []
+    },
+    {
+      "start": 73.08,
+      "end": 74.56,
+      "text": "committing leaders and experts",
+      "words": []
+    },
+    {
+      "start": 74.56,
+      "end": 76.92,
+      "text": "to vote as drug and prosperity and opportunity",
+      "words": []
+    },
+    {
+      "start": 76.92,
+      "end": 78.76,
+      "text": "for the growth-minded communities we serve.",
+      "words": []
+    },
+    {
+      "start": 81.64,
+      "end": 83.52,
+      "text": "Headquartered in Wichita, Kansas,",
+      "words": []
+    },
+    {
+      "start": 83.52,
+      "end": 85.72,
+      "text": "we are licensed in all 50 US states",
+      "words": []
+    },
+    {
+      "start": 85.72,
+      "end": 87.6,
+      "text": "and have offices across the Midwest.",
+      "words": []
+    },
+    {
+      "start": 88.55999999999999,
+      "end": 90.67999999999999,
+      "text": "We've been delivering consulting and design services",
+      "words": []
+    },
+    {
+      "start": 90.67999999999999,
+      "end": 93.75999999999999,
+      "text": "for 60 years across a wide spectrum of disciplines",
+      "words": []
+    },
+    {
+      "start": 93.75999999999999,
+      "end": 96.72,
+      "text": "like architectural engineering, civil engineering,",
+      "words": []
+    },
+    {
+      "start": 96.72,
+      "end": 99.11999999999999,
+      "text": "power and process field services, and more.",
+      "words": []
+    },
+    {
+      "start": 101.03999999999999,
+      "end": 104.52,
+      "text": "From highways to hospitals, water towers to wind turbines,",
+      "words": []
+    },
+    {
+      "start": 104.52,
+      "end": 106.32,
+      "text": "stadiums to sidewalks,",
+      "words": []
+    },
+    {
+      "start": 106.32,
+      "end": 108.19999999999999,
+      "text": "we take on project that shaped the way",
+      "words": []
+    },
+    {
+      "start": 108.19999999999999,
+      "end": 110.84,
+      "text": "people live, move, and connect.",
+      "words": []
+    },
+    {
+      "start": 110.84,
+      "end": 112.6,
+      "text": "We don't just solve problems,",
+      "words": []
+    },
+    {
+      "start": 112.6,
+      "end": 115.16,
+      "text": "we design integrated forward-thinking solutions",
+      "words": []
+    },
+    {
+      "start": 115.16,
+      "end": 117.72,
+      "text": "that serve both our clients and the communities they affect.",
+      "words": []
+    },
+    {
+      "start": 120.72,
+      "end": 122.16,
+      "text": "I'd like to take this opportunity",
+      "words": []
+    },
+    {
+      "start": 122.16,
+      "end": 124.52,
+      "text": "to thank the team that helped make this POC possible.",
+      "words": []
+    },
+    {
+      "start": 125.72,
+      "end": 127.67999999999999,
+      "text": "We have my manager, Bobby Goldberry,",
+      "words": []
+    },
+    {
+      "start": 127.67999999999999,
+      "end": 130.0,
+      "text": "and the POC author, Don Van John,",
+      "words": []
+    },
+    {
+      "start": 130.0,
+      "end": 132.32,
+      "text": "as well as myself as the developer,",
+      "words": []
+    },
+    {
+      "start": 132.32,
+      "end": 133.28,
+      "text": "and some other contributors",
+      "words": []
+    },
+    {
+      "start": 133.28,
+      "end": 135.35999999999999,
+      "text": "for digital transformation and QC teams.",
+      "words": []
+    },
+    {
+      "start": 138.2,
+      "end": 139.76,
+      "text": "Our first section would be on the problem",
+      "words": []
+    },
+    {
+      "start": 139.76,
+      "end": 140.96,
+      "text": "on the path to autonomy.",
+      "words": []
+    },
+    {
+      "start": 141.84,
+      "end": 143.68,
+      "text": "Every year, we had more tools, more data,",
+      "words": []
+    },
+    {
+      "start": 143.68,
+      "end": 145.68,
+      "text": "and more digital workflows to our projects.",
+      "words": []
+    },
+    {
+      "start": 145.68,
+      "end": 147.48000000000002,
+      "text": "And every year, the expectation is",
+      "words": []
+    },
+    {
+      "start": 147.48000000000002,
+      "end": 149.48000000000002,
+      "text": "that this should make our lives easier.",
+      "words": []
+    },
+    {
+      "start": 149.48000000000002,
+      "end": 152.48000000000002,
+      "text": "But for many teams, it hasn't felt that way.",
+      "words": []
+    },
+    {
+      "start": 152.48000000000002,
+      "end": 154.48000000000002,
+      "text": "AI was supposed to change that,",
+      "words": []
+    },
+    {
+      "start": 154.48000000000002,
+      "end": 156.48000000000002,
+      "text": "but it's not as simple as plug and play.",
+      "words": []
+    },
+    {
+      "start": 156.48000000000002,
+      "end": 159.48000000000002,
+      "text": "Many of you have probably discovered the same thing we did.",
+      "words": []
+    },
+    {
+      "start": 159.48000000000002,
+      "end": 161.48000000000002,
+      "text": "AI is incredibly powerful,",
+      "words": []
+    },
+    {
+      "start": 161.48000000000002,
+      "end": 164.48000000000002,
+      "text": "but it's limited by what data can connect to,",
+      "words": []
+    },
+    {
+      "start": 164.48000000000002,
+      "end": 166.48000000000002,
+      "text": "what external programs it can use,",
+      "words": []
+    },
+    {
+      "start": 166.48000000000002,
+      "end": 168.44,
+      "text": "and how safely and consistently",
+      "words": []
+    },
+    {
+      "start": 168.44,
+      "end": 171.28,
+      "text": "those connections can be managed at scale.",
+      "words": []
+    },
+    {
+      "start": 171.28,
+      "end": 172.44,
+      "text": "Like many firms,",
+      "words": []
+    },
+    {
+      "start": 172.44,
+      "end": 174.56,
+      "text": "PEC had to establish policies and safeguards",
+      "words": []
+    },
+    {
+      "start": 174.56,
+      "end": 176.92,
+      "text": "before we felt comfortable using AI.",
+      "words": []
+    },
+    {
+      "start": 176.92,
+      "end": 179.35999999999999,
+      "text": "And even then, there was understandable hesitation",
+      "words": []
+    },
+    {
+      "start": 179.35999999999999,
+      "end": 182.76,
+      "text": "about letting it take on real responsibilities.",
+      "words": []
+    },
+    {
+      "start": 182.76,
+      "end": 185.92,
+      "text": "And honestly, that hesitation is justified.",
+      "words": []
+    },
+    {
+      "start": 185.92,
+      "end": 188.4,
+      "text": "But one consistent theme with AI",
+      "words": []
+    },
+    {
+      "start": 188.4,
+      "end": 190.56,
+      "text": "is how quickly it evolves.",
+      "words": []
+    },
+    {
+      "start": 190.56,
+      "end": 194.0,
+      "text": "The way we can connect it to our data and tools",
+      "words": []
+    },
+    {
+      "start": 194.0,
+      "end": 195.84,
+      "text": "are improving our lives.",
+      "words": []
+    },
+    {
+      "start": 195.84,
+      "end": 198.08,
+      "text": "And what can connect it to our data and tools",
+      "words": []
+    },
+    {
+      "start": 198.08,
+      "end": 199.6,
+      "text": "are improving rapidly,",
+      "words": []
+    },
+    {
+      "start": 199.6,
+      "end": 201.68,
+      "text": "making it possible to trust it would pass",
+      "words": []
+    },
+    {
+      "start": 201.68,
+      "end": 203.68,
+      "text": "we weren't comfortable with before.",
+      "words": []
+    },
+    {
+      "start": 203.68,
+      "end": 206.56,
+      "text": "But with so many data sources and systems available,",
+      "words": []
+    },
+    {
+      "start": 206.56,
+      "end": 208.44,
+      "text": "where should we focus our AI efforts",
+      "words": []
+    },
+    {
+      "start": 208.44,
+      "end": 211.76,
+      "text": "to see the most meaningful results?",
+      "words": []
+    },
+    {
+      "start": 211.76,
+      "end": 213.16,
+      "text": "To answer that question,",
+      "words": []
+    },
+    {
+      "start": 213.16,
+      "end": 214.76,
+      "text": "we started by asking our teams",
+      "words": []
+    },
+    {
+      "start": 214.76,
+      "end": 217.76,
+      "text": "where project data actually breaks down.",
+      "words": []
+    },
+    {
+      "start": 217.76,
+      "end": 220.0,
+      "text": "After conducting multiple interviews and surveys",
+      "words": []
+    },
+    {
+      "start": 220.0,
+      "end": 221.6,
+      "text": "with PEC division heads,",
+      "words": []
+    },
+    {
+      "start": 221.6,
+      "end": 223.12,
+      "text": "project managers, team leads,",
+      "words": []
+    },
+    {
+      "start": 223.12,
+      "end": 224.64000000000001,
+      "text": "and project assistants,",
+      "words": []
+    },
+    {
+      "start": 224.64,
+      "end": 226.07999999999998,
+      "text": "a clear set of challenges emerge",
+      "words": []
+    },
+    {
+      "start": 226.07999999999998,
+      "end": 228.76,
+      "text": "on how we manage project data.",
+      "words": []
+    },
+    {
+      "start": 228.76,
+      "end": 231.39999999999998,
+      "text": "Today, project data is not always quickly",
+      "words": []
+    },
+    {
+      "start": 231.39999999999998,
+      "end": 233.23999999999998,
+      "text": "or easily accessible.",
+      "words": []
+    },
+    {
+      "start": 233.23999999999998,
+      "end": 235.44,
+      "text": "Teams often struggle to find the most current version",
+      "words": []
+    },
+    {
+      "start": 235.44,
+      "end": 236.44,
+      "text": "of information,",
+      "words": []
+    },
+    {
+      "start": 236.44,
+      "end": 237.88,
+      "text": "and data is frequently stored",
+      "words": []
+    },
+    {
+      "start": 237.88,
+      "end": 240.95999999999998,
+      "text": "across multiple systems and locations.",
+      "words": []
+    },
+    {
+      "start": 240.95999999999998,
+      "end": 243.39999999999998,
+      "text": "Teams schedules often become misaligned,",
+      "words": []
+    },
+    {
+      "start": 243.39999999999998,
+      "end": 247.32,
+      "text": "and notifications and updates vary by project and team.",
+      "words": []
+    },
+    {
+      "start": 247.32,
+      "end": 250.07999999999998,
+      "text": "That inconsistency leads to miscommunication",
+      "words": []
+    },
+    {
+      "start": 250.07999999999998,
+      "end": 254.27999999999997,
+      "text": "and uncertainty about what information is actually current.",
+      "words": []
+    },
+    {
+      "start": 254.28,
+      "end": 257.56,
+      "text": "Even though we have quality control processes in place,",
+      "words": []
+    },
+    {
+      "start": 257.56,
+      "end": 259.36,
+      "text": "accessing the right data at the right time",
+      "words": []
+    },
+    {
+      "start": 259.36,
+      "end": 260.32,
+      "text": "can still be difficult.",
+      "words": []
+    },
+    {
+      "start": 261.48,
+      "end": 265.0,
+      "text": "Ultimately, what we found is our standards and processes",
+      "words": []
+    },
+    {
+      "start": 265.0,
+      "end": 266.28,
+      "text": "that need to be simpler,",
+      "words": []
+    },
+    {
+      "start": 266.28,
+      "end": 268.24,
+      "text": "more visible, and more automated",
+      "words": []
+    },
+    {
+      "start": 268.24,
+      "end": 269.88,
+      "text": "so they are consistently followed.",
+      "words": []
+    },
+    {
+      "start": 271.2,
+      "end": 272.24,
+      "text": "On most projects,",
+      "words": []
+    },
+    {
+      "start": 272.24,
+      "end": 274.12,
+      "text": "we already perform major quality checks",
+      "words": []
+    },
+    {
+      "start": 274.12,
+      "end": 276.48,
+      "text": "at 30, 60, and 90% completion.",
+      "words": []
+    },
+    {
+      "start": 277.36,
+      "end": 279.44,
+      "text": "These milestones are natural opportunities",
+      "words": []
+    },
+    {
+      "start": 279.44,
+      "end": 281.56,
+      "text": "to verify that the project gets on track,",
+      "words": []
+    },
+    {
+      "start": 281.56,
+      "end": 284.24,
+      "text": "and that the right data is being collected and reported.",
+      "words": []
+    },
+    {
+      "start": 284.24,
+      "end": 286.08,
+      "text": "From the initial pursuit phase,",
+      "words": []
+    },
+    {
+      "start": 286.08,
+      "end": 287.68,
+      "text": "all the way through final handover.",
+      "words": []
+    },
+    {
+      "start": 290.2,
+      "end": 291.88,
+      "text": "So the next challenge was figuring out",
+      "words": []
+    },
+    {
+      "start": 291.88,
+      "end": 294.12,
+      "text": "how to actually gather all this data",
+      "words": []
+    },
+    {
+      "start": 294.12,
+      "end": 296.28000000000003,
+      "text": "and turn it into something that could help our teams",
+      "words": []
+    },
+    {
+      "start": 296.28000000000003,
+      "end": 297.88,
+      "text": "deliver projects more efficiently.",
+      "words": []
+    },
+    {
+      "start": 299.24,
+      "end": 300.72,
+      "text": "Most of the information we needed",
+      "words": []
+    },
+    {
+      "start": 300.72,
+      "end": 302.8,
+      "text": "with an Autodesk Construction Cloud,",
+      "words": []
+    },
+    {
+      "start": 302.8,
+      "end": 304.2,
+      "text": "so the first step was determining",
+      "words": []
+    },
+    {
+      "start": 304.2,
+      "end": 306.44,
+      "text": "how to retrieve that data in a reliable way.",
+      "words": []
+    },
+    {
+      "start": 307.76,
+      "end": 310.52,
+      "text": "Autodesk provides several APIs that make this possible.",
+      "words": []
+    },
+    {
+      "start": 311.6,
+      "end": 313.2,
+      "text": "Our first attempt used GraphQL",
+      "words": []
+    },
+    {
+      "start": 313.2,
+      "end": 314.4,
+      "text": "to query the data we needed.",
+      "words": []
+    },
+    {
+      "start": 315.36,
+      "end": 316.8,
+      "text": "GraphQL is powerful,",
+      "words": []
+    },
+    {
+      "start": 316.8,
+      "end": 318.44,
+      "text": "but we quickly ran into a limitation.",
+      "words": []
+    },
+    {
+      "start": 319.47999999999996,
+      "end": 321.56,
+      "text": "It requires you to know exactly what data",
+      "words": []
+    },
+    {
+      "start": 321.56,
+      "end": 322.71999999999997,
+      "text": "you're looking for ahead of time",
+      "words": []
+    },
+    {
+      "start": 322.71999999999997,
+      "end": 324.2,
+      "text": "at a very granular level.",
+      "words": []
+    },
+    {
+      "start": 325.36,
+      "end": 327.28,
+      "text": "And dynamic project environment,",
+      "words": []
+    },
+    {
+      "start": 327.28,
+      "end": 330.2,
+      "text": "that makes it difficult to build something flexible and scalable.",
+      "words": []
+    },
+    {
+      "start": 331.36,
+      "end": 333.2,
+      "text": "It also made it harder for our teams",
+      "words": []
+    },
+    {
+      "start": 334.52,
+      "end": 336.03999999999996,
+      "text": "to quickly take that data",
+      "words": []
+    },
+    {
+      "start": 336.03999999999996,
+      "end": 338.15999999999997,
+      "text": "and pivot into reporting our analysis.",
+      "words": []
+    },
+    {
+      "start": 339.12,
+      "end": 340.56,
+      "text": "It was technically possible,",
+      "words": []
+    },
+    {
+      "start": 340.56,
+      "end": 341.71999999999997,
+      "text": "but the program using it",
+      "words": []
+    },
+    {
+      "start": 341.72,
+      "end": 343.96000000000004,
+      "text": "would need to be very robust and complex",
+      "words": []
+    },
+    {
+      "start": 343.96000000000004,
+      "end": 346.24,
+      "text": "and not dimension time consuming to build.",
+      "words": []
+    },
+    {
+      "start": 347.24,
+      "end": 348.56,
+      "text": "When it came down to it,",
+      "words": []
+    },
+    {
+      "start": 348.56,
+      "end": 349.76000000000005,
+      "text": "we needed to create a process",
+      "words": []
+    },
+    {
+      "start": 349.76000000000005,
+      "end": 352.40000000000003,
+      "text": "that was easily executable or autotriggered",
+      "words": []
+    },
+    {
+      "start": 352.40000000000003,
+      "end": 355.20000000000005,
+      "text": "and would query the data, report the data,",
+      "words": []
+    },
+    {
+      "start": 355.20000000000005,
+      "end": 357.28000000000003,
+      "text": "evaluate and analyze the data,",
+      "words": []
+    },
+    {
+      "start": 357.28000000000003,
+      "end": 359.04,
+      "text": "and execute commands or processes",
+      "words": []
+    },
+    {
+      "start": 359.04,
+      "end": 360.8,
+      "text": "using the data for the team or user.",
+      "words": []
+    },
+    {
+      "start": 362.36,
+      "end": 364.40000000000003,
+      "text": "With the emergence of MCP servers,",
+      "words": []
+    },
+    {
+      "start": 364.40000000000003,
+      "end": 366.92,
+      "text": "we finally had an easier way to make that possible.",
+      "words": []
+    },
+    {
+      "start": 367.84000000000003,
+      "end": 370.36,
+      "text": "By combining AI with MCP servers,",
+      "words": []
+    },
+    {
+      "start": 370.36,
+      "end": 373.44,
+      "text": "we could connect data across multiple systems and locations,",
+      "words": []
+    },
+    {
+      "start": 373.44,
+      "end": 376.36,
+      "text": "analyze it and use it to perform automated quality checks",
+      "words": []
+    },
+    {
+      "start": 376.36,
+      "end": 378.12,
+      "text": "throughout the lifecycle of a project.",
+      "words": []
+    },
+    {
+      "start": 380.24,
+      "end": 381.64,
+      "text": "When we applied those requirements,",
+      "words": []
+    },
+    {
+      "start": 381.64,
+      "end": 384.44,
+      "text": "this is the general architecture we developed.",
+      "words": []
+    },
+    {
+      "start": 384.44,
+      "end": 387.04,
+      "text": "We divided the implementation into two phases,",
+      "words": []
+    },
+    {
+      "start": 387.04,
+      "end": 389.68,
+      "text": "one before DevCon and one after DevCon.",
+      "words": []
+    },
+    {
+      "start": 390.76,
+      "end": 393.08000000000004,
+      "text": "Phase one is our proof of concept stage,",
+      "words": []
+    },
+    {
+      "start": 393.08000000000004,
+      "end": 394.56,
+      "text": "running in a sandbox environment.",
+      "words": []
+    },
+    {
+      "start": 395.52000000000004,
+      "end": 398.16,
+      "text": "In this stage, we started our development",
+      "words": []
+    },
+    {
+      "start": 398.16,
+      "end": 399.92,
+      "text": "using Cloud Desktop",
+      "words": []
+    },
+    {
+      "start": 399.92,
+      "end": 401.40000000000003,
+      "text": "because it made integration and testing",
+      "words": []
+    },
+    {
+      "start": 401.40000000000003,
+      "end": 402.8,
+      "text": "with MCP server simpler.",
+      "words": []
+    },
+    {
+      "start": 404.04,
+      "end": 406.84000000000003,
+      "text": "The MCP server itself was hosted on a local machine",
+      "words": []
+    },
+    {
+      "start": 406.84000000000003,
+      "end": 408.92,
+      "text": "and connected to a non-production hub in ACC.",
+      "words": []
+    },
+    {
+      "start": 410.44,
+      "end": 414.0,
+      "text": "At this stage, the automation was triggered manually.",
+      "words": []
+    },
+    {
+      "start": 414.0,
+      "end": 416.76,
+      "text": "A user would initiate the process with the prompt and cloud,",
+      "words": []
+    },
+    {
+      "start": 416.76,
+      "end": 418.48,
+      "text": "which would then call the MCP server",
+      "words": []
+    },
+    {
+      "start": 418.48,
+      "end": 420.44,
+      "text": "to retrieve and process the project data.",
+      "words": []
+    },
+    {
+      "start": 422.04,
+      "end": 423.72,
+      "text": "Phase two moves this system",
+      "words": []
+    },
+    {
+      "start": 423.72,
+      "end": 425.96000000000004,
+      "text": "towards a more scalable production model.",
+      "words": []
+    },
+    {
+      "start": 425.96000000000004,
+      "end": 427.96000000000004,
+      "text": "Instead of manually triggering the workflow,",
+      "words": []
+    },
+    {
+      "start": 427.96000000000004,
+      "end": 429.28000000000003,
+      "text": "the automation will run automatically",
+      "words": []
+    },
+    {
+      "start": 429.28,
+      "end": 430.88,
+      "text": "based on project milestones.",
+      "words": []
+    },
+    {
+      "start": 431.96,
+      "end": 435.47999999999996,
+      "text": "Also in Phase two, since our firm is a Microsoft shop,",
+      "words": []
+    },
+    {
+      "start": 435.47999999999996,
+      "end": 437.64,
+      "text": "we also planted ran-sition the AI agent",
+      "words": []
+    },
+    {
+      "start": 437.64,
+      "end": 439.4,
+      "text": "from Cloud to Microsoft co-pilot.",
+      "words": []
+    },
+    {
+      "start": 440.35999999999996,
+      "end": 442.67999999999995,
+      "text": "This allows users to access system,",
+      "words": []
+    },
+    {
+      "start": 442.67999999999995,
+      "end": 445.47999999999996,
+      "text": "the system from any application where co-pilot is available.",
+      "words": []
+    },
+    {
+      "start": 446.47999999999996,
+      "end": 449.84,
+      "text": "We'll also move the MCP server to a local machine",
+      "words": []
+    },
+    {
+      "start": 449.84,
+      "end": 453.0,
+      "text": "to a web host environment using Azure containers,",
+      "words": []
+    },
+    {
+      "start": 453.0,
+      "end": 455.71999999999997,
+      "text": "making it accessible and scalable across the organization.",
+      "words": []
+    },
+    {
+      "start": 456.72,
+      "end": 460.52000000000004,
+      "text": "From there, the MCP server will gather data through the APIs",
+      "words": []
+    },
+    {
+      "start": 460.52000000000004,
+      "end": 465.28000000000003,
+      "text": "and execute a workflow designed to perform automated quality checks",
+      "words": []
+    },
+    {
+      "start": 465.28000000000003,
+      "end": 469.28000000000003,
+      "text": "at key project milestones of 30, 60, 9, 800% completion.",
+      "words": []
+    },
+    {
+      "start": 470.56,
+      "end": 473.56,
+      "text": "Finally, the system can generate reports automatically.",
+      "words": []
+    },
+    {
+      "start": 474.40000000000003,
+      "end": 477.6,
+      "text": "Either as Excel spreadsheets or directly in ACC,",
+      "words": []
+    },
+    {
+      "start": 477.6,
+      "end": 479.56,
+      "text": "making the results visible to the project team.",
+      "words": []
+    },
+    {
+      "start": 480.76000000000005,
+      "end": 484.8,
+      "text": "This effectively turns the MCP server into a govern execution layer",
+      "words": []
+    },
+    {
+      "start": 484.96000000000004,
+      "end": 487.24,
+      "text": "between AI and our project systems.",
+      "words": []
+    },
+    {
+      "start": 489.8,
+      "end": 493.0,
+      "text": "And this next section will go into more detail of our MCP server.",
+      "words": []
+    },
+    {
+      "start": 495.84000000000003,
+      "end": 499.0,
+      "text": "I'm sure by now that everyone here knows what an MCP server is,",
+      "words": []
+    },
+    {
+      "start": 499.0,
+      "end": 500.76,
+      "text": "but for the sake of completeness,",
+      "words": []
+    },
+    {
+      "start": 500.76,
+      "end": 503.04,
+      "text": "MCP stands for Model Context Protocol.",
+      "words": []
+    },
+    {
+      "start": 503.96000000000004,
+      "end": 506.6,
+      "text": "An MCP server acts as a bridge between an AI agent",
+      "words": []
+    },
+    {
+      "start": 506.6,
+      "end": 509.16,
+      "text": "and the real systems that needs to interact with.",
+      "words": []
+    },
+    {
+      "start": 509.16,
+      "end": 512.16,
+      "text": "They can provide APIs, data, credentials, prompts,",
+      "words": []
+    },
+    {
+      "start": 512.16,
+      "end": 513.76,
+      "text": "and workflows.",
+      "words": []
+    },
+    {
+      "start": 513.76,
+      "end": 516.68,
+      "text": "You can think of it as a governed orchestration-like service.",
+      "words": []
+    },
+    {
+      "start": 518.24,
+      "end": 521.4,
+      "text": "It also allows an AI agent to safely discover,",
+      "words": []
+    },
+    {
+      "start": 521.4,
+      "end": 523.6,
+      "text": "reason about, and act on real systems",
+      "words": []
+    },
+    {
+      "start": 523.6,
+      "end": 525.6,
+      "text": "in a secure, structured and audible way.",
+      "words": []
+    },
+    {
+      "start": 526.96,
+      "end": 529.76,
+      "text": "The guest started, I followed the open source setup guide",
+      "words": []
+    },
+    {
+      "start": 529.76,
+      "end": 531.36,
+      "text": "from the GitHub repository,",
+      "words": []
+    },
+    {
+      "start": 531.36,
+      "end": 532.96,
+      "text": "linked in the corner of the slide,",
+      "words": []
+    },
+    {
+      "start": 532.96,
+      "end": 534.76,
+      "text": "and created the server using Python.",
+      "words": []
+    },
+    {
+      "start": 536.4,
+      "end": 539.68,
+      "text": "The key concept inside an MCP server is something called a tool.",
+      "words": []
+    },
+    {
+      "start": 540.68,
+      "end": 543.68,
+      "text": "In a nutshell, when you give your AI agent a prompt,",
+      "words": []
+    },
+    {
+      "start": 543.68,
+      "end": 545.28,
+      "text": "it will search through a set of tools",
+      "words": []
+    },
+    {
+      "start": 545.28,
+      "end": 547.1999999999999,
+      "text": "which are similar to functions or methods,",
+      "words": []
+    },
+    {
+      "start": 547.1999999999999,
+      "end": 549.5999999999999,
+      "text": "except those have to be called directly by name.",
+      "words": []
+    },
+    {
+      "start": 550.56,
+      "end": 553.3599999999999,
+      "text": "With the tool, the agent reads through the definitions",
+      "words": []
+    },
+    {
+      "start": 553.3599999999999,
+      "end": 555.56,
+      "text": "and reasons whether or not that tool should be used",
+      "words": []
+    },
+    {
+      "start": 555.56,
+      "end": 556.76,
+      "text": "to accomplish its task.",
+      "words": []
+    },
+    {
+      "start": 557.64,
+      "end": 560.0,
+      "text": "If the agent determines that the tool is relevant,",
+      "words": []
+    },
+    {
+      "start": 560.0,
+      "end": 562.04,
+      "text": "it figures out what arguments to provide",
+      "words": []
+    },
+    {
+      "start": 562.04,
+      "end": 564.88,
+      "text": "and executes the code associated with that tool.",
+      "words": []
+    },
+    {
+      "start": 566.56,
+      "end": 567.68,
+      "text": "For most of my tools,",
+      "words": []
+    },
+    {
+      "start": 567.8,
+      "end": 571.04,
+      "text": "I actually use my IDE's AI coding assistance to generate them.",
+      "words": []
+    },
+    {
+      "start": 572.0,
+      "end": 573.8,
+      "text": "I would simply prompt something like,",
+      "words": []
+    },
+    {
+      "start": 573.8,
+      "end": 577.28,
+      "text": "can you write me an MCP tool that uses the Autodesk ACC APIs",
+      "words": []
+    },
+    {
+      "start": 577.28,
+      "end": 579.0,
+      "text": "to do blank?",
+      "words": []
+    },
+    {
+      "start": 579.0,
+      "end": 581.88,
+      "text": "And it would create a for me, and I could refine it as needed.",
+      "words": []
+    },
+    {
+      "start": 582.92,
+      "end": 586.0,
+      "text": "Whenever I needed access to another API or new process,",
+      "words": []
+    },
+    {
+      "start": 586.0,
+      "end": 587.3199999999999,
+      "text": "I would create another tool.",
+      "words": []
+    },
+    {
+      "start": 588.8399999999999,
+      "end": 591.4799999999999,
+      "text": "Because of how modular MCP tools are,",
+      "words": []
+    },
+    {
+      "start": 591.4799999999999,
+      "end": 593.3599999999999,
+      "text": "and how easy they are to create,",
+      "words": []
+    },
+    {
+      "start": 593.3599999999999,
+      "end": 595.7199999999999,
+      "text": "development moved extremely quickly.",
+      "words": []
+    },
+    {
+      "start": 595.76,
+      "end": 597.4,
+      "text": "So quickly, in fact, that at one point,",
+      "words": []
+    },
+    {
+      "start": 597.4,
+      "end": 598.8000000000001,
+      "text": "I had to pause development,",
+      "words": []
+    },
+    {
+      "start": 598.8000000000001,
+      "end": 600.08,
+      "text": "so the rest of the team could catch up",
+      "words": []
+    },
+    {
+      "start": 600.08,
+      "end": 602.08,
+      "text": "with their processes and test documents.",
+      "words": []
+    },
+    {
+      "start": 603.2,
+      "end": 605.44,
+      "text": "Once you understand MCP tools,",
+      "words": []
+    },
+    {
+      "start": 605.44,
+      "end": 608.8000000000001,
+      "text": "you realize you're not building one big application anymore.",
+      "words": []
+    },
+    {
+      "start": 608.8000000000001,
+      "end": 610.52,
+      "text": "You're building a capability library",
+      "words": []
+    },
+    {
+      "start": 610.52,
+      "end": 612.08,
+      "text": "that the AI can reason over.",
+      "words": []
+    },
+    {
+      "start": 613.96,
+      "end": 617.2,
+      "text": "But whether you're vibe coding or writing the traditional way,",
+      "words": []
+    },
+    {
+      "start": 617.2,
+      "end": 619.2,
+      "text": "one of the most important things to pay attention to",
+      "words": []
+    },
+    {
+      "start": 619.2,
+      "end": 620.64,
+      "text": "is a tool definition,",
+      "words": []
+    },
+    {
+      "start": 620.64,
+      "end": 622.44,
+      "text": "which looks like a Python doc string.",
+      "words": []
+    },
+    {
+      "start": 623.32,
+      "end": 625.8000000000001,
+      "text": "This is a string with a three double quotes on each side",
+      "words": []
+    },
+    {
+      "start": 625.8000000000001,
+      "end": 626.84,
+      "text": "following the tool name.",
+      "words": []
+    },
+    {
+      "start": 627.84,
+      "end": 630.2,
+      "text": "It describes what your tool's purpose is,",
+      "words": []
+    },
+    {
+      "start": 630.2,
+      "end": 632.8000000000001,
+      "text": "what arguments it takes, and what results it will return.",
+      "words": []
+    },
+    {
+      "start": 633.84,
+      "end": 635.32,
+      "text": "Like I said in the last slide,",
+      "words": []
+    },
+    {
+      "start": 635.32,
+      "end": 637.24,
+      "text": "your AI agent reads this description",
+      "words": []
+    },
+    {
+      "start": 637.24,
+      "end": 639.0400000000001,
+      "text": "to determine whether the tool can help",
+      "words": []
+    },
+    {
+      "start": 639.0400000000001,
+      "end": 641.5200000000001,
+      "text": "it accomplish this task it was given.",
+      "words": []
+    },
+    {
+      "start": 641.5200000000001,
+      "end": 642.96,
+      "text": "If the tool looks relevant,",
+      "words": []
+    },
+    {
+      "start": 642.96,
+      "end": 644.6800000000001,
+      "text": "the agent will generate the arguments",
+      "words": []
+    },
+    {
+      "start": 644.6800000000001,
+      "end": 646.7600000000001,
+      "text": "and execute the code associated with it.",
+      "words": []
+    },
+    {
+      "start": 648.0,
+      "end": 651.1600000000001,
+      "text": "The agent may also call helper functions inside your script.",
+      "words": []
+    },
+    {
+      "start": 652.44,
+      "end": 656.12,
+      "text": "Because of this, the clarity of the definition is critical.",
+      "words": []
+    },
+    {
+      "start": 656.12,
+      "end": 658.6400000000001,
+      "text": "The AI is essentially reasoning over these descriptions",
+      "words": []
+    },
+    {
+      "start": 658.6400000000001,
+      "end": 660.24,
+      "text": "to decide what actions it can take.",
+      "words": []
+    },
+    {
+      "start": 661.1600000000001,
+      "end": 662.84,
+      "text": "You can also use the definitions",
+      "words": []
+    },
+    {
+      "start": 662.84,
+      "end": 665.0400000000001,
+      "text": "to guide how prompts you trigger the tool.",
+      "words": []
+    },
+    {
+      "start": 666.12,
+      "end": 668.32,
+      "text": "For example, I added separate tools",
+      "words": []
+    },
+    {
+      "start": 668.32,
+      "end": 671.72,
+      "text": "for the Autodesk issues API and the reviews API.",
+      "words": []
+    },
+    {
+      "start": 671.72,
+      "end": 673.2800000000001,
+      "text": "And at first when I'd ask my agent",
+      "words": []
+    },
+    {
+      "start": 673.2800000000001,
+      "end": 674.8800000000001,
+      "text": "if there were any open reviews,",
+      "words": []
+    },
+    {
+      "start": 674.8800000000001,
+      "end": 677.0400000000001,
+      "text": "it would only look for issues and RFIs.",
+      "words": []
+    },
+    {
+      "start": 678.0400000000001,
+      "end": 680.8000000000001,
+      "text": "Part of this problem turned out to be terminology.",
+      "words": []
+    },
+    {
+      "start": 680.8,
+      "end": 683.76,
+      "text": "Because in ACC, document reviews are actually referred",
+      "words": []
+    },
+    {
+      "start": 683.76,
+      "end": 685.68,
+      "text": "to as document review markups.",
+      "words": []
+    },
+    {
+      "start": 686.8,
+      "end": 688.64,
+      "text": "So I updated the tool definition,",
+      "words": []
+    },
+    {
+      "start": 688.64,
+      "end": 693.0,
+      "text": "cooks explicitly say that if a user asks for reviews,",
+      "words": []
+    },
+    {
+      "start": 693.0,
+      "end": 695.4,
+      "text": "the agent should check the document review markups first",
+      "words": []
+    },
+    {
+      "start": 695.4,
+      "end": 697.8399999999999,
+      "text": "before checking issues and RFIs.",
+      "words": []
+    },
+    {
+      "start": 699.3199999999999,
+      "end": 702.4799999999999,
+      "text": "And one trick that's helpful to actually",
+      "words": []
+    },
+    {
+      "start": 702.4799999999999,
+      "end": 705.12,
+      "text": "is to actually have an AI agent write the tool description.",
+      "words": []
+    },
+    {
+      "start": 706.28,
+      "end": 710.0,
+      "text": "Since AI understands how other AI systems interpret language,",
+      "words": []
+    },
+    {
+      "start": 710.0,
+      "end": 712.4,
+      "text": "they can often produce clearer definitions",
+      "words": []
+    },
+    {
+      "start": 712.4,
+      "end": 713.92,
+      "text": "that we might write ourselves.",
+      "words": []
+    },
+    {
+      "start": 714.88,
+      "end": 716.88,
+      "text": "When I do that, I give it clear instructions",
+      "words": []
+    },
+    {
+      "start": 716.88,
+      "end": 720.04,
+      "text": "about the purpose of my tool, ways to call the tool,",
+      "words": []
+    },
+    {
+      "start": 720.04,
+      "end": 721.68,
+      "text": "and any warnings or edge cases",
+      "words": []
+    },
+    {
+      "start": 721.68,
+      "end": 723.88,
+      "text": "that the agent should watch out for when using it.",
+      "words": []
+    },
+    {
+      "start": 726.2,
+      "end": 728.28,
+      "text": "To make this approach viable at scale,",
+      "words": []
+    },
+    {
+      "start": 728.28,
+      "end": 730.04,
+      "text": "we had to be very intentional about the requirement",
+      "words": []
+    },
+    {
+      "start": 730.04,
+      "end": 731.0,
+      "text": "set from the start.",
+      "words": []
+    },
+    {
+      "start": 732.24,
+      "end": 735.68,
+      "text": "First, the solution couldn't depend on a single software silo.",
+      "words": []
+    },
+    {
+      "start": 735.68,
+      "end": 738.76,
+      "text": "Our teams already work across a wide ecosystem of tools",
+      "words": []
+    },
+    {
+      "start": 738.76,
+      "end": 740.84,
+      "text": "and introducing another tightly coupled system",
+      "words": []
+    },
+    {
+      "start": 740.84,
+      "end": 742.88,
+      "text": "would only add friction instead of reducing it.",
+      "words": []
+    },
+    {
+      "start": 743.96,
+      "end": 745.88,
+      "text": "We also need a visibility at the hub level,",
+      "words": []
+    },
+    {
+      "start": 745.88,
+      "end": 747.36,
+      "text": "not just one project at a time.",
+      "words": []
+    },
+    {
+      "start": 748.4399999999999,
+      "end": 750.84,
+      "text": "The system had to be able to look across ACC",
+      "words": []
+    },
+    {
+      "start": 750.84,
+      "end": 752.72,
+      "text": "at an enterprise scale,",
+      "words": []
+    },
+    {
+      "start": 752.72,
+      "end": 754.92,
+      "text": "whether that's by market sector, building type,",
+      "words": []
+    },
+    {
+      "start": 754.92,
+      "end": 756.6,
+      "text": "or overall portfolio health.",
+      "words": []
+    },
+    {
+      "start": 757.72,
+      "end": 760.4,
+      "text": "At the same time, we couldn't sacrifice detail.",
+      "words": []
+    },
+    {
+      "start": 761.4399999999999,
+      "end": 763.48,
+      "text": "Any analysis or automation needed to run",
+      "words": []
+    },
+    {
+      "start": 763.48,
+      "end": 765.8,
+      "text": "against live current project data,",
+      "words": []
+    },
+    {
+      "start": 765.8,
+      "end": 767.16,
+      "text": "so the decisions are always based",
+      "words": []
+    },
+    {
+      "start": 767.16,
+      "end": 768.4399999999999,
+      "text": "on what's happening right now.",
+      "words": []
+    },
+    {
+      "start": 770.0,
+      "end": 773.28,
+      "text": "Another key requirement was centralization of access,",
+      "words": []
+    },
+    {
+      "start": 773.28,
+      "end": 775.4399999999999,
+      "text": "not centralization of data.",
+      "words": []
+    },
+    {
+      "start": 775.4399999999999,
+      "end": 778.48,
+      "text": "We didn't want to move or duplicate project data.",
+      "words": []
+    },
+    {
+      "start": 778.48,
+      "end": 779.88,
+      "text": "Instead, we needed a single place",
+      "words": []
+    },
+    {
+      "start": 779.88,
+      "end": 783.12,
+      "text": "where we could securely connect to multiple APIs,",
+      "words": []
+    },
+    {
+      "start": 783.12,
+      "end": 785.3199999999999,
+      "text": "reason over that data and take action,",
+      "words": []
+    },
+    {
+      "start": 785.3199999999999,
+      "end": 786.7199999999999,
+      "text": "while letting teams continue working",
+      "words": []
+    },
+    {
+      "start": 786.7199999999999,
+      "end": 788.24,
+      "text": "in the tools they already use.",
+      "words": []
+    },
+    {
+      "start": 789.24,
+      "end": 790.6,
+      "text": "From a user perspective,",
+      "words": []
+    },
+    {
+      "start": 790.6,
+      "end": 793.24,
+      "text": "the experience also had to remain lightweight.",
+      "words": []
+    },
+    {
+      "start": 794.4,
+      "end": 796.4,
+      "text": "Engineers, project managers, and QA teams",
+      "words": []
+    },
+    {
+      "start": 796.4,
+      "end": 798.36,
+      "text": "shouldn't need to learn new systems",
+      "words": []
+    },
+    {
+      "start": 798.36,
+      "end": 799.76,
+      "text": "or manage complicated setups",
+      "words": []
+    },
+    {
+      "start": 799.76,
+      "end": 801.3199999999999,
+      "text": "just a bit of fit for automation.",
+      "words": []
+    },
+    {
+      "start": 802.36,
+      "end": 803.9599999999999,
+      "text": "On the development side,",
+      "words": []
+    },
+    {
+      "start": 803.9599999999999,
+      "end": 806.64,
+      "text": "speed and flexibility were critical.",
+      "words": []
+    },
+    {
+      "start": 806.64,
+      "end": 809.76,
+      "text": "We needed something that was easy to iterate on,",
+      "words": []
+    },
+    {
+      "start": 809.76,
+      "end": 813.0,
+      "text": "simple to extend and adaptable as requirements evolved,",
+      "words": []
+    },
+    {
+      "start": 813.0,
+      "end": 813.9599999999999,
+      "text": "which they always do.",
+      "words": []
+    },
+    {
+      "start": 815.3199999999999,
+      "end": 817.72,
+      "text": "That meant our developers needed to be able to plug in",
+      "words": []
+    },
+    {
+      "start": 817.72,
+      "end": 820.28,
+      "text": "new APIs, work closer data sources,",
+      "words": []
+    },
+    {
+      "start": 820.28,
+      "end": 822.6,
+      "text": "without constantly refactoring the entire system.",
+      "words": []
+    },
+    {
+      "start": 823.6,
+      "end": 826.6,
+      "text": "We also knew we needed reliable access to project data",
+      "words": []
+    },
+    {
+      "start": 826.6,
+      "end": 828.32,
+      "text": "across ACC docs and bill.",
+      "words": []
+    },
+    {
+      "start": 829.6,
+      "end": 832.76,
+      "text": "Finally, we wanted the architecture to be future proof,",
+      "words": []
+    },
+    {
+      "start": 832.76,
+      "end": 834.96,
+      "text": "not tied to one vendor, one platform,",
+      "words": []
+    },
+    {
+      "start": 834.96,
+      "end": 837.32,
+      "text": "or one specific API structure.",
+      "words": []
+    },
+    {
+      "start": 837.32,
+      "end": 839.28,
+      "text": "That way, if new tools come online",
+      "words": []
+    },
+    {
+      "start": 839.28,
+      "end": 840.96,
+      "text": "or existing systems evolve,",
+      "words": []
+    },
+    {
+      "start": 840.96,
+      "end": 843.0,
+      "text": "we should be able to plug them into the architecture",
+      "words": []
+    },
+    {
+      "start": 843.0,
+      "end": 844.48,
+      "text": "without redesigning everything.",
+      "words": []
+    },
+    {
+      "start": 845.36,
+      "end": 848.24,
+      "text": "These requirements ultimately become the foundation",
+      "words": []
+    },
+    {
+      "start": 848.24,
+      "end": 851.12,
+      "text": "that guided every technical decision we made moving forward.",
+      "words": []
+    },
+    {
+      "start": 853.48,
+      "end": 855.24,
+      "text": "So this next section goes over a few ways",
+      "words": []
+    },
+    {
+      "start": 855.24,
+      "end": 857.0400000000001,
+      "text": "we implemented our MCP server.",
+      "words": []
+    },
+    {
+      "start": 859.6800000000001,
+      "end": 861.44,
+      "text": "This slide shows the Autodesk APIs",
+      "words": []
+    },
+    {
+      "start": 861.44,
+      "end": 863.36,
+      "text": "that we integrated into the MCP server.",
+      "words": []
+    },
+    {
+      "start": 864.28,
+      "end": 866.44,
+      "text": "To build this out, I worked through the APS developer",
+      "words": []
+    },
+    {
+      "start": 866.44,
+      "end": 868.24,
+      "text": "documentation and added the APIs",
+      "words": []
+    },
+    {
+      "start": 868.24,
+      "end": 871.0400000000001,
+      "text": "that would give us the most useful access to data across ACC.",
+      "words": []
+    },
+    {
+      "start": 872.08,
+      "end": 875.2,
+      "text": "I also implemented an automated authentication workflow",
+      "words": []
+    },
+    {
+      "start": 875.2,
+      "end": 877.0,
+      "text": "using the authentication API,",
+      "words": []
+    },
+    {
+      "start": 877.0,
+      "end": 879.52,
+      "text": "which handles token generation and renewal.",
+      "words": []
+    },
+    {
+      "start": 879.52,
+      "end": 882.24,
+      "text": "So the server can continuously interact with ACC",
+      "words": []
+    },
+    {
+      "start": 882.24,
+      "end": 883.64,
+      "text": "without manual intervention.",
+      "words": []
+    },
+    {
+      "start": 885.28,
+      "end": 886.44,
+      "text": "Each of these APIs",
+      "words": []
+    },
+    {
+      "start": 886.44,
+      "end": 889.24,
+      "text": "exposes a different part of the ACC ecosystem,",
+      "words": []
+    },
+    {
+      "start": 889.24,
+      "end": 891.16,
+      "text": "allowing the MCP server to both retrieve",
+      "words": []
+    },
+    {
+      "start": 891.16,
+      "end": 893.8,
+      "text": "and post-project data as part of its workflows.",
+      "words": []
+    },
+    {
+      "start": 894.72,
+      "end": 897.28,
+      "text": "I'll show a few examples here in a little bit.",
+      "words": []
+    },
+    {
+      "start": 897.28,
+      "end": 899.88,
+      "text": "As you can see, we were able to leverage GraphQL,",
+      "words": []
+    },
+    {
+      "start": 899.88,
+      "end": 902.32,
+      "text": "which we experimented on early in the project.",
+      "words": []
+    },
+    {
+      "start": 903.24,
+      "end": 905.36,
+      "text": "The difference now is that instead of us writing",
+      "words": []
+    },
+    {
+      "start": 905.36,
+      "end": 907.24,
+      "text": "static queries ahead of time,",
+      "words": []
+    },
+    {
+      "start": 907.24,
+      "end": 910.16,
+      "text": "the AI agent can dynamically generate the GraphQL queries",
+      "words": []
+    },
+    {
+      "start": 910.16,
+      "end": 912.28,
+      "text": "it needs, and then use the results as inputs",
+      "words": []
+    },
+    {
+      "start": 912.28,
+      "end": 913.7199999999999,
+      "text": "for the next step in the workflow.",
+      "words": []
+    },
+    {
+      "start": 914.9599999999999,
+      "end": 917.64,
+      "text": "That ability to generate and chain queries automatically",
+      "words": []
+    },
+    {
+      "start": 917.64,
+      "end": 919.64,
+      "text": "is what really makes us architecture powerful.",
+      "words": []
+    },
+    {
+      "start": 920.76,
+      "end": 924.04,
+      "text": "Now, I should also mention that this is still an evolving system.",
+      "words": []
+    },
+    {
+      "start": 924.04,
+      "end": 926.52,
+      "text": "Some of these tools are fully implemented and tested",
+      "words": []
+    },
+    {
+      "start": 926.52,
+      "end": 928.1999999999999,
+      "text": "while others are still in development",
+      "words": []
+    },
+    {
+      "start": 928.1999999999999,
+      "end": 930.52,
+      "text": "as we continue expanding the server's capabilities.",
+      "words": []
+    },
+    {
+      "start": 931.4399999999999,
+      "end": 933.8,
+      "text": "Unfortunately, part of that process was interrupted",
+      "words": []
+    },
+    {
+      "start": 933.8,
+      "end": 935.56,
+      "text": "by the cloud platform restrictions,",
+      "words": []
+    },
+    {
+      "start": 935.56,
+      "end": 938.36,
+      "text": "the US government enacted them at the beginning of March.",
+      "words": []
+    },
+    {
+      "start": 938.36,
+      "end": 940.72,
+      "text": "But the overall architecture remains the same,",
+      "words": []
+    },
+    {
+      "start": 940.72,
+      "end": 942.6800000000001,
+      "text": "and development is continuing as we tradition",
+      "words": []
+    },
+    {
+      "start": 942.6800000000001,
+      "end": 943.92,
+      "text": "towards our next phase.",
+      "words": []
+    },
+    {
+      "start": 946.6800000000001,
+      "end": 948.76,
+      "text": "In addition to the Autodesk APIs,",
+      "words": []
+    },
+    {
+      "start": 948.76,
+      "end": 950.28,
+      "text": "we also created several other tools",
+      "words": []
+    },
+    {
+      "start": 950.28,
+      "end": 952.12,
+      "text": "to expand what the MCP server could do.",
+      "words": []
+    },
+    {
+      "start": 953.16,
+      "end": 957.2,
+      "text": "For document workflows, we integrated Blooping APIs.",
+      "words": []
+    },
+    {
+      "start": 957.2,
+      "end": 960.8000000000001,
+      "text": "These allowed the AI agent to open, edit, and compare PDFs",
+      "words": []
+    },
+    {
+      "start": 960.8000000000001,
+      "end": 962.84,
+      "text": "with a locally and Blooming on the desktop",
+      "words": []
+    },
+    {
+      "start": 962.84,
+      "end": 964.48,
+      "text": "or in Blooming Studio in the cloud.",
+      "words": []
+    },
+    {
+      "start": 965.8000000000001,
+      "end": 968.34,
+      "text": "We also created several tools for working with Excel files",
+      "words": []
+    },
+    {
+      "start": 968.34,
+      "end": 970.94,
+      "text": "using the Python library OpenPy Excel.",
+      "words": []
+    },
+    {
+      "start": 972.48,
+      "end": 975.3000000000001,
+      "text": "These tools allowed the agent to read Excel spreadsheets",
+      "words": []
+    },
+    {
+      "start": 975.3000000000001,
+      "end": 978.7,
+      "text": "as well as the spec metadata about the workbooks and sheets.",
+      "words": []
+    },
+    {
+      "start": 979.98,
+      "end": 982.22,
+      "text": "Another important capability was working directly",
+      "words": []
+    },
+    {
+      "start": 982.22,
+      "end": 983.74,
+      "text": "with the files stored in ACC.",
+      "words": []
+    },
+    {
+      "start": 984.7,
+      "end": 987.74,
+      "text": "To do this, we built tools that combine the ACC APIs",
+      "words": []
+    },
+    {
+      "start": 987.74,
+      "end": 990.94,
+      "text": "and data management APIs to retrieve secure download URLs",
+      "words": []
+    },
+    {
+      "start": 990.94,
+      "end": 991.86,
+      "text": "for the files.",
+      "words": []
+    },
+    {
+      "start": 993.14,
+      "end": 994.7800000000001,
+      "text": "Once the files are downloaded,",
+      "words": []
+    },
+    {
+      "start": 994.7800000000001,
+      "end": 998.1,
+      "text": "a separate Python-based reader tool processes the contents",
+      "words": []
+    },
+    {
+      "start": 998.1,
+      "end": 1000.58,
+      "text": "so that the AI agent can analyze them.",
+      "words": []
+    },
+    {
+      "start": 1002.26,
+      "end": 1004.98,
+      "text": "One nice feature when testing this in cloud",
+      "words": []
+    },
+    {
+      "start": 1004.98,
+      "end": 1006.0,
+      "text": "is that you can actually see",
+      "words": []
+    },
+    {
+      "start": 1006.0,
+      "end": 1008.0600000000001,
+      "text": "when the AI agent decides to use a tool.",
+      "words": []
+    },
+    {
+      "start": 1009.4200000000001,
+      "end": 1011.52,
+      "text": "If you expand the tool activity panel,",
+      "words": []
+    },
+    {
+      "start": 1011.52,
+      "end": 1013.9,
+      "text": "you can see exactly what steps the agent took",
+      "words": []
+    },
+    {
+      "start": 1013.9,
+      "end": 1015.02,
+      "text": "to complete its task.",
+      "words": []
+    },
+    {
+      "start": 1015.98,
+      "end": 1017.6,
+      "text": "In the example shown here,",
+      "words": []
+    },
+    {
+      "start": 1017.6,
+      "end": 1020.58,
+      "text": "cloud is comparing a PDF to a cell sheet stored in ACC.",
+      "words": []
+    },
+    {
+      "start": 1021.58,
+      "end": 1025.66,
+      "text": "First, it uses download ACC file tool to retrieve the files.",
+      "words": []
+    },
+    {
+      "start": 1025.66,
+      "end": 1028.06,
+      "text": "Then it switches to the re-downloaded file tool",
+      "words": []
+    },
+    {
+      "start": 1028.06,
+      "end": 1029.26,
+      "text": "to analyze the PDF.",
+      "words": []
+    },
+    {
+      "start": 1030.26,
+      "end": 1031.34,
+      "text": "For the Excel file,",
+      "words": []
+    },
+    {
+      "start": 1031.34,
+      "end": 1033.3799999999999,
+      "text": "the agent first calls get Excel info",
+      "words": []
+    },
+    {
+      "start": 1033.3799999999999,
+      "end": 1035.34,
+      "text": "to inspect the workbook metadata",
+      "words": []
+    },
+    {
+      "start": 1035.34,
+      "end": 1037.02,
+      "text": "and then reads the Excel spreadsheet itself",
+      "words": []
+    },
+    {
+      "start": 1037.02,
+      "end": 1038.7,
+      "text": "to continue the comparison.",
+      "words": []
+    },
+    {
+      "start": 1040.02,
+      "end": 1042.58,
+      "text": "This step-by-step reasoning is really helpful",
+      "words": []
+    },
+    {
+      "start": 1042.58,
+      "end": 1044.8999999999999,
+      "text": "during development because it lets you see exactly",
+      "words": []
+    },
+    {
+      "start": 1044.8999999999999,
+      "end": 1047.74,
+      "text": "how the agent is selecting and changing things together.",
+      "words": []
+    },
+    {
+      "start": 1049.46,
+      "end": 1051.3799999999999,
+      "text": "Now let's look at a few examples of the kind of outputs",
+      "words": []
+    },
+    {
+      "start": 1051.3799999999999,
+      "end": 1054.34,
+      "text": "we can generate once the MCP server is in place.",
+      "words": []
+    },
+    {
+      "start": 1055.34,
+      "end": 1056.86,
+      "text": "In this example,",
+      "words": []
+    },
+    {
+      "start": 1056.86,
+      "end": 1059.1399999999999,
+      "text": "the prompt I gave the AI agent was simply",
+      "words": []
+    },
+    {
+      "start": 1059.1399999999999,
+      "end": 1061.9399999999998,
+      "text": "what files are part of this ACC project.",
+      "words": []
+    },
+    {
+      "start": 1062.98,
+      "end": 1064.62,
+      "text": "After confirming the request,",
+      "words": []
+    },
+    {
+      "start": 1064.62,
+      "end": 1067.86,
+      "text": "the agent begins by calling the APS data management integration,",
+      "words": []
+    },
+    {
+      "start": 1067.86,
+      "end": 1071.26,
+      "text": "which you can see referenced in gray after the first line.",
+      "words": []
+    },
+    {
+      "start": 1071.26,
+      "end": 1073.9399999999998,
+      "text": "That's the name I gave the MCP server",
+      "words": []
+    },
+    {
+      "start": 1073.9399999999998,
+      "end": 1075.1799999999998,
+      "text": "when connecting it to cloud.",
+      "words": []
+    },
+    {
+      "start": 1076.6999999999998,
+      "end": 1079.1399999999999,
+      "text": "From there, the agent identifies the project",
+      "words": []
+    },
+    {
+      "start": 1079.1399999999999,
+      "end": 1080.82,
+      "text": "and calls the project tools file.",
+      "words": []
+    },
+    {
+      "start": 1081.78,
+      "end": 1084.6599999999999,
+      "text": "That tool queries ACC and retrieves information",
+      "words": []
+    },
+    {
+      "start": 1084.6599999999999,
+      "end": 1086.34,
+      "text": "about the files stored in the project.",
+      "words": []
+    },
+    {
+      "start": 1087.58,
+      "end": 1088.78,
+      "text": "Once the data is returned,",
+      "words": []
+    },
+    {
+      "start": 1088.78,
+      "end": 1091.22,
+      "text": "the agent summarizes the results.",
+      "words": []
+    },
+    {
+      "start": 1091.22,
+      "end": 1094.9399999999998,
+      "text": "In this case, it determines the project contains 19 files",
+      "words": []
+    },
+    {
+      "start": 1094.9399999999998,
+      "end": 1096.82,
+      "text": "and then it lists and categorizes them.",
+      "words": []
+    },
+    {
+      "start": 1097.9399999999998,
+      "end": 1099.8999999999999,
+      "text": "Finally, it generates a short description",
+      "words": []
+    },
+    {
+      "start": 1099.8999999999999,
+      "end": 1102.9399999999998,
+      "text": "summarizing what types of files are included in the project.",
+      "words": []
+    },
+    {
+      "start": 1102.9399999999998,
+      "end": 1104.22,
+      "text": "So instead of manually navigating",
+      "words": []
+    },
+    {
+      "start": 1104.22,
+      "end": 1106.02,
+      "text": "through folders and interfaces,",
+      "words": []
+    },
+    {
+      "start": 1106.02,
+      "end": 1109.26,
+      "text": "the AI agent is able to query the project directly",
+      "words": []
+    },
+    {
+      "start": 1109.26,
+      "end": 1110.54,
+      "text": "and interpret the results",
+      "words": []
+    },
+    {
+      "start": 1110.54,
+      "end": 1112.54,
+      "text": "and present a structured summary of the data.",
+      "words": []
+    },
+    {
+      "start": 1113.9,
+      "end": 1116.7,
+      "text": "What's powerful here isn't just retrieving the files.",
+      "words": []
+    },
+    {
+      "start": 1116.7,
+      "end": 1118.98,
+      "text": "It's that the agent can now use this information",
+      "words": []
+    },
+    {
+      "start": 1118.98,
+      "end": 1121.18,
+      "text": "as context for the next step in the workflow.",
+      "words": []
+    },
+    {
+      "start": 1123.62,
+      "end": 1125.46,
+      "text": "For this next example,",
+      "words": []
+    },
+    {
+      "start": 1125.46,
+      "end": 1127.54,
+      "text": "it focuses on reviews in the build module.",
+      "words": []
+    },
+    {
+      "start": 1129.5,
+      "end": 1130.82,
+      "text": "For this prompt, I simply asked,",
+      "words": []
+    },
+    {
+      "start": 1130.82,
+      "end": 1133.34,
+      "text": "are there any reviews or tasks assigned to me in ACC?",
+      "words": []
+    },
+    {
+      "start": 1134.34,
+      "end": 1136.18,
+      "text": "The agent immediately retrieves the results",
+      "words": []
+    },
+    {
+      "start": 1136.18,
+      "end": 1138.7,
+      "text": "and presents the items assigned to me.",
+      "words": []
+    },
+    {
+      "start": 1138.7,
+      "end": 1140.3400000000001,
+      "text": "If you look at the bottom of the screenshot,",
+      "words": []
+    },
+    {
+      "start": 1140.3400000000001,
+      "end": 1141.5800000000002,
+      "text": "you notice something interesting.",
+      "words": []
+    },
+    {
+      "start": 1142.54,
+      "end": 1144.94,
+      "text": "Earlier I talked about how important the two definitions are",
+      "words": []
+    },
+    {
+      "start": 1144.94,
+      "end": 1147.66,
+      "text": "for helping AI understand what actions it should take.",
+      "words": []
+    },
+    {
+      "start": 1147.66,
+      "end": 1149.42,
+      "text": "And I mentioned that I had to update definitions",
+      "words": []
+    },
+    {
+      "start": 1149.42,
+      "end": 1150.94,
+      "text": "to check for document review markups",
+      "words": []
+    },
+    {
+      "start": 1150.94,
+      "end": 1153.6200000000001,
+      "text": "before looking for issues and RFIs.",
+      "words": []
+    },
+    {
+      "start": 1153.6200000000001,
+      "end": 1156.38,
+      "text": "You can see that reasoning happening here.",
+      "words": []
+    },
+    {
+      "start": 1156.38,
+      "end": 1158.74,
+      "text": "The agent explicitly states that a check for issues",
+      "words": []
+    },
+    {
+      "start": 1158.74,
+      "end": 1163.7,
+      "text": "it gets assigned to me and then it found none.",
+      "words": []
+    },
+    {
+      "start": 1163.7,
+      "end": 1165.42,
+      "text": "So with a single prompt,",
+      "words": []
+    },
+    {
+      "start": 1165.42,
+      "end": 1168.02,
+      "text": "the agent is able to query multiple systems,",
+      "words": []
+    },
+    {
+      "start": 1168.02,
+      "end": 1170.06,
+      "text": "interpret the terminology correctly",
+      "words": []
+    },
+    {
+      "start": 1170.06,
+      "end": 1171.78,
+      "text": "and return a consolidated result.",
+      "words": []
+    },
+    {
+      "start": 1174.1399999999999,
+      "end": 1176.3799999999999,
+      "text": "Continuing with that same cloud session,",
+      "words": []
+    },
+    {
+      "start": 1176.3799999999999,
+      "end": 1178.7,
+      "text": "I then asked a follow up question,",
+      "words": []
+    },
+    {
+      "start": 1178.7,
+      "end": 1180.7,
+      "text": "what are the details of the open reviews?",
+      "words": []
+    },
+    {
+      "start": 1181.66,
+      "end": 1184.3,
+      "text": "The agent first checks to see whether there are any other tools",
+      "words": []
+    },
+    {
+      "start": 1184.3,
+      "end": 1186.1399999999999,
+      "text": "they can use to get more information.",
+      "words": []
+    },
+    {
+      "start": 1186.1399999999999,
+      "end": 1187.58,
+      "text": "And when that doesn't pan out,",
+      "words": []
+    },
+    {
+      "start": 1187.58,
+      "end": 1189.78,
+      "text": "it uses the cash information or you receive.",
+      "words": []
+    },
+    {
+      "start": 1190.94,
+      "end": 1193.06,
+      "text": "From there, it expands on the results",
+      "words": []
+    },
+    {
+      "start": 1193.06,
+      "end": 1195.86,
+      "text": "and provides a more detailed breakdown of the open reviews.",
+      "words": []
+    },
+    {
+      "start": 1196.82,
+      "end": 1199.02,
+      "text": "It clearly lists the review details,",
+      "words": []
+    },
+    {
+      "start": 1199.02,
+      "end": 1201.1399999999999,
+      "text": "including information about the document",
+      "words": []
+    },
+    {
+      "start": 1201.1399999999999,
+      "end": 1202.9799999999998,
+      "text": "and the unique idea associated with it.",
+      "words": []
+    },
+    {
+      "start": 1204.26,
+      "end": 1207.5,
+      "text": "This is a good example of how the agent maintains context",
+      "words": []
+    },
+    {
+      "start": 1207.5,
+      "end": 1209.54,
+      "text": "across conversations.",
+      "words": []
+    },
+    {
+      "start": 1209.54,
+      "end": 1212.3,
+      "text": "Instead of repeatedly querying the APIs,",
+      "words": []
+    },
+    {
+      "start": 1212.3,
+      "end": 1215.26,
+      "text": "it can reuse information or together and build on it,",
+      "words": []
+    },
+    {
+      "start": 1215.26,
+      "end": 1217.74,
+      "text": "which makes the workflow faster and more efficient.",
+      "words": []
+    },
+    {
+      "start": 1218.74,
+      "end": 1220.5,
+      "text": "This context awareness is important",
+      "words": []
+    },
+    {
+      "start": 1220.5,
+      "end": 1223.06,
+      "text": "because it reduces unnecessary API calls",
+      "words": []
+    },
+    {
+      "start": 1223.06,
+      "end": 1226.22,
+      "text": "and allows the agent to build multi-step workflows naturally.",
+      "words": []
+    },
+    {
+      "start": 1229.22,
+      "end": 1232.54,
+      "text": "In this example, we're querying ACC build sheets",
+      "words": []
+    },
+    {
+      "start": 1232.54,
+      "end": 1233.98,
+      "text": "using the Get Sheet tool.",
+      "words": []
+    },
+    {
+      "start": 1234.98,
+      "end": 1236.74,
+      "text": "The prompt I gave the agent was,",
+      "words": []
+    },
+    {
+      "start": 1236.74,
+      "end": 1239.62,
+      "text": "what ACC sheets can you find in a current project?",
+      "words": []
+    },
+    {
+      "start": 1240.62,
+      "end": 1242.78,
+      "text": "The agent calls the Get Sheet tool,",
+      "words": []
+    },
+    {
+      "start": 1242.78,
+      "end": 1244.34,
+      "text": "which queries the build module",
+      "words": []
+    },
+    {
+      "start": 1244.34,
+      "end": 1246.78,
+      "text": "and retrieves the sheets associated with that project.",
+      "words": []
+    },
+    {
+      "start": 1247.7,
+      "end": 1250.6599999999999,
+      "text": "In this case, it finds 31 build sheets.",
+      "words": []
+    },
+    {
+      "start": 1250.6599999999999,
+      "end": 1252.54,
+      "text": "It then organizes them into categories",
+      "words": []
+    },
+    {
+      "start": 1252.6599999999999,
+      "end": 1255.54,
+      "text": "that presents a structured list of the sheets that are available.",
+      "words": []
+    },
+    {
+      "start": 1255.54,
+      "end": 1258.22,
+      "text": "One of the interesting things here is what happens next.",
+      "words": []
+    },
+    {
+      "start": 1258.22,
+      "end": 1259.22,
+      "text": "After listing the sheets,",
+      "words": []
+    },
+    {
+      "start": 1259.22,
+      "end": 1261.78,
+      "text": "the agent automatically suggests the next step.",
+      "words": []
+    },
+    {
+      "start": 1261.78,
+      "end": 1263.86,
+      "text": "And as weather I'd like to export the sheet",
+      "words": []
+    },
+    {
+      "start": 1263.86,
+      "end": 1266.1399999999999,
+      "text": "or pull additional data from them.",
+      "words": []
+    },
+    {
+      "start": 1266.1399999999999,
+      "end": 1267.6599999999999,
+      "text": "That's a good example of how the agent",
+      "words": []
+    },
+    {
+      "start": 1267.6599999999999,
+      "end": 1269.18,
+      "text": "isn't just returning data.",
+      "words": []
+    },
+    {
+      "start": 1269.18,
+      "end": 1270.5,
+      "text": "It's helping guide the workflow",
+      "words": []
+    },
+    {
+      "start": 1270.5,
+      "end": 1272.06,
+      "text": "by suggesting actions that could lodge",
+      "words": []
+    },
+    {
+      "start": 1272.06,
+      "end": 1273.34,
+      "text": "to refollow the request.",
+      "words": []
+    },
+    {
+      "start": 1275.3799999999999,
+      "end": 1278.8999999999999,
+      "text": "And here's another small but really useful feature we added.",
+      "words": []
+    },
+    {
+      "start": 1278.8999999999999,
+      "end": 1279.94,
+      "text": "And several of our tools,",
+      "words": []
+    },
+    {
+      "start": 1279.94,
+      "end": 1281.46,
+      "text": "we've built in the ability for the agent",
+      "words": []
+    },
+    {
+      "start": 1281.46,
+      "end": 1284.78,
+      "text": "to generate direct hyperlinks to documents in ACC.",
+      "words": []
+    },
+    {
+      "start": 1284.78,
+      "end": 1287.26,
+      "text": "So when a user asks about a specific document,",
+      "words": []
+    },
+    {
+      "start": 1287.26,
+      "end": 1289.58,
+      "text": "the agent can return a link that opens a file directly",
+      "words": []
+    },
+    {
+      "start": 1289.58,
+      "end": 1291.58,
+      "text": "into the ACC view or whatever that's possible.",
+      "words": []
+    },
+    {
+      "start": 1292.54,
+      "end": 1294.9,
+      "text": "That way instead of just describing the document",
+      "words": []
+    },
+    {
+      "start": 1294.9,
+      "end": 1296.3,
+      "text": "or listing metadata,",
+      "words": []
+    },
+    {
+      "start": 1296.3,
+      "end": 1297.94,
+      "text": "the AI can immediately take the use",
+      "words": []
+    },
+    {
+      "start": 1297.94,
+      "end": 1299.22,
+      "text": "for the exact file they need.",
+      "words": []
+    },
+    {
+      "start": 1301.66,
+      "end": 1304.18,
+      "text": "Next we'll talk about analyzing schedules.",
+      "words": []
+    },
+    {
+      "start": 1304.18,
+      "end": 1305.42,
+      "text": "And this is where the system starts",
+      "words": []
+    },
+    {
+      "start": 1305.42,
+      "end": 1307.3400000000001,
+      "text": "to support aquatic control workflows.",
+      "words": []
+    },
+    {
+      "start": 1308.26,
+      "end": 1309.78,
+      "text": "Ideally, we would pose this formation",
+      "words": []
+    },
+    {
+      "start": 1309.78,
+      "end": 1312.22,
+      "text": "to direct them in ACC schedule API,",
+      "words": []
+    },
+    {
+      "start": 1312.22,
+      "end": 1315.02,
+      "text": "but that API wasn't available to us at the time.",
+      "words": []
+    },
+    {
+      "start": 1315.02,
+      "end": 1317.62,
+      "text": "So instead we created a QC schedule in Excel",
+      "words": []
+    },
+    {
+      "start": 1317.62,
+      "end": 1320.3,
+      "text": "and stored it in a QC folder with an ACC docs.",
+      "words": []
+    },
+    {
+      "start": 1321.3,
+      "end": 1322.74,
+      "text": "This spreadsheet tracks the task",
+      "words": []
+    },
+    {
+      "start": 1322.74,
+      "end": 1325.42,
+      "text": "that you'd be completed at our key project milestones",
+      "words": []
+    },
+    {
+      "start": 1325.42,
+      "end": 1327.18,
+      "text": "of 30, 16, 9, 800%.",
+      "words": []
+    },
+    {
+      "start": 1328.3799999999999,
+      "end": 1330.1399999999999,
+      "text": "Using the tools we created earlier,",
+      "words": []
+    },
+    {
+      "start": 1330.1399999999999,
+      "end": 1332.3,
+      "text": "the AI agent can download the spreadsheet,",
+      "words": []
+    },
+    {
+      "start": 1332.3,
+      "end": 1333.66,
+      "text": "read the data, and then report back",
+      "words": []
+    },
+    {
+      "start": 1333.66,
+      "end": 1336.58,
+      "text": "in the status of the tasks in the schedule updates.",
+      "words": []
+    },
+    {
+      "start": 1337.5,
+      "end": 1339.62,
+      "text": "For example, in this prompt I ask,",
+      "words": []
+    },
+    {
+      "start": 1339.62,
+      "end": 1341.74,
+      "text": "when is the final QA QC schedule?",
+      "words": []
+    },
+    {
+      "start": 1342.62,
+      "end": 1344.1399999999999,
+      "text": "The agent reads a spreadsheet",
+      "words": []
+    },
+    {
+      "start": 1344.1399999999999,
+      "end": 1345.9399999999998,
+      "text": "and responds that the final QA QC",
+      "words": []
+    },
+    {
+      "start": 1345.9399999999998,
+      "end": 1348.1399999999999,
+      "text": "is scheduled to finish on April 15th.",
+      "words": []
+    },
+    {
+      "start": 1348.1399999999999,
+      "end": 1350.3,
+      "text": "And that the task itself runs from April 11th",
+      "words": []
+    },
+    {
+      "start": 1350.3,
+      "end": 1351.3,
+      "text": "through April 15th.",
+      "words": []
+    },
+    {
+      "start": 1352.34,
+      "end": 1354.54,
+      "text": "It also adds a useful piece of context",
+      "words": []
+    },
+    {
+      "start": 1354.54,
+      "end": 1357.3,
+      "text": "by noting that the 100% CD issued milestone",
+      "words": []
+    },
+    {
+      "start": 1357.3,
+      "end": 1359.46,
+      "text": "is scheduled for April 16th.",
+      "words": []
+    },
+    {
+      "start": 1359.46,
+      "end": 1361.98,
+      "text": "So this agent isn't just retrieving a date,",
+      "words": []
+    },
+    {
+      "start": 1361.98,
+      "end": 1363.3799999999999,
+      "text": "it's interpreting the schedule",
+      "words": []
+    },
+    {
+      "start": 1363.3799999999999,
+      "end": 1365.5,
+      "text": "and adding along the relevant context.",
+      "words": []
+    },
+    {
+      "start": 1367.46,
+      "end": 1369.3799999999999,
+      "text": "And if we look at the spreadsheet itself,",
+      "words": []
+    },
+    {
+      "start": 1369.3799999999999,
+      "end": 1371.02,
+      "text": "you'll see that those dates match exactly",
+      "words": []
+    },
+    {
+      "start": 1371.02,
+      "end": 1372.02,
+      "text": "with the agent reported.",
+      "words": []
+    },
+    {
+      "start": 1375.82,
+      "end": 1377.5,
+      "text": "We can also take a step further",
+      "words": []
+    },
+    {
+      "start": 1377.5,
+      "end": 1379.26,
+      "text": "and compare the dates on that schedule",
+      "words": []
+    },
+    {
+      "start": 1379.26,
+      "end": 1381.3,
+      "text": "with those from an earlier QC check-in",
+      "words": []
+    },
+    {
+      "start": 1381.3,
+      "end": 1383.02,
+      "text": "to see what the discrepancies are",
+      "words": []
+    },
+    {
+      "start": 1383.02,
+      "end": 1384.74,
+      "text": "and any observations they can infer.",
+      "words": []
+    },
+    {
+      "start": 1385.74,
+      "end": 1388.54,
+      "text": "For instance, in this case, it identifies that one",
+      "words": []
+    },
+    {
+      "start": 1388.54,
+      "end": 1391.6599999999999,
+      "text": "has a milestone marked 50% instead of 30%,",
+      "words": []
+    },
+    {
+      "start": 1391.6599999999999,
+      "end": 1394.34,
+      "text": "which could indicate a labeling or coordination error.",
+      "words": []
+    },
+    {
+      "start": 1395.1799999999998,
+      "end": 1397.98,
+      "text": "It also notices that the 30% milestone",
+      "words": []
+    },
+    {
+      "start": 1397.98,
+      "end": 1401.1799999999998,
+      "text": "has a due date that occurs after the 50% milestone,",
+      "words": []
+    },
+    {
+      "start": 1401.1799999999998,
+      "end": 1403.1799999999998,
+      "text": "which is another clear inconsistency.",
+      "words": []
+    },
+    {
+      "start": 1403.1799999999998,
+      "end": 1405.34,
+      "text": "So instead of someone manually reviewing",
+      "words": []
+    },
+    {
+      "start": 1405.34,
+      "end": 1406.98,
+      "text": "the schedule line by line,",
+      "words": []
+    },
+    {
+      "start": 1406.98,
+      "end": 1409.02,
+      "text": "the agent can quickly identify problems",
+      "words": []
+    },
+    {
+      "start": 1409.02,
+      "end": 1412.1799999999998,
+      "text": "and surface observations that might otherwise be missed.",
+      "words": []
+    },
+    {
+      "start": 1412.1799999999998,
+      "end": 1414.26,
+      "text": "This is exactly the kind of task",
+      "words": []
+    },
+    {
+      "start": 1414.26,
+      "end": 1416.4199999999998,
+      "text": "where AI can help support quality control",
+      "words": []
+    },
+    {
+      "start": 1416.4199999999998,
+      "end": 1417.9399999999998,
+      "text": "and project coordination.",
+      "words": []
+    },
+    {
+      "start": 1417.9399999999998,
+      "end": 1419.98,
+      "text": "And you can see how the system starts moving",
+      "words": []
+    },
+    {
+      "start": 1419.98,
+      "end": 1421.54,
+      "text": "beyond just data retrieval",
+      "words": []
+    },
+    {
+      "start": 1421.54,
+      "end": 1423.8999999999999,
+      "text": "and into actual project intelligence.",
+      "words": []
+    },
+    {
+      "start": 1424.9,
+      "end": 1428.5400000000002,
+      "text": "And this final example, it's related to Autodesk,",
+      "words": []
+    },
+    {
+      "start": 1428.5400000000002,
+      "end": 1429.98,
+      "text": "TANM, and Facilities data.",
+      "words": []
+    },
+    {
+      "start": 1431.1000000000001,
+      "end": 1433.38,
+      "text": "In our typical workflow, subcontractors provides",
+      "words": []
+    },
+    {
+      "start": 1433.38,
+      "end": 1435.38,
+      "text": "with spreadsheets that contain the assets information",
+      "words": []
+    },
+    {
+      "start": 1435.38,
+      "end": 1437.3000000000002,
+      "text": "for the building systems.",
+      "words": []
+    },
+    {
+      "start": 1437.3000000000002,
+      "end": 1439.5800000000002,
+      "text": "Those spreadsheets are stored in ACC docs",
+      "words": []
+    },
+    {
+      "start": 1439.5800000000002,
+      "end": 1441.14,
+      "text": "and we use a TANM Connect workflow",
+      "words": []
+    },
+    {
+      "start": 1441.14,
+      "end": 1442.74,
+      "text": "to synchronize that data with TANM.",
+      "words": []
+    },
+    {
+      "start": 1443.98,
+      "end": 1445.94,
+      "text": "In phase one of our proof of concept,",
+      "words": []
+    },
+    {
+      "start": 1445.94,
+      "end": 1448.0600000000002,
+      "text": "the MCP server is able to locate those assets,",
+      "words": []
+    },
+    {
+      "start": 1448.0600000000002,
+      "end": 1450.18,
+      "text": "spreadsheets, and docs, download them",
+      "words": []
+    },
+    {
+      "start": 1450.18,
+      "end": 1452.46,
+      "text": "and read the asset data directly from the files.",
+      "words": []
+    },
+    {
+      "start": 1453.42,
+      "end": 1454.9,
+      "text": "That allows the agent to coordinate",
+      "words": []
+    },
+    {
+      "start": 1454.9,
+      "end": 1456.5,
+      "text": "and analyze the asset information.",
+      "words": []
+    },
+    {
+      "start": 1457.9,
+      "end": 1460.18,
+      "text": "Ideally, we would pull this data directly",
+      "words": []
+    },
+    {
+      "start": 1460.18,
+      "end": 1463.26,
+      "text": "through the TANM data API or the ACS API.",
+      "words": []
+    },
+    {
+      "start": 1464.7,
+      "end": 1468.02,
+      "text": "Those integrations are part of our phase two roadmap.",
+      "words": []
+    },
+    {
+      "start": 1468.9,
+      "end": 1470.3400000000001,
+      "text": "We weren't able to complete those tools",
+      "words": []
+    },
+    {
+      "start": 1470.3400000000001,
+      "end": 1473.42,
+      "text": "before cloud became unavailable in our environment.",
+      "words": []
+    },
+    {
+      "start": 1473.42,
+      "end": 1475.22,
+      "text": "So for now, the system works with the assets",
+      "words": []
+    },
+    {
+      "start": 1475.22,
+      "end": 1476.78,
+      "text": "spreadsheets themselves,",
+      "words": []
+    },
+    {
+      "start": 1476.78,
+      "end": 1478.6200000000001,
+      "text": "but the architecture is already set up",
+      "words": []
+    },
+    {
+      "start": 1478.6200000000001,
+      "end": 1482.02,
+      "text": "to directly support TANM and ACS integration",
+      "words": []
+    },
+    {
+      "start": 1482.02,
+      "end": 1483.58,
+      "text": "as we expand the MCP server.",
+      "words": []
+    },
+    {
+      "start": 1486.42,
+      "end": 1488.46,
+      "text": "And speaking of which, this next section",
+      "words": []
+    },
+    {
+      "start": 1488.46,
+      "end": 1490.02,
+      "text": "will go over what our next step saw.",
+      "words": []
+    },
+    {
+      "start": 1492.34,
+      "end": 1493.82,
+      "text": "After the conference, the first step",
+      "words": []
+    },
+    {
+      "start": 1493.82,
+      "end": 1495.74,
+      "text": "is taking what I learned here at DevCon",
+      "words": []
+    },
+    {
+      "start": 1495.74,
+      "end": 1497.66,
+      "text": "and making sure our MCP servers are aligned",
+      "words": []
+    },
+    {
+      "start": 1497.66,
+      "end": 1500.74,
+      "text": "with current best practices and where the technology is headed.",
+      "words": []
+    },
+    {
+      "start": 1501.78,
+      "end": 1504.62,
+      "text": "From there, we'll begin phase two of our project.",
+      "words": []
+    },
+    {
+      "start": 1504.62,
+      "end": 1506.7,
+      "text": "In phase two, we plan to move the MCP server",
+      "words": []
+    },
+    {
+      "start": 1506.7,
+      "end": 1509.58,
+      "text": "from a local environment to a web hosted deployment,",
+      "words": []
+    },
+    {
+      "start": 1509.58,
+      "end": 1511.1399999999999,
+      "text": "connection to Microsoft Cloud,",
+      "words": []
+    },
+    {
+      "start": 1511.1399999999999,
+      "end": 1513.54,
+      "text": "and integrate it with our production ACC hub.",
+      "words": []
+    },
+    {
+      "start": 1514.58,
+      "end": 1517.06,
+      "text": "We'll also start introducing auto-triggered automation.",
+      "words": []
+    },
+    {
+      "start": 1518.4199999999998,
+      "end": 1519.78,
+      "text": "One example we're exploring",
+      "words": []
+    },
+    {
+      "start": 1519.78,
+      "end": 1521.6999999999998,
+      "text": "is triggering QC checks automatically",
+      "words": []
+    },
+    {
+      "start": 1521.6999999999998,
+      "end": 1523.6599999999999,
+      "text": "with treating notification emails.",
+      "words": []
+    },
+    {
+      "start": 1524.8999999999999,
+      "end": 1527.58,
+      "text": "Instead of someone manually initiating the process,",
+      "words": []
+    },
+    {
+      "start": 1527.58,
+      "end": 1529.86,
+      "text": "the MCP server could detect the event",
+      "words": []
+    },
+    {
+      "start": 1529.86,
+      "end": 1532.26,
+      "text": "and run the appropriate quality control workflow.",
+      "words": []
+    },
+    {
+      "start": 1533.46,
+      "end": 1535.74,
+      "text": "Beyond that, we're looking at expanding integrations",
+      "words": []
+    },
+    {
+      "start": 1535.74,
+      "end": 1537.54,
+      "text": "with other systems across the firm,",
+      "words": []
+    },
+    {
+      "start": 1537.54,
+      "end": 1539.1399999999999,
+      "text": "including our CLR platform",
+      "words": []
+    },
+    {
+      "start": 1539.14,
+      "end": 1540.6200000000001,
+      "text": "and project management software.",
+      "words": []
+    },
+    {
+      "start": 1542.3400000000001,
+      "end": 1544.7800000000002,
+      "text": "On the slide, I also describe adding a Pandora's box",
+      "words": []
+    },
+    {
+      "start": 1544.7800000000002,
+      "end": 1548.38,
+      "text": "of APIs and tools, because that's honestly what it feels like.",
+      "words": []
+    },
+    {
+      "start": 1548.38,
+      "end": 1550.46,
+      "text": "Once you reach a certain level of capability,",
+      "words": []
+    },
+    {
+      "start": 1550.46,
+      "end": 1551.98,
+      "text": "it naturally opens up opportunities",
+      "words": []
+    },
+    {
+      "start": 1551.98,
+      "end": 1553.6200000000001,
+      "text": "to connect more departments,",
+      "words": []
+    },
+    {
+      "start": 1553.6200000000001,
+      "end": 1556.22,
+      "text": "automate more processes, and introduce more tools.",
+      "words": []
+    },
+    {
+      "start": 1557.42,
+      "end": 1559.42,
+      "text": "Every time we add a new integration,",
+      "words": []
+    },
+    {
+      "start": 1559.42,
+      "end": 1560.38,
+      "text": "it leads to another area",
+      "words": []
+    },
+    {
+      "start": 1560.38,
+      "end": 1561.98,
+      "text": "where the system could provide value.",
+      "words": []
+    },
+    {
+      "start": 1562.94,
+      "end": 1564.38,
+      "text": "Some of the things we're already exploring",
+      "words": []
+    },
+    {
+      "start": 1564.38,
+      "end": 1567.66,
+      "text": "include email management, archiving completed projects,",
+      "words": []
+    },
+    {
+      "start": 1567.66,
+      "end": 1569.8600000000001,
+      "text": "connecting to schedules and task systems,",
+      "words": []
+    },
+    {
+      "start": 1569.8600000000001,
+      "end": 1573.8600000000001,
+      "text": "and helping designers perform complex tasks more quickly.",
+      "words": []
+    },
+    {
+      "start": 1574.8600000000001,
+      "end": 1577.98,
+      "text": "At that point, it becomes less about a single workflow",
+      "words": []
+    },
+    {
+      "start": 1577.98,
+      "end": 1579.5,
+      "text": "and more about building a platform",
+      "words": []
+    },
+    {
+      "start": 1579.5,
+      "end": 1581.7,
+      "text": "for AI-sisted operations across the firm.",
+      "words": []
+    },
+    {
+      "start": 1584.14,
+      "end": 1586.18,
+      "text": "As we move into this next phase,",
+      "words": []
+    },
+    {
+      "start": 1586.18,
+      "end": 1588.22,
+      "text": "what excites me most is that we're no longer talking",
+      "words": []
+    },
+    {
+      "start": 1588.22,
+      "end": 1590.0600000000002,
+      "text": "about theoretical potential.",
+      "words": []
+    },
+    {
+      "start": 1590.0600000000002,
+      "end": 1591.6200000000001,
+      "text": "We've already seen what's possible",
+      "words": []
+    },
+    {
+      "start": 1591.6200000000001,
+      "end": 1594.0600000000002,
+      "text": "with AI, MCP servers, and our project data",
+      "words": []
+    },
+    {
+      "start": 1594.0600000000002,
+      "end": 1595.74,
+      "text": "ecosystem start working together.",
+      "words": []
+    },
+    {
+      "start": 1596.74,
+      "end": 1599.54,
+      "text": "The path ahead isn't about replacing expertise,",
+      "words": []
+    },
+    {
+      "start": 1599.54,
+      "end": 1601.3,
+      "text": "it's about amplifying it.",
+      "words": []
+    },
+    {
+      "start": 1601.3,
+      "end": 1603.7,
+      "text": "It's about removing friction from our workflows,",
+      "words": []
+    },
+    {
+      "start": 1603.7,
+      "end": 1605.54,
+      "text": "strengthen our quality processes,",
+      "words": []
+    },
+    {
+      "start": 1605.54,
+      "end": 1607.74,
+      "text": "and giving every team faster and clearer access",
+      "words": []
+    },
+    {
+      "start": 1607.74,
+      "end": 1608.94,
+      "text": "to the information they need.",
+      "words": []
+    },
+    {
+      "start": 1609.82,
+      "end": 1613.06,
+      "text": "The tools will continue to evolve, and so will we.",
+      "words": []
+    },
+    {
+      "start": 1613.9,
+      "end": 1615.6200000000001,
+      "text": "But with the foundation we've built,",
+      "words": []
+    },
+    {
+      "start": 1615.6200000000001,
+      "end": 1618.38,
+      "text": "we're now positioned to grow alongside this technology",
+      "words": []
+    },
+    {
+      "start": 1618.38,
+      "end": 1619.86,
+      "text": "instead of constantly chasing it.",
+      "words": []
+    },
+    {
+      "start": 1620.78,
+      "end": 1623.78,
+      "text": "And ultimately, that's how we deliver better projects,",
+      "words": []
+    },
+    {
+      "start": 1623.78,
+      "end": 1626.1399999999999,
+      "text": "with more confidence, greater consistency,",
+      "words": []
+    },
+    {
+      "start": 1626.1399999999999,
+      "end": 1628.34,
+      "text": "and a scale that simply wasn't possible for.",
+      "words": []
+    },
+    {
+      "start": 1629.3,
+      "end": 1632.46,
+      "text": "The real opportunity isn't just connecting AI to our software,",
+      "words": []
+    },
+    {
+      "start": 1632.46,
+      "end": 1634.98,
+      "text": "it's connecting it to the way we deliver projects.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:00:40.511223+00:00"
+}

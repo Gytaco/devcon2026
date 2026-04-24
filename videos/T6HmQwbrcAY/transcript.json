@@ -1,0 +1,2125 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.6000000000000005,
+      "text": "Hi, if you've ever tried building with a large language model, you know that feeling.",
+      "words": []
+    },
+    {
+      "start": 6.6000000000000005,
+      "end": 8.0,
+      "text": "One moment, it's brilliant.",
+      "words": []
+    },
+    {
+      "start": 8.0,
+      "end": 11.48,
+      "text": "But the next, it's a complete chaos.",
+      "words": []
+    },
+    {
+      "start": 11.48,
+      "end": 16.240000000000002,
+      "text": "In this talk, advanced vibe coding with the APS viewer, we're going to be moving past",
+      "words": []
+    },
+    {
+      "start": 16.240000000000002,
+      "end": 20.92,
+      "text": "that vibe coding party trick and into some real problems.",
+      "words": []
+    },
+    {
+      "start": 20.92,
+      "end": 27.16,
+      "text": "Trying to teach AI to handle complex challenges like graphics, using the viewer SDK, also known",
+      "words": []
+    },
+    {
+      "start": 27.16,
+      "end": 29.400000000000002,
+      "text": "as the APS viewer SDK.",
+      "words": []
+    },
+    {
+      "start": 29.4,
+      "end": 33.4,
+      "text": "And we're going to do it with a new four layer blueprint.",
+      "words": []
+    },
+    {
+      "start": 33.4,
+      "end": 38.04,
+      "text": "I'm Michael Beale from the APS developer advocates and support team.",
+      "words": []
+    },
+    {
+      "start": 38.04,
+      "end": 41.4,
+      "text": "You're probably wondering, though, what is this blueprint?",
+      "words": []
+    },
+    {
+      "start": 41.4,
+      "end": 43.239999999999995,
+      "text": "What can this blueprint do?",
+      "words": []
+    },
+    {
+      "start": 43.239999999999995,
+      "end": 46.599999999999994,
+      "text": "Well, let's take a look.",
+      "words": []
+    },
+    {
+      "start": 46.599999999999994,
+      "end": 48.480000000000004,
+      "text": "So I've got a few examples here.",
+      "words": []
+    },
+    {
+      "start": 48.480000000000004,
+      "end": 53.879999999999995,
+      "text": "I've got six examples of things that I've been building using the same blueprint technique.",
+      "words": []
+    },
+    {
+      "start": 53.88,
+      "end": 60.2,
+      "text": "The first one was coding in some C-shop using the Data Exchange SDK.",
+      "words": []
+    },
+    {
+      "start": 60.2,
+      "end": 62.400000000000006,
+      "text": "Here I'm using secure service accounts.",
+      "words": []
+    },
+    {
+      "start": 62.400000000000006,
+      "end": 70.0,
+      "text": "I connected into the Esrii3S layer, look, terrain, decoding, and pull that into a data exchange",
+      "words": []
+    },
+    {
+      "start": 70.0,
+      "end": 73.44,
+      "text": "which you can see here in model coordination view.",
+      "words": []
+    },
+    {
+      "start": 73.44,
+      "end": 79.88,
+      "text": "On the right, another example using the viewer SDK, where I brought in Esri terrain data",
+      "words": []
+    },
+    {
+      "start": 79.88,
+      "end": 84.6,
+      "text": "and created a base map system that projected a triangle mesh.",
+      "words": []
+    },
+    {
+      "start": 84.6,
+      "end": 89.72,
+      "text": "And then I added some alignment tools, which you can see here.",
+      "words": []
+    },
+    {
+      "start": 89.72,
+      "end": 97.52,
+      "text": "But then something that's got more visual appeal, decoding the X-Grid's LCC file format into",
+      "words": []
+    },
+    {
+      "start": 97.52,
+      "end": 104.72,
+      "text": "3JS, and which also works in the APS viewer, an example of 3D Gaussian splats.",
+      "words": []
+    },
+    {
+      "start": 104.72,
+      "end": 109.8,
+      "text": "You can see in this version of the LCC format, it handles second order,",
+      "words": []
+    },
+    {
+      "start": 109.8,
+      "end": 114.16,
+      "text": "vertical harmonics, it does depth sorting in the web workers,",
+      "words": []
+    },
+    {
+      "start": 114.16,
+      "end": 121.0,
+      "text": "and there's even a level of detail spatial streaming system courtesy of the LCC format.",
+      "words": []
+    },
+    {
+      "start": 121.0,
+      "end": 124.03999999999999,
+      "text": "And then on the right hand side, some more WebGL examples.",
+      "words": []
+    },
+    {
+      "start": 124.03999999999999,
+      "end": 128.72,
+      "text": "I've got here map Libra showing off shadow maps.",
+      "words": []
+    },
+    {
+      "start": 128.72,
+      "end": 136.76,
+      "text": "So both projected shadows as well as a sign distance field ambient occlusion shader.",
+      "words": []
+    },
+    {
+      "start": 136.76,
+      "end": 139.84,
+      "text": "Some non-graphic examples.",
+      "words": []
+    },
+    {
+      "start": 139.84,
+      "end": 147.2,
+      "text": "Recently, there was a blog post I did on the last modified time rollup.",
+      "words": []
+    },
+    {
+      "start": 147.2,
+      "end": 153.16,
+      "text": "This is a tree walk recursion technique that allows you to do ACC backups",
+      "words": []
+    },
+    {
+      "start": 153.16,
+      "end": 158.79999999999998,
+      "text": "using the data management API in log-n time, which significantly faster.",
+      "words": []
+    },
+    {
+      "start": 158.79999999999998,
+      "end": 162.68,
+      "text": "And then finally, some model driven retrieval for APS.",
+      "words": []
+    },
+    {
+      "start": 162.68,
+      "end": 164.07999999999998,
+      "text": "So think of a RAG system.",
+      "words": []
+    },
+    {
+      "start": 164.08,
+      "end": 169.44000000000003,
+      "text": "This is an agentic driven search system or model driven search system,",
+      "words": []
+    },
+    {
+      "start": 169.44000000000003,
+      "end": 173.96,
+      "text": "which is superior to the existing techniques of RAG.",
+      "words": []
+    },
+    {
+      "start": 173.96,
+      "end": 179.92000000000002,
+      "text": "OK, so that's some quick examples of what I've created with this blueprint approach.",
+      "words": []
+    },
+    {
+      "start": 179.92000000000002,
+      "end": 186.60000000000002,
+      "text": "But first, we need to go to understand about this blueprint and how we got here.",
+      "words": []
+    },
+    {
+      "start": 186.60000000000002,
+      "end": 188.64000000000001,
+      "text": "We need to go back in time.",
+      "words": []
+    },
+    {
+      "start": 188.64000000000001,
+      "end": 193.04000000000002,
+      "text": "We need to understand what's the problem with vibe coding today.",
+      "words": []
+    },
+    {
+      "start": 193.04,
+      "end": 197.0,
+      "text": "Then I'll dive into the details of this new for layer blueprint,",
+      "words": []
+    },
+    {
+      "start": 197.0,
+      "end": 201.92,
+      "text": "how basically a simple markdown file executes the agent loop.",
+      "words": []
+    },
+    {
+      "start": 201.92,
+      "end": 205.68,
+      "text": "And then all we need to do is give it a plan and a challenge.",
+      "words": []
+    },
+    {
+      "start": 205.68,
+      "end": 211.28,
+      "text": "And so I'll cover that in sections three and four of the talk.",
+      "words": []
+    },
+    {
+      "start": 211.28,
+      "end": 216.44,
+      "text": "You can see this blueprint in action as we merge two 3D engines together,",
+      "words": []
+    },
+    {
+      "start": 216.44,
+      "end": 222.0,
+      "text": "the APS viewer and map Libra into a single WebGL pane of glass.",
+      "words": []
+    },
+    {
+      "start": 222.0,
+      "end": 225.48,
+      "text": "And finally, I'll close up with some just some notes on the skills files,",
+      "words": []
+    },
+    {
+      "start": 225.48,
+      "end": 228.12,
+      "text": "a memory system, and debugging.",
+      "words": []
+    },
+    {
+      "start": 228.12,
+      "end": 229.36,
+      "text": "Are you ready?",
+      "words": []
+    },
+    {
+      "start": 229.36,
+      "end": 231.68,
+      "text": "Let's go.",
+      "words": []
+    },
+    {
+      "start": 231.68,
+      "end": 233.44,
+      "text": "So rewinds to last year.",
+      "words": []
+    },
+    {
+      "start": 233.44,
+      "end": 235.96,
+      "text": "Vibocoding, it was everywhere.",
+      "words": []
+    },
+    {
+      "start": 235.96,
+      "end": 240.28,
+      "text": "I introduced a vibe coding blog and a talk at a U,",
+      "words": []
+    },
+    {
+      "start": 240.28,
+      "end": 243.72,
+      "text": "as well as this llem.text file approach.",
+      "words": []
+    },
+    {
+      "start": 243.72,
+      "end": 249.96,
+      "text": "It gives AI context about APS, making it spin up things like a basic viewer like this one.",
+      "words": []
+    },
+    {
+      "start": 249.96,
+      "end": 253.28,
+      "text": "It works great, maybe too great.",
+      "words": []
+    },
+    {
+      "start": 253.28,
+      "end": 257.96000000000004,
+      "text": "That approach only really holds up for simple tasks, not hard problems.",
+      "words": []
+    },
+    {
+      "start": 257.96000000000004,
+      "end": 261.72,
+      "text": "So what breaks down exactly with vibe coding?",
+      "words": []
+    },
+    {
+      "start": 261.72,
+      "end": 266.32,
+      "text": "Well, when you push vibe coding beyond the basics, even with that simple viewer example,",
+      "words": []
+    },
+    {
+      "start": 266.32,
+      "end": 268.2,
+      "text": "it starts to fall apart.",
+      "words": []
+    },
+    {
+      "start": 268.2,
+      "end": 272.24,
+      "text": "You've got a really powerful model, a clear goal.",
+      "words": []
+    },
+    {
+      "start": 272.24,
+      "end": 276.36,
+      "text": "But the project, it can sort of start to spiral out of control.",
+      "words": []
+    },
+    {
+      "start": 276.36,
+      "end": 281.24,
+      "text": "The AI starts creating lots and lots of junk and your stock.",
+      "words": []
+    },
+    {
+      "start": 281.24,
+      "end": 283.08000000000004,
+      "text": "So what's actually failing here?",
+      "words": []
+    },
+    {
+      "start": 283.08000000000004,
+      "end": 285.08000000000004,
+      "text": "What's in the models?",
+      "words": []
+    },
+    {
+      "start": 285.08000000000004,
+      "end": 286.08000000000004,
+      "text": "What is it about it?",
+      "words": []
+    },
+    {
+      "start": 286.08000000000004,
+      "end": 288.56,
+      "text": "Is it the model's intelligence that's the problem?",
+      "words": []
+    },
+    {
+      "start": 288.56,
+      "end": 290.96000000000004,
+      "text": "Or is it something else?",
+      "words": []
+    },
+    {
+      "start": 290.96000000000004,
+      "end": 293.56,
+      "text": "The problem with vibe coding.",
+      "words": []
+    },
+    {
+      "start": 293.56,
+      "end": 296.44,
+      "text": "There are essentially three core issues with vibe coding.",
+      "words": []
+    },
+    {
+      "start": 296.44,
+      "end": 298.6,
+      "text": "So let's break them down.",
+      "words": []
+    },
+    {
+      "start": 298.6,
+      "end": 304.12,
+      "text": "First up, you've got brain overload, also known as context rot.",
+      "words": []
+    },
+    {
+      "start": 304.12,
+      "end": 308.76,
+      "text": "This happens when you basically give the LLM way too much information and it just gets",
+      "words": []
+    },
+    {
+      "start": 308.76,
+      "end": 310.16,
+      "text": "lost in the weeds.",
+      "words": []
+    },
+    {
+      "start": 310.16,
+      "end": 313.56,
+      "text": "Your context window has completely full.",
+      "words": []
+    },
+    {
+      "start": 313.56,
+      "end": 316.32,
+      "text": "The second one is planning instability.",
+      "words": []
+    },
+    {
+      "start": 316.32,
+      "end": 319.16,
+      "text": "This is when the model decides, you know what?",
+      "words": []
+    },
+    {
+      "start": 319.16,
+      "end": 322.88,
+      "text": "I'm going to change the plan right in the middle of a task.",
+      "words": []
+    },
+    {
+      "start": 322.88,
+      "end": 325.76,
+      "text": "And then the last one is that chat reset.",
+      "words": []
+    },
+    {
+      "start": 325.76,
+      "end": 330.56,
+      "text": "You know the one where you, every single time you restart a chat session, everything is",
+      "words": []
+    },
+    {
+      "start": 330.56,
+      "end": 335.12,
+      "text": "forgotten and it's a complete fresh restart for your agent.",
+      "words": []
+    },
+    {
+      "start": 335.12,
+      "end": 336.72,
+      "text": "It's forgotten everything.",
+      "words": []
+    },
+    {
+      "start": 336.72,
+      "end": 341.96,
+      "text": "And so you have to begin all over again.",
+      "words": []
+    },
+    {
+      "start": 341.96,
+      "end": 344.76,
+      "text": "And that's the central idea we're talking about today.",
+      "words": []
+    },
+    {
+      "start": 344.76,
+      "end": 349.68,
+      "text": "We want to move away from what we might call vibe coding, also known as level one or",
+      "words": []
+    },
+    {
+      "start": 349.68,
+      "end": 353.6,
+      "text": "level zero if using order complete.",
+      "words": []
+    },
+    {
+      "start": 353.6,
+      "end": 357.44,
+      "text": "And we're going to, you know, and this is where you just kind of improvise and hope for",
+      "words": []
+    },
+    {
+      "start": 357.44,
+      "end": 358.96,
+      "text": "the best.",
+      "words": []
+    },
+    {
+      "start": 358.96,
+      "end": 363.4,
+      "text": "And we need to move towards something that's more structured, a structured engineering approach.",
+      "words": []
+    },
+    {
+      "start": 363.4,
+      "end": 367.59999999999997,
+      "text": "We need a method that provides that missing structure so we can get predictable, reliable",
+      "words": []
+    },
+    {
+      "start": 367.59999999999997,
+      "end": 369.79999999999995,
+      "text": "results every time.",
+      "words": []
+    },
+    {
+      "start": 369.79999999999995,
+      "end": 373.88,
+      "text": "And a method that breaks problems into solvable pieces.",
+      "words": []
+    },
+    {
+      "start": 373.88,
+      "end": 381.32,
+      "text": "It's going to pull targeted knowledge from things like WebGL and 3JS as well as the viewer",
+      "words": []
+    },
+    {
+      "start": 381.32,
+      "end": 385.24,
+      "text": "SDK and the APS APIs.",
+      "words": []
+    },
+    {
+      "start": 385.24,
+      "end": 390.88,
+      "text": "So we can level itself up with the right information, the right skills and basically get itself",
+      "words": []
+    },
+    {
+      "start": 390.88,
+      "end": 391.88,
+      "text": "unstuck.",
+      "words": []
+    },
+    {
+      "start": 391.88,
+      "end": 396.24,
+      "text": "And it will eventually push through some of these more challenging problems.",
+      "words": []
+    },
+    {
+      "start": 396.24,
+      "end": 399.72,
+      "text": "Hopefully a breakthrough.",
+      "words": []
+    },
+    {
+      "start": 399.72,
+      "end": 402.84000000000003,
+      "text": "Now we're going to do this with a full layer blueprint.",
+      "words": []
+    },
+    {
+      "start": 402.84000000000003,
+      "end": 405.44,
+      "text": "Think of this like agile.",
+      "words": []
+    },
+    {
+      "start": 405.44,
+      "end": 410.24,
+      "text": "We can make AI systematically work through more complex tasks.",
+      "words": []
+    },
+    {
+      "start": 410.24,
+      "end": 415.32,
+      "text": "It can tackle more expert level things like graphics and not give up halfway through",
+      "words": []
+    },
+    {
+      "start": 415.32,
+      "end": 417.6,
+      "text": "like vibe coding does.",
+      "words": []
+    },
+    {
+      "start": 417.6,
+      "end": 418.6,
+      "text": "This is the method.",
+      "words": []
+    },
+    {
+      "start": 418.6,
+      "end": 424.04,
+      "text": "It's exactly how we're going to try to bring some order to that chaos.",
+      "words": []
+    },
+    {
+      "start": 424.04,
+      "end": 425.24,
+      "text": "Here's how it works.",
+      "words": []
+    },
+    {
+      "start": 425.24,
+      "end": 428.04,
+      "text": "At the very top you have the plan.",
+      "words": []
+    },
+    {
+      "start": 428.04,
+      "end": 430.36,
+      "text": "This is the high level goal of your project.",
+      "words": []
+    },
+    {
+      "start": 430.36,
+      "end": 432.56,
+      "text": "And think of this like in agile.",
+      "words": []
+    },
+    {
+      "start": 432.56,
+      "end": 436.2,
+      "text": "It's like the epic, a project epic.",
+      "words": []
+    },
+    {
+      "start": 436.2,
+      "end": 439.56,
+      "text": "From there the plan gets broken down into manageable tasks.",
+      "words": []
+    },
+    {
+      "start": 439.56,
+      "end": 443.96,
+      "text": "Which are kind of like sprints, you know, two week cycles except in our case they're more",
+      "words": []
+    },
+    {
+      "start": 443.96,
+      "end": 446.2,
+      "text": "like 15 minute cycles.",
+      "words": []
+    },
+    {
+      "start": 446.2,
+      "end": 451.0,
+      "text": "Now to complete each of those tasks the LLM uses skills.",
+      "words": []
+    },
+    {
+      "start": 451.0,
+      "end": 456.6,
+      "text": "These are kind of like a library of predefined abilities that can also pull from knowledge",
+      "words": []
+    },
+    {
+      "start": 456.6,
+      "end": 457.6,
+      "text": "bases.",
+      "words": []
+    },
+    {
+      "start": 457.6,
+      "end": 459.6,
+      "text": "Think of them as like dev docs.",
+      "words": []
+    },
+    {
+      "start": 459.6,
+      "end": 462.36,
+      "text": "And finally you have memory.",
+      "words": []
+    },
+    {
+      "start": 462.36,
+      "end": 466.28,
+      "text": "This acts as a checkpoint to track progress.",
+      "words": []
+    },
+    {
+      "start": 466.28,
+      "end": 470.71999999999997,
+      "text": "This state management as well as you know task management and ticket management a little",
+      "words": []
+    },
+    {
+      "start": 470.71999999999997,
+      "end": 473.88,
+      "text": "bit like geartickets when it finds an issue.",
+      "words": []
+    },
+    {
+      "start": 473.88,
+      "end": 479.88,
+      "text": "So you see each layer gives the one below it clear, focused instructions.",
+      "words": []
+    },
+    {
+      "start": 479.88,
+      "end": 481.11999999999995,
+      "text": "So that's the blueprint.",
+      "words": []
+    },
+    {
+      "start": 481.11999999999995,
+      "end": 483.11999999999995,
+      "text": "That's the idea.",
+      "words": []
+    },
+    {
+      "start": 483.11999999999995,
+      "end": 487.11999999999995,
+      "text": "So how do you actually, you know, run it?",
+      "words": []
+    },
+    {
+      "start": 487.11999999999995,
+      "end": 491.15999999999997,
+      "text": "Well, let's walk through that execution loop.",
+      "words": []
+    },
+    {
+      "start": 491.15999999999997,
+      "end": 495.28,
+      "text": "This is a simple repeatable process that's going to drive your project forward.",
+      "words": []
+    },
+    {
+      "start": 495.59999999999997,
+      "end": 498.44,
+      "text": "First, the agent is going to read the plan.",
+      "words": []
+    },
+    {
+      "start": 498.44,
+      "end": 500.47999999999996,
+      "text": "That's the MD file.",
+      "words": []
+    },
+    {
+      "start": 500.47999999999996,
+      "end": 504.84,
+      "text": "Step two, it's going to execute a specific task from the list.",
+      "words": []
+    },
+    {
+      "start": 504.84,
+      "end": 509.76,
+      "text": "Three, it updates its memory file with its progress and four.",
+      "words": []
+    },
+    {
+      "start": 509.76,
+      "end": 511.67999999999995,
+      "text": "And this is an important step.",
+      "words": []
+    },
+    {
+      "start": 511.67999999999995,
+      "end": 515.72,
+      "text": "The human reviews the work before the agent moves on.",
+      "words": []
+    },
+    {
+      "start": 515.72,
+      "end": 517.52,
+      "text": "This is that checkpoint.",
+      "words": []
+    },
+    {
+      "start": 517.52,
+      "end": 519.1999999999999,
+      "text": "You're going to check the output.",
+      "words": []
+    },
+    {
+      "start": 519.1999999999999,
+      "end": 520.92,
+      "text": "You'll provide feedback.",
+      "words": []
+    },
+    {
+      "start": 520.92,
+      "end": 526.0799999999999,
+      "text": "And only if you say proceed will the agent move on to the next task.",
+      "words": []
+    },
+    {
+      "start": 526.0799999999999,
+      "end": 527.0799999999999,
+      "text": "This is key.",
+      "words": []
+    },
+    {
+      "start": 527.0799999999999,
+      "end": 530.8399999999999,
+      "text": "This keeps the human in the loop and make sure that you're still in control of the end",
+      "words": []
+    },
+    {
+      "start": 530.8399999999999,
+      "end": 533.04,
+      "text": "result.",
+      "words": []
+    },
+    {
+      "start": 533.04,
+      "end": 537.24,
+      "text": "So this isn't just about letting AI run wild and hope for the best.",
+      "words": []
+    },
+    {
+      "start": 537.24,
+      "end": 543.8,
+      "text": "This is a structured iterative process, clear tasks and a human checkpoint.",
+      "words": []
+    },
+    {
+      "start": 543.8,
+      "end": 546.88,
+      "text": "This is AI assisted agile development.",
+      "words": []
+    },
+    {
+      "start": 547.88,
+      "end": 553.88,
+      "text": "To test it out, we're going to need a challenge, maybe a pretty good challenge and something",
+      "words": []
+    },
+    {
+      "start": 553.88,
+      "end": 555.68,
+      "text": "that involves graphics.",
+      "words": []
+    },
+    {
+      "start": 555.68,
+      "end": 560.52,
+      "text": "So I was thinking of something that's unique and hasn't been done before and it involves",
+      "words": []
+    },
+    {
+      "start": 560.52,
+      "end": 563.12,
+      "text": "the APS viewer SDK.",
+      "words": []
+    },
+    {
+      "start": 563.12,
+      "end": 564.8,
+      "text": "So here's the challenge.",
+      "words": []
+    },
+    {
+      "start": 564.8,
+      "end": 569.88,
+      "text": "I'm going to take two of my favorite engines and bring them together into a single view,",
+      "words": []
+    },
+    {
+      "start": 569.88,
+      "end": 571.6,
+      "text": "one WebGio campus.",
+      "words": []
+    },
+    {
+      "start": 571.6,
+      "end": 574.64,
+      "text": "My first engine, well, that's Map Libro.",
+      "words": []
+    },
+    {
+      "start": 574.64,
+      "end": 581.04,
+      "text": "It's great for viewing maps of the world, dealing with precision of large areas as well",
+      "words": []
+    },
+    {
+      "start": 581.04,
+      "end": 585.12,
+      "text": "as streaming lots and lots of data.",
+      "words": []
+    },
+    {
+      "start": 585.12,
+      "end": 590.92,
+      "text": "My second engine, well, that's the Auditisk large model viewer, also known as the APS viewer.",
+      "words": []
+    },
+    {
+      "start": 590.92,
+      "end": 596.4,
+      "text": "And that's great for viewing large detailed architectural reddit models, Navisworks models,",
+      "words": []
+    },
+    {
+      "start": 596.4,
+      "end": 602.08,
+      "text": "2D sheets, manufacturing models, et cetera.",
+      "words": []
+    },
+    {
+      "start": 602.08,
+      "end": 605.8000000000001,
+      "text": "Let's dig into a little bit of the details of each engine so we can understand what",
+      "words": []
+    },
+    {
+      "start": 605.8000000000001,
+      "end": 608.1600000000001,
+      "text": "what the constraints are.",
+      "words": []
+    },
+    {
+      "start": 608.1600000000001,
+      "end": 611.9200000000001,
+      "text": "First, let's start with the APS viewer.",
+      "words": []
+    },
+    {
+      "start": 611.9200000000001,
+      "end": 616.8000000000001,
+      "text": "APS viewer, it's a flavor of 3JS under the hood, version 71.",
+      "words": []
+    },
+    {
+      "start": 616.8000000000001,
+      "end": 622.84,
+      "text": "It's got its own material system called protein or prism and a progressive rendering system",
+      "words": []
+    },
+    {
+      "start": 622.84,
+      "end": 627.9200000000001,
+      "text": "that streams in data and renders things progressively.",
+      "words": []
+    },
+    {
+      "start": 627.92,
+      "end": 633.4,
+      "text": "It has a shader stack for effects like ambient occlusion and a simple user interface.",
+      "words": []
+    },
+    {
+      "start": 633.4,
+      "end": 639.5999999999999,
+      "text": "And it can render large things like manufacturing, you can do 3D walkthroughs or revit models,",
+      "words": []
+    },
+    {
+      "start": 639.5999999999999,
+      "end": 643.9599999999999,
+      "text": "and it can view 2D markup, 2D sheets and markup.",
+      "words": []
+    },
+    {
+      "start": 643.9599999999999,
+      "end": 648.12,
+      "text": "And it gives that vector precision thanks to its WebGL shaders.",
+      "words": []
+    },
+    {
+      "start": 648.12,
+      "end": 651.12,
+      "text": "It's a pretty powerful all-rounder.",
+      "words": []
+    },
+    {
+      "start": 651.12,
+      "end": 652.88,
+      "text": "Next we have Map Libro.",
+      "words": []
+    },
+    {
+      "start": 652.88,
+      "end": 657.96,
+      "text": "This is an open source version of Map Box that can render basically the planet.",
+      "words": []
+    },
+    {
+      "start": 657.96,
+      "end": 662.4399999999999,
+      "text": "So think of it like Google Maps, but it's open source.",
+      "words": []
+    },
+    {
+      "start": 662.4399999999999,
+      "end": 666.6,
+      "text": "So it can also take vector tile maps from Esri or Open Street Maps.",
+      "words": []
+    },
+    {
+      "start": 666.6,
+      "end": 671.64,
+      "text": "It can also render terrain systems from the Esri terrain layer as well as Esri feature",
+      "words": []
+    },
+    {
+      "start": 671.64,
+      "end": 672.64,
+      "text": "layers.",
+      "words": []
+    },
+    {
+      "start": 672.64,
+      "end": 678.48,
+      "text": "There's also a demo showing Google photo realistic 3D tiles maps as well as 3D buildings",
+      "words": []
+    },
+    {
+      "start": 678.48,
+      "end": 680.6,
+      "text": "from Open Street Maps.",
+      "words": []
+    },
+    {
+      "start": 680.6,
+      "end": 686.4,
+      "text": "It renders all of this in a small code base with very fast streaming all in a basic 3D",
+      "words": []
+    },
+    {
+      "start": 686.4,
+      "end": 688.9200000000001,
+      "text": "WebGL engine.",
+      "words": []
+    },
+    {
+      "start": 688.9200000000001,
+      "end": 694.16,
+      "text": "The challenge, we are going to merge these two engines together and we're going to do",
+      "words": []
+    },
+    {
+      "start": 694.16,
+      "end": 696.4,
+      "text": "that using the blueprint.",
+      "words": []
+    },
+    {
+      "start": 696.4,
+      "end": 704.28,
+      "text": "All right, so to get started, let's describe this challenge via the plan file.",
+      "words": []
+    },
+    {
+      "start": 704.28,
+      "end": 709.88,
+      "text": "Now this is a simple markdown file that is going to describe the challenge and explain",
+      "words": []
+    },
+    {
+      "start": 709.88,
+      "end": 712.28,
+      "text": "what it is we want.",
+      "words": []
+    },
+    {
+      "start": 712.28,
+      "end": 715.08,
+      "text": "To create the plan file, we just simply type it in.",
+      "words": []
+    },
+    {
+      "start": 715.08,
+      "end": 717.56,
+      "text": "Make sure we define the overall goal.",
+      "words": []
+    },
+    {
+      "start": 717.56,
+      "end": 723.0,
+      "text": "We're going to define a set of skills that we're likely going to need as well as bytes",
+      "words": []
+    },
+    {
+      "start": 723.0,
+      "end": 726.84,
+      "text": "as tasks that AI can do on its own.",
+      "words": []
+    },
+    {
+      "start": 726.84,
+      "end": 732.16,
+      "text": "These sub tasks act like puzzle pieces and the final task for AI is to essentially arrange",
+      "words": []
+    },
+    {
+      "start": 732.16,
+      "end": 738.32,
+      "text": "those into a final solution and hopefully produce a breakthrough.",
+      "words": []
+    },
+    {
+      "start": 738.32,
+      "end": 744.2800000000001,
+      "text": "Now that method that I described earlier is created by a method.md file.",
+      "words": []
+    },
+    {
+      "start": 744.2800000000001,
+      "end": 749.5200000000001,
+      "text": "When this method, md file runs, it looks for the plan and it starts creating this file",
+      "words": []
+    },
+    {
+      "start": 749.5200000000001,
+      "end": 752.0400000000001,
+      "text": "structure.",
+      "words": []
+    },
+    {
+      "start": 752.0400000000001,
+      "end": 756.88,
+      "text": "It starts by creating the layout where you've got a project folder.",
+      "words": []
+    },
+    {
+      "start": 756.88,
+      "end": 758.32,
+      "text": "It contains the plan.",
+      "words": []
+    },
+    {
+      "start": 758.32,
+      "end": 762.72,
+      "text": "It contains multiple skills and markdown files for the skills.",
+      "words": []
+    },
+    {
+      "start": 762.72,
+      "end": 768.0,
+      "text": "It's got a reference folder full of downloadable GitHub source code.",
+      "words": []
+    },
+    {
+      "start": 768.0,
+      "end": 775.32,
+      "text": "This also got a tasks folder containing sub tasks and each task has its own task markdown",
+      "words": []
+    },
+    {
+      "start": 775.32,
+      "end": 778.04,
+      "text": "file as well as its own memory file.",
+      "words": []
+    },
+    {
+      "start": 778.04,
+      "end": 781.8,
+      "text": "Finally there's an optional constraint file as well as a retrospective file which I'll",
+      "words": []
+    },
+    {
+      "start": 781.8,
+      "end": 783.56,
+      "text": "talk about later.",
+      "words": []
+    },
+    {
+      "start": 783.56,
+      "end": 786.56,
+      "text": "Basically everything's a markdown file.",
+      "words": []
+    },
+    {
+      "start": 786.56,
+      "end": 793.0,
+      "text": "Simple plain text, no magic, easy to review, easy to edit and it commits to GitHub via",
+      "words": []
+    },
+    {
+      "start": 793.0,
+      "end": 795.32,
+      "text": "work tree or a Git branch.",
+      "words": []
+    },
+    {
+      "start": 795.32,
+      "end": 800.8000000000001,
+      "text": "Let's take a quick look.",
+      "words": []
+    },
+    {
+      "start": 800.8000000000001,
+      "end": 804.12,
+      "text": "So first up there is the plan.",
+      "words": []
+    },
+    {
+      "start": 804.12,
+      "end": 809.6400000000001,
+      "text": "In the plan here we are, we're going to build a web demo that displays the Autodesk",
+      "words": []
+    },
+    {
+      "start": 809.6400000000001,
+      "end": 813.9200000000001,
+      "text": "Revit model on a map Libra web GL base map.",
+      "words": []
+    },
+    {
+      "start": 813.9200000000001,
+      "end": 819.12,
+      "text": "That approach is going to start with the existing demo from map Libra where it uses 3js as",
+      "words": []
+    },
+    {
+      "start": 819.12,
+      "end": 823.6,
+      "text": "a custom layer and renders a GLTF satellite dish.",
+      "words": []
+    },
+    {
+      "start": 823.6,
+      "end": 830.0400000000001,
+      "text": "Then we're progressively going to replace that version of latest 3js and the GLTF pipeline",
+      "words": []
+    },
+    {
+      "start": 830.0400000000001,
+      "end": 834.84,
+      "text": "with our own APS viewer.",
+      "words": []
+    },
+    {
+      "start": 834.84,
+      "end": 838.96,
+      "text": "That will get us to the progressive rendering result that we're looking for.",
+      "words": []
+    },
+    {
+      "start": 838.96,
+      "end": 842.28,
+      "text": "You can see the folder structure here.",
+      "words": []
+    },
+    {
+      "start": 842.28,
+      "end": 849.96,
+      "text": "We've got the project itself, method, plan, retrospective, skills, tasks, source code",
+      "words": []
+    },
+    {
+      "start": 849.96,
+      "end": 854.0,
+      "text": "for each result and references.",
+      "words": []
+    },
+    {
+      "start": 854.0,
+      "end": 857.8000000000001,
+      "text": "The next thing I want to show you is the actual skills folder itself.",
+      "words": []
+    },
+    {
+      "start": 857.8000000000001,
+      "end": 862.84,
+      "text": "So if we just click through, you can see there's a skill that's being created to pull APS",
+      "words": []
+    },
+    {
+      "start": 862.84,
+      "end": 864.0,
+      "text": "docs.",
+      "words": []
+    },
+    {
+      "start": 864.0,
+      "end": 871.6800000000001,
+      "text": "Another skill to clone map Libra folder from GitHub as well as latest 3js and version 71.",
+      "words": []
+    },
+    {
+      "start": 871.6800000000001,
+      "end": 876.8000000000001,
+      "text": "Now the tasks and the source code haven't been coded yet, but the folder structure is",
+      "words": []
+    },
+    {
+      "start": 876.8,
+      "end": 887.76,
+      "text": "being created along with the memory file, the task for each of those tasks.",
+      "words": []
+    },
+    {
+      "start": 887.76,
+      "end": 892.8399999999999,
+      "text": "Alright, finally let's actually kick it off.",
+      "words": []
+    },
+    {
+      "start": 892.8399999999999,
+      "end": 895.3599999999999,
+      "text": "So to do that, it's run everything.",
+      "words": []
+    },
+    {
+      "start": 895.3599999999999,
+      "end": 898.3199999999999,
+      "text": "Now let's actually kick off the process.",
+      "words": []
+    },
+    {
+      "start": 898.3199999999999,
+      "end": 902.3199999999999,
+      "text": "So let's begin.",
+      "words": []
+    },
+    {
+      "start": 902.32,
+      "end": 912.12,
+      "text": "Alright, so the plan is run and it's completed all of those tasks, at least it's completed",
+      "words": []
+    },
+    {
+      "start": 912.12,
+      "end": 916.48,
+      "text": "the first task, setting up things, and then it's completed tasks two and three.",
+      "words": []
+    },
+    {
+      "start": 916.48,
+      "end": 920.0,
+      "text": "So let's take a look at those results.",
+      "words": []
+    },
+    {
+      "start": 920.0,
+      "end": 925.24,
+      "text": "So the first one is you can see that it's finished creating all of the environment that",
+      "words": []
+    },
+    {
+      "start": 925.24,
+      "end": 926.24,
+      "text": "we needed.",
+      "words": []
+    },
+    {
+      "start": 926.24,
+      "end": 931.6800000000001,
+      "text": "It downloaded 3js, latest, it's created all of the task folders, everything's completed",
+      "words": []
+    },
+    {
+      "start": 931.68,
+      "end": 932.88,
+      "text": "in the setup.",
+      "words": []
+    },
+    {
+      "start": 932.88,
+      "end": 937.2399999999999,
+      "text": "So the environment's there, it's got all of the knowledge that it needs.",
+      "words": []
+    },
+    {
+      "start": 937.2399999999999,
+      "end": 946.52,
+      "text": "The second part is task two, which we have as, and I'll just speed this up a little bit,",
+      "words": []
+    },
+    {
+      "start": 946.52,
+      "end": 954.0799999999999,
+      "text": "task two, which is map Libra demo showing the satellite dish on a map.",
+      "words": []
+    },
+    {
+      "start": 954.0799999999999,
+      "end": 959.04,
+      "text": "So you've got the GLTF satellite dish and it's rendering on a map.",
+      "words": []
+    },
+    {
+      "start": 959.04,
+      "end": 962.52,
+      "text": "That satellite dish is being rendered by latest 3js.",
+      "words": []
+    },
+    {
+      "start": 962.52,
+      "end": 968.0,
+      "text": "Now let's go check out the other task, which was this one, which is LMV viewer.",
+      "words": []
+    },
+    {
+      "start": 968.0,
+      "end": 970.68,
+      "text": "This is that simple APS viewer loading the Revit model.",
+      "words": []
+    },
+    {
+      "start": 970.68,
+      "end": 972.8,
+      "text": "I can choose different models.",
+      "words": []
+    },
+    {
+      "start": 972.8,
+      "end": 978.4399999999999,
+      "text": "It's basically based on that vibe coding blog post that I mentioned.",
+      "words": []
+    },
+    {
+      "start": 978.4399999999999,
+      "end": 981.16,
+      "text": "And then finally, let's take a look at task four.",
+      "words": []
+    },
+    {
+      "start": 981.16,
+      "end": 983.4,
+      "text": "This is the challenging part.",
+      "words": []
+    },
+    {
+      "start": 983.4,
+      "end": 986.16,
+      "text": "How did it go with task four?",
+      "words": []
+    },
+    {
+      "start": 986.16,
+      "end": 987.48,
+      "text": "So here's the result.",
+      "words": []
+    },
+    {
+      "start": 987.48,
+      "end": 992.24,
+      "text": "You can see that we can see map Libra, but we cannot see 3J.",
+      "words": []
+    },
+    {
+      "start": 992.24,
+      "end": 994.44,
+      "text": "We can't see our Revit model.",
+      "words": []
+    },
+    {
+      "start": 994.44,
+      "end": 997.4,
+      "text": "So let's take a look what's going on.",
+      "words": []
+    },
+    {
+      "start": 997.4,
+      "end": 1000.8000000000001,
+      "text": "So we got stuck at task four, which is the big one.",
+      "words": []
+    },
+    {
+      "start": 1000.8000000000001,
+      "end": 1004.4,
+      "text": "There's a map, but there's no 3D building.",
+      "words": []
+    },
+    {
+      "start": 1004.4,
+      "end": 1010.52,
+      "text": "So let's try to debug and help AI get unstuck on task four before moving on.",
+      "words": []
+    },
+    {
+      "start": 1010.52,
+      "end": 1012.24,
+      "text": "First we'll add some instrumentation.",
+      "words": []
+    },
+    {
+      "start": 1012.24,
+      "end": 1017.88,
+      "text": "We'll simply ask the AI agent to add console log messages to the render pipeline, the render",
+      "words": []
+    },
+    {
+      "start": 1017.88,
+      "end": 1019.2,
+      "text": "loop.",
+      "words": []
+    },
+    {
+      "start": 1019.2,
+      "end": 1024.92,
+      "text": "And then next we'll also skip the automatic browser screen grabbing.",
+      "words": []
+    },
+    {
+      "start": 1024.92,
+      "end": 1028.64,
+      "text": "We don't really need that here because we can describe what we want with just plain",
+      "words": []
+    },
+    {
+      "start": 1028.64,
+      "end": 1030.64,
+      "text": "text.",
+      "words": []
+    },
+    {
+      "start": 1030.64,
+      "end": 1031.8,
+      "text": "All right.",
+      "words": []
+    },
+    {
+      "start": 1031.8,
+      "end": 1036.92,
+      "text": "So when we do that, we can see the LMV canvas.",
+      "words": []
+    },
+    {
+      "start": 1036.92,
+      "end": 1044.88,
+      "text": "So we need to somehow tell AI to maybe turn off the map Libra layer and see what happens.",
+      "words": []
+    },
+    {
+      "start": 1044.88,
+      "end": 1048.88,
+      "text": "Now we do that and then we get this result here on the left.",
+      "words": []
+    },
+    {
+      "start": 1048.88,
+      "end": 1050.3200000000002,
+      "text": "So we can now see something.",
+      "words": []
+    },
+    {
+      "start": 1050.3200000000002,
+      "end": 1054.3600000000001,
+      "text": "We can see LMV, but we can see this weird grainess.",
+      "words": []
+    },
+    {
+      "start": 1054.3600000000001,
+      "end": 1058.0800000000002,
+      "text": "This is in fact the ambient occlusion shader.",
+      "words": []
+    },
+    {
+      "start": 1058.0800000000002,
+      "end": 1060.88,
+      "text": "And now it's pretty clear what the problem is.",
+      "words": []
+    },
+    {
+      "start": 1060.88,
+      "end": 1067.24,
+      "text": "We can see that the size of the, we can see the size of that shader is rendering too wide.",
+      "words": []
+    },
+    {
+      "start": 1067.24,
+      "end": 1069.44,
+      "text": "It looks like it's maybe double the size.",
+      "words": []
+    },
+    {
+      "start": 1069.44,
+      "end": 1077.0400000000002,
+      "text": "So we're going to tell AI that we can see that the size of the A O shader is wrong and",
+      "words": []
+    },
+    {
+      "start": 1077.0400000000002,
+      "end": 1079.2,
+      "text": "that it should try to fix it.",
+      "words": []
+    },
+    {
+      "start": 1079.2,
+      "end": 1084.3200000000002,
+      "text": "We also know that the render order is incorrect because map Libra is rendering, but we don't",
+      "words": []
+    },
+    {
+      "start": 1084.3200000000002,
+      "end": 1086.0800000000002,
+      "text": "see the viewer on top.",
+      "words": []
+    },
+    {
+      "start": 1086.0800000000002,
+      "end": 1089.24,
+      "text": "And so we also need to tell it to change the render order.",
+      "words": []
+    },
+    {
+      "start": 1089.24,
+      "end": 1095.28,
+      "text": "And then finally, we need to also make sure that LMV is rendering without the background",
+      "words": []
+    },
+    {
+      "start": 1095.28,
+      "end": 1096.28,
+      "text": "showing.",
+      "words": []
+    },
+    {
+      "start": 1096.28,
+      "end": 1100.56,
+      "text": "So you can see that the blue haze in the background is still showing.",
+      "words": []
+    },
+    {
+      "start": 1100.56,
+      "end": 1106.72,
+      "text": "So we explain those three things and this is the final, this is the next result.",
+      "words": []
+    },
+    {
+      "start": 1106.72,
+      "end": 1107.72,
+      "text": "It's a breakthrough.",
+      "words": []
+    },
+    {
+      "start": 1107.72,
+      "end": 1113.04,
+      "text": "We can see that AI has figured out how to fix the render order.",
+      "words": []
+    },
+    {
+      "start": 1113.04,
+      "end": 1118.76,
+      "text": "It's figured out how to fix the buffer size, the FBOs, and also how to turn off the background",
+      "words": []
+    },
+    {
+      "start": 1118.76,
+      "end": 1120.72,
+      "text": "shader.",
+      "words": []
+    },
+    {
+      "start": 1120.72,
+      "end": 1122.6,
+      "text": "So we finally get this great result.",
+      "words": []
+    },
+    {
+      "start": 1122.6,
+      "end": 1124.96,
+      "text": "We can now pan around and zoom.",
+      "words": []
+    },
+    {
+      "start": 1124.96,
+      "end": 1130.08,
+      "text": "We get all that interaction from map Libra and the model is tracking correctly.",
+      "words": []
+    },
+    {
+      "start": 1130.08,
+      "end": 1133.0,
+      "text": "Except there is something weird about this, right?",
+      "words": []
+    },
+    {
+      "start": 1133.0,
+      "end": 1137.6,
+      "text": "You can see that the river building is rotated by 45 degrees.",
+      "words": []
+    },
+    {
+      "start": 1137.6,
+      "end": 1139.72,
+      "text": "So we explain that as well.",
+      "words": []
+    },
+    {
+      "start": 1139.72,
+      "end": 1147.6,
+      "text": "We tell AI agent that this is what the model looks like on the X Y, rotated by 45 degrees.",
+      "words": []
+    },
+    {
+      "start": 1147.6,
+      "end": 1152.8,
+      "text": "And it realizes the problem is with the Auto Matrix update set to true.",
+      "words": []
+    },
+    {
+      "start": 1152.8,
+      "end": 1156.4399999999998,
+      "text": "It makes that modification and then fixes the problem.",
+      "words": []
+    },
+    {
+      "start": 1156.4399999999998,
+      "end": 1158.1999999999998,
+      "text": "All right.",
+      "words": []
+    },
+    {
+      "start": 1158.1999999999998,
+      "end": 1162.12,
+      "text": "And so that's the, you know, that's the, and this is the final result.",
+      "words": []
+    },
+    {
+      "start": 1162.12,
+      "end": 1164.84,
+      "text": "So you can see that transform matrix is fixed.",
+      "words": []
+    },
+    {
+      "start": 1164.84,
+      "end": 1170.52,
+      "text": "The difference between the GLTF camera up system and LMV's camera up system is adjusted.",
+      "words": []
+    },
+    {
+      "start": 1170.52,
+      "end": 1177.4399999999998,
+      "text": "And now the 3D model is correctly synchronized between map Libra camera as well as the",
+      "words": []
+    },
+    {
+      "start": 1177.44,
+      "end": 1179.8400000000001,
+      "text": "LMV camera.",
+      "words": []
+    },
+    {
+      "start": 1179.8400000000001,
+      "end": 1183.0800000000002,
+      "text": "One last thing was the building scale was off.",
+      "words": []
+    },
+    {
+      "start": 1183.0800000000002,
+      "end": 1186.76,
+      "text": "We know that GLTF uses metric and LMV uses feet.",
+      "words": []
+    },
+    {
+      "start": 1186.76,
+      "end": 1190.96,
+      "text": "We point that out and that's also fixed as well.",
+      "words": []
+    },
+    {
+      "start": 1190.96,
+      "end": 1194.2,
+      "text": "Achievement is now unlocked.",
+      "words": []
+    },
+    {
+      "start": 1194.2,
+      "end": 1198.52,
+      "text": "So that brings us to a few wrap up items before the final tweaking result that I'm going",
+      "words": []
+    },
+    {
+      "start": 1198.52,
+      "end": 1199.52,
+      "text": "to show you.",
+      "words": []
+    },
+    {
+      "start": 1199.52,
+      "end": 1203.1200000000001,
+      "text": "We're going to talk about memory really quickly.",
+      "words": []
+    },
+    {
+      "start": 1203.12,
+      "end": 1208.3999999999999,
+      "text": "The agent can be start and stop without losing its place if we tell it to create a memory",
+      "words": []
+    },
+    {
+      "start": 1208.3999999999999,
+      "end": 1209.3999999999999,
+      "text": "file.",
+      "words": []
+    },
+    {
+      "start": 1209.3999999999999,
+      "end": 1214.9199999999998,
+      "text": "That's a really simple description you can find in the method.md file.",
+      "words": []
+    },
+    {
+      "start": 1214.9199999999998,
+      "end": 1217.6399999999999,
+      "text": "The second one is the skills.",
+      "words": []
+    },
+    {
+      "start": 1217.6399999999999,
+      "end": 1222.6399999999999,
+      "text": "We've created a number of skills that generate that reference as folder.",
+      "words": []
+    },
+    {
+      "start": 1222.6399999999999,
+      "end": 1226.84,
+      "text": "One of them that's kind of interesting is the APS docs portal skill.",
+      "words": []
+    },
+    {
+      "start": 1226.84,
+      "end": 1236.1599999999999,
+      "text": "This tells AI how to decode and retrieve documents from APS portal directly.",
+      "words": []
+    },
+    {
+      "start": 1236.1599999999999,
+      "end": 1242.72,
+      "text": "You can then instantiate that skill to create an MCP server, a tool, a CLI tool, or even",
+      "words": []
+    },
+    {
+      "start": 1242.72,
+      "end": 1244.76,
+      "text": "a Python script.",
+      "words": []
+    },
+    {
+      "start": 1244.76,
+      "end": 1250.3999999999999,
+      "text": "And so this is going to become the replacement for the LLMS.txt file version 1.",
+      "words": []
+    },
+    {
+      "start": 1250.3999999999999,
+      "end": 1254.56,
+      "text": "This is a significantly superior system to the way we did it before.",
+      "words": []
+    },
+    {
+      "start": 1254.56,
+      "end": 1260.3999999999999,
+      "text": "It uses far less context and you can tie it to semantic search systems like ChromaDB",
+      "words": []
+    },
+    {
+      "start": 1260.3999999999999,
+      "end": 1265.76,
+      "text": "or any other vector database to get even more accurate, deeper searches.",
+      "words": []
+    },
+    {
+      "start": 1265.76,
+      "end": 1266.76,
+      "text": "All right.",
+      "words": []
+    },
+    {
+      "start": 1266.76,
+      "end": 1272.56,
+      "text": "So we add a few more tweaks and this is a little bit of those results.",
+      "words": []
+    },
+    {
+      "start": 1272.56,
+      "end": 1278.52,
+      "text": "You can see Map Libra with its 3D buildings and then you can see our Revit model appearing",
+      "words": []
+    },
+    {
+      "start": 1278.52,
+      "end": 1280.8799999999999,
+      "text": "quite nicely.",
+      "words": []
+    },
+    {
+      "start": 1280.88,
+      "end": 1287.0,
+      "text": "We can turn off things like filtering, etc. or more interesting.",
+      "words": []
+    },
+    {
+      "start": 1287.0,
+      "end": 1291.5600000000002,
+      "text": "We can actually load in 2D sheet, for example.",
+      "words": []
+    },
+    {
+      "start": 1291.5600000000002,
+      "end": 1293.5600000000002,
+      "text": "So let's go to that.",
+      "words": []
+    },
+    {
+      "start": 1293.5600000000002,
+      "end": 1298.72,
+      "text": "We click on the DWG file and you can see that the 2D sheet is loaded and you've got that",
+      "words": []
+    },
+    {
+      "start": 1298.72,
+      "end": 1307.4,
+      "text": "really nice vectorized lines and circles from the Science Distance field shaders and that",
+      "words": []
+    },
+    {
+      "start": 1307.4,
+      "end": 1309.88,
+      "text": "all synchronized with Map Libra.",
+      "words": []
+    },
+    {
+      "start": 1309.88,
+      "end": 1315.0,
+      "text": "We also have prison materials working and protein materials working for things like",
+      "words": []
+    },
+    {
+      "start": 1315.0,
+      "end": 1322.0,
+      "text": "this, the turbine engine as well as instancing everything works as you'd expect.",
+      "words": []
+    },
+    {
+      "start": 1322.0,
+      "end": 1326.0800000000002,
+      "text": "And then one last thing is let's add back the LMV user interface.",
+      "words": []
+    },
+    {
+      "start": 1326.0800000000002,
+      "end": 1332.0800000000002,
+      "text": "So here we've got the elevation system from Map Libra adding that hill shader as well",
+      "words": []
+    },
+    {
+      "start": 1332.0800000000002,
+      "end": 1335.8400000000001,
+      "text": "as the marker browser on the left.",
+      "words": []
+    },
+    {
+      "start": 1335.84,
+      "end": 1337.84,
+      "text": "I can turn off the walls for example.",
+      "words": []
+    },
+    {
+      "start": 1337.84,
+      "end": 1344.12,
+      "text": "I can even use the sectioning tool and we get that and all of that works out of the box",
+      "words": []
+    },
+    {
+      "start": 1344.12,
+      "end": 1348.28,
+      "text": "because we've combined these two engines.",
+      "words": []
+    },
+    {
+      "start": 1348.28,
+      "end": 1353.1999999999998,
+      "text": "And then last but not least the retrospective file which has got a typo there.",
+      "words": []
+    },
+    {
+      "start": 1353.1999999999998,
+      "end": 1359.28,
+      "text": "Retrospective file, this is a way for all of the agent work that it's done to compile",
+      "words": []
+    },
+    {
+      "start": 1359.28,
+      "end": 1362.4399999999998,
+      "text": "what it learned into a final markdown file.",
+      "words": []
+    },
+    {
+      "start": 1362.44,
+      "end": 1369.48,
+      "text": "This is really useful if you're continuing this project into future tasks.",
+      "words": []
+    },
+    {
+      "start": 1369.48,
+      "end": 1370.6000000000001,
+      "text": "So there you have it.",
+      "words": []
+    },
+    {
+      "start": 1370.6000000000001,
+      "end": 1375.3200000000002,
+      "text": "We started by going back in time to understand the real problem with vibe coding.",
+      "words": []
+    },
+    {
+      "start": 1375.3200000000002,
+      "end": 1380.8400000000001,
+      "text": "We then broke down the problems we are the challenge into a 4 layer blueprint.",
+      "words": []
+    },
+    {
+      "start": 1380.8400000000001,
+      "end": 1386.24,
+      "text": "And we saw how a simple markdown file can drive the entire agent loop.",
+      "words": []
+    },
+    {
+      "start": 1386.24,
+      "end": 1391.1200000000001,
+      "text": "We covered how to give a plan, give it a plan, something with a challenge.",
+      "words": []
+    },
+    {
+      "start": 1391.12,
+      "end": 1397.2399999999998,
+      "text": "We saw how this all comes together when we merged two 3D engines, the APS viewer and",
+      "words": []
+    },
+    {
+      "start": 1397.2399999999998,
+      "end": 1401.0,
+      "text": "Map Libra into a single web GL pane of glass.",
+      "words": []
+    },
+    {
+      "start": 1401.0,
+      "end": 1405.9599999999998,
+      "text": "We also dug into some critical pieces that make this actually work in the long run.",
+      "words": []
+    },
+    {
+      "start": 1405.9599999999998,
+      "end": 1411.4399999999998,
+      "text": "So things like the skills files, the memory and some lightweight debugging.",
+      "words": []
+    },
+    {
+      "start": 1411.4399999999998,
+      "end": 1414.0,
+      "text": "That's the blueprint, that's the loop.",
+      "words": []
+    },
+    {
+      "start": 1414.0,
+      "end": 1419.1999999999998,
+      "text": "Now over to you, build something amazing with the blueprint.",
+      "words": []
+    },
+    {
+      "start": 1419.2,
+      "end": 1424.3600000000001,
+      "text": "You can continue the conversation, reach out to me on LinkedIn, check out my GitHub repo,",
+      "words": []
+    },
+    {
+      "start": 1424.3600000000001,
+      "end": 1429.88,
+      "text": "or check out the APS platform services for our accelerators and webinar events.",
+      "words": []
+    },
+    {
+      "start": 1429.88,
+      "end": 1435.8,
+      "text": "You can find the agile methodology at this GitHub repo and other blog posts that I've done",
+      "words": []
+    },
+    {
+      "start": 1435.8,
+      "end": 1438.4,
+      "text": "on my blog post here.",
+      "words": []
+    },
+    {
+      "start": 1438.4,
+      "end": 1439.04,
+      "text": "Thank you very much.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:23:11.360738+00:00"
+}

@@ -1,0 +1,1261 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.72,
+      "text": "Welcome and thanks for being here. Today we are going to discuss using informed designs APIs",
+      "words": []
+    },
+    {
+      "start": 7.84,
+      "end": 15.120000000000001,
+      "text": "to create custom applications, to integrate with forma, to integrate with Revit and Dynamo.",
+      "words": []
+    },
+    {
+      "start": 16.16,
+      "end": 22.8,
+      "text": "My name is Steve DeWitt and I've been in the business for a little over 26 years and for the past 12",
+      "words": []
+    },
+    {
+      "start": 22.8,
+      "end": 28.72,
+      "text": "years I have been focused in industrialized construction, designing for manufacturing assembly",
+      "words": []
+    },
+    {
+      "start": 28.72,
+      "end": 35.92,
+      "text": "and installation, dealing with companies that primarily view buildings as products. This industry",
+      "words": []
+    },
+    {
+      "start": 35.92,
+      "end": 42.48,
+      "text": "has a very high modeling requirement and standard and we have essentially been forced to automate",
+      "words": []
+    },
+    {
+      "start": 42.48,
+      "end": 48.8,
+      "text": "and innovate for a very long time and it's because of this that I have been crafting and designing",
+      "words": []
+    },
+    {
+      "start": 48.8,
+      "end": 53.36,
+      "text": "tools and solutions to accommodate the industrialized construction communities requirements.",
+      "words": []
+    },
+    {
+      "start": 54.0,
+      "end": 61.04,
+      "text": "Thus my journey has led me to creating building configurators so much so that about 10 years ago",
+      "words": []
+    },
+    {
+      "start": 61.04,
+      "end": 66.32,
+      "text": "I met my partner and crime over here Durey building this first configurator. Durey.",
+      "words": []
+    },
+    {
+      "start": 68.24,
+      "end": 74.96000000000001,
+      "text": "Hello myself, Appadre Goneshagrin, having digital platforms and automation at some",
+      "words": []
+    },
+    {
+      "start": 74.96000000000001,
+      "end": 80.72,
+      "text": "odd energy solutions. I have around 20 years of experience in cat customization and",
+      "words": []
+    },
+    {
+      "start": 80.72,
+      "end": 87.28,
+      "text": "engineering software development across manufacturing and construction. So I've been building a",
+      "words": []
+    },
+    {
+      "start": 87.28,
+      "end": 92.48,
+      "text": "configurator using order desk products as well as order desk platform solutions",
+      "words": []
+    },
+    {
+      "start": 93.44,
+      "end": 99.44,
+      "text": "focusing on engineering to order workflows. Also I'm working with digital train initiatives",
+      "words": []
+    },
+    {
+      "start": 99.44,
+      "end": 106.16,
+      "text": "which connects the real-time IoT enabled buildings to control and monitor their assets.",
+      "words": []
+    },
+    {
+      "start": 106.24,
+      "end": 114.32,
+      "text": "I have a deeper knowledge in developing a customized application especially on the panel detailing",
+      "words": []
+    },
+    {
+      "start": 114.96,
+      "end": 121.36,
+      "text": "industry which helps the building and well-op manifests to generate soft drawings, fabrication sketches,",
+      "words": []
+    },
+    {
+      "start": 121.92,
+      "end": 126.8,
+      "text": "beloved materials with a shorter type. Yes, that's all my experience. Thank you.",
+      "words": []
+    },
+    {
+      "start": 126.96,
+      "end": 136.4,
+      "text": "Great. So first let's discuss part of our problem. So this first animation",
+      "words": []
+    },
+    {
+      "start": 138.07999999999998,
+      "end": 142.8,
+      "text": "is essentially kind of trying to show here the industrialized construction community has",
+      "words": []
+    },
+    {
+      "start": 143.51999999999998,
+      "end": 148.56,
+      "text": "long pursued tighter integrations with architectural design tools and fabrication tools.",
+      "words": []
+    },
+    {
+      "start": 149.2,
+      "end": 156.56,
+      "text": "Historically these integrations have been fragmented and maybe more importantly the engineer to order",
+      "words": []
+    },
+    {
+      "start": 156.56,
+      "end": 162.48,
+      "text": "building components like curtain wall systems and all the design tools and the supporting",
+      "words": []
+    },
+    {
+      "start": 162.48,
+      "end": 168.4,
+      "text": "softwares that surround them have completely different requirements and workflows compared to",
+      "words": []
+    },
+    {
+      "start": 168.4,
+      "end": 182.64000000000001,
+      "text": "architectural design tools. The informed design has introduced a more comprehensive approach",
+      "words": []
+    },
+    {
+      "start": 182.95999999999998,
+      "end": 191.92,
+      "text": "with some newly released APIs and Dynamo nodes. We now have access to informed designs data layer",
+      "words": []
+    },
+    {
+      "start": 191.92,
+      "end": 198.07999999999998,
+      "text": "which exposes your company's product definitions like your rules. It provides access to",
+      "words": []
+    },
+    {
+      "start": 198.07999999999998,
+      "end": 206.32,
+      "text": "automated part generation rules validation cross platform integration with Revit and inventor and more.",
+      "words": []
+    },
+    {
+      "start": 206.32,
+      "end": 219.04,
+      "text": "So we can now use this data layer to also generate building configurators,",
+      "words": []
+    },
+    {
+      "start": 220.0,
+      "end": 225.2,
+      "text": "building configurator apps like the one that we're going to demo today. So Durey and I",
+      "words": []
+    },
+    {
+      "start": 225.2,
+      "end": 232.56,
+      "text": "sat out to as fans of configurator driven workflows we set out to evaluate these capabilities",
+      "words": []
+    },
+    {
+      "start": 232.56,
+      "end": 240.32,
+      "text": "specifically to see what kinds of deterministic design automation is possible and how can this",
+      "words": []
+    },
+    {
+      "start": 240.32,
+      "end": 245.6,
+      "text": "enable more reliable design to fabrication pipeline workflows.",
+      "words": []
+    },
+    {
+      "start": 249.76,
+      "end": 256.0,
+      "text": "So a quick overview before we get into the specifics. So what we're going to see today is",
+      "words": []
+    },
+    {
+      "start": 256.96,
+      "end": 261.44,
+      "text": "we are going to build product and inventor right we're going to use",
+      "words": []
+    },
+    {
+      "start": 262.64,
+      "end": 269.76,
+      "text": "inventor workflows that support product based approaches. We're going to use iLogic and iParts",
+      "words": []
+    },
+    {
+      "start": 269.76,
+      "end": 277.36,
+      "text": "to create parametric aka fabrication constrained content. We're going to utilize",
+      "words": []
+    },
+    {
+      "start": 277.36,
+      "end": 282.16,
+      "text": "revisions and versionings to manage the lifecycle of the product. We're going to utilize nesting",
+      "words": []
+    },
+    {
+      "start": 282.16,
+      "end": 288.08000000000004,
+      "text": "across multiple symbolies. We're going to utilize the mirroring capabilities for opposite hand",
+      "words": []
+    },
+    {
+      "start": 288.08000000000004,
+      "end": 293.92,
+      "text": "conditions. We're going to utilize the shop drawing automation, bomb automation and the CNC",
+      "words": []
+    },
+    {
+      "start": 293.92,
+      "end": 303.52000000000004,
+      "text": "machine output from inventor. The second portion of this is we are going to publish this product to",
+      "words": []
+    },
+    {
+      "start": 303.52000000000004,
+      "end": 309.52000000000004,
+      "text": "inform design which is going to expose all of the APIs for inform design like rule layers",
+      "words": []
+    },
+    {
+      "start": 309.52,
+      "end": 315.68,
+      "text": "and automated workflow supporting manufacturing needs. We're going to then build a web application",
+      "words": []
+    },
+    {
+      "start": 315.68,
+      "end": 321.84,
+      "text": "utilizing the inform design APIs while fetching all of my panel rules and then we're going to connect",
+      "words": []
+    },
+    {
+      "start": 322.79999999999995,
+      "end": 330.79999999999995,
+      "text": "the output from our configurator to form a and to rev it allowing us to ping rule layers and validate",
+      "words": []
+    },
+    {
+      "start": 330.79999999999995,
+      "end": 339.12,
+      "text": "change allowing us to utilize all of the design API automations provided by inform design.",
+      "words": []
+    },
+    {
+      "start": 339.91999999999996,
+      "end": 346.47999999999996,
+      "text": "And then lastly here our goal is to allow as much flexibility as possible",
+      "words": []
+    },
+    {
+      "start": 347.12,
+      "end": 351.84,
+      "text": "allowing the user to configure any panel which their product already",
+      "words": []
+    },
+    {
+      "start": 352.71999999999997,
+      "end": 357.2,
+      "text": "with their product already considering their company's means and methods for industrialized",
+      "words": []
+    },
+    {
+      "start": 357.2,
+      "end": 362.32,
+      "text": "construction and allowing them the ability to customize what panels might go where within the",
+      "words": []
+    },
+    {
+      "start": 362.32,
+      "end": 370.15999999999997,
+      "text": "rules that they've prescribed for their product. But hey, Tareg. Thanks, too.",
+      "words": []
+    },
+    {
+      "start": 371.92,
+      "end": 378.56,
+      "text": "With this approach the very beginning, the first step is to author your product in inventory.",
+      "words": []
+    },
+    {
+      "start": 378.56,
+      "end": 384.64,
+      "text": "So we have taken our wall assemblies as individual product assemblies.",
+      "words": []
+    },
+    {
+      "start": 385.52,
+      "end": 393.44,
+      "text": "So here we have taken the top known approach where the parameters are going to be controlled",
+      "words": []
+    },
+    {
+      "start": 393.44,
+      "end": 401.28,
+      "text": "from the assembly level to the part level. So for example, the length side of the wall panel which",
+      "words": []
+    },
+    {
+      "start": 401.28,
+      "end": 408.47999999999996,
+      "text": "is going to drive the entire dimensions of each and every parts involved in this wall assembly.",
+      "words": []
+    },
+    {
+      "start": 409.44,
+      "end": 416.08000000000004,
+      "text": "The more importantly here we are emberting the DFMA rules and constraints within the model.",
+      "words": []
+    },
+    {
+      "start": 417.84000000000003,
+      "end": 422.8,
+      "text": "Every calculations involving to identify the calculations, the spaceings, openings,",
+      "words": []
+    },
+    {
+      "start": 422.8,
+      "end": 430.56,
+      "text": "offsets, fabrication limits, all are in for Zoe here. This means the models behaves as a",
+      "words": []
+    },
+    {
+      "start": 430.64,
+      "end": 437.6,
+      "text": "contralural product not just a 3D model. So that's how we have authored our product as a",
+      "words": []
+    },
+    {
+      "start": 438.88,
+      "end": 447.52,
+      "text": "other model as a product. So the second step is to make that model more intelligent using",
+      "words": []
+    },
+    {
+      "start": 447.52,
+      "end": 455.28,
+      "text": "ordered-esque ILOGENT. So here ILOGENT is acting as an embedded rule engine. For example, the simple",
+      "words": []
+    },
+    {
+      "start": 455.28,
+      "end": 462.47999999999996,
+      "text": "input like the frame size, the start size which is 2x8 which is going to derive its",
+      "words": []
+    },
+    {
+      "start": 462.47999999999996,
+      "end": 469.2,
+      "text": "start thickness as well as the depth of the wall which is 2 is the thickness 8 is the depth.",
+      "words": []
+    },
+    {
+      "start": 469.2,
+      "end": 474.96,
+      "text": "So this derel, the calculation is going to happen within the ILOGENT using the simple",
+      "words": []
+    },
+    {
+      "start": 475.84,
+      "end": 481.35999999999996,
+      "text": "course nipotes which is available within the ILOGENT. So we have made the rules along with this,",
+      "words": []
+    },
+    {
+      "start": 481.76,
+      "end": 487.84000000000003,
+      "text": "we are also making a design rule validation as well as the input validations using the ILOGENT.",
+      "words": []
+    },
+    {
+      "start": 487.84000000000003,
+      "end": 494.56,
+      "text": "The ILOGENT is also providing your ability to make the user interface creation so that you can",
+      "words": []
+    },
+    {
+      "start": 494.56,
+      "end": 501.44,
+      "text": "make your product configurable within invented itself. You can ensure that the configurator is",
+      "words": []
+    },
+    {
+      "start": 501.44,
+      "end": 507.92,
+      "text": "working for different inputs as per your validations. So the logic ILOGENT is also going to",
+      "words": []
+    },
+    {
+      "start": 508.56,
+      "end": 514.96,
+      "text": "prevent invalid as well as non-manifactual configurations. It is going to enforce the",
+      "words": []
+    },
+    {
+      "start": 514.96,
+      "end": 525.52,
+      "text": "DFMA rules and the design entered. So once your model is ready for as a configurable product,",
+      "words": []
+    },
+    {
+      "start": 525.52,
+      "end": 533.04,
+      "text": "we need to publish this model as a product into inform design. So we need to define the product",
+      "words": []
+    },
+    {
+      "start": 533.12,
+      "end": 539.68,
+      "text": "with sort of information. First thing is we need to choose the parameters which user can",
+      "words": []
+    },
+    {
+      "start": 539.68,
+      "end": 545.76,
+      "text": "configure from the different platforms like Revit or any of the configurator.",
+      "words": []
+    },
+    {
+      "start": 546.48,
+      "end": 550.56,
+      "text": "So we need to choose the parameter which is which we are adopting those parameters as a",
+      "words": []
+    },
+    {
+      "start": 550.56,
+      "end": 558.16,
+      "text": "configurable input parameters. Here we can choose parameters and it can, this schema can derive",
+      "words": []
+    },
+    {
+      "start": 558.24,
+      "end": 565.52,
+      "text": "the user interface. Okay, let's see how we can define the rules inside the inform design.",
+      "words": []
+    },
+    {
+      "start": 566.0799999999999,
+      "end": 572.9599999999999,
+      "text": "So the first thing is you need to define the user interface by drag and drop the parameters",
+      "words": []
+    },
+    {
+      "start": 572.9599999999999,
+      "end": 579.04,
+      "text": "which you have adopted in the previous screen. So that is going to ensure that the parameter is",
+      "words": []
+    },
+    {
+      "start": 579.04,
+      "end": 584.8,
+      "text": "going to stick to the validation which you are providing in the rules. For example, like you can",
+      "words": []
+    },
+    {
+      "start": 584.8,
+      "end": 592.9599999999999,
+      "text": "define minimum maximum value can be given in the configuration. Also you can provide the different",
+      "words": []
+    },
+    {
+      "start": 592.9599999999999,
+      "end": 599.52,
+      "text": "added mathematical mathematical function to be taken care when the user provides information",
+      "words": []
+    },
+    {
+      "start": 599.52,
+      "end": 608.24,
+      "text": "in input into the configuration. It's a block-based visual rule engine which no need of having a",
+      "words": []
+    },
+    {
+      "start": 608.24,
+      "end": 612.9599999999999,
+      "text": "coding knowledge or any programming knowledge you can simply drag and drop which can",
+      "words": []
+    },
+    {
+      "start": 613.2800000000001,
+      "end": 621.12,
+      "text": "allow you to define the rules and validations of your configuration. So here the rules are",
+      "words": []
+    },
+    {
+      "start": 621.12,
+      "end": 624.8000000000001,
+      "text": "executed in the cloud when you are publishing this model into inform design.",
+      "words": []
+    },
+    {
+      "start": 626.96,
+      "end": 633.6800000000001,
+      "text": "So once the rules are defined you can publish into the cloud system which is inform design.",
+      "words": []
+    },
+    {
+      "start": 634.96,
+      "end": 641.76,
+      "text": "You need to select what all the outputs you are going to allow the user to generate. For example,",
+      "words": []
+    },
+    {
+      "start": 641.84,
+      "end": 649.04,
+      "text": "right from the rabbit file which is RFA, GLB files and any neutral lines and along with the drawings",
+      "words": []
+    },
+    {
+      "start": 649.04,
+      "end": 656.08,
+      "text": "you can generate as a media format or any itself format for creation of the love material.",
+      "words": []
+    },
+    {
+      "start": 656.96,
+      "end": 661.04,
+      "text": "So that's what you are defining a product here in the inform design.",
+      "words": []
+    },
+    {
+      "start": 662.0,
+      "end": 668.88,
+      "text": "Right. So now our product is published into inform design. Now product is ready to use across",
+      "words": []
+    },
+    {
+      "start": 668.88,
+      "end": 676.72,
+      "text": "different platforms. For example, like we will take it under the very first use case is using",
+      "words": []
+    },
+    {
+      "start": 677.36,
+      "end": 686.08,
+      "text": "the product into documentation level inside auto-desk limit. So you can bring all your products",
+      "words": []
+    },
+    {
+      "start": 686.72,
+      "end": 693.84,
+      "text": "inside a web when you choose your construction cloud hub. You will be able to see all the products",
+      "words": []
+    },
+    {
+      "start": 693.84,
+      "end": 700.72,
+      "text": "you can choose that and then the user interface will populate all the input parameter",
+      "words": []
+    },
+    {
+      "start": 700.72,
+      "end": 706.72,
+      "text": "as per the product it is defined. It's going to be completely dynamic. Each product may have a",
+      "words": []
+    },
+    {
+      "start": 706.72,
+      "end": 713.6800000000001,
+      "text": "different input parameter. So that is driven by the parametric schema. When you are providing the",
+      "words": []
+    },
+    {
+      "start": 713.6800000000001,
+      "end": 719.12,
+      "text": "input over here it is going to validate the rules which is already embedded. So it is going to",
+      "words": []
+    },
+    {
+      "start": 719.2,
+      "end": 727.28,
+      "text": "ensure the consistency of your product design. That's how you can create different variants using",
+      "words": []
+    },
+    {
+      "start": 727.28,
+      "end": 734.08,
+      "text": "a single product but not making different files. So that's the major advantage over here.",
+      "words": []
+    },
+    {
+      "start": 735.84,
+      "end": 739.28,
+      "text": "It is also carrying the metadata which is embedded in the product level.",
+      "words": []
+    },
+    {
+      "start": 741.28,
+      "end": 747.6,
+      "text": "Right. The second use case is the major one which is like web configurator. Like everyone will",
+      "words": []
+    },
+    {
+      "start": 747.6800000000001,
+      "end": 754.88,
+      "text": "have their own customized web configuration applications and here we also have our own web",
+      "words": []
+    },
+    {
+      "start": 754.88,
+      "end": 763.28,
+      "text": "configurator to configure our buildings. To configure the building here all panels are the",
+      "words": []
+    },
+    {
+      "start": 763.28,
+      "end": 770.08,
+      "text": "product. So our products are available in the inform design. So how are web configurators pulling",
+      "words": []
+    },
+    {
+      "start": 770.08,
+      "end": 775.36,
+      "text": "the cloud product and how it is allowing the user to build the building configuration.",
+      "words": []
+    },
+    {
+      "start": 776.08,
+      "end": 782.08,
+      "text": "So here is the architecture of the web configuration. We are using the ordered as platform services",
+      "words": []
+    },
+    {
+      "start": 782.08,
+      "end": 787.6,
+      "text": "API along with the inform design API to bring the product configuration worth more.",
+      "words": []
+    },
+    {
+      "start": 789.04,
+      "end": 796.32,
+      "text": "The inform design API it drives the roads parameters and it creates the variants based on the",
+      "words": []
+    },
+    {
+      "start": 796.32,
+      "end": 803.6800000000001,
+      "text": "user inputs. The data management API we are using here to handle the file storage,",
+      "words": []
+    },
+    {
+      "start": 803.68,
+      "end": 812.2399999999999,
+      "text": "versioning and output of the variants. We have we were integrated in the web configurator",
+      "words": []
+    },
+    {
+      "start": 812.2399999999999,
+      "end": 816.88,
+      "text": "which enabled the instant visualization of the output variant as well as you can",
+      "words": []
+    },
+    {
+      "start": 817.4399999999999,
+      "end": 822.0799999999999,
+      "text": "when you choose the product you'll be able to see how one one one you have chosen.",
+      "words": []
+    },
+    {
+      "start": 823.28,
+      "end": 829.3599999999999,
+      "text": "The UI is completely dynamically generating based on the parameter schema you have defined in",
+      "words": []
+    },
+    {
+      "start": 829.36,
+      "end": 837.92,
+      "text": "the inform design. So the config reader orchestrated the API using ordered as platform services as",
+      "words": []
+    },
+    {
+      "start": 837.92,
+      "end": 848.32,
+      "text": "well as inform design API and it executes the rules using inform design. Yes, Steve will explain",
+      "words": []
+    },
+    {
+      "start": 848.32,
+      "end": 852.24,
+      "text": "how the web configurator is trimming. Thank you.",
+      "words": []
+    },
+    {
+      "start": 852.88,
+      "end": 863.76,
+      "text": "Great, thanks to Ray. All right, so we are going to take a quick look at the web app real quick.",
+      "words": []
+    },
+    {
+      "start": 863.76,
+      "end": 870.24,
+      "text": "We've got three kind of pillars. We've got a wall designer, a unit designer and a building designer.",
+      "words": []
+    },
+    {
+      "start": 870.24,
+      "end": 874.88,
+      "text": "But first let's look at our wall designer and essentially our wall designer here our user is",
+      "words": []
+    },
+    {
+      "start": 874.88,
+      "end": 880.64,
+      "text": "selecting a wall from the hub and the first thing it's going to do is it's going to expose all of the",
+      "words": []
+    },
+    {
+      "start": 880.64,
+      "end": 886.8,
+      "text": "values and parametric content that we built and blockly and in iParts. And so we're going to",
+      "words": []
+    },
+    {
+      "start": 887.36,
+      "end": 894.72,
+      "text": "essentially be able to duplicate a variant and modify some of those values inside of our web app.",
+      "words": []
+    },
+    {
+      "start": 894.72,
+      "end": 900.16,
+      "text": "I'm going to give it a quick name. I'm going to save this as a variant. And then the next step is",
+      "words": []
+    },
+    {
+      "start": 900.16,
+      "end": 906.56,
+      "text": "is I am going to use that variant now inside of our unit assembler which we'll look at here a little",
+      "words": []
+    },
+    {
+      "start": 906.56,
+      "end": 914.9599999999999,
+      "text": "deeper. The idea is is I'm going to select a perimeter wall here. I'm going to go select the",
+      "words": []
+    },
+    {
+      "start": 916.0,
+      "end": 922.0,
+      "text": "configuration that I just built inside of my wall panel tool. And I just wanted to show that",
+      "words": []
+    },
+    {
+      "start": 922.0,
+      "end": 928.2399999999999,
+      "text": "this is essentially we can create the wall panel in our first and our first tab for the",
+      "words": []
+    },
+    {
+      "start": 929.4399999999999,
+      "end": 936.0799999999999,
+      "text": "variant creation and that variant creation shows up because it's been duplicated using inform",
+      "words": []
+    },
+    {
+      "start": 936.08,
+      "end": 941.84,
+      "text": "designs APIs and now that that's been duplicated it becomes available for us to select and utilize",
+      "words": []
+    },
+    {
+      "start": 941.84,
+      "end": 948.4000000000001,
+      "text": "inside of our unit assembler. So let's look at our unit assembler real quick. Our unit assembler",
+      "words": []
+    },
+    {
+      "start": 948.4000000000001,
+      "end": 954.88,
+      "text": "essentially you're going to see the user here just identify the size of the unit by adding in a",
+      "words": []
+    },
+    {
+      "start": 954.88,
+      "end": 961.12,
+      "text": "links width and height of the unit. You can see a very simple representation to the right and blue",
+      "words": []
+    },
+    {
+      "start": 961.36,
+      "end": 967.28,
+      "text": "green orange and purple walls just a perimeter of our unit to keep it simpler. I'm going to select a",
+      "words": []
+    },
+    {
+      "start": 967.28,
+      "end": 973.2,
+      "text": "wall. I'm going to go to the folder in our hub where the walls become exposed that have been",
+      "words": []
+    },
+    {
+      "start": 973.2,
+      "end": 979.28,
+      "text": "placed there from informed design. I'm going to select a wall and then our app is essentially going",
+      "words": []
+    },
+    {
+      "start": 979.28,
+      "end": 984.96,
+      "text": "to go look at all the variants that's been created from that from that initial part and it's going",
+      "words": []
+    },
+    {
+      "start": 984.96,
+      "end": 990.0,
+      "text": "to evaluate the parameters and say hey look I've got a perfect match here for you and it's going to",
+      "words": []
+    },
+    {
+      "start": 990.0,
+      "end": 996.72,
+      "text": "pre-select it and all we have to do is select that wall and say use that variant. The users do",
+      "words": []
+    },
+    {
+      "start": 996.72,
+      "end": 1005.44,
+      "text": "the same thing here they're selecting I believe the back wall and the back wall does not have a match",
+      "words": []
+    },
+    {
+      "start": 1005.44,
+      "end": 1010.4,
+      "text": "or excuse me the left wall here does not have a match and so our product is going to notice that",
+      "words": []
+    },
+    {
+      "start": 1010.4,
+      "end": 1015.44,
+      "text": "so it's going to say hey we don't have an exact match but here is one that's close. Why don't you",
+      "words": []
+    },
+    {
+      "start": 1015.44,
+      "end": 1022.48,
+      "text": "duplicate this one and then you can use this variant to accommodate for that specific use case",
+      "words": []
+    },
+    {
+      "start": 1023.5200000000001,
+      "end": 1029.1200000000001,
+      "text": "of that particular wall and size. So once again the users in here and they're going to modify",
+      "words": []
+    },
+    {
+      "start": 1029.1200000000001,
+      "end": 1036.4,
+      "text": "some values and to make this variant a little more unique for this condition we're going to select",
+      "words": []
+    },
+    {
+      "start": 1036.4,
+      "end": 1040.4,
+      "text": "we're going to create that variant and then it's going to assign it to that wall and then our last",
+      "words": []
+    },
+    {
+      "start": 1040.4,
+      "end": 1047.3600000000001,
+      "text": "wall we're going to select here is going to be the exact same or is going to be already something",
+      "words": []
+    },
+    {
+      "start": 1047.3600000000001,
+      "end": 1052.64,
+      "text": "we don't have so the configurator notices that it says here's a wall that's similar why don't you",
+      "words": []
+    },
+    {
+      "start": 1052.64,
+      "end": 1058.88,
+      "text": "customize it if you want and then we are going to create that variant and then the very last stage",
+      "words": []
+    },
+    {
+      "start": 1058.88,
+      "end": 1064.96,
+      "text": "here after we create this variant is we're just going to simply name our unit so that we can use it",
+      "words": []
+    },
+    {
+      "start": 1064.96,
+      "end": 1072.64,
+      "text": "for our next stage which is going to be a building configuration layer and so what we're going to do",
+      "words": []
+    },
+    {
+      "start": 1072.64,
+      "end": 1080.08,
+      "text": "now is the units that we've configured we're going to simply lay these out in a building style layout",
+      "words": []
+    },
+    {
+      "start": 1080.08,
+      "end": 1086.32,
+      "text": "right so we're using just the two that we have we're placing in the units into our configured space",
+      "words": []
+    },
+    {
+      "start": 1087.52,
+      "end": 1093.52,
+      "text": "where rain parts were rotating them what's unique about this situation is even though we're",
+      "words": []
+    },
+    {
+      "start": 1093.52,
+      "end": 1100.6399999999999,
+      "text": "showing these as simple masses what's behind here is a highly intelligent model with all of the",
+      "words": []
+    },
+    {
+      "start": 1100.6399999999999,
+      "end": 1107.92,
+      "text": "individual parts already pre-selected so yes simple building representation and masses but what",
+      "words": []
+    },
+    {
+      "start": 1107.92,
+      "end": 1116.72,
+      "text": "we're about to see after we save this building is we are going to then extract this geometry into a",
+      "words": []
+    },
+    {
+      "start": 1116.72,
+      "end": 1124.64,
+      "text": "JSON format which is going to feed the next stage of our process which is extracting JSON",
+      "words": []
+    },
+    {
+      "start": 1125.52,
+      "end": 1135.28,
+      "text": "and utilizing it to inform and feed and create geometry inside of Forma and Revit so let's look at",
+      "words": []
+    },
+    {
+      "start": 1135.28,
+      "end": 1144.4,
+      "text": "what that looks like here so going from the web application configuration to build something inside of Forma",
+      "words": []
+    },
+    {
+      "start": 1145.3600000000001,
+      "end": 1153.2,
+      "text": "so exactly what's going on here so where we've taken out JSON data just enough information from",
+      "words": []
+    },
+    {
+      "start": 1153.76,
+      "end": 1162.72,
+      "text": "JSON to rebuild this geometry inside of Forma so this video shows us selecting a Forma",
+      "words": []
+    },
+    {
+      "start": 1162.72,
+      "end": 1169.3600000000001,
+      "text": "floor through Dynamo and then the idea is is the floor results are going to come in two formats and",
+      "words": []
+    },
+    {
+      "start": 1169.36,
+      "end": 1178.3999999999999,
+      "text": "they're very powerful so each the first result is each sketch point with with every unit type",
+      "words": []
+    },
+    {
+      "start": 1179.36,
+      "end": 1187.1999999999998,
+      "text": "point in its original sequence right so essentially every point needed to create the perimeter for each",
+      "words": []
+    },
+    {
+      "start": 1187.1999999999998,
+      "end": 1195.6799999999998,
+      "text": "unit and then the second result here is the unit name paired with its corresponding start and insertion",
+      "words": []
+    },
+    {
+      "start": 1196.64,
+      "end": 1202.0800000000002,
+      "text": "and this output is very powerful for us we're essentially going to be able to use these points and",
+      "words": []
+    },
+    {
+      "start": 1202.0800000000002,
+      "end": 1210.16,
+      "text": "this lines in this geometry as our opportunity to start placing components that in Form design has",
+      "words": []
+    },
+    {
+      "start": 1210.16,
+      "end": 1215.68,
+      "text": "provided us for individual wall panels so we can use these intersections in these points to start",
+      "words": []
+    },
+    {
+      "start": 1215.68,
+      "end": 1225.1200000000001,
+      "text": "to place our geometry when we and then additionally while we're in Forma and we've created this geometry",
+      "words": []
+    },
+    {
+      "start": 1225.68,
+      "end": 1232.16,
+      "text": "there are some rule nodes that have become available for from in Form design in Dynamo and",
+      "words": []
+    },
+    {
+      "start": 1232.16,
+      "end": 1238.8,
+      "text": "essentially what we can do is we can go call these rules in in Form design we can check the",
+      "words": []
+    },
+    {
+      "start": 1238.8,
+      "end": 1245.76,
+      "text": "geometry for geometry modifications inside of Forma to check for rule violations and this is the",
+      "words": []
+    },
+    {
+      "start": 1245.76,
+      "end": 1254.0,
+      "text": "exact same API that was being used when Durae showed how our configurator is blocking or allowing",
+      "words": []
+    },
+    {
+      "start": 1254.0,
+      "end": 1260.96,
+      "text": "users to create valid or in blocking users from creating parts that are invalid and allowing users",
+      "words": []
+    },
+    {
+      "start": 1260.96,
+      "end": 1267.2,
+      "text": "to create parts that are valid so it's the exact same API so it's one source of information for all",
+      "words": []
+    },
+    {
+      "start": 1267.2,
+      "end": 1277.68,
+      "text": "of our tools to essentially create geometry from then lastly here after using Forma we can use the",
+      "words": []
+    },
+    {
+      "start": 1277.68,
+      "end": 1284.48,
+      "text": "Forma geometry we extracted and then we can also use the JSON file that was extracted from our",
+      "words": []
+    },
+    {
+      "start": 1284.48,
+      "end": 1290.8,
+      "text": "configuration so the tail end of this workflow is to achieve the tail end of this workflow ends with",
+      "words": []
+    },
+    {
+      "start": 1290.8,
+      "end": 1297.76,
+      "text": "authored elements inside of Revit and so this video here shows us utilizing these points that we're",
+      "words": []
+    },
+    {
+      "start": 1297.76,
+      "end": 1304.96,
+      "text": "showing in the previous slide to position our Revit elements to place walls groups if you have them",
+      "words": []
+    },
+    {
+      "start": 1304.96,
+      "end": 1311.3600000000001,
+      "text": "all the families that were provided from in Form design and then being able to flex global parameters",
+      "words": []
+    },
+    {
+      "start": 1311.3600000000001,
+      "end": 1318.24,
+      "text": "and other content that are not related to the in Form design process so by the end of this workflow",
+      "words": []
+    },
+    {
+      "start": 1318.24,
+      "end": 1325.1200000000001,
+      "text": "we have a Forma building we have a Revit building that match exactly but Revit has the additional",
+      "words": []
+    },
+    {
+      "start": 1325.1200000000001,
+      "end": 1333.28,
+      "text": "design and fabrication content but both have the ability to go ping rules from in Form design to validate",
+      "words": []
+    },
+    {
+      "start": 1333.84,
+      "end": 1337.76,
+      "text": "the geometry inputs inside of those design applications",
+      "words": []
+    },
+    {
+      "start": 1342.32,
+      "end": 1351.12,
+      "text": "okay so in closing here so our goal was to validate key use cases we wanted to see",
+      "words": []
+    },
+    {
+      "start": 1351.76,
+      "end": 1357.2,
+      "text": "what the API workflows were what we could possibly do with them we wanted to make sure that we could",
+      "words": []
+    },
+    {
+      "start": 1357.2,
+      "end": 1364.4,
+      "text": "integrate and expose some opportunities within the in Form design ecosystem and I believe we've",
+      "words": []
+    },
+    {
+      "start": 1364.4,
+      "end": 1372.48,
+      "text": "truly done that we've looked at how this can reduce duplication align teams and create much more",
+      "words": []
+    },
+    {
+      "start": 1372.48,
+      "end": 1380.24,
+      "text": "reliable and a customized path for design to fabrication we really feel like this is an opportunity",
+      "words": []
+    },
+    {
+      "start": 1380.24,
+      "end": 1385.76,
+      "text": "it opens up doors for smarter more intelligent building systems that understand where they need to",
+      "words": []
+    },
+    {
+      "start": 1385.76,
+      "end": 1393.28,
+      "text": "be and why they need to be there and then lastly here we've evaluated enough where we still",
+      "words": []
+    },
+    {
+      "start": 1393.28,
+      "end": 1401.28,
+      "text": "like the in Form design APIs that we have and we understand how shared rules can impact multiple design",
+      "words": []
+    },
+    {
+      "start": 1402.08,
+      "end": 1411.68,
+      "text": "tools and how we can start to utilize these to impact our outcomes and our revisions to creating",
+      "words": []
+    },
+    {
+      "start": 1411.68,
+      "end": 1417.76,
+      "text": "construction drawings and modifications to drawings and so we feel like we've been able to validate",
+      "words": []
+    },
+    {
+      "start": 1417.76,
+      "end": 1424.96,
+      "text": "enough here that we want to take it to the next level and so what's next for us is we are looking at",
+      "words": []
+    },
+    {
+      "start": 1424.96,
+      "end": 1430.64,
+      "text": "creating a rules feedback loop inside of any platform really that is tying to InForm design",
+      "words": []
+    },
+    {
+      "start": 1431.2,
+      "end": 1437.52,
+      "text": "but specifically in Forma in Revit for us additionally we are going to be bringing in a tool called",
+      "words": []
+    },
+    {
+      "start": 1437.68,
+      "end": 1445.28,
+      "text": "structural analysis design engine or SAID we are going to be able to evaluate a mass and place",
+      "words": []
+    },
+    {
+      "start": 1445.28,
+      "end": 1452.6399999999999,
+      "text": "in shear and location for shear walls we are next building floor ceilings and aroufs we're",
+      "words": []
+    },
+    {
+      "start": 1452.6399999999999,
+      "end": 1457.52,
+      "text": "going to focus on some mass timber products we're eventually going to change to the model",
+      "words": []
+    },
+    {
+      "start": 1457.52,
+      "end": 1465.84,
+      "text": "derivative service in ACC and we've got some really cool agentic workflows that we have started",
+      "words": []
+    },
+    {
+      "start": 1465.84,
+      "end": 1472.48,
+      "text": "to utilize and now we're going to start to create some agentic workflows that are going to focus",
+      "words": []
+    },
+    {
+      "start": 1472.48,
+      "end": 1480.56,
+      "text": "on design revision and change optimization for each one of our individual products and so this",
+      "words": []
+    },
+    {
+      "start": 1480.56,
+      "end": 1484.0,
+      "text": "is it thank you very much",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:38:23.830354+00:00"
+}

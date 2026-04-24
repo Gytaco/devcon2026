@@ -1,0 +1,1279 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.86,
+      "text": "Hi, everyone. Today I will be talking about",
+      "words": []
+    },
+    {
+      "start": 2.86,
+      "end": 7.140000000000001,
+      "text": "Accelerating Sustainable Urban Planning with Autodesk Pharma.",
+      "words": []
+    },
+    {
+      "start": 7.140000000000001,
+      "end": 12.0,
+      "text": "Yeah, about speaker actually my name is Vijay Adi Gopula and my role is associate director",
+      "words": []
+    },
+    {
+      "start": 12.0,
+      "end": 14.6,
+      "text": "in a Disturbing Technology from WSP,",
+      "words": []
+    },
+    {
+      "start": 14.6,
+      "end": 17.3,
+      "text": "GCC India, clientele resolutions.",
+      "words": []
+    },
+    {
+      "start": 17.3,
+      "end": 20.2,
+      "text": "I have 26 years of experience in",
+      "words": []
+    },
+    {
+      "start": 20.2,
+      "end": 24.66,
+      "text": "a AC Architectural Engineering Construction, Aerospace and Automotive Doven.",
+      "words": []
+    },
+    {
+      "start": 24.66,
+      "end": 28.580000000000002,
+      "text": "My core expertise is like into manufacturing,",
+      "words": []
+    },
+    {
+      "start": 28.58,
+      "end": 34.48,
+      "text": "automotive, aerospace and like wherever repetitive time consuming error prompt tasks like we have",
+      "words": []
+    },
+    {
+      "start": 34.48,
+      "end": 39.18,
+      "text": "been automating the design workflows using CAD and BIM applications like we have been",
+      "words": []
+    },
+    {
+      "start": 39.18,
+      "end": 43.68,
+      "text": "developing ribbons inside AutoCAD, CV3D, Navi's works.",
+      "words": []
+    },
+    {
+      "start": 43.68,
+      "end": 47.480000000000004,
+      "text": "We primarily use actually Autodesk suite of applications.",
+      "words": []
+    },
+    {
+      "start": 47.480000000000004,
+      "end": 54.14,
+      "text": "So my core expertise is like Autodesk APS, AEC data model, Azure OpenA, MCP, C Sharp,",
+      "words": []
+    },
+    {
+      "start": 54.14,
+      "end": 61.54,
+      "text": "Java Tape, Azure Drum and General ATVA, Agent K and Bentley I-Twin.",
+      "words": []
+    },
+    {
+      "start": 61.54,
+      "end": 65.9,
+      "text": "So in Autodesk 2024, I had presented on the",
+      "words": []
+    },
+    {
+      "start": 65.9,
+      "end": 72.34,
+      "text": "TAND and my WOT distilled wins and in 2025 I had presented on Pharma, sustainable urban planning",
+      "words": []
+    },
+    {
+      "start": 72.34,
+      "end": 77.84,
+      "text": "and in Docon 2026 I mean on this month 2016.",
+      "words": []
+    },
+    {
+      "start": 77.84,
+      "end": 79.84,
+      "text": "I will be presenting on two topics.",
+      "words": []
+    },
+    {
+      "start": 79.84,
+      "end": 83.04,
+      "text": "One is on cloud-based BIM data access.",
+      "words": []
+    },
+    {
+      "start": 83.04,
+      "end": 87.04,
+      "text": "I mean integrating victory with Autodesk AEC data model and second one is accelerating",
+      "words": []
+    },
+    {
+      "start": 87.04,
+      "end": 90.24000000000001,
+      "text": "sustainable urban planning with Autodesk Pharma.",
+      "words": []
+    },
+    {
+      "start": 90.24000000000001,
+      "end": 95.24000000000001,
+      "text": "So now I will be talking about accelerating sustainable urban planning with Autodesk Pharma.",
+      "words": []
+    },
+    {
+      "start": 95.24000000000001,
+      "end": 100.04,
+      "text": "And earlier I mean I had presented in Bentley,",
+      "words": []
+    },
+    {
+      "start": 100.04,
+      "end": 108.04,
+      "text": "Eliminate 2026 Bentley I-Twin 5D lifecycle management tool actually like I had presented.",
+      "words": []
+    },
+    {
+      "start": 108.04,
+      "end": 113.04,
+      "text": "And even we got certification in last year from Bentley going distilled warts.",
+      "words": []
+    },
+    {
+      "start": 113.04,
+      "end": 118.04,
+      "text": "So this is my introduction and let me go through.",
+      "words": []
+    },
+    {
+      "start": 118.04,
+      "end": 123.04,
+      "text": "Like I mean, they say for what statement actually like all Autodesk Country is a proprietary",
+      "words": []
+    },
+    {
+      "start": 123.04,
+      "end": 129.04000000000002,
+      "text": "and please do not copy post or distribute without any other education.",
+      "words": []
+    },
+    {
+      "start": 129.04000000000002,
+      "end": 135.04000000000002,
+      "text": "Okay, today I will be talking about Autodesk Pharma actually.",
+      "words": []
+    },
+    {
+      "start": 135.04,
+      "end": 139.34,
+      "text": "So we will start with the key urban design challenges.",
+      "words": []
+    },
+    {
+      "start": 139.34,
+      "end": 145.04,
+      "text": "I mean, we face I mean in the 80s stages in like what are the challenges we'll be facing in urban planning.",
+      "words": []
+    },
+    {
+      "start": 145.04,
+      "end": 151.04,
+      "text": "And the second one is like I will be talking about introduction to Pharma and its capabilities.",
+      "words": []
+    },
+    {
+      "start": 151.04,
+      "end": 155.04,
+      "text": "How the tool will be helpful for at least stage of design.",
+      "words": []
+    },
+    {
+      "start": 155.04,
+      "end": 162.04,
+      "text": "And I will be showing like live demo using a real case study which we had implemented for one of the location in San Francisco.",
+      "words": []
+    },
+    {
+      "start": 162.04,
+      "end": 170.04,
+      "text": "Yes, basically. And then I will be talking about a powered optimization using genetic a and machine learning model.",
+      "words": []
+    },
+    {
+      "start": 170.04,
+      "end": 176.04,
+      "text": "So this is like a optimizer like once you run the simulations, I mean how we can extract the data and use the machine learning.",
+      "words": []
+    },
+    {
+      "start": 176.04,
+      "end": 179.04,
+      "text": "I mean, genetic a machine learning model.",
+      "words": []
+    },
+    {
+      "start": 179.04,
+      "end": 189.04,
+      "text": "And like how use the optimizer to find out the best layout using that I mean whatever we have built using design alternatives.",
+      "words": []
+    },
+    {
+      "start": 189.04,
+      "end": 197.04,
+      "text": "And we can find out the best layout so that we can use it for sending to rhino grasshopper and then send it to revert for detailed design.",
+      "words": []
+    },
+    {
+      "start": 197.04,
+      "end": 214.04,
+      "text": "I mean LVD 500 and then publish the files to ACC, Autodesk construction cloud for building construct and then hand over stage basically there where you will be using auto does quit tandem basically that is like operations and maintenance.",
+      "words": []
+    },
+    {
+      "start": 214.04,
+      "end": 221.04,
+      "text": "This is the entire life cycle and where now I will be talking about at least stage design how the farmer will be helpful actually.",
+      "words": []
+    },
+    {
+      "start": 221.04,
+      "end": 233.04,
+      "text": "And then like I said diamond fights in one of the location in San Francisco like we had created identified that location and we have created a site and we did the analysis.",
+      "words": []
+    },
+    {
+      "start": 234.04,
+      "end": 256.03999999999996,
+      "text": "Like I said Sun solar I mean multiple analysis and we did them in for the location and then the results and retina of investment basically like how like six minutes versus six weeks I mean spending for consultant fees I mean how the stool is very helpful actually.",
+      "words": []
+    },
+    {
+      "start": 256.04,
+      "end": 285.04,
+      "text": "So that I will talk about and then key take a lesson question and answers so here is the agenda now I will talk about like what are the urban challenges basically so urban challenges if you look into like in the early stage designs we make wrong decisions are the at least stage because like we'll be fixing after design I mean detail design basically so we are spending a lot of money like doing the rework in the design stage.",
+      "words": []
+    },
+    {
+      "start": 286.04,
+      "end": 311.04,
+      "text": "So we'll be having a lot of pressure at the initial stage and also like manual workflows we'll be like doing without farmer like we'll be like exporting data to excel and using different tools like instead of using the unified platform in farmer like we are depending on multiple tools and wasting lot of money time and actually like performing the simulations to find out the layout.",
+      "words": []
+    },
+    {
+      "start": 311.04,
+      "end": 329.04,
+      "text": "Suppose if you have like 100 layouts like it will be a nightmare and almost like we'll be spending time six months for just for analysis and finding the best layout so using farmer you can finish it in one hour today's basically like that's the beauty and advantage of form applications.",
+      "words": []
+    },
+    {
+      "start": 329.04,
+      "end": 346.04,
+      "text": "So that's the main challenge like time pressure manual workflows and decision fatigue and rework actually that's what I said I'm in will be spending and like the most of the projects around 80% of the building environmental impact is actually decided at the very early stage.",
+      "words": []
+    },
+    {
+      "start": 346.04,
+      "end": 357.04,
+      "text": "So the problem is we are not doing that is also like stage where you have to like we'll be having a least data and at the beginning of the beginning of the project basically so.",
+      "words": []
+    },
+    {
+      "start": 357.04,
+      "end": 386.04,
+      "text": "Typically we generate a few design options maybe three or four and evaluate multiple parameters like sun wind carbon daylight and noise analysis basically and manually comparing it will be like taking a lot of time and time consuming very complex task basically so that these are the design challenges in the early stage of design basically so that's where auto desk.",
+      "words": []
+    },
+    {
+      "start": 386.04,
+      "end": 408.04,
+      "text": "The farmer came into picture actually like so where you can see these are the key capabilities I mean like I mentioned a first one is it's a cloud native platform basically so multiple people multiple team numbers can work together and collaborate and work on the simulations basically so it's a man decisions and we can make the actionable in the get the action.",
+      "words": []
+    },
+    {
+      "start": 408.04,
+      "end": 428.04,
+      "text": "And the second one is real time analysis and simulations like I said I mean we can perform sun wind carbon and daylight analysis like a very can see all these in one platform unified platform actually like we can create we can connect to a CC I mean now it's rebranded to farm actually like so how the project.",
+      "words": []
+    },
+    {
+      "start": 428.04,
+      "end": 452.04,
+      "text": "And create a site and create multiple design alternatives and from where you can create run the simulations whatever I showed you here actually like a sun daylight wind carbon a bay and also you can use custom integrations there is a app store add extensions like test fit orchestra I mean you can you can connect to dynamo script so run on farm actually.",
+      "words": []
+    },
+    {
+      "start": 452.04,
+      "end": 481.04,
+      "text": "And also you can export import and OVJ or IFC files even revert files actually this is the good part of this and one more good thing about this format will actually like along with that your 3d model you can get the neighborhood data that is like vegetation data trees I mean street data open street map I mean terrain data location everything you can get along with your model so you can easily perform and you can simulate.",
+      "words": []
+    },
+    {
+      "start": 482.04,
+      "end": 502.04,
+      "text": "Like I can get the accurate results using the simulations or engines running on the back and basically like an ag++ or radians I mean there are 2 engines basically running on the back and so using those 2 simulations you can run and extract the results and you can find out the best layout so that's the what advantage of farm actually.",
+      "words": []
+    },
+    {
+      "start": 502.04,
+      "end": 529.04,
+      "text": "So if you look into form like what is the architecture behind this format so if you look into on the top it's like part of EPS I mean auto platform services you can see that format product service I mean and it is having a lot of API same points using rest API so many can the hierarchy like top level is hub and project and project will be creating a site.",
+      "words": []
+    },
+    {
+      "start": 530.04,
+      "end": 537.04,
+      "text": "And site will be having like a proposals and analysis and just I will show you one example like this is how the.",
+      "words": []
+    },
+    {
+      "start": 537.04,
+      "end": 557.04,
+      "text": "Parma application looks like on the left hand side you can see that site having 3 proposals and you can see that like you can create building some in using line building basic building them in easily we can create a 3d model even you can use I mean you can use a to get the data into.",
+      "words": []
+    },
+    {
+      "start": 557.04,
+      "end": 565.04,
+      "text": "To get the 3d model automatically generate there are 3 a a plugins and available at the moment like a machine.",
+      "words": []
+    },
+    {
+      "start": 565.04,
+      "end": 586.04,
+      "text": "And shape E dot a and in video there is a tool called get 3d so using these 3 tools you can like text to 3d a base in tool we can use and you can prompt based on the prompt like create a multi story building or a hospital or like a courtyard like commercial building whatever based on the prompt you can generate.",
+      "words": []
+    },
+    {
+      "start": 586.04,
+      "end": 613.04,
+      "text": "And you can get your OBJ filing to form so like it's a rapid prototyping and you can quickly and generate the 3d model I mean I have used there is a plugin called RK star I mean if you go to add extensions this is a faster for form actually where you can see like lot of features here like one is a RK star you can see like a RK star second one is.",
+      "words": []
+    },
+    {
+      "start": 613.04,
+      "end": 627.04,
+      "text": "Yeah you can see test fit these like parking area helpful for designing parking area and also one click here it's like a carbon tool food print I mean we can evaluate.",
+      "words": []
+    },
+    {
+      "start": 627.04,
+      "end": 641.04,
+      "text": "You can run animals scripts like I said I mean so we have multiple plugins even RGS for our desk when we can integrate and reweight also you can get your model actually like Rhinograsso for so these are the very good plugins available in forma and use these plugins.",
+      "words": []
+    },
+    {
+      "start": 641.04,
+      "end": 647.04,
+      "text": "And I have used RK star I mean it's a very good tool and you can quickly generate design alternatives.",
+      "words": []
+    },
+    {
+      "start": 647.04,
+      "end": 652.04,
+      "text": "Okay so that's where I mean the forma.",
+      "words": []
+    },
+    {
+      "start": 652.04,
+      "end": 670.04,
+      "text": "Art teacher actually like if you look into so on the left hand side you can see proposals right hand side you can see the simulations I mean whatever I said like solar wind carbon and I mean energy and I see I mean we can perform those things and where you can see at the bottom left the plugins whatever app store I showed you like test fit.",
+      "words": []
+    },
+    {
+      "start": 670.04,
+      "end": 689.04,
+      "text": "RK star I mean Rhinograsso for reweight plugin dynamo customer extensions basically and also we can use like said like a neighborhood data like a vegetation data trees I mean whatever street data open street map everything you can get them in location information from these.",
+      "words": []
+    },
+    {
+      "start": 689.04,
+      "end": 705.04,
+      "text": "So I mean so I mean from where you can get the actionable insights and a dashboard you can visualize I mean we can use the endpoints and extract using a like machine learning models I mean genetic machine learning reinforcement learning and extra the results and find out the best layout.",
+      "words": []
+    },
+    {
+      "start": 705.04,
+      "end": 718.04,
+      "text": "So here is the integrated workflow like it's a five step process basically like one is like site analysis I mean first to choose the site for based on the location and then start building them in 3D model and run the analysis.",
+      "words": []
+    },
+    {
+      "start": 718.04,
+      "end": 734.04,
+      "text": "Like the five options available actually like simulation options then use the IA optimizer actually and then validate to best out out of it actually.",
+      "words": []
+    },
+    {
+      "start": 734.04,
+      "end": 761.04,
+      "text": "Yeah so few of the features I mean which I had mentioned earlier like you can see that the reweight model whatever you have like you can send it to reweight or export file to obj IFC so these are the current options available at the moment and below you can see that I mean the models I mean the layouts which I have chosen in one of the San Francisco location.",
+      "words": []
+    },
+    {
+      "start": 762.04,
+      "end": 790.04,
+      "text": "Okay now come to the scenario actually the requirement I have chosen like one of the location in San Francisco basically like it's a diamond heights the dense urban context actually like so in that building I have created I mean like I said I have used the RK start plugin to create design alternatives basically so you can see left hand side option a BC option is mixed use perimeter building.",
+      "words": []
+    },
+    {
+      "start": 790.04,
+      "end": 819.04,
+      "text": "Option B is commercial tower option C is apartment courtyard these are the three options I have chosen for one of the location and then I did the random I did run the simulations basically like on the right hand side you can see like five simulations which I said I'm in sun wind carbon daylight see this is one of the one second yeah this is option A and this is option B.",
+      "words": []
+    },
+    {
+      "start": 821.04,
+      "end": 840.04,
+      "text": "And these option B option B is commercial tower option C these option C option C is a courtyard actually apartment courtyard actually so these are the three I will show the right live demo as well but the images I'm showing actually.",
+      "words": []
+    },
+    {
+      "start": 840.04,
+      "end": 846.04,
+      "text": "And then you can see that those.",
+      "words": []
+    },
+    {
+      "start": 846.04,
+      "end": 857.04,
+      "text": "Once a random simulations you can see the windows on solar the bed at some other then the deheard it's basically and how that design alternatives have been created I mean using.",
+      "words": []
+    },
+    {
+      "start": 857.04,
+      "end": 868.54,
+      "text": "I mean, using ask your job just I will show you how it will be useful like an example yeah if you go to here you can see that there is a plugin called star ratio I told you.",
+      "words": []
+    },
+    {
+      "start": 868.54,
+      "end": 877.5799999999999,
+      "text": "I told you like it's a very helpful and okay I think I don't have access but anyway so I have",
+      "words": []
+    },
+    {
+      "start": 877.5799999999999,
+      "end": 883.66,
+      "text": "used this plugin for creating the design alternatives okay here are the steps I followed actually like",
+      "words": []
+    },
+    {
+      "start": 883.66,
+      "end": 888.9399999999999,
+      "text": "first one is create site load the context data like I said visualization trees I mean",
+      "words": []
+    },
+    {
+      "start": 890.78,
+      "end": 894.3,
+      "text": "open-street map terrain data location all these things and run the simulation like",
+      "words": []
+    },
+    {
+      "start": 894.54,
+      "end": 901.3399999999999,
+      "text": "delete carbon format UA using format UA actually and then the API plan so I have used",
+      "words": []
+    },
+    {
+      "start": 901.3399999999999,
+      "end": 906.8599999999999,
+      "text": "it like a identification under six endpoints right now I mean it's available in APS portal actually",
+      "words": []
+    },
+    {
+      "start": 907.42,
+      "end": 912.78,
+      "text": "so I think I have to talk about these things I mean if you go to aps.autodesk.com so where you can",
+      "words": []
+    },
+    {
+      "start": 912.78,
+      "end": 918.8599999999999,
+      "text": "see like Autodesk format APS so when you click on that Autodesk format APS I mean where you will be",
+      "words": []
+    },
+    {
+      "start": 919.82,
+      "end": 926.0600000000001,
+      "text": "in the format actually there is a site design here is where actually like you can create",
+      "words": []
+    },
+    {
+      "start": 927.5,
+      "end": 932.14,
+      "text": "yeah if you click on this site design it will take you to this page and where you will be",
+      "words": []
+    },
+    {
+      "start": 932.14,
+      "end": 938.0600000000001,
+      "text": "having all the endpoints on the left hand side you can see like you can create site create proposals",
+      "words": []
+    },
+    {
+      "start": 939.34,
+      "end": 947.34,
+      "text": "create project under Randa Sun Analysis see I said like we have like five or six analysis available",
+      "words": []
+    },
+    {
+      "start": 947.34,
+      "end": 956.0600000000001,
+      "text": "in the unified portal format portal but at the moment Parma is supporting only analysis one",
+      "words": []
+    },
+    {
+      "start": 956.0600000000001,
+      "end": 961.74,
+      "text": "analysis actually Sun analysis for APA endpoint very soon I mean you will be saying other endpoints",
+      "words": []
+    },
+    {
+      "start": 961.74,
+      "end": 967.74,
+      "text": "as well like wind carbon daylight and energy so but I have used it at the moment only Sun Analysis",
+      "words": []
+    },
+    {
+      "start": 967.74,
+      "end": 973.5,
+      "text": "and you can get the terrain data extract the results basically like element information geometrical",
+      "words": []
+    },
+    {
+      "start": 973.74,
+      "end": 978.78,
+      "text": "data all those things basically element information so this is how I mean right now it's",
+      "words": []
+    },
+    {
+      "start": 978.78,
+      "end": 984.14,
+      "text": "beta stage not available at the public and also required a service account along with I mean",
+      "words": []
+    },
+    {
+      "start": 984.78,
+      "end": 990.14,
+      "text": "you should be enabled for your client ID white listed then only you will get access to",
+      "words": []
+    },
+    {
+      "start": 990.14,
+      "end": 998.3,
+      "text": "Pharma like still it's very difficult to get I mean access to APA endpoints I mean still it's in",
+      "words": []
+    },
+    {
+      "start": 998.3,
+      "end": 1005.5799999999999,
+      "text": "beta stage actually so this is regarding APA endpoints yeah so case study which I did for like",
+      "words": []
+    },
+    {
+      "start": 1005.5799999999999,
+      "end": 1010.78,
+      "text": "diamond heads in San Francisco like where you can see left hand side we have chosen mix reuse commercial",
+      "words": []
+    },
+    {
+      "start": 1010.78,
+      "end": 1018.14,
+      "text": "tower and coated the mixed uses like 8 to 10 floors and come option B is like 22 22 floors and",
+      "words": []
+    },
+    {
+      "start": 1018.14,
+      "end": 1025.02,
+      "text": "third one is like five floors I mean residential coated apartment and these are the endpoints which",
+      "words": []
+    },
+    {
+      "start": 1025.02,
+      "end": 1030.46,
+      "text": "I have used for authentication proposals I mean extracting the data actually like around the",
+      "words": []
+    },
+    {
+      "start": 1030.46,
+      "end": 1035.82,
+      "text": "analysis like I said only one analysis is available at the moment access to Sun Analysis I mean",
+      "words": []
+    },
+    {
+      "start": 1035.82,
+      "end": 1043.5,
+      "text": "remaining I mean we ran the analysis and extracted and uploaded into CSV Pharma actually for",
+      "words": []
+    },
+    {
+      "start": 1044.7,
+      "end": 1051.58,
+      "text": "the optimizer yeah I have to find out the best layout and you can see like site information project",
+      "words": []
+    },
+    {
+      "start": 1051.58,
+      "end": 1057.58,
+      "text": "information I mean terrain data like the download terrain data sites information all those things",
+      "words": []
+    },
+    {
+      "start": 1057.58,
+      "end": 1063.1799999999998,
+      "text": "you can use that end point specifically but at the moment we have access to very few endpoints like",
+      "words": []
+    },
+    {
+      "start": 1063.1799999999998,
+      "end": 1068.62,
+      "text": "I said them and yeah very soon we will be having access to all and here is the like I will not",
+      "words": []
+    },
+    {
+      "start": 1068.62,
+      "end": 1074.78,
+      "text": "go into detail for technical programming site but so how you can authenticate the APS 3 lake",
+      "words": []
+    },
+    {
+      "start": 1074.78,
+      "end": 1080.46,
+      "text": "authentication and get access to all the services I mean endpoints available in Pharma actually so",
+      "words": []
+    },
+    {
+      "start": 1082.22,
+      "end": 1090.06,
+      "text": "and now what we did was actually I will show you quickly so how we can do is once we have created",
+      "words": []
+    },
+    {
+      "start": 1090.86,
+      "end": 1100.78,
+      "text": "layout in Pharma so you can see like suppose if I select option A on the right hand side you can see",
+      "words": []
+    },
+    {
+      "start": 1101.58,
+      "end": 1111.18,
+      "text": "yeah this is the option A so in the option A once you run the simulation yeah you can see that",
+      "words": []
+    },
+    {
+      "start": 1111.18,
+      "end": 1116.78,
+      "text": "multiple options are available actually you can see like Sun Analysis, daylight, wind analysis,",
+      "words": []
+    },
+    {
+      "start": 1118.62,
+      "end": 1126.78,
+      "text": "energy, nice analysis, solar energy so energy, M-godid carbon carbon calculation and shadow these are",
+      "words": []
+    },
+    {
+      "start": 1127.34,
+      "end": 1133.18,
+      "text": "options available at the moment so you can select the layout and run these simulations and use",
+      "words": []
+    },
+    {
+      "start": 1133.18,
+      "end": 1138.62,
+      "text": "the end point to extract the results that's what we did so what I did was like I have built one",
+      "words": []
+    },
+    {
+      "start": 1140.7,
+      "end": 1147.66,
+      "text": "Python interface basically like connect to your pharma application so we have to provide client",
+      "words": []
+    },
+    {
+      "start": 1147.66,
+      "end": 1152.94,
+      "text": "ID secret hub ID and project ID and once I mean click on authentication",
+      "words": []
+    },
+    {
+      "start": 1153.02,
+      "end": 1161.02,
+      "text": "so once you allow actually like so yeah you have authenticated actually so once you have access to",
+      "words": []
+    },
+    {
+      "start": 1161.8200000000002,
+      "end": 1165.8200000000002,
+      "text": "authenticated you will be having access to all these endpoints right hand side you can see like I",
+      "words": []
+    },
+    {
+      "start": 1165.8200000000002,
+      "end": 1171.74,
+      "text": "said authentication Sun Analysis, get element data, get site information, get terrain data all",
+      "words": []
+    },
+    {
+      "start": 1171.74,
+      "end": 1178.06,
+      "text": "the information is basically and once you have all the data where you mean what I'm doing is I'm",
+      "words": []
+    },
+    {
+      "start": 1178.06,
+      "end": 1184.06,
+      "text": "actually running load the values so it will connect to your pharma and you will extract all the",
+      "words": []
+    },
+    {
+      "start": 1184.06,
+      "end": 1191.1799999999998,
+      "text": "results so what I did was I ran the simulations and you can see all the data I mean so if you",
+      "words": []
+    },
+    {
+      "start": 1191.1799999999998,
+      "end": 1195.4199999999998,
+      "text": "look into if I select shops you see already I ran the simulation so you can see all the values I",
+      "words": []
+    },
+    {
+      "start": 1195.4199999999998,
+      "end": 1201.1,
+      "text": "mean simulated simulation values so using APAs I have extracted I mean endpoints I mean all the site",
+      "words": []
+    },
+    {
+      "start": 1201.8999999999999,
+      "end": 1208.3,
+      "text": "gfm in ground floor area and raffr I have seen factors all these values I have extracted and",
+      "words": []
+    },
+    {
+      "start": 1209.5,
+      "end": 1216.54,
+      "text": "ingested into into the application so where you can see like I run the simulation where you can",
+      "words": []
+    },
+    {
+      "start": 1216.54,
+      "end": 1221.6599999999999,
+      "text": "say option E option B option C so carbon energy, dilating ventilation open space and sun",
+      "words": []
+    },
+    {
+      "start": 1221.6599999999999,
+      "end": 1227.1,
+      "text": "of earth I ran the simulations and where you can see the values and if I go to A optimizer",
+      "words": []
+    },
+    {
+      "start": 1227.82,
+      "end": 1232.1399999999999,
+      "text": "and if I run the analysis basically and you can see the results basically so these how quickly",
+      "words": []
+    },
+    {
+      "start": 1232.1399999999999,
+      "end": 1237.4199999999998,
+      "text": "we have I mean I ran the genetic A in machine learning model so to find out the best model actually",
+      "words": []
+    },
+    {
+      "start": 1237.4199999999998,
+      "end": 1247.6599999999999,
+      "text": "so if you look into all these values the A giving the fitness score actually like so based on that",
+      "words": []
+    },
+    {
+      "start": 1247.6599999999999,
+      "end": 1253.34,
+      "text": "you can see that option one is having 86.73 fitness score so that means this is the winner actually",
+      "words": []
+    },
+    {
+      "start": 1253.58,
+      "end": 1258.86,
+      "text": "options co-taired building why so if you look into less carbon and energy if you look compare with",
+      "words": []
+    },
+    {
+      "start": 1258.86,
+      "end": 1264.06,
+      "text": "option B and C like co-taired is having 29.4 carbon footprint and if you look into other",
+      "words": []
+    },
+    {
+      "start": 1264.06,
+      "end": 1270.3,
+      "text": "option B and C it's 38.4 and 42.3 so less carbon is for option C and also if you look into",
+      "words": []
+    },
+    {
+      "start": 1271.34,
+      "end": 1277.98,
+      "text": "like energy as well like less energy consumption for option C coated and other seminars",
+      "words": []
+    },
+    {
+      "start": 1278.14,
+      "end": 1283.18,
+      "text": "very high actually so if you compare dilate ventilation and other factors some in which is high",
+      "words": []
+    },
+    {
+      "start": 1284.22,
+      "end": 1289.9,
+      "text": "that is the best layout actually so out of three you can see that confidence score I mean fitness",
+      "words": []
+    },
+    {
+      "start": 1289.9,
+      "end": 1301.9,
+      "text": "score like 86.73 so the winner is 86.73 the layout C coated apartment so this is how you can",
+      "words": []
+    },
+    {
+      "start": 1301.9,
+      "end": 1307.26,
+      "text": "generate a number of designs at the early stage and how quickly you can generate",
+      "words": []
+    },
+    {
+      "start": 1307.26,
+      "end": 1312.3,
+      "text": "around the simulation so you can extract I mean using endpoints and you can use the TA optimizer",
+      "words": []
+    },
+    {
+      "start": 1312.3,
+      "end": 1317.66,
+      "text": "to get the results and visualize and find out if you want to manually go with this process manual",
+      "words": []
+    },
+    {
+      "start": 1317.66,
+      "end": 1325.34,
+      "text": "process how complex task is like so you have to like manually run the simulations we don't know",
+      "words": []
+    },
+    {
+      "start": 1325.34,
+      "end": 1331.58,
+      "text": "what tool it supports like like wind analysis or daylight simulation or open space analysis I mean",
+      "words": []
+    },
+    {
+      "start": 1331.6599999999999,
+      "end": 1336.54,
+      "text": "daylight simulation so we have to depend on relay and multiple tools and also we have to do excel",
+      "words": []
+    },
+    {
+      "start": 1336.54,
+      "end": 1342.3799999999999,
+      "text": "export a lot of them in validation suppose if I give you 100 alternatives 100 designs however you",
+      "words": []
+    },
+    {
+      "start": 1342.3799999999999,
+      "end": 1346.9399999999998,
+      "text": "going to identify with the manual process in very tedious and very complex you will be like spending",
+      "words": []
+    },
+    {
+      "start": 1346.9399999999998,
+      "end": 1353.34,
+      "text": "six months I mean to find out the best layout at the early stage of the design basically so that's",
+      "words": []
+    },
+    {
+      "start": 1353.34,
+      "end": 1359.58,
+      "text": "where in the early stage if you use the farmer and find out the best layout you will be saying 25",
+      "words": []
+    },
+    {
+      "start": 1359.74,
+      "end": 1364.06,
+      "text": "thousand years dollars may move for paying to consultants like running all these simulations exporting",
+      "words": []
+    },
+    {
+      "start": 1365.1799999999998,
+      "end": 1369.6599999999999,
+      "text": "validating the best layout actually using manual process so that's where we have to go with the",
+      "words": []
+    },
+    {
+      "start": 1369.6599999999999,
+      "end": 1374.86,
+      "text": "farmer for any kind of urban planning sustainable design at the early stage of the design",
+      "words": []
+    },
+    {
+      "start": 1374.86,
+      "end": 1379.98,
+      "text": "basically and also like once it is done in farmer you can send it to Rhino Grassford and use",
+      "words": []
+    },
+    {
+      "start": 1379.98,
+      "end": 1385.6599999999999,
+      "text": "Ladybug and Honeybee tools and create a detailed I mean like advanced geometry like panels",
+      "words": []
+    },
+    {
+      "start": 1386.38,
+      "end": 1394.6200000000001,
+      "text": "like what is that there is one more features in architectural model basically use that create",
+      "words": []
+    },
+    {
+      "start": 1394.6200000000001,
+      "end": 1402.14,
+      "text": "panels and run the like a window sizing HVAC sizing you can how much I mean my window size I mean",
+      "words": []
+    },
+    {
+      "start": 1402.14,
+      "end": 1406.94,
+      "text": "ventilation factors I mean UV factors everything it's like an advanced analysis we can do it in",
+      "words": []
+    },
+    {
+      "start": 1406.94,
+      "end": 1412.7,
+      "text": "Rhino Grassford and then send it to a rivet for detailed design like LVD 100 LVD 400 like",
+      "words": []
+    },
+    {
+      "start": 1412.78,
+      "end": 1419.5,
+      "text": "article structurally mep models once your model is done published to ACC and use the coordination",
+      "words": []
+    },
+    {
+      "start": 1419.5,
+      "end": 1426.54,
+      "text": "class direction and then publish your files to for construction basically like where you will be",
+      "words": []
+    },
+    {
+      "start": 1426.54,
+      "end": 1431.1000000000001,
+      "text": "like built and constructed and then we will be hand over actually like so this is all the entire",
+      "words": []
+    },
+    {
+      "start": 1431.1000000000001,
+      "end": 1436.14,
+      "text": "lifecycle follows basically from design constructed operate so at the early stage of the design we",
+      "words": []
+    },
+    {
+      "start": 1436.22,
+      "end": 1442.3000000000002,
+      "text": "have to choose I mean farmer for finding the best load this is one actually like I'm just to go",
+      "words": []
+    },
+    {
+      "start": 1442.3000000000002,
+      "end": 1448.7800000000002,
+      "text": "through like the results I mean if you compare my daylight wind factors for option B actually like",
+      "words": []
+    },
+    {
+      "start": 1449.9,
+      "end": 1453.8200000000002,
+      "text": "I have already explained I mean I don't want to I mean go in detail like these are the values",
+      "words": []
+    },
+    {
+      "start": 1453.8200000000002,
+      "end": 1458.5400000000002,
+      "text": "I mean I have extracted I mean using endpoints python script actually have used machine learning",
+      "words": []
+    },
+    {
+      "start": 1458.62,
+      "end": 1465.42,
+      "text": "in AI so it's like a comparison between option A, D, C like mix reuse commercial tower and",
+      "words": []
+    },
+    {
+      "start": 1465.42,
+      "end": 1471.1,
+      "text": "work at the apartment basically like you can see all the green at the option C actually like",
+      "words": []
+    },
+    {
+      "start": 1472.3,
+      "end": 1482.1399999999999,
+      "text": "so this is the best option for option for designing actually like moving forward",
+      "words": []
+    },
+    {
+      "start": 1482.3000000000002,
+      "end": 1489.3400000000001,
+      "text": "and if you look into like I have used I totally right I have used reinforcement learning and",
+      "words": []
+    },
+    {
+      "start": 1489.3400000000001,
+      "end": 1493.9,
+      "text": "gentikai like python advanced I mean machine learning model some in to find out actually",
+      "words": []
+    },
+    {
+      "start": 1494.7,
+      "end": 1499.1000000000001,
+      "text": "like if you suppose if you give me a number of options I can easily find out I mean which one is",
+      "words": []
+    },
+    {
+      "start": 1499.1000000000001,
+      "end": 1506.7,
+      "text": "the best layout so you can actually set the configuration actually like weights I mean",
+      "words": []
+    },
+    {
+      "start": 1507.42,
+      "end": 1511.5800000000002,
+      "text": "in that yeah option where you can provide all these options and you can run the simulation",
+      "words": []
+    },
+    {
+      "start": 1512.06,
+      "end": 1522.86,
+      "text": "optimization yeah where you can see that 87.1 this is the best score I mean content score I mean",
+      "words": []
+    },
+    {
+      "start": 1524.22,
+      "end": 1529.8999999999999,
+      "text": "fit for this thing so now you can see the return of investment this is the key slide actually like",
+      "words": []
+    },
+    {
+      "start": 1531.1,
+      "end": 1536.46,
+      "text": "comparison with like without format and format actually so we are saving we are just I mean",
+      "words": []
+    },
+    {
+      "start": 1536.54,
+      "end": 1540.38,
+      "text": "in stuff six weeks or six months we'll be like just running in six minutes",
+      "words": []
+    },
+    {
+      "start": 1540.94,
+      "end": 1546.3,
+      "text": "how quickly you can run the simulations extract the results using endpoint CAPAs and get the",
+      "words": []
+    },
+    {
+      "start": 1546.3,
+      "end": 1552.06,
+      "text": "best layout actually like and you are saving almost 25,000 per project for paying to consultants and",
+      "words": []
+    },
+    {
+      "start": 1552.06,
+      "end": 1557.66,
+      "text": "all like so it's like a just I showed you like three options but you can generate a number of",
+      "words": []
+    },
+    {
+      "start": 1557.66,
+      "end": 1563.58,
+      "text": "options using an artist so the beauty of this application is like you can build your own",
+      "words": []
+    },
+    {
+      "start": 1563.82,
+      "end": 1570.46,
+      "text": "no apps as well and integrate with format actually so there is a app store you can develop your",
+      "words": []
+    },
+    {
+      "start": 1570.46,
+      "end": 1575.74,
+      "text": "custom plugins and they can integrate with format actually like how artists and top-party",
+      "words": []
+    },
+    {
+      "start": 1575.74,
+      "end": 1582.1399999999999,
+      "text": "companies they have integrated so you can build your own these thing plugins and publishing",
+      "words": []
+    },
+    {
+      "start": 1583.26,
+      "end": 1589.58,
+      "text": "for my app store and it's like a entry and workflow very helpful for the",
+      "words": []
+    },
+    {
+      "start": 1590.54,
+      "end": 1593.1799999999998,
+      "text": "early stage of urban planning basically",
+      "words": []
+    },
+    {
+      "start": 1597.1799999999998,
+      "end": 1602.06,
+      "text": "so I have used them in Python extensively for this tool development I showed you like I have",
+      "words": []
+    },
+    {
+      "start": 1602.06,
+      "end": 1608.3,
+      "text": "used I mean now these are the end points I mean yeah on the right hand side but I showed you",
+      "words": []
+    },
+    {
+      "start": 1608.3,
+      "end": 1613.4199999999998,
+      "text": "like it's at least stage like in beta stage I mean you'll not be having more options at the moment",
+      "words": []
+    },
+    {
+      "start": 1613.4199999999998,
+      "end": 1618.86,
+      "text": "so you have to extract a few of the things I mean either excel CSV for a day late",
+      "words": []
+    },
+    {
+      "start": 1619.82,
+      "end": 1623.82,
+      "text": "energy sun wind actually so but sun analysis we can extract automatically",
+      "words": []
+    },
+    {
+      "start": 1625.58,
+      "end": 1630.54,
+      "text": "that is one thing and all the identification API plan I mean you can use a especially in the",
+      "words": []
+    },
+    {
+      "start": 1630.54,
+      "end": 1638.1399999999999,
+      "text": "early stage if you want to generate a 3d model so like I said in Nvidia there is a tool called",
+      "words": []
+    },
+    {
+      "start": 1638.1399999999999,
+      "end": 1644.86,
+      "text": "get 3d or shape or mesh.ai they based on the prompt it will automatically generate your OVJ files",
+      "words": []
+    },
+    {
+      "start": 1645.6599999999999,
+      "end": 1653.5,
+      "text": "so using extension plugins in the format app store you can import your OVJ model into",
+      "words": []
+    },
+    {
+      "start": 1654.4599999999998,
+      "end": 1660.3,
+      "text": "format and get the neighborhood data vegetation whatever street data open street map terrain data",
+      "words": []
+    },
+    {
+      "start": 1660.3,
+      "end": 1665.02,
+      "text": "location and then you can run the simulations and extract the data and use the optimizer to find out",
+      "words": []
+    },
+    {
+      "start": 1665.02,
+      "end": 1672.2199999999998,
+      "text": "the best layout and find out the winner actually so I have used them in explained in detail like",
+      "words": []
+    },
+    {
+      "start": 1672.22,
+      "end": 1677.5,
+      "text": "what is the like the integration and get access to all the services rated end points I mean Http",
+      "words": []
+    },
+    {
+      "start": 1677.5,
+      "end": 1681.9,
+      "text": "and points and use those the end points to extract the data and run the simulations",
+      "words": []
+    },
+    {
+      "start": 1684.22,
+      "end": 1691.58,
+      "text": "yeah so and you can see that I have showed you like the one code I mean option C is the best layout",
+      "words": []
+    },
+    {
+      "start": 1691.58,
+      "end": 1699.82,
+      "text": "out of three so once you have results I mean even in a case export to CSVJ and file format actually",
+      "words": []
+    },
+    {
+      "start": 1700.3799999999999,
+      "end": 1711.1799999999998,
+      "text": "option had it provided actually so any other questions I mean I can answer or you can reach out",
+      "words": []
+    },
+    {
+      "start": 1711.1799999999998,
+      "end": 1717.1799999999998,
+      "text": "to vj.todgopla at wsp.com actually so I extensively have used all these APIs I mean end points",
+      "words": []
+    },
+    {
+      "start": 1717.1799999999998,
+      "end": 1724.62,
+      "text": "and download please in Python and build quickly RK start plugin and multiple services have explored",
+      "words": []
+    },
+    {
+      "start": 1724.6999999999998,
+      "end": 1732.6999999999998,
+      "text": "a lot I mean now inside this form application yeah extensions I mean how to use dynamos grapes I mean",
+      "words": []
+    },
+    {
+      "start": 1732.6999999999998,
+      "end": 1737.8999999999999,
+      "text": "whatever like simulations you have to run suppose if you want to bring your custom plugins into",
+      "words": []
+    },
+    {
+      "start": 1737.8999999999999,
+      "end": 1744.1399999999999,
+      "text": "app store I mean using automation like Python like anything any questions related or anything I",
+      "words": []
+    },
+    {
+      "start": 1744.1399999999999,
+      "end": 1745.58,
+      "text": "mean kindly reach out to me I can answer",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:08:37.104607+00:00"
+}

@@ -1,0 +1,347 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\bWxbb5sXBYw\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide discussing the orchestration and integration of AI agents with PLM and MES.",
+      "products_visible": [
+        "Autodesk Fusion PLM"
+      ],
+      "ui_elements": [
+        "From Integration to Orchestration",
+        "Gus Quade",
+        "Sr. Technical Specialist",
+        "April 16th, 2026"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\bWxbb5sXBYw\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "slides",
+      "keep": true,
+      "description": "Slides showcasing unification of PLM and MES with specific integrations and an introduction of Fusion Manage and Fusion Operations.",
+      "products_visible": [
+        "AUTODESK",
+        "Fusion Manage",
+        "Fusion Operations"
+      ],
+      "ui_elements": [
+        "Unifying PLM & MES",
+        "PLM",
+        "ERP",
+        "MES",
+        "BOM Transfer",
+        "Automatic CAPA Creation",
+        "Calculate ECO Disposition Cost"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\bWxbb5sXBYw\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide from an Autodesk DevCon presentation showing a meme with PLM, MES, and ERP labels.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "PLM",
+        "MES",
+        "ERP"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\bWxbb5sXBYw\\frames\\frame_000006.jpg",
+      "timestamp_seconds": 150.0,
+      "frame_index": 6,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide from an Autodesk DevCon presentation discussing the intelligence of connected systems.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Your systems are connected. Are they intelligent?",
+        "Your integrations move data \u2014 but they cannot reason across it.",
+        "Your systems hold the answers \u2014 but no one can ask the right questions."
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\bWxbb5sXBYw\\frames\\frame_000009.jpg",
+      "timestamp_seconds": 240.0,
+      "frame_index": 9,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses the challenges manufacturing faces when structured systems meet reality, highlighting unstructured data, human variability, cross-domain reasoning, and unpredictable exceptions.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Where Rigid Systems Meet Messy Reality",
+        "Unstructured Data",
+        "Human Variability",
+        "Cross-Domain Reasoning",
+        "Unpredictable Exceptions"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\bWxbb5sXBYw\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing 'The Bridge: Model Context Protocol (MCP)' which is an open standard for AI agents to access systems, tools, or data sources.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "The Bridge: Model Context Protocol (MCP)",
+        "AI AGENT / ORCHESTRATOR"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\bWxbb5sXBYw\\frames\\frame_000021.jpg",
+      "timestamp_seconds": 600.0,
+      "frame_index": 21,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide discussing the integration of AI in change management and quality workflows, emphasizing augment intelligence.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "The Opportunity: Where Structure Meets Messy Reality",
+        "Augment Intelligence",
+        "Change Impact Analysis",
+        "Root Cause Analysis"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\bWxbb5sXBYw\\frames\\frame_000023.jpg",
+      "timestamp_seconds": 660.0,
+      "frame_index": 23,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide discussing intelligent change impact analysis in the context of engineering, manufacturing, and supply chain. It compares traditional limitations with AI orchestration and highlights a shift from data synchronization to decision augmentation.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Intelligent Change Impact Analysis",
+        "Engineering \u2192 Manufacturing \u2192 Supply Chain",
+        "Today: Traditional Limitation",
+        "With MCP: AI Orchestration",
+        "The Shift"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\bWxbb5sXBYw\\frames\\frame_000026.jpg",
+      "timestamp_seconds": 750.0,
+      "frame_index": 26,
+      "category": "demo",
+      "keep": true,
+      "description": "A speaker is presenting a dashboard interface featuring various data charts using Fusion Manage at Autodesk DevCon.",
+      "products_visible": [
+        "Fusion Manage"
+      ],
+      "ui_elements": [
+        "Charts",
+        "Change Orders Average Effo...",
+        "Change Orders Pending App...",
+        "Ideas Score (last 100 ideas)",
+        "New Item Creation",
+        "NC Disposition Codes",
+        "NC By Related Supplier",
+        "Project Budgets : Planned vs...",
+        "Quality Inspection Results",
+        "RMA by Product"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\bWxbb5sXBYw\\frames\\frame_000037.jpg",
+      "timestamp_seconds": 1080.0,
+      "frame_index": 37,
+      "category": "slides",
+      "keep": true,
+      "description": "A PowerPoint slide titled 'Change Impact Analysis' is displayed, showing project details and urgency level.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Change Impact Analysis",
+        "CO-000463 - Update ID",
+        "Urgency: Critical"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\bWxbb5sXBYw\\frames\\frame_000038.jpg",
+      "timestamp_seconds": 1110.0,
+      "frame_index": 38,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide discussing lead time versus order timeline with specific order details.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Home",
+        "Insert",
+        "Draw",
+        "Design",
+        "Transitions",
+        "Animations",
+        "Slide Show",
+        "File",
+        "Copilot",
+        "New Slide"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\bWxbb5sXBYw\\frames\\frame_000039.jpg",
+      "timestamp_seconds": 1140.0,
+      "frame_index": 39,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a speaker with a slide detailing recommendations and next actions, marked as urgent and critical.",
+      "products_visible": [
+        "AUTODESK",
+        "Copilot"
+      ],
+      "ui_elements": [
+        "File",
+        "Home",
+        "Insert",
+        "Draw",
+        "Design",
+        "Transitions",
+        "Animations",
+        "Slide Show",
+        "Review",
+        "View",
+        "Help",
+        "Acrobat",
+        "Record",
+        "Present in Teams",
+        "Share"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\bWxbb5sXBYw\\frames\\frame_000045.jpg",
+      "timestamp_seconds": 1320.0,
+      "frame_index": 45,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing AI orchestration and root cause analysis in cross-system contexts is shown, with emphasis on defect rate analysis.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Cross-System Root Cause Analysis",
+        "Quality",
+        "MES",
+        "IoT",
+        "PLM",
+        "Defect rate on Line 3"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\bWxbb5sXBYw\\frames\\frame_000048.jpg",
+      "timestamp_seconds": 1410.0,
+      "frame_index": 48,
+      "category": "demo",
+      "keep": true,
+      "description": "A demonstration of the Fusion Operations interface being used to input production quantity, with options to clear or delete entries.",
+      "products_visible": [
+        "Autodesk",
+        "Fusion Operations"
+      ],
+      "ui_elements": [
+        "Quantity",
+        "OK",
+        "Delete",
+        "Clear"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\bWxbb5sXBYw\\frames\\frame_000053.jpg",
+      "timestamp_seconds": 1560.0,
+      "frame_index": 53,
+      "category": "ui",
+      "keep": true,
+      "description": "The video frame shows a communication platform interface with an active chat about a quality alert related to a product, alongside a speaker on a call.",
+      "products_visible": [
+        "Autodesk",
+        "Slack"
+      ],
+      "ui_elements": [
+        "Activities",
+        "Quality Agent",
+        "Outlook Calendar",
+        "Apps",
+        "Slack"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\bWxbb5sXBYw\\frames\\frame_000056.jpg",
+      "timestamp_seconds": 1650.0,
+      "frame_index": 56,
+      "category": "code",
+      "keep": true,
+      "description": "The frame shows a person talking while a screen displays a console with code and system logs.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\bWxbb5sXBYw\\frames\\frame_000063.jpg",
+      "timestamp_seconds": 1860.0,
+      "frame_index": 63,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon discussing the transformation of manufacturing intelligence by MCP, covering augment intelligence, adapt execution, and unlock access.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Three Ways MCP Transforms Manufacturing Intelligence",
+        "Augment Intelligence",
+        "Adapt Execution",
+        "Unlock Access"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\bWxbb5sXBYw\\frames\\frame_000065.jpg",
+      "timestamp_seconds": 1920.0,
+      "frame_index": 65,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide with the text 'The systems you have are not the limit. The reasoning layer is.' is shown alongside a speaker.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\bWxbb5sXBYw\\frames\\frame_000067.jpg",
+      "timestamp_seconds": 1980.0,
+      "frame_index": 67,
+      "category": "transition",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:25:33.597809+00:00"
+}

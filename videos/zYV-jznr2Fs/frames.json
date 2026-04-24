@@ -1,0 +1,282 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zYV-jznr2Fs\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zYV-jznr2Fs\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing the 'Safe Harbor Statement' from an Autodesk DevCon event.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Safe Harbor Statement"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zYV-jznr2Fs\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents the agenda for a presentation at Autodesk DevCon, covering topics like Autodesk's Data Vision and new feature updates.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "AGENDA",
+        "Autodesk\u2019s Data Vision",
+        "What is AEC Data Model",
+        "New Feature Updates",
+        "Roadmap"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zYV-jznr2Fs\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide with the title 'Deliver an open and extensible data platform connecting AECO teams in their tools of choice' next to a talking head video frame.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zYV-jznr2Fs\\frames\\frame_000006.jpg",
+      "timestamp_seconds": 150.0,
+      "frame_index": 6,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing the AEC data model with a focus on the importance of a strong data foundation.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "WHAT IS AEC DATA MODEL"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zYV-jznr2Fs\\frames\\frame_000008.jpg",
+      "timestamp_seconds": 210.0,
+      "frame_index": 8,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses unlocking granular data trapped in files, featuring a diagram related to file data extraction.",
+      "products_visible": [
+        "Autodesk",
+        "AEC Data Model"
+      ],
+      "ui_elements": [
+        "Unlocking granular data trapped in files",
+        "File Containing Data of TYPE X",
+        "File Containing Data of TYPE Y"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zYV-jznr2Fs\\frames\\frame_000010.jpg",
+      "timestamp_seconds": 270.0,
+      "frame_index": 10,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide showcasing AEC Data Model APIs with features such as granular data access and interoperability, alongside a speaker.",
+      "products_visible": [
+        "AEC Data Model APIs",
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Granular Data Access",
+        "Manage the 'I' in BIM",
+        "Drive Interoperability"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zYV-jznr2Fs\\frames\\frame_000016.jpg",
+      "timestamp_seconds": 450.0,
+      "frame_index": 16,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide discussing Revit SYNC Data in AEC Data Model, highlighting syncs, APIs, and delta queries for progress tracking.",
+      "products_visible": [
+        "AUTODESK",
+        "Revit",
+        "AEC Data Model",
+        "GraphQL"
+      ],
+      "ui_elements": [
+        "Sync with Central",
+        "API",
+        "Progress Tracking",
+        "Change Management"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zYV-jznr2Fs\\frames\\frame_000018.jpg",
+      "timestamp_seconds": 510.0,
+      "frame_index": 18,
+      "category": "demo",
+      "keep": true,
+      "description": "A presentation slide with a software interface displaying architectural plans and a script interface, likely from an Autodesk event.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "DevCon",
+        "Revit",
+        "Platform Services"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zYV-jznr2Fs\\frames\\frame_000021.jpg",
+      "timestamp_seconds": 600.0,
+      "frame_index": 21,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation showing extended properties in multiple applications, involving architects and fabricators using different software tools.",
+      "products_visible": [
+        "AUTODESK",
+        "Revit",
+        "Model Coordination"
+      ],
+      "ui_elements": [
+        "Extended Properties across Multiple Applications",
+        "Architect",
+        "Fabricator",
+        "wants to understand the fabrication schedule",
+        "uses Model Coordination to augment the model"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zYV-jznr2Fs\\frames\\frame_000023.jpg",
+      "timestamp_seconds": 660.0,
+      "frame_index": 23,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide about sharing data using GraphQL, with visuals of data nodes and cloud connectivity.",
+      "products_visible": [
+        "AUTODESK",
+        "GraphQL"
+      ],
+      "ui_elements": [
+        "Share Data, not Files",
+        "GraphQL",
+        "Fabricator"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zYV-jznr2Fs\\frames\\frame_000024.jpg",
+      "timestamp_seconds": 690.0,
+      "frame_index": 24,
+      "category": "ui",
+      "keep": true,
+      "description": "The frame shows a live demonstration of a web application with a dialog for adding new extension properties.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Add properties",
+        "All Parameters",
+        "Create or modify account parameters",
+        "Save to Files",
+        "Automatically add properties as columns to the object table"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zYV-jznr2Fs\\frames\\frame_000025.jpg",
+      "timestamp_seconds": 720.0,
+      "frame_index": 25,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a demonstration of Autodesk software with a 3D model and configuration settings.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Save current configuration?",
+        "Enable colors",
+        "Settings",
+        "Save to Plans",
+        "Object Colors"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zYV-jznr2Fs\\frames\\frame_000028.jpg",
+      "timestamp_seconds": 810.0,
+      "frame_index": 28,
+      "category": "diagram",
+      "keep": true,
+      "description": "A diagram showing the flow of data involving business systems and GraphQL integration with design tools.",
+      "products_visible": [
+        "Autodesk",
+        "GraphQL"
+      ],
+      "ui_elements": [
+        "Business Systems",
+        "GraphQL"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zYV-jznr2Fs\\frames\\frame_000034.jpg",
+      "timestamp_seconds": 990.0,
+      "frame_index": 34,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents an AEC Data Model API Roadmap with features categorized as 'Available Now', 'Available Next', and 'Available Later'.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Available Now",
+        "Available Next",
+        "Available Later"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zYV-jznr2Fs\\frames\\frame_000037.jpg",
+      "timestamp_seconds": 1080.0,
+      "frame_index": 37,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide presents the AEC Data Model Roadmap with a QR code and website preview related to public roadmap details.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "AEC Data Model Roadmap",
+        "AEC Data Model Public Roadmap"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zYV-jznr2Fs\\frames\\frame_000038.jpg",
+      "timestamp_seconds": 1110.0,
+      "frame_index": 38,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing information on joining the interest list for Autodesk DevCon, including QR codes for beta interest forms.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "IFC Import into AEC Data Model - Private BETA Interest Form",
+        "AECDM MCP Private BETA Interest Form"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:53:28.529536+00:00"
+}

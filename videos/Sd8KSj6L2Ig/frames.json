@@ -1,0 +1,88 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Sd8KSj6L2Ig\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame features a presentation slide about 'digital product passport' discussing sustainability in BIM with the EU DPP system, standards, and REVT integration.",
+      "products_visible": [
+        "Autodesk",
+        "REVIT"
+      ],
+      "ui_elements": [
+        "digital product passport",
+        "value of the EU DPP system",
+        "standards and principles of DPP",
+        "create sustainability with DPP in REVIT"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Sd8KSj6L2Ig\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing the value of the EU DPP system and its impact on sustainability and market fairness, alongside the UN Sustainable Development Goals.",
+      "products_visible": [
+        "AUTODESK",
+        "free dpp"
+      ],
+      "ui_elements": [
+        "value of the EU DPP system",
+        "SUSTAINABLE DEVELOPMENT GOALS"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Sd8KSj6L2Ig\\frames\\frame_000017.jpg",
+      "timestamp_seconds": 480.0,
+      "frame_index": 17,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing the value of the EU DPP system with a focus on driving licenses, including images of vehicles.",
+      "products_visible": [
+        "Autodesk",
+        "free dpp",
+        "inndata"
+      ],
+      "ui_elements": [
+        "value of the EU DPP system",
+        "driving licence"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Sd8KSj6L2Ig\\frames\\frame_000040.jpg",
+      "timestamp_seconds": 1170.0,
+      "frame_index": 40,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide shows a process of creating sustainability with DPP in Revit, highlighting linked data and a building model logbook.",
+      "products_visible": [
+        "AUTODESK",
+        "REVT",
+        "free dpp"
+      ],
+      "ui_elements": [
+        "create sustainability with DPP in REVIT",
+        "Linked data \u2013 the DPP Chain",
+        "building model",
+        "Building Logbook"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Sd8KSj6L2Ig\\frames\\frame_000049.jpg",
+      "timestamp_seconds": 1440.0,
+      "frame_index": 49,
+      "category": "transition",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:47:30.810178+00:00"
+}

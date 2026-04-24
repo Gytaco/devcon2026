@@ -1,0 +1,77 @@
+{
+  "video_id": "u9vttiTrhoU",
+  "demo_timestamps": [
+    {
+      "start": 320.0,
+      "end": 640.0,
+      "description": "Demonstration of transitioning from Inventor to AutoCAD"
+    },
+    {
+      "start": 643.0,
+      "end": 752.0,
+      "description": "Demonstration of creating and updating a Data Exchange from Revit to Inventor"
+    },
+    {
+      "start": 800.0,
+      "end": 930.0,
+      "description": "Demonstration of complex geometry modeling from Inventor to Revit"
+    },
+    {
+      "start": 1064.0,
+      "end": 1088.0,
+      "description": "Workflow chart using data exchange"
+    }
+  ],
+  "themes": [
+    "Data Exchange and Interoperability",
+    "Efficiency in Engineering Workflows",
+    "Data Exchange",
+    "Interoperability",
+    "Software Integration"
+  ],
+  "client_mentions": [
+    {
+      "name": "FCO",
+      "context": "FCO is leveraging data exchanges to break down silos and interrupt between Inventor, Revit, and AutoCAD workflows.",
+      "timestamp": 20.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 60.0
+    },
+    {
+      "name": "Inventor",
+      "is_api": false,
+      "timestamp": 60.0
+    },
+    {
+      "name": "AutoCAD",
+      "is_api": false,
+      "timestamp": 60.0
+    },
+    {
+      "name": "Forma",
+      "is_api": false,
+      "timestamp": 3880.0
+    },
+    {
+      "name": "Civil 3D",
+      "is_api": false,
+      "timestamp": 1386.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "AI assistant",
+      "category": "other",
+      "context": "Empowering data exchange",
+      "timestamp": 1416.0
+    }
+  ],
+  "summary": "The video highlights how Autodesk's Data Exchange improves interoperability between AutoCAD, Inventor, and Revit, streamlining workflows and enhancing collaboration for FCO. It showcases practical applications in real projects, demonstrating reduced rework and improved model synchronization. The presentation also covers benefits, use cases, and planned enhancements, such as creating families from Inventor models and improving project management capabilities.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:21:22.823204+00:00"
+}

@@ -1,0 +1,757 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 10.040000000000001,
+      "text": "Welcome back to the MCP Workshop series.",
+      "words": []
+    },
+    {
+      "start": 10.040000000000001,
+      "end": 13.76,
+      "text": "We've covered data, AI and APIs.",
+      "words": []
+    },
+    {
+      "start": 13.76,
+      "end": 16.44,
+      "text": "Each one is a pillar of intelligent systems.",
+      "words": []
+    },
+    {
+      "start": 16.44,
+      "end": 18.080000000000002,
+      "text": "But there has been a gap.",
+      "words": []
+    },
+    {
+      "start": 18.080000000000002,
+      "end": 23.72,
+      "text": "APIs connect systems, but they weren't designed for the way AI agents work.",
+      "words": []
+    },
+    {
+      "start": 23.72,
+      "end": 28.92,
+      "text": "Today, we close that gap with the fourth and final pillar, MCP.",
+      "words": []
+    },
+    {
+      "start": 28.92,
+      "end": 33.56,
+      "text": "The model context protocol will cover what it is and how it works.",
+      "words": []
+    },
+    {
+      "start": 33.56,
+      "end": 37.52,
+      "text": "And the architecture you need to understand before we start building.",
+      "words": []
+    },
+    {
+      "start": 37.52,
+      "end": 39.96,
+      "text": "So what is MCP?",
+      "words": []
+    },
+    {
+      "start": 39.96,
+      "end": 45.56,
+      "text": "MCP is an open standard for communication between large language models and",
+      "words": []
+    },
+    {
+      "start": 45.56,
+      "end": 52.44,
+      "text": "external systems such as tools, APIs, databases, and even older LLMs.",
+      "words": []
+    },
+    {
+      "start": 52.44,
+      "end": 55.760000000000005,
+      "text": "It is often referred to as the USB-C of AI.",
+      "words": []
+    },
+    {
+      "start": 55.76,
+      "end": 60.199999999999996,
+      "text": "Before USB-C, every device had its own connector.",
+      "words": []
+    },
+    {
+      "start": 60.199999999999996,
+      "end": 62.839999999999996,
+      "text": "Every new device meant a new cable.",
+      "words": []
+    },
+    {
+      "start": 62.839999999999996,
+      "end": 65.32,
+      "text": "MCP does the same thing for AI.",
+      "words": []
+    },
+    {
+      "start": 65.32,
+      "end": 71.2,
+      "text": "Before MCP, each connection between an AI model and a tool was custom built.",
+      "words": []
+    },
+    {
+      "start": 71.2,
+      "end": 76.24,
+      "text": "A developer had to create a different proprietary adapter for each LLM and",
+      "words": []
+    },
+    {
+      "start": 76.24,
+      "end": 77.2,
+      "text": "each tool.",
+      "words": []
+    },
+    {
+      "start": 77.2,
+      "end": 80.0,
+      "text": "MCP creates a standard plug.",
+      "words": []
+    },
+    {
+      "start": 80.0,
+      "end": 86.0,
+      "text": "Any MCP compatible LLM can instantly connect to any MCP compatible tool,",
+      "words": []
+    },
+    {
+      "start": 86.0,
+      "end": 90.32,
+      "text": "making AI agents reusable and interoperable.",
+      "words": []
+    },
+    {
+      "start": 90.32,
+      "end": 95.8,
+      "text": "This is how MCP solves the N times M problem we discussed in the API episode.",
+      "words": []
+    },
+    {
+      "start": 95.8,
+      "end": 102.0,
+      "text": "Instead of custom adapters for every combination, MCP uses a one to many approach.",
+      "words": []
+    },
+    {
+      "start": 102.0,
+      "end": 107.24000000000001,
+      "text": "Build one MCP server per tool, it works with any MCP compatible clients.",
+      "words": []
+    },
+    {
+      "start": 107.24000000000001,
+      "end": 109.36,
+      "text": "Build one MCP client per host.",
+      "words": []
+    },
+    {
+      "start": 109.36,
+      "end": 111.92,
+      "text": "It works with any MCP server.",
+      "words": []
+    },
+    {
+      "start": 111.92,
+      "end": 116.2,
+      "text": "You can swap LLMs without rewriting tool integrations.",
+      "words": []
+    },
+    {
+      "start": 116.2,
+      "end": 120.08,
+      "text": "You can add new tools without modifying the AI agent.",
+      "words": []
+    },
+    {
+      "start": 120.08,
+      "end": 125.12,
+      "text": "And you can reuse servers across projects, teams, and organizations.",
+      "words": []
+    },
+    {
+      "start": 125.12,
+      "end": 130.48,
+      "text": "The same MCP server you build for Autodesk APIs today, works with Cloud,",
+      "words": []
+    },
+    {
+      "start": 130.48,
+      "end": 134.04,
+      "text": "Copilot, or any future MCP compatible host.",
+      "words": []
+    },
+    {
+      "start": 134.04,
+      "end": 135.48,
+      "text": "No adapter needed.",
+      "words": []
+    },
+    {
+      "start": 135.48,
+      "end": 138.76,
+      "text": "Now, let's look at the architecture more closely.",
+      "words": []
+    },
+    {
+      "start": 138.76,
+      "end": 142.04,
+      "text": "Every MCP system has two sides.",
+      "words": []
+    },
+    {
+      "start": 142.04,
+      "end": 148.67999999999998,
+      "text": "The client lives inside the AI application, an ID, a chatbot, a desktop agent.",
+      "words": []
+    },
+    {
+      "start": 148.67999999999998,
+      "end": 154.84,
+      "text": "It manages connections to MCP servers, forwards tools calls from the LLM,",
+      "words": []
+    },
+    {
+      "start": 154.84,
+      "end": 156.76,
+      "text": "and returns responses.",
+      "words": []
+    },
+    {
+      "start": 156.76,
+      "end": 159.0,
+      "text": "The server is on the tool side.",
+      "words": []
+    },
+    {
+      "start": 159.0,
+      "end": 163.48,
+      "text": "It's a lightweight service that exposes capabilities to AI.",
+      "words": []
+    },
+    {
+      "start": 163.48,
+      "end": 168.95999999999998,
+      "text": "It registers tools, resources, and prompts, handles execution,",
+      "words": []
+    },
+    {
+      "start": 168.95999999999998,
+      "end": 173.79999999999998,
+      "text": "and can run locally via STDIO or remotely over HTTP.",
+      "words": []
+    },
+    {
+      "start": 173.79999999999998,
+      "end": 177.32,
+      "text": "The server doesn't need to know which LLM is calling it.",
+      "words": []
+    },
+    {
+      "start": 177.32,
+      "end": 181.48,
+      "text": "The client doesn't need to know how the tool works internally.",
+      "words": []
+    },
+    {
+      "start": 181.48,
+      "end": 183.95999999999998,
+      "text": "The protocol handles the translation.",
+      "words": []
+    },
+    {
+      "start": 183.95999999999998,
+      "end": 188.28,
+      "text": "This clean separation is what makes MCP system composable.",
+      "words": []
+    },
+    {
+      "start": 188.28,
+      "end": 193.07999999999998,
+      "text": "MCP servers expose three different types of components, called primitives.",
+      "words": []
+    },
+    {
+      "start": 193.08,
+      "end": 195.56,
+      "text": "Tools are model controlled.",
+      "words": []
+    },
+    {
+      "start": 195.56,
+      "end": 199.4,
+      "text": "These are functions the LLM can call to perform actions.",
+      "words": []
+    },
+    {
+      "start": 199.4,
+      "end": 203.84,
+      "text": "Create issue, get model properties, run class detection.",
+      "words": []
+    },
+    {
+      "start": 203.84,
+      "end": 207.12,
+      "text": "The LLM decides when and how to use them.",
+      "words": []
+    },
+    {
+      "start": 207.12,
+      "end": 210.32000000000002,
+      "text": "Resources are application controlled.",
+      "words": []
+    },
+    {
+      "start": 210.32000000000002,
+      "end": 214.44,
+      "text": "These are data, the server makes available for context.",
+      "words": []
+    },
+    {
+      "start": 214.44,
+      "end": 220.88000000000002,
+      "text": "Project files, be model, metadata, user preferences, read only like get endpoints.",
+      "words": []
+    },
+    {
+      "start": 220.88,
+      "end": 223.07999999999998,
+      "text": "Prompts are user controlled.",
+      "words": []
+    },
+    {
+      "start": 223.07999999999998,
+      "end": 225.56,
+      "text": "Preview templates for common workflows like,",
+      "words": []
+    },
+    {
+      "start": 225.56,
+      "end": 229.51999999999998,
+      "text": "analyzes this rivet model for code compliance, triggered by the user,",
+      "words": []
+    },
+    {
+      "start": 229.51999999999998,
+      "end": 231.68,
+      "text": "not autonomously by the LLM.",
+      "words": []
+    },
+    {
+      "start": 231.68,
+      "end": 237.07999999999998,
+      "text": "Tools for actions, resources for context, prompts for workflows.",
+      "words": []
+    },
+    {
+      "start": 237.07999999999998,
+      "end": 240.84,
+      "text": "This connects to a fundamental concept context.",
+      "words": []
+    },
+    {
+      "start": 240.84,
+      "end": 244.2,
+      "text": "LLMs operate in a limited context window.",
+      "words": []
+    },
+    {
+      "start": 244.2,
+      "end": 247.8,
+      "text": "If you send a vague question with no projected data,",
+      "words": []
+    },
+    {
+      "start": 247.8,
+      "end": 249.72,
+      "text": "you get a generic answer.",
+      "words": []
+    },
+    {
+      "start": 249.72,
+      "end": 254.44,
+      "text": "Feed the right data at the right time and it becomes a domain expert.",
+      "words": []
+    },
+    {
+      "start": 254.44,
+      "end": 257.12,
+      "text": "MCP manages what goes into that window.",
+      "words": []
+    },
+    {
+      "start": 257.12,
+      "end": 260.12,
+      "text": "Resources inject structured data.",
+      "words": []
+    },
+    {
+      "start": 260.12,
+      "end": 264.4,
+      "text": "Tool results provide real-time information from life systems.",
+      "words": []
+    },
+    {
+      "start": 264.4,
+      "end": 268.2,
+      "text": "Prompts frame the tasks with the right instructions.",
+      "words": []
+    },
+    {
+      "start": 268.2,
+      "end": 272.6,
+      "text": "The difference between a useless AI assistant and a powerful one",
+      "words": []
+    },
+    {
+      "start": 272.6,
+      "end": 275.6,
+      "text": "is almost entirely about context.",
+      "words": []
+    },
+    {
+      "start": 275.6,
+      "end": 278.12,
+      "text": "Finally, security.",
+      "words": []
+    },
+    {
+      "start": 278.12,
+      "end": 281.64,
+      "text": "We're giving AI the ability to interact with real systems.",
+      "words": []
+    },
+    {
+      "start": 281.64,
+      "end": 283.08,
+      "text": "So this matters.",
+      "words": []
+    },
+    {
+      "start": 283.08,
+      "end": 286.84000000000003,
+      "text": "MCP introduces structured control at three levels.",
+      "words": []
+    },
+    {
+      "start": 286.84000000000003,
+      "end": 288.56,
+      "text": "Input validation.",
+      "words": []
+    },
+    {
+      "start": 288.56,
+      "end": 293.92,
+      "text": "Every tool defines a schema using ZOD or JSON schema.",
+      "words": []
+    },
+    {
+      "start": 293.92,
+      "end": 297.0,
+      "text": "Parameters are validated before execution.",
+      "words": []
+    },
+    {
+      "start": 297.0,
+      "end": 301.2,
+      "text": "The LLM cannot call the tool with unexpected arguments.",
+      "words": []
+    },
+    {
+      "start": 301.2,
+      "end": 302.44,
+      "text": "Human in the loop.",
+      "words": []
+    },
+    {
+      "start": 302.44,
+      "end": 307.64,
+      "text": "The host can require user approval before executing sensitive actions.",
+      "words": []
+    },
+    {
+      "start": 307.64,
+      "end": 311.03999999999996,
+      "text": "Critical operations go through a confirmation step.",
+      "words": []
+    },
+    {
+      "start": 311.03999999999996,
+      "end": 312.76,
+      "text": "Transport security.",
+      "words": []
+    },
+    {
+      "start": 312.76,
+      "end": 316.64,
+      "text": "Local servers use STDIO with non-network exposure.",
+      "words": []
+    },
+    {
+      "start": 316.64,
+      "end": 320.24,
+      "text": "Remote servers use HTTPS plus authentication.",
+      "words": []
+    },
+    {
+      "start": 320.24,
+      "end": 324.56,
+      "text": "MCP supports OAuth 2.1 for secure, scoped access.",
+      "words": []
+    },
+    {
+      "start": 324.56,
+      "end": 325.71999999999997,
+      "text": "The principle.",
+      "words": []
+    },
+    {
+      "start": 325.71999999999997,
+      "end": 329.0,
+      "text": "MCP doesn't give AI unrestricted access.",
+      "words": []
+    },
+    {
+      "start": 329.0,
+      "end": 332.56,
+      "text": "It gives controlled, validated, auditable access",
+      "words": []
+    },
+    {
+      "start": 332.56,
+      "end": 336.52,
+      "text": "with humans in the loop for high-stake decisions.",
+      "words": []
+    },
+    {
+      "start": 336.52,
+      "end": 338.68,
+      "text": "Let me make this concrete.",
+      "words": []
+    },
+    {
+      "start": 338.68,
+      "end": 340.91999999999996,
+      "text": "This is how GitHub Copilot actually",
+      "words": []
+    },
+    {
+      "start": 340.91999999999996,
+      "end": 343.47999999999996,
+      "text": "works with MCP under the hood.",
+      "words": []
+    },
+    {
+      "start": 343.47999999999996,
+      "end": 345.84,
+      "text": "A developer asks Copilot.",
+      "words": []
+    },
+    {
+      "start": 345.84,
+      "end": 348.4,
+      "text": "The latest release broke the login feature,",
+      "words": []
+    },
+    {
+      "start": 348.4,
+      "end": 351.84,
+      "text": "run the test suite, find the failing test,",
+      "words": []
+    },
+    {
+      "start": 351.84,
+      "end": 353.24,
+      "text": "and tell me what's wrong.",
+      "words": []
+    },
+    {
+      "start": 353.24,
+      "end": 355.35999999999996,
+      "text": "There are three actors.",
+      "words": []
+    },
+    {
+      "start": 355.35999999999996,
+      "end": 359.79999999999995,
+      "text": "The host is your ID, the MCP client, where you type the comment.",
+      "words": []
+    },
+    {
+      "start": 359.79999999999995,
+      "end": 363.15999999999997,
+      "text": "The brand is the remote LLM running in the cloud.",
+      "words": []
+    },
+    {
+      "start": 363.16,
+      "end": 367.8,
+      "text": "The hand is the local MCP server, a service on your machine,",
+      "words": []
+    },
+    {
+      "start": 367.8,
+      "end": 371.48,
+      "text": "with approved access to your terminal and file system.",
+      "words": []
+    },
+    {
+      "start": 371.48,
+      "end": 374.92,
+      "text": "Step one, the host sends your prompt to the brain.",
+      "words": []
+    },
+    {
+      "start": 374.92,
+      "end": 379.36,
+      "text": "Step two, the brain decides a terminal comment is needed.",
+      "words": []
+    },
+    {
+      "start": 379.36,
+      "end": 383.52000000000004,
+      "text": "It sends a tool call back to the ID, run terminal command,",
+      "words": []
+    },
+    {
+      "start": 383.52000000000004,
+      "end": 386.84000000000003,
+      "text": "with parameters command, NPM test.",
+      "words": []
+    },
+    {
+      "start": 386.84000000000003,
+      "end": 389.88,
+      "text": "Step three, the host validates the comment,",
+      "words": []
+    },
+    {
+      "start": 389.88,
+      "end": 393.04,
+      "text": "maybe asks for approval, then forwards the call",
+      "words": []
+    },
+    {
+      "start": 393.04,
+      "end": 394.16,
+      "text": "to the local hands.",
+      "words": []
+    },
+    {
+      "start": 394.16,
+      "end": 397.6,
+      "text": "Step four, the hands runs NPM test.",
+      "words": []
+    },
+    {
+      "start": 397.6,
+      "end": 400.72,
+      "text": "The test fail and produces an error log.",
+      "words": []
+    },
+    {
+      "start": 400.72,
+      "end": 404.12,
+      "text": "Step five, the hands sends that log back to the brain.",
+      "words": []
+    },
+    {
+      "start": 404.12,
+      "end": 407.6,
+      "text": "The brain reads it, identifies the failing test,",
+      "words": []
+    },
+    {
+      "start": 407.6,
+      "end": 409.36,
+      "text": "and generates the answer.",
+      "words": []
+    },
+    {
+      "start": 409.36,
+      "end": 414.52000000000004,
+      "text": "The error is in test slash auth.test.js on the user login test.",
+      "words": []
+    },
+    {
+      "start": 414.52000000000004,
+      "end": 417.24,
+      "text": "The local hand acts in the real world.",
+      "words": []
+    },
+    {
+      "start": 417.24,
+      "end": 419.76,
+      "text": "The remote brain provides the intelligence,",
+      "words": []
+    },
+    {
+      "start": 419.76,
+      "end": 423.48,
+      "text": "the protocol standardizes everything between them.",
+      "words": []
+    },
+    {
+      "start": 423.48,
+      "end": 426.28,
+      "text": "That's all four pillars complete.",
+      "words": []
+    },
+    {
+      "start": 426.28,
+      "end": 429.4,
+      "text": "And we've covered the full MCP architecture,",
+      "words": []
+    },
+    {
+      "start": 429.4,
+      "end": 432.64,
+      "text": "server client model, three primitives,",
+      "words": []
+    },
+    {
+      "start": 432.64,
+      "end": 435.15999999999997,
+      "text": "context management and security.",
+      "words": []
+    },
+    {
+      "start": 435.15999999999997,
+      "end": 437.59999999999997,
+      "text": "Next time, we start building.",
+      "words": []
+    },
+    {
+      "start": 437.59999999999997,
+      "end": 441.24,
+      "text": "We'll create an MCP server from scratch in Node.js,",
+      "words": []
+    },
+    {
+      "start": 441.24,
+      "end": 445.44,
+      "text": "register our first tools and connect it to VS Code Copilot.",
+      "words": []
+    },
+    {
+      "start": 445.44,
+      "end": 447.84,
+      "text": "Leave your questions in the comments",
+      "words": []
+    },
+    {
+      "start": 447.84,
+      "end": 450.76,
+      "text": "and I'll see you for the next one.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-23T00:05:39.531542+00:00"
+}

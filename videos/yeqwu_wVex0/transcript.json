@@ -1,0 +1,469 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.5,
+      "text": "All right. Hi everybody. Thank you so much for joining today's presentation.",
+      "words": []
+    },
+    {
+      "start": 6.22,
+      "end": 10.02,
+      "text": "Navigating the Autodesk AECO Technology Partner Program.",
+      "words": []
+    },
+    {
+      "start": 10.5,
+      "end": 15.92,
+      "text": "My name is Jeremy and I work on the Autodesk AEC Technology Partner Team.",
+      "words": []
+    },
+    {
+      "start": 15.92,
+      "end": 24.240000000000002,
+      "text": "Our team works with partners that are building or have built integrations to anyone of the Autodesk AECO solutions,",
+      "words": []
+    },
+    {
+      "start": 25.0,
+      "end": 27.0,
+      "text": "including Autodesk Forma,",
+      "words": []
+    },
+    {
+      "start": 27.0,
+      "end": 31.6,
+      "text": "AutoCAD, Rabbit, Navis, Works, Civil 3D, and so on.",
+      "words": []
+    },
+    {
+      "start": 32.0,
+      "end": 35.4,
+      "text": "I've been with Autodesk for going on eight years now.",
+      "words": []
+    },
+    {
+      "start": 36.5,
+      "end": 38.4,
+      "text": "And I've been on this team the entire time.",
+      "words": []
+    },
+    {
+      "start": 39.5,
+      "end": 45.0,
+      "text": "It's great to be here with you today and thanks so much for tuning in.",
+      "words": []
+    },
+    {
+      "start": 45.7,
+      "end": 52.400000000000006,
+      "text": "From Agenda Sampoint, I just want to take a few minutes to talk about Autodesk Forma, Autodesk AECO Technology.",
+      "words": []
+    },
+    {
+      "start": 52.699999999999996,
+      "end": 56.9,
+      "text": "And then of course dive into the Autodesk AECO Technology Partner Program,",
+      "words": []
+    },
+    {
+      "start": 57.4,
+      "end": 61.7,
+      "text": "how you can go and build integrations to Autodesk AECO solutions",
+      "words": []
+    },
+    {
+      "start": 62.1,
+      "end": 66.3,
+      "text": "and leverage the Autodesk resources available to you through our program.",
+      "words": []
+    },
+    {
+      "start": 67.3,
+      "end": 77.1,
+      "text": "So just to start and back things up just a little bit and want to talk a little talk about what is Autodesk Forma and how we view the AECO world.",
+      "words": []
+    },
+    {
+      "start": 77.5,
+      "end": 82.69999999999999,
+      "text": "Autodesk Forma is Autodesk AI, NATO, into industry cloud or AECO.",
+      "words": []
+    },
+    {
+      "start": 83.19999999999999,
+      "end": 89.89999999999999,
+      "text": "It connects teams, workflows, and data across all phases of the project life cycle in one shared environment.",
+      "words": []
+    },
+    {
+      "start": 90.39999999999999,
+      "end": 98.8,
+      "text": "With connected data and consistent governance as core teams can make smarter decisions faster, anticipate risks early, and deliver better outcomes.",
+      "words": []
+    },
+    {
+      "start": 99.1,
+      "end": 104.5,
+      "text": "And then you of course can integrate with Autodesk Forma to deliver meaningful integrations to customers",
+      "words": []
+    },
+    {
+      "start": 104.7,
+      "end": 107.7,
+      "text": "so that they can go and improve outcomes.",
+      "words": []
+    },
+    {
+      "start": 108.8,
+      "end": 112.3,
+      "text": "Just diving a little bit more into what Forma can do,",
+      "words": []
+    },
+    {
+      "start": 113.0,
+      "end": 118.1,
+      "text": "customers can condition models, generate takeoff packages, and estimates.",
+      "words": []
+    },
+    {
+      "start": 118.5,
+      "end": 122.3,
+      "text": "And of course manage projects throughout the entire construction life cycle,",
+      "words": []
+    },
+    {
+      "start": 122.7,
+      "end": 132.4,
+      "text": "models, issues, RFIs, budgets, change orders, everything and anything that project teams need to go and build on schedule and under budget,",
+      "words": []
+    },
+    {
+      "start": 132.4,
+      "end": 134.70000000000002,
+      "text": "live within Forma.",
+      "words": []
+    },
+    {
+      "start": 135.20000000000002,
+      "end": 142.4,
+      "text": "All of this is underpinned by Forma data management, meaning that information can flow and be used within each solution during the project.",
+      "words": []
+    },
+    {
+      "start": 143.20000000000002,
+      "end": 147.20000000000002,
+      "text": "And from an integration standpoint, we have a robust set of APIs.",
+      "words": []
+    },
+    {
+      "start": 147.6,
+      "end": 151.8,
+      "text": "Again, these are all all these products are underpinned by that Forma data management,",
+      "words": []
+    },
+    {
+      "start": 152.20000000000002,
+      "end": 155.9,
+      "text": "meaning if you go and integrate with Forma data management,",
+      "words": []
+    },
+    {
+      "start": 156.3,
+      "end": 161.0,
+      "text": "say for instance you're working with the models or the documents.",
+      "words": []
+    },
+    {
+      "start": 161.7,
+      "end": 167.8,
+      "text": "All of those or all that information is accessible with the many of the Autodesk AEC solutions.",
+      "words": []
+    },
+    {
+      "start": 168.3,
+      "end": 175.9,
+      "text": "We have APIs available for the desktop tool so it was being rabid, AutoCAD, NavisWork, Civil3D,",
+      "words": []
+    },
+    {
+      "start": 176.2,
+      "end": 180.5,
+      "text": "and so on for you to go and build plugins for customers to go and use.",
+      "words": []
+    },
+    {
+      "start": 181.0,
+      "end": 183.9,
+      "text": "And then of course, Autodesk Forma, which we just talked about a little bit,",
+      "words": []
+    },
+    {
+      "start": 184.4,
+      "end": 190.2,
+      "text": "we have APIs available for you to go and build integrations with individual issues,",
+      "words": []
+    },
+    {
+      "start": 190.2,
+      "end": 193.0,
+      "text": "RFIs, the budgets, and so on.",
+      "words": []
+    },
+    {
+      "start": 193.0,
+      "end": 194.89999999999998,
+      "text": "You can sync those items back and forth,",
+      "words": []
+    },
+    {
+      "start": 195.7,
+      "end": 200.7,
+      "text": "you know, make sure that there is attachments on them, get the status updates,",
+      "words": []
+    },
+    {
+      "start": 201.2,
+      "end": 208.1,
+      "text": "and so on. It's quite a robust set of APIs that you can go and work with and build integrations",
+      "words": []
+    },
+    {
+      "start": 208.39999999999998,
+      "end": 215.0,
+      "text": "that the customers can go and use to deliver meaningful outcomes within their projects.",
+      "words": []
+    },
+    {
+      "start": 215.7,
+      "end": 220.6,
+      "text": "And okay, so from a technology partner standpoint,",
+      "words": []
+    },
+    {
+      "start": 221.2,
+      "end": 224.0,
+      "text": "you know, this philosophy and openness and collaboration,",
+      "words": []
+    },
+    {
+      "start": 224.2,
+      "end": 229.1,
+      "text": "you know, aligns with our approach to the entire AECO product portfolio.",
+      "words": []
+    },
+    {
+      "start": 229.7,
+      "end": 237.1,
+      "text": "We for years fostered and supported partners as you develop meaningful integrations across all of the AECO solutions.",
+      "words": []
+    },
+    {
+      "start": 237.5,
+      "end": 243.0,
+      "text": "And we work hard at Autodesk to deliver value to partners through the technology capabilities we offer.",
+      "words": []
+    },
+    {
+      "start": 243.5,
+      "end": 247.7,
+      "text": "And again, as I talked a little bit about allowing you to go and integrate with our solutions",
+      "words": []
+    },
+    {
+      "start": 248.4,
+      "end": 254.7,
+      "text": "and our go-to-market efforts help you raise awareness of those integrations that you built.",
+      "words": []
+    },
+    {
+      "start": 255.2,
+      "end": 258.5,
+      "text": "And by connecting these deep workflows together, we can drive value to customers.",
+      "words": []
+    },
+    {
+      "start": 259.0,
+      "end": 262.0,
+      "text": "We can help them streamline their processes, automate tasks,",
+      "words": []
+    },
+    {
+      "start": 262.3,
+      "end": 267.5,
+      "text": "that previously required significant resources and achieve complex operations that were not possible before.",
+      "words": []
+    },
+    {
+      "start": 268.0,
+      "end": 270.3,
+      "text": "And in turn, this drives value to Autodesk.",
+      "words": []
+    },
+    {
+      "start": 270.5,
+      "end": 273.6,
+      "text": "As deep integrations and workflow enhance the value of our products,",
+      "words": []
+    },
+    {
+      "start": 273.90000000000003,
+      "end": 280.8,
+      "text": "customers are more interested in buying, using, and as a result, renewing them, which is obviously valuable to us.",
+      "words": []
+    },
+    {
+      "start": 282.0,
+      "end": 287.0,
+      "text": "You know, there's a couple quick examples that I wanted to show of what others have done.",
+      "words": []
+    },
+    {
+      "start": 287.3,
+      "end": 294.40000000000003,
+      "text": "Gamma AR is a really good example of a partner that has used our integration capabilities.",
+      "words": []
+    },
+    {
+      "start": 294.9,
+      "end": 300.5,
+      "text": "Gamma AR uses augmented reality to combine the design world with the real world.",
+      "words": []
+    },
+    {
+      "start": 300.9,
+      "end": 307.2,
+      "text": "They give users the ability to overlay a design model with what the camera detects on a mobile device.",
+      "words": []
+    },
+    {
+      "start": 307.4,
+      "end": 309.9,
+      "text": "In this case, it's a tablet, but it can also be used on a phone.",
+      "words": []
+    },
+    {
+      "start": 310.4,
+      "end": 316.7,
+      "text": "And they built several deep integrations with our technology that include giving customers the ability to import 3D models",
+      "words": []
+    },
+    {
+      "start": 316.9,
+      "end": 321.4,
+      "text": "that are managed in the form of data management directly into Gamma AR.",
+      "words": []
+    },
+    {
+      "start": 321.9,
+      "end": 327.2,
+      "text": "Project teams on site can overlay those models with in Gamma AR's augmented reality environment",
+      "words": []
+    },
+    {
+      "start": 327.4,
+      "end": 330.4,
+      "text": "so that they can understand current progress, burst intent.",
+      "words": []
+    },
+    {
+      "start": 330.7,
+      "end": 337.4,
+      "text": "If an issue is found, for example, it can be sent directly into form a build with all the corresponding visual documentation.",
+      "words": []
+    },
+    {
+      "start": 338.29999999999995,
+      "end": 348.29999999999995,
+      "text": "They've also built integration with form a build assets that gives project stakeholders the ability to mark individual rabbit assets, walls, ceiling beams, etc.",
+      "words": []
+    },
+    {
+      "start": 348.3,
+      "end": 352.8,
+      "text": "As done, or needing tension, that's example that you see in the middle of the screen.",
+      "words": []
+    },
+    {
+      "start": 352.8,
+      "end": 361.8,
+      "text": "At the green signal signals that the asset is being installed correctly, whereas the red is something that needs attention by teams on site.",
+      "words": []
+    },
+    {
+      "start": 362.3,
+      "end": 372.3,
+      "text": "There's several customers up there that are using this integration today to help prevent rework by spotting those issues early within the construction process.",
+      "words": []
+    },
+    {
+      "start": 372.3,
+      "end": 381.3,
+      "text": "MatterPort is a spatial data platform that creates digital twins by turning physical spaces in the structured useful data.",
+      "words": []
+    },
+    {
+      "start": 381.8,
+      "end": 384.8,
+      "text": "And they're bridging built reality with design intelligence.",
+      "words": []
+    },
+    {
+      "start": 385.3,
+      "end": 390.3,
+      "text": "They're a strong example of a partner leveraging Autotus Platform APIs at scale.",
+      "words": []
+    },
+    {
+      "start": 390.8,
+      "end": 401.3,
+      "text": "They built deep integrations across Autotus Forma, Rabbit, and AutoCAD, embedding real world spatial data directly into AECO workloads.",
+      "words": []
+    },
+    {
+      "start": 401.3,
+      "end": 413.3,
+      "text": "Again, these integrations help customers reduce rework, improve coordination, and help teams keep project moving as a site conditions change.",
+      "words": []
+    },
+    {
+      "start": 414.3,
+      "end": 419.3,
+      "text": "And all of this wraps up in our AECO Technology Partner Program.",
+      "words": []
+    },
+    {
+      "start": 419.8,
+      "end": 425.3,
+      "text": "We work with you to amplify your materials both internally and externally.",
+      "words": []
+    },
+    {
+      "start": 425.3,
+      "end": 437.3,
+      "text": "Have a customer facing website at autotus.com such integrations that gives you the opportunity to showcase all the good work that you're doing with Autotus APIs.",
+      "words": []
+    },
+    {
+      "start": 438.3,
+      "end": 440.3,
+      "text": "We provide support on your launch announcement.",
+      "words": []
+    },
+    {
+      "start": 441.3,
+      "end": 454.3,
+      "text": "And so much more, we have a well-wild Go-To-Market Engine that ultimately will help drive a customer awareness, customer adoption, but also educate our internal audience.",
+      "words": []
+    },
+    {
+      "start": 455.3,
+      "end": 463.3,
+      "text": "So with that, I really appreciate you tuning in here today and I hope to see you soon.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:17:56.036898+00:00"
+}

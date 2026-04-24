@@ -1,0 +1,256 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Qe99VANs_r8\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Qe99VANs_r8\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon titled 'From Prototype to Production' about scaling low code AI with Autodesk Platform Services.",
+      "products_visible": [
+        "Autodesk Platform Services"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "From Prototype to Production",
+        "Scaling Low Code AI with Autodesk Platform Services"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Qe99VANs_r8\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide outlines a process from identifying a problem to prototyping and production, emphasizing that successful production starts at the prototype.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Problem",
+        "Prototype",
+        "Production"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Qe99VANs_r8\\frames\\frame_000009.jpg",
+      "timestamp_seconds": 240.0,
+      "frame_index": 9,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon detailing upcoming releases and features for Anthropic in 2026.",
+      "products_visible": [
+        "Autodesk",
+        "Anthropic"
+      ],
+      "ui_elements": [
+        "Claude Cowork",
+        "Opus 4.6",
+        "Sonnet 4.6",
+        "Cowork on PC",
+        "PowerPoint integration"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Qe99VANs_r8\\frames\\frame_000010.jpg",
+      "timestamp_seconds": 270.0,
+      "frame_index": 10,
+      "category": "slides",
+      "keep": true,
+      "description": "This frame shows a slide from an Autodesk DevCon presentation discussing Low Code and AI Assisted Code features.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Low Code",
+        "AI Assisted Code"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Qe99VANs_r8\\frames\\frame_000014.jpg",
+      "timestamp_seconds": 390.0,
+      "frame_index": 14,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses the components of AI production success: Usability and Reliability.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "The 3 components of AI production success",
+        "Usability",
+        "Reliability"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Qe99VANs_r8\\frames\\frame_000017.jpg",
+      "timestamp_seconds": 480.0,
+      "frame_index": 17,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide featuring the topic of 'Usability' with the Autodesk logo.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Usability"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Qe99VANs_r8\\frames\\frame_000018.jpg",
+      "timestamp_seconds": 510.0,
+      "frame_index": 18,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses designing AI interaction with users, focusing on where, when, and how AI is used.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Where",
+        "When",
+        "How",
+        "Default",
+        "Alternatives"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Qe99VANs_r8\\frames\\frame_000023.jpg",
+      "timestamp_seconds": 660.0,
+      "frame_index": 23,
+      "category": "demo",
+      "keep": true,
+      "description": "A person is speaking alongside a screen showing a demo of software related to construction or design, with a focus on repetitive low-value tasks.",
+      "products_visible": [
+        "Autodesk",
+        "AUSREO"
+      ],
+      "ui_elements": [
+        "Docket In",
+        "Perth Redevelopment",
+        "Repetitive low-value tasks"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Qe99VANs_r8\\frames\\frame_000025.jpg",
+      "timestamp_seconds": 720.0,
+      "frame_index": 25,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses the components necessary for AI to be trusted and reliable, including Application Logic, Data Conditioning, AI Control, and Testing.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Application Logic",
+        "Data Conditioning",
+        "AI Control",
+        "Testing"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Qe99VANs_r8\\frames\\frame_000027.jpg",
+      "timestamp_seconds": 780.0,
+      "frame_index": 27,
+      "category": "demo",
+      "keep": true,
+      "description": "A person is looking at a computer screen displaying a colored text analysis application during an Autodesk DevCon presentation.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "highlighted text"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Qe99VANs_r8\\frames\\frame_000028.jpg",
+      "timestamp_seconds": 810.0,
+      "frame_index": 28,
+      "category": "demo",
+      "keep": true,
+      "description": "A DevCon session with a chat interface displaying overdue RFIs and their due dates.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "ACC Agent",
+        "RFI Link",
+        "Due Date"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Qe99VANs_r8\\frames\\frame_000038.jpg",
+      "timestamp_seconds": 1110.0,
+      "frame_index": 38,
+      "category": "demo",
+      "keep": true,
+      "description": "The video frame shows a demonstration of interacting with Building Information Modeling (BIM) through natural language commands.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "highlight the doors",
+        "Interact with BIM through natural language",
+        "Skill bottle necks"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Qe99VANs_r8\\frames\\frame_000041.jpg",
+      "timestamp_seconds": 1200.0,
+      "frame_index": 41,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide shows a flow diagram involving Revit, Autodesk Forma, and VIKTOR with connections to an AEC Data Model and Autodesk Viewer.",
+      "products_visible": [
+        "Revit",
+        "Autodesk Forma",
+        "VIKTOR",
+        "Autodesk Viewer"
+      ],
+      "ui_elements": [
+        "AEC Data Model",
+        "QR Code"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Qe99VANs_r8\\frames\\frame_000042.jpg",
+      "timestamp_seconds": 1230.0,
+      "frame_index": 42,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide showing three concepts: Build Systems, Find Problems, and Create Partnerships.",
+      "products_visible": [
+        "AUTODESK DevCon"
+      ],
+      "ui_elements": [
+        "Build Systems",
+        "Find Problems",
+        "Create Partnerships"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Qe99VANs_r8\\frames\\frame_000045.jpg",
+      "timestamp_seconds": 1320.0,
+      "frame_index": 45,
+      "category": "transition",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:05:01.669654+00:00"
+}

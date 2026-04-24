@@ -1,0 +1,517 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 12.540000000000001,
+      "text": "Welcome back to the MCP Workshop series with covered data and AI.",
+      "words": []
+    },
+    {
+      "start": 12.540000000000001,
+      "end": 15.44,
+      "text": "Now it's time for the third pillar, APIs.",
+      "words": []
+    },
+    {
+      "start": 15.44,
+      "end": 18.48,
+      "text": "APIs are what makes systems talk to each other.",
+      "words": []
+    },
+    {
+      "start": 18.48,
+      "end": 23.240000000000002,
+      "text": "And if you want AI to interact with the real world, with your BIM data, with project management",
+      "words": []
+    },
+    {
+      "start": 23.240000000000002,
+      "end": 27.32,
+      "text": "tools, your cloud storage, APIs are the bridge.",
+      "words": []
+    },
+    {
+      "start": 27.32,
+      "end": 31.04,
+      "text": "So what exactly is an API?",
+      "words": []
+    },
+    {
+      "start": 31.04,
+      "end": 37.56,
+      "text": "An API or application programming interface is a contract between two software systems.",
+      "words": []
+    },
+    {
+      "start": 37.56,
+      "end": 43.28,
+      "text": "It defines how one system can request data or trigger actions in another.",
+      "words": []
+    },
+    {
+      "start": 43.28,
+      "end": 46.08,
+      "text": "There are four key characteristics.",
+      "words": []
+    },
+    {
+      "start": 46.08,
+      "end": 48.44,
+      "text": "First, define endpoints.",
+      "words": []
+    },
+    {
+      "start": 48.44,
+      "end": 52.120000000000005,
+      "text": "These are URLs that identify specific resources.",
+      "words": []
+    },
+    {
+      "start": 52.12,
+      "end": 58.919999999999995,
+      "text": "For example, a URL like slash projects slash one to three points to a specific project.",
+      "words": []
+    },
+    {
+      "start": 58.919999999999995,
+      "end": 63.36,
+      "text": "Second, structure requests and response format.",
+      "words": []
+    },
+    {
+      "start": 63.36,
+      "end": 70.28,
+      "text": "APIs typically use JSON, which is a lightweight way to represent data as key value pairs.",
+      "words": []
+    },
+    {
+      "start": 70.28,
+      "end": 74.67999999999999,
+      "text": "Third, authentication via API keys or tokens.",
+      "words": []
+    },
+    {
+      "start": 74.67999999999999,
+      "end": 79.4,
+      "text": "You need credentials to prove you're allowed to access the system.",
+      "words": []
+    },
+    {
+      "start": 79.4,
+      "end": 84.0,
+      "text": "Fourth, APIs are documented and versioned.",
+      "words": []
+    },
+    {
+      "start": 84.0,
+      "end": 89.4,
+      "text": "There is a specification that tells you exactly what you can do and how to do it.",
+      "words": []
+    },
+    {
+      "start": 89.4,
+      "end": 92.48,
+      "text": "Let's break down how an API actually works.",
+      "words": []
+    },
+    {
+      "start": 92.48,
+      "end": 98.32000000000001,
+      "text": "The core elements are the end point, which is the URL that identifies the resource.",
+      "words": []
+    },
+    {
+      "start": 98.32000000000001,
+      "end": 103.64000000000001,
+      "text": "The method, which is the action you want to perform, get to read, post to create, put",
+      "words": []
+    },
+    {
+      "start": 103.64,
+      "end": 110.12,
+      "text": "to update, delete, remove the headers, which carry meta data, like authentication tokens",
+      "words": []
+    },
+    {
+      "start": 110.12,
+      "end": 116.28,
+      "text": "and content type, and the body, which is the payload for post or put requests.",
+      "words": []
+    },
+    {
+      "start": 116.28,
+      "end": 117.92,
+      "text": "The cycle goes like this.",
+      "words": []
+    },
+    {
+      "start": 117.92,
+      "end": 121.2,
+      "text": "The client sends a request to a specific endpoint.",
+      "words": []
+    },
+    {
+      "start": 121.2,
+      "end": 124.12,
+      "text": "For example, get slash projects slash one to three.",
+      "words": []
+    },
+    {
+      "start": 124.12,
+      "end": 129.84,
+      "text": "The server processes the requests, accesses its database or logic.",
+      "words": []
+    },
+    {
+      "start": 129.84,
+      "end": 136.76,
+      "text": "And then the server returns a structure response with a status code and the requested data.",
+      "words": []
+    },
+    {
+      "start": 136.76,
+      "end": 141.44,
+      "text": "This is the foundation of how every modern web service works.",
+      "words": []
+    },
+    {
+      "start": 141.44,
+      "end": 144.88,
+      "text": "Your browser does this thousands of times a day.",
+      "words": []
+    },
+    {
+      "start": 144.88,
+      "end": 150.28,
+      "text": "Now here's where things get interesting and where we start to see why MCP exists.",
+      "words": []
+    },
+    {
+      "start": 150.28,
+      "end": 156.24,
+      "text": "APIs are powerful, but they have a fundamental weakness when it comes to AI, the N times",
+      "words": []
+    },
+    {
+      "start": 156.24,
+      "end": 157.52,
+      "text": "M problem.",
+      "words": []
+    },
+    {
+      "start": 157.52,
+      "end": 165.8,
+      "text": "Without a standard, connecting N AI models to M tools requires N times M custom integrations.",
+      "words": []
+    },
+    {
+      "start": 165.8,
+      "end": 171.24,
+      "text": "Each one is built from scratch, maintained independently and it's updating where either",
+      "words": []
+    },
+    {
+      "start": 171.24,
+      "end": 172.76000000000002,
+      "text": "side changes.",
+      "words": []
+    },
+    {
+      "start": 172.76000000000002,
+      "end": 178.04000000000002,
+      "text": "Let's say you have three AI models, Cloud, Charge-PT and Gemini.",
+      "words": []
+    },
+    {
+      "start": 178.04000000000002,
+      "end": 180.52,
+      "text": "And you want to connect them to four tools.",
+      "words": []
+    },
+    {
+      "start": 180.52,
+      "end": 183.32000000000002,
+      "text": "Google Drive, GitHub, Slack and Revit.",
+      "words": []
+    },
+    {
+      "start": 183.32,
+      "end": 188.4,
+      "text": "Class 3 times 4, 12 custom adapters you need to build and maintain.",
+      "words": []
+    },
+    {
+      "start": 188.4,
+      "end": 193.92,
+      "text": "The result is that integration costs grows exponentially, not linearly.",
+      "words": []
+    },
+    {
+      "start": 193.92,
+      "end": 197.35999999999999,
+      "text": "Every new model or tool multiplies the work.",
+      "words": []
+    },
+    {
+      "start": 197.35999999999999,
+      "end": 203.0,
+      "text": "And in a fast moving field like AI, where new models and tools appear every month, this",
+      "words": []
+    },
+    {
+      "start": 203.0,
+      "end": 206.04,
+      "text": "becomes unsustainable very quickly.",
+      "words": []
+    },
+    {
+      "start": 206.04,
+      "end": 208.44,
+      "text": "There is another limitation.",
+      "words": []
+    },
+    {
+      "start": 208.44,
+      "end": 211.44,
+      "text": "Traditional APIs are static by design.",
+      "words": []
+    },
+    {
+      "start": 211.44,
+      "end": 215.24,
+      "text": "Each capability requires a dedicated endpoint.",
+      "words": []
+    },
+    {
+      "start": 215.24,
+      "end": 220.44,
+      "text": "Adding feature means modifying the server and updating all clients.",
+      "words": []
+    },
+    {
+      "start": 220.44,
+      "end": 224.0,
+      "text": "And the client must know in advance what API can do.",
+      "words": []
+    },
+    {
+      "start": 224.0,
+      "end": 226.52,
+      "text": "For traditional software, this is fine.",
+      "words": []
+    },
+    {
+      "start": 226.52,
+      "end": 230.2,
+      "text": "You build an integration once, it works, you move on.",
+      "words": []
+    },
+    {
+      "start": 230.2,
+      "end": 232.32,
+      "text": "But for AI, this is a real problem.",
+      "words": []
+    },
+    {
+      "start": 232.32,
+      "end": 236.6,
+      "text": "The LLM cannot discover new capabilities at runtime.",
+      "words": []
+    },
+    {
+      "start": 236.6,
+      "end": 240.44,
+      "text": "It can only use what was told about upfront.",
+      "words": []
+    },
+    {
+      "start": 240.44,
+      "end": 244.48,
+      "text": "Your tool change requires rewriting, integration code.",
+      "words": []
+    },
+    {
+      "start": 244.48,
+      "end": 248.04,
+      "text": "And there is no flexibility to adapt and forcing use cases.",
+      "words": []
+    },
+    {
+      "start": 248.04,
+      "end": 252.32,
+      "text": "APIs are powerful, for structured, predictable workflows.",
+      "words": []
+    },
+    {
+      "start": 252.32,
+      "end": 256.84,
+      "text": "But they struggle with the dynamic, open-ended nature of AI agents.",
+      "words": []
+    },
+    {
+      "start": 256.84,
+      "end": 263.32,
+      "text": "An AI agent needs to be able to ask what tools are available and then decide which ones",
+      "words": []
+    },
+    {
+      "start": 263.32,
+      "end": 266.28,
+      "text": "to use based on the task at hand.",
+      "words": []
+    },
+    {
+      "start": 266.28,
+      "end": 268.92,
+      "text": "Traditional APIs simply don't support that pattern.",
+      "words": []
+    },
+    {
+      "start": 268.92,
+      "end": 274.64000000000004,
+      "text": "Let me give you three concrete examples of APIs that are relevant to what we're building.",
+      "words": []
+    },
+    {
+      "start": 274.64000000000004,
+      "end": 278.24,
+      "text": "First, Autodesk Platform Services or APS.",
+      "words": []
+    },
+    {
+      "start": 278.24,
+      "end": 283.64000000000004,
+      "text": "This is the API layer that lets you access BIM data, manage files and translate models.",
+      "words": []
+    },
+    {
+      "start": 283.64000000000004,
+      "end": 290.36,
+      "text": "It provides restful endpoints for data management, model derivative and ACC.",
+      "words": []
+    },
+    {
+      "start": 290.36,
+      "end": 295.16,
+      "text": "Second, the LLM provider APIs, OpenAI and Ropec and Gemini.",
+      "words": []
+    },
+    {
+      "start": 295.16,
+      "end": 298.32,
+      "text": "These let you send prompts and receive completions.",
+      "words": []
+    },
+    {
+      "start": 298.32,
+      "end": 303.48,
+      "text": "They use a fixed request format with a model, messages and parameters.",
+      "words": []
+    },
+    {
+      "start": 303.48,
+      "end": 311.04,
+      "text": "Third, the ACC API specifically, which lets you retrieve issues, RFIs and project members",
+      "words": []
+    },
+    {
+      "start": 311.04,
+      "end": 314.32,
+      "text": "and automate workflows across the construction lifecycle.",
+      "words": []
+    },
+    {
+      "start": 314.32,
+      "end": 318.44,
+      "text": "All three of these are well designed, well-documented APIs.",
+      "words": []
+    },
+    {
+      "start": 318.44,
+      "end": 321.52,
+      "text": "But each one requires separate custom integration.",
+      "words": []
+    },
+    {
+      "start": 321.52,
+      "end": 325.52,
+      "text": "If you want an AI agent that can talk to all three, you need to build three different",
+      "words": []
+    },
+    {
+      "start": 325.52,
+      "end": 326.52,
+      "text": "connectors.",
+      "words": []
+    },
+    {
+      "start": 326.52,
+      "end": 332.28,
+      "text": "And all three different authentication flow and manage three different response formats.",
+      "words": []
+    },
+    {
+      "start": 332.28,
+      "end": 337.0,
+      "text": "This is exactly the problem that MCP was designed to solve.",
+      "words": []
+    },
+    {
+      "start": 337.0,
+      "end": 339.88,
+      "text": "So that's the API pillar.",
+      "words": []
+    },
+    {
+      "start": 339.88,
+      "end": 341.91999999999996,
+      "text": "APIs are essential.",
+      "words": []
+    },
+    {
+      "start": 341.91999999999996,
+      "end": 343.59999999999997,
+      "text": "Their how system communicates.",
+      "words": []
+    },
+    {
+      "start": 343.59999999999997,
+      "end": 349.56,
+      "text": "But when it comes to AI, their static nature and the n times m integration problem create",
+      "words": []
+    },
+    {
+      "start": 349.56,
+      "end": 351.03999999999996,
+      "text": "real friction.",
+      "words": []
+    },
+    {
+      "start": 351.03999999999996,
+      "end": 355.28,
+      "text": "Next time, we tackle the fourth and final pillar, MCP.",
+      "words": []
+    },
+    {
+      "start": 355.28,
+      "end": 361.64,
+      "text": "We'll see how the model context protocol creates a universal standard for AI to tool communication",
+      "words": []
+    },
+    {
+      "start": 361.64,
+      "end": 364.91999999999996,
+      "text": "and how it solves every limitation we just discussed.",
+      "words": []
+    },
+    {
+      "start": 364.91999999999996,
+      "end": 368.15999999999997,
+      "text": "Leave your questions in the comment and I'll see you for the next one.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-23T00:04:16.589629+00:00"
+}

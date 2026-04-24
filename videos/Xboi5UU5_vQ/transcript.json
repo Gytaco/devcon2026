@@ -1,0 +1,2071 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.9,
+      "text": "All right, hello everyone.",
+      "words": []
+    },
+    {
+      "start": 3.9,
+      "end": 6.0600000000000005,
+      "text": "My name is Osgar Artech.",
+      "words": []
+    },
+    {
+      "start": 6.0600000000000005,
+      "end": 15.32,
+      "text": "I'm a Product Engineer, Principal Product Engineer with the Arteas Jobim team at the S3.",
+      "words": []
+    },
+    {
+      "start": 15.32,
+      "end": 18.68,
+      "text": "And I'm based in Munich, Germany.",
+      "words": []
+    },
+    {
+      "start": 18.68,
+      "end": 26.88,
+      "text": "And I'm an Urban Planner with a PhD in GIS also.",
+      "words": []
+    },
+    {
+      "start": 26.88,
+      "end": 32.96,
+      "text": "So today, together with Michael, you are going to be hosting this session.",
+      "words": []
+    },
+    {
+      "start": 32.96,
+      "end": 34.48,
+      "text": "And I hope you enjoy it.",
+      "words": []
+    },
+    {
+      "start": 34.48,
+      "end": 38.48,
+      "text": "So, floor is yours, Michael.",
+      "words": []
+    },
+    {
+      "start": 38.48,
+      "end": 40.16,
+      "text": "Thank you, Osgar.",
+      "words": []
+    },
+    {
+      "start": 40.16,
+      "end": 41.72,
+      "text": "And my name is Michael Beale.",
+      "words": []
+    },
+    {
+      "start": 41.72,
+      "end": 48.84,
+      "text": "I am a Principal Developer Advocate for Autodesk on the Autodesk Platform Services team.",
+      "words": []
+    },
+    {
+      "start": 48.84,
+      "end": 53.68,
+      "text": "And I'll be covering the following agenda today between Osgar and I.",
+      "words": []
+    },
+    {
+      "start": 53.68,
+      "end": 57.12,
+      "text": "We'll first introduce the GeoBim Challenge.",
+      "words": []
+    },
+    {
+      "start": 57.12,
+      "end": 61.32,
+      "text": "What are some of the problems that we see in our industry?",
+      "words": []
+    },
+    {
+      "start": 61.32,
+      "end": 63.92,
+      "text": "And then what are some of the things that we offer?",
+      "words": []
+    },
+    {
+      "start": 63.92,
+      "end": 70.6,
+      "text": "So for example, Autodesk offers some platform off the shelf solutions and so does Esri.",
+      "words": []
+    },
+    {
+      "start": 70.6,
+      "end": 73.08,
+      "text": "And how do we bring these two worlds together?",
+      "words": []
+    },
+    {
+      "start": 73.08,
+      "end": 76.76,
+      "text": "I'll introduce briefly the former site design.",
+      "words": []
+    },
+    {
+      "start": 76.76,
+      "end": 82.0,
+      "text": "And Osgar is going to introduce in detail ArcGIS GeoBim.",
+      "words": []
+    },
+    {
+      "start": 82.0,
+      "end": 87.84,
+      "text": "And from there, we'll switch gears from off the shelf solutions from products into platforms",
+      "words": []
+    },
+    {
+      "start": 87.84,
+      "end": 94.08,
+      "text": "and how you, as a developer, can start to look at things like the APS viewer SDK and how",
+      "words": []
+    },
+    {
+      "start": 94.08,
+      "end": 100.4,
+      "text": "that relates to GIS, as well as some experimental things with data exchange SDK and how these",
+      "words": []
+    },
+    {
+      "start": 100.4,
+      "end": 106.24000000000001,
+      "text": "two platforms, the Esri platform and the Autodesk platforms, can be linked together with data",
+      "words": []
+    },
+    {
+      "start": 106.24000000000001,
+      "end": 108.08,
+      "text": "exchange.",
+      "words": []
+    },
+    {
+      "start": 108.08,
+      "end": 111.56,
+      "text": "So let's talk about the first thing, the GeoBim Challenge.",
+      "words": []
+    },
+    {
+      "start": 112.56,
+      "end": 117.92,
+      "text": "So you'll probably be asking yourself, what is this connection between Autodesk and Esri?",
+      "words": []
+    },
+    {
+      "start": 117.92,
+      "end": 121.56,
+      "text": "What's the connection between GIS and AEC?",
+      "words": []
+    },
+    {
+      "start": 121.56,
+      "end": 124.60000000000001,
+      "text": "Well, here's some examples you might come across.",
+      "words": []
+    },
+    {
+      "start": 124.60000000000001,
+      "end": 128.76,
+      "text": "It could be something as simple as site and construction planning.",
+      "words": []
+    },
+    {
+      "start": 128.76,
+      "end": 134.44,
+      "text": "It could be infrastructure coordination with highways or maybe you're dealing with many",
+      "words": []
+    },
+    {
+      "start": 134.44,
+      "end": 140.84,
+      "text": "different assets, university campuses, you know, transformer electrical equipment.",
+      "words": []
+    },
+    {
+      "start": 140.92000000000002,
+      "end": 143.52,
+      "text": "So you've got lots of building assets.",
+      "words": []
+    },
+    {
+      "start": 143.52,
+      "end": 149.24,
+      "text": "And so you need to bring together and manage their facility and asset life cycle.",
+      "words": []
+    },
+    {
+      "start": 149.24,
+      "end": 153.96,
+      "text": "Or maybe you're just trying to aggregate all of this information to try to do some analytics,",
+      "words": []
+    },
+    {
+      "start": 153.96,
+      "end": 160.44,
+      "text": "to produce dashboards that bring together both the GIS data as well as that architectural",
+      "words": []
+    },
+    {
+      "start": 160.44,
+      "end": 162.76,
+      "text": "detailed data.",
+      "words": []
+    },
+    {
+      "start": 162.76,
+      "end": 168.72,
+      "text": "So we ran a workshop at Autodesk.",
+      "words": []
+    },
+    {
+      "start": 168.72,
+      "end": 171.16,
+      "text": "We called this our accelerator program.",
+      "words": []
+    },
+    {
+      "start": 171.16,
+      "end": 177.95999999999998,
+      "text": "And we ran a special accelerator program, especially for Esri and GIS customers.",
+      "words": []
+    },
+    {
+      "start": 177.95999999999998,
+      "end": 183.92,
+      "text": "Common customers that we work in both the AEC space and the GIS space.",
+      "words": []
+    },
+    {
+      "start": 183.92,
+      "end": 189.23999999999998,
+      "text": "And we ran this program where you bring your problem, your proposal for an idea.",
+      "words": []
+    },
+    {
+      "start": 189.24,
+      "end": 194.04000000000002,
+      "text": "And you work together with experts from the Esri engineering team and Autodesk's technical",
+      "words": []
+    },
+    {
+      "start": 194.04000000000002,
+      "end": 195.52,
+      "text": "experts.",
+      "words": []
+    },
+    {
+      "start": 195.52,
+      "end": 198.20000000000002,
+      "text": "And we try to help you build that prototype for the week.",
+      "words": []
+    },
+    {
+      "start": 198.20000000000002,
+      "end": 200.28,
+      "text": "We'll work with three days.",
+      "words": []
+    },
+    {
+      "start": 200.28,
+      "end": 204.32000000000002,
+      "text": "And at the end of it, you get to demo it and have a bit of fun.",
+      "words": []
+    },
+    {
+      "start": 204.32000000000002,
+      "end": 209.24,
+      "text": "And the end result hopefully identifies some of the workflows and business challenges",
+      "words": []
+    },
+    {
+      "start": 209.24,
+      "end": 213.88,
+      "text": "that we see for our joint customers.",
+      "words": []
+    },
+    {
+      "start": 213.88,
+      "end": 215.76000000000002,
+      "text": "So what do we learn?",
+      "words": []
+    },
+    {
+      "start": 215.76,
+      "end": 218.88,
+      "text": "But we discovered the submissing things here.",
+      "words": []
+    },
+    {
+      "start": 218.88,
+      "end": 223.6,
+      "text": "Customers were asking, what existing products exist today that I can use?",
+      "words": []
+    },
+    {
+      "start": 223.6,
+      "end": 225.76,
+      "text": "What are some of the off-the-shelf solutions?",
+      "words": []
+    },
+    {
+      "start": 225.76,
+      "end": 228.39999999999998,
+      "text": "And we're going to cover two of those today.",
+      "words": []
+    },
+    {
+      "start": 228.39999999999998,
+      "end": 236.2,
+      "text": "Another thing was what APIs and SDKs does Esri and Autodesk provide through their services,",
+      "words": []
+    },
+    {
+      "start": 236.2,
+      "end": 242.56,
+      "text": "their cloud services that I can use to start customizing and building my own custom solutions.",
+      "words": []
+    },
+    {
+      "start": 242.56,
+      "end": 247.36,
+      "text": "And some of the other questions were just the basics of how do I clean up my AutoCAD files",
+      "words": []
+    },
+    {
+      "start": 247.36,
+      "end": 252.28,
+      "text": "and civil files and rev it files so that they are correctly aligned when I hand them off",
+      "words": []
+    },
+    {
+      "start": 252.28,
+      "end": 253.68,
+      "text": "to GIS?",
+      "words": []
+    },
+    {
+      "start": 253.68,
+      "end": 258.32,
+      "text": "How do I put maybe a 3D building onto a map?",
+      "words": []
+    },
+    {
+      "start": 258.32,
+      "end": 262.56,
+      "text": "Or how do we just automate my systems across two different platforms?",
+      "words": []
+    },
+    {
+      "start": 262.56,
+      "end": 265.36,
+      "text": "Those were some of those common questions.",
+      "words": []
+    },
+    {
+      "start": 265.36,
+      "end": 271.52,
+      "text": "And ultimately, our two platforms, the Autodesk former platform, as well as Esri's ArcGIS",
+      "words": []
+    },
+    {
+      "start": 271.52,
+      "end": 275.84,
+      "text": "online platform, we're here and we have common shared problems.",
+      "words": []
+    },
+    {
+      "start": 275.84,
+      "end": 281.2,
+      "text": "And we're trying to bring design data from the Autodesk world into Esri, as well as the",
+      "words": []
+    },
+    {
+      "start": 281.2,
+      "end": 288.84,
+      "text": "Esri GIS analytics and GIS information into the Autodesk world.",
+      "words": []
+    },
+    {
+      "start": 288.84,
+      "end": 294.4,
+      "text": "To talk about one of these products that helps this process bringing Esri data into the",
+      "words": []
+    },
+    {
+      "start": 294.4,
+      "end": 298.68,
+      "text": "Autodesk world, I'm going to cover the Autodesk former site design.",
+      "words": []
+    },
+    {
+      "start": 298.68,
+      "end": 303.76,
+      "text": "Just very briefly, there is another talk on this in much more detail you can find on the",
+      "words": []
+    },
+    {
+      "start": 303.76,
+      "end": 305.48,
+      "text": "catalog.",
+      "words": []
+    },
+    {
+      "start": 305.48,
+      "end": 309.76,
+      "text": "So here it is, if you've never seen it before, here it is in action.",
+      "words": []
+    },
+    {
+      "start": 309.76,
+      "end": 314.92,
+      "text": "It's a web-based conceptual design tool.",
+      "words": []
+    },
+    {
+      "start": 314.92,
+      "end": 321.64,
+      "text": "You can install extensions like the ArcGIS for Autodesk former plugin and this will allow",
+      "words": []
+    },
+    {
+      "start": 321.64,
+      "end": 328.08,
+      "text": "you to bring in Esri layers like this is the flood map, for example.",
+      "words": []
+    },
+    {
+      "start": 328.08,
+      "end": 337.59999999999997,
+      "text": "You can bring that into this single scene, bringing together the base maps, other feature",
+      "words": []
+    },
+    {
+      "start": 337.59999999999997,
+      "end": 338.59999999999997,
+      "text": "maps.",
+      "words": []
+    },
+    {
+      "start": 338.59999999999997,
+      "end": 343.68,
+      "text": "And then finally, you can export those or pull those into Autodesk Revit Desktop.",
+      "words": []
+    },
+    {
+      "start": 343.68,
+      "end": 348.96,
+      "text": "And here you can see that data that came from former site design and you've brought that",
+      "words": []
+    },
+    {
+      "start": 348.96,
+      "end": 356.36,
+      "text": "now into the authoring tools like Revit Desktop.",
+      "words": []
+    },
+    {
+      "start": 356.36,
+      "end": 362.28000000000003,
+      "text": "To talk more about the other products that I mentioned, this is from the Esri site,",
+      "words": []
+    },
+    {
+      "start": 362.28000000000003,
+      "end": 366.64,
+      "text": "I'll also get it as going to talk about ArcGIS GeoBim.",
+      "words": []
+    },
+    {
+      "start": 366.64,
+      "end": 373.92,
+      "text": "So ArcGIS GeoBim, it simply connects GIS and BIM.",
+      "words": []
+    },
+    {
+      "start": 373.92,
+      "end": 380.72,
+      "text": "So let's start with a quick demo showing this oldest in action.",
+      "words": []
+    },
+    {
+      "start": 380.72,
+      "end": 386.40000000000003,
+      "text": "In this nice example, in this web application, you're seeing some analysis based on the",
+      "words": []
+    },
+    {
+      "start": 386.40000000000003,
+      "end": 391.20000000000005,
+      "text": "environmental impact for a plant bridge construction area.",
+      "words": []
+    },
+    {
+      "start": 391.20000000000005,
+      "end": 397.88000000000005,
+      "text": "So in ArcGIS GeoBim, you can easily connect to the original BIM document directly from",
+      "words": []
+    },
+    {
+      "start": 397.88000000000005,
+      "end": 400.44000000000005,
+      "text": "the web application.",
+      "words": []
+    },
+    {
+      "start": 400.44000000000005,
+      "end": 405.04,
+      "text": "And on the left hand side, you can interact with the GIS part of it.",
+      "words": []
+    },
+    {
+      "start": 405.04,
+      "end": 409.6,
+      "text": "So simply by connecting it with the context.",
+      "words": []
+    },
+    {
+      "start": 409.6,
+      "end": 415.6,
+      "text": "And not only the Revit models, but also you can connect your PDF files and last button",
+      "words": []
+    },
+    {
+      "start": 415.6,
+      "end": 417.48,
+      "text": "it might not list.",
+      "words": []
+    },
+    {
+      "start": 417.48,
+      "end": 420.8,
+      "text": "You will also have access to your IFC files, even.",
+      "words": []
+    },
+    {
+      "start": 420.8,
+      "end": 427.92,
+      "text": "So we simply ingest them by using some ArcGIS GeoBim capabilities and put them all in",
+      "words": []
+    },
+    {
+      "start": 427.92,
+      "end": 430.32000000000005,
+      "text": "one single application.",
+      "words": []
+    },
+    {
+      "start": 430.32,
+      "end": 435.71999999999997,
+      "text": "So let's dive in to, yeah, first, the definition.",
+      "words": []
+    },
+    {
+      "start": 435.71999999999997,
+      "end": 442.76,
+      "text": "ArcGIS GeoBim, that simply connects GIS and BIM data in a seamless web based experience",
+      "words": []
+    },
+    {
+      "start": 442.76,
+      "end": 449.12,
+      "text": "that helps your organization to manage your projects in the context of the physical",
+      "words": []
+    },
+    {
+      "start": 449.12,
+      "end": 454.12,
+      "text": "nature and natural environment so that you can collaborate and communicate and make",
+      "words": []
+    },
+    {
+      "start": 454.12,
+      "end": 456.56,
+      "text": "smarter decisions in the end.",
+      "words": []
+    },
+    {
+      "start": 456.56,
+      "end": 462.84,
+      "text": "But the question is, of course, how do I access BIM content from Autodesk construction",
+      "words": []
+    },
+    {
+      "start": 462.84,
+      "end": 466.92,
+      "text": "cloud, Autodesk format in GIS?",
+      "words": []
+    },
+    {
+      "start": 466.92,
+      "end": 469.28000000000003,
+      "text": "So ArcGIS GeoBim is the key.",
+      "words": []
+    },
+    {
+      "start": 469.28000000000003,
+      "end": 477.28,
+      "text": "It is a native part of the ArcGIS enterprise and ArcGIS online platforms and allows you to",
+      "words": []
+    },
+    {
+      "start": 477.28,
+      "end": 482.72,
+      "text": "connect to several apps and solutions within GIS within ArcGIS.",
+      "words": []
+    },
+    {
+      "start": 482.72,
+      "end": 489.72,
+      "text": "For instance, for your field operations, field maps, for 3D visualization, scene viewer,",
+      "words": []
+    },
+    {
+      "start": 489.72,
+      "end": 491.76000000000005,
+      "text": "and for the 2D is the map viewer.",
+      "words": []
+    },
+    {
+      "start": 491.76000000000005,
+      "end": 500.88000000000005,
+      "text": "And of course, no code experience builder is the ArcGIS experience builder.",
+      "words": []
+    },
+    {
+      "start": 500.88000000000005,
+      "end": 509.16,
+      "text": "So Michael introduced a couple of challenges already based on some use cases when you",
+      "words": []
+    },
+    {
+      "start": 509.16,
+      "end": 513.96,
+      "text": "think about it, especially from the industry perspective.",
+      "words": []
+    },
+    {
+      "start": 513.96,
+      "end": 520.76,
+      "text": "Here a bit more high-level looking from the technical perspective, for instance, collaboration",
+      "words": []
+    },
+    {
+      "start": 520.76,
+      "end": 521.9200000000001,
+      "text": "issues.",
+      "words": []
+    },
+    {
+      "start": 521.9200000000001,
+      "end": 530.36,
+      "text": "It's simply hard to consolidate data, which are stored in several locations and in cloud",
+      "words": []
+    },
+    {
+      "start": 530.36,
+      "end": 532.0400000000001,
+      "text": "locations.",
+      "words": []
+    },
+    {
+      "start": 532.0400000000001,
+      "end": 538.5600000000001,
+      "text": "Data interoperability is a big challenge, of course, when you have such diverse data storage.",
+      "words": []
+    },
+    {
+      "start": 539.3599999999999,
+      "end": 546.88,
+      "text": "GeoRefrancing is still a big challenge, meaning the model on the right location on the",
+      "words": []
+    },
+    {
+      "start": 546.88,
+      "end": 548.92,
+      "text": "Earth.",
+      "words": []
+    },
+    {
+      "start": 548.92,
+      "end": 550.64,
+      "text": "Data outside the cloud.",
+      "words": []
+    },
+    {
+      "start": 550.64,
+      "end": 558.8,
+      "text": "So once you take your data out of cloud, your central environment, it's simply out of",
+      "words": []
+    },
+    {
+      "start": 558.8,
+      "end": 560.8399999999999,
+      "text": "date, out of sync.",
+      "words": []
+    },
+    {
+      "start": 560.8399999999999,
+      "end": 565.1199999999999,
+      "text": "So it's a big challenge to keep everything in sync.",
+      "words": []
+    },
+    {
+      "start": 565.12,
+      "end": 568.96,
+      "text": "Inverflows, so we experience it almost daily.",
+      "words": []
+    },
+    {
+      "start": 568.96,
+      "end": 575.36,
+      "text": "We have in many locations, siloed workflows, even within a single company, you would just",
+      "words": []
+    },
+    {
+      "start": 575.36,
+      "end": 577.72,
+      "text": "experience that quite often.",
+      "words": []
+    },
+    {
+      "start": 577.72,
+      "end": 584.72,
+      "text": "So simply one department is looking into other GIS solutions, another one is into other",
+      "words": []
+    },
+    {
+      "start": 584.72,
+      "end": 592.08,
+      "text": "beam solutions, and they simply rely on manual workflows to keep their data in sync.",
+      "words": []
+    },
+    {
+      "start": 592.08,
+      "end": 598.72,
+      "text": "But in reality, it's a big challenge and they cannot really keep their data in sync,",
+      "words": []
+    },
+    {
+      "start": 598.72,
+      "end": 600.36,
+      "text": "unfortunately.",
+      "words": []
+    },
+    {
+      "start": 600.36,
+      "end": 601.6800000000001,
+      "text": "So what is the solution?",
+      "words": []
+    },
+    {
+      "start": 601.6800000000001,
+      "end": 605.5600000000001,
+      "text": "So we're looking at all those challenges.",
+      "words": []
+    },
+    {
+      "start": 605.5600000000001,
+      "end": 607.96,
+      "text": "It's our GIS job from our site.",
+      "words": []
+    },
+    {
+      "start": 607.96,
+      "end": 614.6,
+      "text": "So it's simply a cloud-to-cloud integration solution, meaning it allows you to create a",
+      "words": []
+    },
+    {
+      "start": 614.6,
+      "end": 617.6,
+      "text": "cross-platform collaboration.",
+      "words": []
+    },
+    {
+      "start": 617.6,
+      "end": 621.88,
+      "text": "We help you to consolidate your workflows, but not the data.",
+      "words": []
+    },
+    {
+      "start": 621.88,
+      "end": 626.52,
+      "text": "We don't take data from this part to another part of the world.",
+      "words": []
+    },
+    {
+      "start": 626.52,
+      "end": 631.08,
+      "text": "We simply use them where they are.",
+      "words": []
+    },
+    {
+      "start": 631.08,
+      "end": 633.0400000000001,
+      "text": "We give you some tools.",
+      "words": []
+    },
+    {
+      "start": 633.0400000000001,
+      "end": 639.6800000000001,
+      "text": "We just provide you a couple of tools to help you with jolocating and syncing your beam",
+      "words": []
+    },
+    {
+      "start": 639.6800000000001,
+      "end": 643.28,
+      "text": "models and decommence in GIS.",
+      "words": []
+    },
+    {
+      "start": 643.28,
+      "end": 651.36,
+      "text": "So provide you a link to the live versions directly in Autodesk Construction Cloud or in",
+      "words": []
+    },
+    {
+      "start": 651.36,
+      "end": 653.12,
+      "text": "Autodesk Forma.",
+      "words": []
+    },
+    {
+      "start": 653.12,
+      "end": 654.1999999999999,
+      "text": "Web applications.",
+      "words": []
+    },
+    {
+      "start": 654.1999999999999,
+      "end": 662.9599999999999,
+      "text": "So we help, again, with the templates that you can directly use and start already collaborating",
+      "words": []
+    },
+    {
+      "start": 662.9599999999999,
+      "end": 669.72,
+      "text": "with your stakeholders, with other teams within the company, but also to help you to manage",
+      "words": []
+    },
+    {
+      "start": 669.72,
+      "end": 674.84,
+      "text": "your project data and also your issues.",
+      "words": []
+    },
+    {
+      "start": 674.84,
+      "end": 681.0400000000001,
+      "text": "And with the newly introduced Experience Builder Vigids, we help you also to create your",
+      "words": []
+    },
+    {
+      "start": 681.0400000000001,
+      "end": 689.6,
+      "text": "own experiences, like adding your own dashboards, your own tools within the web application.",
+      "words": []
+    },
+    {
+      "start": 689.6,
+      "end": 695.8000000000001,
+      "text": "So let's start with the typical ArcGIS, Jove and workflow.",
+      "words": []
+    },
+    {
+      "start": 695.8,
+      "end": 705.04,
+      "text": "So the key here is, or the key question is, like, how do I see my documents on a map?",
+      "words": []
+    },
+    {
+      "start": 705.04,
+      "end": 709.1999999999999,
+      "text": "Or how do I jolocate my issues on a map?",
+      "words": []
+    },
+    {
+      "start": 709.1999999999999,
+      "end": 718.5999999999999,
+      "text": "Or how do I see, how do I ingest, authenticate sheets, sheets boundaries directly on the map?",
+      "words": []
+    },
+    {
+      "start": 718.5999999999999,
+      "end": 724.0799999999999,
+      "text": "So again, we have dedicated tools for each.",
+      "words": []
+    },
+    {
+      "start": 724.08,
+      "end": 727.6800000000001,
+      "text": "Let's go one by one, at Document Extend.",
+      "words": []
+    },
+    {
+      "start": 727.6800000000001,
+      "end": 733.64,
+      "text": "This is a tool that helps you to create 2D polygons as boundaries, as you may call it also",
+      "words": []
+    },
+    {
+      "start": 733.64,
+      "end": 741.44,
+      "text": "area of interest, and directly takes you to the original model in ACC, again.",
+      "words": []
+    },
+    {
+      "start": 741.44,
+      "end": 746.64,
+      "text": "We have at Document Models as beta feature currently, but it helps you to create simplified",
+      "words": []
+    },
+    {
+      "start": 746.64,
+      "end": 753.4000000000001,
+      "text": "and really high-performance 3D models from your Revit and AFC 3D models.",
+      "words": []
+    },
+    {
+      "start": 753.4,
+      "end": 761.1999999999999,
+      "text": "That project issue helps you to jolocate your issues as point features directly on GIS.",
+      "words": []
+    },
+    {
+      "start": 761.1999999999999,
+      "end": 767.88,
+      "text": "So there are like pinpoints, and you can also create your own GIS issues and sync them",
+      "words": []
+    },
+    {
+      "start": 767.88,
+      "end": 772.04,
+      "text": "back to the desk construction cloud in the end.",
+      "words": []
+    },
+    {
+      "start": 772.04,
+      "end": 779.52,
+      "text": "Project boundaries, it simply creates project boundaries on the map based on the full aggregation",
+      "words": []
+    },
+    {
+      "start": 779.52,
+      "end": 785.8,
+      "text": "of all documents that exist in your project.",
+      "words": []
+    },
+    {
+      "start": 785.8,
+      "end": 790.64,
+      "text": "So these are all the tools that are available.",
+      "words": []
+    },
+    {
+      "start": 790.64,
+      "end": 799.1999999999999,
+      "text": "So when we look at the overall ArcGISG open workflow, like starting from the connection,",
+      "words": []
+    },
+    {
+      "start": 799.1999999999999,
+      "end": 809.16,
+      "text": "simply connecting your Autodesk account with the GIS account, so that we can start with the collaboration.",
+      "words": []
+    },
+    {
+      "start": 809.1999999999999,
+      "end": 817.0,
+      "text": "Sinking the data, the tools that I just introduced, they are the crucial features,",
+      "words": []
+    },
+    {
+      "start": 817.0,
+      "end": 820.4399999999999,
+      "text": "crucial elements of your overall project.",
+      "words": []
+    },
+    {
+      "start": 820.4399999999999,
+      "end": 827.56,
+      "text": "It simply helps you to take the data or simply link the data and put them in GIS.",
+      "words": []
+    },
+    {
+      "start": 827.56,
+      "end": 836.8,
+      "text": "Your maps and your links to those sources in ACC, all happen at the features",
+      "words": []
+    },
+    {
+      "start": 836.8,
+      "end": 844.56,
+      "text": "of your SoCold Future Service level and put all of them on the maps and web scenes.",
+      "words": []
+    },
+    {
+      "start": 844.56,
+      "end": 850.3199999999999,
+      "text": "So we help you to configure all your experience already at the maps level.",
+      "words": []
+    },
+    {
+      "start": 850.3199999999999,
+      "end": 855.3599999999999,
+      "text": "So you can change the cartography, you can change the color and put some styling on top.",
+      "words": []
+    },
+    {
+      "start": 855.3599999999999,
+      "end": 863.0,
+      "text": "In the end, you are ready to engage with your stakeholders with the help of built-in templates",
+      "words": []
+    },
+    {
+      "start": 863.0,
+      "end": 865.68,
+      "text": "or customizable web apps.",
+      "words": []
+    },
+    {
+      "start": 865.68,
+      "end": 872.48,
+      "text": "Again, you can also use experience builder here, ArcGIS Experience Builder.",
+      "words": []
+    },
+    {
+      "start": 872.48,
+      "end": 883.24,
+      "text": "So another useful example here, a screen demo showing you some other capabilities",
+      "words": []
+    },
+    {
+      "start": 883.24,
+      "end": 884.76,
+      "text": "in ArcGIS Jubim app.",
+      "words": []
+    },
+    {
+      "start": 884.76,
+      "end": 889.6,
+      "text": "So in this example, we are now looking at a quite close location,",
+      "words": []
+    },
+    {
+      "start": 889.6,
+      "end": 896.16,
+      "text": "this time with the new water facility, which is going to be built in near future",
+      "words": []
+    },
+    {
+      "start": 896.16,
+      "end": 898.32,
+      "text": "and still in the planning process.",
+      "words": []
+    },
+    {
+      "start": 898.32,
+      "end": 904.88,
+      "text": "And by synchronizing this information from Autodesk directly in GIS,",
+      "words": []
+    },
+    {
+      "start": 904.88,
+      "end": 914.32,
+      "text": "I'm able to see, I'm able to visualize this performance, simplified representation of the original model.",
+      "words": []
+    },
+    {
+      "start": 914.32,
+      "end": 919.52,
+      "text": "We are not only generating the exterior shell, but also you can interact with the interior.",
+      "words": []
+    },
+    {
+      "start": 920.0,
+      "end": 927.1999999999999,
+      "text": "By using some useful tools already in the ArcGIS Jubim app application template.",
+      "words": []
+    },
+    {
+      "start": 927.1999999999999,
+      "end": 929.4399999999999,
+      "text": "Of course, we are now in GIS.",
+      "words": []
+    },
+    {
+      "start": 929.4399999999999,
+      "end": 931.3199999999999,
+      "text": "We provide you the context.",
+      "words": []
+    },
+    {
+      "start": 931.3199999999999,
+      "end": 937.28,
+      "text": "With that, you can simply use, for instance, this, again, this out-of-the-box line of site analysis",
+      "words": []
+    },
+    {
+      "start": 937.28,
+      "end": 946.56,
+      "text": "to see how this new building is going to affect the area and how it's going to interact with the surrounding.",
+      "words": []
+    },
+    {
+      "start": 946.56,
+      "end": 953.52,
+      "text": "So all this contextual information from the surrounding is coming from, for instance, from ArcGIS,",
+      "words": []
+    },
+    {
+      "start": 954.3199999999999,
+      "end": 956.16,
+      "text": "basement, 3D basements.",
+      "words": []
+    },
+    {
+      "start": 956.16,
+      "end": 964.0,
+      "text": "So these are all capabilities that you can use already today by simply clicking a couple of tools",
+      "words": []
+    },
+    {
+      "start": 964.0,
+      "end": 970.16,
+      "text": "and probably just ending up with this, easy to use web application.",
+      "words": []
+    },
+    {
+      "start": 970.7199999999999,
+      "end": 974.9599999999999,
+      "text": "So, again, another key question.",
+      "words": []
+    },
+    {
+      "start": 974.9599999999999,
+      "end": 981.36,
+      "text": "How did I get this 2D and 3D boundaries on the map?",
+      "words": []
+    },
+    {
+      "start": 981.36,
+      "end": 985.6,
+      "text": "And at the right location on the map, this is the key question there.",
+      "words": []
+    },
+    {
+      "start": 985.6,
+      "end": 994.9599999999999,
+      "text": "So, as an example, at document extents, so this is where we synchronize 3D models as 2D",
+      "words": []
+    },
+    {
+      "start": 995.0400000000001,
+      "end": 996.96,
+      "text": "bounding boxes, for instance.",
+      "words": []
+    },
+    {
+      "start": 996.96,
+      "end": 1003.9200000000001,
+      "text": "We simply go to your repository, have a look at your data, list them, and process them.",
+      "words": []
+    },
+    {
+      "start": 1004.5600000000001,
+      "end": 1013.2,
+      "text": "So we, of course, we leverage some Autodesk APIs, many GIS APIs, but from Autodesk site,",
+      "words": []
+    },
+    {
+      "start": 1013.2,
+      "end": 1017.2,
+      "text": "Automation API, for instance, helps us to jolocate them.",
+      "words": []
+    },
+    {
+      "start": 1017.2,
+      "end": 1024.32,
+      "text": "And on our end, we simply further process them as future services.",
+      "words": []
+    },
+    {
+      "start": 1024.56,
+      "end": 1030.8,
+      "text": "And having a future service for your data also allows you to customize your experience.",
+      "words": []
+    },
+    {
+      "start": 1030.8,
+      "end": 1035.36,
+      "text": "You can enrich this data with additional information also in GIS.",
+      "words": []
+    },
+    {
+      "start": 1036.1599999999999,
+      "end": 1044.1599999999999,
+      "text": "But overall, we simply look at the bounding box of this georeference model and put it on the map.",
+      "words": []
+    },
+    {
+      "start": 1044.1599999999999,
+      "end": 1047.4399999999998,
+      "text": "Of course, the original link, as you have seen already in the demo,",
+      "words": []
+    },
+    {
+      "start": 1048.4,
+      "end": 1054.4,
+      "text": "you can always connect to the original model back in Autodesk world.",
+      "words": []
+    },
+    {
+      "start": 1056.24,
+      "end": 1064.64,
+      "text": "At document models, so another useful future, which actually helps you to jolocate your 3D models,",
+      "words": []
+    },
+    {
+      "start": 1065.3600000000001,
+      "end": 1068.96,
+      "text": "as a simplified, as a 3D simplified representation.",
+      "words": []
+    },
+    {
+      "start": 1068.96,
+      "end": 1074.24,
+      "text": "So we don't copy the model or download and put it on the map,",
+      "words": []
+    },
+    {
+      "start": 1074.32,
+      "end": 1078.24,
+      "text": "but we simply create a simplified, very performant,",
+      "words": []
+    },
+    {
+      "start": 1079.92,
+      "end": 1083.76,
+      "text": "easy to manage 3D content for you.",
+      "words": []
+    },
+    {
+      "start": 1084.32,
+      "end": 1091.44,
+      "text": "So what happens there is we simply create a 3D object future layer, so-called the service in",
+      "words": []
+    },
+    {
+      "start": 1092.08,
+      "end": 1094.8,
+      "text": "GIS with the proper coordinate system.",
+      "words": []
+    },
+    {
+      "start": 1095.52,
+      "end": 1102.0,
+      "text": "We create a project web scene already for you, and georeference 2D and 3D features right away.",
+      "words": []
+    },
+    {
+      "start": 1102.56,
+      "end": 1110.48,
+      "text": "And finalize the web scene and add this artifact, the web scene, already to your GeoVin project,",
+      "words": []
+    },
+    {
+      "start": 1110.48,
+      "end": 1115.6,
+      "text": "so that you can create your web applications out of it.",
+      "words": []
+    },
+    {
+      "start": 1115.6,
+      "end": 1122.24,
+      "text": "So what happens then, on the Autodesk site, of course, we leverage Automation API, for instance,",
+      "words": []
+    },
+    {
+      "start": 1122.24,
+      "end": 1130.48,
+      "text": "data management API to process all those valuable content coming from the Autodesk.",
+      "words": []
+    },
+    {
+      "start": 1131.04,
+      "end": 1133.6,
+      "text": "And put them back on the map.",
+      "words": []
+    },
+    {
+      "start": 1134.4,
+      "end": 1139.6,
+      "text": "And they are again connected to the original source.",
+      "words": []
+    },
+    {
+      "start": 1140.24,
+      "end": 1148.96,
+      "text": "Yeah, with that, I'm coming to the end of my session and giving back the floor to Michael.",
+      "words": []
+    },
+    {
+      "start": 1148.96,
+      "end": 1153.76,
+      "text": "Thanks, Osko. Well, that's a really great insight into one of the products",
+      "words": []
+    },
+    {
+      "start": 1154.4,
+      "end": 1157.3600000000001,
+      "text": "from Ezri that helps bridge these two worlds together.",
+      "words": []
+    },
+    {
+      "start": 1158.24,
+      "end": 1162.3999999999999,
+      "text": "And now let's switch from these products into platforms.",
+      "words": []
+    },
+    {
+      "start": 1163.12,
+      "end": 1164.3999999999999,
+      "text": "And why would we do that?",
+      "words": []
+    },
+    {
+      "start": 1164.7199999999998,
+      "end": 1170.8,
+      "text": "Well, with consumer solutions, with out of the box products, you get that out of box experience.",
+      "words": []
+    },
+    {
+      "start": 1170.8,
+      "end": 1172.0,
+      "text": "It's easy to pick up.",
+      "words": []
+    },
+    {
+      "start": 1172.6399999999999,
+      "end": 1174.8,
+      "text": "And it solves those use cases immediately.",
+      "words": []
+    },
+    {
+      "start": 1175.52,
+      "end": 1179.12,
+      "text": "But sometimes you need to customize things and you need something that's a little bit more",
+      "words": []
+    },
+    {
+      "start": 1179.12,
+      "end": 1183.76,
+      "text": "specialized. And that's where you want to be able to extend the capabilities of these two",
+      "words": []
+    },
+    {
+      "start": 1183.76,
+      "end": 1189.92,
+      "text": "platforms. And that's where the developer platforms come in. How do you create these custom",
+      "words": []
+    },
+    {
+      "start": 1189.92,
+      "end": 1199.44,
+      "text": "solutions using APIs and SDKs? I'm going to cover two of those APIs and SDKs. The first one is the",
+      "words": []
+    },
+    {
+      "start": 1199.44,
+      "end": 1205.92,
+      "text": "viewer SDK. You can scan this QR code to find out the details. The viewer SDK from Autodesk's",
+      "words": []
+    },
+    {
+      "start": 1205.92,
+      "end": 1214.4,
+      "text": "platform services is our hero web-based 3D engine. It's based on 3JS R71. So it's a slightly",
+      "words": []
+    },
+    {
+      "start": 1214.4,
+      "end": 1221.44,
+      "text": "old version. But it allows us to render really large models such as that engine with progressive",
+      "words": []
+    },
+    {
+      "start": 1221.44,
+      "end": 1227.2,
+      "text": "rendering, as well as architectural models like this one. And also, Navisworks models that are",
+      "words": []
+    },
+    {
+      "start": 1227.2,
+      "end": 1235.76,
+      "text": "really large. These 3D models are also connected to 2D sheets like this. So a door that you see in",
+      "words": []
+    },
+    {
+      "start": 1235.76,
+      "end": 1244.0800000000002,
+      "text": "3D has an ID that's connected to the same door that appears on the sheet in 2D. Now, the viewer SDK",
+      "words": []
+    },
+    {
+      "start": 1244.0800000000002,
+      "end": 1251.92,
+      "text": "is also customizable. And a little while ago, I wrote a blog post on how you can extend the viewer",
+      "words": []
+    },
+    {
+      "start": 1252.72,
+      "end": 1260.72,
+      "text": "SDK using the 3JS scene layer and connect it with a library called GO3JS. And that allowed you to",
+      "words": []
+    },
+    {
+      "start": 1260.72,
+      "end": 1267.44,
+      "text": "put a map underneath the viewer. But to get started on this, to get started with the viewer SDK,",
+      "words": []
+    },
+    {
+      "start": 1267.44,
+      "end": 1272.72,
+      "text": "I thought I'd just quickly show you a very fast way to do this with now with the help of AI.",
+      "words": []
+    },
+    {
+      "start": 1272.72,
+      "end": 1278.0800000000002,
+      "text": "You can vibe code a really simple solution in just a few minutes. So what I'm going to quickly do",
+      "words": []
+    },
+    {
+      "start": 1278.08,
+      "end": 1284.96,
+      "text": "is just make sure you can see my desktop screen. And I'm just going to show you how quick and",
+      "words": []
+    },
+    {
+      "start": 1284.96,
+      "end": 1292.08,
+      "text": "easy it is to get started. Go to the blog post here, vibe coding for the viewer. And you're pretty",
+      "words": []
+    },
+    {
+      "start": 1292.08,
+      "end": 1300.6399999999999,
+      "text": "much just going to copy and paste this into this prompt into AI. It's going to create some endpoints",
+      "words": []
+    },
+    {
+      "start": 1300.6399999999999,
+      "end": 1306.56,
+      "text": "to retrieve an access token and a list of 3D models that we've preloaded.",
+      "words": []
+    },
+    {
+      "start": 1308.8799999999999,
+      "end": 1316.6399999999999,
+      "text": "And you'll see that a P here. I can quickly test this. So this is just like Postman. I can click",
+      "words": []
+    },
+    {
+      "start": 1316.6399999999999,
+      "end": 1322.0,
+      "text": "on the get request, provides me the access token. I can click on the get list of models, provides me",
+      "words": []
+    },
+    {
+      "start": 1322.0,
+      "end": 1327.6,
+      "text": "that. And then the second thing is I'm going to make it actually generate an entire web page demo.",
+      "words": []
+    },
+    {
+      "start": 1328.1599999999999,
+      "end": 1334.32,
+      "text": "So this is going to create an index page with the APS viewer. It's going to have a navigation bar,",
+      "words": []
+    },
+    {
+      "start": 1334.96,
+      "end": 1340.24,
+      "text": "a combo box to select a model. And everything I need to pretty much just get me started.",
+      "words": []
+    },
+    {
+      "start": 1341.36,
+      "end": 1345.76,
+      "text": "This is what it looks like in the end. This is the final result. So you've got the",
+      "words": []
+    },
+    {
+      "start": 1347.4399999999998,
+      "end": 1354.08,
+      "text": "app.js file, the index.js file. And you can see it running over here. This is the final result.",
+      "words": []
+    },
+    {
+      "start": 1354.08,
+      "end": 1360.32,
+      "text": "It comes up with this nice web page. We can select a model. Look at a 3D model like this one,",
+      "words": []
+    },
+    {
+      "start": 1360.32,
+      "end": 1365.9199999999998,
+      "text": "a revert model. You can do some basic customizations. If you open up the debug console,",
+      "words": []
+    },
+    {
+      "start": 1365.9199999999998,
+      "end": 1372.56,
+      "text": "you can do things like, say, if I want to say get selection of objects that I'm selecting on.",
+      "words": []
+    },
+    {
+      "start": 1373.9199999999998,
+      "end": 1378.8,
+      "text": "Just do that really quickly. And it returns me back a list of IDs. So for example,",
+      "words": []
+    },
+    {
+      "start": 1378.8,
+      "end": 1387.04,
+      "text": "I maybe I want to customize things like hide those objects. So now I can kind of see inside",
+      "words": []
+    },
+    {
+      "start": 1387.68,
+      "end": 1394.08,
+      "text": "inside the building. Lots of other features as well. I can isolate",
+      "words": []
+    },
+    {
+      "start": 1396.48,
+      "end": 1402.8799999999999,
+      "text": "with that value. And let's do that.",
+      "words": []
+    },
+    {
+      "start": 1402.88,
+      "end": 1425.68,
+      "text": "I did not like that. We're just going to get out of here. I think you can do the isolate feature",
+      "words": []
+    },
+    {
+      "start": 1425.68,
+      "end": 1434.8,
+      "text": "and just continue on. Let's keep going with the presentation. So let's just give you a quick",
+      "words": []
+    },
+    {
+      "start": 1434.8,
+      "end": 1443.04,
+      "text": "rundown of 3.js and our viewer SDK and how you can quickly get started with some vibe coding.",
+      "words": []
+    },
+    {
+      "start": 1444.24,
+      "end": 1450.0,
+      "text": "Again, the GO3 library was something we did a while ago. It puts the base maps underneath the",
+      "words": []
+    },
+    {
+      "start": 1450.0,
+      "end": 1456.48,
+      "text": "viewer using GO3. And then more recently last year during the Denver accelerator, we extended that",
+      "words": []
+    },
+    {
+      "start": 1457.04,
+      "end": 1463.92,
+      "text": "GO3 library to include Esri base maps as well as Esri terrain. So you can see here on the right",
+      "words": []
+    },
+    {
+      "start": 1463.92,
+      "end": 1470.8,
+      "text": "hand side, I'm zooming into Mount Fuji. We also added some neat tools to make sure you could",
+      "words": []
+    },
+    {
+      "start": 1470.8,
+      "end": 1477.12,
+      "text": "hit test the terrain with the 3D model and do things like mark up and measure to be able to",
+      "words": []
+    },
+    {
+      "start": 1477.12,
+      "end": 1482.8,
+      "text": "see measure a path or a distance as well as adding additional features which you can see on the",
+      "words": []
+    },
+    {
+      "start": 1482.8,
+      "end": 1489.1999999999998,
+      "text": "left here for doing things like alignment tools to be able to take a model, 3D model, move it into",
+      "words": []
+    },
+    {
+      "start": 1489.1999999999998,
+      "end": 1498.3999999999999,
+      "text": "position by rotation, scale and transform. So yeah, it was a fun exercise. It's pretty advanced",
+      "words": []
+    },
+    {
+      "start": 1498.3999999999999,
+      "end": 1502.1599999999999,
+      "text": "and not something I can cover in a whole lot of detail, but it just gives you a quick overview",
+      "words": []
+    },
+    {
+      "start": 1502.96,
+      "end": 1508.0800000000002,
+      "text": "check out the source code in the blog post. Now that was part one. There was an update",
+      "words": []
+    },
+    {
+      "start": 1508.8000000000002,
+      "end": 1512.5600000000002,
+      "text": "and I'm working on that quite recently to show you how you can also do this with",
+      "words": []
+    },
+    {
+      "start": 1513.52,
+      "end": 1521.44,
+      "text": "map Libra for ArcGIS JavaScript. That combines map Libra. It's sort of an open source 3D engine for",
+      "words": []
+    },
+    {
+      "start": 1521.44,
+      "end": 1526.96,
+      "text": "mapping with Esri feature layers and Esri map vector tiles and buildings like this",
+      "words": []
+    },
+    {
+      "start": 1527.92,
+      "end": 1533.28,
+      "text": "as well as combining it with the APS viewer so you can see the best of both worlds.",
+      "words": []
+    },
+    {
+      "start": 1534.0,
+      "end": 1542.4,
+      "text": "Scan the QR code to keep track of this one. As you can see it covers all the distance of the world,",
+      "words": []
+    },
+    {
+      "start": 1542.4,
+      "end": 1549.76,
+      "text": "the precision and scale of the world all the way down to the 3D building. The second SDK I wanted",
+      "words": []
+    },
+    {
+      "start": 1549.76,
+      "end": 1557.52,
+      "text": "to cover is the APS Data Exchange SDK. Now this was a prototype to explore what it would be like",
+      "words": []
+    },
+    {
+      "start": 1557.52,
+      "end": 1564.4,
+      "text": "if Autodesk Data Exchange connector for Esri existed. So you can find out more details on the",
+      "words": []
+    },
+    {
+      "start": 1564.4,
+      "end": 1572.32,
+      "text": "Data Exchange roadmap here, scanning this QR code. So we explored the idea of what would that",
+      "words": []
+    },
+    {
+      "start": 1572.32,
+      "end": 1580.0,
+      "text": "look like. Data Exchange is a pinwheel architecture. You essentially provide a connector into the",
+      "words": []
+    },
+    {
+      "start": 1580.0,
+      "end": 1587.12,
+      "text": "Data Exchange and that opens up a larger ecosystem. Instead of working with files and folders of",
+      "words": []
+    },
+    {
+      "start": 1587.12,
+      "end": 1595.4399999999998,
+      "text": "Revit files for example, instead the 3D models and data are broken down into a graph-like structure",
+      "words": []
+    },
+    {
+      "start": 1595.4399999999998,
+      "end": 1601.52,
+      "text": "and that it's both read and writable so you can exchange fine bits of information in a granular",
+      "words": []
+    },
+    {
+      "start": 1601.52,
+      "end": 1607.92,
+      "text": "form in near real time. And you can connect multiple things together like Revit Desktop with",
+      "words": []
+    },
+    {
+      "start": 1607.92,
+      "end": 1615.76,
+      "text": "ACC now a former or with AutoCAD and now with this new connector we're playing around with with",
+      "words": []
+    },
+    {
+      "start": 1615.76,
+      "end": 1622.4,
+      "text": "ArcGIS through with GeoBim. One of the things you can do with this is you can aggregate all of that",
+      "words": []
+    },
+    {
+      "start": 1622.4,
+      "end": 1628.8799999999999,
+      "text": "data and information into something like a Power BI report. So including Revit, ACC, ArcGIS,",
+      "words": []
+    },
+    {
+      "start": 1628.88,
+      "end": 1633.7600000000002,
+      "text": "AutoCAD and combine that information into a single report using the Data Exchange SDK.",
+      "words": []
+    },
+    {
+      "start": 1635.1200000000001,
+      "end": 1642.72,
+      "text": "So I explored the prototyping this concept. How can I bring some of that Esri data into the Data",
+      "words": []
+    },
+    {
+      "start": 1642.72,
+      "end": 1649.1200000000001,
+      "text": "Exchange? You can find a sample and source code for this on the blog post. Essentially I was",
+      "words": []
+    },
+    {
+      "start": 1649.1200000000001,
+      "end": 1655.6000000000001,
+      "text": "taking the Esri look terrain system along with contour information, GeoReference points of interest",
+      "words": []
+    },
+    {
+      "start": 1656.56,
+      "end": 1663.6,
+      "text": "and bringing that into the Data Exchange which was then combined with our Revit scene.",
+      "words": []
+    },
+    {
+      "start": 1664.48,
+      "end": 1670.48,
+      "text": "Now one of the things about the Data Exchange SDK is it's a little bit more powerful than the",
+      "words": []
+    },
+    {
+      "start": 1670.48,
+      "end": 1676.6399999999999,
+      "text": "GraphQL API. It's a little bit more it's tricky to work with as well but it comes with some",
+      "words": []
+    },
+    {
+      "start": 1676.6399999999999,
+      "end": 1681.9199999999998,
+      "text": "really big advantages. The first one is that lets you create custom geometry. So for that terrain",
+      "words": []
+    },
+    {
+      "start": 1682.0,
+      "end": 1687.2,
+      "text": "information, the contour maps and the 3D pushpins, that was all done through custom geometry.",
+      "words": []
+    },
+    {
+      "start": 1687.76,
+      "end": 1693.52,
+      "text": "I can also create an empty exchange. From GraphQL that's not possible. You have to create it from",
+      "words": []
+    },
+    {
+      "start": 1693.52,
+      "end": 1701.3600000000001,
+      "text": "an existing system like Revit or AEC data model but with the SDK you can really get down to the weeds",
+      "words": []
+    },
+    {
+      "start": 1701.3600000000001,
+      "end": 1708.0,
+      "text": "and create custom geometry, create an empty exchange and then build these really powerful",
+      "words": []
+    },
+    {
+      "start": 1708.08,
+      "end": 1713.6,
+      "text": "integrations with these other connectors with other systems. You can go beyond those basic",
+      "words": []
+    },
+    {
+      "start": 1714.64,
+      "end": 1721.28,
+      "text": "UI workflows that are from our off-the-shelf solutions. What are the prototype actually do?",
+      "words": []
+    },
+    {
+      "start": 1722.0,
+      "end": 1730.48,
+      "text": "It starts with RTS online, Esri RTS online at the top where we can see and create a whole lot",
+      "words": []
+    },
+    {
+      "start": 1730.48,
+      "end": 1737.92,
+      "text": "of points of interest features. From there the data gets pulled into Data Exchange and then",
+      "words": []
+    },
+    {
+      "start": 1737.92,
+      "end": 1747.44,
+      "text": "we go and create terrain information, building information, the I3S layer as well as contour maps",
+      "words": []
+    },
+    {
+      "start": 1747.44,
+      "end": 1755.44,
+      "text": "and pushpins. Now once it's pulled into Data Exchange we can now visualize that in ACC docs or",
+      "words": []
+    },
+    {
+      "start": 1755.44,
+      "end": 1762.88,
+      "text": "former docs as well as design collaboration and model coordination. Here I'm opening up that",
+      "words": []
+    },
+    {
+      "start": 1762.96,
+      "end": 1771.5200000000002,
+      "text": "Data Exchange from Esri and I'm combining it with the Revit Snowden Tower all inside of browser",
+      "words": []
+    },
+    {
+      "start": 1771.5200000000002,
+      "end": 1779.2,
+      "text": "using as a model coordination. With model coordination I can rotate things and align things",
+      "words": []
+    },
+    {
+      "start": 1779.8400000000001,
+      "end": 1786.3200000000002,
+      "text": "in this manual way rather than automatically and you can see I'm combining that Esri World",
+      "words": []
+    },
+    {
+      "start": 1786.3200000000002,
+      "end": 1792.4,
+      "text": "with the coordination world from Revit. Now that's in the browser but what about on the desktop?",
+      "words": []
+    },
+    {
+      "start": 1793.0400000000002,
+      "end": 1798.64,
+      "text": "Well Data Exchange also has a connector for Revit desktop and here I am pulling in that same",
+      "words": []
+    },
+    {
+      "start": 1798.64,
+      "end": 1806.24,
+      "text": "Data Exchange and I'm pulling that into Revit desktop. I've got those Esri 3D buildings, I've got the",
+      "words": []
+    },
+    {
+      "start": 1807.44,
+      "end": 1815.0400000000002,
+      "text": "terrain system contour maps and now I'm re-aligning my Snowden Tower into the scene in Pennsylvania.",
+      "words": []
+    },
+    {
+      "start": 1815.12,
+      "end": 1824.24,
+      "text": "What was going on with that Data Exchange blob? It contains a whole lot of information,",
+      "words": []
+    },
+    {
+      "start": 1824.8799999999999,
+      "end": 1830.08,
+      "text": "stateful objects, comments, status, points of interest, it's got semantic information,",
+      "words": []
+    },
+    {
+      "start": 1830.08,
+      "end": 1835.2,
+      "text": "the Revit categories, the elements as well as spatial data. I can put in custom data like the",
+      "words": []
+    },
+    {
+      "start": 1835.2,
+      "end": 1841.04,
+      "text": "coordinate systems, transforms, origin information and location information from Esri.",
+      "words": []
+    },
+    {
+      "start": 1841.6,
+      "end": 1846.8799999999999,
+      "text": "And then the last one obviously is that geometry. I can put in triangle measures as well as polylines.",
+      "words": []
+    },
+    {
+      "start": 1848.6399999999999,
+      "end": 1853.76,
+      "text": "You can find out the source code for this, for the looked decompression for the Esri terrain,",
+      "words": []
+    },
+    {
+      "start": 1853.76,
+      "end": 1857.52,
+      "text": "as well as the I3S layer for the buildings in the source code examples.",
+      "words": []
+    },
+    {
+      "start": 1859.92,
+      "end": 1866.56,
+      "text": "Now this is just the first part which is getting the things set up but what about",
+      "words": []
+    },
+    {
+      "start": 1867.28,
+      "end": 1872.24,
+      "text": "making a delta change? What happens when somebody makes a change to see a feature layer,",
+      "words": []
+    },
+    {
+      "start": 1872.24,
+      "end": 1878.8799999999999,
+      "text": "the points of interest? Somebody adds a new push pin. Data Exchange because it is a fine grain",
+      "words": []
+    },
+    {
+      "start": 1878.8799999999999,
+      "end": 1884.1599999999999,
+      "text": "system, it allows for these small fine grain changes to propagate to other systems.",
+      "words": []
+    },
+    {
+      "start": 1884.1599999999999,
+      "end": 1888.6399999999999,
+      "text": "So let's see what that looks like in action. Here I've got a point of interest right next to",
+      "words": []
+    },
+    {
+      "start": 1888.6399999999999,
+      "end": 1896.08,
+      "text": "Snowden Tower and I update that label called Feature Update. That triggers my Azure function.",
+      "words": []
+    },
+    {
+      "start": 1896.8,
+      "end": 1903.6,
+      "text": "Which then updates the data exchange blob and I can now see a version 3 appear in the Esri layer.",
+      "words": []
+    },
+    {
+      "start": 1905.36,
+      "end": 1910.96,
+      "text": "And let's double check that that looks correct. If I open up the model browser panel,",
+      "words": []
+    },
+    {
+      "start": 1910.96,
+      "end": 1917.9199999999998,
+      "text": "I can see that the points of interest show my feature one update. So it is synchronizing and",
+      "words": []
+    },
+    {
+      "start": 1917.9199999999998,
+      "end": 1926.3999999999999,
+      "text": "updating that data through the data exchange. So to wrap things up, you've seen some core",
+      "words": []
+    },
+    {
+      "start": 1926.48,
+      "end": 1934.64,
+      "text": "integrations between our two platforms. Autodesk Forma and Esri RTS. You've seen how you can",
+      "words": []
+    },
+    {
+      "start": 1934.64,
+      "end": 1940.72,
+      "text": "extend these off-the-shelf solutions, these two products, GeoBim and Site Design.",
+      "words": []
+    },
+    {
+      "start": 1941.6000000000001,
+      "end": 1947.3600000000001,
+      "text": "And you've seen how you can use Esri and Autodesk SDKs and APIs to extend the platforms",
+      "words": []
+    },
+    {
+      "start": 1948.16,
+      "end": 1953.92,
+      "text": "beyond those basic products with examples like data exchange SDK and the viewer SDK.",
+      "words": []
+    },
+    {
+      "start": 1954.72,
+      "end": 1961.76,
+      "text": "And not to mention that now we've got new AI developer tools that you should check out",
+      "words": []
+    },
+    {
+      "start": 1961.76,
+      "end": 1966.24,
+      "text": "that really speed up the development of these complex applications. Whether you're coding for",
+      "words": []
+    },
+    {
+      "start": 1966.24,
+      "end": 1972.8000000000002,
+      "text": "the viewer SDK and the complexity in that or you're just lowering the barrier of entry to get involved",
+      "words": []
+    },
+    {
+      "start": 1972.8000000000002,
+      "end": 1978.72,
+      "text": "with the data exchange SDK. There's new AI tools that can help you do that.",
+      "words": []
+    },
+    {
+      "start": 1978.8,
+      "end": 1985.52,
+      "text": "So to keep things going, keep the conversation going. You can find out more details through these links.",
+      "words": []
+    },
+    {
+      "start": 1985.52,
+      "end": 1992.32,
+      "text": "Just scan the QR code from the Autodesk side and from the Esri side. You can scan these QR",
+      "words": []
+    },
+    {
+      "start": 1992.32,
+      "end": 1998.24,
+      "text": "codes to learn more, find out some of the resources for GeoBim and also get engaged with the Esri",
+      "words": []
+    },
+    {
+      "start": 1998.24,
+      "end": 2002.88,
+      "text": "community. Thank you. Thank you.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:04:38.341293+00:00"
+}

@@ -1,0 +1,69 @@
+{
+  "video_id": "YTCUIUzaGns",
+  "demo_timestamps": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "description": "Presentation of workflow for Sydney Opera House facade automation"
+    },
+    {
+      "start": 0.18,
+      "end": 0.32,
+      "description": "Connection with Revit App and computational design solution"
+    },
+    {
+      "start": 3.1,
+      "end": 5.1,
+      "description": "Two approaches for panelizing Sydney Opera House using computational design"
+    },
+    {
+      "start": 18.37,
+      "end": 21.29,
+      "description": "Demonstration of full process including Revit and Rhinoceros workflows"
+    },
+    {
+      "start": 1254.0,
+      "end": 1273.0,
+      "description": "Demonstrating how to filter fabricated panels and view elevations using ACC and cura application"
+    },
+    {
+      "start": 1273.0,
+      "end": 1295.0,
+      "description": "Showing the outputs of workflows in PDF and Excel formats, tracking panels and providing views of different levels and sections"
+    }
+  ],
+  "themes": [
+    "Automating architectural workflows",
+    "Computational design and optimization",
+    "Integration of Revit and Rhinoceros for design",
+    "Automating Facade Workflows"
+  ],
+  "client_mentions": [
+    {
+      "name": "4G Architecture",
+      "context": "Company providing architectural solutions",
+      "timestamp": 0.08
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 0.18
+    },
+    {
+      "name": "APS",
+      "is_api": false,
+      "timestamp": 18.3
+    },
+    {
+      "name": "ACC",
+      "is_api": false,
+      "timestamp": 21.11
+    }
+  ],
+  "ai_technologies": [],
+  "summary": "The video showcases how 4G Architecture uses computational design and Autodesk tools to automate facade workflows for complex projects like the Sydney Opera House, highlighting panelization approaches and the integration of Revit with Rhinoceros. It illustrates the process of optimizing and tracking panel installation using APS and ACC, including filtering and viewing fabricated panels with detailed outputs managed through PDF and Excel formats.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:02:44.255464+00:00"
+}

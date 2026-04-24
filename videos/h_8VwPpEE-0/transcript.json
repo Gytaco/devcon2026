@@ -1,0 +1,4723 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.5,
+      "text": "Yeah.",
+      "words": []
+    },
+    {
+      "start": 4.5,
+      "end": 14.5,
+      "text": "Don't leave!",
+      "words": []
+    },
+    {
+      "start": 44.5,
+      "end": 54.019999999999996,
+      "text": "And now, please welcome to the keynote stage, Autodesk's VP of Developer Enablement, Ben",
+      "words": []
+    },
+    {
+      "start": 54.019999999999996,
+      "end": 55.019999999999996,
+      "text": "Cochran.",
+      "words": []
+    },
+    {
+      "start": 55.019999999999996,
+      "end": 56.019999999999996,
+      "text": "Yes.",
+      "words": []
+    },
+    {
+      "start": 56.019999999999996,
+      "end": 65.1,
+      "text": "Good morning, DevCon.",
+      "words": []
+    },
+    {
+      "start": 65.1,
+      "end": 70.34,
+      "text": "I have to say, this is my favorite event of the year, and it is great to see so many of",
+      "words": []
+    },
+    {
+      "start": 70.34,
+      "end": 72.34,
+      "text": "you again.",
+      "words": []
+    },
+    {
+      "start": 72.34,
+      "end": 77.18,
+      "text": "Whether this is your first DevCon or you've been hitting double digits like me, welcome",
+      "words": []
+    },
+    {
+      "start": 77.18,
+      "end": 79.86,
+      "text": "to everyone.",
+      "words": []
+    },
+    {
+      "start": 79.86,
+      "end": 83.9,
+      "text": "DevCon has always been a place where we take on the hardest problems.",
+      "words": []
+    },
+    {
+      "start": 83.9,
+      "end": 87.9,
+      "text": "We look to figure out what's possible.",
+      "words": []
+    },
+    {
+      "start": 87.9,
+      "end": 92.9,
+      "text": "And in this time of great change, I can't help but look back at times of other significant",
+      "words": []
+    },
+    {
+      "start": 92.9,
+      "end": 94.58000000000001,
+      "text": "change.",
+      "words": []
+    },
+    {
+      "start": 94.58000000000001,
+      "end": 97.30000000000001,
+      "text": "So if you will, imagine this.",
+      "words": []
+    },
+    {
+      "start": 97.30000000000001,
+      "end": 99.98,
+      "text": "You're an astronomer in the 1600s.",
+      "words": []
+    },
+    {
+      "start": 99.98,
+      "end": 106.54,
+      "text": "You lived your entire life knowing that the Earth is at the center of our solar system.",
+      "words": []
+    },
+    {
+      "start": 106.54,
+      "end": 109.42,
+      "text": "You worked with tools and formulas that confirmed this model.",
+      "words": []
+    },
+    {
+      "start": 109.42,
+      "end": 111.82000000000001,
+      "text": "You're so confident in this thinking.",
+      "words": []
+    },
+    {
+      "start": 111.82000000000001,
+      "end": 114.7,
+      "text": "Then there's this Galileo guy.",
+      "words": []
+    },
+    {
+      "start": 114.7,
+      "end": 120.18,
+      "text": "He comes along with a few glass lenses, points him at the night sky.",
+      "words": []
+    },
+    {
+      "start": 120.18,
+      "end": 123.98,
+      "text": "Now with a telescope, something is wrong.",
+      "words": []
+    },
+    {
+      "start": 123.98,
+      "end": 127.5,
+      "text": "He discovers it's the sun, not the Earth.",
+      "words": []
+    },
+    {
+      "start": 127.5,
+      "end": 130.26,
+      "text": "That's at the center of our solar system.",
+      "words": []
+    },
+    {
+      "start": 130.26,
+      "end": 132.3,
+      "text": "This changes everything.",
+      "words": []
+    },
+    {
+      "start": 132.3,
+      "end": 134.34,
+      "text": "Everything needs to be recalibrated.",
+      "words": []
+    },
+    {
+      "start": 134.34,
+      "end": 137.86,
+      "text": "Every assumption, every model.",
+      "words": []
+    },
+    {
+      "start": 137.86,
+      "end": 142.62,
+      "text": "This idea is so disruptive, they throw them in jail for it.",
+      "words": []
+    },
+    {
+      "start": 142.62,
+      "end": 145.02,
+      "text": "But, tries they did.",
+      "words": []
+    },
+    {
+      "start": 145.02,
+      "end": 148.94,
+      "text": "There was no going back to that old Earth-centric model.",
+      "words": []
+    },
+    {
+      "start": 148.94,
+      "end": 153.26,
+      "text": "Astronomers from that time forward couldn't go back.",
+      "words": []
+    },
+    {
+      "start": 153.26,
+      "end": 158.85999999999999,
+      "text": "You see, when tools change, the boundaries of what's possible change within them.",
+      "words": []
+    },
+    {
+      "start": 158.85999999999999,
+      "end": 165.45999999999998,
+      "text": "Agenetic AI is to the developer community what the telescope was to 17th century astronomers.",
+      "words": []
+    },
+    {
+      "start": 165.45999999999998,
+      "end": 168.57999999999998,
+      "text": "And I think many of us are already feeling that.",
+      "words": []
+    },
+    {
+      "start": 168.57999999999998,
+      "end": 172.89999999999998,
+      "text": "Can we bring up the lights in the room?",
+      "words": []
+    },
+    {
+      "start": 172.89999999999998,
+      "end": 178.01999999999998,
+      "text": "Raise your hand if you believe software development is changing.",
+      "words": []
+    },
+    {
+      "start": 178.01999999999998,
+      "end": 179.01999999999998,
+      "text": "Even in the overflow room.",
+      "words": []
+    },
+    {
+      "start": 179.01999999999998,
+      "end": 180.01999999999998,
+      "text": "Go ahead.",
+      "words": []
+    },
+    {
+      "start": 180.01999999999998,
+      "end": 181.01999999999998,
+      "text": "Take a chance.",
+      "words": []
+    },
+    {
+      "start": 181.02,
+      "end": 184.86,
+      "text": "Go around.",
+      "words": []
+    },
+    {
+      "start": 184.86,
+      "end": 187.06,
+      "text": "It's almost everyone.",
+      "words": []
+    },
+    {
+      "start": 187.06,
+      "end": 190.34,
+      "text": "And if you're still skeptical, that's okay.",
+      "words": []
+    },
+    {
+      "start": 190.34,
+      "end": 195.70000000000002,
+      "text": "At least you won't be thrown in jail like Galileo.",
+      "words": []
+    },
+    {
+      "start": 195.70000000000002,
+      "end": 202.9,
+      "text": "So, all right.",
+      "words": []
+    },
+    {
+      "start": 202.9,
+      "end": 206.86,
+      "text": "For decades now, we have moved data by hand.",
+      "words": []
+    },
+    {
+      "start": 206.86,
+      "end": 211.62,
+      "text": "We built static algorithms and we wired workflows ourselves.",
+      "words": []
+    },
+    {
+      "start": 211.62,
+      "end": 213.06,
+      "text": "Now we have a new opportunity.",
+      "words": []
+    },
+    {
+      "start": 213.06,
+      "end": 215.34,
+      "text": "We get to express intent.",
+      "words": []
+    },
+    {
+      "start": 215.34,
+      "end": 219.94000000000003,
+      "text": "And the system it partners with us to achieve these outcomes.",
+      "words": []
+    },
+    {
+      "start": 219.94000000000003,
+      "end": 224.46,
+      "text": "This means rethinking how products are built and workflows are designed and how value",
+      "words": []
+    },
+    {
+      "start": 224.46,
+      "end": 228.98000000000002,
+      "text": "is created across the design and make ecosystem.",
+      "words": []
+    },
+    {
+      "start": 228.98000000000002,
+      "end": 233.5,
+      "text": "This is a new model where success will not be defined by a collection of algorithms and",
+      "words": []
+    },
+    {
+      "start": 233.5,
+      "end": 235.02,
+      "text": "features.",
+      "words": []
+    },
+    {
+      "start": 235.02,
+      "end": 241.82000000000002,
+      "text": "It's going to be defined by the complex outcomes that we deliver that were once out of reach.",
+      "words": []
+    },
+    {
+      "start": 241.82000000000002,
+      "end": 245.58,
+      "text": "Now this requires us to do three things.",
+      "words": []
+    },
+    {
+      "start": 245.58,
+      "end": 249.9,
+      "text": "Build, orchestrate, and scale.",
+      "words": []
+    },
+    {
+      "start": 249.9,
+      "end": 255.18,
+      "text": "And this community of developers has been innovating on the platform for over a decade,",
+      "words": []
+    },
+    {
+      "start": 255.18,
+      "end": 261.62,
+      "text": "taking APIs and building real world solutions that customers depend on each day.",
+      "words": []
+    },
+    {
+      "start": 261.62,
+      "end": 266.3,
+      "text": "And now, Agente.ai expands what we can build.",
+      "words": []
+    },
+    {
+      "start": 266.3,
+      "end": 269.5,
+      "text": "The tools you build won't just be standalone.",
+      "words": []
+    },
+    {
+      "start": 269.5,
+      "end": 274.98,
+      "text": "They're going to be orchestrated inside workflows, called by agents to achieve outcomes.",
+      "words": []
+    },
+    {
+      "start": 274.98,
+      "end": 276.74,
+      "text": "And build an orchestrated?",
+      "words": []
+    },
+    {
+      "start": 276.74,
+      "end": 279.74,
+      "text": "That's the foundation of what you're going to hear more about today.",
+      "words": []
+    },
+    {
+      "start": 279.74,
+      "end": 283.14,
+      "text": "And then tomorrow, we're going to talk about scale.",
+      "words": []
+    },
+    {
+      "start": 283.14,
+      "end": 288.34000000000003,
+      "text": "How agente workflows move beyond one team or project to become new ways that organizations",
+      "words": []
+    },
+    {
+      "start": 288.34000000000003,
+      "end": 289.34000000000003,
+      "text": "work.",
+      "words": []
+    },
+    {
+      "start": 289.9,
+      "end": 295.82,
+      "text": "Today, you're going to hear from Shelley, who's going to focus on data and Vikram on how",
+      "words": []
+    },
+    {
+      "start": 295.82,
+      "end": 298.78,
+      "text": "discovery works in the Agente era.",
+      "words": []
+    },
+    {
+      "start": 298.78,
+      "end": 302.9,
+      "text": "We're attached to showing us the show us orchestration and action.",
+      "words": []
+    },
+    {
+      "start": 302.9,
+      "end": 309.29999999999995,
+      "text": "But first, let's look at how this shift changes the ecosystem opportunity for us.",
+      "words": []
+    },
+    {
+      "start": 309.29999999999995,
+      "end": 315.62,
+      "text": "Please join me in welcoming to the stage, Rajee Arasu, our CTO and someone who has never",
+      "words": []
+    },
+    {
+      "start": 315.62,
+      "end": 316.65999999999997,
+      "text": "stopped being a builder.",
+      "words": []
+    },
+    {
+      "start": 319.34,
+      "end": 329.41999999999996,
+      "text": "Thank you, Ben.",
+      "words": []
+    },
+    {
+      "start": 329.41999999999996,
+      "end": 332.09999999999997,
+      "text": "And good morning, everyone.",
+      "words": []
+    },
+    {
+      "start": 332.09999999999997,
+      "end": 335.26,
+      "text": "Good morning.",
+      "words": []
+    },
+    {
+      "start": 335.26,
+      "end": 340.38,
+      "text": "Every time I stand in front of this community, I get goosebumps.",
+      "words": []
+    },
+    {
+      "start": 340.38,
+      "end": 345.73999999999995,
+      "text": "Because this room is filled with builders and visionaries, connectors, the people who",
+      "words": []
+    },
+    {
+      "start": 345.74,
+      "end": 350.46000000000004,
+      "text": "turn ideas into reality.",
+      "words": []
+    },
+    {
+      "start": 350.46000000000004,
+      "end": 356.74,
+      "text": "About three decades ago, when I started my journey in computer engineering, development",
+      "words": []
+    },
+    {
+      "start": 356.74,
+      "end": 359.14,
+      "text": "looked very different from today.",
+      "words": []
+    },
+    {
+      "start": 359.14,
+      "end": 365.02,
+      "text": "I saw during circuit boards and writing assembly code.",
+      "words": []
+    },
+    {
+      "start": 365.02,
+      "end": 369.82,
+      "text": "And honestly, thank goodness I don't have to do that anymore.",
+      "words": []
+    },
+    {
+      "start": 369.82,
+      "end": 375.14,
+      "text": "My programming was basically the developer's painful version of doing a taxes.",
+      "words": []
+    },
+    {
+      "start": 375.14,
+      "end": 381.58,
+      "text": "A simple typo, and it doesn't just trigger an error, it silently collapse the entire",
+      "words": []
+    },
+    {
+      "start": 381.58,
+      "end": 383.1,
+      "text": "system.",
+      "words": []
+    },
+    {
+      "start": 383.1,
+      "end": 384.38,
+      "text": "Nothing worked.",
+      "words": []
+    },
+    {
+      "start": 384.38,
+      "end": 387.65999999999997,
+      "text": "And nobody knew why.",
+      "words": []
+    },
+    {
+      "start": 387.65999999999997,
+      "end": 388.65999999999997,
+      "text": "But here's something.",
+      "words": []
+    },
+    {
+      "start": 388.65999999999997,
+      "end": 392.65999999999997,
+      "text": "I have observed over the few decades.",
+      "words": []
+    },
+    {
+      "start": 392.65999999999997,
+      "end": 395.74,
+      "text": "Developers always move up the stack.",
+      "words": []
+    },
+    {
+      "start": 395.74,
+      "end": 398.18,
+      "text": "We automate what is repetitive.",
+      "words": []
+    },
+    {
+      "start": 398.18,
+      "end": 400.3,
+      "text": "We abstract what is complex.",
+      "words": []
+    },
+    {
+      "start": 400.3,
+      "end": 404.90000000000003,
+      "text": "And we spend our time solving higher order problems.",
+      "words": []
+    },
+    {
+      "start": 404.90000000000003,
+      "end": 407.22,
+      "text": "First we automated the machine coding.",
+      "words": []
+    },
+    {
+      "start": 407.22,
+      "end": 409.74,
+      "text": "Then we automated circuit board assembly.",
+      "words": []
+    },
+    {
+      "start": 409.74,
+      "end": 410.74,
+      "text": "Thank goodness.",
+      "words": []
+    },
+    {
+      "start": 410.74,
+      "end": 413.74,
+      "text": "And then infrastructure moved to the cloud.",
+      "words": []
+    },
+    {
+      "start": 413.74,
+      "end": 417.7,
+      "text": "Each step didn't make developers less important.",
+      "words": []
+    },
+    {
+      "start": 417.7,
+      "end": 423.98,
+      "text": "It made us move on to things that were more impactful and more valuable.",
+      "words": []
+    },
+    {
+      "start": 423.98,
+      "end": 428.1,
+      "text": "And now we are in this AI era.",
+      "words": []
+    },
+    {
+      "start": 428.1,
+      "end": 435.06,
+      "text": "Things like this have always felt overwhelming, even scary, especially this one.",
+      "words": []
+    },
+    {
+      "start": 435.06,
+      "end": 440.38,
+      "text": "Because they challenge the stability structures we have built over the decades, the jobs we",
+      "words": []
+    },
+    {
+      "start": 440.38,
+      "end": 444.98,
+      "text": "have created, the digital architectures we have designed, the companies we operate, and",
+      "words": []
+    },
+    {
+      "start": 444.98,
+      "end": 447.74,
+      "text": "the systems we trust.",
+      "words": []
+    },
+    {
+      "start": 447.74,
+      "end": 451.02000000000004,
+      "text": "But history shows something important.",
+      "words": []
+    },
+    {
+      "start": 451.02000000000004,
+      "end": 456.98,
+      "text": "Every time the technology automates work, humans move up the ladder to more meaningful",
+      "words": []
+    },
+    {
+      "start": 456.98,
+      "end": 457.98,
+      "text": "work.",
+      "words": []
+    },
+    {
+      "start": 457.98,
+      "end": 462.70000000000005,
+      "text": "AI will definitely fill many gaps where humans struggle.",
+      "words": []
+    },
+    {
+      "start": 462.70000000000005,
+      "end": 468.34000000000003,
+      "text": "Its pattern discovery, repetitive reasoning, automation at scale, you name it.",
+      "words": []
+    },
+    {
+      "start": 468.34000000000003,
+      "end": 474.26,
+      "text": "But there are still things that AI cannot figure out without our help.",
+      "words": []
+    },
+    {
+      "start": 474.26,
+      "end": 478.22,
+      "text": "Context, judgment, responsibility.",
+      "words": []
+    },
+    {
+      "start": 478.22,
+      "end": 482.02000000000004,
+      "text": "So the real question is not, will AI replace developers?",
+      "words": []
+    },
+    {
+      "start": 482.02,
+      "end": 489.02,
+      "text": "The real question is, what higher order work will we as developers do next?",
+      "words": []
+    },
+    {
+      "start": 489.02,
+      "end": 494.74,
+      "text": "And that is something this community can and will define.",
+      "words": []
+    },
+    {
+      "start": 494.74,
+      "end": 499.26,
+      "text": "And when I look at this community, I already see the early pieces of future that have already",
+      "words": []
+    },
+    {
+      "start": 499.26,
+      "end": 501.09999999999997,
+      "text": "put in place.",
+      "words": []
+    },
+    {
+      "start": 501.09999999999997,
+      "end": 504.94,
+      "text": "For years, you have powered automation.",
+      "words": []
+    },
+    {
+      "start": 504.94,
+      "end": 511.14,
+      "text": "You have connected workflows, reducing manual work that was delivered through our APIs,",
+      "words": []
+    },
+    {
+      "start": 511.14,
+      "end": 516.9,
+      "text": "Autodesk platform services, and what is referred to as APS.",
+      "words": []
+    },
+    {
+      "start": 516.9,
+      "end": 528.18,
+      "text": "So now let's watch how Andrids is using APS to automate at scale.",
+      "words": []
+    },
+    {
+      "start": 528.18,
+      "end": 533.06,
+      "text": "With Autodesk construction cloud, we want to bridge the gap between design, manufacturing,",
+      "words": []
+    },
+    {
+      "start": 533.06,
+      "end": 535.14,
+      "text": "construction, and service operation.",
+      "words": []
+    },
+    {
+      "start": 535.14,
+      "end": 545.46,
+      "text": "The ultimate goal is that these different worlds are really interconnected with each other.",
+      "words": []
+    },
+    {
+      "start": 545.46,
+      "end": 550.6999999999999,
+      "text": "Andrids is an engineering company doing large scale state of the art engineering projects.",
+      "words": []
+    },
+    {
+      "start": 550.6999999999999,
+      "end": 555.34,
+      "text": "We have around 30,000 employees in over 80 countries around the globe.",
+      "words": []
+    },
+    {
+      "start": 555.34,
+      "end": 557.54,
+      "text": "We built custom solutions based on APS.",
+      "words": []
+    },
+    {
+      "start": 557.54,
+      "end": 562.62,
+      "text": "The biggest project for us was integrating ACC into our system landscape.",
+      "words": []
+    },
+    {
+      "start": 562.62,
+      "end": 568.1,
+      "text": "Before starting with ACC, it was really hard for our users to get all the related documents",
+      "words": []
+    },
+    {
+      "start": 568.1,
+      "end": 570.0600000000001,
+      "text": "they need, for example, on site.",
+      "words": []
+    },
+    {
+      "start": 570.0600000000001,
+      "end": 574.14,
+      "text": "When we started with this integration, we wanted to do it differently than before.",
+      "words": []
+    },
+    {
+      "start": 574.14,
+      "end": 579.34,
+      "text": "So building a centralized integration pipeline with a centralized business logic where the",
+      "words": []
+    },
+    {
+      "start": 579.34,
+      "end": 584.7,
+      "text": "sewer systems does not need to know anything about ACC.",
+      "words": []
+    },
+    {
+      "start": 584.7,
+      "end": 590.22,
+      "text": "They just send the data in their format with their metadata they have, and we have a centralized",
+      "words": []
+    },
+    {
+      "start": 590.22,
+      "end": 596.14,
+      "text": "business logic based on that information map it to the destination system in ACC.",
+      "words": []
+    },
+    {
+      "start": 596.14,
+      "end": 601.02,
+      "text": "So we used all of the APS components to interact with ACC.",
+      "words": []
+    },
+    {
+      "start": 601.02,
+      "end": 607.34,
+      "text": "Is it ACC API to interact with projects, admin workflows, and so on, but also data management",
+      "words": []
+    },
+    {
+      "start": 607.34,
+      "end": 613.4200000000001,
+      "text": "to upload data, then design automation, because we also want to process data on their journey",
+      "words": []
+    },
+    {
+      "start": 613.4200000000001,
+      "end": 615.94,
+      "text": "from the sewer systems to ACC.",
+      "words": []
+    },
+    {
+      "start": 615.94,
+      "end": 621.4200000000001,
+      "text": "So our most important topic here was to build an integration pipeline to bring all these",
+      "words": []
+    },
+    {
+      "start": 621.4200000000001,
+      "end": 624.94,
+      "text": "documents from these systems automatically to ACC.",
+      "words": []
+    },
+    {
+      "start": 624.94,
+      "end": 630.4200000000001,
+      "text": "In our first projects, we had already more than 30,000 documents, and nowadays in our",
+      "words": []
+    },
+    {
+      "start": 630.4200000000001,
+      "end": 634.2600000000001,
+      "text": "biggest project, we have close to 500,000 documents in.",
+      "words": []
+    },
+    {
+      "start": 634.2600000000001,
+      "end": 640.7800000000001,
+      "text": "Doing that manually is two time consuming and error-browing, because if some person forgets",
+      "words": []
+    },
+    {
+      "start": 640.7800000000001,
+      "end": 644.94,
+      "text": "to upload the latest version, people on site assemble it based on an outdated version.",
+      "words": []
+    },
+    {
+      "start": 644.94,
+      "end": 651.94,
+      "text": "We save more than 85% of manual work load in automatizing this.",
+      "words": []
+    },
+    {
+      "start": 651.94,
+      "end": 658.1,
+      "text": "Amy will remind me that it's former, not ACC.",
+      "words": []
+    },
+    {
+      "start": 658.1,
+      "end": 660.58,
+      "text": "That's putting APS in action.",
+      "words": []
+    },
+    {
+      "start": 660.58,
+      "end": 666.3000000000001,
+      "text": "With 85% manual work, Andreds now has fully automated workflows at scale.",
+      "words": []
+    },
+    {
+      "start": 666.3000000000001,
+      "end": 671.7,
+      "text": "Now imagine what happens when AI builds on top of that.",
+      "words": []
+    },
+    {
+      "start": 671.7,
+      "end": 677.38,
+      "text": "Two APIs and AI this community will drive that future of automation.",
+      "words": []
+    },
+    {
+      "start": 677.38,
+      "end": 679.38,
+      "text": "I'm certain about that.",
+      "words": []
+    },
+    {
+      "start": 679.38,
+      "end": 682.0200000000001,
+      "text": "But that future doesn't arrive all at once.",
+      "words": []
+    },
+    {
+      "start": 682.0200000000001,
+      "end": 684.5400000000001,
+      "text": "It happens in waves.",
+      "words": []
+    },
+    {
+      "start": 684.5400000000001,
+      "end": 689.26,
+      "text": "And every time a new wave arrives, developers move up the stack.",
+      "words": []
+    },
+    {
+      "start": 689.26,
+      "end": 692.4200000000001,
+      "text": "The first wave is task automation.",
+      "words": []
+    },
+    {
+      "start": 692.4200000000001,
+      "end": 699.7,
+      "text": "AI helping with individual tasks, like generating designs, summarizing information, and accelerating",
+      "words": []
+    },
+    {
+      "start": 699.7,
+      "end": 702.7,
+      "text": "and repetitive work.",
+      "words": []
+    },
+    {
+      "start": 702.7,
+      "end": 709.6600000000001,
+      "text": "This is incredibly valuable today, but over time, it becomes table stakes.",
+      "words": []
+    },
+    {
+      "start": 709.6600000000001,
+      "end": 715.74,
+      "text": "The second wave is workflow automation, which connects those tasks into end-to-end processes",
+      "words": []
+    },
+    {
+      "start": 715.74,
+      "end": 719.7800000000001,
+      "text": "across design, engineering, and construction.",
+      "words": []
+    },
+    {
+      "start": 719.7800000000001,
+      "end": 725.1400000000001,
+      "text": "That is where real differentiation starts to happen, when these workflows are solving",
+      "words": []
+    },
+    {
+      "start": 725.14,
+      "end": 729.9,
+      "text": "with context, business rules, and domain expertise.",
+      "words": []
+    },
+    {
+      "start": 729.9,
+      "end": 733.62,
+      "text": "And then the third wave is systems automation.",
+      "words": []
+    },
+    {
+      "start": 733.62,
+      "end": 739.06,
+      "text": "Entire systems operating with coordinated intelligence projects, factories, production",
+      "words": []
+    },
+    {
+      "start": 739.06,
+      "end": 740.06,
+      "text": "pipelines.",
+      "words": []
+    },
+    {
+      "start": 740.06,
+      "end": 746.1,
+      "text": "They continuously are adapting and optimizing over time.",
+      "words": []
+    },
+    {
+      "start": 746.1,
+      "end": 750.78,
+      "text": "To summarize, task automation is a starting line.",
+      "words": []
+    },
+    {
+      "start": 750.78,
+      "end": 756.14,
+      "text": "Workflow and system automation is what will help you deliver value through this higher",
+      "words": []
+    },
+    {
+      "start": 756.14,
+      "end": 759.9,
+      "text": "order work in this AI era.",
+      "words": []
+    },
+    {
+      "start": 759.9,
+      "end": 764.5799999999999,
+      "text": "Today across our industries, there are still countless broken workflows.",
+      "words": []
+    },
+    {
+      "start": 764.5799999999999,
+      "end": 769.14,
+      "text": "And solving them is bigger than any one company can do it.",
+      "words": []
+    },
+    {
+      "start": 769.14,
+      "end": 774.5799999999999,
+      "text": "It's the opportunity for this community.",
+      "words": []
+    },
+    {
+      "start": 774.5799999999999,
+      "end": 780.4599999999999,
+      "text": "Last year, at DevCon, when we talked about the shift to AI-driven automation, two questions",
+      "words": []
+    },
+    {
+      "start": 780.46,
+      "end": 781.46,
+      "text": "came up.",
+      "words": []
+    },
+    {
+      "start": 781.46,
+      "end": 786.5400000000001,
+      "text": "First, will AI work inside workflows?",
+      "words": []
+    },
+    {
+      "start": 786.5400000000001,
+      "end": 790.94,
+      "text": "Second was how will AI solutions be discovered and monetized?",
+      "words": []
+    },
+    {
+      "start": 790.94,
+      "end": 795.14,
+      "text": "These questions are even more acute now.",
+      "words": []
+    },
+    {
+      "start": 795.14,
+      "end": 797.14,
+      "text": "So let me start with the first question.",
+      "words": []
+    },
+    {
+      "start": 797.14,
+      "end": 800.9000000000001,
+      "text": "Will AI work inside real workflows?",
+      "words": []
+    },
+    {
+      "start": 800.9000000000001,
+      "end": 801.9000000000001,
+      "text": "Yes.",
+      "words": []
+    },
+    {
+      "start": 801.9000000000001,
+      "end": 808.1,
+      "text": "AI has moved from experimentation to taking action where work happens.",
+      "words": []
+    },
+    {
+      "start": 808.1,
+      "end": 812.94,
+      "text": "So let's look at an example of how this has transformed the world of coding, which",
+      "words": []
+    },
+    {
+      "start": 812.94,
+      "end": 816.0600000000001,
+      "text": "I know you will be able to associate to that.",
+      "words": []
+    },
+    {
+      "start": 816.0600000000001,
+      "end": 822.4200000000001,
+      "text": "Think about where we started with tools like AWS, Ciro and CloudCode.",
+      "words": []
+    },
+    {
+      "start": 822.4200000000001,
+      "end": 826.74,
+      "text": "When they first appeared, they could generate a few lines of code.",
+      "words": []
+    },
+    {
+      "start": 826.74,
+      "end": 830.02,
+      "text": "Impressive, but still just a tool.",
+      "words": []
+    },
+    {
+      "start": 830.02,
+      "end": 831.82,
+      "text": "Then something changed.",
+      "words": []
+    },
+    {
+      "start": 831.82,
+      "end": 836.9,
+      "text": "They started to understand the repository, the project structure, the dependencies, the",
+      "words": []
+    },
+    {
+      "start": 836.9,
+      "end": 837.9,
+      "text": "test.",
+      "words": []
+    },
+    {
+      "start": 837.9,
+      "end": 839.42,
+      "text": "They could propose changes.",
+      "words": []
+    },
+    {
+      "start": 839.42,
+      "end": 844.34,
+      "text": "They could run risks and even open pull requests.",
+      "words": []
+    },
+    {
+      "start": 844.34,
+      "end": 848.18,
+      "text": "And that's when something clicked for developers.",
+      "words": []
+    },
+    {
+      "start": 848.18,
+      "end": 851.86,
+      "text": "That wasn't just about AI generating code anymore.",
+      "words": []
+    },
+    {
+      "start": 851.86,
+      "end": 855.42,
+      "text": "It was an agent that was participating in the workflow.",
+      "words": []
+    },
+    {
+      "start": 855.42,
+      "end": 862.14,
+      "text": "Suddenly, it felt less like a tool and more like a coding partner.",
+      "words": []
+    },
+    {
+      "start": 862.14,
+      "end": 866.18,
+      "text": "What made that possible wasn't just a smarter model.",
+      "words": []
+    },
+    {
+      "start": 866.18,
+      "end": 868.42,
+      "text": "It was context.",
+      "words": []
+    },
+    {
+      "start": 868.42,
+      "end": 875.78,
+      "text": "Context of the code base, the workflow, the system it operates in, and this applies everywhere.",
+      "words": []
+    },
+    {
+      "start": 875.78,
+      "end": 882.8599999999999,
+      "text": "In design and make workflows, agents need MCPs and context to access and understand the",
+      "words": []
+    },
+    {
+      "start": 882.8599999999999,
+      "end": 891.02,
+      "text": "3D design model, the project state, the engineering intent, and that's exactly what we are enabling.",
+      "words": []
+    },
+    {
+      "start": 891.02,
+      "end": 895.26,
+      "text": "We are starting with Autotest Public MCPs.",
+      "words": []
+    },
+    {
+      "start": 895.26,
+      "end": 900.62,
+      "text": "And as you build agents, so you can actually do that and operate inside a design and make",
+      "words": []
+    },
+    {
+      "start": 900.62,
+      "end": 901.62,
+      "text": "workflow.",
+      "words": []
+    },
+    {
+      "start": 901.62,
+      "end": 908.14,
+      "text": "We're introducing MCPs for Fusion and Revit with many more on the way this year.",
+      "words": []
+    },
+    {
+      "start": 908.14,
+      "end": 917.9399999999999,
+      "text": "And with the right MCPs, an associated context, AI moves from demos to real automation.",
+      "words": []
+    },
+    {
+      "start": 917.9399999999999,
+      "end": 920.9,
+      "text": "Now let's look at the second question.",
+      "words": []
+    },
+    {
+      "start": 920.9,
+      "end": 924.22,
+      "text": "How will AI solutions be discovered and monetized?",
+      "words": []
+    },
+    {
+      "start": 924.22,
+      "end": 926.78,
+      "text": "I know this is on your mind.",
+      "words": []
+    },
+    {
+      "start": 926.78,
+      "end": 933.1,
+      "text": "AI is shifting discovery from traditional search pages into the workflow.",
+      "words": []
+    },
+    {
+      "start": 933.1,
+      "end": 939.8199999999999,
+      "text": "It's surfacing solutions at the moment where users express their intent.",
+      "words": []
+    },
+    {
+      "start": 939.8199999999999,
+      "end": 941.22,
+      "text": "This changes how we build.",
+      "words": []
+    },
+    {
+      "start": 941.22,
+      "end": 947.1,
+      "text": "It's not just about being found, but it is about being understood, trusted, and chosen",
+      "words": []
+    },
+    {
+      "start": 947.1,
+      "end": 949.42,
+      "text": "by the system.",
+      "words": []
+    },
+    {
+      "start": 949.42,
+      "end": 953.8199999999999,
+      "text": "Later, Vikram is going to be up here and he's going to dive deeper into this shift and",
+      "words": []
+    },
+    {
+      "start": 953.8199999999999,
+      "end": 957.8199999999999,
+      "text": "how you can start building for it.",
+      "words": []
+    },
+    {
+      "start": 957.8199999999999,
+      "end": 964.26,
+      "text": "I want to focus on the two big steps we're taking to help you show up in this new model.",
+      "words": []
+    },
+    {
+      "start": 964.26,
+      "end": 971.62,
+      "text": "First, we are opening Autotest Assistant to third party MCPs.",
+      "words": []
+    },
+    {
+      "start": 971.62,
+      "end": 977.18,
+      "text": "Assistant is the connective AI layer across Fusion, Revit, Autocad, Civil 3D.",
+      "words": []
+    },
+    {
+      "start": 977.18,
+      "end": 980.6999999999999,
+      "text": "It is embedded directly in the flow of work.",
+      "words": []
+    },
+    {
+      "start": 980.6999999999999,
+      "end": 987.6999999999999,
+      "text": "And when your MCPs integrate here, it becomes part of how customers designed, automate,",
+      "words": []
+    },
+    {
+      "start": 987.6999999999999,
+      "end": 990.8199999999999,
+      "text": "and execute their work.",
+      "words": []
+    },
+    {
+      "start": 990.8199999999999,
+      "end": 991.8199999999999,
+      "text": "Sit tight.",
+      "words": []
+    },
+    {
+      "start": 991.8199999999999,
+      "end": 996.14,
+      "text": "You'll get to actually see this in action later in the keynote where Ritesh will be on",
+      "words": []
+    },
+    {
+      "start": 996.14,
+      "end": 998.66,
+      "text": "the stage showing this off.",
+      "words": []
+    },
+    {
+      "start": 998.66,
+      "end": 1005.8599999999999,
+      "text": "Now, in addition to plugging your MCPs into Autotest Assistant, we are doing one more thing.",
+      "words": []
+    },
+    {
+      "start": 1005.86,
+      "end": 1009.82,
+      "text": "We are launching a design and make marketplace.",
+      "words": []
+    },
+    {
+      "start": 1009.82,
+      "end": 1017.3000000000001,
+      "text": "An AI first destination for our customers, where your solutions show up alongside ours.",
+      "words": []
+    },
+    {
+      "start": 1017.3000000000001,
+      "end": 1022.98,
+      "text": "It elevates the app marketplace that you know and you trust today, with a new destination",
+      "words": []
+    },
+    {
+      "start": 1022.98,
+      "end": 1029.26,
+      "text": "for agents and MCPs bringing everything together in one experience.",
+      "words": []
+    },
+    {
+      "start": 1029.26,
+      "end": 1035.26,
+      "text": "This marketplace will expand to include monetization capabilities, enabling your",
+      "words": []
+    },
+    {
+      "start": 1035.26,
+      "end": 1041.54,
+      "text": "agent workflows to scale, to reach more customers and generate revenue for you.",
+      "words": []
+    },
+    {
+      "start": 1041.54,
+      "end": 1047.34,
+      "text": "As we design these systems, your distribution and discovery are always front and center",
+      "words": []
+    },
+    {
+      "start": 1047.34,
+      "end": 1048.34,
+      "text": "for us.",
+      "words": []
+    },
+    {
+      "start": 1048.34,
+      "end": 1056.74,
+      "text": "When I think about this moment in history, I think back to those early days of soldering,",
+      "words": []
+    },
+    {
+      "start": 1056.74,
+      "end": 1059.9,
+      "text": "circuit boards, and writing assembly code.",
+      "words": []
+    },
+    {
+      "start": 1059.9,
+      "end": 1064.02,
+      "text": "That felt like the hardest engineering work imaginable.",
+      "words": []
+    },
+    {
+      "start": 1064.02,
+      "end": 1066.0600000000002,
+      "text": "It did really like that.",
+      "words": []
+    },
+    {
+      "start": 1066.0600000000002,
+      "end": 1068.98,
+      "text": "But over time, we automated it.",
+      "words": []
+    },
+    {
+      "start": 1068.98,
+      "end": 1072.3000000000002,
+      "text": "We abstracted it and moved up the stack.",
+      "words": []
+    },
+    {
+      "start": 1072.3000000000002,
+      "end": 1077.18,
+      "text": "And sure, still even today, there are some brilliant people who work in chip design and",
+      "words": []
+    },
+    {
+      "start": 1077.18,
+      "end": 1079.5400000000002,
+      "text": "Nvidia and AMD shops.",
+      "words": []
+    },
+    {
+      "start": 1079.5400000000002,
+      "end": 1081.5800000000002,
+      "text": "And the rest of us have moved on.",
+      "words": []
+    },
+    {
+      "start": 1081.5800000000002,
+      "end": 1084.98,
+      "text": "We buy GPUs from them and are doing higher auto work.",
+      "words": []
+    },
+    {
+      "start": 1084.98,
+      "end": 1086.22,
+      "text": "Thank goodness.",
+      "words": []
+    },
+    {
+      "start": 1086.22,
+      "end": 1093.7,
+      "text": "So I believe you with a simple question, as you climb up to the next level of the stack,",
+      "words": []
+    },
+    {
+      "start": 1093.7,
+      "end": 1097.66,
+      "text": "what will you build?",
+      "words": []
+    },
+    {
+      "start": 1097.66,
+      "end": 1105.3,
+      "text": "Now, whatever amazing things you will build, you always need good data.",
+      "words": []
+    },
+    {
+      "start": 1105.3,
+      "end": 1108.6200000000001,
+      "text": "And that brings me to the next speaker.",
+      "words": []
+    },
+    {
+      "start": 1108.6200000000001,
+      "end": 1110.8600000000001,
+      "text": "He's not just passionate about data.",
+      "words": []
+    },
+    {
+      "start": 1110.8600000000001,
+      "end": 1113.18,
+      "text": "He's obsessed about it.",
+      "words": []
+    },
+    {
+      "start": 1113.18,
+      "end": 1118.42,
+      "text": "He spends his day thinking about how to make it more granular, more connected, or how",
+      "words": []
+    },
+    {
+      "start": 1118.42,
+      "end": 1120.9,
+      "text": "to drive intelligence from it.",
+      "words": []
+    },
+    {
+      "start": 1120.9,
+      "end": 1124.3,
+      "text": "Which is why we internally call him our data king.",
+      "words": []
+    },
+    {
+      "start": 1124.3,
+      "end": 1127.14,
+      "text": "So please welcome Shelley Mustafa.",
+      "words": []
+    },
+    {
+      "start": 1127.14,
+      "end": 1128.14,
+      "text": "Yes.",
+      "words": []
+    },
+    {
+      "start": 1128.14,
+      "end": 1129.14,
+      "text": "Yes.",
+      "words": []
+    },
+    {
+      "start": 1129.14,
+      "end": 1130.14,
+      "text": "Yes.",
+      "words": []
+    },
+    {
+      "start": 1130.14,
+      "end": 1131.14,
+      "text": "Yes.",
+      "words": []
+    },
+    {
+      "start": 1131.14,
+      "end": 1132.14,
+      "text": "Yes.",
+      "words": []
+    },
+    {
+      "start": 1132.14,
+      "end": 1133.14,
+      "text": "Yes.",
+      "words": []
+    },
+    {
+      "start": 1133.14,
+      "end": 1134.14,
+      "text": "Yes.",
+      "words": []
+    },
+    {
+      "start": 1134.14,
+      "end": 1135.14,
+      "text": "Yes.",
+      "words": []
+    },
+    {
+      "start": 1135.14,
+      "end": 1138.38,
+      "text": "Thank you, Rajee.",
+      "words": []
+    },
+    {
+      "start": 1138.38,
+      "end": 1139.38,
+      "text": "Look.",
+      "words": []
+    },
+    {
+      "start": 1140.38,
+      "end": 1146.18,
+      "text": "Look, I'm no king, but I do love data.",
+      "words": []
+    },
+    {
+      "start": 1146.18,
+      "end": 1151.5,
+      "text": "And if I might add, I actually look pretty good in red.",
+      "words": []
+    },
+    {
+      "start": 1151.5,
+      "end": 1155.8200000000002,
+      "text": "But seriously, I do love Rajee's framing.",
+      "words": []
+    },
+    {
+      "start": 1155.8200000000002,
+      "end": 1158.0200000000002,
+      "text": "Moving up the stack.",
+      "words": []
+    },
+    {
+      "start": 1158.0200000000002,
+      "end": 1164.6200000000001,
+      "text": "Because every time we move up the stack, we take on more complex higher auto problems.",
+      "words": []
+    },
+    {
+      "start": 1164.62,
+      "end": 1171.58,
+      "text": "And those problems demand data that is connected, reliable, ready to be used.",
+      "words": []
+    },
+    {
+      "start": 1171.58,
+      "end": 1177.34,
+      "text": "No matter how powerful your AI becomes, it only works as well as the data foundation",
+      "words": []
+    },
+    {
+      "start": 1177.34,
+      "end": 1178.34,
+      "text": "beneath it.",
+      "words": []
+    },
+    {
+      "start": 1178.34,
+      "end": 1185.54,
+      "text": "And when you think about building on that foundation, it's worth asking what actually",
+      "words": []
+    },
+    {
+      "start": 1185.54,
+      "end": 1189.1399999999999,
+      "text": "makes systems last?",
+      "words": []
+    },
+    {
+      "start": 1189.1399999999999,
+      "end": 1193.3799999999999,
+      "text": "I had this moment of clarity recently on a family trip to Puerto Rico.",
+      "words": []
+    },
+    {
+      "start": 1193.38,
+      "end": 1199.6200000000001,
+      "text": "The highlight of our trip was visiting Castillo, San Felipe del Moro in Olsen Juan.",
+      "words": []
+    },
+    {
+      "start": 1199.6200000000001,
+      "end": 1203.3400000000001,
+      "text": "It is considered a masterpiece of Spanish engineering.",
+      "words": []
+    },
+    {
+      "start": 1203.3400000000001,
+      "end": 1208.0200000000002,
+      "text": "But it began as a single cannon on a cliff.",
+      "words": []
+    },
+    {
+      "start": 1208.0200000000002,
+      "end": 1216.66,
+      "text": "It evolved over 250 years into a six level structure spread across 75 acres with walls",
+      "words": []
+    },
+    {
+      "start": 1216.66,
+      "end": 1221.3000000000002,
+      "text": "that are 40 feet thick.",
+      "words": []
+    },
+    {
+      "start": 1221.3,
+      "end": 1225.5,
+      "text": "Looking along those walls, I thought about the engineers who passed their knowledge from",
+      "words": []
+    },
+    {
+      "start": 1225.5,
+      "end": 1230.4199999999998,
+      "text": "one generation to the next to adapt to a changing world.",
+      "words": []
+    },
+    {
+      "start": 1230.4199999999998,
+      "end": 1234.3799999999999,
+      "text": "Fixed components were replaced with dynamic mechanisms.",
+      "words": []
+    },
+    {
+      "start": 1234.3799999999999,
+      "end": 1239.46,
+      "text": "Circular tracks enable structures to rotate with flexibility.",
+      "words": []
+    },
+    {
+      "start": 1239.46,
+      "end": 1244.7,
+      "text": "Sequential layers were designed to ensure access control in stages.",
+      "words": []
+    },
+    {
+      "start": 1244.7,
+      "end": 1248.3799999999999,
+      "text": "These engineers built for the future.",
+      "words": []
+    },
+    {
+      "start": 1248.38,
+      "end": 1254.46,
+      "text": "Interability to adapt is what has kept El Moro relevant for centuries.",
+      "words": []
+    },
+    {
+      "start": 1254.46,
+      "end": 1262.98,
+      "text": "While tools and techniques might change, good engineering will adapt to endure.",
+      "words": []
+    },
+    {
+      "start": 1262.98,
+      "end": 1266.94,
+      "text": "These last few years, we have been witnessing another turning point for engineering as a",
+      "words": []
+    },
+    {
+      "start": 1266.94,
+      "end": 1268.9,
+      "text": "discipline.",
+      "words": []
+    },
+    {
+      "start": 1268.9,
+      "end": 1276.38,
+      "text": "As engineers, we are trained to drive determinism, precision, and repeatability.",
+      "words": []
+    },
+    {
+      "start": 1276.38,
+      "end": 1280.5800000000002,
+      "text": "Now, suddenly, we are working with these probabilistic, large language models that can give",
+      "words": []
+    },
+    {
+      "start": 1280.5800000000002,
+      "end": 1285.6200000000001,
+      "text": "you three different responses to the same prompt depending on the day.",
+      "words": []
+    },
+    {
+      "start": 1285.6200000000001,
+      "end": 1287.18,
+      "text": "We have all seen it.",
+      "words": []
+    },
+    {
+      "start": 1287.18,
+      "end": 1290.94,
+      "text": "When it is wrong, it is confidently wrong.",
+      "words": []
+    },
+    {
+      "start": 1290.94,
+      "end": 1295.14,
+      "text": "Look, we love the potential.",
+      "words": []
+    },
+    {
+      "start": 1295.14,
+      "end": 1298.0600000000002,
+      "text": "We just want to be able to trust the outcomes.",
+      "words": []
+    },
+    {
+      "start": 1298.0600000000002,
+      "end": 1303.5400000000002,
+      "text": "It's almost as if we have been handed a magic wand with no user manual.",
+      "words": []
+    },
+    {
+      "start": 1303.54,
+      "end": 1310.26,
+      "text": "So we have had to adapt to come up with ways to harness this power while containing its",
+      "words": []
+    },
+    {
+      "start": 1310.26,
+      "end": 1319.58,
+      "text": "weaknesses, to guide these systems with context, focus, and grounding.",
+      "words": []
+    },
+    {
+      "start": 1319.58,
+      "end": 1325.94,
+      "text": "We are in an era where AI promises incredible possibilities, but realizing those possibilities",
+      "words": []
+    },
+    {
+      "start": 1325.94,
+      "end": 1328.54,
+      "text": "depends on two things.",
+      "words": []
+    },
+    {
+      "start": 1328.54,
+      "end": 1333.18,
+      "text": "Your engineering expertise and the data you build upon.",
+      "words": []
+    },
+    {
+      "start": 1333.18,
+      "end": 1336.18,
+      "text": "It's the same principle we saw at El Morro.",
+      "words": []
+    },
+    {
+      "start": 1336.18,
+      "end": 1340.02,
+      "text": "You need a strong foundation that can evolve over time.",
+      "words": []
+    },
+    {
+      "start": 1340.02,
+      "end": 1344.9,
+      "text": "And today, that foundation is your data.",
+      "words": []
+    },
+    {
+      "start": 1344.9,
+      "end": 1349.9,
+      "text": "We are building capabilities so your data can move across product and company boundaries",
+      "words": []
+    },
+    {
+      "start": 1349.9,
+      "end": 1352.3,
+      "text": "without friction.",
+      "words": []
+    },
+    {
+      "start": 1352.3,
+      "end": 1357.42,
+      "text": "Because when that data becomes accessible, your expertise becomes the driver and AI becomes",
+      "words": []
+    },
+    {
+      "start": 1357.42,
+      "end": 1360.6200000000001,
+      "text": "the accelerator.",
+      "words": []
+    },
+    {
+      "start": 1360.62,
+      "end": 1364.4599999999998,
+      "text": "So let's start with how we are evolving to make data granular and available through",
+      "words": []
+    },
+    {
+      "start": 1364.4599999999998,
+      "end": 1367.9399999999998,
+      "text": "the AAC data model.",
+      "words": []
+    },
+    {
+      "start": 1367.9399999999998,
+      "end": 1371.82,
+      "text": "First, we gave you revert properties in the data model.",
+      "words": []
+    },
+    {
+      "start": 1371.82,
+      "end": 1377.06,
+      "text": "But then we heard, okay, but what am I supposed to do with our geometry?",
+      "words": []
+    },
+    {
+      "start": 1377.06,
+      "end": 1379.86,
+      "text": "So we built the next layer.",
+      "words": []
+    },
+    {
+      "start": 1379.86,
+      "end": 1384.6999999999998,
+      "text": "With granular revert geometry coming to the AAC data model, we are transforming what used",
+      "words": []
+    },
+    {
+      "start": 1384.7,
+      "end": 1390.9,
+      "text": "to be locked inside files into live cloud-based elements.",
+      "words": []
+    },
+    {
+      "start": 1390.9,
+      "end": 1395.02,
+      "text": "But then some of you said, it's great to have geometry.",
+      "words": []
+    },
+    {
+      "start": 1395.02,
+      "end": 1400.38,
+      "text": "But I would like to write my enterprise data back into the model.",
+      "words": []
+    },
+    {
+      "start": 1400.38,
+      "end": 1402.3,
+      "text": "Fair point.",
+      "words": []
+    },
+    {
+      "start": 1402.3,
+      "end": 1407.42,
+      "text": "With the general availability of the AAC data model extensibility, we are turning the data",
+      "words": []
+    },
+    {
+      "start": 1407.42,
+      "end": 1410.66,
+      "text": "foundation into something you can shape.",
+      "words": []
+    },
+    {
+      "start": 1410.66,
+      "end": 1415.5,
+      "text": "Data that fits your workflows instead of the other way around.",
+      "words": []
+    },
+    {
+      "start": 1415.5,
+      "end": 1422.7,
+      "text": "Teams and partners can build apps, automations, and custom workflows by extending the data model.",
+      "words": []
+    },
+    {
+      "start": 1422.7,
+      "end": 1425.38,
+      "text": "So what do you need next?",
+      "words": []
+    },
+    {
+      "start": 1425.38,
+      "end": 1430.42,
+      "text": "More data types, better sync capabilities.",
+      "words": []
+    },
+    {
+      "start": 1430.42,
+      "end": 1433.98,
+      "text": "I was hoping you would say that.",
+      "words": []
+    },
+    {
+      "start": 1433.98,
+      "end": 1438.22,
+      "text": "Today we are announcing a plan 3D public beta for AACDM.",
+      "words": []
+    },
+    {
+      "start": 1438.22,
+      "end": 1443.3,
+      "text": "I have seen port is coming soon, and later this year we plan to have civil 3D data available",
+      "words": []
+    },
+    {
+      "start": 1443.3,
+      "end": 1445.5,
+      "text": "too.",
+      "words": []
+    },
+    {
+      "start": 1445.5,
+      "end": 1451.26,
+      "text": "And with revert sync capabilities, your foundation becomes more responsive.",
+      "words": []
+    },
+    {
+      "start": 1451.26,
+      "end": 1456.5,
+      "text": "You no longer need to wait for published cycles to access your data.",
+      "words": []
+    },
+    {
+      "start": 1456.5,
+      "end": 1465.14,
+      "text": "So to recap, granular geometry, extensibility, faster sync, more data types, these are not",
+      "words": []
+    },
+    {
+      "start": 1465.14,
+      "end": 1466.42,
+      "text": "separate features.",
+      "words": []
+    },
+    {
+      "start": 1467.14,
+      "end": 1474.74,
+      "text": "There are the building blocks to ground your AI, the data foundation for your agent workflows.",
+      "words": []
+    },
+    {
+      "start": 1477.94,
+      "end": 1483.94,
+      "text": "Once teams have structured data, something powerful happens.",
+      "words": []
+    },
+    {
+      "start": 1483.94,
+      "end": 1488.1000000000001,
+      "text": "It changes what becomes possible.",
+      "words": []
+    },
+    {
+      "start": 1488.1000000000001,
+      "end": 1492.3000000000002,
+      "text": "It's the same parent of evolution we saw at El Moro.",
+      "words": []
+    },
+    {
+      "start": 1492.3,
+      "end": 1496.5,
+      "text": "Once engineers mastered precision, they didn't stop there.",
+      "words": []
+    },
+    {
+      "start": 1496.5,
+      "end": 1501.58,
+      "text": "They engineered ways for components to move and respond together.",
+      "words": []
+    },
+    {
+      "start": 1501.58,
+      "end": 1506.34,
+      "text": "They turned static strength into dynamic capability.",
+      "words": []
+    },
+    {
+      "start": 1506.34,
+      "end": 1509.98,
+      "text": "Granularity gives us that strength.",
+      "words": []
+    },
+    {
+      "start": 1509.98,
+      "end": 1513.82,
+      "text": "Interoperability gives it motion.",
+      "words": []
+    },
+    {
+      "start": 1513.82,
+      "end": 1519.3,
+      "text": "If you were here last year, you might remember that I shared the stage with Paul Heddedell.",
+      "words": []
+    },
+    {
+      "start": 1519.3,
+      "end": 1524.1,
+      "text": "Paul's director of technology partnerships and digital transformation.",
+      "words": []
+    },
+    {
+      "start": 1524.1,
+      "end": 1528.58,
+      "text": "During our conversation, he mentioned something that stuck with me.",
+      "words": []
+    },
+    {
+      "start": 1528.58,
+      "end": 1533.1,
+      "text": "Interoperability isn't just a customer problem.",
+      "words": []
+    },
+    {
+      "start": 1533.1,
+      "end": 1537.22,
+      "text": "It is an industry problem.",
+      "words": []
+    },
+    {
+      "start": 1537.22,
+      "end": 1543.58,
+      "text": "And that is why we are building solutions not just for our products, we are building solutions",
+      "words": []
+    },
+    {
+      "start": 1543.58,
+      "end": 1547.22,
+      "text": "for the entire industry.",
+      "words": []
+    },
+    {
+      "start": 1547.22,
+      "end": 1551.74,
+      "text": "Last November, we announced the general availability of the data exchange cloud connector for",
+      "words": []
+    },
+    {
+      "start": 1551.74,
+      "end": 1552.74,
+      "text": "IFC.",
+      "words": []
+    },
+    {
+      "start": 1552.74,
+      "end": 1554.34,
+      "text": "Now, come on.",
+      "words": []
+    },
+    {
+      "start": 1554.34,
+      "end": 1561.54,
+      "text": "I know how big of a deal IFC is for this audience, so I was expecting some applause.",
+      "words": []
+    },
+    {
+      "start": 1561.54,
+      "end": 1564.54,
+      "text": "Thank you.",
+      "words": []
+    },
+    {
+      "start": 1564.54,
+      "end": 1569.6200000000001,
+      "text": "And today, we are extending this approach to one of the most critical tools in construction",
+      "words": []
+    },
+    {
+      "start": 1569.6200000000001,
+      "end": 1571.38,
+      "text": "coordination.",
+      "words": []
+    },
+    {
+      "start": 1571.38,
+      "end": 1573.14,
+      "text": "Navisworks.",
+      "words": []
+    },
+    {
+      "start": 1573.14,
+      "end": 1577.74,
+      "text": "The Navisworks connector is now generally available, enabling model data to sink across",
+      "words": []
+    },
+    {
+      "start": 1577.74,
+      "end": 1582.0200000000002,
+      "text": "Revit, Tecla, Rhino, and Mentor and Power BI.",
+      "words": []
+    },
+    {
+      "start": 1582.0200000000002,
+      "end": 1586.98,
+      "text": "No more manual exports, no more version control issues.",
+      "words": []
+    },
+    {
+      "start": 1586.98,
+      "end": 1588.8200000000002,
+      "text": "And there's more.",
+      "words": []
+    },
+    {
+      "start": 1588.8200000000002,
+      "end": 1593.8600000000001,
+      "text": "With the civil 3D connector coming soon, we are bringing infrastructure into the same connected",
+      "words": []
+    },
+    {
+      "start": 1593.8600000000001,
+      "end": 1594.8600000000001,
+      "text": "systems.",
+      "words": []
+    },
+    {
+      "start": 1594.8600000000001,
+      "end": 1600.22,
+      "text": "So, large complex projects can finally scale with automation.",
+      "words": []
+    },
+    {
+      "start": 1600.22,
+      "end": 1604.66,
+      "text": "And we are already seeing customers put these capabilities to work.",
+      "words": []
+    },
+    {
+      "start": 1604.66,
+      "end": 1611.3,
+      "text": "Take Deutsche Bahn, one of Europe's largest mobility and logistics companies.",
+      "words": []
+    },
+    {
+      "start": 1611.3,
+      "end": 1616.38,
+      "text": "They receive a huge volume of IFC files from third party applications and managing those",
+      "words": []
+    },
+    {
+      "start": 1616.38,
+      "end": 1621.54,
+      "text": "files inside Revit was creating time-consuming bottlenecks.",
+      "words": []
+    },
+    {
+      "start": 1621.54,
+      "end": 1626.58,
+      "text": "Now when the files arrive, their teams use the IFC connector to turn them into clean data",
+      "words": []
+    },
+    {
+      "start": 1626.58,
+      "end": 1631.02,
+      "text": "which can be loaded into Revit for documentation.",
+      "words": []
+    },
+    {
+      "start": 1631.02,
+      "end": 1637.46,
+      "text": "Or look at DuriverMir, one of the most innovative construction companies located right here",
+      "words": []
+    },
+    {
+      "start": 1637.46,
+      "end": 1640.1799999999998,
+      "text": "in the Netherlands.",
+      "words": []
+    },
+    {
+      "start": 1640.1799999999998,
+      "end": 1645.1399999999999,
+      "text": "They are using the AC data model and data exchange ecosystem to build structured, reusable design",
+      "words": []
+    },
+    {
+      "start": 1645.1399999999999,
+      "end": 1649.82,
+      "text": "data that can inform model checks and dashboards.",
+      "words": []
+    },
+    {
+      "start": 1649.82,
+      "end": 1656.82,
+      "text": "That means earlier, smarter decisions across every project.",
+      "words": []
+    },
+    {
+      "start": 1656.82,
+      "end": 1663.22,
+      "text": "And as powerful as these connectors are, they are only the beginning of what true interoperability",
+      "words": []
+    },
+    {
+      "start": 1663.22,
+      "end": 1665.7,
+      "text": "can unlock.",
+      "words": []
+    },
+    {
+      "start": 1665.7,
+      "end": 1667.34,
+      "text": "Quick check.",
+      "words": []
+    },
+    {
+      "start": 1667.34,
+      "end": 1671.22,
+      "text": "How many of you feel like you spend too much time in meetings?",
+      "words": []
+    },
+    {
+      "start": 1671.22,
+      "end": 1675.98,
+      "text": "Okay, anyone who doesn't have the hand up, please come talk to me after the conference.",
+      "words": []
+    },
+    {
+      "start": 1675.98,
+      "end": 1678.8999999999999,
+      "text": "I need to learn what you are doing.",
+      "words": []
+    },
+    {
+      "start": 1678.9,
+      "end": 1683.9,
+      "text": "But if you're like me, the meetings that are most satisfying are the ones where we are",
+      "words": []
+    },
+    {
+      "start": 1683.9,
+      "end": 1686.5,
+      "text": "actually getting something done.",
+      "words": []
+    },
+    {
+      "start": 1686.5,
+      "end": 1689.94,
+      "text": "Not assigning tasks but completing them.",
+      "words": []
+    },
+    {
+      "start": 1689.94,
+      "end": 1698.8200000000002,
+      "text": "And that is why I am so excited to share with you all an early look at data exchange life.",
+      "words": []
+    },
+    {
+      "start": 1698.8200000000002,
+      "end": 1703.1000000000001,
+      "text": "This is a chance to see evolution in real time.",
+      "words": []
+    },
+    {
+      "start": 1703.1000000000001,
+      "end": 1708.7,
+      "text": "DX Live brings streaming interoperability directly into your workflows.",
+      "words": []
+    },
+    {
+      "start": 1708.7,
+      "end": 1714.38,
+      "text": "As you can see, when someone makes the changes in Rino, the user in Revit can see those updates",
+      "words": []
+    },
+    {
+      "start": 1714.38,
+      "end": 1716.46,
+      "text": "seamlessly.",
+      "words": []
+    },
+    {
+      "start": 1716.46,
+      "end": 1722.18,
+      "text": "This means teams can resolve clashes together, see updates in seconds, and close out entire",
+      "words": []
+    },
+    {
+      "start": 1722.18,
+      "end": 1725.94,
+      "text": "issue sets in a single working session.",
+      "words": []
+    },
+    {
+      "start": 1725.94,
+      "end": 1729.74,
+      "text": "All in their tool of choice.",
+      "words": []
+    },
+    {
+      "start": 1729.74,
+      "end": 1735.22,
+      "text": "Downstream reporting evolves into a live shared experience where your data, models, and decisions",
+      "words": []
+    },
+    {
+      "start": 1735.22,
+      "end": 1739.38,
+      "text": "can all move at the same speed.",
+      "words": []
+    },
+    {
+      "start": 1739.38,
+      "end": 1745.02,
+      "text": "This is what fewer meetings on your calendar looks like.",
+      "words": []
+    },
+    {
+      "start": 1745.02,
+      "end": 1749.7,
+      "text": "And that sets the stage for the next evolution.",
+      "words": []
+    },
+    {
+      "start": 1749.7,
+      "end": 1756.22,
+      "text": "Data that is not just connected but fully accessible to AI that can act on it.",
+      "words": []
+    },
+    {
+      "start": 1756.22,
+      "end": 1761.78,
+      "text": "Accessible data shifts the center of gravity in your workflow from managing information",
+      "words": []
+    },
+    {
+      "start": 1761.78,
+      "end": 1765.42,
+      "text": "to making your data work for you.",
+      "words": []
+    },
+    {
+      "start": 1765.42,
+      "end": 1771.5,
+      "text": "Nowhere is that more important in places where public utility and safety depends on getting",
+      "words": []
+    },
+    {
+      "start": 1771.5,
+      "end": 1774.3799999999999,
+      "text": "decisions right.",
+      "words": []
+    },
+    {
+      "start": 1774.3799999999999,
+      "end": 1780.62,
+      "text": "That is exactly what one customer Singapore is working on today.",
+      "words": []
+    },
+    {
+      "start": 1780.62,
+      "end": 1783.3799999999999,
+      "text": "For building construction authority.",
+      "words": []
+    },
+    {
+      "start": 1783.3799999999999,
+      "end": 1785.82,
+      "text": "Reliable data isn't just helpful.",
+      "words": []
+    },
+    {
+      "start": 1785.82,
+      "end": 1788.1,
+      "text": "It is essential.",
+      "words": []
+    },
+    {
+      "start": 1788.1,
+      "end": 1792.3799999999999,
+      "text": "To tell us more about how they are turning their data into solutions, I would like to invite",
+      "words": []
+    },
+    {
+      "start": 1792.3799999999999,
+      "end": 1804.62,
+      "text": "BC as deputy CEO, TechTie, hang to the stage.",
+      "words": []
+    },
+    {
+      "start": 1804.62,
+      "end": 1808.6599999999999,
+      "text": "After months of seeing you on a Zoom screen, it is great to be here in person with you.",
+      "words": []
+    },
+    {
+      "start": 1808.6599999999999,
+      "end": 1809.6599999999999,
+      "text": "Absolutely.",
+      "words": []
+    },
+    {
+      "start": 1809.6599999999999,
+      "end": 1811.6599999999999,
+      "text": "Likewise.",
+      "words": []
+    },
+    {
+      "start": 1812.66,
+      "end": 1815.66,
+      "text": "So, Tech, welcome.",
+      "words": []
+    },
+    {
+      "start": 1815.66,
+      "end": 1820.78,
+      "text": "Can you tell the audience a little bit about BC as mission and what kind of projects you work",
+      "words": []
+    },
+    {
+      "start": 1820.78,
+      "end": 1821.78,
+      "text": "on?",
+      "words": []
+    },
+    {
+      "start": 1821.78,
+      "end": 1822.78,
+      "text": "Right.",
+      "words": []
+    },
+    {
+      "start": 1822.78,
+      "end": 1825.74,
+      "text": "So BCA is a government agency in Singapore.",
+      "words": []
+    },
+    {
+      "start": 1825.74,
+      "end": 1829.18,
+      "text": "And at BCA, our mission is twofold.",
+      "words": []
+    },
+    {
+      "start": 1829.18,
+      "end": 1834.02,
+      "text": "One is to make sure that Singapore's built environment is safe and code compliant and",
+      "words": []
+    },
+    {
+      "start": 1834.02,
+      "end": 1837.3000000000002,
+      "text": "to make sure that it is so future-ready.",
+      "words": []
+    },
+    {
+      "start": 1837.3000000000002,
+      "end": 1839.74,
+      "text": "Let me speed you through some history.",
+      "words": []
+    },
+    {
+      "start": 1839.74,
+      "end": 1845.34,
+      "text": "In 2013, BCA has been championing industry-wide adoption of BIM.",
+      "words": []
+    },
+    {
+      "start": 1845.34,
+      "end": 1851.06,
+      "text": "Three weeks ago in Singapore, Autodesk former received its BSI kind-mark certification that",
+      "words": []
+    },
+    {
+      "start": 1851.06,
+      "end": 1856.98,
+      "text": "recognises its support for ISO 19650 standards, workflows and functionality.",
+      "words": []
+    },
+    {
+      "start": 1856.98,
+      "end": 1857.98,
+      "text": "Nice.",
+      "words": []
+    },
+    {
+      "start": 1857.98,
+      "end": 1865.5,
+      "text": "BSI has also developed an ISO 19650 Singapore National NX to support its use case in Singapore.",
+      "words": []
+    },
+    {
+      "start": 1865.5,
+      "end": 1870.98,
+      "text": "So Singapore is now moving into mandated 3D model-based regulatory approvals called",
+      "words": []
+    },
+    {
+      "start": 1870.98,
+      "end": 1873.22,
+      "text": "CONNETX.",
+      "words": []
+    },
+    {
+      "start": 1873.22,
+      "end": 1879.22,
+      "text": "CONNETX sits at the intersection of policy, technology and industry transformation, bringing",
+      "words": []
+    },
+    {
+      "start": 1879.22,
+      "end": 1885.18,
+      "text": "together multiple public agencies and the industry into a single trusted digital process for",
+      "words": []
+    },
+    {
+      "start": 1885.18,
+      "end": 1886.58,
+      "text": "building approvals.",
+      "words": []
+    },
+    {
+      "start": 1886.58,
+      "end": 1887.58,
+      "text": "I see.",
+      "words": []
+    },
+    {
+      "start": 1887.58,
+      "end": 1892.7,
+      "text": "So, when you're dealing with this level of complexity, what are the challenges you face",
+      "words": []
+    },
+    {
+      "start": 1892.7,
+      "end": 1895.5800000000002,
+      "text": "when it comes to coordination and compliance?",
+      "words": []
+    },
+    {
+      "start": 1895.5800000000002,
+      "end": 1898.78,
+      "text": "Well, let me give everybody an idea.",
+      "words": []
+    },
+    {
+      "start": 1898.78,
+      "end": 1905.14,
+      "text": "So for CONNETX, we work with six other government agencies and each of us are responsible for",
+      "words": []
+    },
+    {
+      "start": 1905.14,
+      "end": 1907.7,
+      "text": "an aspect of the build environment.",
+      "words": []
+    },
+    {
+      "start": 1907.7,
+      "end": 1912.98,
+      "text": "When we commence the CONNETX project, we realise that all together among seven agencies,",
+      "words": []
+    },
+    {
+      "start": 1912.98,
+      "end": 1917.5,
+      "text": "we have 6,000 rules of which 4,000 are deterministic.",
+      "words": []
+    },
+    {
+      "start": 1917.5,
+      "end": 1922.06,
+      "text": "On the other hand, the 3D models need to be coordinated and federated between the",
+      "words": []
+    },
+    {
+      "start": 1922.1,
+      "end": 1927.02,
+      "text": "architects, civil and structural engineers and the mechanical and electrical engineers",
+      "words": []
+    },
+    {
+      "start": 1927.02,
+      "end": 1932.74,
+      "text": "approved by the developers and ideally blessed by the builders before submitting the CONNETX",
+      "words": []
+    },
+    {
+      "start": 1932.74,
+      "end": 1935.7,
+      "text": "for approval by the authorities.",
+      "words": []
+    },
+    {
+      "start": 1935.7,
+      "end": 1940.34,
+      "text": "Imagine the cognitive load on the designers and the offices.",
+      "words": []
+    },
+    {
+      "start": 1940.34,
+      "end": 1946.26,
+      "text": "To assist our developers and processing offices, we need a model checker.",
+      "words": []
+    },
+    {
+      "start": 1946.26,
+      "end": 1949.98,
+      "text": "This is the holy grill of our BIM modelling world.",
+      "words": []
+    },
+    {
+      "start": 1949.98,
+      "end": 1953.5,
+      "text": "Those models that are not compliant cannot be built.",
+      "words": []
+    },
+    {
+      "start": 1953.5,
+      "end": 1954.5,
+      "text": "Yeah.",
+      "words": []
+    },
+    {
+      "start": 1954.5,
+      "end": 1957.5,
+      "text": "So, and I know you're working with Autodesk to solving this problem.",
+      "words": []
+    },
+    {
+      "start": 1957.5,
+      "end": 1959.3,
+      "text": "Can you tell us more about that?",
+      "words": []
+    },
+    {
+      "start": 1959.3,
+      "end": 1964.5,
+      "text": "So it turns out that the CONNETX mandate to force everybody to use 3D BIM models for the",
+      "words": []
+    },
+    {
+      "start": 1964.5,
+      "end": 1965.5,
+      "text": "process.",
+      "words": []
+    },
+    {
+      "start": 1965.5,
+      "end": 1969.94,
+      "text": "It actually lays the conditions of outcome-based BIM.",
+      "words": []
+    },
+    {
+      "start": 1969.94,
+      "end": 1973.7,
+      "text": "Now, the REVIT 3D models are very rich in data.",
+      "words": []
+    },
+    {
+      "start": 1973.7,
+      "end": 1979.14,
+      "text": "An extraction of that data was really given a legum with the launch of the AAC data model.",
+      "words": []
+    },
+    {
+      "start": 1979.14,
+      "end": 1982.94,
+      "text": "The data will fill the Autodesk assistant.",
+      "words": []
+    },
+    {
+      "start": 1982.94,
+      "end": 1988.8600000000001,
+      "text": "Now our big hairy audacious goal is to really let the system do what humans cannot and automated",
+      "words": []
+    },
+    {
+      "start": 1988.8600000000001,
+      "end": 1995.0600000000002,
+      "text": "model checker to consistently check thousands of deterministic rules across every submitted",
+      "words": []
+    },
+    {
+      "start": 1995.0600000000002,
+      "end": 1996.7,
+      "text": "model.",
+      "words": []
+    },
+    {
+      "start": 1996.7,
+      "end": 2002.66,
+      "text": "So this allows our processing officers to focus on judgment and accountability and delivering",
+      "words": []
+    },
+    {
+      "start": 2002.66,
+      "end": 2008.18,
+      "text": "a consolidated response within 20 working days while accommodating, let's face it, our",
+      "words": []
+    },
+    {
+      "start": 2008.18,
+      "end": 2011.7,
+      "text": "architects out there who still love to ship spaces a little bit too creatively.",
+      "words": []
+    },
+    {
+      "start": 2011.7,
+      "end": 2019.5,
+      "text": "So, if you can achieve that, it is conceivable that an automated model checker that is embedded",
+      "words": []
+    },
+    {
+      "start": 2019.5,
+      "end": 2026.1000000000001,
+      "text": "into a generative design engine can one-day generate models which are truly born compliant.",
+      "words": []
+    },
+    {
+      "start": 2026.1000000000001,
+      "end": 2031.66,
+      "text": "For now, we will just settle for faster approvals, faster reviews, higher confidence in our",
+      "words": []
+    },
+    {
+      "start": 2031.66,
+      "end": 2035.94,
+      "text": "outcomes, and no compromise on quality and regulatory rigor.",
+      "words": []
+    },
+    {
+      "start": 2035.94,
+      "end": 2036.94,
+      "text": "Wow.",
+      "words": []
+    },
+    {
+      "start": 2036.94,
+      "end": 2040.98,
+      "text": "So, that's the only way I can sign up for.",
+      "words": []
+    },
+    {
+      "start": 2040.98,
+      "end": 2046.14,
+      "text": "So last but not the least, for folks in the audience who are facing similar challenges,",
+      "words": []
+    },
+    {
+      "start": 2046.14,
+      "end": 2047.66,
+      "text": "where should this start?",
+      "words": []
+    },
+    {
+      "start": 2047.66,
+      "end": 2053.06,
+      "text": "Well, a few independent estimates placed the market size of this opportunity at between",
+      "words": []
+    },
+    {
+      "start": 2053.06,
+      "end": 2057.66,
+      "text": "$100 million to a few hundred million dollars in Singapore alone.",
+      "words": []
+    },
+    {
+      "start": 2057.66,
+      "end": 2063.02,
+      "text": "With the Singapore agencies organized now to help you be a partner to tackle this complex",
+      "words": []
+    },
+    {
+      "start": 2063.02,
+      "end": 2068.62,
+      "text": "problem and the strategic partnership between Autodesk and BCA, we really hope to present",
+      "words": []
+    },
+    {
+      "start": 2068.62,
+      "end": 2073.86,
+      "text": "the flywheel to all of you in the audience for you to plug into, to develop, test, and",
+      "words": []
+    },
+    {
+      "start": 2073.86,
+      "end": 2078.1,
+      "text": "launch your tools, perhaps on the design and make marketplace.",
+      "words": []
+    },
+    {
+      "start": 2078.1,
+      "end": 2083.5,
+      "text": "So well, AI tech is evolving rapidly and what once felt like a moonshot is really now within",
+      "words": []
+    },
+    {
+      "start": 2083.5,
+      "end": 2084.5,
+      "text": "beach.",
+      "words": []
+    },
+    {
+      "start": 2084.5,
+      "end": 2085.5,
+      "text": "Indeed.",
+      "words": []
+    },
+    {
+      "start": 2085.5,
+      "end": 2086.5,
+      "text": "Indeed.",
+      "words": []
+    },
+    {
+      "start": 2086.5,
+      "end": 2089.58,
+      "text": "Thank you, Tech, for your time here today and for those of you wanting to learn more,",
+      "words": []
+    },
+    {
+      "start": 2089.58,
+      "end": 2091.58,
+      "text": "check out BCS class during DevCon.",
+      "words": []
+    },
+    {
+      "start": 2091.58,
+      "end": 2092.58,
+      "text": "Yeah.",
+      "words": []
+    },
+    {
+      "start": 2092.58,
+      "end": 2093.58,
+      "text": "Looking forward to seeing you guys there.",
+      "words": []
+    },
+    {
+      "start": 2093.58,
+      "end": 2094.58,
+      "text": "Thank you.",
+      "words": []
+    },
+    {
+      "start": 2094.58,
+      "end": 2095.58,
+      "text": "Thank you.",
+      "words": []
+    },
+    {
+      "start": 2095.58,
+      "end": 2096.58,
+      "text": "Thank you.",
+      "words": []
+    },
+    {
+      "start": 2096.58,
+      "end": 2108.74,
+      "text": "For centuries, great engineering has thrived on one principle.",
+      "words": []
+    },
+    {
+      "start": 2108.74,
+      "end": 2111.74,
+      "text": "Design to adapt.",
+      "words": []
+    },
+    {
+      "start": 2111.74,
+      "end": 2117.2599999999998,
+      "text": "The success of intelligent workflows won't be defined by flash AI features, but by the",
+      "words": []
+    },
+    {
+      "start": 2117.26,
+      "end": 2122.0600000000004,
+      "text": "foundation of structured data that you will build.",
+      "words": []
+    },
+    {
+      "start": 2122.0600000000004,
+      "end": 2129.5800000000004,
+      "text": "This is your opportunity to build that foundation, grow the ecosystem, and scale your impact.",
+      "words": []
+    },
+    {
+      "start": 2129.5800000000004,
+      "end": 2136.42,
+      "text": "Next year, you could be the one on stage telling us all what is possible.",
+      "words": []
+    },
+    {
+      "start": 2136.42,
+      "end": 2140.6600000000003,
+      "text": "Now that we have talked about building the foundation, the next step is understanding",
+      "words": []
+    },
+    {
+      "start": 2140.6600000000003,
+      "end": 2144.0600000000004,
+      "text": "how your work gets discovered and used.",
+      "words": []
+    },
+    {
+      "start": 2144.06,
+      "end": 2148.1,
+      "text": "And there's no one better to talk about it than Vikram.",
+      "words": []
+    },
+    {
+      "start": 2148.1,
+      "end": 2154.1,
+      "text": "Vikram began as an engineer and now he brings the same lens to analyze how AI is reshaping",
+      "words": []
+    },
+    {
+      "start": 2154.1,
+      "end": 2156.98,
+      "text": "consumer behavior and marketing.",
+      "words": []
+    },
+    {
+      "start": 2156.98,
+      "end": 2161.18,
+      "text": "Vikram, take it away.",
+      "words": []
+    },
+    {
+      "start": 2161.18,
+      "end": 2164.18,
+      "text": "Yes.",
+      "words": []
+    },
+    {
+      "start": 2164.18,
+      "end": 2167.18,
+      "text": "Yes.",
+      "words": []
+    },
+    {
+      "start": 2167.18,
+      "end": 2168.18,
+      "text": "Yes.",
+      "words": []
+    },
+    {
+      "start": 2168.18,
+      "end": 2169.18,
+      "text": "Yes.",
+      "words": []
+    },
+    {
+      "start": 2169.18,
+      "end": 2170.18,
+      "text": "Thanks, Shelley.",
+      "words": []
+    },
+    {
+      "start": 2170.18,
+      "end": 2173.18,
+      "text": "You do look good in red.",
+      "words": []
+    },
+    {
+      "start": 2173.18,
+      "end": 2174.18,
+      "text": "He's right.",
+      "words": []
+    },
+    {
+      "start": 2174.18,
+      "end": 2180.74,
+      "text": "I started my career as a software engineer building a virtual reality toolkit that worked",
+      "words": []
+    },
+    {
+      "start": 2180.74,
+      "end": 2185.14,
+      "text": "across multiple operating systems and headsets.",
+      "words": []
+    },
+    {
+      "start": 2185.14,
+      "end": 2187.3799999999997,
+      "text": "Now this was the 90s.",
+      "words": []
+    },
+    {
+      "start": 2187.3799999999997,
+      "end": 2191.8999999999996,
+      "text": "640 by 480 was best in class resolution.",
+      "words": []
+    },
+    {
+      "start": 2191.8999999999996,
+      "end": 2196.18,
+      "text": "And Vertigo, that was essentially a core feature.",
+      "words": []
+    },
+    {
+      "start": 2196.18,
+      "end": 2202.46,
+      "text": "So let's just say that experience accelerated my move into marketing.",
+      "words": []
+    },
+    {
+      "start": 2202.46,
+      "end": 2205.18,
+      "text": "And it also taught me something.",
+      "words": []
+    },
+    {
+      "start": 2205.18,
+      "end": 2212.18,
+      "text": "Engineering builds the tools how people discover and use them determines whether they succeed.",
+      "words": []
+    },
+    {
+      "start": 2212.18,
+      "end": 2216.02,
+      "text": "And now these two are directly connected.",
+      "words": []
+    },
+    {
+      "start": 2216.02,
+      "end": 2218.1,
+      "text": "So let me start with a quick question.",
+      "words": []
+    },
+    {
+      "start": 2218.1,
+      "end": 2222.98,
+      "text": "Quick show of hands, how many of you are mostly using chat GPT or the AI answer on Google",
+      "words": []
+    },
+    {
+      "start": 2222.98,
+      "end": 2226.5,
+      "text": "instead of clicking on all those links in Google search?",
+      "words": []
+    },
+    {
+      "start": 2226.5,
+      "end": 2228.5,
+      "text": "Let's see.",
+      "words": []
+    },
+    {
+      "start": 2228.5,
+      "end": 2229.5,
+      "text": "Let's see.",
+      "words": []
+    },
+    {
+      "start": 2229.5,
+      "end": 2231.7,
+      "text": "A lot of hands.",
+      "words": []
+    },
+    {
+      "start": 2231.7,
+      "end": 2235.1,
+      "text": "This is what we are seeing everywhere.",
+      "words": []
+    },
+    {
+      "start": 2235.1,
+      "end": 2236.98,
+      "text": "And the data backs it up too.",
+      "words": []
+    },
+    {
+      "start": 2236.98,
+      "end": 2243.18,
+      "text": "I want to share a sneak peek from a 2026 spotlight report on AI.",
+      "words": []
+    },
+    {
+      "start": 2243.18,
+      "end": 2250.7,
+      "text": "So out of the 2500 industry leaders we benchmarked, 98% are already using AI tools.",
+      "words": []
+    },
+    {
+      "start": 2250.7,
+      "end": 2255.02,
+      "text": "98% but here's the catch.",
+      "words": []
+    },
+    {
+      "start": 2255.02,
+      "end": 2261.3799999999997,
+      "text": "Only 19% have actually integrated AI into their core workflows.",
+      "words": []
+    },
+    {
+      "start": 2261.38,
+      "end": 2264.9,
+      "text": "Half-CAP tells us something important.",
+      "words": []
+    },
+    {
+      "start": 2264.9,
+      "end": 2271.6600000000003,
+      "text": "Consumer behavior has already changed but how we built hasn't caught up yet.",
+      "words": []
+    },
+    {
+      "start": 2271.6600000000003,
+      "end": 2277.58,
+      "text": "For a long time the question, how do people discover and use what we build was mostly a marketing",
+      "words": []
+    },
+    {
+      "start": 2277.58,
+      "end": 2278.94,
+      "text": "question.",
+      "words": []
+    },
+    {
+      "start": 2278.94,
+      "end": 2282.5,
+      "text": "Now it's a developer question too.",
+      "words": []
+    },
+    {
+      "start": 2282.5,
+      "end": 2288.46,
+      "text": "Because the way people find and use things has fundamentally changed.",
+      "words": []
+    },
+    {
+      "start": 2288.46,
+      "end": 2297.06,
+      "text": "From searching to simply asking, from defining steps to defining outcomes and then getting",
+      "words": []
+    },
+    {
+      "start": 2297.06,
+      "end": 2298.58,
+      "text": "them done.",
+      "words": []
+    },
+    {
+      "start": 2298.58,
+      "end": 2301.18,
+      "text": "Look, this change isn't coming folks.",
+      "words": []
+    },
+    {
+      "start": 2301.18,
+      "end": 2303.62,
+      "text": "It's already here.",
+      "words": []
+    },
+    {
+      "start": 2303.62,
+      "end": 2306.9,
+      "text": "Organic traffic from Google has dropped across B2B.",
+      "words": []
+    },
+    {
+      "start": 2306.9,
+      "end": 2312.98,
+      "text": "In some sectors it's reported to be down by almost 70 to 80%.",
+      "words": []
+    },
+    {
+      "start": 2312.98,
+      "end": 2317.86,
+      "text": "In and company reports that click through rates for B2B software categories are down as",
+      "words": []
+    },
+    {
+      "start": 2317.86,
+      "end": 2320.5,
+      "text": "much as 30%.",
+      "words": []
+    },
+    {
+      "start": 2320.5,
+      "end": 2322.82,
+      "text": "And look, our address is in the moon.",
+      "words": []
+    },
+    {
+      "start": 2322.82,
+      "end": 2325.14,
+      "text": "We are seeing it in our numbers too.",
+      "words": []
+    },
+    {
+      "start": 2325.14,
+      "end": 2332.58,
+      "text": "We are having to rethink how we show up, how we get discovered, how we get used.",
+      "words": []
+    },
+    {
+      "start": 2332.58,
+      "end": 2334.62,
+      "text": "So I would challenge all of you.",
+      "words": []
+    },
+    {
+      "start": 2334.62,
+      "end": 2341.38,
+      "text": "Are you building for how people used to work or how they work today?",
+      "words": []
+    },
+    {
+      "start": 2341.38,
+      "end": 2345.9,
+      "text": "So I'm here to break down what's changing and how to build for it.",
+      "words": []
+    },
+    {
+      "start": 2345.9,
+      "end": 2349.06,
+      "text": "So we're going to walk through three key shifts.",
+      "words": []
+    },
+    {
+      "start": 2349.06,
+      "end": 2357.06,
+      "text": "First, how discovery is evolving, how orchestration is reshaping, how work gets done, and then",
+      "words": []
+    },
+    {
+      "start": 2357.06,
+      "end": 2361.7400000000002,
+      "text": "how distribution determines where you show up.",
+      "words": []
+    },
+    {
+      "start": 2361.7400000000002,
+      "end": 2367.34,
+      "text": "Understand these changes and you can build for how work happens today.",
+      "words": []
+    },
+    {
+      "start": 2367.34,
+      "end": 2371.02,
+      "text": "The teams that move early won't just adapt.",
+      "words": []
+    },
+    {
+      "start": 2371.02,
+      "end": 2374.26,
+      "text": "They will define what comes next.",
+      "words": []
+    },
+    {
+      "start": 2374.26,
+      "end": 2376.78,
+      "text": "All right, so are we ready?",
+      "words": []
+    },
+    {
+      "start": 2376.78,
+      "end": 2378.58,
+      "text": "Let's talk about discovery.",
+      "words": []
+    },
+    {
+      "start": 2378.58,
+      "end": 2381.9,
+      "text": "For a long time discovery works through search.",
+      "words": []
+    },
+    {
+      "start": 2381.9,
+      "end": 2387.54,
+      "text": "You would get a list of links, click through a few, and then pick one.",
+      "words": []
+    },
+    {
+      "start": 2387.54,
+      "end": 2389.98,
+      "text": "That's not what people expect anymore.",
+      "words": []
+    },
+    {
+      "start": 2389.98,
+      "end": 2397.2200000000003,
+      "text": "Now people ask a question and they expect a recommendation right away in context inside",
+      "words": []
+    },
+    {
+      "start": 2397.22,
+      "end": 2400.06,
+      "text": "the tool they're already using.",
+      "words": []
+    },
+    {
+      "start": 2400.06,
+      "end": 2405.06,
+      "text": "And that answer is increasingly generated by AI.",
+      "words": []
+    },
+    {
+      "start": 2405.06,
+      "end": 2409.66,
+      "text": "Which changes the game, not just today, but for what comes next.",
+      "words": []
+    },
+    {
+      "start": 2409.66,
+      "end": 2413.9399999999996,
+      "text": "You are no longer optimizing for ranking.",
+      "words": []
+    },
+    {
+      "start": 2413.9399999999996,
+      "end": 2417.8999999999996,
+      "text": "You are optimizing to be the answer.",
+      "words": []
+    },
+    {
+      "start": 2417.8999999999996,
+      "end": 2419.54,
+      "text": "So let me make that real.",
+      "words": []
+    },
+    {
+      "start": 2419.54,
+      "end": 2422.5,
+      "text": "Imagine a developer asking an AI tool.",
+      "words": []
+    },
+    {
+      "start": 2422.5,
+      "end": 2427.18,
+      "text": "What tool can I use to design a component, maybe automated workflow?",
+      "words": []
+    },
+    {
+      "start": 2427.18,
+      "end": 2430.8199999999997,
+      "text": "Or analyze a model?",
+      "words": []
+    },
+    {
+      "start": 2430.8199999999997,
+      "end": 2436.62,
+      "text": "In the old world, whether you showed up dependent on SEO and ranking.",
+      "words": []
+    },
+    {
+      "start": 2436.62,
+      "end": 2441.46,
+      "text": "If you did that well, you had a shot at getting clicked.",
+      "words": []
+    },
+    {
+      "start": 2441.46,
+      "end": 2449.5,
+      "text": "But in this new world, AI tools, chat, GPT, Claude, Gemini, audit assistant, return answers.",
+      "words": []
+    },
+    {
+      "start": 2449.5,
+      "end": 2452.58,
+      "text": "No second chances.",
+      "words": []
+    },
+    {
+      "start": 2452.58,
+      "end": 2457.7799999999997,
+      "text": "Which means the AI tool has to understand your capability and trust it enough to include",
+      "words": []
+    },
+    {
+      "start": 2457.7799999999997,
+      "end": 2459.5,
+      "text": "it.",
+      "words": []
+    },
+    {
+      "start": 2459.5,
+      "end": 2465.42,
+      "text": "That's what generative engine optimization or GEO is all about.",
+      "words": []
+    },
+    {
+      "start": 2465.42,
+      "end": 2473.14,
+      "text": "So as Shelley said earlier, this only works when grounded in expertise and reliable data.",
+      "words": []
+    },
+    {
+      "start": 2473.14,
+      "end": 2476.34,
+      "text": "Look in these workflows, something has to be chosen.",
+      "words": []
+    },
+    {
+      "start": 2476.34,
+      "end": 2481.14,
+      "text": "And the answer that gets chosen gets used.",
+      "words": []
+    },
+    {
+      "start": 2481.14,
+      "end": 2484.06,
+      "text": "You can be that answer.",
+      "words": []
+    },
+    {
+      "start": 2484.06,
+      "end": 2487.18,
+      "text": "Look AI tools learn the same way developers do.",
+      "words": []
+    },
+    {
+      "start": 2487.18,
+      "end": 2493.22,
+      "text": "From articles, documentation, code, and real examples of how things are used.",
+      "words": []
+    },
+    {
+      "start": 2493.22,
+      "end": 2495.7799999999997,
+      "text": "Which is good news.",
+      "words": []
+    },
+    {
+      "start": 2495.7799999999997,
+      "end": 2499.02,
+      "text": "The system rewards what actually works.",
+      "words": []
+    },
+    {
+      "start": 2499.02,
+      "end": 2501.14,
+      "text": "Not just what ranks.",
+      "words": []
+    },
+    {
+      "start": 2501.14,
+      "end": 2507.8199999999997,
+      "text": "To make sure you show up as the answer, be clear about what your capability does.",
+      "words": []
+    },
+    {
+      "start": 2507.82,
+      "end": 2511.42,
+      "text": "There are real examples that actually work.",
+      "words": []
+    },
+    {
+      "start": 2511.42,
+      "end": 2517.2200000000003,
+      "text": "Be present where developers and customers solve problems, including community forums and",
+      "words": []
+    },
+    {
+      "start": 2517.2200000000003,
+      "end": 2519.5800000000004,
+      "text": "discussions.",
+      "words": []
+    },
+    {
+      "start": 2519.5800000000004,
+      "end": 2523.1800000000003,
+      "text": "Now discovery is only the first step.",
+      "words": []
+    },
+    {
+      "start": 2523.1800000000003,
+      "end": 2526.34,
+      "text": "The next step is orchestration.",
+      "words": []
+    },
+    {
+      "start": 2526.34,
+      "end": 2531.6600000000003,
+      "text": "How your capability gets chosen and used as part of a workflow.",
+      "words": []
+    },
+    {
+      "start": 2531.6600000000003,
+      "end": 2535.86,
+      "text": "Now in this world, orchestration starts with intent.",
+      "words": []
+    },
+    {
+      "start": 2535.86,
+      "end": 2542.38,
+      "text": "Instead of looking for tools or designing solutions step by step, users are simply expressing",
+      "words": []
+    },
+    {
+      "start": 2542.38,
+      "end": 2545.9,
+      "text": "what they want done and the outcome they're looking for.",
+      "words": []
+    },
+    {
+      "start": 2545.9,
+      "end": 2549.78,
+      "text": "They might say, optimize this design.",
+      "words": []
+    },
+    {
+      "start": 2549.78,
+      "end": 2551.94,
+      "text": "Analyze this model.",
+      "words": []
+    },
+    {
+      "start": 2551.94,
+      "end": 2554.78,
+      "text": "Have a stroke waffle delivered to my hotel.",
+      "words": []
+    },
+    {
+      "start": 2554.78,
+      "end": 2555.78,
+      "text": "I did that.",
+      "words": []
+    },
+    {
+      "start": 2555.78,
+      "end": 2557.98,
+      "text": "It was delicious.",
+      "words": []
+    },
+    {
+      "start": 2557.98,
+      "end": 2562.42,
+      "text": "And the AI tool decides what to do and how to do it.",
+      "words": []
+    },
+    {
+      "start": 2562.42,
+      "end": 2564.2200000000003,
+      "text": "So let me give you a real example.",
+      "words": []
+    },
+    {
+      "start": 2564.22,
+      "end": 2569.7,
+      "text": "The group of engineers at General Motors moved away from designing step by step and started",
+      "words": []
+    },
+    {
+      "start": 2569.7,
+      "end": 2572.3799999999997,
+      "text": "by defining the outcome.",
+      "words": []
+    },
+    {
+      "start": 2572.3799999999997,
+      "end": 2577.54,
+      "text": "So in designing a seatbelt attachment, they set constraints like weight, materials,",
+      "words": []
+    },
+    {
+      "start": 2577.54,
+      "end": 2579.1,
+      "text": "and manufacturability.",
+      "words": []
+    },
+    {
+      "start": 2579.1,
+      "end": 2582.5,
+      "text": "And they used Autodesk Generative Design.",
+      "words": []
+    },
+    {
+      "start": 2582.5,
+      "end": 2587.02,
+      "text": "In one case, age separate parts became one.",
+      "words": []
+    },
+    {
+      "start": 2587.02,
+      "end": 2588.66,
+      "text": "40% lighter.",
+      "words": []
+    },
+    {
+      "start": 2588.66,
+      "end": 2590.98,
+      "text": "20% stronger.",
+      "words": []
+    },
+    {
+      "start": 2590.98,
+      "end": 2593.3399999999997,
+      "text": "That's what intent looks like.",
+      "words": []
+    },
+    {
+      "start": 2593.34,
+      "end": 2598.1800000000003,
+      "text": "And it changes the role of the engineer and what we build as developers.",
+      "words": []
+    },
+    {
+      "start": 2598.1800000000003,
+      "end": 2604.7000000000003,
+      "text": "So as Ben said earlier, when the tools change, everything has to be recalibrated.",
+      "words": []
+    },
+    {
+      "start": 2604.7000000000003,
+      "end": 2608.34,
+      "text": "The job is no longer to design each component of the tool.",
+      "words": []
+    },
+    {
+      "start": 2608.34,
+      "end": 2613.54,
+      "text": "It's to define the outcome and guide the system to get there.",
+      "words": []
+    },
+    {
+      "start": 2613.54,
+      "end": 2616.34,
+      "text": "That's higher order work.",
+      "words": []
+    },
+    {
+      "start": 2616.34,
+      "end": 2621.6600000000003,
+      "text": "And for companies, that's where real value gets created, not in executing individual",
+      "words": []
+    },
+    {
+      "start": 2621.66,
+      "end": 2628.8999999999996,
+      "text": "steps, but in achieving better outcomes across the entire process.",
+      "words": []
+    },
+    {
+      "start": 2628.8999999999996,
+      "end": 2635.74,
+      "text": "Now, in the real world, that intent has to be carried across connected systems, orchestration",
+      "words": []
+    },
+    {
+      "start": 2635.74,
+      "end": 2641.7799999999997,
+      "text": "connects capabilities, data, and workflows to get that work done.",
+      "words": []
+    },
+    {
+      "start": 2641.7799999999997,
+      "end": 2647.1,
+      "text": "And that's exactly what Autodesk Platform Service is enables.",
+      "words": []
+    },
+    {
+      "start": 2647.1,
+      "end": 2649.7799999999997,
+      "text": "Now let me give you an example here, too.",
+      "words": []
+    },
+    {
+      "start": 2649.78,
+      "end": 2655.34,
+      "text": "From the Soetra Bridge project, Nour Consult was dealing with a massive coordination challenge.",
+      "words": []
+    },
+    {
+      "start": 2655.34,
+      "end": 2661.6600000000003,
+      "text": "Global teams, complex infrastructure, huge, huge volumes of data.",
+      "words": []
+    },
+    {
+      "start": 2661.6600000000003,
+      "end": 2666.6600000000003,
+      "text": "So instead of managing everything step by step, they connected the systems using Autodesk",
+      "words": []
+    },
+    {
+      "start": 2666.6600000000003,
+      "end": 2668.02,
+      "text": "Platform Services.",
+      "words": []
+    },
+    {
+      "start": 2668.02,
+      "end": 2673.98,
+      "text": "So design models, project data, visualization tools were all working from the same connected",
+      "words": []
+    },
+    {
+      "start": 2673.98,
+      "end": 2675.78,
+      "text": "environment.",
+      "words": []
+    },
+    {
+      "start": 2675.78,
+      "end": 2681.6600000000003,
+      "text": "You know at one point, over 60 million data points were being coordinated in real time,",
+      "words": []
+    },
+    {
+      "start": 2681.6600000000003,
+      "end": 2687.46,
+      "text": "not step by step, but across the entire workflow.",
+      "words": []
+    },
+    {
+      "start": 2687.46,
+      "end": 2690.7400000000002,
+      "text": "That's orchestration and action.",
+      "words": []
+    },
+    {
+      "start": 2690.7400000000002,
+      "end": 2696.78,
+      "text": "And what it shows is this, when your systems are connected like this and intent is expressed,",
+      "words": []
+    },
+    {
+      "start": 2696.78,
+      "end": 2702.42,
+      "text": "the work can get done faster, better, and at scale.",
+      "words": []
+    },
+    {
+      "start": 2702.42,
+      "end": 2704.78,
+      "text": "So what does this mean for all of you?",
+      "words": []
+    },
+    {
+      "start": 2704.78,
+      "end": 2709.38,
+      "text": "It means you need to build for this world.",
+      "words": []
+    },
+    {
+      "start": 2709.38,
+      "end": 2713.6600000000003,
+      "text": "Design reliable capabilities AI can understand.",
+      "words": []
+    },
+    {
+      "start": 2713.6600000000003,
+      "end": 2722.0600000000004,
+      "text": "Make sure they can plug into unified systems or platforms to be executed as part of a workflow.",
+      "words": []
+    },
+    {
+      "start": 2722.0600000000004,
+      "end": 2727.82,
+      "text": "And for those of you leading businesses, this means prioritizing connected systems and",
+      "words": []
+    },
+    {
+      "start": 2727.82,
+      "end": 2732.0600000000004,
+      "text": "structured data that allow that work to happen.",
+      "words": []
+    },
+    {
+      "start": 2733.06,
+      "end": 2739.18,
+      "text": "Okay, now let's talk about the final change, distribution.",
+      "words": []
+    },
+    {
+      "start": 2739.18,
+      "end": 2745.1,
+      "text": "Even if your capabilities really, it still has to show up where decisions happen.",
+      "words": []
+    },
+    {
+      "start": 2745.1,
+      "end": 2751.66,
+      "text": "To support you with this, as Raji mentioned, we are introducing the design and make marketplace.",
+      "words": []
+    },
+    {
+      "start": 2751.66,
+      "end": 2759.42,
+      "text": "It's a curated destination where customers can discover AI-powered agents, tools, and workflows.",
+      "words": []
+    },
+    {
+      "start": 2759.42,
+      "end": 2766.54,
+      "text": "In other words, a place where your capabilities can be used and discovered and used at scale.",
+      "words": []
+    },
+    {
+      "start": 2766.54,
+      "end": 2771.66,
+      "text": "We are also opening up Autodesk Assistant to third party MCPs.",
+      "words": []
+    },
+    {
+      "start": 2771.66,
+      "end": 2777.46,
+      "text": "Autodesk Assistant is how customers get done, get work done with AI inside Autodesk products",
+      "words": []
+    },
+    {
+      "start": 2777.46,
+      "end": 2782.98,
+      "text": "like Revit, AutoCAD Fusion, and many, many others.",
+      "words": []
+    },
+    {
+      "start": 2782.98,
+      "end": 2792.1,
+      "text": "This is where your capabilities show up at that exact moment of need inside real workflows.",
+      "words": []
+    },
+    {
+      "start": 2792.1,
+      "end": 2796.9,
+      "text": "This is how you win in the Agentec era.",
+      "words": []
+    },
+    {
+      "start": 2796.9,
+      "end": 2799.3,
+      "text": "Be the answer.",
+      "words": []
+    },
+    {
+      "start": 2799.3,
+      "end": 2806.02,
+      "text": "Turn intent into action and be chosen by the system.",
+      "words": []
+    },
+    {
+      "start": 2806.02,
+      "end": 2811.38,
+      "text": "Now, to show you what intent to action looks like in Autodesk Assistant today,",
+      "words": []
+    },
+    {
+      "start": 2811.38,
+      "end": 2815.06,
+      "text": "please welcome to the stage, Ritesh Pansar.",
+      "words": []
+    },
+    {
+      "start": 2815.06,
+      "end": 2819.06,
+      "text": "Yes.",
+      "words": []
+    },
+    {
+      "start": 2819.06,
+      "end": 2823.3,
+      "text": "Yes.",
+      "words": []
+    },
+    {
+      "start": 2823.3,
+      "end": 2825.46,
+      "text": "Thanks, Rikam.",
+      "words": []
+    },
+    {
+      "start": 2825.46,
+      "end": 2831.86,
+      "text": "As Shalee said earlier, we have been handed this magic wand without a user manual.",
+      "words": []
+    },
+    {
+      "start": 2831.86,
+      "end": 2836.26,
+      "text": "Creating that user manual is where I spend most of my time these days,",
+      "words": []
+    },
+    {
+      "start": 2836.26,
+      "end": 2840.9,
+      "text": "figuring out how to make it all work in real workflows.",
+      "words": []
+    },
+    {
+      "start": 2840.9,
+      "end": 2845.14,
+      "text": "And what you just heard about turning intent into action,",
+      "words": []
+    },
+    {
+      "start": 2845.14,
+      "end": 2848.98,
+      "text": "that's exactly what Autodesk Assistant is built to do.",
+      "words": []
+    },
+    {
+      "start": 2848.98,
+      "end": 2856.7400000000002,
+      "text": "How many of you in your day-to-day work are still jumping between tools and chasing information?",
+      "words": []
+    },
+    {
+      "start": 2856.7400000000002,
+      "end": 2858.82,
+      "text": "A lot of you, right?",
+      "words": []
+    },
+    {
+      "start": 2858.82,
+      "end": 2862.1800000000003,
+      "text": "And all of that work is necessary.",
+      "words": []
+    },
+    {
+      "start": 2862.1800000000003,
+      "end": 2866.1,
+      "text": "But it's not where your time should go.",
+      "words": []
+    },
+    {
+      "start": 2866.1,
+      "end": 2870.2599999999998,
+      "text": "You should be building designing solving real problems.",
+      "words": []
+    },
+    {
+      "start": 2871.54,
+      "end": 2874.1,
+      "text": "Assistant lets you move up the stack.",
+      "words": []
+    },
+    {
+      "start": 2875.22,
+      "end": 2879.06,
+      "text": "Instead of switching between tools and chasing down information,",
+      "words": []
+    },
+    {
+      "start": 2879.7,
+      "end": 2883.14,
+      "text": "you can just ask and get the work done.",
+      "words": []
+    },
+    {
+      "start": 2884.2599999999998,
+      "end": 2890.8199999999997,
+      "text": "Behind the scenes, Assistant acts as the orchestration layer, bringing together the right systems,",
+      "words": []
+    },
+    {
+      "start": 2890.9,
+      "end": 2895.94,
+      "text": "data and agents to understand your intent and turn it into action.",
+      "words": []
+    },
+    {
+      "start": 2896.82,
+      "end": 2903.86,
+      "text": "It's context-aware, secure by design and built to work across products so everything connects",
+      "words": []
+    },
+    {
+      "start": 2904.42,
+      "end": 2911.2200000000003,
+      "text": "without the friction. And because it's built on your existing data and workflows,",
+      "words": []
+    },
+    {
+      "start": 2911.78,
+      "end": 2913.86,
+      "text": "it fits how you already work.",
+      "words": []
+    },
+    {
+      "start": 2915.06,
+      "end": 2916.34,
+      "text": "But enough explaining it.",
+      "words": []
+    },
+    {
+      "start": 2917.3,
+      "end": 2919.86,
+      "text": "Let's see it in action in a couple of Autodesk products.",
+      "words": []
+    },
+    {
+      "start": 2920.82,
+      "end": 2921.7000000000003,
+      "text": "That's where the fun is.",
+      "words": []
+    },
+    {
+      "start": 2923.2200000000003,
+      "end": 2929.38,
+      "text": "Now let's imagine I am a project engineer working in Revit on a large campus project.",
+      "words": []
+    },
+    {
+      "start": 2930.34,
+      "end": 2933.3,
+      "text": "I need to create a complex door schedule.",
+      "words": []
+    },
+    {
+      "start": 2934.34,
+      "end": 2936.98,
+      "text": "Traditionally, that takes time.",
+      "words": []
+    },
+    {
+      "start": 2938.02,
+      "end": 2940.6600000000003,
+      "text": "Manual setup, multiple steps.",
+      "words": []
+    },
+    {
+      "start": 2941.54,
+      "end": 2942.34,
+      "text": "Now watch this.",
+      "words": []
+    },
+    {
+      "start": 2943.54,
+      "end": 2945.1400000000003,
+      "text": "This is not just a list.",
+      "words": []
+    },
+    {
+      "start": 2945.7799999999997,
+      "end": 2952.18,
+      "text": "I need to set up multiple parameters, align families and make sure everything groups correctly.",
+      "words": []
+    },
+    {
+      "start": 2953.06,
+      "end": 2955.2999999999997,
+      "text": "Now I just ask.",
+      "words": []
+    },
+    {
+      "start": 2956.18,
+      "end": 2960.66,
+      "text": "And in seconds, Assistant builds the full schedule for me.",
+      "words": []
+    },
+    {
+      "start": 2961.54,
+      "end": 2964.02,
+      "text": "Correct fields grouped properly.",
+      "words": []
+    },
+    {
+      "start": 2964.98,
+      "end": 2966.98,
+      "text": "No setup, no guesswork.",
+      "words": []
+    },
+    {
+      "start": 2967.7799999999997,
+      "end": 2970.3399999999997,
+      "text": "That's documentation done in seconds.",
+      "words": []
+    },
+    {
+      "start": 2971.3,
+      "end": 2974.5,
+      "text": "Now, let's take a look at Fusion.",
+      "words": []
+    },
+    {
+      "start": 2975.38,
+      "end": 2979.6200000000003,
+      "text": "For this, let's pretend I am a product designer preparing for a review.",
+      "words": []
+    },
+    {
+      "start": 2980.6600000000003,
+      "end": 2988.1800000000003,
+      "text": "The model is ready, but creating a visual usually means setup, exports and waiting.",
+      "words": []
+    },
+    {
+      "start": 2989.3,
+      "end": 2991.1400000000003,
+      "text": "Now I just ask.",
+      "words": []
+    },
+    {
+      "start": 2992.1800000000003,
+      "end": 2997.3,
+      "text": "And in seconds, I have review-ready images from my model.",
+      "words": []
+    },
+    {
+      "start": 2998.26,
+      "end": 3000.82,
+      "text": "No switching tools, no delay.",
+      "words": []
+    },
+    {
+      "start": 3002.6600000000003,
+      "end": 3012.5800000000004,
+      "text": "Across both workflows, this is the shift from time-consuming work to simply asking.",
+      "words": []
+    },
+    {
+      "start": 3013.86,
+      "end": 3019.46,
+      "text": "From thousands of data points to one informed decision in seconds.",
+      "words": []
+    },
+    {
+      "start": 3020.5,
+      "end": 3024.98,
+      "text": "That's Assistant across design and make data today.",
+      "words": []
+    },
+    {
+      "start": 3025.3,
+      "end": 3029.38,
+      "text": "And we are continuing to expand where Assistant shows up.",
+      "words": []
+    },
+    {
+      "start": 3029.38,
+      "end": 3035.7,
+      "text": "I am excited to announce that Assistant will be coming to Autodesk platform services.",
+      "words": []
+    },
+    {
+      "start": 3035.7,
+      "end": 3040.5,
+      "text": "It will help you take action with APS in new ways.",
+      "words": []
+    },
+    {
+      "start": 3040.5,
+      "end": 3044.66,
+      "text": "But Assistant doesn't stop with Autodesk.",
+      "words": []
+    },
+    {
+      "start": 3044.66,
+      "end": 3050.5,
+      "text": "There's deep domain expertise available outside the Autodesk ecosystem.",
+      "words": []
+    },
+    {
+      "start": 3050.5,
+      "end": 3053.54,
+      "text": "And that's where all of you come in.",
+      "words": []
+    },
+    {
+      "start": 3053.7,
+      "end": 3062.74,
+      "text": "Autodesk Assistant is agent-taking nature and able to call into third-party MCPs agents",
+      "words": []
+    },
+    {
+      "start": 3062.74,
+      "end": 3068.98,
+      "text": "built by this community. Because real work happens across systems, not in silos.",
+      "words": []
+    },
+    {
+      "start": 3070.5,
+      "end": 3079.7,
+      "text": "The design and make marketplace will connect your tools, services, MCPs, agents and expertise",
+      "words": []
+    },
+    {
+      "start": 3079.8599999999997,
+      "end": 3085.46,
+      "text": "directly into Assistant. So it just doesn't assist. It acts.",
+      "words": []
+    },
+    {
+      "start": 3086.8199999999997,
+      "end": 3093.46,
+      "text": "The marketplace will certify your solution so that they can be trusted, discovered and",
+      "words": []
+    },
+    {
+      "start": 3093.46,
+      "end": 3100.66,
+      "text": "invoked inside real workflows by Assistant. And we are investing in helping you build these,",
+      "words": []
+    },
+    {
+      "start": 3101.46,
+      "end": 3107.22,
+      "text": "starting with MCPs, with MCPs over. Resources, templates and training.",
+      "words": []
+    },
+    {
+      "start": 3108.18,
+      "end": 3112.3399999999997,
+      "text": "So you can go from idea to working capability quickly.",
+      "words": []
+    },
+    {
+      "start": 3114.4199999999996,
+      "end": 3119.7799999999997,
+      "text": "What you are about to see is where we are headed. This isn't shipping tomorrow.",
+      "words": []
+    },
+    {
+      "start": 3119.7799999999997,
+      "end": 3124.66,
+      "text": "It's our true north. And we are building it together with all of you.",
+      "words": []
+    },
+    {
+      "start": 3126.18,
+      "end": 3131.9399999999996,
+      "text": "Now let's look at an example we are developing one of our partners where Assistant reaches",
+      "words": []
+    },
+    {
+      "start": 3131.94,
+      "end": 3141.7000000000003,
+      "text": "beyond Autodesk. Victory AI builds tools that automate complex engineering workflows like HVAC",
+      "words": []
+    },
+    {
+      "start": 3141.7000000000003,
+      "end": 3147.78,
+      "text": "design. They recently developed an MCP to integrate with Autodesk Assistant.",
+      "words": []
+    },
+    {
+      "start": 3149.46,
+      "end": 3156.58,
+      "text": "Alejandro is an engineer at a construction company. He's leading an HVAC air supply project",
+      "words": []
+    },
+    {
+      "start": 3157.54,
+      "end": 3164.18,
+      "text": "and needs to validate and update his model against company efficiency, quality standards.",
+      "words": []
+    },
+    {
+      "start": 3164.18,
+      "end": 3168.5,
+      "text": "So the design is buildable, compliant and ready for production.",
+      "words": []
+    },
+    {
+      "start": 3169.86,
+      "end": 3176.42,
+      "text": "Today that means extracting data cross systems, running a lot of external checks,",
+      "words": []
+    },
+    {
+      "start": 3176.42,
+      "end": 3184.7400000000002,
+      "text": "in external tools and fixing issues, element by element. It's slow and it doesn't scale.",
+      "words": []
+    },
+    {
+      "start": 3186.1800000000003,
+      "end": 3190.98,
+      "text": "With Autodesk Assistant and the Victor MCP, that changes completely.",
+      "words": []
+    },
+    {
+      "start": 3192.82,
+      "end": 3199.54,
+      "text": "Autodesk provides Assistant, the orchestrator and the MCP framework which allows external tools",
+      "words": []
+    },
+    {
+      "start": 3199.54,
+      "end": 3206.58,
+      "text": "and agents to securely connect and work together. Victor brings their domain expertise through their",
+      "words": []
+    },
+    {
+      "start": 3206.58,
+      "end": 3215.14,
+      "text": "MCP. Once Victor lists their MCP in the marketplace, Alejandro can easily discover and subscribe to it,",
+      "words": []
+    },
+    {
+      "start": 3215.14,
+      "end": 3220.18,
+      "text": "bringing Victor's expertise directly into Assistant's ecosystem.",
+      "words": []
+    },
+    {
+      "start": 3220.98,
+      "end": 3226.66,
+      "text": "Where it all comes together in one place for him to use in his project. Let's take a look.",
+      "words": []
+    },
+    {
+      "start": 3226.66,
+      "end": 3236.66,
+      "text": "Alejandro opens Autodesk Assistant and selects the Victor agent. He asks Assistant to identify and",
+      "words": []
+    },
+    {
+      "start": 3236.66,
+      "end": 3243.8599999999997,
+      "text": "optimize all the ducts in the air supply system. Assistant connects to the relevant MCP server,",
+      "words": []
+    },
+    {
+      "start": 3244.98,
+      "end": 3251.7,
+      "text": "analyzes the model and highlights all the ducts. It generates a recommendation based on Victor's",
+      "words": []
+    },
+    {
+      "start": 3251.7,
+      "end": 3259.9399999999996,
+      "text": "standards. Alejandro reviews the insights and takes action. With one click, Assistant",
+      "words": []
+    },
+    {
+      "start": 3259.9399999999996,
+      "end": 3267.7,
+      "text": "optimizes the ducts, adds metadata and links to the Victor app for a summary of the HVAC metadata",
+      "words": []
+    },
+    {
+      "start": 3267.7,
+      "end": 3274.98,
+      "text": "and cost analysis. No manual steps, no friction from hours of work to minutes.",
+      "words": []
+    },
+    {
+      "start": 3275.7,
+      "end": 3284.1,
+      "text": "This is the power of Assistant, not just surfacing insight but executing workflows end to end.",
+      "words": []
+    },
+    {
+      "start": 3286.1,
+      "end": 3291.94,
+      "text": "I just showed you how a certified MCP will work from the marketplace.",
+      "words": []
+    },
+    {
+      "start": 3293.06,
+      "end": 3299.94,
+      "text": "Now let's talk about agents because I know a lot of you have your own data, your own standards,",
+      "words": []
+    },
+    {
+      "start": 3299.94,
+      "end": 3303.62,
+      "text": "and you're making big investments in platforms like Microsoft.",
+      "words": []
+    },
+    {
+      "start": 3305.06,
+      "end": 3309.22,
+      "text": "We are putting this to work. Let's see a real customer example.",
+      "words": []
+    },
+    {
+      "start": 3311.22,
+      "end": 3315.94,
+      "text": "Arquedes is a global engineering firm delivering complex infrastructure projects.",
+      "words": []
+    },
+    {
+      "start": 3317.14,
+      "end": 3324.02,
+      "text": "Yosha, a product owner is leading one, managing multiple teams, systems, and staying on top of",
+      "words": []
+    },
+    {
+      "start": 3324.02,
+      "end": 3334.1,
+      "text": "compliance. Today, getting a clear view means chasing data across systems. Arquedes built a",
+      "words": []
+    },
+    {
+      "start": 3334.1,
+      "end": 3341.7,
+      "text": "maturity model powered by the Microsoft Co-Pilot Studio agent to evaluate project performance across",
+      "words": []
+    },
+    {
+      "start": 3341.7,
+      "end": 3350.1,
+      "text": "data quality, compliance, and security. Here's how it all comes together. Autodesk provides",
+      "words": []
+    },
+    {
+      "start": 3350.1,
+      "end": 3355.7,
+      "text": "Assistant the orchestrator and the agent framework that allows external systems to",
+      "words": []
+    },
+    {
+      "start": 3355.7,
+      "end": 3362.9,
+      "text": "securely connect to platforms like Autodesk Forma. Arquedes brings the domain expertise,",
+      "words": []
+    },
+    {
+      "start": 3362.9,
+      "end": 3366.5,
+      "text": "their company policies, project standards, and project data.",
+      "words": []
+    },
+    {
+      "start": 3367.86,
+      "end": 3374.1,
+      "text": "Co-Pilot Studio through its work IQ intelligence layer powers the agent Arquedes has built.",
+      "words": []
+    },
+    {
+      "start": 3375.38,
+      "end": 3380.82,
+      "text": "All of this connects through Assistant in one place. Let's see how this works.",
+      "words": []
+    },
+    {
+      "start": 3383.46,
+      "end": 3389.94,
+      "text": "Yosha opens Assistant, selects his agent, and runs a maturity check.",
+      "words": []
+    },
+    {
+      "start": 3390.34,
+      "end": 3396.42,
+      "text": "Assistant connects to the Co-Pilot Studio environment and invokes the right agent.",
+      "words": []
+    },
+    {
+      "start": 3396.42,
+      "end": 3401.7000000000003,
+      "text": "It evaluates the project across data quality, compliance, and security.",
+      "words": []
+    },
+    {
+      "start": 3401.7000000000003,
+      "end": 3411.3,
+      "text": "In seconds, the full evaluation comes back. Yosha sees exactly what needs attention and takes action.",
+      "words": []
+    },
+    {
+      "start": 3412.26,
+      "end": 3417.1400000000003,
+      "text": "He asks Assistant to create these issues and assignments.",
+      "words": []
+    },
+    {
+      "start": 3418.26,
+      "end": 3423.7000000000003,
+      "text": "And even schedule time with Arquedes experts by checking calendars and looking",
+      "words": []
+    },
+    {
+      "start": 3423.7000000000003,
+      "end": 3429.7000000000003,
+      "text": "at the meetings. The one's Shelley hates. From insights to actions.",
+      "words": []
+    },
+    {
+      "start": 3431.2200000000003,
+      "end": 3436.02,
+      "text": "Do you see why this is so cool? What used to take Yosha",
+      "words": []
+    },
+    {
+      "start": 3436.74,
+      "end": 3444.34,
+      "text": "are opening Autodesk Forma, working step by step, manually scheduling follow-ups one by one.",
+      "words": []
+    },
+    {
+      "start": 3445.22,
+      "end": 3453.86,
+      "text": "Now happens in seconds. By connecting Autodesk tools, Arquedes expertise and Microsoft AI,",
+      "words": []
+    },
+    {
+      "start": 3454.9,
+      "end": 3463.86,
+      "text": "we turn project data into real immediate action. No friction, no boundaries, you just ask.",
+      "words": []
+    },
+    {
+      "start": 3464.42,
+      "end": 3475.2200000000003,
+      "text": "Assistant's goal is simple. Solve the customer's problem. To do that, it calls the best capability available",
+      "words": []
+    },
+    {
+      "start": 3475.2200000000003,
+      "end": 3483.7000000000003,
+      "text": "whether built by Autodesk or one of you in the community. That's why the design and make marketplace",
+      "words": []
+    },
+    {
+      "start": 3483.7000000000003,
+      "end": 3493.1400000000003,
+      "text": "is so critical. When you have, you list your certified MCP, you're not just adding an integration,",
+      "words": []
+    },
+    {
+      "start": 3493.14,
+      "end": 3501.14,
+      "text": "you're making your capability discoverable and callable by Assistant. Together, we are building",
+      "words": []
+    },
+    {
+      "start": 3501.14,
+      "end": 3509.7799999999997,
+      "text": "a trusted orchestration layer. Assistant understands intent, manages context, enforces permission,",
+      "words": []
+    },
+    {
+      "start": 3510.3399999999997,
+      "end": 3518.66,
+      "text": "and connects to your expertise. This is the shift. From fixed integrations to",
+      "words": []
+    },
+    {
+      "start": 3518.74,
+      "end": 3529.22,
+      "text": "and predefined workflows to dynamic orchestration across MCPs, agents, and models. Unlocking entirely",
+      "words": []
+    },
+    {
+      "start": 3529.22,
+      "end": 3539.7799999999997,
+      "text": "new possibilities. But here's the key. Assistant doesn't have your domain expertise. Your local building",
+      "words": []
+    },
+    {
+      "start": 3539.7799999999997,
+      "end": 3548.18,
+      "text": "codes, your supply chain constraints, your industry nuances. You do. Autodesk provides the",
+      "words": []
+    },
+    {
+      "start": 3548.18,
+      "end": 3555.7,
+      "text": "platform, the orchestration, the security, and the customer reach. You provide the specialized",
+      "words": []
+    },
+    {
+      "start": 3555.7,
+      "end": 3564.98,
+      "text": "context, tools, and agents. And together, we are redefining how work gets done. This is your",
+      "words": []
+    },
+    {
+      "start": 3564.98,
+      "end": 3572.58,
+      "text": "moment to move up the stack. From building tools to delivering real outcomes. And this is your",
+      "words": []
+    },
+    {
+      "start": 3572.58,
+      "end": 3584.98,
+      "text": "opportunity to define what comes next. Thank you. Ben, back to you.",
+      "words": []
+    },
+    {
+      "start": 3589.2999999999997,
+      "end": 3597.22,
+      "text": "Thank you, Ritesh. That's the Assistant turning data into intelligence powered by you all.",
+      "words": []
+    },
+    {
+      "start": 3597.22,
+      "end": 3605.14,
+      "text": "Reducing complexity for the team. Getting them to better outcomes faster. That's the future.",
+      "words": []
+    },
+    {
+      "start": 3605.14,
+      "end": 3611.62,
+      "text": "And our job, it's so great. We get to build it. We get to write the manual for",
+      "words": []
+    },
+    {
+      "start": 3611.62,
+      "end": 3619.4599999999996,
+      "text": "King Data King, Shelley's magic wand. We design the workflows. We decide how agents work across",
+      "words": []
+    },
+    {
+      "start": 3619.4599999999996,
+      "end": 3626.5,
+      "text": "disciplines and industries. And this change, the experience for the architect, the product designer,",
+      "words": []
+    },
+    {
+      "start": 3626.5,
+      "end": 3634.74,
+      "text": "and the BIM lead. We can solve the complex problems. Moving up the stack. And everything you saw",
+      "words": []
+    },
+    {
+      "start": 3634.74,
+      "end": 3643.22,
+      "text": "today, build and orchestrate. This is the foundation for what comes next. Then, tomorrow, we're going",
+      "words": []
+    },
+    {
+      "start": 3643.22,
+      "end": 3649.14,
+      "text": "to look at how we scale this automation. And these workflows across the entire system. You're going",
+      "words": []
+    },
+    {
+      "start": 3649.14,
+      "end": 3655.22,
+      "text": "to hear from our industry leaders, Amy, who's synonymous with innovation and AEC. And Shrinath,",
+      "words": []
+    },
+    {
+      "start": 3655.22,
+      "end": 3660.5,
+      "text": "who's one of the most passionate voices for design and manufacturing. Together, they're going",
+      "words": []
+    },
+    {
+      "start": 3660.5,
+      "end": 3666.18,
+      "text": "to show us how these industries are evolving with a genetic AI and where our customers need you",
+      "words": []
+    },
+    {
+      "start": 3666.18,
+      "end": 3672.8199999999997,
+      "text": "to lead with innovation. Then, Daniella, known to many of you here in Europe, will show us how these",
+      "words": []
+    },
+    {
+      "start": 3672.8199999999997,
+      "end": 3680.1,
+      "text": "industries are converging and how we can accelerate that. It's amazing. I love having all of you here.",
+      "words": []
+    },
+    {
+      "start": 3680.1,
+      "end": 3684.74,
+      "text": "I hope you enjoy all the sessions and I'm going to see you at the reception tonight. Thank you.",
+      "words": []
+    },
+    {
+      "start": 3685.22,
+      "end": 3689.62,
+      "text": "we",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T21:41:37.844351+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "video_id": "VE4mbSGlABs",
+  "demo_timestamps": [
+    {
+      "start": 375.0,
+      "end": 435.0,
+      "description": "Integration of Azure AI Foundry agent with the project control tool for Arcadis, allowing end users to interact with the AI for project-specific insights and recommendations on reuse and improvement based on Arcadis policies."
+    },
+    {
+      "start": 570.0,
+      "end": 630.0,
+      "description": "Demonstration of Autodesk Assistant integration in Forma to handle project queries, provide improvement suggestions, and trigger project issue creation based on Arcadis policies."
+    }
+  ],
+  "themes": [
+    "Integrating AI and data systems for enhanced project management and decision-making"
+  ],
+  "client_mentions": [
+    {
+      "name": "Arcadis",
+      "context": "Arcadis is implementing AI technologies and data systems to improve data insights and project management efficiency.",
+      "timestamp": 0.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "Forma",
+      "is_api": false,
+      "timestamp": 0.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "Azure AI Foundry",
+      "category": "agent",
+      "context": "Used to create AI agents within Arcadis for project management and decision-making.",
+      "timestamp": 430.0
+    },
+    {
+      "name": "Autodesk Assistant",
+      "category": "agent",
+      "context": "Integrates with Arcadis systems to provide tailored project insights and automate actions.",
+      "timestamp": 580.0
+    },
+    {
+      "name": "CoPilot Studio",
+      "category": "other",
+      "context": "Used to integrate Arcadis standards and policies with Autodesk Assistant for providing company-tailored insights.",
+      "timestamp": 500.0
+    }
+  ],
+  "summary": "The video discusses the integration of AI and data extraction techniques to improve project management and insights at Arcadis. Microsoft Fabric and Azure AI Foundry are leveraged to manage data from various sources and enhance decision-making. The demonstration showcases how Autodesk Forma and Assistant are used to provide actionable insights and automate project management tasks within Arcadis.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:58:15.345868+00:00"
+}

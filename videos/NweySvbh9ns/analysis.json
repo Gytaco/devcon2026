@@ -1,0 +1,43 @@
+{
+  "video_id": "NweySvbh9ns",
+  "demo_timestamps": [
+    {
+      "start": 537.0,
+      "end": 654.0,
+      "description": "Qflow system capturing data on material deliveries and extracting text from documents"
+    }
+  ],
+  "themes": [
+    "Reducing construction rework",
+    "Improving data flow in construction phases",
+    "Sustainability in construction"
+  ],
+  "client_mentions": [
+    {
+      "name": "Qflow",
+      "context": "Qflow works with general contractors, developers, and asset owners to track materials and prevent construction rework",
+      "timestamp": 85.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 430.0
+    },
+    {
+      "name": "Forma",
+      "is_api": false,
+      "timestamp": 431.0
+    },
+    {
+      "name": "Forma Build",
+      "is_api": false,
+      "timestamp": 421.0
+    }
+  ],
+  "ai_technologies": [],
+  "summary": "The video discusses how Qflow and Autodesk use AI and technology to reduce construction rework and waste by improving data flow between the design and construction phases. By digitizing material tracking and integrating systems like Qflow and Autodesk Forma, the process aims to prevent discrepancies and support sustainable outcomes in construction projects.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:59:57.941973+00:00"
+}

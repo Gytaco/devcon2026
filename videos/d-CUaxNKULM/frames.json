@@ -1,0 +1,192 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\d-CUaxNKULM\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide titled 'Towards bringing human experience to design using APS' is from an Autodesk DevCon presentation.",
+      "products_visible": [
+        "APS"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "Enlivened Design",
+        "Autodesk Research"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\d-CUaxNKULM\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses enivened design and its relation to AI in simulating human experiences, featuring an image of a multi-story building.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Enlivened Design",
+        "Bring designs to life by simulating human experience using AI"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\d-CUaxNKULM\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "demo",
+      "keep": true,
+      "description": "A demonstration featuring physical experiential walkthroughs with interactive displays.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Physical Experiential Walkthroughs"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\d-CUaxNKULM\\frames\\frame_000005.jpg",
+      "timestamp_seconds": 120.0,
+      "frame_index": 5,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide about a collaboration with The Bentway, highlighting an experimental toolkit related to human experience and the built environment.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\d-CUaxNKULM\\frames\\frame_000009.jpg",
+      "timestamp_seconds": 240.0,
+      "frame_index": 9,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide with topics such as 360 Video, Object Segmentation, Facial Expressions, Relationship Graphs, and Location Mapping being discussed at Autodesk DevCon.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "360 Video",
+        "Object Segmentation",
+        "Facial Expressions",
+        "Relationship Graphs",
+        "Location Mapping"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\d-CUaxNKULM\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses 'The Bentway: Experiential Walkthroughs' focusing on multi-modal data visualization.",
+      "products_visible": [
+        "Autodesk DevCon"
+      ],
+      "ui_elements": [
+        "The Bentway: Experiential Walkthroughs",
+        "Multi-Modal Data Visualization"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\d-CUaxNKULM\\frames\\frame_000018.jpg",
+      "timestamp_seconds": 510.0,
+      "frame_index": 18,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide shows a process from physical to virtual with images of a helmet with a camera to VR headsets.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "AUTODESK",
+        "DevCon",
+        "From Physical to Virtual"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\d-CUaxNKULM\\frames\\frame_000023.jpg",
+      "timestamp_seconds": 660.0,
+      "frame_index": 23,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses Autodesk Workshop XR, highlighting its immersive design review and real-time collaboration in a virtual environment.",
+      "products_visible": [
+        "Autodesk",
+        "Workshop XR",
+        "Autodesk Forma"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\d-CUaxNKULM\\frames\\frame_000027.jpg",
+      "timestamp_seconds": 780.0,
+      "frame_index": 27,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'Experiential Data Capture' showing a flow diagram involving voice and pose data being sent to Agora Hub and APS Concurrent Editing, with final output through Next.js.",
+      "products_visible": [
+        "Agora Hub",
+        "APS Concurrent Editing",
+        "Next.js"
+      ],
+      "ui_elements": [
+        "Experiential Data Capture",
+        "Next.js",
+        "Walkthrough Recorder"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\d-CUaxNKULM\\frames\\frame_000030.jpg",
+      "timestamp_seconds": 870.0,
+      "frame_index": 30,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide on sentiments and emotions, discussing sentiment as a 1D spectrum and emotions based on Paul Ekman's model with a visual diagram.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "On Sentiments and Emotions",
+        "Sentiment",
+        "Emotions"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\d-CUaxNKULM\\frames\\frame_000040.jpg",
+      "timestamp_seconds": 1170.0,
+      "frame_index": 40,
+      "category": "demo",
+      "keep": true,
+      "description": "A presentation showing a virtual walkthrough interface analyzing sentiment related to a building design.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Sentiment Trajectory Detail",
+        "Details",
+        "Sentiment Colors"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\d-CUaxNKULM\\frames\\frame_000041.jpg",
+      "timestamp_seconds": 1200.0,
+      "frame_index": 41,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation, discussing experiential walkthroughs with text demonstrating query logic.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "Where was there joy?",
+        "MCP for Experiential Walkthroughs"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:19:58.222286+00:00"
+}

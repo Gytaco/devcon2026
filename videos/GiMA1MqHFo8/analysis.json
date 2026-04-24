@@ -1,0 +1,44 @@
+{
+  "video_id": "GiMA1MqHFo8",
+  "demo_timestamps": [],
+  "themes": [
+    "APIs in AI integration",
+    "Challenges with traditional APIs",
+    "Autodesk API services"
+  ],
+  "client_mentions": [],
+  "autodesk_products": [
+    {
+      "name": "Autodesk Platform Services",
+      "is_api": true,
+      "timestamp": 0.0
+    },
+    {
+      "name": "ACC API",
+      "is_api": true,
+      "timestamp": 0.0
+    },
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 0.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "OpenAI",
+      "category": "llm",
+      "context": "Provider API for sending prompts and receiving completions",
+      "timestamp": 0.0
+    },
+    {
+      "name": "Gemini",
+      "category": "llm",
+      "context": "As an AI model example with integration challenges",
+      "timestamp": 0.0
+    }
+  ],
+  "summary": "The video discusses the critical role of APIs in facilitating communication between AI systems and tools, highlighting the challenges of traditional API design and the N times M integration problem. It introduces Autodesk Platform Services and specific APIs like ACC, explaining how they are used to manage data but require separate integration efforts. The talk sets the stage for MCP, a solution to these API limitations.",
+  "_complete": true,
+  "_saved_at": "2026-04-23T00:04:47.954318+00:00"
+}

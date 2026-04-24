@@ -1,0 +1,408 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CfMp1HpavWE\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CfMp1HpavWE\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from the Autodesk DevCon presentation titled 'Forma Data in Copilot' with information about the session and speakers.",
+      "products_visible": [
+        "Autodesk",
+        "Forma Data",
+        "Copilot"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "The Future Is Built Today",
+        "TBI",
+        "Jeroen Pat",
+        "Frank Wolbertus",
+        "Marvel Destiny",
+        "16 April 2026"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CfMp1HpavWE\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents information about Autodesk DevCon and TBI, highlighting their association with a steward-owned construction group with 6,550 professionals, 21 companies, spanning over 100 years.",
+      "products_visible": [
+        "AUTODESK DevCon"
+      ],
+      "ui_elements": [
+        "Future Builders.",
+        "6,550 Professionals",
+        "21 Companies",
+        "100+ Years"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CfMp1HpavWE\\frames\\frame_000006.jpg",
+      "timestamp_seconds": 150.0,
+      "frame_index": 6,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide discussing the challenge of having too much work with too few people, highlighting increasing demand and decreasing capacity.",
+      "products_visible": [
+        "AUTODESK DevCon"
+      ],
+      "ui_elements": [
+        "THE CHALLENGE",
+        "Demand",
+        "Capacity"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CfMp1HpavWE\\frames\\frame_000011.jpg",
+      "timestamp_seconds": 300.0,
+      "frame_index": 11,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide describing a strategy built on 5 pillars for AI maturity, assessing industry status and future goals.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Awareness",
+        "Skills",
+        "Integration",
+        "Innovation",
+        "Transformation"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CfMp1HpavWE\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide detailing a strategy built on five pillars related to AI and transformation.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Awareness",
+        "Skills",
+        "Integration",
+        "Innovation",
+        "Transformation"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CfMp1HpavWE\\frames\\frame_000019.jpg",
+      "timestamp_seconds": 540.0,
+      "frame_index": 19,
+      "category": "slides",
+      "keep": true,
+      "description": "This slide from Autodesk DevCon outlines the path from tool adoption to radical transformation with steps on People & Tool, Incremental Innovation, and Radical Transformation.",
+      "products_visible": [
+        "Autodesk",
+        "Revit AI",
+        "ACC"
+      ],
+      "ui_elements": [
+        "People & Tool",
+        "Incremental Innovation",
+        "Radical Transformation",
+        "Underway",
+        "In development",
+        "The north star"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CfMp1HpavWE\\frames\\frame_000020.jpg",
+      "timestamp_seconds": 570.0,
+      "frame_index": 20,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses the transition from tool adoption to radical transformation in three steps: People & Tool, Incremental Innovation, and Radical Transformation.",
+      "products_visible": [
+        "Autodesk",
+        "Revit AI",
+        "ACC"
+      ],
+      "ui_elements": [
+        "People & Tool",
+        "Incremental Innovation",
+        "Radical Transformation"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CfMp1HpavWE\\frames\\frame_000021.jpg",
+      "timestamp_seconds": 600.0,
+      "frame_index": 21,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide from Autodesk DevCon discussing the impact of AI on jobs, with a focus on human value addition.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "Will AI take your job?",
+        "Where does the human make the real difference?",
+        "TBI's answer: AI frees our people"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CfMp1HpavWE\\frames\\frame_000023.jpg",
+      "timestamp_seconds": 660.0,
+      "frame_index": 23,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide featuring Frank Wolbertus discussing AI in Autodesk products is shown alongside a speaker on stage.",
+      "products_visible": [
+        "Autodesk",
+        "AI",
+        "Revit",
+        "ACC"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CfMp1HpavWE\\frames\\frame_000024.jpg",
+      "timestamp_seconds": 690.0,
+      "frame_index": 24,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide from Autodesk DevCon featuring a topic about AI and Revit, with a speaker on stage.",
+      "products_visible": [
+        "Autodesk",
+        "Revit",
+        "AI"
+      ],
+      "ui_elements": [
+        "AI",
+        "Frank Wolbertus"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CfMp1HpavWE\\frames\\frame_000030.jpg",
+      "timestamp_seconds": 870.0,
+      "frame_index": 30,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows slides from Autodesk DevCon highlighting AI capabilities in Revit for Intelligent BIM and Smart Construction.",
+      "products_visible": [
+        "Autodesk",
+        "AI in Revit",
+        "Autodesk Construction Cloud",
+        "Forma Platform"
+      ],
+      "ui_elements": [
+        "Intelligent BIM",
+        "Smart Construction"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CfMp1HpavWE\\frames\\frame_000033.jpg",
+      "timestamp_seconds": 960.0,
+      "frame_index": 33,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide is about the Model Context Protocol from Autodesk DevCon, describing it as a bridge connecting AI agents with Autodesk ACC and other systems.",
+      "products_visible": [
+        "Autodesk",
+        "MCP Server",
+        "Microsoft 365"
+      ],
+      "ui_elements": [
+        "AI Agents",
+        "MCP Server",
+        "Autodesk ACC"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CfMp1HpavWE\\frames\\frame_000035.jpg",
+      "timestamp_seconds": 1020.0,
+      "frame_index": 35,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon showing the connection of ACC to Copilot via MCP Server, with labeled sections for Microsoft Copilot, MCP Server, Autodesk ACC, and BIM Model.",
+      "products_visible": [
+        "Autodesk",
+        "Microsoft Copilot"
+      ],
+      "ui_elements": [
+        "MCP Server",
+        "Autodesk ACC",
+        "BIM Model"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CfMp1HpavWE\\frames\\frame_000036.jpg",
+      "timestamp_seconds": 1050.0,
+      "frame_index": 36,
+      "category": "demo",
+      "keep": true,
+      "description": "The video frame shows a person talking beside a demonstration of the Autodesk Construction Helper Dev interface.",
+      "products_visible": [
+        "Autodesk Construction Helper Dev"
+      ],
+      "ui_elements": [
+        "Overview",
+        "Knowledge",
+        "Tool",
+        "Agents",
+        "Topics",
+        "Activity",
+        "Evaluation",
+        "Analytics",
+        "Channels"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CfMp1HpavWE\\frames\\frame_000048.jpg",
+      "timestamp_seconds": 1410.0,
+      "frame_index": 48,
+      "category": "ui",
+      "keep": true,
+      "description": "A user is interacting with a chat interface in an Autodesk-related context, displaying messages and accessing hubs.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Chats",
+        "Teams",
+        "Search bar",
+        "Chat input"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CfMp1HpavWE\\frames\\frame_000050.jpg",
+      "timestamp_seconds": 1470.0,
+      "frame_index": 50,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a person talking during an Autodesk DevCon presentation with a demonstration of a software UI for managing connections.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Create or pick a connection",
+        "Manage connections",
+        "Autodesk Connector",
+        "Refresh",
+        "Cancel"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CfMp1HpavWE\\frames\\frame_000055.jpg",
+      "timestamp_seconds": 1620.0,
+      "frame_index": 55,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon about Microsoft Agent 365, detailing its function as a control plane for AI agents with various components.",
+      "products_visible": [
+        "Autodesk DevCon",
+        "Microsoft Agent 365"
+      ],
+      "ui_elements": [
+        "Registry & Control",
+        "Entra Agent ID",
+        "Copilot Studio",
+        "Defender Protection",
+        "MCP Servers",
+        "Autodesk ACC",
+        "Foundry Agents",
+        "Custom Agents"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CfMp1HpavWE\\frames\\frame_000056.jpg",
+      "timestamp_seconds": 1650.0,
+      "frame_index": 56,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame displays a slide from Autodesk DevCon, showcasing 'Lotte', an AI agent by Comfort Partners, including statistics of conversations handled and savings achieved.",
+      "products_visible": [
+        "Autodesk",
+        "Dynamics 365",
+        "Azure AI"
+      ],
+      "ui_elements": [
+        "Lotte",
+        "34,500",
+        "25%",
+        "7 FTE",
+        "\u20ac180K"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CfMp1HpavWE\\frames\\frame_000059.jpg",
+      "timestamp_seconds": 1740.0,
+      "frame_index": 59,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation discussing future expectations over the next three years.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Foundation",
+        "Integration",
+        "Transformation"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CfMp1HpavWE\\frames\\frame_000060.jpg",
+      "timestamp_seconds": 1770.0,
+      "frame_index": 60,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon emphasizing that technology is ready and the challenge is organizational.",
+      "products_visible": [
+        "Autodesk",
+        "Microsoft Frontier Program",
+        "Autodesk Elite EBA"
+      ],
+      "ui_elements": [
+        "The technology is ready.",
+        "It's organization."
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CfMp1HpavWE\\frames\\frame_000062.jpg",
+      "timestamp_seconds": 1830.0,
+      "frame_index": 62,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses how individuals can contribute through building, sharing, and making an impact in AI-driven construction.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Build with us",
+        "Share expertise",
+        "Make impact"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CfMp1HpavWE\\frames\\frame_000063.jpg",
+      "timestamp_seconds": 1860.0,
+      "frame_index": 63,
+      "category": "blank",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:27:09.598046+00:00"
+}

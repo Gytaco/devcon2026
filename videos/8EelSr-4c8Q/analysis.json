@@ -1,0 +1,93 @@
+{
+  "video_id": "8EelSr-4c8Q",
+  "demo_timestamps": [
+    {
+      "start": 1083.0,
+      "end": 1118.0,
+      "description": "Running the web app from a local machine to open a Revit model and extract categories quickly."
+    },
+    {
+      "start": 1608.0,
+      "end": 1625.0,
+      "description": "Automated ADA compliance check in Revit with categories and isolation of elements"
+    },
+    {
+      "start": 1626.0,
+      "end": 1660.0,
+      "description": "Analyzing rules and regulations compliance using AI models and generating JSON outputs"
+    },
+    {
+      "start": 1732.0,
+      "end": 1763.0,
+      "description": "Creating issues automatically in Revit and notifying project team"
+    },
+    {
+      "start": 1855.0,
+      "end": 1874.0,
+      "description": "Extracting Revit model categories and auditing elements"
+    }
+  ],
+  "themes": [
+    "Deterministic AI in Infrastructure Design",
+    "Automation of ADA Compliance using ACC and APS",
+    "Secure and Accurate Model Auditing",
+    "Automated compliance checking in architectural projects",
+    "Integration of AI and Autodesk products for efficient project management"
+  ],
+  "client_mentions": [
+    {
+      "name": "Parsons",
+      "context": "Kevin O'Connor from Parsons explains the use of deterministic AI and the auditing workflow.",
+      "timestamp": 83.0
+    },
+    {
+      "name": "HART",
+      "context": "Discussing the ADA compliance verification and specific design rules for HART project.",
+      "timestamp": 582.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 1067.0
+    },
+    {
+      "name": "ACC",
+      "is_api": false,
+      "timestamp": 665.0
+    },
+    {
+      "name": "APS",
+      "is_api": true,
+      "timestamp": 623.0
+    },
+    {
+      "name": "Forge",
+      "is_api": false,
+      "timestamp": 1497.0
+    },
+    {
+      "name": "Model Derivative API",
+      "is_api": true,
+      "timestamp": 1445.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "Python",
+      "category": "other",
+      "context": "Used for creating a deterministic auditing process.",
+      "timestamp": 368.0
+    },
+    {
+      "name": "large language models",
+      "category": "llm",
+      "context": "Used for analyzing compliance by processing elements and creating outputs in JSON format",
+      "timestamp": 1649.0
+    }
+  ],
+  "summary": "The video highlights the use of deterministic AI and large language models in automating ADA compliance checks for Revit projects, employing Autodesk Construction Cloud (ACC), Autodesk Platform Services (APS), and Forge. Presenters from Parsons detail a technical workflow developed for the HART project, showcasing how this approach enhances the efficiency and accuracy of architectural audits by automatically identifying compliance issues.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T13:40:21.417989+00:00"
+}

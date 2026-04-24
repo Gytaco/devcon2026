@@ -1,0 +1,1501 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.24,
+      "text": "Hello everyone, welcome to our session enterprise scale",
+      "words": []
+    },
+    {
+      "start": 4.24,
+      "end": 10.120000000000001,
+      "text": "format, the new name for a ACC project life cycle management from initial design",
+      "words": []
+    },
+    {
+      "start": 10.120000000000001,
+      "end": 14.92,
+      "text": "to as a delivery with auto display for service and secure service account.",
+      "words": []
+    },
+    {
+      "start": 14.92,
+      "end": 22.56,
+      "text": "In this class, we have me, which I am Yonotus Bursan Adri\u00e1n, I'm from Romania,",
+      "words": []
+    },
+    {
+      "start": 22.56,
+      "end": 28.0,
+      "text": "I'm the primary speaker, I'm an application engineer and I work at Arcades.",
+      "words": []
+    },
+    {
+      "start": 28.32,
+      "end": 34.64,
+      "text": "My co-speaker, Ronnie is from Autodesk, but he's going to introduce himself a bit later.",
+      "words": []
+    },
+    {
+      "start": 34.64,
+      "end": 42.0,
+      "text": "So I've been in this industry for a lot of years, around 15 years already, and I've been",
+      "words": []
+    },
+    {
+      "start": 43.28,
+      "end": 53.44,
+      "text": "building APS solutions since the original name, which was forged, which was actually really cool,",
+      "words": []
+    },
+    {
+      "start": 53.44,
+      "end": 61.28,
+      "text": "inside info. Okay, so I'm here representing Arcades. Arcades is a global design engineering",
+      "words": []
+    },
+    {
+      "start": 62.48,
+      "end": 68.48,
+      "text": "firm that is organized and focused on natural and build assets, with the mission of improving",
+      "words": []
+    },
+    {
+      "start": 68.48,
+      "end": 76.0,
+      "text": "quality of life, we have more than 34,000 people that are active in 30 plus countries,",
+      "words": []
+    },
+    {
+      "start": 76.0,
+      "end": 86.48,
+      "text": "and we deliver around 10,000 projects every year. Arcades is also a global operation and has a",
+      "words": []
+    },
+    {
+      "start": 86.48,
+      "end": 92.64,
+      "text": "global excellence center, Philippines, India, and Romania. At this scale project life cycle",
+      "words": []
+    },
+    {
+      "start": 92.64,
+      "end": 99.03999999999999,
+      "text": "management in ACC simply cannot rely on manual and region by region processes.",
+      "words": []
+    },
+    {
+      "start": 99.12,
+      "end": 110.96000000000001,
+      "text": "What you'll learn today, in this session we want to share three things. First, we want to first,",
+      "words": []
+    },
+    {
+      "start": 110.96000000000001,
+      "end": 115.92,
+      "text": "how we approach standardizing and automating project life cycle management at an",
+      "words": []
+    },
+    {
+      "start": 115.92,
+      "end": 122.0,
+      "text": "mental price scale, not just project creation, but also configuration, governance,",
+      "words": []
+    },
+    {
+      "start": 122.0,
+      "end": 129.6,
+      "text": "disconnection, and the connected workflows around it. Second, we want to show you how we use APS",
+      "words": []
+    },
+    {
+      "start": 129.6,
+      "end": 136.96,
+      "text": "and SQL service account to orchestrate workflows across the format, while still enforcing the",
+      "words": []
+    },
+    {
+      "start": 136.96,
+      "end": 143.52,
+      "text": "standards that matter in a large enterprise, things like permissions, folder structures, naming",
+      "words": []
+    },
+    {
+      "start": 143.52,
+      "end": 150.32,
+      "text": "conventions, templates, and hub specific rules. And third, how we are reducing manual effort by",
+      "words": []
+    },
+    {
+      "start": 150.32,
+      "end": 157.44,
+      "text": "building on historical project data, automation patterns, and AI driven insights. That helps us",
+      "words": []
+    },
+    {
+      "start": 157.44,
+      "end": 162.95999999999998,
+      "text": "accelerate project creation, improve consistency, and support platform operation in a much more",
+      "words": []
+    },
+    {
+      "start": 162.95999999999998,
+      "end": 168.79999999999998,
+      "text": "scalable way. So the overall goal of this session is to show you not just how we build it,",
+      "words": []
+    },
+    {
+      "start": 168.79999999999998,
+      "end": 173.68,
+      "text": "but also the patterns and guard rails that make it work at Arcades scale.",
+      "words": []
+    },
+    {
+      "start": 174.32,
+      "end": 182.64000000000001,
+      "text": "This is our agenda. We're going to start with what was the challenge, we're going to introduce",
+      "words": []
+    },
+    {
+      "start": 182.64000000000001,
+      "end": 188.96,
+      "text": "our solution, which is the project control tool, then Roni is going to come and help me explain",
+      "words": []
+    },
+    {
+      "start": 188.96,
+      "end": 195.60000000000002,
+      "text": "the solution architecture. We're going to talk about the automation in an intelligence part,",
+      "words": []
+    },
+    {
+      "start": 195.60000000000002,
+      "end": 202.56,
+      "text": "the outcomes, and the roadmap. I'm going to start with what was the challenges.",
+      "words": []
+    },
+    {
+      "start": 204.64000000000001,
+      "end": 210.0,
+      "text": "So before we talk about the solution, I want to ground this in the actual problem we were facing.",
+      "words": []
+    },
+    {
+      "start": 210.0,
+      "end": 215.92000000000002,
+      "text": "At Arcades, the challenge is not simply creating projects in format. The challenge is doing",
+      "words": []
+    },
+    {
+      "start": 215.92000000000002,
+      "end": 221.92000000000002,
+      "text": "that consistently, repeatedly, and at an enterprise scale. The first challenge is really about",
+      "words": []
+    },
+    {
+      "start": 221.92000000000002,
+      "end": 227.92000000000002,
+      "text": "scale and complexity. We are operating across multiple hubs, multiple regions, and multiple",
+      "words": []
+    },
+    {
+      "start": 228.0,
+      "end": 235.04,
+      "text": "business models. That means project setup is not a one-size-fits-all. Different types of projects",
+      "words": []
+    },
+    {
+      "start": 235.04,
+      "end": 240.0,
+      "text": "need different templates, different structures, and sometimes different business routes. When you",
+      "words": []
+    },
+    {
+      "start": 240.0,
+      "end": 246.39999999999998,
+      "text": "multiply that across a large enterprise, many of the subterms setup becomes very difficult to",
+      "words": []
+    },
+    {
+      "start": 246.39999999999998,
+      "end": 255.67999999999998,
+      "text": "sustain. It is slow, it creates vulnerabilities, and it does not scale with the men. The second",
+      "words": []
+    },
+    {
+      "start": 255.68,
+      "end": 262.16,
+      "text": "challenge is standardization and governance. Even when projects start correctly, keeping them aligned",
+      "words": []
+    },
+    {
+      "start": 262.16,
+      "end": 268.16,
+      "text": "over time is hard. If the process demands on people remembering every standard menu,",
+      "words": []
+    },
+    {
+      "start": 268.16,
+      "end": 273.84000000000003,
+      "text": "permissions, folder structures, and naming conventions templates all of these need to stay consistent,",
+      "words": []
+    },
+    {
+      "start": 273.84000000000003,
+      "end": 280.64,
+      "text": "and when they don't, you start seeing drift between the intended standards and actual",
+      "words": []
+    },
+    {
+      "start": 281.2,
+      "end": 286.47999999999996,
+      "text": "configuration. That creates operational risk, governance risk, and in some cases,",
+      "words": []
+    },
+    {
+      "start": 286.47999999999996,
+      "end": 295.44,
+      "text": "downstream delivery issues. Then the third challenge is the amount of manual effort behind every",
+      "words": []
+    },
+    {
+      "start": 295.44,
+      "end": 300.64,
+      "text": "full life cycle. It's not just project setup, it's on boarding, off boarding, roll chains,",
+      "words": []
+    },
+    {
+      "start": 300.64,
+      "end": 306.71999999999997,
+      "text": "review workflows, issue management, drift connection, and synchronization with connected systems.",
+      "words": []
+    },
+    {
+      "start": 307.36,
+      "end": 313.68,
+      "text": "Each one of these tasks may seem small on its own, but at our scale, they add up quickly.",
+      "words": []
+    },
+    {
+      "start": 314.40000000000003,
+      "end": 317.92,
+      "text": "And when they are handled manually, they consume time, introducing",
+      "words": []
+    },
+    {
+      "start": 317.92,
+      "end": 324.24,
+      "text": "consistencies, and make the platform harder to manage. So for us, the real problem was not",
+      "words": []
+    },
+    {
+      "start": 324.24,
+      "end": 331.6,
+      "text": "one workflow, one project request. The real problem is how to run formal operations in a way that",
+      "words": []
+    },
+    {
+      "start": 331.6,
+      "end": 340.0,
+      "text": "is standard, governed, and scalable across the business. And that is exactly what the gap",
+      "words": []
+    },
+    {
+      "start": 340.0,
+      "end": 349.04,
+      "text": "PCT was designed to close. Now I'm introducing our PCT, our project control tool.",
+      "words": []
+    },
+    {
+      "start": 352.40000000000003,
+      "end": 361.12,
+      "text": "What is PCT? At the business level, PCT is our control layer for enterprise project life-cycle",
+      "words": []
+    },
+    {
+      "start": 361.12,
+      "end": 368.48,
+      "text": "management. It gives our cases one consistent way to create, configure, govern, and operate for",
+      "words": []
+    },
+    {
+      "start": 368.48,
+      "end": 374.96,
+      "text": "them. Projects at a bigger scale. The important point is that the PCT is not just a project creation",
+      "words": []
+    },
+    {
+      "start": 374.96,
+      "end": 383.2,
+      "text": "tool. It is the platform we use to apply standards across hubs, regions, and business models.",
+      "words": []
+    },
+    {
+      "start": 383.2,
+      "end": 389.52,
+      "text": "So project starts the right way, and we stay aligned over time. This includes things like",
+      "words": []
+    },
+    {
+      "start": 389.52,
+      "end": 396.4,
+      "text": "standard standardization of project creation, cross-product configurations, life-cycle automation,",
+      "words": []
+    },
+    {
+      "start": 396.4,
+      "end": 402.71999999999997,
+      "text": "governance, drift correction, and synchronization with connected platforms. The value for us is",
+      "words": []
+    },
+    {
+      "start": 402.71999999999997,
+      "end": 409.52,
+      "text": "twofold. On one side, it reduces a lot of manual efforts, and on the other, it gives us much",
+      "words": []
+    },
+    {
+      "start": 409.52,
+      "end": 415.76,
+      "text": "better consistency and control across the enterprise. So if the previous slide was about the scale of",
+      "words": []
+    },
+    {
+      "start": 415.76,
+      "end": 424.4,
+      "text": "the challenge, this slide is really about the answer. PCT is our platform where we build enterprise",
+      "words": []
+    },
+    {
+      "start": 424.4,
+      "end": 434.88,
+      "text": "formal operations scalable, standardized, and manageable. So let's talk about how PCT actually works.",
+      "words": []
+    },
+    {
+      "start": 435.44,
+      "end": 441.92,
+      "text": "At a high level, PCT workers are guided business process that makes a project from a request to",
+      "words": []
+    },
+    {
+      "start": 441.92,
+      "end": 448.40000000000003,
+      "text": "already used managed in environment. It starts with the platform setup, where the foundation is",
+      "words": []
+    },
+    {
+      "start": 448.40000000000003,
+      "end": 455.04,
+      "text": "already defined. Hubs, templates, roles, and approvals at configurating them in advance so the",
+      "words": []
+    },
+    {
+      "start": 455.04,
+      "end": 461.04,
+      "text": "process can run consistently. Then comes the project request, where the requester submits the",
+      "words": []
+    },
+    {
+      "start": 461.04,
+      "end": 467.76,
+      "text": "creation request, since it requires metadata, and selects the relevant automations. That gives us",
+      "words": []
+    },
+    {
+      "start": 467.92,
+      "end": 476.32,
+      "text": "a structure, the input, approved, instead of an ad-hoc setup. So every project request is different.",
+      "words": []
+    },
+    {
+      "start": 477.84,
+      "end": 483.52,
+      "text": "After that, we have the approval workbook. The approval reviews the request, make a DTC if it's",
+      "words": []
+    },
+    {
+      "start": 483.52,
+      "end": 490.96,
+      "text": "needed, and confirms that the setup is correct before anything is created. Once approved, PCT moves",
+      "words": []
+    },
+    {
+      "start": 490.96,
+      "end": 496.32,
+      "text": "into the automated project setup. This is where the project is actually created in FormA,",
+      "words": []
+    },
+    {
+      "start": 497.04,
+      "end": 502.64,
+      "text": "the right access is applied, and the required automations are triggered. And finally,",
+      "words": []
+    },
+    {
+      "start": 502.64,
+      "end": 507.92,
+      "text": "the project becomes ready and managed. At this point, the teams can start working,",
+      "words": []
+    },
+    {
+      "start": 507.92,
+      "end": 513.84,
+      "text": "adminkance, update, details they need, and the same automation models continue to support",
+      "words": []
+    },
+    {
+      "start": 513.84,
+      "end": 520.64,
+      "text": "the project through its lifecycle. So the key idea is that PCT turns what would be normally",
+      "words": []
+    },
+    {
+      "start": 520.64,
+      "end": 526.64,
+      "text": "a series of manual steps into one controlled, ery-t-bitable flow.",
+      "words": []
+    },
+    {
+      "start": 529.36,
+      "end": 535.68,
+      "text": "Now, let's see it in action. I'm going to start by showing you how the project requests.",
+      "words": []
+    },
+    {
+      "start": 535.68,
+      "end": 540.88,
+      "text": "Like I said, the requester comes and fills it in the data. In this case, I'm going to create a",
+      "words": []
+    },
+    {
+      "start": 540.88,
+      "end": 552.24,
+      "text": "sandbox project for our dev conference. And then this is where all the templates come. I'm going",
+      "words": []
+    },
+    {
+      "start": 552.24,
+      "end": 556.8,
+      "text": "to use our global one because it's easier. I'm going to make myself and our colleague, Yosha.",
+      "words": []
+    },
+    {
+      "start": 556.8,
+      "end": 566.4,
+      "text": "That means, yeah, I'm going to select the country, the city, the type, time is on, and of course,",
+      "words": []
+    },
+    {
+      "start": 566.48,
+      "end": 573.52,
+      "text": "the former product. And this is where the user will select what kind of automations they need.",
+      "words": []
+    },
+    {
+      "start": 573.52,
+      "end": 578.9599999999999,
+      "text": "We have a bunch of them, so I'm just going to show a few of them. So this automation lets you",
+      "words": []
+    },
+    {
+      "start": 578.9599999999999,
+      "end": 587.36,
+      "text": "upload on Excel. And based on the Excel, the website will know what kind of companies you have,",
+      "words": []
+    },
+    {
+      "start": 587.36,
+      "end": 597.12,
+      "text": "what kind of people, how many people, what kind of roles, and another automation for the review",
+      "words": []
+    },
+    {
+      "start": 597.12,
+      "end": 605.52,
+      "text": "workflow that needs you to select some types. And then you make the request. This is how a project",
+      "words": []
+    },
+    {
+      "start": 605.52,
+      "end": 611.44,
+      "text": "approver looks at it. This is a new request, which I like I mentioned. You can edit. You see all",
+      "words": []
+    },
+    {
+      "start": 611.44,
+      "end": 620.8000000000001,
+      "text": "the fields that the request has added. You can say if they are okay or not, you can also check",
+      "words": []
+    },
+    {
+      "start": 620.8000000000001,
+      "end": 629.2,
+      "text": "them out in a quick view. And now actually the project creation. At this point, the automation has",
+      "words": []
+    },
+    {
+      "start": 629.2,
+      "end": 636.48,
+      "text": "started. The first thing it does is creating the project, adds the project that means then does",
+      "words": []
+    },
+    {
+      "start": 637.44,
+      "end": 643.44,
+      "text": "task checklist. I also got an email that my project was created, which was actually not planned",
+      "words": []
+    },
+    {
+      "start": 643.44,
+      "end": 649.6800000000001,
+      "text": "to be honest. So now everything is still in progress. We're adding the project members. I'm adding",
+      "words": []
+    },
+    {
+      "start": 649.6800000000001,
+      "end": 656.5600000000001,
+      "text": "the automations in these kinds of templates. And then it's done. Now I'm going to show you the project",
+      "words": []
+    },
+    {
+      "start": 656.5600000000001,
+      "end": 665.28,
+      "text": "in Forma. So this was our original admins and the other three people that come from the Excel.",
+      "words": []
+    },
+    {
+      "start": 665.28,
+      "end": 672.0799999999999,
+      "text": "I'm showing you that all the files are according to the templates and everything is as planned.",
+      "words": []
+    },
+    {
+      "start": 676.8,
+      "end": 683.36,
+      "text": "And another step we have is the project management. So here I can see the oldest info that I had",
+      "words": []
+    },
+    {
+      "start": 684.56,
+      "end": 691.04,
+      "text": "in the Forma. And I can edit it and do all kinds of other automation after. And of course this is",
+      "words": []
+    },
+    {
+      "start": 691.36,
+      "end": 697.68,
+      "text": "our platform management where we can see the users, the accounts, the templates, all the things",
+      "words": []
+    },
+    {
+      "start": 697.68,
+      "end": 701.52,
+      "text": "that you need. And of course, the age and that I'm going to talk a bit later.",
+      "words": []
+    },
+    {
+      "start": 705.76,
+      "end": 711.8399999999999,
+      "text": "That's it from me for now. I'm going to let run into the scene self and talk about our solution",
+      "words": []
+    },
+    {
+      "start": 711.8399999999999,
+      "end": 719.36,
+      "text": "architecture. Okay. Hello everyone. I'm Rodney De Silva, a solution architect from Autodesk.",
+      "words": []
+    },
+    {
+      "start": 720.32,
+      "end": 725.2,
+      "text": "My background is in software engineering. I have supported customers in AC industry with the",
+      "words": []
+    },
+    {
+      "start": 726.16,
+      "end": 730.08,
+      "text": "digital transformation, business process improvements and building different sort of",
+      "words": []
+    },
+    {
+      "start": 731.12,
+      "end": 737.12,
+      "text": "digital platforms. At Autodesk I support customers to define design the solutions around",
+      "words": []
+    },
+    {
+      "start": 737.12,
+      "end": 743.52,
+      "text": "autostechnologies including data strategy and platform integrations. I have been working closely",
+      "words": []
+    },
+    {
+      "start": 743.52,
+      "end": 750.8,
+      "text": "with Arcade's team to design an architect PCT solution. That I will cover in the session.",
+      "words": []
+    },
+    {
+      "start": 752.8,
+      "end": 758.24,
+      "text": "You have seen the challenge at scale and our PCT works. So now let's look at how this is built.",
+      "words": []
+    },
+    {
+      "start": 759.12,
+      "end": 764.48,
+      "text": "So Autodesk consulting worked closely with Arcade's to design scalable architecture for PCT",
+      "words": []
+    },
+    {
+      "start": 764.48,
+      "end": 769.84,
+      "text": "using our Autodesk platform services and best practices for cross-product integrations.",
+      "words": []
+    },
+    {
+      "start": 770.8000000000001,
+      "end": 776.72,
+      "text": "At I level user interacts with PCT front end to submit the project request which are",
+      "words": []
+    },
+    {
+      "start": 776.72,
+      "end": 782.72,
+      "text": "handled by a backend built on Azure functions. On the backend is structured into multiple layers,",
+      "words": []
+    },
+    {
+      "start": 782.72,
+      "end": 789.36,
+      "text": "API layer, platform strategy layer and orchestration layer. So separating concerns like request and",
+      "words": []
+    },
+    {
+      "start": 789.36,
+      "end": 797.12,
+      "text": "link platform selection and workflow coordination. A Q design decision is your shared service layer which",
+      "words": []
+    },
+    {
+      "start": 797.12,
+      "end": 802.5600000000001,
+      "text": "centralizes the integration and data access making the system reusable and scalable.",
+      "words": []
+    },
+    {
+      "start": 803.52,
+      "end": 808.88,
+      "text": "This layer interacts with Autodesk former using the Autodesk platform service APIs.",
+      "words": []
+    },
+    {
+      "start": 809.84,
+      "end": 816.0,
+      "text": "It also uses the API secure service account to support three-legged authentication during the",
+      "words": []
+    },
+    {
+      "start": 816.0,
+      "end": 821.52,
+      "text": "project automations. All the project requests, all the project data, configurations and",
+      "words": []
+    },
+    {
+      "start": 821.52,
+      "end": 829.04,
+      "text": "automation logs are stored in Azure SQL database. So the overall architecture provides a scalable",
+      "words": []
+    },
+    {
+      "start": 829.04,
+      "end": 836.56,
+      "text": "modular foundation for orchestrating workflows across ACC or format and supporting additional",
+      "words": []
+    },
+    {
+      "start": 836.56,
+      "end": 845.12,
+      "text": "platforms in the future such as project wise or other platforms. Let's now look at how workflows",
+      "words": []
+    },
+    {
+      "start": 845.2,
+      "end": 852.32,
+      "text": "actually execute within PCT. A request starts at the API layer and the platform strategy layer",
+      "words": []
+    },
+    {
+      "start": 852.32,
+      "end": 858.8,
+      "text": "determines where this workflow should run. For example, Autodesk former or mentally project wise",
+      "words": []
+    },
+    {
+      "start": 858.8,
+      "end": 864.72,
+      "text": "or other any platforms in the future. From there, Durable Functions acts as a workflow engine",
+      "words": []
+    },
+    {
+      "start": 864.72,
+      "end": 870.5600000000001,
+      "text": "orchestrating the entire automation process. The workflow is then broken down into multiple",
+      "words": []
+    },
+    {
+      "start": 871.52,
+      "end": 877.52,
+      "text": "activities such as project creation, adding members, folder permissions, so on. Each activity",
+      "words": []
+    },
+    {
+      "start": 877.52,
+      "end": 883.3599999999999,
+      "text": "then interacts with the format and PCT database through shared service layer.",
+      "words": []
+    },
+    {
+      "start": 885.1199999999999,
+      "end": 890.16,
+      "text": "What this enables is a consistent orchestration pattern across different platforms and Durable",
+      "words": []
+    },
+    {
+      "start": 890.16,
+      "end": 897.4399999999999,
+      "text": "Functions ensure reliability for complex and multi-stave workflows. We also have a shared",
+      "words": []
+    },
+    {
+      "start": 897.44,
+      "end": 902.4000000000001,
+      "text": "service layer which ensures integrations are reusable and consistent across platforms.",
+      "words": []
+    },
+    {
+      "start": 904.4000000000001,
+      "end": 911.7600000000001,
+      "text": "Autodesk platform service is key enabler here. It transforms our format into a programmable platform",
+      "words": []
+    },
+    {
+      "start": 912.24,
+      "end": 918.24,
+      "text": "and enabling end-to-end workflows for the orchestration at scale. So instead of executing all the",
+      "words": []
+    },
+    {
+      "start": 918.24,
+      "end": 922.48,
+      "text": "tasks manually, so everything runs as a single orchestrated workflow.",
+      "words": []
+    },
+    {
+      "start": 922.5600000000001,
+      "end": 930.24,
+      "text": "We have now seen how this is built and how workflows orchestrated.",
+      "words": []
+    },
+    {
+      "start": 931.2,
+      "end": 936.16,
+      "text": "Now let's shift to what this enables from automation at scale to data-driven intelligence.",
+      "words": []
+    },
+    {
+      "start": 940.08,
+      "end": 945.36,
+      "text": "Autodesk consulting worked closely with Arcade's team to design and implement these automations,",
+      "words": []
+    },
+    {
+      "start": 946.08,
+      "end": 952.72,
+      "text": "automation capabilities within PCT using APS APIs. So the main focus was to automate",
+      "words": []
+    },
+    {
+      "start": 952.72,
+      "end": 958.16,
+      "text": "entered project life cycle. This starts from project provisioning where companies are managed",
+      "words": []
+    },
+    {
+      "start": 958.16,
+      "end": 966.8000000000001,
+      "text": "across formats assigned to members automatically and projects are created through APIs including",
+      "words": []
+    },
+    {
+      "start": 966.8000000000001,
+      "end": 972.08,
+      "text": "adding members to the projects. From there, the governance is applied automatically where",
+      "words": []
+    },
+    {
+      "start": 972.32,
+      "end": 977.36,
+      "text": "we automate folder structures and permissions are configured based on members, role and company.",
+      "words": []
+    },
+    {
+      "start": 978.32,
+      "end": 982.5600000000001,
+      "text": "On top of that, the project review workflows are automated including creating issues",
+      "words": []
+    },
+    {
+      "start": 983.12,
+      "end": 987.9200000000001,
+      "text": "and assigning them to project admins as follow-up tasks after the project setup.",
+      "words": []
+    },
+    {
+      "start": 989.44,
+      "end": 994.64,
+      "text": "And finally, the integrations where we implemented bidirectional sync between ACC and SharePoint",
+      "words": []
+    },
+    {
+      "start": 995.28,
+      "end": 1001.52,
+      "text": "the entered process to make the data stay aligned across platforms throughout the project life cycle.",
+      "words": []
+    },
+    {
+      "start": 1002.96,
+      "end": 1007.1999999999999,
+      "text": "So instead of managing all these activities manually across different tools,",
+      "words": []
+    },
+    {
+      "start": 1007.1999999999999,
+      "end": 1011.6,
+      "text": "the entered process is now becomes standardized and automated.",
+      "words": []
+    },
+    {
+      "start": 1013.12,
+      "end": 1018.88,
+      "text": "This allows Arcade to move from fragmented setup to consistent automated project delivery at",
+      "words": []
+    },
+    {
+      "start": 1018.88,
+      "end": 1027.12,
+      "text": "enterprise scale. We have seen out different parts of our project life cycles are automated at",
+      "words": []
+    },
+    {
+      "start": 1027.12,
+      "end": 1032.88,
+      "text": "our scale, but the automation is only part of the story. The next step is making these workflows",
+      "words": []
+    },
+    {
+      "start": 1032.88,
+      "end": 1039.12,
+      "text": "smarter using the data. This brings us to data driven metadata enrichment during the project setup.",
+      "words": []
+    },
+    {
+      "start": 1040.88,
+      "end": 1045.84,
+      "text": "At enterprise scale, the project setup involves a lot of repetitive and manual data entering.",
+      "words": []
+    },
+    {
+      "start": 1045.84,
+      "end": 1052.72,
+      "text": "This leads to inconsistent project configurations and teams usually spend a lot of time identifying",
+      "words": []
+    },
+    {
+      "start": 1052.72,
+      "end": 1059.12,
+      "text": "the correct metadata. This is a common challenge we face. This is where Autodesk supported",
+      "words": []
+    },
+    {
+      "start": 1059.12,
+      "end": 1066.8,
+      "text": "Arcade is in designing data driven capabilities within PCT, which creates an opportunity to",
+      "words": []
+    },
+    {
+      "start": 1066.8,
+      "end": 1071.84,
+      "text": "leverage the historic project data to predict related metadata automatically and significantly",
+      "words": []
+    },
+    {
+      "start": 1071.84,
+      "end": 1078.8799999999999,
+      "text": "reduce the manual effort. The goal is simple to enable faster, consistent and intelligent project setup",
+      "words": []
+    },
+    {
+      "start": 1078.8799999999999,
+      "end": 1089.76,
+      "text": "at scale. Now let's see how we have enabled intelligent project setup in PCT. During the project",
+      "words": []
+    },
+    {
+      "start": 1089.76,
+      "end": 1094.8,
+      "text": "request, users start by entering the key inputs such as global business area, service line,",
+      "words": []
+    },
+    {
+      "start": 1095.52,
+      "end": 1101.52,
+      "text": "office country. This information is then sent to back end where we combine the business rules",
+      "words": []
+    },
+    {
+      "start": 1102.4,
+      "end": 1107.12,
+      "text": "with a trained machine learning model to generate the metadata suggestions such as",
+      "words": []
+    },
+    {
+      "start": 1107.12,
+      "end": 1112.08,
+      "text": "form apps, data location, project template, project country, time zone etc.",
+      "words": []
+    },
+    {
+      "start": 1113.92,
+      "end": 1118.4,
+      "text": "These are not automatically applied. They are just presented to presented at suggestions,",
+      "words": []
+    },
+    {
+      "start": 1119.04,
+      "end": 1126.0,
+      "text": "along users to review them, accept and adjust them later. Once confirmed, the final suggestions",
+      "words": []
+    },
+    {
+      "start": 1126.0,
+      "end": 1130.8,
+      "text": "or configurations are stored in the PCT database, along with the applied suggestions and",
+      "words": []
+    },
+    {
+      "start": 1130.8,
+      "end": 1138.0,
+      "text": "overheads. Through an ETL process, this data is then moved to fabric database where Arcade stores",
+      "words": []
+    },
+    {
+      "start": 1138.0,
+      "end": 1143.76,
+      "text": "all the historic project data. The model is then trained on historical data sets to learn from",
+      "words": []
+    },
+    {
+      "start": 1143.76,
+      "end": 1154.48,
+      "text": "patterns in our projects or operate and configured. Usually, user selections and overheads",
+      "words": []
+    },
+    {
+      "start": 1154.48,
+      "end": 1159.9199999999998,
+      "text": "are fed back into the system, creating continuous learning loop. So over the time, the system",
+      "words": []
+    },
+    {
+      "start": 1160.0,
+      "end": 1163.28,
+      "text": "becomes more accurate, better aligned with real project configurations.",
+      "words": []
+    },
+    {
+      "start": 1166.72,
+      "end": 1175.44,
+      "text": "Here is demo of this works. This is a project request form where user needs to enter the",
+      "words": []
+    },
+    {
+      "start": 1175.44,
+      "end": 1181.3600000000001,
+      "text": "basic project information such as project number name and also the key information such as",
+      "words": []
+    },
+    {
+      "start": 1181.4399999999998,
+      "end": 1190.7199999999998,
+      "text": "global business area, service line and office country. Then we have to fill in the next platform",
+      "words": []
+    },
+    {
+      "start": 1190.7199999999998,
+      "end": 1197.4399999999998,
+      "text": "specific information, in this case, or more specific or AC specific fields. Here we have the option",
+      "words": []
+    },
+    {
+      "start": 1197.4399999999998,
+      "end": 1203.52,
+      "text": "to autopopulate using our model. When we click autopopulate, we get the suggestion or prediction based",
+      "words": []
+    },
+    {
+      "start": 1203.52,
+      "end": 1211.1999999999998,
+      "text": "on the patterns. Here we have suggestions for each and every field. Now either we can clear",
+      "words": []
+    },
+    {
+      "start": 1211.2,
+      "end": 1217.52,
+      "text": "or apply all the suggestions or we can also individually apply for all the fields.",
+      "words": []
+    },
+    {
+      "start": 1218.8,
+      "end": 1225.8400000000001,
+      "text": "So let's apply all the suggestions. After applying, we can also edit the values or adjust them",
+      "words": []
+    },
+    {
+      "start": 1225.8400000000001,
+      "end": 1233.76,
+      "text": "as per our requirements. Then we can submit the request. So this demo shows how we can build",
+      "words": []
+    },
+    {
+      "start": 1233.84,
+      "end": 1238.4,
+      "text": "intelligent and data driven capabilities on top of AC scene workflows.",
+      "words": []
+    },
+    {
+      "start": 1246.24,
+      "end": 1250.8799999999999,
+      "text": "Now we have seen our APS enables automation and data driven intelligence. Now let's see how",
+      "words": []
+    },
+    {
+      "start": 1250.8799999999999,
+      "end": 1258.72,
+      "text": "this evolves into AI powered insights. So why AI powered insights? At this point, the question",
+      "words": []
+    },
+    {
+      "start": 1258.8,
+      "end": 1266.72,
+      "text": "becomes why add AI powered insights layer on top of PCT and format. The simplest answer is that",
+      "words": []
+    },
+    {
+      "start": 1266.72,
+      "end": 1273.92,
+      "text": "the data already exists but is distributed. Project information is spread across multiple projects,",
+      "words": []
+    },
+    {
+      "start": 1273.92,
+      "end": 1281.84,
+      "text": "hubs, themes, regions, which makes it difficult to get a consistent enterprise view of status,",
+      "words": []
+    },
+    {
+      "start": 1281.84,
+      "end": 1289.84,
+      "text": "risk, on-contribing, or compliance. So the first need was visibility. But the raw data on its own",
+      "words": []
+    },
+    {
+      "start": 1289.84,
+      "end": 1296.32,
+      "text": "is not enough. To make it useful at an end-poder price scale, we need to combine format data with",
+      "words": []
+    },
+    {
+      "start": 1296.32,
+      "end": 1302.6399999999999,
+      "text": "PCT and other sources. Then transport it into a standardized matrix that align with arched",
+      "words": []
+    },
+    {
+      "start": 1303.4399999999998,
+      "end": 1309.84,
+      "text": "requirements. And once you have the trusted data foundation, the value goes beyond reporting.",
+      "words": []
+    },
+    {
+      "start": 1309.84,
+      "end": 1314.1599999999999,
+      "text": "The same data state can support dashboards, early risk indicators,",
+      "words": []
+    },
+    {
+      "start": 1314.1599999999999,
+      "end": 1322.32,
+      "text": "recommendations like the one Ronnie showed, and AI-seated workflows inside PCT and of course beyond.",
+      "words": []
+    },
+    {
+      "start": 1323.12,
+      "end": 1328.8799999999999,
+      "text": "So for us, AI powered insights are not about adding AI for its own sake. There are about",
+      "words": []
+    },
+    {
+      "start": 1328.8799999999999,
+      "end": 1336.3999999999999,
+      "text": "turning fragmented operational data into something consistent, reusable, and actionable across the",
+      "words": []
+    },
+    {
+      "start": 1336.4,
+      "end": 1345.1200000000001,
+      "text": "enterprise. This slide shows at the high level how we make AI powered insights practical inside",
+      "words": []
+    },
+    {
+      "start": 1345.1200000000001,
+      "end": 1352.88,
+      "text": "the PCT. It always starts with the user into our PCT frontend when they interact through our simple",
+      "words": []
+    },
+    {
+      "start": 1352.88,
+      "end": 1360.24,
+      "text": "UI and in this case an agent experience. The frontend connects to the PCT backend, which is where",
+      "words": []
+    },
+    {
+      "start": 1360.24,
+      "end": 1366.4,
+      "text": "the orchestration happens. In the background, we're being together to key foundation. The first is",
+      "words": []
+    },
+    {
+      "start": 1366.4,
+      "end": 1373.44,
+      "text": "our PCT data in Azure SPF, which gives us the internal project a request context. The second is",
+      "words": []
+    },
+    {
+      "start": 1373.44,
+      "end": 1382.64,
+      "text": "the format data. We combine and extract these two and process them to Microsoft Fabric using the",
+      "words": []
+    },
+    {
+      "start": 1382.64,
+      "end": 1389.68,
+      "text": "Autodesk platform data connector API. So we extract from all the hubs, move it into format,",
+      "words": []
+    },
+    {
+      "start": 1389.68,
+      "end": 1395.28,
+      "text": "we extract from PCT, move it into Fabric so everything comes together.",
+      "words": []
+    },
+    {
+      "start": 1397.1200000000001,
+      "end": 1403.1200000000001,
+      "text": "Then Fabric gives us the standard that's reusable data layer. So instead of looking at fragmented",
+      "words": []
+    },
+    {
+      "start": 1403.1200000000001,
+      "end": 1408.5600000000002,
+      "text": "project information, we can work with normalized metrics and since insights across projects and",
+      "words": []
+    },
+    {
+      "start": 1408.5600000000002,
+      "end": 1415.2,
+      "text": "homes. On top of that, the backend connects to Azure OpenAI, which allows us to turn the",
+      "words": []
+    },
+    {
+      "start": 1415.2,
+      "end": 1421.52,
+      "text": "Trace data foundation into recommendations, summaries in AI assisted workflows inside PCT.",
+      "words": []
+    },
+    {
+      "start": 1422.16,
+      "end": 1428.88,
+      "text": "So the key idea here is that AI is not working in AI solution, is it grounded in enterprise data,",
+      "words": []
+    },
+    {
+      "start": 1428.88,
+      "end": 1436.64,
+      "text": "connected through Fabric and operational operationalized through PCT. Now let's see it work.",
+      "words": []
+    },
+    {
+      "start": 1439.3600000000001,
+      "end": 1444.8,
+      "text": "Yeah, this question that I'm asking here, it's really simple. I want to show you guys that I",
+      "words": []
+    },
+    {
+      "start": 1444.8,
+      "end": 1452.6399999999999,
+      "text": "can list all the available ACC hubs now, former hubs connected to our agent. Of course, this is",
+      "words": []
+    },
+    {
+      "start": 1452.6399999999999,
+      "end": 1458.1599999999999,
+      "text": "a working prototype, so it takes a bit of time. As you can see right here, we have multiple hubs,",
+      "words": []
+    },
+    {
+      "start": 1458.1599999999999,
+      "end": 1470.72,
+      "text": "like Australia, the Deutschland, UK, US, and now I'm asking it how many projects in our hubs,",
+      "words": []
+    },
+    {
+      "start": 1470.72,
+      "end": 1479.2,
+      "text": "in our US hub, have specific service lines, which we can see it breaking down. So,",
+      "words": []
+    },
+    {
+      "start": 1479.2,
+      "end": 1485.76,
+      "text": "architecture and everybody has 160 projects, cost and commercial management, two projects,",
+      "words": []
+    },
+    {
+      "start": 1485.76,
+      "end": 1491.84,
+      "text": "design and engineering, 900, something projects, and of course, a lot of unknown projects,",
+      "words": []
+    },
+    {
+      "start": 1491.84,
+      "end": 1499.84,
+      "text": "because this standardization is new, so it doesn't work on for older projects. I can also see",
+      "words": []
+    },
+    {
+      "start": 1499.84,
+      "end": 1507.04,
+      "text": "all the available project properties that I can ask. I can ask about reviews, I can ask about",
+      "words": []
+    },
+    {
+      "start": 1507.04,
+      "end": 1514.72,
+      "text": "forms, I can ask about cost, I can ask about how many external users, what kind of locations were,",
+      "words": []
+    },
+    {
+      "start": 1514.72,
+      "end": 1523.76,
+      "text": "there are a ton of stuff I can ask you about, but this is just a prototype, so that's all I have for now.",
+      "words": []
+    },
+    {
+      "start": 1524.4,
+      "end": 1534.16,
+      "text": "Now, I'm going to talk a bit about our outcomes, what did PCT help us do, and what are our results?",
+      "words": []
+    },
+    {
+      "start": 1535.2,
+      "end": 1543.36,
+      "text": "So, this slide is really about the outcomes. One of the clearest benefits of PCT is the",
+      "words": []
+    },
+    {
+      "start": 1543.36,
+      "end": 1549.76,
+      "text": "scale we already able to support. We've created more than 10,000 projects through a process that is",
+      "words": []
+    },
+    {
+      "start": 1549.76,
+      "end": 1555.44,
+      "text": "now automated and standardized, instead of relying on manual setup each time. On top of that,",
+      "words": []
+    },
+    {
+      "start": 1555.44,
+      "end": 1561.92,
+      "text": "we added more than 10 automations that replaced repeated manual and duplicate activities.",
+      "words": []
+    },
+    {
+      "start": 1561.92,
+      "end": 1567.68,
+      "text": "That means less administrative effort and also much more consistency in how projects are created",
+      "words": []
+    },
+    {
+      "start": 1567.68,
+      "end": 1574.64,
+      "text": "and managed. And from a business perspective, this has already translated in more than one million",
+      "words": []
+    },
+    {
+      "start": 1575.1200000000001,
+      "end": 1580.72,
+      "text": "dollars in cost savings. I know it's a lot. With the value continuing to grow as most projects",
+      "words": []
+    },
+    {
+      "start": 1580.72,
+      "end": 1586.3200000000002,
+      "text": "will go through the same model. So, for us, the important message is that this is not only about",
+      "words": []
+    },
+    {
+      "start": 1586.3200000000002,
+      "end": 1592.0800000000002,
+      "text": "technical efficiency. It's about creating a scalable operating model that delivers measurable,",
+      "words": []
+    },
+    {
+      "start": 1592.0800000000002,
+      "end": 1599.2800000000002,
+      "text": "measurable business values in time, effort reduced, and more consistency across our platform.",
+      "words": []
+    },
+    {
+      "start": 1600.0,
+      "end": 1608.8799999999999,
+      "text": "I want to include this code because it captures the value of PCT in a very simple and practical way.",
+      "words": []
+    },
+    {
+      "start": 1608.8799999999999,
+      "end": 1614.6399999999999,
+      "text": "What we build is not just a technical solution, it is something that helps teams working more",
+      "words": []
+    },
+    {
+      "start": 1614.6399999999999,
+      "end": 1620.8799999999999,
+      "text": "consistent, scalable, and secure way across our business. And I think this code reflects that",
+      "words": []
+    },
+    {
+      "start": 1620.8799999999999,
+      "end": 1627.2,
+      "text": "well. PCT helps us standardize project, automate repetitive tasks, and support the global,",
+      "words": []
+    },
+    {
+      "start": 1627.2,
+      "end": 1634.72,
+      "text": "global scalable approach without losing control or governance. For us, this is really the bigger",
+      "words": []
+    },
+    {
+      "start": 1634.72,
+      "end": 1640.16,
+      "text": "takeaway from this session. The value is not only in creating projects faster, it is in creating",
+      "words": []
+    },
+    {
+      "start": 1640.16,
+      "end": 1646.8,
+      "text": "a platform model that improves efficiency, improves consistency, and keeps the right standard in place.",
+      "words": []
+    },
+    {
+      "start": 1647.6000000000001,
+      "end": 1655.52,
+      "text": "So, this is how we see PCT. It's not just a tool, but an enabler for a more scalable way of",
+      "words": []
+    },
+    {
+      "start": 1655.52,
+      "end": 1665.52,
+      "text": "operating format across our case. To close, I want to leave you with a quick view of where we see",
+      "words": []
+    },
+    {
+      "start": 1665.52,
+      "end": 1673.76,
+      "text": "this going. First, in May, the focus is to have a fully automated format now, project creation,",
+      "words": []
+    },
+    {
+      "start": 1673.76,
+      "end": 1680.48,
+      "text": "setup, and archival. The idea here is to extend the same level of control and automation we already",
+      "words": []
+    },
+    {
+      "start": 1680.56,
+      "end": 1685.28,
+      "text": "have into the format side of life cycle. So, the process takes consistent from the beginning.",
+      "words": []
+    },
+    {
+      "start": 1686.08,
+      "end": 1694.32,
+      "text": "Then in August, 2086, the next step is integrating between format and project ways, like Rodney mentioned",
+      "words": []
+    },
+    {
+      "start": 1694.32,
+      "end": 1702.0,
+      "text": "also, including files and metadata synchronization. This helps reduce disconnected handoffs and",
+      "words": []
+    },
+    {
+      "start": 1702.0,
+      "end": 1708.48,
+      "text": "creates better continuity between design and delivery environments. And then in October, we are",
+      "words": []
+    },
+    {
+      "start": 1708.48,
+      "end": 1716.0,
+      "text": "looking at a bidirectional MCPD integration on auto test system. Just as a note, this is part of a",
+      "words": []
+    },
+    {
+      "start": 1716.0,
+      "end": 1722.0,
+      "text": "forward looking information. So, please treat this as the directional. This may change,",
+      "words": []
+    },
+    {
+      "start": 1723.44,
+      "end": 1729.3600000000001,
+      "text": "but the intent is clear. Make workflows more connected and make the platform easier to interact",
+      "words": []
+    },
+    {
+      "start": 1729.3600000000001,
+      "end": 1736.96,
+      "text": "with which to assistance style experiences. So, overall, the roadmap is about expanding automation,",
+      "words": []
+    },
+    {
+      "start": 1736.96,
+      "end": 1741.92,
+      "text": "improving cross-platform continuity, and moving towards more intelligent life cycle workflows.",
+      "words": []
+    },
+    {
+      "start": 1744.24,
+      "end": 1751.92,
+      "text": "Thank you.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:43:14.149985+00:00"
+}

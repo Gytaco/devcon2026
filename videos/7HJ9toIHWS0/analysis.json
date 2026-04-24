@@ -1,0 +1,52 @@
+{
+  "video_id": "7HJ9toIHWS0",
+  "demo_timestamps": [
+    {
+      "start": 560.0,
+      "end": 680.0,
+      "description": "Demonstration of handling daily field reports, creating static and dynamic information in forms and issues in Autodesk Build."
+    },
+    {
+      "start": 1220.0,
+      "end": 1287.0,
+      "description": "Demonstration of using Power Automate and SQL Server for data processing and reporting integration with Autodesk Construction Cloud."
+    }
+  ],
+  "themes": [
+    "Automating construction reporting",
+    "Digital transformation in construction"
+  ],
+  "client_mentions": [
+    {
+      "name": "EGOT Technologies",
+      "context": "A company mentioned in the context of MEP sector and digital transformation challenges.",
+      "timestamp": 18.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "APS APIs",
+      "is_api": true,
+      "timestamp": 60.0
+    },
+    {
+      "name": "Autodesk Construction Cloud",
+      "is_api": false,
+      "timestamp": 274.0
+    },
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 381.0
+    },
+    {
+      "name": "Autodesk Build",
+      "is_api": false,
+      "timestamp": 388.0
+    }
+  ],
+  "ai_technologies": [],
+  "summary": "The video discusses the journey of automating construction reporting with Autodesk's APS and ACC technologies over four years. It highlights the challenges faced by contractors like EGOT Technologies in digital transformation and explains the advantages and limitations of using low-code platforms like Power Automate and SQL Server in data processing. The presentation shares insights into scaling and optimizing reporting workflows in construction projects.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T21:47:22.743712+00:00"
+}

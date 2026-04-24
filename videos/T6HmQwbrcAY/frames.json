@@ -1,0 +1,306 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\T6HmQwbrcAY\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide introduces an advanced topic on Vibe Coding with APS Viewer, covering use of LLMs for customizations.",
+      "products_visible": [
+        "Autodesk",
+        "APS Viewer"
+      ],
+      "ui_elements": [
+        "DevCon",
+        "(Advanced) Vibe Coding with APS Viewer",
+        "Michael Beale",
+        "Autodesk APS Team"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\T6HmQwbrcAY\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide shows examples of webGL usage with Blueprint in Three.js with 3DGS and MapLibre Shadows.",
+      "products_visible": [
+        "AUTODESK",
+        "Three.js",
+        "MapLibre"
+      ],
+      "ui_elements": [
+        "3D Viewer",
+        "Shadow Settings"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\T6HmQwbrcAY\\frames\\frame_000007.jpg",
+      "timestamp_seconds": 180.0,
+      "frame_index": 7,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide showing the agenda for a presentation at Autodesk DevCon, covering topics like Vibe Coding and APS Viewer SDK.",
+      "products_visible": [
+        "Autodesk APS Viewer SDK"
+      ],
+      "ui_elements": [
+        "Agenda"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\T6HmQwbrcAY\\frames\\frame_000009.jpg",
+      "timestamp_seconds": 240.0,
+      "frame_index": 9,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses 'Vibe Coding' in 2025 with a focus on 'LLMS.txt' and potential limitations, alongside a demo viewer interface.",
+      "products_visible": [
+        "AUTODESK",
+        "APS Viewer"
+      ],
+      "ui_elements": [
+        "Login",
+        "Search"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\T6HmQwbrcAY\\frames\\frame_000010.jpg",
+      "timestamp_seconds": 270.0,
+      "frame_index": 10,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide is presented with the title 'Why do ambitious LLM projects so often fail?' along with illustrations of a brain, rocket, and puzzled person.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\T6HmQwbrcAY\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide is shown comparing 'vibe coding' with 'structured engineering' using illustrations and text.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "vibe coding",
+        "structured engineering"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\T6HmQwbrcAY\\frames\\frame_000019.jpg",
+      "timestamp_seconds": 540.0,
+      "frame_index": 19,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents a challenge involving the APS Viewer and Map Libre, with background graphics of folders and documents.",
+      "products_visible": [
+        "APS Viewer",
+        "Map Libre"
+      ],
+      "ui_elements": [
+        "Challenge"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\T6HmQwbrcAY\\frames\\frame_000021.jpg",
+      "timestamp_seconds": 600.0,
+      "frame_index": 21,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide showing APS Viewer SDK, with a 3D model viewer and information about displaying designs in a web browser.",
+      "products_visible": [
+        "APS Viewer SDK"
+      ],
+      "ui_elements": [
+        "Documentation",
+        "View pricing"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\T6HmQwbrcAY\\frames\\frame_000023.jpg",
+      "timestamp_seconds": 660.0,
+      "frame_index": 23,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide from an Autodesk DevCon presentation on Map Libre, featuring a user interface with building shadow and ambient occlusion settings.",
+      "products_visible": [
+        "Autodesk",
+        "Map Libre"
+      ],
+      "ui_elements": [
+        "MapLibre Building Shadows Plugin",
+        "SHADOW",
+        "AMBIENT OCCLUSION"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\T6HmQwbrcAY\\frames\\frame_000025.jpg",
+      "timestamp_seconds": 720.0,
+      "frame_index": 25,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents a plan.md creation guide for building a demo using MapLibre, three.js, and APS Viewer SDK.",
+      "products_visible": [
+        "AUTODESK",
+        "APS Viewer SDK"
+      ],
+      "ui_elements": [
+        "Create a...",
+        "PLAN.MD",
+        "New Chat"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\T6HmQwbrcAY\\frames\\frame_000026.jpg",
+      "timestamp_seconds": 750.0,
+      "frame_index": 26,
+      "category": "diagram",
+      "keep": true,
+      "description": "The frame shows a diagram with a 'Project Folder' containing files like PLAN.MD, TASK.MD, CONSTRAINTS.MD, along with skills and memory components.",
+      "products_visible": [
+        "AUTODESK DevCon"
+      ],
+      "ui_elements": [
+        "PLAN.MD",
+        "TASK.MD",
+        "CONSTRAINTS.MD",
+        "skills",
+        "memory"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\T6HmQwbrcAY\\frames\\frame_000028.jpg",
+      "timestamp_seconds": 810.0,
+      "frame_index": 28,
+      "category": "code",
+      "keep": true,
+      "description": "The frame shows a code editor with information on setting up a GAD project for MapLibre and LMV Viewer.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "PLAN.MD",
+        "Observations",
+        "Task",
+        "Memory"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\T6HmQwbrcAY\\frames\\frame_000031.jpg",
+      "timestamp_seconds": 900.0,
+      "frame_index": 31,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide showing a demo about executing an agent loop as part of Autodesk DevCon.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Demo",
+        "Execute the agent loop"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\T6HmQwbrcAY\\frames\\frame_000032.jpg",
+      "timestamp_seconds": 930.0,
+      "frame_index": 32,
+      "category": "demo",
+      "keep": true,
+      "description": "A demo of a 3D model is being presented, possibly within a software interface at an Autodesk event.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\T6HmQwbrcAY\\frames\\frame_000033.jpg",
+      "timestamp_seconds": 960.0,
+      "frame_index": 33,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a demo of a viewer application displaying a 3D model related to Autodesk, presented at an event.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "APS Viewer Demo",
+        "ACME",
+        "toolbar"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\T6HmQwbrcAY\\frames\\frame_000036.jpg",
+      "timestamp_seconds": 1050.0,
+      "frame_index": 36,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide discussing debugging with instructions on rendering loop and camera events, mentioning SSAO positioning.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Task 4",
+        "SSAO, bottom right"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\T6HmQwbrcAY\\frames\\frame_000042.jpg",
+      "timestamp_seconds": 1230.0,
+      "frame_index": 42,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon showing a cartoon illustration about skill enhancement with bots.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\T6HmQwbrcAY\\frames\\frame_000043.jpg",
+      "timestamp_seconds": 1260.0,
+      "frame_index": 43,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing results of using LMV and MapLibre to create vector tiles and buildings, with a 3D city model visible.",
+      "products_visible": [
+        "AUTODESK",
+        "MapLibre"
+      ],
+      "ui_elements": [
+        "Model Tree",
+        "Oneshot",
+        "3D Buildings",
+        "Lighting"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\T6HmQwbrcAY\\frames\\frame_000045.jpg",
+      "timestamp_seconds": 1320.0,
+      "frame_index": 45,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide with a 3D model and a list of features such as elevation, LMV UI, filtering, and sectioning.",
+      "products_visible": [
+        "AUTODESK",
+        "MapLibre"
+      ],
+      "ui_elements": [
+        "Result",
+        "Elevation",
+        "LMV UI",
+        "Filtering",
+        "Sectioning"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:24:00.513847+00:00"
+}

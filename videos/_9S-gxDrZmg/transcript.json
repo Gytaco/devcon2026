@@ -1,0 +1,547 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.76,
+      "text": "Hello, everyone. My name is Tobias Hathorn, and I'm a product manager in the APS platform.",
+      "words": []
+    },
+    {
+      "start": 5.76,
+      "end": 10.24,
+      "text": "I lead the Data Exchange team and I have a real passion for interoperability,",
+      "words": []
+    },
+    {
+      "start": 10.24,
+      "end": 15.200000000000001,
+      "text": "especially due to the fact that I practiced as an architect for five years,",
+      "words": []
+    },
+    {
+      "start": 15.200000000000001,
+      "end": 18.64,
+      "text": "and I have felt the pain of low fidelity interrupt.",
+      "words": []
+    },
+    {
+      "start": 18.64,
+      "end": 22.400000000000002,
+      "text": "So we're happy to share how Autodesk is addressing this for you,",
+      "words": []
+    },
+    {
+      "start": 22.400000000000002,
+      "end": 25.2,
+      "text": "and I'm joined today by Leila on my team,",
+      "words": []
+    },
+    {
+      "start": 25.2,
+      "end": 29.6,
+      "text": "the foremost expert on IFC at Autodesk.",
+      "words": []
+    },
+    {
+      "start": 30.560000000000002,
+      "end": 33.92,
+      "text": "This presentation will be about the Data Exchange products,",
+      "words": []
+    },
+    {
+      "start": 33.92,
+      "end": 36.96,
+      "text": "and especially how our IFC connector works.",
+      "words": []
+    },
+    {
+      "start": 36.96,
+      "end": 40.64,
+      "text": "And you will leave with a clear understanding of both the current value",
+      "words": []
+    },
+    {
+      "start": 40.64,
+      "end": 45.760000000000005,
+      "text": "of the Data Exchange for IFC, and you'll get to see some customer examples.",
+      "words": []
+    },
+    {
+      "start": 45.760000000000005,
+      "end": 47.6,
+      "text": "So you'll see where the product is headed.",
+      "words": []
+    },
+    {
+      "start": 49.68000000000001,
+      "end": 53.760000000000005,
+      "text": "Autodesk is on a long journey to help customers unlock",
+      "words": []
+    },
+    {
+      "start": 54.72,
+      "end": 60.96,
+      "text": "file-based data so that the file doesn't have to be the source of truth forever.",
+      "words": []
+    },
+    {
+      "start": 61.76,
+      "end": 65.28,
+      "text": "And this is a long journey from files to granular data.",
+      "words": []
+    },
+    {
+      "start": 65.92,
+      "end": 69.03999999999999,
+      "text": "And on this journey, we get a frequently asked question,",
+      "words": []
+    },
+    {
+      "start": 69.75999999999999,
+      "end": 74.72,
+      "text": "why is granular data so much better than file-based interoperability?",
+      "words": []
+    },
+    {
+      "start": 75.28,
+      "end": 80.08,
+      "text": "Well, just imagine a complex project, like this one, from a galaxy far, far away.",
+      "words": []
+    },
+    {
+      "start": 80.96,
+      "end": 85.2,
+      "text": "You could share your entire model, like we've been doing for years,",
+      "words": []
+    },
+    {
+      "start": 86.0,
+      "end": 90.16,
+      "text": "but we all know that files are complex and bulky.",
+      "words": []
+    },
+    {
+      "start": 90.16,
+      "end": 92.4,
+      "text": "There is some friction in this experience,",
+      "words": []
+    },
+    {
+      "start": 93.52,
+      "end": 97.84,
+      "text": "especially when your collaborator only needs a part of the model like the control room.",
+      "words": []
+    },
+    {
+      "start": 98.64,
+      "end": 100.56,
+      "text": "Now, imagine another approach.",
+      "words": []
+    },
+    {
+      "start": 101.28,
+      "end": 107.6,
+      "text": "What if you could share only the elements that the recipient needs while maintaining a connection",
+      "words": []
+    },
+    {
+      "start": 107.67999999999999,
+      "end": 112.32,
+      "text": "back to the original model so that you can update the shared subset",
+      "words": []
+    },
+    {
+      "start": 112.32,
+      "end": 114.39999999999999,
+      "text": "if something changes on your site?",
+      "words": []
+    },
+    {
+      "start": 115.67999999999999,
+      "end": 120.08,
+      "text": "And this is how Data Exchange System works, allowing you to extract",
+      "words": []
+    },
+    {
+      "start": 120.08,
+      "end": 126.08,
+      "text": "only a portion of your model using granular data structures instead of a file format.",
+      "words": []
+    },
+    {
+      "start": 127.19999999999999,
+      "end": 130.56,
+      "text": "Starting from your authoring app, where you have the entire model,",
+      "words": []
+    },
+    {
+      "start": 131.04,
+      "end": 137.68,
+      "text": "you can isolate, extract, and share model subsets as data exchanges.",
+      "words": []
+    },
+    {
+      "start": 138.56,
+      "end": 143.36,
+      "text": "And these exchanges are accessed through the Autodesk Construction Cloud,",
+      "words": []
+    },
+    {
+      "start": 143.36,
+      "end": 150.16,
+      "text": "also known as Forma, so that your existing project permissions and team setups all still apply.",
+      "words": []
+    },
+    {
+      "start": 151.52,
+      "end": 157.44,
+      "text": "Now, you have structured granular data that can be used for coordination, documentation,",
+      "words": []
+    },
+    {
+      "start": 157.44,
+      "end": 160.96,
+      "text": "and visualization in BI dashboards.",
+      "words": []
+    },
+    {
+      "start": 161.6,
+      "end": 167.84,
+      "text": "And this is a pretty simple diagram, but the sharing pattern scales to many of the apps",
+      "words": []
+    },
+    {
+      "start": 167.84,
+      "end": 169.76,
+      "text": "that you get to use every day.",
+      "words": []
+    },
+    {
+      "start": 171.28,
+      "end": 178.24,
+      "text": "So by sharing data instead of files, we unlock new and exciting customer value.",
+      "words": []
+    },
+    {
+      "start": 178.96,
+      "end": 185.44,
+      "text": "You can connect to an ecosystem of different tools, extending well beyond just Autodesk tools.",
+      "words": []
+    },
+    {
+      "start": 186.4,
+      "end": 192.4,
+      "text": "And you can do all of this while maintaining explicit control over access and permissions",
+      "words": []
+    },
+    {
+      "start": 193.04,
+      "end": 196.16,
+      "text": "established in your Forma data management.",
+      "words": []
+    },
+    {
+      "start": 197.68,
+      "end": 204.32,
+      "text": "All of this ensures that specific stakeholders have just what they need to perform their tasks.",
+      "words": []
+    },
+    {
+      "start": 204.32,
+      "end": 211.6,
+      "text": "And this makes their lives more efficient, and all of this protects your source files.",
+      "words": []
+    },
+    {
+      "start": 211.68,
+      "end": 217.2,
+      "text": "So your intellectual property is not getting copied and reproduced in many places.",
+      "words": []
+    },
+    {
+      "start": 218.16,
+      "end": 222.48,
+      "text": "All of this, and you're still able to enable collaboration.",
+      "words": []
+    },
+    {
+      "start": 223.92,
+      "end": 229.12,
+      "text": "I'll pass it over to Layla to show us some amazing customer examples and talk more about our",
+      "words": []
+    },
+    {
+      "start": 229.12,
+      "end": 237.44,
+      "text": "IFC Cloud Connector. Great, thanks so much Tobias. So let's have a look at our IFC connector.",
+      "words": []
+    },
+    {
+      "start": 237.44,
+      "end": 244.16,
+      "text": "As Tobias mentioned, we have several connectors. And the IFC is one of our cloud connectors,",
+      "words": []
+    },
+    {
+      "start": 244.16,
+      "end": 253.12,
+      "text": "which means that this one is available on the cloud on Forma. And you are not required to do any",
+      "words": []
+    },
+    {
+      "start": 253.12,
+      "end": 260.4,
+      "text": "kind of a setup, a download. It is just available on all the Forma projects which you have created",
+      "words": []
+    },
+    {
+      "start": 260.4,
+      "end": 270.32,
+      "text": "after July 22nd, 2025. And this connector basically allows you to filter down your IFC files",
+      "words": []
+    },
+    {
+      "start": 270.32,
+      "end": 279.28,
+      "text": "and share only the elements you need in the data exchange. As Tobias just mentioned, this is really",
+      "words": []
+    },
+    {
+      "start": 279.84,
+      "end": 288.4,
+      "text": "the true power of data exchange that we can share only the data, which is really required and",
+      "words": []
+    },
+    {
+      "start": 288.4,
+      "end": 297.12,
+      "text": "needed by a specific workflow. So let's have a look how this looks like for the cloud connector for",
+      "words": []
+    },
+    {
+      "start": 297.12,
+      "end": 307.67999999999995,
+      "text": "IFC. I think we have all already received really huge IFC files, which basically contain everything",
+      "words": []
+    },
+    {
+      "start": 308.64,
+      "end": 315.76,
+      "text": "you don't really need. So in this case, for example, I maybe just need the curtain walls inside of",
+      "words": []
+    },
+    {
+      "start": 315.76,
+      "end": 324.8,
+      "text": "my Revit project. So what the cloud connector allows me is to easily filter the IFC and basically",
+      "words": []
+    },
+    {
+      "start": 324.8,
+      "end": 332.4,
+      "text": "share only the curtain walls in this case with my Revit and load them there. As you can see here,",
+      "words": []
+    },
+    {
+      "start": 332.4,
+      "end": 338.15999999999997,
+      "text": "the curtain walls are loaded as the curtain walls inside of Revit, which means that I'm able to",
+      "words": []
+    },
+    {
+      "start": 338.24,
+      "end": 347.44,
+      "text": "use them for the documentation and also for the scheduling. As you can imagine, this can save a",
+      "words": []
+    },
+    {
+      "start": 347.44,
+      "end": 354.72,
+      "text": "lot of time because we don't need to link the IFC with all the unnecessary details. And we will",
+      "words": []
+    },
+    {
+      "start": 354.72,
+      "end": 360.88,
+      "text": "also update the data exchange whenever a new version of the IFC file is uploaded.",
+      "words": []
+    },
+    {
+      "start": 361.2,
+      "end": 369.92,
+      "text": "And to show you a little bit how our customers are actually using this connector, let me show you",
+      "words": []
+    },
+    {
+      "start": 369.92,
+      "end": 378.32,
+      "text": "a couple of great real world examples. So at the Deutsche Bahn, for example, is an early adopter of",
+      "words": []
+    },
+    {
+      "start": 378.32,
+      "end": 386.0,
+      "text": "our Revit and IFC connectors. Their projects are managed on Forma and they typically involve",
+      "words": []
+    },
+    {
+      "start": 386.0,
+      "end": 393.92,
+      "text": "multiple teams with complex permission settings. And to simplify the project setup and the IFC",
+      "words": []
+    },
+    {
+      "start": 393.92,
+      "end": 401.52,
+      "text": "version management, the uploaded files are converted into the data exchanges and then used for",
+      "words": []
+    },
+    {
+      "start": 401.52,
+      "end": 409.76,
+      "text": "the documentation workflows inside of Revit and are also visible across all the views of the",
+      "words": []
+    },
+    {
+      "start": 409.76,
+      "end": 417.76,
+      "text": "published Revit model later on the Forma. And in addition, of course, all the properties from",
+      "words": []
+    },
+    {
+      "start": 417.76,
+      "end": 426.08,
+      "text": "the IFC files are also preserved and seamlessly transferred to Revit through the data exchange",
+      "words": []
+    },
+    {
+      "start": 426.08,
+      "end": 433.03999999999996,
+      "text": "so that as mentioned before, they are able to use them for the documentation, scheduling,",
+      "words": []
+    },
+    {
+      "start": 433.12,
+      "end": 448.32000000000005,
+      "text": "tagging and so on. Another great example we have received from Skanska UK is showing the Power BI",
+      "words": []
+    },
+    {
+      "start": 448.32000000000005,
+      "end": 459.28000000000003,
+      "text": "workflow which allows them to validate IFC 4.3 model exports from Revit in a very easy and",
+      "words": []
+    },
+    {
+      "start": 459.28,
+      "end": 466.55999999999995,
+      "text": "straightforward way while visualizing the data coming from the IFC files in the Power BI.",
+      "words": []
+    },
+    {
+      "start": 467.28,
+      "end": 475.59999999999997,
+      "text": "So our Power BI viewer or connector allows you to load the data exchanges no matter from which",
+      "words": []
+    },
+    {
+      "start": 475.59999999999997,
+      "end": 483.67999999999995,
+      "text": "connector and with the viewer which is a part of the connector, you can basically very easily create",
+      "words": []
+    },
+    {
+      "start": 484.24,
+      "end": 491.92,
+      "text": "interactive Power BI dashboards which can then be shared with anyone, even with stakeholders who",
+      "words": []
+    },
+    {
+      "start": 491.92,
+      "end": 499.84000000000003,
+      "text": "otherwise don't have the BIM skills or the right tools to work with this data and to analyze it.",
+      "words": []
+    },
+    {
+      "start": 503.2,
+      "end": 510.8,
+      "text": "And last but not least, another very exciting project is this reconstruction project shared",
+      "words": []
+    },
+    {
+      "start": 511.6,
+      "end": 522.88,
+      "text": "by the French construction company Fash who have built a 4D dashboard based on data exchanges.",
+      "words": []
+    },
+    {
+      "start": 522.88,
+      "end": 531.92,
+      "text": "So they basically had a challenge that this reconstruction was very complex and involved several",
+      "words": []
+    },
+    {
+      "start": 531.92,
+      "end": 539.6800000000001,
+      "text": "stages and that most of the stuff on site was not really familiar with BIM tools or able",
+      "words": []
+    },
+    {
+      "start": 540.64,
+      "end": 549.1999999999999,
+      "text": "to use very complex project dashboards which is why they built this Power BI dashboard which",
+      "words": []
+    },
+    {
+      "start": 550.0,
+      "end": 560.0,
+      "text": "would run simply in a web browser and which basically connected the models coming from both IFC",
+      "words": []
+    },
+    {
+      "start": 560.0,
+      "end": 568.4799999999999,
+      "text": "and Revit with the project schedule. And this allowed everyone to very easily check",
+      "words": []
+    },
+    {
+      "start": 569.12,
+      "end": 576.4,
+      "text": "which work needed to be done on a specific day and where and they would also get the immediate",
+      "words": []
+    },
+    {
+      "start": 576.4,
+      "end": 588.0,
+      "text": "feedback in the viewer as well. So I hope these nice customer examples have inspired you to try out",
+      "words": []
+    },
+    {
+      "start": 588.0,
+      "end": 596.8000000000001,
+      "text": "our cloud connector for IFC and we also have a dedicated link list where you can get a lot of",
+      "words": []
+    },
+    {
+      "start": 597.76,
+      "end": 607.5999999999999,
+      "text": "other resources. We also have a webinar series on a data exchange and you can find all the recordings",
+      "words": []
+    },
+    {
+      "start": 607.5999999999999,
+      "end": 617.92,
+      "text": "in the link list and a lot of other great materials. So definitely stay in touch and thank you for",
+      "words": []
+    },
+    {
+      "start": 617.92,
+      "end": 625.12,
+      "text": "using data exchange.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:48:37.316355+00:00"
+}

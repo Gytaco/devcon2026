@@ -1,0 +1,120 @@
+{
+  "video_id": "R_9jbI7QnBE",
+  "demo_timestamps": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "description": "Live demo using a real case study implemented in San Francisco featuring AI-powered optimization"
+    },
+    {
+      "start": 1094.0,
+      "end": 1136.0,
+      "description": "Creating a layout in Autodesk Forma and running simulations like Sun Analysis, daylight, wind analysis, and energy calculations."
+    },
+    {
+      "start": 1190.0,
+      "end": 1215.0,
+      "description": "Running machine learning model to find the best layout design using a fitness score."
+    },
+    {
+      "start": 1410.0,
+      "end": 1450.0,
+      "description": "Using NVIDIA's get3D or Shape or mesh.ai to generate 3D models and import into Forma."
+    }
+  ],
+  "themes": [
+    "Sustainable Urban Planning",
+    "AI-powered urban planning",
+    "Optimization of building layouts",
+    "Integration of machine learning and simulation in design"
+  ],
+  "client_mentions": [
+    {
+      "name": "WSP",
+      "context": "Vijay Adi Gopula, an associate director at WSP, discusses his experience and applications of Autodesk technology.",
+      "timestamp": 0.0
+    },
+    {
+      "name": "Bentley",
+      "context": "Certifications and presentations related to Bentley I-Twin and lifecycle management tools.",
+      "timestamp": 0.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "AutoCAD",
+      "is_api": false,
+      "timestamp": 0.0
+    },
+    {
+      "name": "Civil 3D",
+      "is_api": false,
+      "timestamp": 0.0
+    },
+    {
+      "name": "Navisworks",
+      "is_api": false,
+      "timestamp": 0.0
+    },
+    {
+      "name": "ACC (Autodesk Construction Cloud)",
+      "is_api": false,
+      "timestamp": 0.0
+    },
+    {
+      "name": "Forma",
+      "is_api": false,
+      "timestamp": 0.0
+    },
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 0.0
+    },
+    {
+      "name": "APS (Autodesk Platform Services)",
+      "is_api": true,
+      "timestamp": 0.0
+    },
+    {
+      "name": "ACC",
+      "is_api": false,
+      "timestamp": 1419.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "Azure OpenAI",
+      "category": "llm",
+      "context": "Mentioned as part of the expertise in AI technology",
+      "timestamp": 0.0
+    },
+    {
+      "name": "Genetic Algorithm",
+      "category": "ml",
+      "context": "Used for AI-powered optimization in sustainable urban planning",
+      "timestamp": 0.0
+    },
+    {
+      "name": "Machine Learning",
+      "category": "ml",
+      "context": "Used in conjunction with genetic algorithms to optimize urban layouts",
+      "timestamp": 0.0
+    },
+    {
+      "name": "Reinforcement Learning",
+      "category": "ml",
+      "context": "Used in combination with genetic algorithms in Python for finding the best layout.",
+      "timestamp": 1499.0
+    },
+    {
+      "name": "mesh.ai",
+      "category": "ml",
+      "context": "Used for generating 3D model files based on prompts.",
+      "timestamp": 1418.0
+    }
+  ],
+  "summary": "The video highlights the role of AI and machine learning in Autodesk Forma for optimizing sustainable urban planning through simulations and analyses such as sun and wind assessments. Using a real case study from San Francisco, it demonstrates how AI-powered technologies like genetic algorithms enhance early-stage design by creating optimal layouts and automating tasks, thereby reducing the time and costs associated with manual planning processes.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:09:40.755656+00:00"
+}

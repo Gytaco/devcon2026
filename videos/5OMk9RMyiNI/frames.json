@@ -1,0 +1,337 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\5OMk9RMyiNI\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide presentation titled 'AI-Driven Technical Room Compliance' discussing a scalable pipeline for project specifications and automated checks.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "AUTODESK",
+        "AI-Driven Technical Room Compliance",
+        "DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\5OMk9RMyiNI\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide listing the agenda for an Autodesk DevCon session, including topics like Egis Group and cloud solutions.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Agenda"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\5OMk9RMyiNI\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide with the title 'Speakers' listing two individuals and their roles within the Autodesk DevCon context.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Speakers"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\5OMk9RMyiNI\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents information about Egis, detailing revenue, employees, global presence, and backlog figures.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "\u20ac2.16B Revenue",
+        "22,000+ Employees",
+        "70+ Countries",
+        "72% Revenue from international",
+        "\u20ac4.0B Backlog"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\5OMk9RMyiNI\\frames\\frame_000005.jpg",
+      "timestamp_seconds": 120.0,
+      "frame_index": 5,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide about landmark projects by Egis, alongside images of infrastructure projects.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Egis"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\5OMk9RMyiNI\\frames\\frame_000006.jpg",
+      "timestamp_seconds": 150.0,
+      "frame_index": 6,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide detailing the Grand Paris Express project, including information about new metro lines, investment, and automation.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "Grand Paris Express",
+        "A new fully automated metro network for the Paris region"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\5OMk9RMyiNI\\frames\\frame_000007.jpg",
+      "timestamp_seconds": 180.0,
+      "frame_index": 7,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide discussing the role of Egis in the Grand Paris Express project, highlighting disciplines and technical specifications.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\5OMk9RMyiNI\\frames\\frame_000009.jpg",
+      "timestamp_seconds": 240.0,
+      "frame_index": 9,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide titled 'Space optimisation' discussing the hidden cost of underground space.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\5OMk9RMyiNI\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide titled 'The Optimization Paradox' from Autodesk DevCon, discussing room compliance and size optimization issues.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "The Optimization Paradox",
+        "Technical Room Sheets (FLT)"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\5OMk9RMyiNI\\frames\\frame_000015.jpg",
+      "timestamp_seconds": 420.0,
+      "frame_index": 15,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide about the BIM d'Or 2017 award for the Line 16 project team, featuring an article from Le Moniteur and an image of the award.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "DevCon",
+        "Line 16 \u2014 2014-2018",
+        "Le Moniteur"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\5OMk9RMyiNI\\frames\\frame_000016.jpg",
+      "timestamp_seconds": 450.0,
+      "frame_index": 16,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide titled 'The Turning Point' discussing automation, with an Autodesk DevCon logo visible.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "The Turning Point"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\5OMk9RMyiNI\\frames\\frame_000017.jpg",
+      "timestamp_seconds": 480.0,
+      "frame_index": 17,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide discussing the introduction of Technical Room Compliance (TRC) in 2025 and its automation capabilities, using AI and Autodesk Platform Services.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "2025: TRC is Born",
+        "Can we automate this?",
+        "Our answer: Yes.",
+        "TRC \u2014 Technical Room Compliance"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\5OMk9RMyiNI\\frames\\frame_000018.jpg",
+      "timestamp_seconds": 510.0,
+      "frame_index": 18,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide from Autodesk DevCon on the IRIS AI Platform developed by Egis, highlighting its features such as security, smart document retrieval, and open API.",
+      "products_visible": [
+        "Autodesk",
+        "IRIS"
+      ],
+      "ui_elements": [
+        "SECURE",
+        "SMART",
+        "OPEN API"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\5OMk9RMyiNI\\frames\\frame_000021.jpg",
+      "timestamp_seconds": 600.0,
+      "frame_index": 21,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'Structuring Requirements with AI agent' detailing challenges and AI solutions for translating technical room sheets.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "RUN"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\5OMk9RMyiNI\\frames\\frame_000027.jpg",
+      "timestamp_seconds": 780.0,
+      "frame_index": 27,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide showing a comparison between working without cloud and using design automation in the cloud with benefits highlighted.",
+      "products_visible": [
+        "Autodesk",
+        "EGIS"
+      ],
+      "ui_elements": [
+        "Scale, Maintain, Secure",
+        "WITHOUT CLOUD",
+        "WITH DESIGN AUTOMATION"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\5OMk9RMyiNI\\frames\\frame_000034.jpg",
+      "timestamp_seconds": 990.0,
+      "frame_index": 34,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide discussing the computation of geometrical data and relations in BIM models using the Revit API.",
+      "products_visible": [
+        "Autodesk",
+        "Revit API"
+      ],
+      "ui_elements": [
+        "Available Height in a Room",
+        "Minimal Distance to Exit",
+        "Maintenance Clearance"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\5OMk9RMyiNI\\frames\\frame_000041.jpg",
+      "timestamp_seconds": 1200.0,
+      "frame_index": 41,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide discussing the Revit Cloud Engine, highlighting its ability to handle different contexts, compute data, and solve multi-model complexity.",
+      "products_visible": [
+        "Revit",
+        "Design Automation for Revit"
+      ],
+      "ui_elements": [
+        "Inside the Revit Cloud Engine",
+        "Multiple firms, inconsistent data",
+        "Calculated, not extracted",
+        "Multi-model complexity solved",
+        "Beyond metro, any BIM project"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\5OMk9RMyiNI\\frames\\frame_000045.jpg",
+      "timestamp_seconds": 1320.0,
+      "frame_index": 45,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon showcasing a platform overview of an automation service, detailing features such as APS Viewer, compliance dashboard, and one-click launch.",
+      "products_visible": [
+        "AUTODESK",
+        "APS Viewer"
+      ],
+      "ui_elements": [
+        "Platform Overview",
+        "Automation Service",
+        "Technical Room Compliance",
+        "Analysis Services"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\5OMk9RMyiNI\\frames\\frame_000051.jpg",
+      "timestamp_seconds": 1500.0,
+      "frame_index": 51,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide presenting details about AI's role in setting 3D scenes for easier understanding and problem solving in engineering contexts.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Agent #5 -- Setting the 3D Scene",
+        "BUILD"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\5OMk9RMyiNI\\frames\\frame_000054.jpg",
+      "timestamp_seconds": 1590.0,
+      "frame_index": 54,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide on 'Drill-Down: Detailed Compliance' featuring AI-powered compliance tools and immersive review capabilities.",
+      "products_visible": [
+        "AUTODESK",
+        "APS Viewer"
+      ],
+      "ui_elements": [
+        "Drill-Down: Detailed Compliance",
+        "APS Viewer",
+        "Compliance report"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\5OMk9RMyiNI\\frames\\frame_000057.jpg",
+      "timestamp_seconds": 1680.0,
+      "frame_index": 57,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide discussing the transformation from 2016 to 2026, highlighting changes in duration, process, scalability, design change, and knowledge.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "The Transformation",
+        "THEN \u2014 2016",
+        "NOW \u2014 2026",
+        "NEXT"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:21:44.500138+00:00"
+}

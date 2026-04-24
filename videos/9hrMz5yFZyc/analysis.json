@@ -1,0 +1,30 @@
+{
+  "video_id": "9hrMz5yFZyc",
+  "demo_timestamps": [
+    {
+      "start": 360.0,
+      "end": 619.0,
+      "description": "Demonstration of Forma Construction Connect automatically pushing files from Forma data management or Forma Build into a SharePoint folder"
+    }
+  ],
+  "themes": [
+    "Integration and Automation of Construction Workflows"
+  ],
+  "client_mentions": [],
+  "autodesk_products": [
+    {
+      "name": "Forma Construction Connect",
+      "is_api": false,
+      "timestamp": 192.0
+    },
+    {
+      "name": "Forma",
+      "is_api": false,
+      "timestamp": 54.0
+    }
+  ],
+  "ai_technologies": [],
+  "summary": "The video discusses Autodesk's Forma Construction Connect, an integration platform designed to automate construction workflows. Forma connects various phases of construction projects, enhancing project management and data integration with tools like SharePoint, Smartsheet, and Power BI. The demo highlights seamless data synchronization between Forma and SharePoint.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:25:35.917841+00:00"
+}

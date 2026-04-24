@@ -1,0 +1,997 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 10.0,
+      "text": "Hello, my name is Gus Quaid. I am a senior technical specialist for Fusion Data and Process and Autodesk's PLM.",
+      "words": []
+    },
+    {
+      "start": 10.0,
+      "end": 20.0,
+      "text": "I'm here to present from integration to orchestration using MCP to let AI agents connect PLM and NES.",
+      "words": []
+    },
+    {
+      "start": 20.0,
+      "end": 34.0,
+      "text": "Today, I will be walking you through how to connect Fusion Manage and Fusion Operations, but really this could apply to Fusion Manage in any downstream system and how we connect them with AI agents via MCP.",
+      "words": []
+    },
+    {
+      "start": 34.0,
+      "end": 44.0,
+      "text": "The whole premise of this presentation is going to be about how integrations move data, but AI orchestration understands and acts on it.",
+      "words": []
+    },
+    {
+      "start": 44.0,
+      "end": 48.0,
+      "text": "Let's hop in.",
+      "words": []
+    },
+    {
+      "start": 48.0,
+      "end": 54.0,
+      "text": "Let me talk about the inspiration for this presentation.",
+      "words": []
+    },
+    {
+      "start": 54.0,
+      "end": 60.0,
+      "text": "I did a presentation at Autodesk University two years ago about integrating PLM and NES.",
+      "words": []
+    },
+    {
+      "start": 60.0,
+      "end": 66.0,
+      "text": "These were hard-coded integrations, and they really wanted to prove a point that you don't have to pass through something like ERK,",
+      "words": []
+    },
+    {
+      "start": 66.0,
+      "end": 86.0,
+      "text": "like a company typically expects, but rather there's some meaningful integrations between your system of engagement for your product definition and process management, and for your decision planning and execution and tracking the decisions you make in manufacturing.",
+      "words": []
+    },
+    {
+      "start": 86.0,
+      "end": 94.0,
+      "text": "Now, all of this, like this entire presentation, was inspired by this meme on LinkedIn.",
+      "words": []
+    },
+    {
+      "start": 94.0,
+      "end": 106.0,
+      "text": "I saw this meme, and I really thought to myself, you know, NES doesn't have to go to ERP to get all of its data. That's the typical tech stack, but maybe there are some meaningful integrations with PLM.",
+      "words": []
+    },
+    {
+      "start": 106.0,
+      "end": 114.0,
+      "text": "So I've taken this idea, and I wanted to augment it with AI, and enabled by MCP.",
+      "words": []
+    },
+    {
+      "start": 114.0,
+      "end": 135.0,
+      "text": "And so today it looks a little bit more like this, but really it isn't NES looking to MCP to get the data at once, and PLM and ERP there being jealous, but rather every system in the enterprise can benefit from AI orchestration via MCP model context protocol.",
+      "words": []
+    },
+    {
+      "start": 136.0,
+      "end": 144.0,
+      "text": "So here's the pitch to you. So hopefully if you're in the room, you're going to connect with this and you're going to find it interesting.",
+      "words": []
+    },
+    {
+      "start": 144.0,
+      "end": 150.0,
+      "text": "I want to ask you the question, your systems are connected, but are they intelligent?",
+      "words": []
+    },
+    {
+      "start": 150.0,
+      "end": 162.0,
+      "text": "Integrations move data, but they cannot reason across it. So I can have a hard coded integration, but when I hit an edge case, what happens? Probably just failure.",
+      "words": []
+    },
+    {
+      "start": 162.0,
+      "end": 164.0,
+      "text": "Your systems hold the answers.",
+      "words": []
+    },
+    {
+      "start": 164.0,
+      "end": 172.0,
+      "text": "And one can ask the right questions and integration can't ask a question. It just passes data and it has answers there.",
+      "words": []
+    },
+    {
+      "start": 172.0,
+      "end": 175.0,
+      "text": "But who's supposed to ask the question?",
+      "words": []
+    },
+    {
+      "start": 175.0,
+      "end": 183.0,
+      "text": "Your team bridges gaps manually every day and at scale.",
+      "words": []
+    },
+    {
+      "start": 183.0,
+      "end": 200.0,
+      "text": "So we're integrations fall short. If you have them even, you find that people are having to piece together data, playing the role of kind of a detective to figure out what happened and what was the reason and what's going on in the business.",
+      "words": []
+    },
+    {
+      "start": 200.0,
+      "end": 213.0,
+      "text": "What if the systems you already have could do more without replacing what works. So without replacing those integrations or without replacing any of the systems that have pulled the answers.",
+      "words": []
+    },
+    {
+      "start": 213.0,
+      "end": 221.0,
+      "text": "So this is where MCP comes in. So we have rigid systems, but it is a messy reality.",
+      "words": []
+    },
+    {
+      "start": 221.0,
+      "end": 237.0,
+      "text": "Let's talk through some of the messy realities on structured data across emails, PDFs and notes, human variability. So you have operator judgment, you have shift handoffs, you have tribal knowledge that might be invisible to MES and PLM.",
+      "words": []
+    },
+    {
+      "start": 237.0,
+      "end": 250.0,
+      "text": "So across domain reasoning, you have design changes that maybe get documented and reasons through in PLM, but need to somehow flow downstream to other systems like MES ERP and your supply chain.",
+      "words": []
+    },
+    {
+      "start": 250.0,
+      "end": 265.0,
+      "text": "So this is an unprotectable exception. So an integration platform, you know, integrating with APIs handles maybe 80% of use cases, but there's the edge cases. There's the things that require flexibility and creativity.",
+      "words": []
+    },
+    {
+      "start": 265.0,
+      "end": 278.0,
+      "text": "It's the hard part and this isn't something that lands in an integration. It's something that lands in someone's inbox and waits and needs to be dealt with manually.",
+      "words": []
+    },
+    {
+      "start": 278.0,
+      "end": 288.0,
+      "text": "So did integrations do have their place though? Let me talk about that. What they do well, they're reliable, they're deterministic in how they move data at scale.",
+      "words": []
+    },
+    {
+      "start": 288.0,
+      "end": 298.0,
+      "text": "And they're auditable, they're predefined and their production hearted. You know exactly what's going to happen. You can see what happened. You can see where successes and failures are happening.",
+      "words": []
+    },
+    {
+      "start": 298.0,
+      "end": 327.0,
+      "text": "But let's talk about where they stop. Your integrations can't reason they brought data. And every new question needs a new integration. So by new question every single new way of moving data around requires a new hard coded integration or like I just said, it lands in someone's inbox and waits for manual intervention.",
+      "words": []
+    },
+    {
+      "start": 327.0,
+      "end": 336.0,
+      "text": "Model context protocol is the bridge that handles the places where integrations fall short.",
+      "words": []
+    },
+    {
+      "start": 336.0,
+      "end": 349.0,
+      "text": "So if you're someone that's been keeping up with model context protocol, keeping up with agentic AI, you'll probably breeze right through this, but for those of you who are new to it, let's talk about it.",
+      "words": []
+    },
+    {
+      "start": 349.0,
+      "end": 365.0,
+      "text": "So I have an AI agent, you know, this is an LOM, but it's predisposition for not dealing with tasks, but rather goals. This is something that can have a goal to analyze or kind of be a system layer that I can talk to and understand.",
+      "words": []
+    },
+    {
+      "start": 365.0,
+      "end": 371.0,
+      "text": "It can be something that's always on as well, always waiting to act on data.",
+      "words": []
+    },
+    {
+      "start": 371.0,
+      "end": 397.0,
+      "text": "MCP is a layer that sits on top of the AI agent or you could say between the MCP layer contains tools, resources, prompts and context that an AI agent can use an agent won't directly call an API, but rather it uses things like the tools to be able to act upon that API.",
+      "words": []
+    },
+    {
+      "start": 397.0,
+      "end": 410.0,
+      "text": "We get the raw response from the API, but rather it gets a processed response from the tool that exists inside the MCP server inside that MCP layer.",
+      "words": []
+    },
+    {
+      "start": 410.0,
+      "end": 426.0,
+      "text": "And then we talked to other systems, PLM and MES being the ones we're focusing on while and QMS as well inside of this demonstration and presentation, but also ERP IoT systems supplier systems.",
+      "words": []
+    },
+    {
+      "start": 426.0,
+      "end": 441.0,
+      "text": "This is inter replacement for integrations. It operates on top of existing integrations. This is all composable by design. So it can interface with any tool, any system without some sort of custom point to point logic.",
+      "words": []
+    },
+    {
+      "start": 441.0,
+      "end": 454.0,
+      "text": "And it's context aware. So the system you may have configured the system you want to bring online, the agent will be aware of that system. So it isn't really going in blind. It's not operating in a black box.",
+      "words": []
+    },
+    {
+      "start": 454.0,
+      "end": 462.0,
+      "text": "But rather it knows all the systems it's working with and has tailored tools to interact with them.",
+      "words": []
+    },
+    {
+      "start": 462.0,
+      "end": 469.0,
+      "text": "Now this one's dense. If you're watching this recording, go ahead and pause it here. Read through this slide, but I'll talk you through it fast.",
+      "words": []
+    },
+    {
+      "start": 469.0,
+      "end": 477.0,
+      "text": "The architecture here within that MCP layer. So I'll go back once like MCP layer, the part in the middle there.",
+      "words": []
+    },
+    {
+      "start": 477.0,
+      "end": 484.0,
+      "text": "Here's what I've got for you today. So we have an MCP server running for fusion manage and one running for fusion operations.",
+      "words": []
+    },
+    {
+      "start": 484.0,
+      "end": 490.0,
+      "text": "So the one on the left being my PLM and QMS MCP, the one on the right being my MES MCP.",
+      "words": []
+    },
+    {
+      "start": 490.0,
+      "end": 501.0,
+      "text": "Now I've broken it down the architecture into really some of the data points that we need to focus on and beneath those for instance the items and word spaces.",
+      "words": []
+    },
+    {
+      "start": 501.0,
+      "end": 513.0,
+      "text": "You'll see list get create update search workspace items. Those are all tools that are available to my AI agent via the MCP server.",
+      "words": []
+    },
+    {
+      "start": 513.0,
+      "end": 524.0,
+      "text": "So I have all the tools listed out here. Fusion operations as well. Let's look at production orders. The first line there list create activate at risk, notify.",
+      "words": []
+    },
+    {
+      "start": 524.0,
+      "end": 536.0,
+      "text": "So these are tools that the AI agent can use. The AI agent goes in and discovers the tools that are in the MCP server and then chooses which ones to use.",
+      "words": []
+    },
+    {
+      "start": 536.0,
+      "end": 551.0,
+      "text": "So rather than having to decode API documentation every time, bloating context in the AI chat or in the AI agent's context window, it can just see the tools and understand what's available to it and use what's necessary.",
+      "words": []
+    },
+    {
+      "start": 552.0,
+      "end": 562.0,
+      "text": "Now there's an additional component I have running today at Orange part at the bottom, the quality monitoring service. So I have this one ready for real time event or spots.",
+      "words": []
+    },
+    {
+      "start": 562.0,
+      "end": 572.0,
+      "text": "So rather than running an MCP server, this is connected to an MQTT broker that's receiving quality events from fusion operations.",
+      "words": []
+    },
+    {
+      "start": 572.0,
+      "end": 582.0,
+      "text": "So rather than an AI agent having to pull having to request data from MES rather it's always getting live data.",
+      "words": []
+    },
+    {
+      "start": 582.0,
+      "end": 589.0,
+      "text": "So it doesn't have to request rather it just wakes up checks to see if there's updates and then goes back to sleep.",
+      "words": []
+    },
+    {
+      "start": 589.0,
+      "end": 599.0,
+      "text": "Now if there's a quality event threshold, then it will trigger a workflow to go and do analysis and then notify me on Slack.",
+      "words": []
+    },
+    {
+      "start": 599.0,
+      "end": 610.0,
+      "text": "The opportunity where structured meets messy reality, we can augment intelligence so we can do analysis that might be hard for a human to put together might be hard to hard code.",
+      "words": []
+    },
+    {
+      "start": 610.0,
+      "end": 621.0,
+      "text": "We want to have flexible ways of doing an analysis across many different systems, records, data types, and that's where agent to AI via MCP can come in.",
+      "words": []
+    },
+    {
+      "start": 621.0,
+      "end": 640.0,
+      "text": "Adapt execution. So being able to generate being able to generate things like work instructions, we're supplier exception handway today will generate something more in line with our changing packed analysis, but we will be generating something that will maybe be something that I'm familiar with.",
+      "words": []
+    },
+    {
+      "start": 640.0,
+      "end": 660.0,
+      "text": "And then unlock access so becoming a natural language intelligence layer so being able to allow access to all these systems and the data the answers behind them to an end user that might only engage with one system so what will explore that in the technology demonstration as well.",
+      "words": []
+    },
+    {
+      "start": 660.0,
+      "end": 670.0,
+      "text": "So let's get into it. I'm going to run through just two of these demos. I have five of them kind of laid out and architected for time sake.",
+      "words": []
+    },
+    {
+      "start": 670.0,
+      "end": 680.0,
+      "text": "We're just going to go through two of them and understand what's going on. So let's look at a realistic scenario, a design change just dropped three active work orders to suppliers and a firmware dependency are out there.",
+      "words": []
+    },
+    {
+      "start": 680.0,
+      "end": 683.0,
+      "text": "How long will it take your team to figure out?",
+      "words": []
+    },
+    {
+      "start": 683.0,
+      "end": 698.0,
+      "text": "So in a traditional setup and you're probably familiar with this, you go and you update a bomb, you make a change to a product and it takes a while for downstream consumers like users or systems to really see what's going on.",
+      "words": []
+    },
+    {
+      "start": 698.0,
+      "end": 710.0,
+      "text": "And then if they do get notified, how do we understand the impact? How do we understand if this is going to affect something like a project I'm trying to deliver to a customer in the next week or two.",
+      "words": []
+    },
+    {
+      "start": 710.0,
+      "end": 723.0,
+      "text": "And then the MCP can reason through this reason to the records, the SEOs, the drawings and be able to understand the impact. So rather than data synchronization, we're going to decision augmentation.",
+      "words": []
+    },
+    {
+      "start": 723.0,
+      "end": 733.0,
+      "text": "So now AI can help us make better decisions by being able to look across all of the all of the data points. So let's look at this.",
+      "words": []
+    },
+    {
+      "start": 733.0,
+      "end": 744.0,
+      "text": "So I'm going to go first into fusion manage. So I'm going to pull up fusion manage and I'm going to talk you through a little bit of this. I'm going to talk you through a couple of the systems actually.",
+      "words": []
+    },
+    {
+      "start": 744.0,
+      "end": 759.0,
+      "text": "So this is fusion manage. It's my product lifecycle management solution that is inside of my browser here. So it's a cloud solution. This is where I go and at a very basic level, I manage my item and product definition, my bill of materials.",
+      "words": []
+    },
+    {
+      "start": 759.0,
+      "end": 771.0,
+      "text": "So I manage my change processes like change requests and change orders, change notifications. But it extends deeper to my quality workflows, like non conformance reporting, corrective action.",
+      "words": []
+    },
+    {
+      "start": 771.0,
+      "end": 785.0,
+      "text": "I might have these dashboards here just to see the health of projects or maybe the company. And this is where I can see perhaps all of my work that I need to do review is approvals and tasks related to product lifecycle or quality management.",
+      "words": []
+    },
+    {
+      "start": 785.0,
+      "end": 795.0,
+      "text": "So I'm going to do a lot of the fusion operations as well. We'll get this part out of the way. This is my manufacturing execution system. This is essentially where I plan what I'm going to do in manufacturing.",
+      "words": []
+    },
+    {
+      "start": 795.0,
+      "end": 804.0,
+      "text": "And then I record what actually happened. So it's all about deciding what you're going to do. But also capturing what you did decide to do.",
+      "words": []
+    },
+    {
+      "start": 804.0,
+      "end": 817.0,
+      "text": "So for this one, the interface we're primarily going to deal with is this kind of touch screen iPad tablet interface and we'll be using this to log some production events against the production order.",
+      "words": []
+    },
+    {
+      "start": 817.0,
+      "end": 825.0,
+      "text": "So let's let's back it up. We're in fusion manage top left corner. I'm going to click on that. We're going to look at my workspaces and we're just going to focus on change management.",
+      "words": []
+    },
+    {
+      "start": 825.0,
+      "end": 835.0,
+      "text": "So within here I have change orders. I can see all these change orders perhaps by priority or maybe I just want to see absolutely everything.",
+      "words": []
+    },
+    {
+      "start": 835.0,
+      "end": 850.0,
+      "text": "Now I've already pulled up a change order. We are updating the internal diameter of an item. And it looks like we haven't added the item yet. That's OK. Let's go here and we're going to go and add an item to this change order.",
+      "words": []
+    },
+    {
+      "start": 850.0,
+      "end": 859.0,
+      "text": "And oh, it looks like this is the change order we canceled. Let's go to a new one. OK, let's hop in here. And if I can't find it, we're just going to make a new one on the fly.",
+      "words": []
+    },
+    {
+      "start": 859.0,
+      "end": 869.0,
+      "text": "Something I like about these recorded presentations for conferences like DevCon is that you get to see a more authentic version of presentation.",
+      "words": []
+    },
+    {
+      "start": 869.0,
+      "end": 879.0,
+      "text": "It's not as polished. It's not as clean. But I think it is much more authentic. OK, great. So we have a change order here.",
+      "words": []
+    },
+    {
+      "start": 879.0,
+      "end": 892.0,
+      "text": "I'm going to make an update to this left side back member. That's my item there. We're just going to copy this change order. And for this part of the demonstration, I'm going to reason through with Claw.",
+      "words": []
+    },
+    {
+      "start": 892.0,
+      "end": 898.0,
+      "text": "And so I've already put a prompt in here. I would like to perform a change impact analysis on.",
+      "words": []
+    },
+    {
+      "start": 898.0,
+      "end": 903.0,
+      "text": "And we're going to add the change order that we care about add holes across compatible bracket mounting.",
+      "words": []
+    },
+    {
+      "start": 903.0,
+      "end": 920.0,
+      "text": "Instead of making a PowerPoint, just give me a change summary in this chat window. So what I will say is if I was using this in my command line interface using quad code or like Gemini CLI or code X CLI, I would actually be generating a PowerPoint from this.",
+      "words": []
+    },
+    {
+      "start": 920.0,
+      "end": 933.0,
+      "text": "But rather, I'm just going to let quad do its thing and make some charts inside of my chat window here. So this will be an example of how using an AI agent can can be very accessible.",
+      "words": []
+    },
+    {
+      "start": 933.0,
+      "end": 943.0,
+      "text": "So let's see, I'm just using a standard tool. I'm using a cloud on my desktop. What it's first going to do is load the tools from the MCP server.",
+      "words": []
+    },
+    {
+      "start": 943.0,
+      "end": 950.0,
+      "text": "So these MCP servers, they're live, they're running. They can be locally hosted. They can be hosted in the cloud, but I'm connected to them.",
+      "words": []
+    },
+    {
+      "start": 950.0,
+      "end": 960.0,
+      "text": "And so it's going to search for change orders. It's already loaded a tool. While caught is loading these tools using them, making calls and getting getting context, understand what's going on.",
+      "words": []
+    },
+    {
+      "start": 960.0,
+      "end": 969.0,
+      "text": "I can show you here that in these connectors, this is where I connect to the MCP servers. So I have one for fusion manage, one for fusion operations.",
+      "words": []
+    },
+    {
+      "start": 969.0,
+      "end": 979.0,
+      "text": "And then I can see the tool access. So it's only going to load tools that it needs. I get you to load every tool up front, but that's just going to blow up my context window.",
+      "words": []
+    },
+    {
+      "start": 979.0,
+      "end": 990.0,
+      "text": "So, quad is going to work through this. It's searching for change orders. It's going to search for that change order. I just put it there. And then what it's going to do after that is it's going to start to reason through.",
+      "words": []
+    },
+    {
+      "start": 990.0,
+      "end": 998.0,
+      "text": "Well, what item is on that change order? Where is that item used? Is it used on any any other items?",
+      "words": []
+    },
+    {
+      "start": 998.0,
+      "end": 1010.0,
+      "text": "Now, for the sake of keeping this recording brief, we're going to let the cloud do its thing here. It will probably come back after it's done, but I'm going to show you a finished analysis.",
+      "words": []
+    },
+    {
+      "start": 1010.0,
+      "end": 1020.0,
+      "text": "So we did, we did an analysis for this inner diameter update at one point. We asked, Claude, hey, go do a change impact analysis. And it gave me some results here.",
+      "words": []
+    },
+    {
+      "start": 1020.0,
+      "end": 1039.0,
+      "text": "Some of this is basic information about the affected item. And then here we can see the production order impact. And so if I if I back it up a little bit, you can see that it loaded tools to get a change order, get the ecio details loaded some other tools.",
+      "words": []
+    },
+    {
+      "start": 1039.0,
+      "end": 1046.0,
+      "text": "And then use some of the integrations to get item data active orders that might be at risk.",
+      "words": []
+    },
+    {
+      "start": 1046.0,
+      "end": 1065.0,
+      "text": "And so the result is it's going to say, hey, this is doing four days. You need prompt action to incorporate this change. The other thing is this production orders four days out. I don't have lead time data on this item, but perhaps I can't source it in time. And so there's a there's a heavier risk there.",
+      "words": []
+    },
+    {
+      "start": 1065.0,
+      "end": 1087.0,
+      "text": "Now, let me go and show you another example of an artifact, let's say that that could come about from this analysis. So like I said, if I was running this in the command line interface, I would just have Claude directly make a PowerPoint to talk about this change impact analysis.",
+      "words": []
+    },
+    {
+      "start": 1087.0,
+      "end": 1095.0,
+      "text": "So something like this might take an engineer or an operations leader hours to put together.",
+      "words": []
+    },
+    {
+      "start": 1095.0,
+      "end": 1113.0,
+      "text": "Claude can do this for me in about two or three minutes of analysis. So I have a change impact analysis on that change order. Here's a link to the change order of fusion manage. Here's a link to the affected item going through here briefly talks about, okay, my lead time for that item is 15 days.",
+      "words": []
+    },
+    {
+      "start": 1113.0,
+      "end": 1124.0,
+      "text": "I have one, I would say medium at risk production order. Here's a link to that in fusion operations. Here's a link to the item in fusion manage.",
+      "words": []
+    },
+    {
+      "start": 1124.0,
+      "end": 1131.0,
+      "text": "And then going through and seeing that there's a discrepancy between the lead time and when I want to execute this change.",
+      "words": []
+    },
+    {
+      "start": 1131.0,
+      "end": 1147.0,
+      "text": "And then Claude very nicely put in the PowerPoint that this is pretty urgent and I should stop the ECO and use parts as is if I can and then actions to take and we're the data gaps might actually be in the system as well.",
+      "words": []
+    },
+    {
+      "start": 1147.0,
+      "end": 1171.0,
+      "text": "So all of this something that might take a human a long time to piece together if they know everything to look for rather with within a gentick AI setup like this one doing a change order impact analysis can pull in all the necessary data supplier data quote data lead time production orders that are active and give some pretty good recommendations.",
+      "words": []
+    },
+    {
+      "start": 1172.0,
+      "end": 1176.0,
+      "text": "Okay, let's close that out. Let's see what Claude did here.",
+      "words": []
+    },
+    {
+      "start": 1176.0,
+      "end": 1187.0,
+      "text": "Oh, and it reset the chat. Okay, well, like I said in the recordings to get something more authentic. We're going to let this one just keep running and we'll move on to the next part of the demonstration.",
+      "words": []
+    },
+    {
+      "start": 1187.0,
+      "end": 1195.0,
+      "text": "You can always come back to this.",
+      "words": []
+    },
+    {
+      "start": 1195.0,
+      "end": 1209.0,
+      "text": "So I'm going to skip this one we're going to we're going to move to a more responsive example, but let's talk through this and talk through what mcp connected to plm and mms could enable.",
+      "words": []
+    },
+    {
+      "start": 1209.0,
+      "end": 1219.0,
+      "text": "So three defects this shift different operator than yesterday the machine just fly to Torquedomily your work instructions say nothing about any of this.",
+      "words": []
+    },
+    {
+      "start": 1219.0,
+      "end": 1231.0,
+      "text": "So mms is a good way to deliver reliable static work instructions the version or revision control and it can give real time shop for context.",
+      "words": []
+    },
+    {
+      "start": 1231.0,
+      "end": 1239.0,
+      "text": "But but like real time context isn't in the scope of those work instructions so I can get the data.",
+      "words": []
+    },
+    {
+      "start": 1239.0,
+      "end": 1254.0,
+      "text": "But it doesn't affect what I'm actually then telling my operators to do so where mcp comes in it can combine things like the defect history the machine telemetry and an operator profile even and give on the fly work instructions.",
+      "words": []
+    },
+    {
+      "start": 1254.0,
+      "end": 1259.0,
+      "text": "So perhaps it would recommend you should add an inspection step at station four.",
+      "words": []
+    },
+    {
+      "start": 1259.0,
+      "end": 1281.0,
+      "text": "I love this example you should add additional quality checks based on defects so if I'm if I'm getting defects at the end of my process before a particular let's say I'm getting a particular defect that is obviously impacted very early on in the the assembly or fabrication process I should add an inspection step there.",
+      "words": []
+    },
+    {
+      "start": 1281.0,
+      "end": 1295.0,
+      "text": "Now I might be able to get that data but maybe after weeks finding defects and talking to people and then you know really thinking about it whereas I might be able to bridge this a lot faster to make a recommendation on the fly.",
+      "words": []
+    },
+    {
+      "start": 1295.0,
+      "end": 1308.0,
+      "text": "Let's move to the next example cross system root cause analysis defect rate online three is up 18% this week for systems hold the relevant data your team is spending two days pulling it together manually.",
+      "words": []
+    },
+    {
+      "start": 1308.0,
+      "end": 1326.0,
+      "text": "So integration skin exists across systems moving data correlations are typically predefined and quite brittle and correlations kind of have a bias you know people look for certain things AI doesn't quite have that bias it will try to find a correlation anywhere it's pretty good at it.",
+      "words": []
+    },
+    {
+      "start": 1326.0,
+      "end": 1335.0,
+      "text": "Analysis across multiple systems is usually very manual as well usually pump something out to an Excel spreadsheet by then the data might already be out of date.",
+      "words": []
+    },
+    {
+      "start": 1335.0,
+      "end": 1349.0,
+      "text": "It's really hard to piece together so we're AI comes in I could take things like machine logs engineering changes supplier batches and put that all together to get a correlation on I have defects maybe this is the reason why.",
+      "words": []
+    },
+    {
+      "start": 1349.0,
+      "end": 1364.0,
+      "text": "Now let's let's pull this in let's do something interesting we're going to use that quality monitor and we're going to run this next part of the demonstration from my command line interface so I'm running claw to code here I have this quality monitor.",
+      "words": []
+    },
+    {
+      "start": 1364.0,
+      "end": 1384.0,
+      "text": "Running right now and it's it's running live I have an AI agent running as well and here's the quality monitor catching those events so this is all going to update as I do things infusion operations so let's hop in there and we're going to do some stuff.",
+      "words": []
+    },
+    {
+      "start": 1384.0,
+      "end": 1413.0,
+      "text": "So I'm going to put in my employee number we're going to log in I'm going to work on this production order here here's the product and I'll say if you if you haven't seen an MES before you probably have hopefully have a bit fusion operations great simple context for just giving users options buttons to click on to capture what they're doing so that's exactly what we just did we just started a production activity on a particular production order for a product and we decided what activity we were doing.",
+      "words": []
+    },
+    {
+      "start": 1413.0,
+      "end": 1418.0,
+      "text": "Now let's say we've done the work we want to capture what actually happened.",
+      "words": []
+    },
+    {
+      "start": 1418.0,
+      "end": 1442.0,
+      "text": "So we're going to come here and what quantity did you produce I have 33 left on this production order let's say I just made one here the quantities consumed you know let's add a discrepancy let's see what happens and that I'm going to report if I have any waste so I get a multiple waste codes here we just have one did we have to scrap any parts I'm going to say yeah we had to scrap 257 parts.",
+      "words": []
+    },
+    {
+      "start": 1442.0,
+      "end": 1470.0,
+      "text": "We had to get rid of a lot of stuff because there was some sort of problem we're going to confirm that and submit it now this is going to fire off an MQTT payload if you don't know what MQTT is it's responsible for like the little little dots on your you know when someone's typing in a text message or a messenger it's a lightweight communication protocol it is purpose built for real time.",
+      "words": []
+    },
+    {
+      "start": 1470.0,
+      "end": 1499.0,
+      "text": "Kind of published to subscriber scenarios so it's the it's the de facto communication protocol for a kind of industry 4.0 for these industrial IOT scenarios so for both machine telemetry or even for communicating from an MES and so let's go and see what what was picked up by cloud by the broker so in my quality monitoring service you'll see I have a bunch of data here now it you know it picked it up from the MQTT broker wrote it to a local file.",
+      "words": []
+    },
+    {
+      "start": 1500.0,
+      "end": 1514.0,
+      "text": "So I'm going to go to the file for my agent to pick up you'll see here that it previously saying no new events monitoring continues no new events monitoring continues but here you can see hey a change occurred and now.",
+      "words": []
+    },
+    {
+      "start": 1514.0,
+      "end": 1524.4,
+      "text": "And and work through it a little bit and i'm going to get hanged on slack when all that's done so in reality I don't want to person to sit here waiting to see did.",
+      "words": []
+    },
+    {
+      "start": 1525.04,
+      "end": 1540.56,
+      "text": "Did my agent do something rather i'm going to pull up my phone and i'm going to get pinged that something is going wrong and i'm going to get hopefully some recommendations a little bit of insight into what's happening and maybe why.",
+      "words": []
+    },
+    {
+      "start": 1540.56,
+      "end": 1569.56,
+      "text": "Because then at the end of the day people are the ultimate decision makers AI can make recommendations but AI shouldn't make all the decisions there should be a human in the loop so in this case I want to be in that loop now let's see it looks like it looks like okay let's look here in slack i've got two new notifications there the top left corner see that just now from my quality agent so let's see what it what it reported back with quality alert this operation recording.",
+      "words": []
+    },
+    {
+      "start": 1570.56,
+      "end": 1578.56,
+      "text": "250 non-recoverable scrap units at 840 for today this is the second scrap event on this order in 24 hours.",
+      "words": []
+    },
+    {
+      "start": 1580.3999999999999,
+      "end": 1600.52,
+      "text": "So it picked up some from yesterday as well I was scrapping some yesterday it goes into the materials consumed it also noted that doubled quantity and it's suggesting a root cause candidate it wants to do the PLM change order look up looks like my token was expired again this is authentic you get more authentic part of.",
+      "words": []
+    },
+    {
+      "start": 1600.56,
+      "end": 1603.56,
+      "text": "The demonstration here and so.",
+      "words": []
+    },
+    {
+      "start": 1604.56,
+      "end": 1608.56,
+      "text": "Maybe maybe we just take this away we ask it to do a little.",
+      "words": []
+    },
+    {
+      "start": 1609.56,
+      "end": 1614.56,
+      "text": "Rube cause analysis here let's just take this whole thing.",
+      "words": []
+    },
+    {
+      "start": 1615.56,
+      "end": 1622.56,
+      "text": "I didn't plan to do this let's let's go do a little bit of this let's actually go back to.",
+      "words": []
+    },
+    {
+      "start": 1622.56,
+      "end": 1639.56,
+      "text": "Well i'll go back to it in this context as well so hopefully I would get my root cause analysis inside of slack but in this case since it failed let's just ask let's ask cloud please.",
+      "words": []
+    },
+    {
+      "start": 1640.56,
+      "end": 1650.56,
+      "text": "Which is orders on items and change this passage where.",
+      "words": []
+    },
+    {
+      "start": 1654.56,
+      "end": 1665.56,
+      "text": "So we're going to kind of interrupt that schedule task on on this agent hopefully this works so it's going to try to look for all for them but maybe it needs to refresh the token that's okay.",
+      "words": []
+    },
+    {
+      "start": 1665.56,
+      "end": 1670.56,
+      "text": "The agent knows how to refresh the token for our mcp server.",
+      "words": []
+    },
+    {
+      "start": 1671.56,
+      "end": 1675.56,
+      "text": "And hopefully we'll see this work i.",
+      "words": []
+    },
+    {
+      "start": 1676.56,
+      "end": 1684.56,
+      "text": "And we'll let it think through it we'll come back to it after I talk to the other scenarios unless it unless it works really really fast.",
+      "words": []
+    },
+    {
+      "start": 1684.56,
+      "end": 1691.56,
+      "text": "Okay.",
+      "words": []
+    },
+    {
+      "start": 1691.56,
+      "end": 1698.56,
+      "text": "It looks like it looks like we just need to restart the mcp server that's totally fine.",
+      "words": []
+    },
+    {
+      "start": 1702.56,
+      "end": 1704.56,
+      "text": "There we go we got a new token.",
+      "words": []
+    },
+    {
+      "start": 1705.56,
+      "end": 1709.56,
+      "text": "And.",
+      "words": []
+    },
+    {
+      "start": 1710.56,
+      "end": 1714.56,
+      "text": "There we go please go back to the.",
+      "words": []
+    },
+    {
+      "start": 1714.56,
+      "end": 1719.56,
+      "text": "RCA for the four items token.",
+      "words": []
+    },
+    {
+      "start": 1719.56,
+      "end": 1723.56,
+      "text": "Okay.",
+      "words": []
+    },
+    {
+      "start": 1724.56,
+      "end": 1738.56,
+      "text": "And let's see let's see this part go hopefully fast forward to this part of the presentation if you want unless you want to really see what what cloud is doing in real time.",
+      "words": []
+    },
+    {
+      "start": 1739.56,
+      "end": 1746.56,
+      "text": "Now let's go I said I wanted to you know keep things tight with the presentation let's go back to.",
+      "words": []
+    },
+    {
+      "start": 1746.56,
+      "end": 1753.56,
+      "text": "The presentation materials and then we'll pick back up and see what our AI agent does afterwards.",
+      "words": []
+    },
+    {
+      "start": 1757.56,
+      "end": 1773.56,
+      "text": "Okay so here we have a fourth scenario supplier just email they can't meet the spec the messages in plain English and there's an electronic tronic document information system that has no idea it exists so in the past.",
+      "words": []
+    },
+    {
+      "start": 1773.56,
+      "end": 1786.56,
+      "text": "So being able to manage documents I pass as a difficult time with the you know that because it requires understanding plain English or text extraction there's really no data schema to leverage.",
+      "words": []
+    },
+    {
+      "start": 1786.56,
+      "end": 1801.56,
+      "text": "And so an ambiguous message requires a human to intervene with something like agent AI it can intercept things like emails or documents and be able to translate that to something that can be acted upon such as maybe suggesting new suppliers.",
+      "words": []
+    },
+    {
+      "start": 1801.56,
+      "end": 1821.56,
+      "text": "And having a human have to go and piece together things you know me maybe at the end of the day we're not always monitoring our inboxes fits some air and last scenario to look at is your VP just asked why did line three efficiency drop last week after the design change how many people and how many days does it take to answer that today.",
+      "words": []
+    },
+    {
+      "start": 1821.56,
+      "end": 1841.56,
+      "text": "So being able to see the impact of change sometimes can be difficult maybe people know there's a problem but have a hard time communicating it to the right people to get that change so dashboards are are pre built for anticipated questions but but maybe there's in the dashboard to tell you that there's a problem with line three efficiency based on change orders released.",
+      "words": []
+    },
+    {
+      "start": 1841.56,
+      "end": 1865.56,
+      "text": "So where AI can come in is being able to be a natural language reasoning layer so being able to ask a question like that that you don't want to configure on to a dashboard so your VP ask that question rather you can ask an AI agent and it can go piece together data across your operational technology information technology systems.",
+      "words": []
+    },
+    {
+      "start": 1865.56,
+      "end": 1894.56,
+      "text": "Those were the five scenarios i'm really happy I could demonstrate two of them to you kind of how we can use AI to augment these integration flows between our PLM and MES system those three big themes to consider for the five scenarios I gave augmenting intelligence being able to do analysis that a human might not be able to piece together adapting execution being able to on the fly adapt how you're operating based on the core.",
+      "words": []
+    },
+    {
+      "start": 1895.56,
+      "end": 1924.56,
+      "text": "Current situation based on recent change based on quality events based on you know maybe maybe something is being poorly run and maybe that's because of a machine or a new person in the process and then the last one unlocking access people typically don't have access to all these systems or know all the people to talk to all the systems to query and so this access a layer to reason across all of the enterprise systems that hold the answers.",
+      "words": []
+    },
+    {
+      "start": 1924.56,
+      "end": 1927.56,
+      "text": "Now in in summary.",
+      "words": []
+    },
+    {
+      "start": 1927.56,
+      "end": 1942.56,
+      "text": "The systems you have are not the limit the reasoning layer is as we've talked mcp is that enable her for an agent AI orchestrator to be the reasoning layer.",
+      "words": []
+    },
+    {
+      "start": 1943.56,
+      "end": 1958.56,
+      "text": "Integrations move data AI orchestration understands and acts on it so your integrations have their place they move data around which is good but if you need understanding an action that is where AI comes in and so think about this everyone.",
+      "words": []
+    },
+    {
+      "start": 1958.56,
+      "end": 1962.56,
+      "text": "Where's the messiest gap in your stack right now.",
+      "words": []
+    },
+    {
+      "start": 1962.56,
+      "end": 1974.56,
+      "text": "That is where we start that is the perfect place for AI to operate those edge cases the messy parts the things that take a long time to piece together and are more mysterious.",
+      "words": []
+    },
+    {
+      "start": 1974.56,
+      "end": 1991.56,
+      "text": "Thanks everyone for watching this presentation if you'd like stay in touch with me connect with me on LinkedIn go look up Gus quade find this reporting and even previous recordings i've made at Autodesk University on Autodesk catalog of recorded sessions.",
+      "words": []
+    },
+    {
+      "start": 1991.56,
+      "end": 1994.56,
+      "text": "Thank you very much and take care.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:24:32.145387+00:00"
+}

@@ -1,0 +1,1219 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 10.8,
+      "text": "Hi everyone, Mirko Bianchi, the Senior Technical Digital Product Manager in ACOM, and we are",
+      "words": []
+    },
+    {
+      "start": 10.8,
+      "end": 21.080000000000002,
+      "text": "going to present the use of MCPs and skills for large language models.",
+      "words": []
+    },
+    {
+      "start": 21.080000000000002,
+      "end": 29.76,
+      "text": "Going straight to the point is that the project that we generate right now are not invisible,",
+      "words": []
+    },
+    {
+      "start": 29.76,
+      "end": 38.800000000000004,
+      "text": "not to human, but to agent, and that is actually not making them in a way, not making them accessible",
+      "words": []
+    },
+    {
+      "start": 38.800000000000004,
+      "end": 46.16,
+      "text": "and discoverable and making the large language model and agent capable to use it.",
+      "words": []
+    },
+    {
+      "start": 46.16,
+      "end": 53.040000000000006,
+      "text": "So we want to introduce these conversations and these presentations with this call that",
+      "words": []
+    },
+    {
+      "start": 53.04,
+      "end": 59.68,
+      "text": "came out from our conversation. We said stop wrestling with your data, but start",
+      "words": []
+    },
+    {
+      "start": 59.68,
+      "end": 65.84,
+      "text": "surfacing and it's not just a metaphor, it's literally a ship that we believe in.",
+      "words": []
+    },
+    {
+      "start": 67.12,
+      "end": 72.48,
+      "text": "Because we believe it's time to serve the data across the project and",
+      "words": []
+    },
+    {
+      "start": 74.56,
+      "end": 81.03999999999999,
+      "text": "teams and make it more collaborative. But from where we came from, we came from",
+      "words": []
+    },
+    {
+      "start": 81.52000000000001,
+      "end": 88.80000000000001,
+      "text": "a consideration that 90% of the project data goes on user. Not because our worth",
+      "words": []
+    },
+    {
+      "start": 88.80000000000001,
+      "end": 102.0,
+      "text": "flats, but because our reachable. And 16 billions of dollars only in the US are spent",
+      "words": []
+    },
+    {
+      "start": 102.0,
+      "end": 110.80000000000001,
+      "text": "only for poor interoperability. So most of the teams spend almost 60% of their work day,",
+      "words": []
+    },
+    {
+      "start": 111.60000000000001,
+      "end": 118.16000000000001,
+      "text": "choosing information that already exists or are in a system that they already have access.",
+      "words": []
+    },
+    {
+      "start": 118.16000000000001,
+      "end": 123.84,
+      "text": "So we are keeping talking about the problem of the data, but in reality the problem of the",
+      "words": []
+    },
+    {
+      "start": 123.84,
+      "end": 134.32,
+      "text": "inaccessibility of the data and the incapacity of making that data more visible and usable.",
+      "words": []
+    },
+    {
+      "start": 135.28,
+      "end": 144.48,
+      "text": "So for the past three decades, we try to find a solution that is a single language.",
+      "words": []
+    },
+    {
+      "start": 146.48,
+      "end": 154.56,
+      "text": "We developed high-sync, open-b, and that are super great solutions, super",
+      "words": []
+    },
+    {
+      "start": 155.52,
+      "end": 165.12,
+      "text": "user across multiple business and in the AEC space. But we still have a Geotechnical report,",
+      "words": []
+    },
+    {
+      "start": 165.12,
+      "end": 172.24,
+      "text": "indeed, a structural aspect in a world talk and a contribution that is buried in someone",
+      "words": []
+    },
+    {
+      "start": 172.24,
+      "end": 179.36,
+      "text": "inboxes. Plus 90% of the firm in this industry is composed of less than 50 people.",
+      "words": []
+    },
+    {
+      "start": 179.36,
+      "end": 185.60000000000002,
+      "text": "That means that for this is more firm is difficult to afford enterprise integration.",
+      "words": []
+    },
+    {
+      "start": 185.60000000000002,
+      "end": 193.20000000000002,
+      "text": "And most of the time they are just going to work as they are capable to do to also the pressure",
+      "words": []
+    },
+    {
+      "start": 193.20000000000002,
+      "end": 205.68,
+      "text": "of the project and the day of the deliverables. So the approach that we want to propose and we",
+      "words": []
+    },
+    {
+      "start": 205.68,
+      "end": 216.56,
+      "text": "want to introduce is the fact that now we have a translator and the problem are not as we were",
+      "words": []
+    },
+    {
+      "start": 216.56,
+      "end": 225.76000000000002,
+      "text": "saying in the data. And the problem is not the volume of the data, but is the last matter.",
+      "words": []
+    },
+    {
+      "start": 226.07999999999998,
+      "end": 232.56,
+      "text": "Is the aspect of credibility of this co-verability of the data that we have.",
+      "words": []
+    },
+    {
+      "start": 232.56,
+      "end": 247.6,
+      "text": "And the biggest AI pay off is not the automation, but is on the collaboration and the coordination",
+      "words": []
+    },
+    {
+      "start": 247.6,
+      "end": 257.68,
+      "text": "of funding and surfacing these all the unstructured information that we have.",
+      "words": []
+    },
+    {
+      "start": 257.68,
+      "end": 263.2,
+      "text": "The real cost in construction is not execution, but is an industrial relation.",
+      "words": []
+    },
+    {
+      "start": 263.2,
+      "end": 267.44,
+      "text": "So the friction required to make architect structure engineers,",
+      "words": []
+    },
+    {
+      "start": 267.44,
+      "end": 277.68,
+      "text": "contractor, try to interpretate, try to understand and collaborate with on different systems.",
+      "words": []
+    },
+    {
+      "start": 277.68,
+      "end": 285.92,
+      "text": "So when some changes happen, the redesign take hours. But the manual coordination across",
+      "words": []
+    },
+    {
+      "start": 285.92,
+      "end": 293.12,
+      "text": "every tool team and format, that is the high end tax that we pay every day. So now we have these",
+      "words": []
+    },
+    {
+      "start": 294.0,
+      "end": 301.12,
+      "text": "translator that are large language model that are cheaper and the opportunity that they give us",
+      "words": []
+    },
+    {
+      "start": 301.12,
+      "end": 310.64,
+      "text": "is extract structure information from unstructured information. This act across incompatibility system",
+      "words": []
+    },
+    {
+      "start": 310.64,
+      "end": 317.68,
+      "text": "without forcing anyone to change their tools. And so makes everyone keep working as they do.",
+      "words": []
+    },
+    {
+      "start": 317.68,
+      "end": 323.92,
+      "text": "Just using a layer on top that helps them to translate the information and pass the information",
+      "words": []
+    },
+    {
+      "start": 323.92,
+      "end": 331.04,
+      "text": "between each other. And so what we are going to show you is this idea of a bundle that guides the",
+      "words": []
+    },
+    {
+      "start": 331.04,
+      "end": 341.36,
+      "text": "model and is not a different platform. It's just a bundle that you can compose or use to guide your",
+      "words": []
+    },
+    {
+      "start": 341.44,
+      "end": 348.56,
+      "text": "large language model on the more tailored on what is using and looking for.",
+      "words": []
+    },
+    {
+      "start": 349.76,
+      "end": 359.36,
+      "text": "So we are watching the display already in the software space. And this quote came from the software",
+      "words": []
+    },
+    {
+      "start": 359.36,
+      "end": 369.84000000000003,
+      "text": "space where they say that the things that get chosen by a large language model, it is not the best",
+      "words": []
+    },
+    {
+      "start": 369.84,
+      "end": 378.23999999999995,
+      "text": "product but is the most readable. And so we see that APIs that agent recommend consistently to use",
+      "words": []
+    },
+    {
+      "start": 378.23999999999995,
+      "end": 386.0,
+      "text": "are not the one that most perform the most perform but they are the one that are the most readable",
+      "words": []
+    },
+    {
+      "start": 386.0,
+      "end": 392.55999999999995,
+      "text": "and discoverable by the way. And so this is an aspect that is very important for our industry,",
+      "words": []
+    },
+    {
+      "start": 392.56,
+      "end": 400.32,
+      "text": "making these quantity of data and information but also all the APIs that we have access",
+      "words": []
+    },
+    {
+      "start": 401.52,
+      "end": 414.16,
+      "text": "is coverable and usable by the agent. So what we want to show you is this idea of a bundle",
+      "words": []
+    },
+    {
+      "start": 414.16,
+      "end": 421.28,
+      "text": "because as we know the contents window of a large language model increase but at the same time",
+      "words": []
+    },
+    {
+      "start": 421.28,
+      "end": 428.55999999999995,
+      "text": "the content is a reality that it means that increasing the number, increasing the load of",
+      "words": []
+    },
+    {
+      "start": 428.55999999999995,
+      "end": 436.55999999999995,
+      "text": "information that we put in a large language model is start to degradate and the reality is start to",
+      "words": []
+    },
+    {
+      "start": 436.55999999999995,
+      "end": 442.55999999999995,
+      "text": "degrade. And that is not the way that you should use a large language model. You should provide",
+      "words": []
+    },
+    {
+      "start": 442.55999999999995,
+      "end": 449.28,
+      "text": "the large language model the right information, the right to serve the information that you want and",
+      "words": []
+    },
+    {
+      "start": 449.35999999999996,
+      "end": 454.15999999999997,
+      "text": "give you the discoverability of the information that you're looking for. So we introduce",
+      "words": []
+    },
+    {
+      "start": 454.15999999999997,
+      "end": 464.0,
+      "text": "this idea of bundle that is composed of three elements. So we identify the idea of isolation",
+      "words": []
+    },
+    {
+      "start": 464.0,
+      "end": 472.55999999999995,
+      "text": "with that is provided by skills that are domain specific that teach and guide to that the model",
+      "words": []
+    },
+    {
+      "start": 472.8,
+      "end": 481.36,
+      "text": "how to use tool and navigate information. They offloading that are identified with the two",
+      "words": []
+    },
+    {
+      "start": 481.36,
+      "end": 490.16,
+      "text": "different MCP. One MCP in particular is the AC data model GraphQL that provides standardization",
+      "words": []
+    },
+    {
+      "start": 490.16,
+      "end": 499.36,
+      "text": "authentication and the way of connecting with your API and structure and retrieval the data.",
+      "words": []
+    },
+    {
+      "start": 499.44,
+      "end": 510.24,
+      "text": "And finally to reduce the NM and prevent the number of information with our NAMCDR that is the",
+      "words": []
+    },
+    {
+      "start": 510.24,
+      "end": 517.04,
+      "text": "way to interact with your data directly in the browser with UI that are created on file.",
+      "words": []
+    },
+    {
+      "start": 518.0,
+      "end": 525.9200000000001,
+      "text": "So that is so they finally be of the bundle that we want to show you and",
+      "words": []
+    },
+    {
+      "start": 526.56,
+      "end": 535.8399999999999,
+      "text": "and from now on I'm going to hand it over to Anthony to show you how this bundle needs to work in",
+      "words": []
+    },
+    {
+      "start": 535.8399999999999,
+      "end": 545.04,
+      "text": "practice. Cool thanks, Mirko. I'm going to run through the bundle in an actual use case as a",
+      "words": []
+    },
+    {
+      "start": 545.04,
+      "end": 551.52,
+      "text": "tangible example of something that I've created to actually demonstrate how that skill can be used",
+      "words": []
+    },
+    {
+      "start": 551.52,
+      "end": 559.12,
+      "text": "together with an MCP to write GraphQL queries which will help us to interact with order this AC",
+      "words": []
+    },
+    {
+      "start": 559.12,
+      "end": 565.04,
+      "text": "data model. So I'm going to run through what it took to create that and then how it can be used",
+      "words": []
+    },
+    {
+      "start": 565.76,
+      "end": 574.16,
+      "text": "and why that's different to using just an MCP. Now I'm going to leave it to Jow a little bit later",
+      "words": []
+    },
+    {
+      "start": 574.16,
+      "end": 580.0,
+      "text": "in the talk to go into some of the more technical detail. They'll cover a bit more on GraphQL.",
+      "words": []
+    },
+    {
+      "start": 580.32,
+      "end": 591.52,
+      "text": "But I do want to cover what I'm then doing with that GraphQL in the first place. So GraphQL APIs",
+      "words": []
+    },
+    {
+      "start": 591.52,
+      "end": 600.56,
+      "text": "have a defined structure to the graph that connects all the different elements and there is a",
+      "words": []
+    },
+    {
+      "start": 601.28,
+      "end": 608.0,
+      "text": "that structure can be distilled down into what's known as a schema and there are tools out there",
+      "words": []
+    },
+    {
+      "start": 608.0,
+      "end": 613.76,
+      "text": "like a polar which I've just brought up on the screen here which can query that structure",
+      "words": []
+    },
+    {
+      "start": 614.96,
+      "end": 621.52,
+      "text": "and create a schema document. And that's really powerful. It can basically tell it can turn that",
+      "words": []
+    },
+    {
+      "start": 621.52,
+      "end": 631.36,
+      "text": "that API into a piece of document as text in it. So I want to see if that document could be used",
+      "words": []
+    },
+    {
+      "start": 631.36,
+      "end": 640.5600000000001,
+      "text": "to power a skill and skills as Muka said are basically ways of giving instructions in a condensed",
+      "words": []
+    },
+    {
+      "start": 640.5600000000001,
+      "end": 648.72,
+      "text": "and a controlled form to AI which controls how it's using its context. So here I've used a",
+      "words": []
+    },
+    {
+      "start": 648.72,
+      "end": 659.2,
+      "text": "polo together with the AC data model which is a GraphQL API to create this GraphQL.COL file which is",
+      "words": []
+    },
+    {
+      "start": 659.2,
+      "end": 665.44,
+      "text": "again basically that schema of the API distilled down. It describes some general information about",
+      "words": []
+    },
+    {
+      "start": 665.44,
+      "end": 673.12,
+      "text": "that API which is important to interact with it. Now that file is actually incredibly long",
+      "words": []
+    },
+    {
+      "start": 674.32,
+      "end": 685.12,
+      "text": "and it's not an intuitive piece of text for an AI to use just as that raw file. So it helps to",
+      "words": []
+    },
+    {
+      "start": 685.2,
+      "end": 691.68,
+      "text": "try and make it a bit more organized. It also misses some of the context about what is important",
+      "words": []
+    },
+    {
+      "start": 691.68,
+      "end": 698.4,
+      "text": "in our BIM data, how different elements relate and just some of those general rules which we know",
+      "words": []
+    },
+    {
+      "start": 698.4,
+      "end": 707.6,
+      "text": "because we're familiar with BIM. So I have a conversation with Claude giving it that schema",
+      "words": []
+    },
+    {
+      "start": 707.6,
+      "end": 712.72,
+      "text": "and also some background information from Baudodesk's APS documentation.",
+      "words": []
+    },
+    {
+      "start": 714.32,
+      "end": 721.44,
+      "text": "And Claude has a skill creation skill which is basically able to help us create a skill.",
+      "words": []
+    },
+    {
+      "start": 722.32,
+      "end": 727.52,
+      "text": "So it was able to take all that information and create this skill and this is what it looks like.",
+      "words": []
+    },
+    {
+      "start": 728.5600000000001,
+      "end": 736.72,
+      "text": "So a skill can contain many different elements. This one contains a skill markdown file which is",
+      "words": []
+    },
+    {
+      "start": 736.72,
+      "end": 744.0,
+      "text": "standard across any skill and that provides like the very high level instructions which give the AI",
+      "words": []
+    },
+    {
+      "start": 744.0,
+      "end": 750.0,
+      "text": "its starting point of how it can use anything else within the skill. And when it reads that it can",
+      "words": []
+    },
+    {
+      "start": 750.0,
+      "end": 756.24,
+      "text": "then see that it has these instructions and these references which they go into a bit more detail",
+      "words": []
+    },
+    {
+      "start": 756.24,
+      "end": 763.84,
+      "text": "about what's contained in the schema, what's expected to interact with this API and how again some",
+      "words": []
+    },
+    {
+      "start": 763.84,
+      "end": 770.96,
+      "text": "of that BIM data relates to each of the different parts of the model. And from that Claude is able",
+      "words": []
+    },
+    {
+      "start": 770.96,
+      "end": 780.64,
+      "text": "to load or any AI tool that is able to use these skills is able to load what is relevant to it",
+      "words": []
+    },
+    {
+      "start": 781.6800000000001,
+      "end": 787.2800000000001,
+      "text": "to answer the query which has been asked. So rather than loading the entire schema and every piece",
+      "words": []
+    },
+    {
+      "start": 787.2800000000001,
+      "end": 793.6800000000001,
+      "text": "of information at once it can more selectively work through that. And that helps to manage it.",
+      "words": []
+    },
+    {
+      "start": 793.68,
+      "end": 800.88,
+      "text": "Its context. Okay, so let's see how that would actually run through and practice if I had a query",
+      "words": []
+    },
+    {
+      "start": 800.88,
+      "end": 809.12,
+      "text": "that I want to send to the GraphQL API for a C-dial model. So to begin with the user would need to",
+      "words": []
+    },
+    {
+      "start": 809.12,
+      "end": 815.52,
+      "text": "authenticate so that we can start interacting with these APIs. And in this case I'm using the",
+      "words": []
+    },
+    {
+      "start": 816.48,
+      "end": 825.28,
+      "text": "feature of MCP apps because previously having some kind of manual interaction to do that authentication",
+      "words": []
+    },
+    {
+      "start": 825.28,
+      "end": 832.3199999999999,
+      "text": "can be useful. I'm also using the MCP apps to then select whichever project and file that we're",
+      "words": []
+    },
+    {
+      "start": 832.3199999999999,
+      "end": 839.6,
+      "text": "wanting to interact with. Again, I don't want to have to remember the exact name or exact file number",
+      "words": []
+    },
+    {
+      "start": 839.6,
+      "end": 844.24,
+      "text": "of what that is. I can actually just go through and quickly search for that. So that user interface",
+      "words": []
+    },
+    {
+      "start": 844.24,
+      "end": 851.92,
+      "text": "in the MCP app I'll show a little bit later in the demo. So now I want to query that model to get",
+      "words": []
+    },
+    {
+      "start": 851.92,
+      "end": 857.04,
+      "text": "some information. This is a pretty simple example but the point of the skill is that it can be quite",
+      "words": []
+    },
+    {
+      "start": 857.04,
+      "end": 862.24,
+      "text": "flexible and can apply to a bunch of different scenarios. So show me all the walls that are on level",
+      "words": []
+    },
+    {
+      "start": 862.24,
+      "end": 871.12,
+      "text": "one. Now there's multiple different queries that need to happen to properly execute on that request.",
+      "words": []
+    },
+    {
+      "start": 871.12,
+      "end": 877.6,
+      "text": "Firstly, I need to actually work out what levels exist in the model because they could be named",
+      "words": []
+    },
+    {
+      "start": 877.6,
+      "end": 883.44,
+      "text": "all kinds of things. Level one might be level zero, one or have some esoteric naming convention.",
+      "words": []
+    },
+    {
+      "start": 884.24,
+      "end": 891.44,
+      "text": "So Claude needs to plan out based on looking at that skill and how it works,",
+      "words": []
+    },
+    {
+      "start": 892.0,
+      "end": 897.36,
+      "text": "whether those chain of queries that it needs to pull. So firstly it needs to discover what those",
+      "words": []
+    },
+    {
+      "start": 897.36,
+      "end": 904.72,
+      "text": "levels are and then he can use those levels to filter the doors, the walls in this case,",
+      "words": []
+    },
+    {
+      "start": 905.44,
+      "end": 913.44,
+      "text": "by that certain category on that certain level. Now to do that, it's going to read the skill.",
+      "words": []
+    },
+    {
+      "start": 914.08,
+      "end": 918.4,
+      "text": "It's going to go into the main skill and defile and understand how that skill is used.",
+      "words": []
+    },
+    {
+      "start": 919.76,
+      "end": 924.8000000000001,
+      "text": "And then go through the relevant instructions and the relevant references that are going to give",
+      "words": []
+    },
+    {
+      "start": 924.8,
+      "end": 931.04,
+      "text": "it the information needed to complete those queries. Finally, it's then going to write the actual",
+      "words": []
+    },
+    {
+      "start": 931.04,
+      "end": 939.76,
+      "text": "GraphQL queries and use the MCP which I've written separately based off some of the work that",
+      "words": []
+    },
+    {
+      "start": 939.76,
+      "end": 947.1999999999999,
+      "text": "Jowl and Mercer did to help execute those. Now we could actually run that as a script within the skill",
+      "words": []
+    },
+    {
+      "start": 947.1999999999999,
+      "end": 951.1999999999999,
+      "text": "to side to keep that separate because then we can load up a separate viewer. There's a few different",
+      "words": []
+    },
+    {
+      "start": 951.2,
+      "end": 958.0,
+      "text": "advantages to having the MCP operate independently, kind of compartmentalizing the different",
+      "words": []
+    },
+    {
+      "start": 958.0,
+      "end": 965.5200000000001,
+      "text": "functionality between the skill and the MCP. So the MCP, as I say, it goes and talks to the AC",
+      "words": []
+    },
+    {
+      "start": 965.5200000000001,
+      "end": 972.48,
+      "text": "data model and completes the query. So basically Claude has written up a bunch of text which is the",
+      "words": []
+    },
+    {
+      "start": 972.48,
+      "end": 980.1600000000001,
+      "text": "GraphQL query and that is then sent off to be completed and it responds back with the answer.",
+      "words": []
+    },
+    {
+      "start": 980.16,
+      "end": 986.24,
+      "text": "Claude can then interpret that into some human readable response rather than raw response.",
+      "words": []
+    },
+    {
+      "start": 987.92,
+      "end": 994.88,
+      "text": "But Claude doesn't always get that right. I've done the best job I could at the time of",
+      "words": []
+    },
+    {
+      "start": 994.88,
+      "end": 1000.64,
+      "text": "getting all the context in and making it clear but sometimes there's an error in that process.",
+      "words": []
+    },
+    {
+      "start": 1000.64,
+      "end": 1006.56,
+      "text": "The query gets sent and it comes back with an error. So what happens then? Well,",
+      "words": []
+    },
+    {
+      "start": 1006.88,
+      "end": 1015.76,
+      "text": "Claude is able to take that error, go back to that planning stage, work out where it went from,",
+      "words": []
+    },
+    {
+      "start": 1015.76,
+      "end": 1023.1999999999999,
+      "text": "re-read the skill and then plan out a new query to try again. And it could iterate on that loop",
+      "words": []
+    },
+    {
+      "start": 1023.1999999999999,
+      "end": 1031.12,
+      "text": "many times if needed, hopefully not. But the real power is then once we've completed that and",
+      "words": []
+    },
+    {
+      "start": 1031.12,
+      "end": 1039.28,
+      "text": "successfully had the query completed, I could then ask Claude to update the skill itself to include",
+      "words": []
+    },
+    {
+      "start": 1039.28,
+      "end": 1045.4399999999998,
+      "text": "the lesson from what was just happening with the error so that later on that doesn't occur again.",
+      "words": []
+    },
+    {
+      "start": 1046.3999999999999,
+      "end": 1052.8799999999999,
+      "text": "So it really is a bit of a dynamic loop where it might not be exactly perfect on the first time,",
+      "words": []
+    },
+    {
+      "start": 1052.8799999999999,
+      "end": 1059.12,
+      "text": "but we can iterate on this and get the skill more and more powerful, more and more accurate and",
+      "words": []
+    },
+    {
+      "start": 1059.12,
+      "end": 1072.32,
+      "text": "helpful for Claude. Okay, so let's take a look at that actually running in real life. So in this case,",
+      "words": []
+    },
+    {
+      "start": 1072.32,
+      "end": 1078.56,
+      "text": "I ask Claude to run the authentication. Then I can manually select the model. As I said, I can just",
+      "words": []
+    },
+    {
+      "start": 1078.56,
+      "end": 1084.2399999999998,
+      "text": "click through that's actually kind of a more intuitive user interface than asking in text and load",
+      "words": []
+    },
+    {
+      "start": 1084.32,
+      "end": 1092.16,
+      "text": "up the viewer with the AC dot model MCP. And then I ask a simple query. So again, you can see it's",
+      "words": []
+    },
+    {
+      "start": 1092.16,
+      "end": 1097.52,
+      "text": "it's asked to find out all the correct levels and then it can filter the doors based on that.",
+      "words": []
+    },
+    {
+      "start": 1098.72,
+      "end": 1103.44,
+      "text": "And it's not just filtering. So in this case, I'm asking in question about this structural model",
+      "words": []
+    },
+    {
+      "start": 1103.44,
+      "end": 1109.1200000000001,
+      "text": "and say what to go through, work out how to filter that. And then because Claude has these kind of",
+      "words": []
+    },
+    {
+      "start": 1109.12,
+      "end": 1116.8,
+      "text": "capabilities of data analysis, it can build me up all these charts and visualization around",
+      "words": []
+    },
+    {
+      "start": 1116.8,
+      "end": 1124.9599999999998,
+      "text": "as well. So the takeaway is that it's not just about being able to like ask a simple text query",
+      "words": []
+    },
+    {
+      "start": 1124.9599999999998,
+      "end": 1132.56,
+      "text": "to a model. Once we can have AI that is truly able to build a flexible way to interact with that",
+      "words": []
+    },
+    {
+      "start": 1132.56,
+      "end": 1138.08,
+      "text": "model, then opens up all different kinds of use cases. And you know, the MCP, which actually forms",
+      "words": []
+    },
+    {
+      "start": 1138.24,
+      "end": 1143.76,
+      "text": "that interaction really goes hand in hand with the skill, which allows that crafting of the queries.",
+      "words": []
+    },
+    {
+      "start": 1145.04,
+      "end": 1153.28,
+      "text": "So I'm going to hand over to Jal who's going to talk more about the technical details and look to",
+      "words": []
+    },
+    {
+      "start": 1153.28,
+      "end": 1158.08,
+      "text": "see how this might be implemented as some of the later down the track next steps.",
+      "words": []
+    },
+    {
+      "start": 1159.12,
+      "end": 1164.6399999999999,
+      "text": "Thank you Anthony. I'm Jomer Teams, developer editor of the desk. And now I'm going to cover",
+      "words": []
+    },
+    {
+      "start": 1164.64,
+      "end": 1171.2800000000002,
+      "text": "the journey about unlocking GraphQL using natural language and the diving into some technical",
+      "words": []
+    },
+    {
+      "start": 1171.2800000000002,
+      "end": 1179.92,
+      "text": "details. Okay, so we start with the data models. And with data models designs are treated as graphs.",
+      "words": []
+    },
+    {
+      "start": 1179.92,
+      "end": 1186.0,
+      "text": "And it is graphs. The nodes represents each granular component of the design can be a well",
+      "words": []
+    },
+    {
+      "start": 1186.0,
+      "end": 1192.3200000000002,
+      "text": "ceiling floor concrete, the material associated with each one of these elements. And the GraphQL",
+      "words": []
+    },
+    {
+      "start": 1192.3999999999999,
+      "end": 1199.4399999999998,
+      "text": "is the interface to access this data. This means that to query a design using natural language,",
+      "words": []
+    },
+    {
+      "start": 1199.4399999999998,
+      "end": 1204.48,
+      "text": "we need to unlock this graph data in such a way that it can be integrated with a large",
+      "words": []
+    },
+    {
+      "start": 1204.48,
+      "end": 1211.36,
+      "text": "language model. Just like the skill that Anthony was showing, we need to unlock the queries and",
+      "words": []
+    },
+    {
+      "start": 1211.36,
+      "end": 1218.24,
+      "text": "mutations. GraphQL, the queries are used to fetch data and mutations are used to make modifications.",
+      "words": []
+    },
+    {
+      "start": 1218.24,
+      "end": 1223.92,
+      "text": "We also need to unlock the objects. The objects represent the entities, they can be a wall,",
+      "words": []
+    },
+    {
+      "start": 1223.92,
+      "end": 1229.76,
+      "text": "a level, a material, and also the relationships. Relationships represent the connections between",
+      "words": []
+    },
+    {
+      "start": 1229.76,
+      "end": 1236.72,
+      "text": "the elements. A wall can be connected to a level that is being used as referred as the top",
+      "words": []
+    },
+    {
+      "start": 1236.72,
+      "end": 1242.0,
+      "text": "constraint on the base for that wall. In other words, we need to unlock the entire schema.",
+      "words": []
+    },
+    {
+      "start": 1242.96,
+      "end": 1248.72,
+      "text": "And the first obvious idea we try that is to wrap all the queries around MCP tools.",
+      "words": []
+    },
+    {
+      "start": 1249.44,
+      "end": 1256.4,
+      "text": "One, two, for each one of the queries, possible queries available. That sounds great at first,",
+      "words": []
+    },
+    {
+      "start": 1256.4,
+      "end": 1262.48,
+      "text": "but this approach doesn't scale very well. Imagine that you need a tool to retrieve all the walls",
+      "words": []
+    },
+    {
+      "start": 1262.48,
+      "end": 1268.4,
+      "text": "and names from your design. And later you might need to also retrieve the properties,",
+      "words": []
+    },
+    {
+      "start": 1268.4,
+      "end": 1276.64,
+      "text": "just like the sample that you're seeing with these properties in red. And even further,",
+      "words": []
+    },
+    {
+      "start": 1276.64,
+      "end": 1282.8000000000002,
+      "text": "at some point you might have the need to add a filter. What can be a small change in your query",
+      "words": []
+    },
+    {
+      "start": 1282.8000000000002,
+      "end": 1288.8000000000002,
+      "text": "might end up creating a necessary complexity in your tool or even create the need to write",
+      "words": []
+    },
+    {
+      "start": 1288.8000000000002,
+      "end": 1295.44,
+      "text": "another tool. And with more tools, you have more description and more usage of the context window.",
+      "words": []
+    },
+    {
+      "start": 1295.52,
+      "end": 1300.96,
+      "text": "And the context window, in this case, is the total amount of text that a large language model",
+      "words": []
+    },
+    {
+      "start": 1300.96,
+      "end": 1307.52,
+      "text": "can see at once. The model only works with what's in the context window. And there's a limit for",
+      "words": []
+    },
+    {
+      "start": 1307.52,
+      "end": 1314.88,
+      "text": "that. When the limit is hit, the other context gets drop it. In this example approach, if we try to",
+      "words": []
+    },
+    {
+      "start": 1314.88,
+      "end": 1320.88,
+      "text": "expand to cover all the possible queries with and up using all the context window with tools",
+      "words": []
+    },
+    {
+      "start": 1320.88,
+      "end": 1328.5600000000002,
+      "text": "descriptions. These approach, one to one, would also make us fight with the flexible nature of",
+      "words": []
+    },
+    {
+      "start": 1328.5600000000002,
+      "end": 1334.5600000000002,
+      "text": "GraphQL interface. There's no problem of doing that to cover very specific scenarios, though.",
+      "words": []
+    },
+    {
+      "start": 1335.92,
+      "end": 1342.48,
+      "text": "Also, if it also tries to address these using just one skill with Markdown files,",
+      "words": []
+    },
+    {
+      "start": 1342.48,
+      "end": 1348.64,
+      "text": "we would end up losing the deterministic nature of MCP to connect with APIs and databases and",
+      "words": []
+    },
+    {
+      "start": 1348.64,
+      "end": 1354.8000000000002,
+      "text": "other systems. It is not easy to encapsulate the entire schema only with Markdown files and how",
+      "words": []
+    },
+    {
+      "start": 1354.8000000000002,
+      "end": 1361.44,
+      "text": "to cover all the possible filters, all the possible relationships in query structure. And also doing",
+      "words": []
+    },
+    {
+      "start": 1361.44,
+      "end": 1371.2,
+      "text": "all of that without incurring hallucinations or using all the context window for our clients.",
+      "words": []
+    },
+    {
+      "start": 1371.52,
+      "end": 1377.8400000000001,
+      "text": "To take the best of each technology, we need to combine both options. MCPs and Skill,",
+      "words": []
+    },
+    {
+      "start": 1377.8400000000001,
+      "end": 1383.6000000000001,
+      "text": "the Skill can cover the procedural knowledge, the kind of knowledge that used to live in someone's",
+      "words": []
+    },
+    {
+      "start": 1383.6000000000001,
+      "end": 1390.64,
+      "text": "head or a 40-page PDF, and MCP take care of connecting to the APIs databases and other systems.",
+      "words": []
+    },
+    {
+      "start": 1391.68,
+      "end": 1398.96,
+      "text": "So now let me walk you through a quick demo of one alternative MCP and Skill using a different",
+      "words": []
+    },
+    {
+      "start": 1398.96,
+      "end": 1407.1200000000001,
+      "text": "approach. In this example, you can see a bundle combining a Skill with an MCP. And the MCP in this",
+      "words": []
+    },
+    {
+      "start": 1407.1200000000001,
+      "end": 1413.3600000000001,
+      "text": "case contains three tools. One to introspect the GraphQL schema, one to search the GraphQL schema,",
+      "words": []
+    },
+    {
+      "start": 1413.3600000000001,
+      "end": 1420.64,
+      "text": "and one to validate the queries. And running all of those in a loop, it is possible to build and",
+      "words": []
+    },
+    {
+      "start": 1420.64,
+      "end": 1427.6000000000001,
+      "text": "validate the queries without hallucinations. And since the MCP takes care of those loops, the context",
+      "words": []
+    },
+    {
+      "start": 1428.0,
+      "end": 1434.7199999999998,
+      "text": "window is not overloaded. This is based on the Apollo GraphQL MCP server. You can take advantage of",
+      "words": []
+    },
+    {
+      "start": 1434.7199999999998,
+      "end": 1443.6799999999998,
+      "text": "that. It is an open project, so you just need to provide the input schema on top of that. And even",
+      "words": []
+    },
+    {
+      "start": 1443.6799999999998,
+      "end": 1448.8799999999999,
+      "text": "though we can take a considerable amount of time to go through the needed iterations for complex",
+      "words": []
+    },
+    {
+      "start": 1448.8799999999999,
+      "end": 1454.1599999999999,
+      "text": "queries, it is able to find a solution in the end. This approach is good when you don't have all",
+      "words": []
+    },
+    {
+      "start": 1454.24,
+      "end": 1461.76,
+      "text": "the queries mapped, or if you need to ask questions about the regarding the GraphQL API, or you need to",
+      "words": []
+    },
+    {
+      "start": 1462.64,
+      "end": 1469.92,
+      "text": "build queries on top of the schema itself. It's an alternative apart from just using MCP,",
+      "words": []
+    },
+    {
+      "start": 1469.92,
+      "end": 1477.52,
+      "text": "just using Skills, or using Skills with Markdown files only for the schema. So different approaches.",
+      "words": []
+    },
+    {
+      "start": 1477.84,
+      "end": 1485.44,
+      "text": "To conclude, as a conclusion, if you search about AI through developer communities nowadays,",
+      "words": []
+    },
+    {
+      "start": 1485.44,
+      "end": 1491.6,
+      "text": "you might end up finding these statements such as MCP's dad, just use CLIs, or the opposite,",
+      "words": []
+    },
+    {
+      "start": 1491.6,
+      "end": 1497.92,
+      "text": "CLIs dad, just use MCP, whatever. But there is no such thing as a unique solution for any situation.",
+      "words": []
+    },
+    {
+      "start": 1497.92,
+      "end": 1503.2,
+      "text": "Each technology serves a distinct purpose, and together they create sophisticated",
+      "words": []
+    },
+    {
+      "start": 1503.2,
+      "end": 1509.44,
+      "text": "agentic workflows. So know your case, test multiple approaches, and validate them, and keep",
+      "words": []
+    },
+    {
+      "start": 1509.44,
+      "end": 1516.24,
+      "text": "refining them for a better outcome. If that's it, thank you for your time. Thank you for",
+      "words": []
+    },
+    {
+      "start": 1519.44,
+      "end": 1523.2,
+      "text": "spending the time with us, and hope that you find this content useful.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T05:28:33.790927+00:00"
+}

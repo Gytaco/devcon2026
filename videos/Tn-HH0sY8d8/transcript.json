@@ -1,0 +1,2047 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 11.36,
+      "text": "Welcome back. I hope you were able to get a coffee during that break. I'm Jeremy Khan,",
+      "words": []
+    },
+    {
+      "start": 11.36,
+      "end": 16.56,
+      "text": "Fortune's AI editor again, and I'm going to be moderating this next session. This is kind",
+      "words": []
+    },
+    {
+      "start": 16.56,
+      "end": 22.32,
+      "text": "of in three parts. So the last one was on sort of the what of AI. This is on the why and the why",
+      "words": []
+    },
+    {
+      "start": 22.32,
+      "end": 27.36,
+      "text": "now, kind of the business case for AI agents. But I'm just going to give a quick overview of where we",
+      "words": []
+    },
+    {
+      "start": 27.36,
+      "end": 32.64,
+      "text": "are. I'm going to try to give some different data than I did in the last little intro. This is",
+      "words": []
+    },
+    {
+      "start": 32.64,
+      "end": 38.8,
+      "text": "some data from OpenAI's evaluation called GDP Val. And if you haven't looked at it, it's really",
+      "words": []
+    },
+    {
+      "start": 38.8,
+      "end": 45.04,
+      "text": "worth looking at because they had professional experts in a whole range of knowledge work,",
+      "words": []
+    },
+    {
+      "start": 45.04,
+      "end": 52.879999999999995,
+      "text": "develop realistic kind of scenarios and tests for to try AI models, frontier AI models against.",
+      "words": []
+    },
+    {
+      "start": 52.88,
+      "end": 60.56,
+      "text": "And it ranges from sort of things in banking, things in tax, things in audit, government services,",
+      "words": []
+    },
+    {
+      "start": 60.56,
+      "end": 67.04,
+      "text": "and some in engineering tasks as well. And this is some of the data from industrial engineering and",
+      "words": []
+    },
+    {
+      "start": 67.04,
+      "end": 72.24000000000001,
+      "text": "mechanical engineering from the last assessment they did. And this showed and they do a whole bunch of",
+      "words": []
+    },
+    {
+      "start": 72.24000000000001,
+      "end": 77.36,
+      "text": "they don't just test their own models, they test other frontier models as well. Currently it looks",
+      "words": []
+    },
+    {
+      "start": 77.36,
+      "end": 85.84,
+      "text": "like most of the best models are just over sort of 50% wins and ties against human performance.",
+      "words": []
+    },
+    {
+      "start": 85.84,
+      "end": 91.68,
+      "text": "Again, this is judged by human experts. And when it comes to mechanical engineering, the models",
+      "words": []
+    },
+    {
+      "start": 91.68,
+      "end": 98.64,
+      "text": "actually tie human performance or exceed human performance 60% of the time. So they're coming along",
+      "words": []
+    },
+    {
+      "start": 98.64,
+      "end": 103.52,
+      "text": "really quite quite significantly. And it's worth keeping an eye on that benchmark. Of course,",
+      "words": []
+    },
+    {
+      "start": 103.52,
+      "end": 108.88,
+      "text": "one of the other things we've seen in the last few months has been the real rapid adoption and",
+      "words": []
+    },
+    {
+      "start": 108.88,
+      "end": 115.36,
+      "text": "thusiasm for AI agents, in particularly these what are called agentic harnesses, this kind of software",
+      "words": []
+    },
+    {
+      "start": 115.36,
+      "end": 120.56,
+      "text": "code that sits around an AI model and tells it kind of what tools it's allowed to use and what",
+      "words": []
+    },
+    {
+      "start": 120.56,
+      "end": 126.0,
+      "text": "scenarios provide some guard railing. How many here are familiar with OpenClaw or have played around",
+      "words": []
+    },
+    {
+      "start": 126.0,
+      "end": 132.24,
+      "text": "with OpenClaw? Quite a few, that's good. Yeah, there's been huge enthusiasm for OpenClaw as a",
+      "words": []
+    },
+    {
+      "start": 132.8,
+      "end": 137.68,
+      "text": "agentic harness. And a lot of people now are trying, but the problem with OpenClaw is actually",
+      "words": []
+    },
+    {
+      "start": 137.68,
+      "end": 142.48000000000002,
+      "text": "it was fairly unsafe. You kind of had to give it control over everything on a laptop and there were",
+      "words": []
+    },
+    {
+      "start": 142.48000000000002,
+      "end": 146.96,
+      "text": "lots of nightmare scenarios where OpenClaw had gone out and done things that the users hadn't really",
+      "words": []
+    },
+    {
+      "start": 146.96,
+      "end": 153.84,
+      "text": "wanted, including in some cases giving up bank account information or the keys to Bitcoin wallets,",
+      "words": []
+    },
+    {
+      "start": 153.84,
+      "end": 156.96,
+      "text": "things like that that you don't really want to have happened. So a bunch of people now are working",
+      "words": []
+    },
+    {
+      "start": 157.04000000000002,
+      "end": 163.52,
+      "text": "on how do you bring an OpenClaw like experience to enterprises in a way that's safe for enterprises.",
+      "words": []
+    },
+    {
+      "start": 163.52,
+      "end": 167.52,
+      "text": "This is still very much kind of a work in progress, but it is something to keep an eye on.",
+      "words": []
+    },
+    {
+      "start": 167.52,
+      "end": 171.76000000000002,
+      "text": "In terms of what's actually happening in companies, there's a lot you may have heard, there was this",
+      "words": []
+    },
+    {
+      "start": 171.76000000000002,
+      "end": 178.4,
+      "text": "MIT study that came out earlier this year saying that a lot of companies were failing to achieve",
+      "words": []
+    },
+    {
+      "start": 178.4,
+      "end": 186.64000000000001,
+      "text": "return on investment from their use of AI, there was a statistic that 95% of AI pilots fail.",
+      "words": []
+    },
+    {
+      "start": 186.64,
+      "end": 190.39999999999998,
+      "text": "I think we're kind of moving beyond that. I think that study is already fairly outdated.",
+      "words": []
+    },
+    {
+      "start": 190.39999999999998,
+      "end": 197.04,
+      "text": "And you are seeing some really big enterprises seeing really significant productivity gains",
+      "words": []
+    },
+    {
+      "start": 197.04,
+      "end": 202.95999999999998,
+      "text": "through the use of these agentic AI processes. This is a case study from Novo Nordus, the big pharmaceutical",
+      "words": []
+    },
+    {
+      "start": 202.95999999999998,
+      "end": 208.32,
+      "text": "company that worked with Anthropic with their cloud model. They were able to take a process that",
+      "words": []
+    },
+    {
+      "start": 208.32,
+      "end": 214.0,
+      "text": "used to take more than 10 weeks that had to do with compiling all of this data from clinical trials",
+      "words": []
+    },
+    {
+      "start": 214.0,
+      "end": 217.84,
+      "text": "for these clinical trial reports that they then have to present actually to regulators.",
+      "words": []
+    },
+    {
+      "start": 217.84,
+      "end": 223.76,
+      "text": "They took that down from 10 weeks to 10 minutes. So that's a huge savings that we're seeing.",
+      "words": []
+    },
+    {
+      "start": 223.76,
+      "end": 230.16,
+      "text": "We're also starting to see the rise of these sort of solo entrepreneurs who are using AI to create",
+      "words": []
+    },
+    {
+      "start": 230.16,
+      "end": 237.28,
+      "text": "huge companies with massive revenue with almost no employees. So this is a guy who runs a kind of",
+      "words": []
+    },
+    {
+      "start": 237.28,
+      "end": 243.2,
+      "text": "medical supplement marketing company The New York Times wrote up. He's got $1.8 billion",
+      "words": []
+    },
+    {
+      "start": 243.2,
+      "end": 248.07999999999998,
+      "text": "of users and annual revenue. He has two employees. So I mean these are the sorts of things that people",
+      "words": []
+    },
+    {
+      "start": 248.07999999999998,
+      "end": 253.28,
+      "text": "are starting to see is possible with AI agents. And I think there's a big, a lot of big companies",
+      "words": []
+    },
+    {
+      "start": 253.28,
+      "end": 258.96,
+      "text": "are saying how do we bring a little bit of that inside our own enterprise? What can we possibly do",
+      "words": []
+    },
+    {
+      "start": 258.96,
+      "end": 264.15999999999997,
+      "text": "inside this much larger company that already may have billions of revenue to extend to new business",
+      "words": []
+    },
+    {
+      "start": 264.15999999999997,
+      "end": 268.4,
+      "text": "opportunities? We're going to talk a little bit about this opportunity with my next set of",
+      "words": []
+    },
+    {
+      "start": 268.4,
+      "end": 275.35999999999996,
+      "text": "panelists. Please welcome Andreas Mauer, the chief architect from Bosch of building solutions.",
+      "words": []
+    },
+    {
+      "start": 275.35999999999996,
+      "end": 280.79999999999995,
+      "text": "Thomas Titsa, I hope you haven't mascured all your last names. The technical technology strategist",
+      "words": []
+    },
+    {
+      "start": 280.79999999999995,
+      "end": 287.44,
+      "text": "at Microsoft and Nevin who is the VP of platform strategy and technology partnership at Autodesk.",
+      "words": []
+    },
+    {
+      "start": 287.44,
+      "end": 291.2,
+      "text": "Please welcome. I'm not even going to try Nevin's last name. What is...",
+      "words": []
+    },
+    {
+      "start": 291.2,
+      "end": 295.91999999999996,
+      "text": "Yuxsel Ikiji. Yuxsel Ikiji. So I should have gotten that's great. Thank you. Welcome. Please.",
+      "words": []
+    },
+    {
+      "start": 298.79999999999995,
+      "end": 307.2,
+      "text": "Great. Andreas, I want to start with you because you have this fantastic vision for what you think",
+      "words": []
+    },
+    {
+      "start": 307.2,
+      "end": 314.08,
+      "text": "is going to be possible at Bosch building solutions with the advent of AI and AI agents. Can you just",
+      "words": []
+    },
+    {
+      "start": 314.08,
+      "end": 317.91999999999996,
+      "text": "sketch for us a little bit of what that vision looks like? Because I think it's tremendously exciting.",
+      "words": []
+    },
+    {
+      "start": 318.64,
+      "end": 325.2,
+      "text": "Yeah, thanks. So at Bosch building technologies we creating commercial building solutions systems",
+      "words": []
+    },
+    {
+      "start": 325.2,
+      "end": 331.44,
+      "text": "and services like you see here with light and HVAC in those commercial buildings and the fan",
+      "words": []
+    },
+    {
+      "start": 331.44,
+      "end": 335.76,
+      "text": "fact is that these buildings are not really standardized in terms of how you operate them",
+      "words": []
+    },
+    {
+      "start": 336.71999999999997,
+      "end": 341.84,
+      "text": "and even how do you plan dimension and design them so that you can bring them into those buildings",
+      "words": []
+    },
+    {
+      "start": 342.48,
+      "end": 346.48,
+      "text": "and this is where we are now leveraging more and more the power of a generic system and trying",
+      "words": []
+    },
+    {
+      "start": 346.48,
+      "end": 352.64,
+      "text": "to get that system design and planning and dimensioning so that we can create offers to customers",
+      "words": []
+    },
+    {
+      "start": 353.28,
+      "end": 360.0,
+      "text": "using the power of a generic systems. That's one of the pieces. Then once we have that system",
+      "words": []
+    },
+    {
+      "start": 360.0,
+      "end": 365.76,
+      "text": "designed and planned and offered to customers then we also bring them into the building. So we do",
+      "words": []
+    },
+    {
+      "start": 365.76,
+      "end": 371.59999999999997,
+      "text": "provisioning installation configuring and this is also where we use the generic systems behind the",
+      "words": []
+    },
+    {
+      "start": 371.59999999999997,
+      "end": 379.36,
+      "text": "scenes to get assisted configurations going, assisted installation for the engineers and the",
+      "words": []
+    },
+    {
+      "start": 379.36,
+      "end": 385.2,
+      "text": "craftments that install all of this in the buildings. Then next we bring it into operation and then",
+      "words": []
+    },
+    {
+      "start": 385.2,
+      "end": 392.48,
+      "text": "we operate, we maintain it and then sometimes Bosch building getting refurnished, restructured,",
+      "words": []
+    },
+    {
+      "start": 392.48,
+      "end": 397.36,
+      "text": "sometimes even recycled and that is when the loop closes and starts from the beginning.",
+      "words": []
+    },
+    {
+      "start": 398.32,
+      "end": 406.72,
+      "text": "All of those processes life cycle faces you need to have a high domain expertise and those people",
+      "words": []
+    },
+    {
+      "start": 406.72,
+      "end": 413.36,
+      "text": "getting less and less. So we have a shortage of them and all of those affairs are not really",
+      "words": []
+    },
+    {
+      "start": 413.36,
+      "end": 418.16,
+      "text": "highly standardized and this is also where our partnership with all the desk comes in and also",
+      "words": []
+    },
+    {
+      "start": 418.16,
+      "end": 424.32000000000005,
+      "text": "the partnership with Microsoft. We're trying to civilize the wild west of commercial buildings as",
+      "words": []
+    },
+    {
+      "start": 424.32000000000005,
+      "end": 431.76000000000005,
+      "text": "I always say and we have a big milestone today as well. We have a joint white paper composed,",
+      "words": []
+    },
+    {
+      "start": 431.76,
+      "end": 436.96,
+      "text": "you find it in the flyer, we call this the open building service reference. This is trying to",
+      "words": []
+    },
+    {
+      "start": 436.96,
+      "end": 443.44,
+      "text": "articulate, you can download the flyer as a QR code, this is really trying to articulate our dilemma",
+      "words": []
+    },
+    {
+      "start": 443.44,
+      "end": 449.59999999999997,
+      "text": "that we have in those commercial buildings because some of you may know 30% of the CO2 footprint",
+      "words": []
+    },
+    {
+      "start": 449.59999999999997,
+      "end": 455.59999999999997,
+      "text": "are caused by those buildings and the reason is they are not standardized, proactively operated,",
+      "words": []
+    },
+    {
+      "start": 455.68,
+      "end": 461.52000000000004,
+      "text": "designed, constructed and this is where we use the whole range of everything we heard so far",
+      "words": []
+    },
+    {
+      "start": 462.32000000000005,
+      "end": 469.36,
+      "text": "and there's even the new phrase called agent tile which is the combination of a tentic plus HIL.",
+      "words": []
+    },
+    {
+      "start": 469.36,
+      "end": 475.04,
+      "text": "So because Ben was just deluding on what is the next kind of HIL look like, it's called agent tile",
+      "words": []
+    },
+    {
+      "start": 475.04,
+      "end": 480.72,
+      "text": "and we are in the midst of this. Wow, that's a, no it's an amazing vision. One of the things even on",
+      "words": []
+    },
+    {
+      "start": 480.72,
+      "end": 487.36,
+      "text": "that first piece on the system design you were talking about is that right now if you come to",
+      "words": []
+    },
+    {
+      "start": 487.36,
+      "end": 494.0,
+      "text": "Bosch and you want a request for proposal for a fire alarm system for a building, it takes some",
+      "words": []
+    },
+    {
+      "start": 494.0,
+      "end": 500.08000000000004,
+      "text": "time for Bosch to come up with that, it was a people intensive process and that limited the number",
+      "words": []
+    },
+    {
+      "start": 500.08000000000004,
+      "end": 505.68,
+      "text": "of those that you could do in a given period of time and that itself limited the market opportunities",
+      "words": []
+    },
+    {
+      "start": 505.68,
+      "end": 510.24,
+      "text": "that you could go after. You could only do a building of a certain size with a certain valuation.",
+      "words": []
+    },
+    {
+      "start": 510.24,
+      "end": 515.12,
+      "text": "Now by automating that you can not only sort of take on more projects but also potentially serve",
+      "words": []
+    },
+    {
+      "start": 515.12,
+      "end": 519.76,
+      "text": "market segments that you just couldn't serve before. Is that that's part of the vision? Maybe",
+      "words": []
+    },
+    {
+      "start": 519.76,
+      "end": 524.5600000000001,
+      "text": "you can talk a little about what how that works. Yeah, absolutely. So we in this white paper you will",
+      "words": []
+    },
+    {
+      "start": 524.5600000000001,
+      "end": 529.92,
+      "text": "also find something that we call the system plan our co-pilot. I give you some numbers. So in Germany",
+      "words": []
+    },
+    {
+      "start": 529.92,
+      "end": 536.48,
+      "text": "alone we're getting per week 100 tender requests from customers for fire alarm systems and to",
+      "words": []
+    },
+    {
+      "start": 536.48,
+      "end": 542.96,
+      "text": "plan such fire alarm systems depends of the complexity depends up on the side size. So it's",
+      "words": []
+    },
+    {
+      "start": 542.96,
+      "end": 547.6,
+      "text": "a difference if you have a soccer stadium or an airport or a railway station or a building like",
+      "words": []
+    },
+    {
+      "start": 547.6,
+      "end": 552.4,
+      "text": "this and so usually we cannot serve all of those 100 tender requests. So we lose business.",
+      "words": []
+    },
+    {
+      "start": 553.2,
+      "end": 558.0,
+      "text": "And so by automating that now with a tentic system so we're getting all of those tender requests",
+      "words": []
+    },
+    {
+      "start": 558.0,
+      "end": 565.44,
+      "text": "specification documents in including usually 2D plans. Never or seldomly do you get 3D",
+      "words": []
+    },
+    {
+      "start": 565.44,
+      "end": 572.32,
+      "text": "build models. It's always 2D something. It's PDF, it's chain pack, it's maybe DVG, all of those",
+      "words": []
+    },
+    {
+      "start": 572.32,
+      "end": 577.2,
+      "text": "funny formats. Sometimes it's even scanned in paper maps. And what we're now doing we really",
+      "words": []
+    },
+    {
+      "start": 577.2,
+      "end": 582.72,
+      "text": "are transforming that in a whole pipeline of what people used to do in the process. So we take the",
+      "words": []
+    },
+    {
+      "start": 582.72,
+      "end": 587.84,
+      "text": "information models we receive. We do the scoring. Is that business relevant for us? Yes, no. If",
+      "words": []
+    },
+    {
+      "start": 587.84,
+      "end": 593.0400000000001,
+      "text": "that light goes green, we do the bill of material based up on product catalogs that comes from",
+      "words": []
+    },
+    {
+      "start": 593.04,
+      "end": 600.48,
+      "text": "integrated enterprise master data management systems. Is a set of agents that are educated for",
+      "words": []
+    },
+    {
+      "start": 600.48,
+      "end": 605.68,
+      "text": "that given task attend. And the next thing is what we're doing now stunningly is we're transforming",
+      "words": []
+    },
+    {
+      "start": 605.68,
+      "end": 612.88,
+      "text": "to 2D maps we receive into 3D using the auto desk agents on the other side. So we're having an agent",
+      "words": []
+    },
+    {
+      "start": 612.88,
+      "end": 619.5999999999999,
+      "text": "to agent integration. We create a 3D building model and then we design and project a fire alarm",
+      "words": []
+    },
+    {
+      "start": 619.6,
+      "end": 625.12,
+      "text": "system in real time into that 3D model. And that is not just stunning and cool. It is also",
+      "words": []
+    },
+    {
+      "start": 625.12,
+      "end": 630.4,
+      "text": "changing our industry. Because we're getting away from that wild west, what somebody thought",
+      "words": []
+    },
+    {
+      "start": 630.96,
+      "end": 636.5600000000001,
+      "text": "should be planned and how it's being installed later is now in this fully life cycle chain,",
+      "words": []
+    },
+    {
+      "start": 636.5600000000001,
+      "end": 642.96,
+      "text": "highly standardized from agents assisted and guaranteed to be safe. And that of course gives us",
+      "words": []
+    },
+    {
+      "start": 642.96,
+      "end": 647.76,
+      "text": "higher business throughput. It gives us our standardizations and therefore we also make our",
+      "words": []
+    },
+    {
+      "start": 647.76,
+      "end": 652.56,
+      "text": "business far more efficient. And we just start with a fire alarm domain. We have many other",
+      "words": []
+    },
+    {
+      "start": 652.56,
+      "end": 658.08,
+      "text": "domains like HPEC, like interruption detection, like access control, video surveillance, energy",
+      "words": []
+    },
+    {
+      "start": 658.08,
+      "end": 662.64,
+      "text": "management obviously which is a very important one. And so this is one of the examples,",
+      "words": []
+    },
+    {
+      "start": 662.64,
+      "end": 667.4399999999999,
+      "text": "quite exciting times in industry. Yeah, never. I want to bring you in. When we were preparing for",
+      "words": []
+    },
+    {
+      "start": 667.4399999999999,
+      "end": 672.16,
+      "text": "this panel you mentioned that a lot of companies when they first start thinking about using AI or",
+      "words": []
+    },
+    {
+      "start": 672.16,
+      "end": 676.08,
+      "text": "using AI agents, they kind of look at their existing processes and they just try to make them a",
+      "words": []
+    },
+    {
+      "start": 676.08,
+      "end": 680.4000000000001,
+      "text": "little bit faster, a little bit more productive. And you said that the danger is that you kind of end",
+      "words": []
+    },
+    {
+      "start": 680.4000000000001,
+      "end": 686.0,
+      "text": "up with a lot of faster horses when you really want is a rocket ship. Can you talk a little bit about",
+      "words": []
+    },
+    {
+      "start": 686.0,
+      "end": 692.72,
+      "text": "about that and how you avoid maybe that trap of falling into that sort of faster horses mentality?",
+      "words": []
+    },
+    {
+      "start": 692.96,
+      "end": 697.84,
+      "text": "Yeah, and I think that's exactly right. I think when you start with, okay, these are the processes",
+      "words": []
+    },
+    {
+      "start": 697.84,
+      "end": 704.32,
+      "text": "and the people and the outputs we have right now. And how do we apply AI to this? Like in our",
+      "words": []
+    },
+    {
+      "start": 704.32,
+      "end": 712.0,
+      "text": "software development process, for example, can we use AI to automate documentation? We can,",
+      "words": []
+    },
+    {
+      "start": 712.0,
+      "end": 717.2,
+      "text": "but that's getting you a faster horse. If you rethink the, okay, what outcome are we actually",
+      "words": []
+    },
+    {
+      "start": 717.2,
+      "end": 721.84,
+      "text": "trying to get to? And how do we rethink that with these capabilities? Ben talked about that in",
+      "words": []
+    },
+    {
+      "start": 721.84,
+      "end": 728.1600000000001,
+      "text": "the previous panel in terms of totally rethinking the process. Now what used to take the longest",
+      "words": []
+    },
+    {
+      "start": 728.16,
+      "end": 733.6,
+      "text": "time was the coding, right, and software development. And that is, you know, you can now automate that",
+      "words": []
+    },
+    {
+      "start": 734.7199999999999,
+      "end": 740.0,
+      "text": "with agents, but that changes the whole dynamic because now you could automate some",
+      "words": []
+    },
+    {
+      "start": 740.9599999999999,
+      "end": 745.68,
+      "text": "pretty terrible mic outcomes, not really get to the outcome you want if you don't have the",
+      "words": []
+    },
+    {
+      "start": 745.68,
+      "end": 752.0,
+      "text": "specifications very, very detailed. So now actually the bottleneck shifts, for example, to",
+      "words": []
+    },
+    {
+      "start": 752.08,
+      "end": 758.88,
+      "text": "describing exactly the outcome you want. And then you can skip a few steps with agents. And then",
+      "words": []
+    },
+    {
+      "start": 758.88,
+      "end": 764.4,
+      "text": "now testing also becomes very important, right? So the whole mindset needs to change from the top",
+      "words": []
+    },
+    {
+      "start": 764.4,
+      "end": 769.84,
+      "text": "down. And it can't just be like a few, you know, excited engineers, like they on their own,",
+      "words": []
+    },
+    {
+      "start": 769.84,
+      "end": 775.28,
+      "text": "they will not make such a big shift at the whole company. So rethinking it really requires a",
+      "words": []
+    },
+    {
+      "start": 775.28,
+      "end": 780.24,
+      "text": "mindset shift at even leadership levels. Absolutely. Thomas, I want to bring you in here. What,",
+      "words": []
+    },
+    {
+      "start": 780.24,
+      "end": 787.52,
+      "text": "you know, when you see customers maybe get stuck at that POC stage, you know, what is usually",
+      "words": []
+    },
+    {
+      "start": 787.52,
+      "end": 792.24,
+      "text": "the issue there? Why do some of these projects fail to scale? And when you have seen ones that",
+      "words": []
+    },
+    {
+      "start": 792.24,
+      "end": 797.28,
+      "text": "really have been successful and or really ambitious, like what Bosch is trying to do, what, what",
+      "words": []
+    },
+    {
+      "start": 797.28,
+      "end": 802.24,
+      "text": "do they need to have done to sort of lay the foundation for that? And we see this very often,",
+      "words": []
+    },
+    {
+      "start": 802.24,
+      "end": 809.36,
+      "text": "to be honest, that you start a lot of POCs, people build their own chat pilots and so on. And",
+      "words": []
+    },
+    {
+      "start": 810.8,
+      "end": 814.96,
+      "text": "what then is missing really the transformation to the business? So what does it mean for my business",
+      "words": []
+    },
+    {
+      "start": 814.96,
+      "end": 820.4,
+      "text": "process? I have to probably rethink my business process. What people will do in the future in this",
+      "words": []
+    },
+    {
+      "start": 820.4,
+      "end": 825.28,
+      "text": "process. And then I have to think about, okay, what is the platform to host this? Do I have a",
+      "words": []
+    },
+    {
+      "start": 825.28,
+      "end": 830.4,
+      "text": "scalable platform? If I use this, not in just one process, maybe in 100 process, if the",
+      "words": []
+    },
+    {
+      "start": 830.4,
+      "end": 836.16,
+      "text": "chat pilot is not used by 10 people, by 10,000 people, or in the case of Bosch, 100,000 people maybe,",
+      "words": []
+    },
+    {
+      "start": 837.04,
+      "end": 842.64,
+      "text": "can I scale? Do I have the security and so on? And we have to rethink also traditional IT",
+      "words": []
+    },
+    {
+      "start": 842.64,
+      "end": 848.56,
+      "text": "processes. Can we adapt this processes for this new world? And can we bring this capabilities",
+      "words": []
+    },
+    {
+      "start": 848.56,
+      "end": 854.56,
+      "text": "then also to all employees, not just the engineers who are used to use this? What happens if we bring",
+      "words": []
+    },
+    {
+      "start": 854.56,
+      "end": 862.9599999999999,
+      "text": "to administrators to sales guys and so on? And how can we train them to use these tools? But we",
+      "words": []
+    },
+    {
+      "start": 862.96,
+      "end": 868.96,
+      "text": "often see you provide tools for like a salesman and they are not used to use it. This training",
+      "words": []
+    },
+    {
+      "start": 868.96,
+      "end": 876.4000000000001,
+      "text": "missing and so on. So you also have to invest in trainings and explain these things to your users.",
+      "words": []
+    },
+    {
+      "start": 876.4000000000001,
+      "end": 880.64,
+      "text": "Andreas, how are you dealing with that at Bosch in terms of making sure people know how to use",
+      "words": []
+    },
+    {
+      "start": 880.64,
+      "end": 886.24,
+      "text": "these tools effectively? Yeah, I mean, it always sounds like when I hear those C people talking",
+      "words": []
+    },
+    {
+      "start": 886.24,
+      "end": 893.36,
+      "text": "about the 10X, 100X kind of savings, there is a real hard practice behind that you have to",
+      "words": []
+    },
+    {
+      "start": 893.36,
+      "end": 901.28,
+      "text": "understand. To get as Thomas said in early POC, that is fairly fast done. But to bring this into",
+      "words": []
+    },
+    {
+      "start": 901.28,
+      "end": 907.12,
+      "text": "a materialized highly automated engineering practice, you need to establish TeneiOps. TeneiOps",
+      "words": []
+    },
+    {
+      "start": 907.12,
+      "end": 913.28,
+      "text": "is the same as this as DevOps does, but for the Tenei practice. And that ensures that you have",
+      "words": []
+    },
+    {
+      "start": 913.28,
+      "end": 918.72,
+      "text": "end-to-end observability, which is very important. So you want to know who agent talks to other",
+      "words": []
+    },
+    {
+      "start": 918.72,
+      "end": 923.8399999999999,
+      "text": "agents, what models are used, how many tokens did they consume, which prompts the day use,",
+      "words": []
+    },
+    {
+      "start": 923.8399999999999,
+      "end": 929.6,
+      "text": "and what was the response in the collaborative interaction between agents. So you need to have",
+      "words": []
+    },
+    {
+      "start": 929.6,
+      "end": 936.48,
+      "text": "this entire observability from the human operating with the digital agents all the way to the results",
+      "words": []
+    },
+    {
+      "start": 936.48,
+      "end": 941.92,
+      "text": "and outcomes. And at Bosch, of course, we need to have this all and I guess for enterprise",
+      "words": []
+    },
+    {
+      "start": 941.92,
+      "end": 947.28,
+      "text": "corporations as well, we need to have this compliant. So you need to adhere to ethical AI,",
+      "words": []
+    },
+    {
+      "start": 947.28,
+      "end": 954.8,
+      "text": "responsible AI, transparent AI, ethical AI, right? Then you have funds like the FunFacts in Europe,",
+      "words": []
+    },
+    {
+      "start": 954.8,
+      "end": 961.36,
+      "text": "like the EU AI Act that you have to adhere to. So to bring this all in practice, really, really,",
+      "words": []
+    },
+    {
+      "start": 961.36,
+      "end": 967.92,
+      "text": "you have to take this seriously, an easy POC, that's, yeah, it's wipe, as they say. But to bring",
+      "words": []
+    },
+    {
+      "start": 967.92,
+      "end": 975.04,
+      "text": "this materialized into an industry practice takes really effort and skills. So yes, you have now",
+      "words": []
+    },
+    {
+      "start": 975.92,
+      "end": 981.28,
+      "text": "digital beings that do standardized and help you to get higher business process efficiency.",
+      "words": []
+    },
+    {
+      "start": 981.92,
+      "end": 986.64,
+      "text": "But in order to get there, you first have to invest. And there's also a fun fact behind that,",
+      "words": []
+    },
+    {
+      "start": 986.64,
+      "end": 992.3199999999999,
+      "text": "without data strategies and data architectures, you can forget it. You better go and have a nice",
+      "words": []
+    },
+    {
+      "start": 992.3199999999999,
+      "end": 997.52,
+      "text": "dinner with your wife instead. Because if you don't have data strategies and data architecture,",
+      "words": []
+    },
+    {
+      "start": 997.52,
+      "end": 1004.64,
+      "text": "then the AI is pretty much powerless, I would say. So you have to respect all of this and",
+      "words": []
+    },
+    {
+      "start": 1004.64,
+      "end": 1009.84,
+      "text": "you have to invest for this and tell this to your C people because it takes, it costs money.",
+      "words": []
+    },
+    {
+      "start": 1009.84,
+      "end": 1015.4399999999999,
+      "text": "Right. Yeah, and I want to pile on there with the building that trusts its infrastructure at the",
+      "words": []
+    },
+    {
+      "start": 1015.4399999999999,
+      "end": 1021.1999999999999,
+      "text": "beginning. We've really invested a lot there to avoid kind of a wild west approach because every",
+      "words": []
+    },
+    {
+      "start": 1021.2,
+      "end": 1026.8,
+      "text": "product team could have like gone and developed something. But it creates a lot of tech debt.",
+      "words": []
+    },
+    {
+      "start": 1027.3600000000001,
+      "end": 1033.76,
+      "text": "And also how do you ensure the compliance, security, reliability that we commit to for our",
+      "words": []
+    },
+    {
+      "start": 1033.76,
+      "end": 1039.6000000000001,
+      "text": "customers because we're operating industries where that matters. And so we don't want to skimp on",
+      "words": []
+    },
+    {
+      "start": 1039.6000000000001,
+      "end": 1045.6000000000001,
+      "text": "that. So what we did was invest a lot in that trusted foundation first, really providing that",
+      "words": []
+    },
+    {
+      "start": 1045.6799999999998,
+      "end": 1052.0,
+      "text": "visibility to our customers in terms of AI transparency cards for each feature,",
+      "words": []
+    },
+    {
+      "start": 1052.7199999999998,
+      "end": 1059.36,
+      "text": "building a common shared infrastructures to make sure that each of our AI capabilities are built",
+      "words": []
+    },
+    {
+      "start": 1060.08,
+      "end": 1065.04,
+      "text": "in a secure, governed, compliant way. And that actually really, that upfront investment",
+      "words": []
+    },
+    {
+      "start": 1065.84,
+      "end": 1070.6399999999999,
+      "text": "really helped us speed up later because now each of the, like any, any team that wants to build an",
+      "words": []
+    },
+    {
+      "start": 1070.6399999999999,
+      "end": 1075.1999999999998,
+      "text": "AI feature as long as they use that shared infrastructure, they can just go and they don't have to",
+      "words": []
+    },
+    {
+      "start": 1075.2,
+      "end": 1079.92,
+      "text": "worry about all that stuff. It comes built in as long as you built it in that central place. And",
+      "words": []
+    },
+    {
+      "start": 1079.92,
+      "end": 1087.1200000000001,
+      "text": "that really helps us speed up then. So it feels like you go slow, but you go slow to go fast.",
+      "words": []
+    },
+    {
+      "start": 1087.1200000000001,
+      "end": 1091.52,
+      "text": "Go slow to go fast. That's interesting. Yeah, and there's one other hidden secret test",
+      "words": []
+    },
+    {
+      "start": 1091.52,
+      "end": 1097.28,
+      "text": "ability because if you have non-ditaministic systems, there's no such thing like a unit test.",
+      "words": []
+    },
+    {
+      "start": 1097.28,
+      "end": 1103.6000000000001,
+      "text": "So you need to establish domain specific evaluation pipelines. And these evaluation pipelines actually",
+      "words": []
+    },
+    {
+      "start": 1103.6,
+      "end": 1111.6799999999998,
+      "text": "they need to reason against your domain expertise that you put in those digital kind of shapes.",
+      "words": []
+    },
+    {
+      "start": 1111.6799999999998,
+      "end": 1118.0,
+      "text": "And so you better have also in your data strategy semantics included, meaning you have ontologies",
+      "words": []
+    },
+    {
+      "start": 1118.0,
+      "end": 1123.28,
+      "text": "knowledge graphs in your universe because if the agenda systems don't have something to",
+      "words": []
+    },
+    {
+      "start": 1123.28,
+      "end": 1129.6,
+      "text": "crown against and reasoning against domain specifically, then you also will not get to the best",
+      "words": []
+    },
+    {
+      "start": 1129.6,
+      "end": 1133.9199999999998,
+      "text": "potential outcomes. Yeah, no, you really emphasize this point that that's essential kind of these",
+      "words": []
+    },
+    {
+      "start": 1133.9199999999998,
+      "end": 1138.6399999999999,
+      "text": "knowledge graphs and having that domain specific knowledge embedded in a way that the system can",
+      "words": []
+    },
+    {
+      "start": 1138.6399999999999,
+      "end": 1144.3999999999999,
+      "text": "access and reason against not and not just assuming that it sort of natively has this when it's",
+      "words": []
+    },
+    {
+      "start": 1144.3999999999999,
+      "end": 1150.24,
+      "text": "pre-trained that it's going to know all these professional standards areas, you know, even in your",
+      "words": []
+    },
+    {
+      "start": 1150.24,
+      "end": 1154.7199999999998,
+      "text": "own company, what's the meaning of a particular document or you know, what is the particular procedure",
+      "words": []
+    },
+    {
+      "start": 1154.72,
+      "end": 1159.92,
+      "text": "that Bosch uses as opposed to a different company, right? And that's really a key. Absolutely,",
+      "words": []
+    },
+    {
+      "start": 1159.92,
+      "end": 1164.16,
+      "text": "absolutely. And that is something you have to include in your data strategy. And thankfully,",
+      "words": []
+    },
+    {
+      "start": 1164.64,
+      "end": 1170.16,
+      "text": "with our partner Microsoft, we use a lot of Microsoft Foundry goodness that gives you all of that",
+      "words": []
+    },
+    {
+      "start": 1170.16,
+      "end": 1174.8,
+      "text": "capabilities as a platform, as a service because if you want to build this all by your own,",
+      "words": []
+    },
+    {
+      "start": 1174.8,
+      "end": 1180.96,
+      "text": "how to use the evaluation pipelines to stock evaluation pipelines like you want to check if the",
+      "words": []
+    },
+    {
+      "start": 1180.96,
+      "end": 1188.24,
+      "text": "outcome is any, any wild end or any, you know, bad things coming back. So you want to check this",
+      "words": []
+    },
+    {
+      "start": 1188.24,
+      "end": 1193.68,
+      "text": "and you want to have this end-to-end traceability based on open telemetry standards. And then you",
+      "words": []
+    },
+    {
+      "start": 1193.68,
+      "end": 1198.48,
+      "text": "want to have the models that you fingertips. You also want to have model routers so that you have a",
+      "words": []
+    },
+    {
+      "start": 1198.48,
+      "end": 1203.3600000000001,
+      "text": "model that itself decides which model to go and get to question at hand, best potentially ask in",
+      "words": []
+    },
+    {
+      "start": 1203.3600000000001,
+      "end": 1207.44,
+      "text": "terms of token consumption, throughput latency and all of that kind of thing. Yeah, well, that's a good",
+      "words": []
+    },
+    {
+      "start": 1207.44,
+      "end": 1212.72,
+      "text": "point there about token consumption because someone actually at the break was saying, well, the big",
+      "words": []
+    },
+    {
+      "start": 1212.72,
+      "end": 1217.2,
+      "text": "question I didn't ask in the last panel was about around cost. And, you know, how do you control",
+      "words": []
+    },
+    {
+      "start": 1217.2,
+      "end": 1222.3200000000002,
+      "text": "the cost of these systems? And then also given that they do have a cost, how do you also convince the",
+      "words": []
+    },
+    {
+      "start": 1222.3200000000002,
+      "end": 1228.24,
+      "text": "customer that the benefit they're getting from the AI system is worth potentially paying a premium",
+      "words": []
+    },
+    {
+      "start": 1228.24,
+      "end": 1233.76,
+      "text": "for? Sometimes they said the problem is that the customer wants things done at AI speed, but does",
+      "words": []
+    },
+    {
+      "start": 1233.76,
+      "end": 1238.16,
+      "text": "not want to pay for that at all. You know, it's, I think it's free. So how are you looking at that",
+      "words": []
+    },
+    {
+      "start": 1238.16,
+      "end": 1244.0,
+      "text": "at Bosch? Both the cost containment on the production side, but also then what do you charge for these",
+      "words": []
+    },
+    {
+      "start": 1244.0,
+      "end": 1249.2,
+      "text": "AI solutions to the customer? Oh, the business model story is also business architecture you have to",
+      "words": []
+    },
+    {
+      "start": 1249.2,
+      "end": 1255.04,
+      "text": "have. And to be honest, we don't have all the answers yet because we're learning the entire",
+      "words": []
+    },
+    {
+      "start": 1255.04,
+      "end": 1259.6,
+      "text": "industry is learning. I mean, if you ask 100, see people, how many agenda systems do you have",
+      "words": []
+    },
+    {
+      "start": 1259.6,
+      "end": 1266.6399999999999,
+      "text": "lively deployed and make business with? Good luck. I mean, there is a lot of money burned right",
+      "words": []
+    },
+    {
+      "start": 1266.6399999999999,
+      "end": 1271.12,
+      "text": "now still right? So we are on the exploration phase. We also trying to learn with Microsoft Thomas.",
+      "words": []
+    },
+    {
+      "start": 1271.12,
+      "end": 1275.12,
+      "text": "Thomas, you want to get in here? That's actually one of the big challenges we have at the moment.",
+      "words": []
+    },
+    {
+      "start": 1275.12,
+      "end": 1280.6399999999999,
+      "text": "So what we good now is I think we have this cover ability, how many agents are used, how often",
+      "words": []
+    },
+    {
+      "start": 1280.6399999999999,
+      "end": 1287.4399999999998,
+      "text": "these agents are used, but the missing is still linked to the business KPIs. So what actually",
+      "words": []
+    },
+    {
+      "start": 1287.44,
+      "end": 1293.92,
+      "text": "is the effect of this agent and is the business itself clear? What do we want to measure? So in",
+      "words": []
+    },
+    {
+      "start": 1293.92,
+      "end": 1299.04,
+      "text": "this case, for instance, we want to provide more tenders per week. Is this measured? Where is this",
+      "words": []
+    },
+    {
+      "start": 1299.04,
+      "end": 1302.88,
+      "text": "data measured? And how can we bring this data together? This is one of the challenges we see at",
+      "words": []
+    },
+    {
+      "start": 1302.88,
+      "end": 1308.72,
+      "text": "the moment. There is a lot of good ideas, but does it really fit to business value? And this is",
+      "words": []
+    },
+    {
+      "start": 1308.72,
+      "end": 1314.24,
+      "text": "where we need to get better, but this is not just a technology problem. It's also business problem",
+      "words": []
+    },
+    {
+      "start": 1314.24,
+      "end": 1320.56,
+      "text": "that you think about what are the critical KPIs and how can I improve this KPIs with technology?",
+      "words": []
+    },
+    {
+      "start": 1320.56,
+      "end": 1325.6,
+      "text": "Right, and for the managers then with Internet enterprises trying to figure out how do you manage",
+      "words": []
+    },
+    {
+      "start": 1325.6,
+      "end": 1332.0,
+      "text": "human employees alongside AI agents to maximize these KPIs? I mean, the business KPIs",
+      "words": []
+    },
+    {
+      "start": 1332.0,
+      "end": 1336.48,
+      "text": "presumably don't really change, but the question is how are you using a mix of people and agents to",
+      "words": []
+    },
+    {
+      "start": 1336.48,
+      "end": 1343.04,
+      "text": "reach those KPIs? Digital employee thing is really growing now if you have agents which",
+      "words": []
+    },
+    {
+      "start": 1343.68,
+      "end": 1348.48,
+      "text": "we see a lot of these chatbots. And I think we need to move away from these chatbots. They need to run",
+      "words": []
+    },
+    {
+      "start": 1348.48,
+      "end": 1354.0,
+      "text": "by itself. So we have automatic agents. Then we have digital employees. So we have to control",
+      "words": []
+    },
+    {
+      "start": 1354.0,
+      "end": 1359.84,
+      "text": "these agents, these employees. We have to monitor them. We have maybe performance discussions with them",
+      "words": []
+    },
+    {
+      "start": 1359.84,
+      "end": 1367.12,
+      "text": "like normal employees. And it's important for instance, also for the HR department, how does this fit",
+      "words": []
+    },
+    {
+      "start": 1367.12,
+      "end": 1373.12,
+      "text": "with my real employees and digital employees? Is the real employee becoming an agent boss?",
+      "words": []
+    },
+    {
+      "start": 1374.2399999999998,
+      "end": 1381.6,
+      "text": "Manager of agents, what does this mean also for his performance itself? And so a lot of interesting",
+      "words": []
+    },
+    {
+      "start": 1381.6,
+      "end": 1387.6799999999998,
+      "text": "questions coming up. Baby don't have an answer yet in all cases. The performance review is actually",
+      "words": []
+    },
+    {
+      "start": 1387.6799999999998,
+      "end": 1392.32,
+      "text": "very interesting. We were literally just talking about it the other day with one of my colleagues",
+      "words": []
+    },
+    {
+      "start": 1392.8,
+      "end": 1398.3999999999999,
+      "text": "who was using a lot of agents in his work. And he said I asked the agents to come up with a",
+      "words": []
+    },
+    {
+      "start": 1398.3999999999999,
+      "end": 1403.6799999999998,
+      "text": "performance review for themselves. And then log that back into the master file so that they would",
+      "words": []
+    },
+    {
+      "start": 1403.6799999999998,
+      "end": 1408.8,
+      "text": "then improve on those skills. So it's very, very relevant. Yeah, and we also talked about trust",
+      "words": []
+    },
+    {
+      "start": 1408.8,
+      "end": 1415.04,
+      "text": "rights. How much do you trust such a genetic system about their outcome? So in terms of making",
+      "words": []
+    },
+    {
+      "start": 1415.04,
+      "end": 1420.56,
+      "text": "a tender request to a commercial binding offer with the dimensioning and design and system planning",
+      "words": []
+    },
+    {
+      "start": 1420.56,
+      "end": 1426.08,
+      "text": "included, which by the way, we manually when we do this, we have to do this as a pre-invest",
+      "words": []
+    },
+    {
+      "start": 1426.08,
+      "end": 1432.48,
+      "text": "upfront. Even before we know that the customer is then ordering that system from us. So this is easy",
+      "words": []
+    },
+    {
+      "start": 1432.48,
+      "end": 1437.44,
+      "text": "then, right? So there you can have an easy business model and you can see the value of what the",
+      "words": []
+    },
+    {
+      "start": 1437.44,
+      "end": 1442.3999999999999,
+      "text": "token costs you and the entire gen I ops pipeline and the practice you need to establish versus what",
+      "words": []
+    },
+    {
+      "start": 1442.3999999999999,
+      "end": 1446.6399999999999,
+      "text": "you get out of that. But there are other scenarios when we are on operations, for instance, in a",
+      "words": []
+    },
+    {
+      "start": 1446.64,
+      "end": 1452.4,
+      "text": "building like that to do proactive heating ventilation and air conditioning. Usually these systems,",
+      "words": []
+    },
+    {
+      "start": 1452.4,
+      "end": 1459.0400000000002,
+      "text": "they run in the basement, caved into cabinets and nobody cares about them until some system is",
+      "words": []
+    },
+    {
+      "start": 1459.0400000000002,
+      "end": 1464.0,
+      "text": "no longer working. What we are now establishing is actually we have by the means of IoT goodness,",
+      "words": []
+    },
+    {
+      "start": 1464.0,
+      "end": 1468.96,
+      "text": "you know, that was the hype cycle before the AI hype cycle. Anybody may be remembered that.",
+      "words": []
+    },
+    {
+      "start": 1469.76,
+      "end": 1477.1200000000001,
+      "text": "IoT is still out there. So the connectivity and the crownedness and the semantic meaning of now,",
+      "words": []
+    },
+    {
+      "start": 1477.1200000000001,
+      "end": 1482.0,
+      "text": "the systems continuously being observed by a tentic system in the background knowing exactly",
+      "words": []
+    },
+    {
+      "start": 1482.0,
+      "end": 1487.2,
+      "text": "when energy consumption is not optimal any longer because there is an air handler unit filter that",
+      "words": []
+    },
+    {
+      "start": 1487.2,
+      "end": 1493.92,
+      "text": "is sturdy that causes the fact that there is no air flow and air quality going to happen in that room",
+      "words": []
+    },
+    {
+      "start": 1493.92,
+      "end": 1499.6000000000001,
+      "text": "causes additional energy consumption. You can now proactively in the background, order spare parts,",
+      "words": []
+    },
+    {
+      "start": 1500.24,
+      "end": 1505.28,
+      "text": "planned service technician execution to happen in the building, notify the customer. This is no",
+      "words": []
+    },
+    {
+      "start": 1505.28,
+      "end": 1511.6000000000001,
+      "text": "science fiction, no rocket science people. This is all the power of domain expertise put into standardized",
+      "words": []
+    },
+    {
+      "start": 1511.6000000000001,
+      "end": 1517.6000000000001,
+      "text": "digital gold. And this is also where you can make a very easy reasoning about business model and",
+      "words": []
+    },
+    {
+      "start": 1517.6000000000001,
+      "end": 1521.6000000000001,
+      "text": "innovation and impact that you have to the industry and society at all. Because remember,",
+      "words": []
+    },
+    {
+      "start": 1521.6,
+      "end": 1526.9599999999998,
+      "text": "Borschtes invented for life. Yeah, absolutely. Again, vision is so compelling.",
+      "words": []
+    },
+    {
+      "start": 1527.6,
+      "end": 1534.24,
+      "text": "Nevin, you had said that when we were preparing for this that really you need CCC sort of sponsorship",
+      "words": []
+    },
+    {
+      "start": 1534.24,
+      "end": 1539.36,
+      "text": "and you kind of need AI native thinkers high up within companies to really drive some of the return",
+      "words": []
+    },
+    {
+      "start": 1539.36,
+      "end": 1543.36,
+      "text": "on investment from this. Can you talk a little bit more about why you think that's so important?",
+      "words": []
+    },
+    {
+      "start": 1543.36,
+      "end": 1548.08,
+      "text": "Yeah, I mean, at least understanding at the C level or at the decision making levels, I think",
+      "words": []
+    },
+    {
+      "start": 1548.08,
+      "end": 1555.6799999999998,
+      "text": "is really critical. And if you know, unless they are listening to their AI native employees,",
+      "words": []
+    },
+    {
+      "start": 1556.48,
+      "end": 1561.12,
+      "text": "they may not even realize what is possible, then they're going after the faster horse,",
+      "words": []
+    },
+    {
+      "start": 1561.12,
+      "end": 1566.8799999999999,
+      "text": "but you're trying to get to the rocket ship. And so, you know, as long as there are influential",
+      "words": []
+    },
+    {
+      "start": 1566.8799999999999,
+      "end": 1574.56,
+      "text": "people, you know, what happened at Autodesk, for example, we have a lot of very AI native VP level,",
+      "words": []
+    },
+    {
+      "start": 1574.56,
+      "end": 1580.48,
+      "text": "you know, people. And so, they were all tinkering. As soon as, for example, the MCP protocol came out",
+      "words": []
+    },
+    {
+      "start": 1580.48,
+      "end": 1587.04,
+      "text": "end of 2024, I believe. And then early 2025, we were already like showing examples of, hey, I",
+      "words": []
+    },
+    {
+      "start": 1587.04,
+      "end": 1591.6,
+      "text": "built this infusion and make it made a little video about it like, hey, design a table for me.",
+      "words": []
+    },
+    {
+      "start": 1591.6,
+      "end": 1596.0,
+      "text": "Well, make it cherry wood. Well, that like seems to be attached at the top. Let's put it to the",
+      "words": []
+    },
+    {
+      "start": 1596.0,
+      "end": 1600.32,
+      "text": "bottom. You know, those types of conversations were, and then they were doing little videos and",
+      "words": []
+    },
+    {
+      "start": 1600.3999999999999,
+      "end": 1606.6399999999999,
+      "text": "literally like, hey, my 10-year-old is now designing an infusion. 10-year-olds on video. It's like",
+      "words": []
+    },
+    {
+      "start": 1606.6399999999999,
+      "end": 1612.08,
+      "text": "design a fidget spinner. Wow, that fidget make it blue. Like make those parts, and we're like",
+      "words": []
+    },
+    {
+      "start": 1612.08,
+      "end": 1616.3999999999999,
+      "text": "watching the video, right? So, and then that we immediately took that to C stuff, obviously,",
+      "words": []
+    },
+    {
+      "start": 1616.3999999999999,
+      "end": 1622.48,
+      "text": "like, hey, this is possible now. And that kicked off a whole flurry of activity. But, you know,",
+      "words": []
+    },
+    {
+      "start": 1622.48,
+      "end": 1629.04,
+      "text": "unless C stuff can actually realize that, you know, you have maybe a little bit less direct impact",
+      "words": []
+    },
+    {
+      "start": 1629.04,
+      "end": 1635.36,
+      "text": "potentially. Right. If again, if there isn't a mindset shift at the company. Right. Interesting.",
+      "words": []
+    },
+    {
+      "start": 1635.92,
+      "end": 1640.8,
+      "text": "At Bosch, how did you decide where to start? I mean, you have this vision of, you know, so much",
+      "words": []
+    },
+    {
+      "start": 1640.8,
+      "end": 1646.8799999999999,
+      "text": "can be done with AI agents. You can really offer a complete suite of automated building services.",
+      "words": []
+    },
+    {
+      "start": 1646.8799999999999,
+      "end": 1651.6,
+      "text": "Where did you, but you're starting up with the fire system design? Why did you pick that? And how,",
+      "words": []
+    },
+    {
+      "start": 1651.6,
+      "end": 1654.6399999999999,
+      "text": "what was that process like? Deciding, you know, because I think some people struggle with that,",
+      "words": []
+    },
+    {
+      "start": 1654.72,
+      "end": 1661.0400000000002,
+      "text": "where do we start? What is, what's an imp, a valuable thing we can do, demonstrate impact,",
+      "words": []
+    },
+    {
+      "start": 1661.0400000000002,
+      "end": 1666.5600000000002,
+      "text": "but that's achievable, because sometimes the vision is, it seems too big or you want to do something,",
+      "words": []
+    },
+    {
+      "start": 1666.5600000000002,
+      "end": 1671.44,
+      "text": "it's very valuable, but it seems too hard to achieve. How did you pick the fire system designs?",
+      "words": []
+    },
+    {
+      "start": 1671.44,
+      "end": 1676.3200000000002,
+      "text": "So, why we started with the fire alarm system domain was because we have the highest customer",
+      "words": []
+    },
+    {
+      "start": 1676.3200000000002,
+      "end": 1680.72,
+      "text": "impact with that in Germany, obviously, because the fire alarm domain is highly regulated.",
+      "words": []
+    },
+    {
+      "start": 1680.72,
+      "end": 1686.88,
+      "text": "So, and that gives us obviously the highest business throughput, followed by building automation",
+      "words": []
+    },
+    {
+      "start": 1686.88,
+      "end": 1691.44,
+      "text": "and energy, because there's now regulations about energy monitoring and, you know, things like",
+      "words": []
+    },
+    {
+      "start": 1691.44,
+      "end": 1697.68,
+      "text": "ESG reporting and stuff like that. So that's how, in the order we selected, that's the first domain,",
+      "words": []
+    },
+    {
+      "start": 1697.68,
+      "end": 1702.24,
+      "text": "but for sure, we will all pick the other domains, because standardization gives you then also",
+      "words": []
+    },
+    {
+      "start": 1702.24,
+      "end": 1707.52,
+      "text": "higher business efficiency visibility, which you usually don't have. So there's not that single",
+      "words": []
+    },
+    {
+      "start": 1707.52,
+      "end": 1712.0,
+      "text": "pane of class that they see level guy can look at and see how good their bet is your business",
+      "words": []
+    },
+    {
+      "start": 1712.0,
+      "end": 1717.04,
+      "text": "efficiency, and this is also something that we transport with that tool surface. Fantastic. Thomas,",
+      "words": []
+    },
+    {
+      "start": 1717.04,
+      "end": 1721.92,
+      "text": "you have view across a lot of different standard Microsoft customers. Where are you seeing on this",
+      "words": []
+    },
+    {
+      "start": 1721.92,
+      "end": 1726.32,
+      "text": "issue of sort of training, how you bring your people along, so they're using these tools effectively,",
+      "words": []
+    },
+    {
+      "start": 1727.04,
+      "end": 1730.48,
+      "text": "and also how your, you know, how companies are thinking about continuing to train sort of the",
+      "words": []
+    },
+    {
+      "start": 1730.48,
+      "end": 1736.08,
+      "text": "next generation of, of engineers and architects to use these tools and not maybe lose some of those,",
+      "words": []
+    },
+    {
+      "start": 1736.08,
+      "end": 1742.56,
+      "text": "those key skills. What are you seeing across the industry? What do you see that people are",
+      "words": []
+    },
+    {
+      "start": 1743.4399999999998,
+      "end": 1749.28,
+      "text": "use these tools at home, you have it on your phone, you use jetchypt everywhere or whatever tool,",
+      "words": []
+    },
+    {
+      "start": 1750.08,
+      "end": 1757.12,
+      "text": "and what we need is to translate this in that daily work. How do you really use these tools",
+      "words": []
+    },
+    {
+      "start": 1757.12,
+      "end": 1764.72,
+      "text": "effectively in your work? But we have very good successes within a day and a life of a salesman,",
+      "words": []
+    },
+    {
+      "start": 1764.72,
+      "end": 1771.44,
+      "text": "an engineer, an administrator, whatever, and try to adapt the tools. How do you use AI for this",
+      "words": []
+    },
+    {
+      "start": 1772.08,
+      "end": 1778.24,
+      "text": "real activities you have day by day? This gives them a better understanding what they can expect",
+      "words": []
+    },
+    {
+      "start": 1778.24,
+      "end": 1784.16,
+      "text": "from the AI. There's also a lot of over-promising to be honest. People think I can do now everything",
+      "words": []
+    },
+    {
+      "start": 1784.16,
+      "end": 1790.96,
+      "text": "with it. It's not yet the case, so we need to explain them also. Okay, how can you use AI,",
+      "words": []
+    },
+    {
+      "start": 1791.04,
+      "end": 1796.4,
+      "text": "where you should be careful, how do you adapt it to your daily processes, and how you get better",
+      "words": []
+    },
+    {
+      "start": 1796.4,
+      "end": 1803.3600000000001,
+      "text": "in your daily processes if you use these tools? This really helps to adapt it to specific roles.",
+      "words": []
+    },
+    {
+      "start": 1804.16,
+      "end": 1809.76,
+      "text": "Unfortunately, there's not one answer which works for everyone in the company. Your salesman needs",
+      "words": []
+    },
+    {
+      "start": 1809.76,
+      "end": 1814.72,
+      "text": "a little bit different AI than your engineers. Andreas, I'll give you the last word very quickly,",
+      "words": []
+    },
+    {
+      "start": 1815.3600000000001,
+      "end": 1821.1200000000001,
+      "text": "because we're almost out of time. If you had one sense for folks here, senior leaders,",
+      "words": []
+    },
+    {
+      "start": 1821.1200000000001,
+      "end": 1825.3600000000001,
+      "text": "and where they should start with thinking about these agentic processes, what would it be?",
+      "words": []
+    },
+    {
+      "start": 1826.08,
+      "end": 1832.0,
+      "text": "Yeah, I mean, identify your most critical business areas that you want to standardize and optimize,",
+      "words": []
+    },
+    {
+      "start": 1832.0,
+      "end": 1838.0,
+      "text": "and also think about the level of autonomy you want to give those agentic systems. Because that is",
+      "words": []
+    },
+    {
+      "start": 1838.0,
+      "end": 1846.32,
+      "text": "something for us, a very critical thing to decide how much autonomy do you let go, and how much do",
+      "words": []
+    },
+    {
+      "start": 1846.32,
+      "end": 1851.2,
+      "text": "you still have the human in the loop? So, the scenario that I was describing with the HBAC system,",
+      "words": []
+    },
+    {
+      "start": 1851.2,
+      "end": 1856.16,
+      "text": "do you still have a human in the loop to order a spare part? Probably not. Nothing can really happen",
+      "words": []
+    },
+    {
+      "start": 1856.16,
+      "end": 1861.52,
+      "text": "other than maybe two parts ordered instead of one. But if you want to actually command and",
+      "words": []
+    },
+    {
+      "start": 1861.52,
+      "end": 1866.64,
+      "text": "control the building automation system in order to make energy optimizations going on,",
+      "words": []
+    },
+    {
+      "start": 1866.64,
+      "end": 1872.8000000000002,
+      "text": "maybe there's somebody that has the last word to do, do I want to shut down heating and",
+      "words": []
+    },
+    {
+      "start": 1872.8000000000002,
+      "end": 1877.1200000000001,
+      "text": "cooling at the same time? You probably should. It's a bad idea in terms of energy consumption,",
+      "words": []
+    },
+    {
+      "start": 1877.1200000000001,
+      "end": 1880.72,
+      "text": "but maybe you want to have something between because heating and cooling at the same time makes",
+      "words": []
+    },
+    {
+      "start": 1880.72,
+      "end": 1886.88,
+      "text": "sense for whatever reason. So, that is one. And then the other thing is think about your software",
+      "words": []
+    },
+    {
+      "start": 1886.88,
+      "end": 1890.96,
+      "text": "development practices if you have them, because what we observe now, there's a fun thing called",
+      "words": []
+    },
+    {
+      "start": 1891.8400000000001,
+      "end": 1899.04,
+      "text": "so you can hire a super agent and you have to learn what spectrum development means because we",
+      "words": []
+    },
+    {
+      "start": 1899.04,
+      "end": 1907.2,
+      "text": "no longer trying to have abstractions to talk to compute machines. We now express intent.",
+      "words": []
+    },
+    {
+      "start": 1907.2,
+      "end": 1912.32,
+      "text": "And there are machines that will turn the intent around to talk to abstract the things like",
+      "words": []
+    },
+    {
+      "start": 1912.32,
+      "end": 1919.92,
+      "text": "C++, GoRust, C-ShopJab, or you name it. And so spectrum development is key and you hire that",
+      "words": []
+    },
+    {
+      "start": 1919.92,
+      "end": 1925.2,
+      "text": "super agent and then you can actually see the super agent hiring other agents for development,",
+      "words": []
+    },
+    {
+      "start": 1925.2,
+      "end": 1932.3200000000002,
+      "text": "testing, creating IAC pipelines, doing deployment to the Microsoft Cloud, doing end-to-end user tests.",
+      "words": []
+    },
+    {
+      "start": 1932.3200000000002,
+      "end": 1938.0800000000002,
+      "text": "And you can really in real time see how many agents are employed and when they go off the team",
+      "words": []
+    },
+    {
+      "start": 1938.0800000000002,
+      "end": 1945.1200000000001,
+      "text": "again. So that is something explore, don't be shy and have the courage to fail because you will.",
+      "words": []
+    },
+    {
+      "start": 1945.76,
+      "end": 1953.84,
+      "text": "And make sure you have sea level folks then understand AI is not just the bus word until you make it so.",
+      "words": []
+    },
+    {
+      "start": 1954.6399999999999,
+      "end": 1961.6,
+      "text": "So if you really want to live it, you have to respect what it takes to make AI and industry",
+      "words": []
+    },
+    {
+      "start": 1961.6,
+      "end": 1966.1599999999999,
+      "text": "reliable business outcome. Fantastic. We're out of time. Thank you so much for listening.",
+      "words": []
+    },
+    {
+      "start": 1966.1599999999999,
+      "end": 1973.6799999999998,
+      "text": "Thank you to Nevin, Thomas, and Andreas. Thank you. We'll be back soon.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T21:36:02.575509+00:00"
+}

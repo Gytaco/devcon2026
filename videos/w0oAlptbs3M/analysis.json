@@ -1,0 +1,73 @@
+{
+  "video_id": "w0oAlptbs3M",
+  "demo_timestamps": [],
+  "themes": [
+    "Continuous Automation",
+    "Platform Evolution",
+    "Business Model Flexibility",
+    "Autodesk Platform Evolution",
+    "AI Integration in Autodesk Products",
+    "Developer Collaboration and Feedback",
+    "Simplification of User Experience"
+  ],
+  "client_mentions": [],
+  "autodesk_products": [
+    {
+      "name": "APS",
+      "is_api": false,
+      "timestamp": 0.0
+    },
+    {
+      "name": "Autodesk App Store",
+      "is_api": false,
+      "timestamp": 0.0
+    },
+    {
+      "name": "Autodesk Assistant",
+      "is_api": false,
+      "timestamp": 0.0
+    },
+    {
+      "name": "APS Management API",
+      "is_api": true,
+      "timestamp": 0.0
+    },
+    {
+      "name": "AEC Data Model",
+      "is_api": true,
+      "timestamp": 0.0
+    },
+    {
+      "name": "Manufacturing Data Model",
+      "is_api": true,
+      "timestamp": 0.0
+    },
+    {
+      "name": "Platform Services",
+      "is_api": false,
+      "timestamp": 1141.9
+    },
+    {
+      "name": "APS (Autodesk Platform Services)",
+      "is_api": false,
+      "timestamp": 1212.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "Autodesk Assistant",
+      "category": "agent",
+      "context": "Integrated to help developers with API usage and cost estimation",
+      "timestamp": 0.0
+    },
+    {
+      "name": "AI",
+      "category": "llm",
+      "context": "Discussing how AI is changing software development and workflow creation.",
+      "timestamp": 1289.0
+    }
+  ],
+  "summary": "The video outlines the roadmap for Autodesk Platform Services (APS), highlighting the shift towards continuous automation, autonomous workflows, and simplification of user experiences. It discusses the evolution of the APS business model with new features to enhance developer experience, integration of AI capabilities, and support for element reuse across workflows. The video also promotes collaboration through initiatives like the Developer Vanguard program.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:11:53.628385+00:00"
+}

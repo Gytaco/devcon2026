@@ -1,0 +1,1819 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.6000000000000005,
+      "text": "Hello everyone, I'm Kenji Sassin, CEO of DBLab.",
+      "words": []
+    },
+    {
+      "start": 6.6000000000000005,
+      "end": 15.48,
+      "text": "We specialize in data-driven platforms for the AEC industry, helping chimps turn project",
+      "words": []
+    },
+    {
+      "start": 15.48,
+      "end": 26.32,
+      "text": "information into actionable insights for delivery, control, and decision-making.",
+      "words": []
+    },
+    {
+      "start": 26.32,
+      "end": 34.0,
+      "text": "We still tend to think that humans decide and machines assist.",
+      "words": []
+    },
+    {
+      "start": 34.0,
+      "end": 44.64,
+      "text": "But in practice, AI systems increasingly shape our decision emerge and our actions are triggered.",
+      "words": []
+    },
+    {
+      "start": 44.64,
+      "end": 52.120000000000005,
+      "text": "So the question is not only whether AI helps us decide.",
+      "words": []
+    },
+    {
+      "start": 52.12,
+      "end": 62.519999999999996,
+      "text": "It is also to understand when the system starts participating in project action.",
+      "words": []
+    },
+    {
+      "start": 62.519999999999996,
+      "end": 65.64,
+      "text": "And my argument today is simple.",
+      "words": []
+    },
+    {
+      "start": 65.64,
+      "end": 73.8,
+      "text": "If we want trust-worthy AI platforms, we need to design trust into the decision process",
+      "words": []
+    },
+    {
+      "start": 73.8,
+      "end": 75.8,
+      "text": "itself.",
+      "words": []
+    },
+    {
+      "start": 75.8,
+      "end": 77.47999999999999,
+      "text": "And my name is Nabi-Osa-Degh.",
+      "words": []
+    },
+    {
+      "start": 77.47999999999999,
+      "end": 79.56,
+      "text": "I'm Situat Nakor.",
+      "words": []
+    },
+    {
+      "start": 79.56,
+      "end": 83.36,
+      "text": "I work specifically on the technical side of this question.",
+      "words": []
+    },
+    {
+      "start": 83.36,
+      "end": 90.52000000000001,
+      "text": "How do we actually build these AI-driven workflows on top of platforms like Autodesk?",
+      "words": []
+    },
+    {
+      "start": 90.52000000000001,
+      "end": 95.36,
+      "text": "So today we'll go back and forth between the conceptual framework and the technical",
+      "words": []
+    },
+    {
+      "start": 95.36,
+      "end": 96.92,
+      "text": "reality.",
+      "words": []
+    },
+    {
+      "start": 96.92,
+      "end": 102.56,
+      "text": "Because understanding why governance matters is only half the story.",
+      "words": []
+    },
+    {
+      "start": 102.56,
+      "end": 108.6,
+      "text": "You also need to understand how to implement it.",
+      "words": []
+    },
+    {
+      "start": 108.6,
+      "end": 117.32,
+      "text": "In AI-driven platforms, it becomes harder to say exactly where the action begins and",
+      "words": []
+    },
+    {
+      "start": 117.32,
+      "end": 122.91999999999999,
+      "text": "where the decision actually opens.",
+      "words": []
+    },
+    {
+      "start": 122.91999999999999,
+      "end": 128.12,
+      "text": "Construction platforms already contain a lot of data.",
+      "words": []
+    },
+    {
+      "start": 128.12,
+      "end": 133.76,
+      "text": "Models, documents, issues, project events.",
+      "words": []
+    },
+    {
+      "start": 133.76,
+      "end": 139.07999999999998,
+      "text": "But that does not mean this data is easy to exploit.",
+      "words": []
+    },
+    {
+      "start": 139.07999999999998,
+      "end": 148.23999999999998,
+      "text": "In practice, it is often fragmented, it erosions and difficult to turn into reliable operational",
+      "words": []
+    },
+    {
+      "start": 148.23999999999998,
+      "end": 149.92,
+      "text": "signals.",
+      "words": []
+    },
+    {
+      "start": 149.92,
+      "end": 160.12,
+      "text": "At the same time, AI systems can interpret that data generate outputs and connect those",
+      "words": []
+    },
+    {
+      "start": 160.12,
+      "end": 164.6,
+      "text": "outputs to workflow actions.",
+      "words": []
+    },
+    {
+      "start": 164.6,
+      "end": 171.64000000000001,
+      "text": "And once that happens, the boundary becomes less obvious.",
+      "words": []
+    },
+    {
+      "start": 171.64000000000001,
+      "end": 180.96,
+      "text": "Is the decision in the AI output itself in the workflow trigger in the human approval or",
+      "words": []
+    },
+    {
+      "start": 180.96,
+      "end": 184.76,
+      "text": "in the sequence as a whole?",
+      "words": []
+    },
+    {
+      "start": 184.76,
+      "end": 193.04,
+      "text": "For example, if a clash is detected, classified as severe and automatically pushed into a coordination",
+      "words": []
+    },
+    {
+      "start": 193.04,
+      "end": 198.12,
+      "text": "workflow, where exactly is the decision?",
+      "words": []
+    },
+    {
+      "start": 198.12,
+      "end": 204.64,
+      "text": "So most systems don't talk to each other natively in a way that an AI model can just consume.",
+      "words": []
+    },
+    {
+      "start": 204.64,
+      "end": 209.28,
+      "text": "You need to build a plumbing between the data and the action.",
+      "words": []
+    },
+    {
+      "start": 209.28,
+      "end": 213.07999999999998,
+      "text": "And that plumbing is where the decision actually leaves.",
+      "words": []
+    },
+    {
+      "start": 213.08,
+      "end": 220.48000000000002,
+      "text": "So the question, where is the decision maps directly to which API call trigger the action",
+      "words": []
+    },
+    {
+      "start": 220.48000000000002,
+      "end": 224.88000000000002,
+      "text": "and what logic set between the AI output and that call?",
+      "words": []
+    },
+    {
+      "start": 224.88000000000002,
+      "end": 231.84,
+      "text": "Before we talk about AI, we need to explain something more basic.",
+      "words": []
+    },
+    {
+      "start": 231.84,
+      "end": 238.68,
+      "text": "We speak very easily about decision making, but we rarely stop to ask what that really",
+      "words": []
+    },
+    {
+      "start": 238.68,
+      "end": 241.64000000000001,
+      "text": "means.",
+      "words": []
+    },
+    {
+      "start": 241.64,
+      "end": 249.11999999999998,
+      "text": "Because the project is not shaped by a few big decisions, it is shaped by a macumillition",
+      "words": []
+    },
+    {
+      "start": 249.11999999999998,
+      "end": 258.78,
+      "text": "of decisions, large and small, visible and invisible, formal and embedded in every day",
+      "words": []
+    },
+    {
+      "start": 258.78,
+      "end": 261.44,
+      "text": "workflows.",
+      "words": []
+    },
+    {
+      "start": 261.44,
+      "end": 269.44,
+      "text": "We probably underestimate how many decisions are actually made across a project.",
+      "words": []
+    },
+    {
+      "start": 269.44,
+      "end": 274.56,
+      "text": "And we also underestimate how different are.",
+      "words": []
+    },
+    {
+      "start": 274.56,
+      "end": 282.56,
+      "text": "So when we say AI can support decision making, what are we really talking about?",
+      "words": []
+    },
+    {
+      "start": 282.56,
+      "end": 291.12,
+      "text": "Strategic choice, coordination adjustment, routine operational action.",
+      "words": []
+    },
+    {
+      "start": 291.12,
+      "end": 294.08,
+      "text": "This is a real starting point.",
+      "words": []
+    },
+    {
+      "start": 294.08,
+      "end": 300.56,
+      "text": "Because if we don't first understand the scale and the variety of decisions in projects",
+      "words": []
+    },
+    {
+      "start": 300.56,
+      "end": 316.2,
+      "text": "workflows, then we can seriously discuss what AI should assist, augment or automate.",
+      "words": []
+    },
+    {
+      "start": 316.2,
+      "end": 320.79999999999995,
+      "text": "So at this stage, two things are becoming clear.",
+      "words": []
+    },
+    {
+      "start": 320.8,
+      "end": 328.8,
+      "text": "Systems and technology are already deployed, deeply involved in decision making and decisions",
+      "words": []
+    },
+    {
+      "start": 328.8,
+      "end": 331.2,
+      "text": "are everywhere.",
+      "words": []
+    },
+    {
+      "start": 331.2,
+      "end": 335.84000000000003,
+      "text": "So how do we move forward?",
+      "words": []
+    },
+    {
+      "start": 335.84000000000003,
+      "end": 338.64,
+      "text": "We need to do three things.",
+      "words": []
+    },
+    {
+      "start": 338.64,
+      "end": 342.92,
+      "text": "Understand, where decisions emerge?",
+      "words": []
+    },
+    {
+      "start": 342.92,
+      "end": 350.76,
+      "text": "Understand, well, understand why different decisions require different decisions.",
+      "words": []
+    },
+    {
+      "start": 350.76,
+      "end": 359.2,
+      "text": "Refigate levels of automation and understand how platforms can govern them.",
+      "words": []
+    },
+    {
+      "start": 359.2,
+      "end": 364.71999999999997,
+      "text": "And that third question, how platforms govern decisions, is where the technical architecture",
+      "words": []
+    },
+    {
+      "start": 364.71999999999997,
+      "end": 366.92,
+      "text": "becomes critical.",
+      "words": []
+    },
+    {
+      "start": 366.92,
+      "end": 370.08,
+      "text": "Because governance isn't just a policy document.",
+      "words": []
+    },
+    {
+      "start": 370.08,
+      "end": 371.08,
+      "text": "It's code.",
+      "words": []
+    },
+    {
+      "start": 371.08,
+      "end": 372.8,
+      "text": "It's API middleware.",
+      "words": []
+    },
+    {
+      "start": 372.8,
+      "end": 379.28,
+      "text": "It's the decision layer you build between your AI service and your project management system.",
+      "words": []
+    },
+    {
+      "start": 379.28,
+      "end": 384.28,
+      "text": "So let's go through these one by one.",
+      "words": []
+    },
+    {
+      "start": 384.28,
+      "end": 387.2,
+      "text": "Let's start with the first question.",
+      "words": []
+    },
+    {
+      "start": 387.2,
+      "end": 394.96,
+      "text": "Where do decisions emerge in AI-driven platforms?",
+      "words": []
+    },
+    {
+      "start": 394.96,
+      "end": 403.03999999999996,
+      "text": "So if we want to locate decisions in the process, we first need to clarify what we mean by",
+      "words": []
+    },
+    {
+      "start": 403.03999999999996,
+      "end": 404.52,
+      "text": "a decision.",
+      "words": []
+    },
+    {
+      "start": 404.52,
+      "end": 408.4,
+      "text": "A decision combines two things.",
+      "words": []
+    },
+    {
+      "start": 408.4,
+      "end": 412.03999999999996,
+      "text": "Projection and judgment.",
+      "words": []
+    },
+    {
+      "start": 412.03999999999996,
+      "end": 416.23999999999995,
+      "text": "And by prediction, I don't mean only forecasting.",
+      "words": []
+    },
+    {
+      "start": 416.23999999999995,
+      "end": 425.2,
+      "text": "I also mean that the data will rely on the information we select and the way the situation",
+      "words": []
+    },
+    {
+      "start": 425.2,
+      "end": 429.03999999999996,
+      "text": "is represented before acting.",
+      "words": []
+    },
+    {
+      "start": 429.03999999999996,
+      "end": 437.79999999999995,
+      "text": "So even before a choice is made, there is always a way of reading the project situation.",
+      "words": []
+    },
+    {
+      "start": 438.8,
+      "end": 441.52000000000004,
+      "text": "Then comes judgment.",
+      "words": []
+    },
+    {
+      "start": 441.52000000000004,
+      "end": 450.12,
+      "text": "Choosing in context, touching priorities and arbitrating.",
+      "words": []
+    },
+    {
+      "start": 450.12,
+      "end": 458.72,
+      "text": "And in a project environment that becomes a real decision, when it enters a framework",
+      "words": []
+    },
+    {
+      "start": 458.72,
+      "end": 465.88,
+      "text": "of responsibility, where the choice can be justified and assumed.",
+      "words": []
+    },
+    {
+      "start": 465.88,
+      "end": 470.84,
+      "text": "This distinction between prediction and judgment is actually very useful when you think about",
+      "words": []
+    },
+    {
+      "start": 470.84,
+      "end": 474.32,
+      "text": "what AI systems can and cannot do.",
+      "words": []
+    },
+    {
+      "start": 474.32,
+      "end": 481.52,
+      "text": "An LLM, a computer vision model, a machine learning classifier, these are all very good",
+      "words": []
+    },
+    {
+      "start": 481.52,
+      "end": 483.68,
+      "text": "at the prediction side.",
+      "words": []
+    },
+    {
+      "start": 483.68,
+      "end": 489.8,
+      "text": "They can process data, detect patterns, estimate probabilities, rank options.",
+      "words": []
+    },
+    {
+      "start": 489.8,
+      "end": 493.88,
+      "text": "But judgment requires a different kind of logic.",
+      "words": []
+    },
+    {
+      "start": 493.88,
+      "end": 499.52,
+      "text": "And right now, that logic has to be designed explicitly into the system.",
+      "words": []
+    },
+    {
+      "start": 499.52,
+      "end": 502.48,
+      "text": "It doesn't emerge from the model alone.",
+      "words": []
+    },
+    {
+      "start": 502.48,
+      "end": 508.04,
+      "text": "So when we build these systems, the prediction comes from the AI.",
+      "words": []
+    },
+    {
+      "start": 508.04,
+      "end": 514.48,
+      "text": "The judgment has to come from rules, thresholds, validation gates, and ultimately from human",
+      "words": []
+    },
+    {
+      "start": 514.48,
+      "end": 516.08,
+      "text": "review.",
+      "words": []
+    },
+    {
+      "start": 516.08,
+      "end": 523.08,
+      "text": "And the architecture has to make that separation explicit.",
+      "words": []
+    },
+    {
+      "start": 523.08,
+      "end": 534.32,
+      "text": "So now that we are thinking about decision making in terms of prediction and judgment,",
+      "words": []
+    },
+    {
+      "start": 534.32,
+      "end": 538.48,
+      "text": "we can look at the decision process itself.",
+      "words": []
+    },
+    {
+      "start": 538.48,
+      "end": 546.84,
+      "text": "The idea is simple in AI-driven platforms, decisions emerge along a chain.",
+      "words": []
+    },
+    {
+      "start": 546.84,
+      "end": 556.08,
+      "text": "It starts with signals coming from models, documents, issues, or sight events.",
+      "words": []
+    },
+    {
+      "start": 556.08,
+      "end": 566.4,
+      "text": "Those signals are then interpreted through analytics, detection system, or AI models.",
+      "words": []
+    },
+    {
+      "start": 566.4,
+      "end": 576.64,
+      "text": "From there, we reach the decision step where some singers assessed, validated, prioritized",
+      "words": []
+    },
+    {
+      "start": 576.64,
+      "end": 580.4,
+      "text": "or turned into action.",
+      "words": []
+    },
+    {
+      "start": 580.4,
+      "end": 588.8,
+      "text": "That leads to action, the null error, an issue, a coordination task, or a workflow execution.",
+      "words": []
+    },
+    {
+      "start": 588.8,
+      "end": 597.24,
+      "text": "And then comes feedback, because every action produces results, and those results generate",
+      "words": []
+    },
+    {
+      "start": 597.24,
+      "end": 601.3599999999999,
+      "text": "new signals again.",
+      "words": []
+    },
+    {
+      "start": 601.3599999999999,
+      "end": 604.88,
+      "text": "But this chain is not neutral.",
+      "words": []
+    },
+    {
+      "start": 604.88,
+      "end": 608.0,
+      "text": "It is always under tension.",
+      "words": []
+    },
+    {
+      "start": 608.0,
+      "end": 616.4,
+      "text": "The retention run the information, responsibility, judgment, and other external pressures like",
+      "words": []
+    },
+    {
+      "start": 616.4,
+      "end": 622.0,
+      "text": "time, contracts, and regulations.",
+      "words": []
+    },
+    {
+      "start": 622.0,
+      "end": 627.72,
+      "text": "So each of those stages maps to a different system component.",
+      "words": []
+    },
+    {
+      "start": 627.72,
+      "end": 631.68,
+      "text": "Signals, for example, come from data extraction.",
+      "words": []
+    },
+    {
+      "start": 631.68,
+      "end": 634.68,
+      "text": "Interpretation is your AI layer.",
+      "words": []
+    },
+    {
+      "start": 634.68,
+      "end": 637.92,
+      "text": "Action is your API right back.",
+      "words": []
+    },
+    {
+      "start": 637.92,
+      "end": 642.72,
+      "text": "But the decision step is where most teams under invest.",
+      "words": []
+    },
+    {
+      "start": 642.72,
+      "end": 648.88,
+      "text": "This is the layer where you define what confidence threshold triggers an action, what combination",
+      "words": []
+    },
+    {
+      "start": 648.88,
+      "end": 656.52,
+      "text": "of signals requires human review, what gets escalated versus what gets auto processed.",
+      "words": []
+    },
+    {
+      "start": 656.52,
+      "end": 666.4,
+      "text": "That layer is what makes the chain govern not just automated.",
+      "words": []
+    },
+    {
+      "start": 666.4,
+      "end": 674.72,
+      "text": "If we look at this slide carefully, what it shows is a blurred boundary of labor between",
+      "words": []
+    },
+    {
+      "start": 674.72,
+      "end": 678.04,
+      "text": "human and machine.",
+      "words": []
+    },
+    {
+      "start": 678.04,
+      "end": 680.9599999999999,
+      "text": "The machine does not only analyze.",
+      "words": []
+    },
+    {
+      "start": 680.9599999999999,
+      "end": 691.48,
+      "text": "It can capture data, detect patterns, simulate options, trigger actions, and monitor results.",
+      "words": []
+    },
+    {
+      "start": 691.48,
+      "end": 698.64,
+      "text": "And the human does not appear only at the end to approve or reject.",
+      "words": []
+    },
+    {
+      "start": 698.64,
+      "end": 707.9200000000001,
+      "text": "The human brings context, interpret results, coordinates, execution, and evaluates outcomes",
+      "words": []
+    },
+    {
+      "start": 707.9200000000001,
+      "end": 710.84,
+      "text": "across the world process.",
+      "words": []
+    },
+    {
+      "start": 710.84,
+      "end": 714.9200000000001,
+      "text": "So the interaction is continues.",
+      "words": []
+    },
+    {
+      "start": 714.92,
+      "end": 723.88,
+      "text": "And once both sides contribute at multiple points in the chain, the boundary because",
+      "words": []
+    },
+    {
+      "start": 723.88,
+      "end": 728.16,
+      "text": "it becomes much harder to locate.",
+      "words": []
+    },
+    {
+      "start": 728.16,
+      "end": 732.24,
+      "text": "This is something we see very concretely in implementation.",
+      "words": []
+    },
+    {
+      "start": 732.24,
+      "end": 737.4799999999999,
+      "text": "When you set up an MCP server, model context protocol, you're essentially giving an AI",
+      "words": []
+    },
+    {
+      "start": 737.4799999999999,
+      "end": 740.76,
+      "text": "model the ability to call tools.",
+      "words": []
+    },
+    {
+      "start": 740.76,
+      "end": 745.88,
+      "text": "And those tools can read data from your auto-desk environment, but they can also write",
+      "words": []
+    },
+    {
+      "start": 745.88,
+      "end": 747.92,
+      "text": "back to it.",
+      "words": []
+    },
+    {
+      "start": 747.92,
+      "end": 754.0,
+      "text": "So in a single interaction, the AI might retrieve a list of open issues, analyze which ones",
+      "words": []
+    },
+    {
+      "start": 754.0,
+      "end": 761.3199999999999,
+      "text": "are overdue, draft a priority recommendation, and then, if you've confer properly as",
+      "words": []
+    },
+    {
+      "start": 761.3199999999999,
+      "end": 768.6,
+      "text": "it is properly, actually update the issue status or create a new coordination task.",
+      "words": []
+    },
+    {
+      "start": 768.6,
+      "end": 774.28,
+      "text": "But what point did the human decide when they approved the original configuration, when",
+      "words": []
+    },
+    {
+      "start": 774.28,
+      "end": 779.44,
+      "text": "they reviewed the output, or is it the system making micro decisions autonomously every",
+      "words": []
+    },
+    {
+      "start": 779.44,
+      "end": 783.0,
+      "text": "time it classifies and root an issue?",
+      "words": []
+    },
+    {
+      "start": 783.0,
+      "end": 785.36,
+      "text": "That's the blurred boundary in practice.",
+      "words": []
+    },
+    {
+      "start": 785.36,
+      "end": 790.88,
+      "text": "And that's why architecture matters because the architecture is what determines which of",
+      "words": []
+    },
+    {
+      "start": 790.88,
+      "end": 801.84,
+      "text": "those steps requires human input and which ones produce which one proceed automatically.",
+      "words": []
+    },
+    {
+      "start": 801.84,
+      "end": 805.92,
+      "text": "So decisions are not isolated moments.",
+      "words": []
+    },
+    {
+      "start": 805.92,
+      "end": 814.48,
+      "text": "They emerge from change and they differ in impact, complexity and responsibility.",
+      "words": []
+    },
+    {
+      "start": 814.48,
+      "end": 822.48,
+      "text": "And now, what exactly should be automated and to what extent?",
+      "words": []
+    },
+    {
+      "start": 822.48,
+      "end": 830.5600000000001,
+      "text": "Here, I am using two axes, impact and complexity.",
+      "words": []
+    },
+    {
+      "start": 830.5600000000001,
+      "end": 839.36,
+      "text": "Impact because some decisions are limited consequences, while others can affect the project",
+      "words": []
+    },
+    {
+      "start": 839.36,
+      "end": 842.24,
+      "text": "much more deeply.",
+      "words": []
+    },
+    {
+      "start": 842.24,
+      "end": 849.24,
+      "text": "And we see because some decisions are relatively easy to structure, while others require much",
+      "words": []
+    },
+    {
+      "start": 849.24,
+      "end": 854.72,
+      "text": "more context, coordination and arbitration.",
+      "words": []
+    },
+    {
+      "start": 854.72,
+      "end": 864.32,
+      "text": "We are not dealing with one category of decision, but with very, very different decision situations.",
+      "words": []
+    },
+    {
+      "start": 864.32,
+      "end": 871.8000000000001,
+      "text": "Some are routine, some are technically complex, some are some are stronger, compliance",
+      "words": []
+    },
+    {
+      "start": 871.8000000000001,
+      "end": 878.44,
+      "text": "consequences and some are clearly more strategic.",
+      "words": []
+    },
+    {
+      "start": 878.44,
+      "end": 890.84,
+      "text": "So the further we move in impact and complexity, the more careful we need to be about automation.",
+      "words": []
+    },
+    {
+      "start": 890.84,
+      "end": 893.8000000000001,
+      "text": "This question is not new.",
+      "words": []
+    },
+    {
+      "start": 893.8000000000001,
+      "end": 903.88,
+      "text": "As early as 2000, Parasornaman proposed a model with 10 levels of automation.",
+      "words": []
+    },
+    {
+      "start": 903.88,
+      "end": 908.6,
+      "text": "We didn't suddenly discover the automation with AI.",
+      "words": []
+    },
+    {
+      "start": 908.6,
+      "end": 916.0400000000001,
+      "text": "This question became much more concrete inside real workflows.",
+      "words": []
+    },
+    {
+      "start": 916.04,
+      "end": 920.92,
+      "text": "The key lesson from that work is still very relevant.",
+      "words": []
+    },
+    {
+      "start": 920.92,
+      "end": 923.92,
+      "text": "Automation is not binary.",
+      "words": []
+    },
+    {
+      "start": 923.92,
+      "end": 930.52,
+      "text": "We are not dealing with a simple choice between human control and full automation.",
+      "words": []
+    },
+    {
+      "start": 930.52,
+      "end": 936.48,
+      "text": "We are dealing with different levels of system autonomous.",
+      "words": []
+    },
+    {
+      "start": 936.48,
+      "end": 944.68,
+      "text": "For this presentation, I'll simplify that continuum into three practical positions, assist,",
+      "words": []
+    },
+    {
+      "start": 944.68,
+      "end": 948.16,
+      "text": "augment and automate.",
+      "words": []
+    },
+    {
+      "start": 948.16,
+      "end": 950.88,
+      "text": "I want to emphasize something here.",
+      "words": []
+    },
+    {
+      "start": 950.88,
+      "end": 957.4,
+      "text": "When we say assist, augment, automate, these are not just abstract categories.",
+      "words": []
+    },
+    {
+      "start": 957.4,
+      "end": 961.88,
+      "text": "They translate directly into technical design choices.",
+      "words": []
+    },
+    {
+      "start": 961.88,
+      "end": 970.56,
+      "text": "For example, assist means your AI generates an output, displays it to a user and stops.",
+      "words": []
+    },
+    {
+      "start": 970.56,
+      "end": 975.3599999999999,
+      "text": "The system does nothing else, think of it as a read-only recommendation.",
+      "words": []
+    },
+    {
+      "start": 975.3599999999999,
+      "end": 979.3199999999999,
+      "text": "Augment means the AI shapes the decision.",
+      "words": []
+    },
+    {
+      "start": 979.3199999999999,
+      "end": 986.4,
+      "text": "It pre-feels a form, suggests a classification, highlights a risk, but a human has to confirm",
+      "words": []
+    },
+    {
+      "start": 986.4,
+      "end": 988.4399999999999,
+      "text": "before anything happens.",
+      "words": []
+    },
+    {
+      "start": 988.4399999999999,
+      "end": 992.4799999999999,
+      "text": "There is a validation gate in the workflow.",
+      "words": []
+    },
+    {
+      "start": 992.4799999999999,
+      "end": 996.16,
+      "text": "Automate means the system is authorized to act.",
+      "words": []
+    },
+    {
+      "start": 996.16,
+      "end": 1001.36,
+      "text": "The AI output triggers an API call without human intervention.",
+      "words": []
+    },
+    {
+      "start": 1001.36,
+      "end": 1007.12,
+      "text": "An issue is created, the workflow is started, a status is updated.",
+      "words": []
+    },
+    {
+      "start": 1007.12,
+      "end": 1010.64,
+      "text": "The technical difference between these three is not trivial.",
+      "words": []
+    },
+    {
+      "start": 1010.64,
+      "end": 1016.68,
+      "text": "It's the difference between a system that renders a dashboard and a system that writes",
+      "words": []
+    },
+    {
+      "start": 1016.68,
+      "end": 1019.36,
+      "text": "to your project database.",
+      "words": []
+    },
+    {
+      "start": 1019.36,
+      "end": 1025.76,
+      "text": "The code is fundamentally different and so are the risks.",
+      "words": []
+    },
+    {
+      "start": 1025.76,
+      "end": 1030.36,
+      "text": "The level of automation cannot be the same for every type of AI.",
+      "words": []
+    },
+    {
+      "start": 1030.36,
+      "end": 1031.36,
+      "text": "Why?",
+      "words": []
+    },
+    {
+      "start": 1031.36,
+      "end": 1036.36,
+      "text": "Because each type of AI works on a different kind of reality.",
+      "words": []
+    },
+    {
+      "start": 1036.36,
+      "end": 1042.72,
+      "text": "Computer vision, for example, works on the physical world, images and scans.",
+      "words": []
+    },
+    {
+      "start": 1042.72,
+      "end": 1045.72,
+      "text": "The signal is inherently ascertain.",
+      "words": []
+    },
+    {
+      "start": 1045.72,
+      "end": 1053.12,
+      "text": "Your interpreting pixels dealing with lighting conditions, angles, occlusions.",
+      "words": []
+    },
+    {
+      "start": 1053.12,
+      "end": 1058.08,
+      "text": "So the question is, how far can perception support action?",
+      "words": []
+    },
+    {
+      "start": 1058.08,
+      "end": 1064.04,
+      "text": "Usually you want human review before acting on a visual detection.",
+      "words": []
+    },
+    {
+      "start": 1064.04,
+      "end": 1065.04,
+      "text": "Next, NLP.",
+      "words": []
+    },
+    {
+      "start": 1065.04,
+      "end": 1069.6399999999999,
+      "text": "NLP works on documents and language.",
+      "words": []
+    },
+    {
+      "start": 1069.6399999999999,
+      "end": 1074.6999999999998,
+      "text": "It's powerful for extraction and classification, but interpretation of meaning is still context",
+      "words": []
+    },
+    {
+      "start": 1074.6999999999998,
+      "end": 1075.6999999999998,
+      "text": "dependent.",
+      "words": []
+    },
+    {
+      "start": 1075.6999999999998,
+      "end": 1081.8799999999999,
+      "text": "A sentence about a critical issue might mean very different things in different documents.",
+      "words": []
+    },
+    {
+      "start": 1081.88,
+      "end": 1087.64,
+      "text": "So again, documentation with human validation is often the right level.",
+      "words": []
+    },
+    {
+      "start": 1087.64,
+      "end": 1094.3200000000002,
+      "text": "Machine learning on beam, on the other hand, works on more structured digital environments.",
+      "words": []
+    },
+    {
+      "start": 1094.3200000000002,
+      "end": 1099.5600000000002,
+      "text": "When you're comparing a model against rules, checking property values, detecting geometric",
+      "words": []
+    },
+    {
+      "start": 1099.5600000000002,
+      "end": 1103.64,
+      "text": "clashes, the signals are more deterministic.",
+      "words": []
+    },
+    {
+      "start": 1103.64,
+      "end": 1110.0800000000002,
+      "text": "That can justify a higher level of automation in some cases.",
+      "words": []
+    },
+    {
+      "start": 1110.08,
+      "end": 1114.28,
+      "text": "This slide makes the discussion operational.",
+      "words": []
+    },
+    {
+      "start": 1114.28,
+      "end": 1120.28,
+      "text": "And this is really the key design principle when you're building these systems.",
+      "words": []
+    },
+    {
+      "start": 1120.28,
+      "end": 1125.72,
+      "text": "The level of automation should not be defined once for the whole system.",
+      "words": []
+    },
+    {
+      "start": 1125.72,
+      "end": 1130.28,
+      "text": "It has to be made explicit at each stage of the workflow.",
+      "words": []
+    },
+    {
+      "start": 1130.28,
+      "end": 1132.36,
+      "text": "Let me walk you through this.",
+      "words": []
+    },
+    {
+      "start": 1132.36,
+      "end": 1139.84,
+      "text": "At signal detection, data extraction and omelin detection, the AI's role is to detect.",
+      "words": []
+    },
+    {
+      "start": 1139.84,
+      "end": 1145.52,
+      "text": "It's typically an assist level, your surfacing information.",
+      "words": []
+    },
+    {
+      "start": 1145.52,
+      "end": 1152.76,
+      "text": "At context analysis, NLP, computer vision, ML machine learning, interpreting the signals,",
+      "words": []
+    },
+    {
+      "start": 1152.76,
+      "end": 1155.52,
+      "text": "you're moving to augment.",
+      "words": []
+    },
+    {
+      "start": 1155.52,
+      "end": 1161.8,
+      "text": "The AI is generating insights, but the human should be reviewing them.",
+      "words": []
+    },
+    {
+      "start": 1161.8,
+      "end": 1168.56,
+      "text": "Decision support, predictive models or simulation is also augment.",
+      "words": []
+    },
+    {
+      "start": 1168.56,
+      "end": 1174.28,
+      "text": "For evaluating options, but the choice belongs to the human.",
+      "words": []
+    },
+    {
+      "start": 1174.28,
+      "end": 1178.2,
+      "text": "Decision validation is where governance kicks in.",
+      "words": []
+    },
+    {
+      "start": 1178.2,
+      "end": 1183.1599999999999,
+      "text": "Policy rules, confidence thresholds, human sign-off.",
+      "words": []
+    },
+    {
+      "start": 1183.1599999999999,
+      "end": 1189.48,
+      "text": "This can be assist or augment, depending on the risk level.",
+      "words": []
+    },
+    {
+      "start": 1189.48,
+      "end": 1196.08,
+      "text": "Action execution, where the API actually fires, the issue gets created, the workflow gets",
+      "words": []
+    },
+    {
+      "start": 1196.08,
+      "end": 1197.3999999999999,
+      "text": "triggered.",
+      "words": []
+    },
+    {
+      "start": 1197.4,
+      "end": 1201.72,
+      "text": "This is the only stage where automate might be appropriate.",
+      "words": []
+    },
+    {
+      "start": 1201.72,
+      "end": 1207.72,
+      "text": "And even then, only for well-defined low risks, high confidence scenario.",
+      "words": []
+    },
+    {
+      "start": 1207.72,
+      "end": 1213.3200000000002,
+      "text": "And monitoring and feedback brings you back to assist, tracking outcomes, generating",
+      "words": []
+    },
+    {
+      "start": 1213.3200000000002,
+      "end": 1218.2,
+      "text": "new signals for the next cycle.",
+      "words": []
+    },
+    {
+      "start": 1218.2,
+      "end": 1226.64,
+      "text": "So what this slide is really saying is that automation needs to be designed explicitly",
+      "words": []
+    },
+    {
+      "start": 1226.64,
+      "end": 1234.64,
+      "text": "across the chain, not assumed as one uniform property of the system.",
+      "words": []
+    },
+    {
+      "start": 1234.64,
+      "end": 1241.6000000000001,
+      "text": "AI does not simply replace human activity.",
+      "words": []
+    },
+    {
+      "start": 1241.6000000000001,
+      "end": 1243.64,
+      "text": "It changes it.",
+      "words": []
+    },
+    {
+      "start": 1243.64,
+      "end": 1251.0400000000002,
+      "text": "Also in ways that were not intended and not anticipated by the designer.",
+      "words": []
+    },
+    {
+      "start": 1251.04,
+      "end": 1259.44,
+      "text": "And that's precisely why we need governance.",
+      "words": []
+    },
+    {
+      "start": 1259.44,
+      "end": 1265.8799999999999,
+      "text": "AI can intervene under several stages of the workflow.",
+      "words": []
+    },
+    {
+      "start": 1265.8799999999999,
+      "end": 1272.68,
+      "text": "Different stages require different levels of automation.",
+      "words": []
+    },
+    {
+      "start": 1272.68,
+      "end": 1281.0,
+      "text": "The issue is not just AI capability, but all AI outputs are allowed to trigger action",
+      "words": []
+    },
+    {
+      "start": 1281.0,
+      "end": 1286.28,
+      "text": "actions.",
+      "words": []
+    },
+    {
+      "start": 1286.28,
+      "end": 1289.96,
+      "text": "So this brings us to the third part.",
+      "words": []
+    },
+    {
+      "start": 1289.96,
+      "end": 1301.48,
+      "text": "If AI outputs can shape action, then governance also has to be designed into the platform itself.",
+      "words": []
+    },
+    {
+      "start": 1301.48,
+      "end": 1305.88,
+      "text": "This is the reference architecture that brings everything together.",
+      "words": []
+    },
+    {
+      "start": 1305.88,
+      "end": 1309.44,
+      "text": "On the left, you have the Autodesk environment.",
+      "words": []
+    },
+    {
+      "start": 1309.44,
+      "end": 1327.48,
+      "text": "In the middle, your AI services.",
+      "words": []
+    },
+    {
+      "start": 1327.48,
+      "end": 1332.96,
+      "text": "NLP for document analysis, computer vision for defect detection, machine learning for pattern",
+      "words": []
+    },
+    {
+      "start": 1332.96,
+      "end": 1341.0,
+      "text": "recognition, Rugg for context over responses, simulation for scenario modeling, each produces",
+      "words": []
+    },
+    {
+      "start": 1341.0,
+      "end": 1347.56,
+      "text": "outputs, predictions, classifications and recommendations.",
+      "words": []
+    },
+    {
+      "start": 1347.56,
+      "end": 1349.92,
+      "text": "Then the decision layer.",
+      "words": []
+    },
+    {
+      "start": 1349.92,
+      "end": 1353.68,
+      "text": "And this is the governance heart of the system.",
+      "words": []
+    },
+    {
+      "start": 1353.68,
+      "end": 1357.1200000000001,
+      "text": "Policy rules define what is allowed.",
+      "words": []
+    },
+    {
+      "start": 1357.1200000000001,
+      "end": 1361.1200000000001,
+      "text": "Confidence thresholds determine when automation kicks in.",
+      "words": []
+    },
+    {
+      "start": 1361.12,
+      "end": 1364.56,
+      "text": "Versus when human review is required.",
+      "words": []
+    },
+    {
+      "start": 1364.56,
+      "end": 1368.4399999999998,
+      "text": "Human validation provides the approval step.",
+      "words": []
+    },
+    {
+      "start": 1368.4399999999998,
+      "end": 1371.6399999999999,
+      "text": "Execution policy defines the action permissions.",
+      "words": []
+    },
+    {
+      "start": 1371.6399999999999,
+      "end": 1375.36,
+      "text": "And audit log captures everything.",
+      "words": []
+    },
+    {
+      "start": 1375.36,
+      "end": 1379.1599999999999,
+      "text": "On the right, go and learn actions.",
+      "words": []
+    },
+    {
+      "start": 1379.1599999999999,
+      "end": 1385.52,
+      "text": "Issue creation, review requests, update proposal, workflow triggers, and feedback loops",
+      "words": []
+    },
+    {
+      "start": 1385.52,
+      "end": 1392.84,
+      "text": "back through monitoring and outcome evaluation to generate new project signals.",
+      "words": []
+    },
+    {
+      "start": 1392.84,
+      "end": 1400.2,
+      "text": "So let's take a concrete example to see how this works in practice, detecting a defect",
+      "words": []
+    },
+    {
+      "start": 1400.2,
+      "end": 1401.96,
+      "text": "from a side image.",
+      "words": []
+    },
+    {
+      "start": 1401.96,
+      "end": 1408.0,
+      "text": "The AI goes through three perception steps, each one going deeper.",
+      "words": []
+    },
+    {
+      "start": 1408.0,
+      "end": 1411.48,
+      "text": "First, it identifies the element.",
+      "words": []
+    },
+    {
+      "start": 1411.48,
+      "end": 1414.6399999999999,
+      "text": "Then it analyses the material.",
+      "words": []
+    },
+    {
+      "start": 1414.64,
+      "end": 1419.76,
+      "text": "And finally, it detects whether there is a defect.",
+      "words": []
+    },
+    {
+      "start": 1419.76,
+      "end": 1425.2800000000002,
+      "text": "At each of those steps, the governance layer applies.",
+      "words": []
+    },
+    {
+      "start": 1425.2800000000002,
+      "end": 1432.2,
+      "text": "Depending on how critical the output is at that stage, the human may need to validate",
+      "words": []
+    },
+    {
+      "start": 1432.2,
+      "end": 1435.44,
+      "text": "before the analysis continues.",
+      "words": []
+    },
+    {
+      "start": 1435.44,
+      "end": 1440.5600000000002,
+      "text": "Identifying an element may be low enough confidence to proceed automatically.",
+      "words": []
+    },
+    {
+      "start": 1440.56,
+      "end": 1446.9199999999998,
+      "text": "Believe the material analysis flags something ambiguous that might require human review before",
+      "words": []
+    },
+    {
+      "start": 1446.9199999999998,
+      "end": 1450.04,
+      "text": "defect detection even runs.",
+      "words": []
+    },
+    {
+      "start": 1450.04,
+      "end": 1455.76,
+      "text": "And the confirmed defect will determine whether the final action is an inspection request,",
+      "words": []
+    },
+    {
+      "start": 1455.76,
+      "end": 1459.3999999999999,
+      "text": "an issue creation, or another.",
+      "words": []
+    },
+    {
+      "start": 1459.3999999999999,
+      "end": 1464.76,
+      "text": "The architecture does not wait until the end to evolve humans.",
+      "words": []
+    },
+    {
+      "start": 1464.76,
+      "end": 1471.76,
+      "text": "It evaluates at each stage, each step, whether the information is critical enough to require",
+      "words": []
+    },
+    {
+      "start": 1471.76,
+      "end": 1474.48,
+      "text": "one.",
+      "words": []
+    },
+    {
+      "start": 1474.48,
+      "end": 1478.68,
+      "text": "So this slides puts it all together with three concrete scenarios.",
+      "words": []
+    },
+    {
+      "start": 1478.68,
+      "end": 1483.48,
+      "text": "Each one showing how the governance architecture plays out in practice.",
+      "words": []
+    },
+    {
+      "start": 1483.48,
+      "end": 1487.4,
+      "text": "First, beam clashes coordination.",
+      "words": []
+    },
+    {
+      "start": 1487.4,
+      "end": 1491.6,
+      "text": "The signal is a clash detected in federated models.",
+      "words": []
+    },
+    {
+      "start": 1491.6,
+      "end": 1497.24,
+      "text": "The AI classifies the severity and identifies which systems are involved.",
+      "words": []
+    },
+    {
+      "start": 1497.24,
+      "end": 1503.52,
+      "text": "The decision the platform needs to make is whether a coordination review is required.",
+      "words": []
+    },
+    {
+      "start": 1503.52,
+      "end": 1509.08,
+      "text": "Because the signal is structured and the rules are clear, the action can proceed automatically.",
+      "words": []
+    },
+    {
+      "start": 1509.08,
+      "end": 1513.8799999999999,
+      "text": "An issue is created and assigned in ACC without human intervention.",
+      "words": []
+    },
+    {
+      "start": 1513.8799999999999,
+      "end": 1518.52,
+      "text": "The level of automation is automated.",
+      "words": []
+    },
+    {
+      "start": 1518.52,
+      "end": 1520.84,
+      "text": "Then document compliance.",
+      "words": []
+    },
+    {
+      "start": 1520.84,
+      "end": 1526.12,
+      "text": "NLP detects missing regular references in an uploaded document.",
+      "words": []
+    },
+    {
+      "start": 1526.12,
+      "end": 1531.96,
+      "text": "But interpretation is required, so a validation workflow is triggered for human review.",
+      "words": []
+    },
+    {
+      "start": 1531.96,
+      "end": 1534.92,
+      "text": "The level of automation is augment.",
+      "words": []
+    },
+    {
+      "start": 1534.92,
+      "end": 1537.96,
+      "text": "Third, schedule deviation.",
+      "words": []
+    },
+    {
+      "start": 1537.96,
+      "end": 1544.8,
+      "text": "AI estimates delay impact, but the response depends on contracts, resources, and stakeholder",
+      "words": []
+    },
+    {
+      "start": 1544.8,
+      "end": 1546.28,
+      "text": "context.",
+      "words": []
+    },
+    {
+      "start": 1546.28,
+      "end": 1548.16,
+      "text": "The system sends an alert.",
+      "words": []
+    },
+    {
+      "start": 1548.16,
+      "end": 1550.36,
+      "text": "The decision stays human.",
+      "words": []
+    },
+    {
+      "start": 1550.36,
+      "end": 1552.6,
+      "text": "So we have level of automation.",
+      "words": []
+    },
+    {
+      "start": 1552.6,
+      "end": 1554.6,
+      "text": "Assist.",
+      "words": []
+    },
+    {
+      "start": 1554.6,
+      "end": 1561.3999999999999,
+      "text": "Three different signals, three different decisions, contexts, three different levels of automation.",
+      "words": []
+    },
+    {
+      "start": 1561.3999999999999,
+      "end": 1565.6,
+      "text": "But the same governance architecture underneath all of them.",
+      "words": []
+    },
+    {
+      "start": 1565.6,
+      "end": 1566.92,
+      "text": "That is the point.",
+      "words": []
+    },
+    {
+      "start": 1566.92,
+      "end": 1572.68,
+      "text": "You design the architecture once and it is the nature of the signal and the criticality",
+      "words": []
+    },
+    {
+      "start": 1572.68,
+      "end": 1579.68,
+      "text": "of the action that determines how much you delegate to the system.",
+      "words": []
+    },
+    {
+      "start": 1579.68,
+      "end": 1591.28,
+      "text": "As the boundary between human and machine decisions becomes less visible, responsibility",
+      "words": []
+    },
+    {
+      "start": 1591.28,
+      "end": 1593.44,
+      "text": "does not disappear.",
+      "words": []
+    },
+    {
+      "start": 1593.44,
+      "end": 1598.44,
+      "text": "On the contrary, it becomes a design program.",
+      "words": []
+    },
+    {
+      "start": 1598.44,
+      "end": 1603.0,
+      "text": "And from a technical perspective, designing responsibility means building the decision",
+      "words": []
+    },
+    {
+      "start": 1603.0,
+      "end": 1604.24,
+      "text": "layer.",
+      "words": []
+    },
+    {
+      "start": 1604.24,
+      "end": 1609.68,
+      "text": "It means implementing confidence thresholds, validation gates, audit logging, and configurable",
+      "words": []
+    },
+    {
+      "start": 1609.68,
+      "end": 1616.24,
+      "text": "automation levels in code in your architecture in the way your system connects AI outputs",
+      "words": []
+    },
+    {
+      "start": 1616.24,
+      "end": 1618.8,
+      "text": "to project actions.",
+      "words": []
+    },
+    {
+      "start": 1618.8,
+      "end": 1620.3200000000002,
+      "text": "The tools exist.",
+      "words": []
+    },
+    {
+      "start": 1620.3200000000002,
+      "end": 1624.16,
+      "text": "APIs gives you the data access.",
+      "words": []
+    },
+    {
+      "start": 1624.16,
+      "end": 1627.72,
+      "text": "AI services give you the intelligence.",
+      "words": []
+    },
+    {
+      "start": 1627.72,
+      "end": 1631.08,
+      "text": "Those like MCP give you the connectivity.",
+      "words": []
+    },
+    {
+      "start": 1631.08,
+      "end": 1638.6000000000001,
+      "text": "But the governance layer, the part that makes it trustworthy, is what you have to build.",
+      "words": []
+    },
+    {
+      "start": 1638.6000000000001,
+      "end": 1641.08,
+      "text": "That's the engineering challenge.",
+      "words": []
+    },
+    {
+      "start": 1641.08,
+      "end": 1648.56,
+      "text": "That is really the message of this talk.",
+      "words": []
+    },
+    {
+      "start": 1648.56,
+      "end": 1657.28,
+      "text": "When systems start acting, responsibility must be designed into the architecture itself.",
+      "words": []
+    },
+    {
+      "start": 1657.28,
+      "end": 1660.28,
+      "text": "Thank you for watching us.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:27:28.853966+00:00"
+}

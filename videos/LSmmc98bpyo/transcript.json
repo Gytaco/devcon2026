@@ -1,0 +1,1267 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.8000000000000003,
+      "text": "So welcome at this presentation for today,",
+      "words": []
+    },
+    {
+      "start": 2.8000000000000003,
+      "end": 6.4,
+      "text": "looking down APS specifically to",
+      "words": []
+    },
+    {
+      "start": 6.4,
+      "end": 11.120000000000001,
+      "text": "authentication of enterprise automations and MCPs.",
+      "words": []
+    },
+    {
+      "start": 11.120000000000001,
+      "end": 15.48,
+      "text": "Today I'll be the main speaker for this class and the DevCon.",
+      "words": []
+    },
+    {
+      "start": 15.48,
+      "end": 18.400000000000002,
+      "text": "You also see Adi there.",
+      "words": []
+    },
+    {
+      "start": 19.2,
+      "end": 21.44,
+      "text": "The agenda for today,",
+      "words": []
+    },
+    {
+      "start": 21.44,
+      "end": 24.68,
+      "text": "we're going to have a short introduction because it's a lightning talk.",
+      "words": []
+    },
+    {
+      "start": 24.68,
+      "end": 26.68,
+      "text": "We're going to go through it quite quickly.",
+      "words": []
+    },
+    {
+      "start": 26.68,
+      "end": 29.44,
+      "text": "Then we're going to highlight the challenge that we face,",
+      "words": []
+    },
+    {
+      "start": 29.44,
+      "end": 34.44,
+      "text": "as a kid is an implementation and then demo of what has been implemented.",
+      "words": []
+    },
+    {
+      "start": 34.44,
+      "end": 42.160000000000004,
+      "text": "Then closing out what the impact was of this APS implementation.",
+      "words": []
+    },
+    {
+      "start": 42.160000000000004,
+      "end": 44.92,
+      "text": "Maybe to start off with a quote.",
+      "words": []
+    },
+    {
+      "start": 44.92,
+      "end": 47.480000000000004,
+      "text": "So here you can read indeed.",
+      "words": []
+    },
+    {
+      "start": 47.480000000000004,
+      "end": 49.400000000000006,
+      "text": "You can have all kinds of",
+      "words": []
+    },
+    {
+      "start": 49.400000000000006,
+      "end": 54.56,
+      "text": "difference of automations or agents within your company.",
+      "words": []
+    },
+    {
+      "start": 54.56,
+      "end": 57.52,
+      "text": "But yet it doesn't mean working in a secure way,",
+      "words": []
+    },
+    {
+      "start": 57.68,
+      "end": 61.64,
+      "text": "because eventually those are also using all kinds of APIs.",
+      "words": []
+    },
+    {
+      "start": 61.64,
+      "end": 63.120000000000005,
+      "text": "And yeah,",
+      "words": []
+    },
+    {
+      "start": 63.120000000000005,
+      "end": 66.52000000000001,
+      "text": "bread is secure is only based on the APIs that you use.",
+      "words": []
+    },
+    {
+      "start": 68.92,
+      "end": 71.44,
+      "text": "So just looking at a couple of available ones.",
+      "words": []
+    },
+    {
+      "start": 71.44,
+      "end": 75.04,
+      "text": "So these are definitely not all the APS APIs,",
+      "words": []
+    },
+    {
+      "start": 75.04,
+      "end": 78.68,
+      "text": "but the ones that are important for for our kid is.",
+      "words": []
+    },
+    {
+      "start": 78.68,
+      "end": 82.12,
+      "text": "So of course you could talk about the traditional APS API,",
+      "words": []
+    },
+    {
+      "start": 82.12,
+      "end": 85.60000000000001,
+      "text": "which has access to all the data in the entire hub.",
+      "words": []
+    },
+    {
+      "start": 85.75999999999999,
+      "end": 87.88,
+      "text": "Then we have the Pckse API,",
+      "words": []
+    },
+    {
+      "start": 87.88,
+      "end": 89.96,
+      "text": "or also called the Pixie API,",
+      "words": []
+    },
+    {
+      "start": 89.96,
+      "end": 93.03999999999999,
+      "text": "and where the user locks in within an interface,",
+      "words": []
+    },
+    {
+      "start": 93.03999999999999,
+      "end": 95.11999999999999,
+      "text": "and it will start filtering down the data",
+      "words": []
+    },
+    {
+      "start": 95.11999999999999,
+      "end": 96.91999999999999,
+      "text": "based on the user access.",
+      "words": []
+    },
+    {
+      "start": 98.19999999999999,
+      "end": 101.28,
+      "text": "So then you have the SSA APS API,",
+      "words": []
+    },
+    {
+      "start": 101.28,
+      "end": 103.63999999999999,
+      "text": "where you can pre-select projects.",
+      "words": []
+    },
+    {
+      "start": 103.63999999999999,
+      "end": 106.19999999999999,
+      "text": "I'll go a bit more depth later on that.",
+      "words": []
+    },
+    {
+      "start": 106.19999999999999,
+      "end": 107.84,
+      "text": "And in the next lightning talk,",
+      "words": []
+    },
+    {
+      "start": 107.84,
+      "end": 108.84,
+      "text": "after this by Peter,",
+      "words": []
+    },
+    {
+      "start": 108.84,
+      "end": 112.56,
+      "text": "we'll go a more depth in the MCP authentication,",
+      "words": []
+    },
+    {
+      "start": 112.56,
+      "end": 115.84,
+      "text": "so that will not be mentioned in this session.",
+      "words": []
+    },
+    {
+      "start": 117.48,
+      "end": 120.0,
+      "text": "So then there are different use cases.",
+      "words": []
+    },
+    {
+      "start": 120.0,
+      "end": 122.44,
+      "text": "So for example, you wanna have cross project financial",
+      "words": []
+    },
+    {
+      "start": 122.44,
+      "end": 125.88,
+      "text": "and risk analytics, more from management perspective,",
+      "words": []
+    },
+    {
+      "start": 125.88,
+      "end": 130.04,
+      "text": "maturity improvements for different local business teams,",
+      "words": []
+    },
+    {
+      "start": 130.04,
+      "end": 132.28,
+      "text": "or very project specific insights.",
+      "words": []
+    },
+    {
+      "start": 132.28,
+      "end": 134.8,
+      "text": "And for each different use case,",
+      "words": []
+    },
+    {
+      "start": 134.8,
+      "end": 137.8,
+      "text": "you would want to have different APS APIs",
+      "words": []
+    },
+    {
+      "start": 137.8,
+      "end": 139.28,
+      "text": "to do that in a secure way.",
+      "words": []
+    },
+    {
+      "start": 140.28,
+      "end": 143.52,
+      "text": "So you can imagine currently you could basically use anything",
+      "words": []
+    },
+    {
+      "start": 143.52,
+      "end": 145.28,
+      "text": "for any of those use cases,",
+      "words": []
+    },
+    {
+      "start": 145.28,
+      "end": 148.0,
+      "text": "but that doesn't mean it is the correct way of doing it.",
+      "words": []
+    },
+    {
+      "start": 149.12,
+      "end": 151.72,
+      "text": "And of course, you could put all kinds of filtering",
+      "words": []
+    },
+    {
+      "start": 151.72,
+      "end": 153.68,
+      "text": "of data in place,",
+      "words": []
+    },
+    {
+      "start": 153.68,
+      "end": 157.24,
+      "text": "by with different developers that could implement that",
+      "words": []
+    },
+    {
+      "start": 157.24,
+      "end": 158.96,
+      "text": "in Azure or in Amazon.",
+      "words": []
+    },
+    {
+      "start": 159.96,
+      "end": 161.76,
+      "text": "But at the end of the day,",
+      "words": []
+    },
+    {
+      "start": 161.76,
+      "end": 165.48,
+      "text": "you'll see that the actual access is based on the API.",
+      "words": []
+    },
+    {
+      "start": 165.48,
+      "end": 167.84,
+      "text": "So that is before doing the filtering.",
+      "words": []
+    },
+    {
+      "start": 167.88,
+      "end": 170.48,
+      "text": "So there can be still a lot of security risks",
+      "words": []
+    },
+    {
+      "start": 170.48,
+      "end": 172.52,
+      "text": "that most of the people are not aware of,",
+      "words": []
+    },
+    {
+      "start": 172.52,
+      "end": 175.8,
+      "text": "both internal and external software defenders.",
+      "words": []
+    },
+    {
+      "start": 178.72,
+      "end": 182.08,
+      "text": "So what API should you use for what use case?",
+      "words": []
+    },
+    {
+      "start": 182.08,
+      "end": 185.8,
+      "text": "Because there are quite some risks and challenges",
+      "words": []
+    },
+    {
+      "start": 185.8,
+      "end": 189.6,
+      "text": "that especially enterprise organizations have.",
+      "words": []
+    },
+    {
+      "start": 189.6,
+      "end": 193.08,
+      "text": "So the amount of agents, automation scripts",
+      "words": []
+    },
+    {
+      "start": 193.08,
+      "end": 194.44,
+      "text": "are scaling rapidly.",
+      "words": []
+    },
+    {
+      "start": 195.07999999999998,
+      "end": 200.07999999999998,
+      "text": "And many, many companies just use the most flexible API",
+      "words": []
+    },
+    {
+      "start": 200.56,
+      "end": 202.8,
+      "text": "to be able to have access to everything",
+      "words": []
+    },
+    {
+      "start": 202.8,
+      "end": 205.64,
+      "text": "because most companies don't check that.",
+      "words": []
+    },
+    {
+      "start": 205.64,
+      "end": 208.16,
+      "text": "But that of course is a very, very big risk",
+      "words": []
+    },
+    {
+      "start": 208.16,
+      "end": 210.48,
+      "text": "because you have overexposed data,",
+      "words": []
+    },
+    {
+      "start": 210.48,
+      "end": 212.56,
+      "text": "you have no user context,",
+      "words": []
+    },
+    {
+      "start": 212.56,
+      "end": 214.28,
+      "text": "and it's almost impossible to out it,",
+      "words": []
+    },
+    {
+      "start": 214.28,
+      "end": 216.52,
+      "text": "who did what if something goes wrong.",
+      "words": []
+    },
+    {
+      "start": 219.24,
+      "end": 220.88,
+      "text": "If you then look at the use cases,",
+      "words": []
+    },
+    {
+      "start": 220.92,
+      "end": 225.92,
+      "text": "so to lack access to to lack token is very insecure.",
+      "words": []
+    },
+    {
+      "start": 226.92,
+      "end": 230.68,
+      "text": "But you can still use that for certain purposes.",
+      "words": []
+    },
+    {
+      "start": 230.68,
+      "end": 233.84,
+      "text": "So what you do here is you connect the APS API",
+      "words": []
+    },
+    {
+      "start": 233.84,
+      "end": 235.24,
+      "text": "to different former hubs.",
+      "words": []
+    },
+    {
+      "start": 236.16,
+      "end": 239.6,
+      "text": "And that means there is a full access to that hub.",
+      "words": []
+    },
+    {
+      "start": 239.6,
+      "end": 242.2,
+      "text": "So there is no way to say you can only have access",
+      "words": []
+    },
+    {
+      "start": 242.2,
+      "end": 246.76,
+      "text": "to that project or to, yeah, to that data inside the project.",
+      "words": []
+    },
+    {
+      "start": 246.76,
+      "end": 248.72,
+      "text": "So it's full hub access.",
+      "words": []
+    },
+    {
+      "start": 248.72,
+      "end": 252.35999999999999,
+      "text": "And this is actually what by far most external software",
+      "words": []
+    },
+    {
+      "start": 252.35999999999999,
+      "end": 254.24,
+      "text": "vendors are currently using,",
+      "words": []
+    },
+    {
+      "start": 254.24,
+      "end": 256.96,
+      "text": "they just don't promote it this way,",
+      "words": []
+    },
+    {
+      "start": 256.96,
+      "end": 260.12,
+      "text": "just because this is for them the easiest way of doing things.",
+      "words": []
+    },
+    {
+      "start": 260.12,
+      "end": 262.2,
+      "text": "It's a very high security risk.",
+      "words": []
+    },
+    {
+      "start": 263.24,
+      "end": 264.96,
+      "text": "And then in the application level,",
+      "words": []
+    },
+    {
+      "start": 264.96,
+      "end": 267.04,
+      "text": "so the developer themselves,",
+      "words": []
+    },
+    {
+      "start": 267.04,
+      "end": 269.8,
+      "text": "you can filter it down using the APS API,",
+      "words": []
+    },
+    {
+      "start": 269.8,
+      "end": 272.76,
+      "text": "you can say this kind of API calls can be made,",
+      "words": []
+    },
+    {
+      "start": 272.76,
+      "end": 274.04,
+      "text": "this one cannot be made.",
+      "words": []
+    },
+    {
+      "start": 275.0,
+      "end": 278.36,
+      "text": "Can we only post or also get information from the system?",
+      "words": []
+    },
+    {
+      "start": 279.56,
+      "end": 281.16,
+      "text": "And then in the interface itself,",
+      "words": []
+    },
+    {
+      "start": 281.16,
+      "end": 283.56,
+      "text": "so in the front end, the user interface,",
+      "words": []
+    },
+    {
+      "start": 283.56,
+      "end": 285.24,
+      "text": "that's where all the security happens.",
+      "words": []
+    },
+    {
+      "start": 286.84000000000003,
+      "end": 289.32000000000005,
+      "text": "Then eventually you deploy it within that tool",
+      "words": []
+    },
+    {
+      "start": 289.32000000000005,
+      "end": 291.16,
+      "text": "where you implement it to security and",
+      "words": []
+    },
+    {
+      "start": 292.12,
+      "end": 294.68,
+      "text": "and you can get that those insights.",
+      "words": []
+    },
+    {
+      "start": 294.68,
+      "end": 297.08000000000004,
+      "text": "And because the two lacked token is used,",
+      "words": []
+    },
+    {
+      "start": 297.08000000000004,
+      "end": 300.12,
+      "text": "you can do this cross-al you project, cross-al you hubs,",
+      "words": []
+    },
+    {
+      "start": 300.12,
+      "end": 303.8,
+      "text": "and you can get very rich analytics",
+      "words": []
+    },
+    {
+      "start": 303.8,
+      "end": 306.44,
+      "text": "for many different purposes.",
+      "words": []
+    },
+    {
+      "start": 307.48,
+      "end": 309.08,
+      "text": "But that's based on all the data.",
+      "words": []
+    },
+    {
+      "start": 309.08,
+      "end": 311.32,
+      "text": "So you can only exclude an entire hub,",
+      "words": []
+    },
+    {
+      "start": 311.32,
+      "end": 313.16,
+      "text": "like you can see here with Hub C,",
+      "words": []
+    },
+    {
+      "start": 313.16,
+      "end": 315.08,
+      "text": "because in Arcade this case,",
+      "words": []
+    },
+    {
+      "start": 315.08,
+      "end": 317.32,
+      "text": "we put confidential projects in separate hubs,",
+      "words": []
+    },
+    {
+      "start": 318.04,
+      "end": 320.04,
+      "text": "and we can exclude an entire hub.",
+      "words": []
+    },
+    {
+      "start": 320.84000000000003,
+      "end": 323.24,
+      "text": "But in general, the two lacked token has access",
+      "words": []
+    },
+    {
+      "start": 323.24,
+      "end": 324.84000000000003,
+      "text": "to all the data in the entire hub.",
+      "words": []
+    },
+    {
+      "start": 328.52,
+      "end": 331.32,
+      "text": "This is an example where we implemented it within",
+      "words": []
+    },
+    {
+      "start": 331.32,
+      "end": 333.4,
+      "text": "in the co-pilot to the EO agent,",
+      "words": []
+    },
+    {
+      "start": 333.4,
+      "end": 335.8,
+      "text": "and to get some insights,",
+      "words": []
+    },
+    {
+      "start": 335.8,
+      "end": 338.84,
+      "text": "cross-al the projects throughout the entire hub.",
+      "words": []
+    },
+    {
+      "start": 339.71999999999997,
+      "end": 341.8,
+      "text": "Very limited to just a couple of users,",
+      "words": []
+    },
+    {
+      "start": 341.8,
+      "end": 345.32,
+      "text": "because it isn't quite high-risk solution.",
+      "words": []
+    },
+    {
+      "start": 347.24,
+      "end": 348.6,
+      "text": "If you then look at the new approach,",
+      "words": []
+    },
+    {
+      "start": 348.6,
+      "end": 351.08,
+      "text": "the SSA one, where we see the most value,",
+      "words": []
+    },
+    {
+      "start": 352.2,
+      "end": 355.8,
+      "text": "here you can start filtering things down on the API level.",
+      "words": []
+    },
+    {
+      "start": 355.8,
+      "end": 358.44,
+      "text": "So even the developer, whether it's a developer",
+      "words": []
+    },
+    {
+      "start": 358.44,
+      "end": 361.0,
+      "text": "from your company or a former client,",
+      "words": []
+    },
+    {
+      "start": 361.32,
+      "end": 362.76,
+      "text": "you can start filtering them,",
+      "words": []
+    },
+    {
+      "start": 363.32,
+      "end": 366.52,
+      "text": "which means you can say I add a certain robot account",
+      "words": []
+    },
+    {
+      "start": 367.15999999999997,
+      "end": 367.96,
+      "text": "to the projects.",
+      "words": []
+    },
+    {
+      "start": 368.59999999999997,
+      "end": 371.32,
+      "text": "And then that SSA, APS API,",
+      "words": []
+    },
+    {
+      "start": 371.32,
+      "end": 373.64,
+      "text": "can only access the data from those projects.",
+      "words": []
+    },
+    {
+      "start": 374.36,
+      "end": 377.4,
+      "text": "And actually only the access that a robot account,",
+      "words": []
+    },
+    {
+      "start": 377.4,
+      "end": 379.08,
+      "text": "that a fake user has.",
+      "words": []
+    },
+    {
+      "start": 379.08,
+      "end": 381.88,
+      "text": "So even the permissions aside in the project",
+      "words": []
+    },
+    {
+      "start": 381.88,
+      "end": 383.32,
+      "text": "will also be filtered down.",
+      "words": []
+    },
+    {
+      "start": 384.28,
+      "end": 387.0,
+      "text": "In this way, you can still have cross-project analytics,",
+      "words": []
+    },
+    {
+      "start": 387.88,
+      "end": 390.36,
+      "text": "which you can manage that very securely.",
+      "words": []
+    },
+    {
+      "start": 391.71999999999997,
+      "end": 396.2,
+      "text": "You can even implement multiple SSA APIs,",
+      "words": []
+    },
+    {
+      "start": 396.2,
+      "end": 398.92,
+      "text": "and that way based on the user that locks in",
+      "words": []
+    },
+    {
+      "start": 398.92,
+      "end": 400.76,
+      "text": "within your interface,",
+      "words": []
+    },
+    {
+      "start": 400.76,
+      "end": 402.36,
+      "text": "your tooling interface,",
+      "words": []
+    },
+    {
+      "start": 402.36,
+      "end": 404.76,
+      "text": "you could assign the right APS API.",
+      "words": []
+    },
+    {
+      "start": 405.56,
+      "end": 407.56,
+      "text": "And then the amount of filter data,",
+      "words": []
+    },
+    {
+      "start": 407.56,
+      "end": 408.92,
+      "text": "still cross-project data,",
+      "words": []
+    },
+    {
+      "start": 409.64,
+      "end": 412.76,
+      "text": "is then shown in our case for localized teams.",
+      "words": []
+    },
+    {
+      "start": 413.32,
+      "end": 416.52,
+      "text": "So this is already a much more secure way",
+      "words": []
+    },
+    {
+      "start": 416.52,
+      "end": 419.64,
+      "text": "of implementing the APS API.",
+      "words": []
+    },
+    {
+      "start": 421.96,
+      "end": 424.68,
+      "text": "So in this video, you can see that,",
+      "words": []
+    },
+    {
+      "start": 424.68,
+      "end": 425.64,
+      "text": "I zoomed in a little bit.",
+      "words": []
+    },
+    {
+      "start": 426.36,
+      "end": 428.84,
+      "text": "So here is the Azure AI Foundry that we used.",
+      "words": []
+    },
+    {
+      "start": 429.56,
+      "end": 432.2,
+      "text": "So this is based on the SSA, APS API.",
+      "words": []
+    },
+    {
+      "start": 432.84,
+      "end": 436.44,
+      "text": "So it can only talk in this case with projects",
+      "words": []
+    },
+    {
+      "start": 436.44,
+      "end": 437.64,
+      "text": "from Belgian places.",
+      "words": []
+    },
+    {
+      "start": 438.28,
+      "end": 440.92,
+      "text": "So that's a very specific group of 100 projects.",
+      "words": []
+    },
+    {
+      "start": 441.64,
+      "end": 443.88,
+      "text": "And then whatever you try within the agent,",
+      "words": []
+    },
+    {
+      "start": 443.88,
+      "end": 447.32,
+      "text": "it will only be able to reach out to that project data.",
+      "words": []
+    },
+    {
+      "start": 447.64,
+      "end": 448.76,
+      "text": "So that's the big difference",
+      "words": []
+    },
+    {
+      "start": 449.4,
+      "end": 452.76,
+      "text": "with the implementation of the two-legged token",
+      "words": []
+    },
+    {
+      "start": 452.76,
+      "end": 456.03999999999996,
+      "text": "that could reach out in a case to 10,000 projects.",
+      "words": []
+    },
+    {
+      "start": 456.68,
+      "end": 458.76,
+      "text": "And this way it can only be a maximum 100,",
+      "words": []
+    },
+    {
+      "start": 459.56,
+      "end": 461.56,
+      "text": "even for the developer creating this solution.",
+      "words": []
+    },
+    {
+      "start": 462.59999999999997,
+      "end": 464.28,
+      "text": "That's the big difference.",
+      "words": []
+    },
+    {
+      "start": 467.32,
+      "end": 469.08,
+      "text": "Then there are two ways of doing it.",
+      "words": []
+    },
+    {
+      "start": 469.71999999999997,
+      "end": 472.68,
+      "text": "But of course, you can also just outsource the security.",
+      "words": []
+    },
+    {
+      "start": 473.24,
+      "end": 476.76,
+      "text": "So if you have your own standard way of working,",
+      "words": []
+    },
+    {
+      "start": 476.84,
+      "end": 479.8,
+      "text": "and you can also implement your standards and policies",
+      "words": []
+    },
+    {
+      "start": 480.52,
+      "end": 483.24,
+      "text": "as an MCP within another agent.",
+      "words": []
+    },
+    {
+      "start": 483.24,
+      "end": 485.0,
+      "text": "So that's what we did for the third-use case.",
+      "words": []
+    },
+    {
+      "start": 485.88,
+      "end": 488.44,
+      "text": "So we implemented our Arcade as a way of working",
+      "words": []
+    },
+    {
+      "start": 488.44,
+      "end": 489.96,
+      "text": "within the Outerless Assistant.",
+      "words": []
+    },
+    {
+      "start": 490.59999999999997,
+      "end": 492.36,
+      "text": "So that's something what you see in this video.",
+      "words": []
+    },
+    {
+      "start": 493.56,
+      "end": 495.96,
+      "text": "So we connected a security guidance,",
+      "words": []
+    },
+    {
+      "start": 495.96,
+      "end": 498.36,
+      "text": "maturity and compliance, MCPs,",
+      "words": []
+    },
+    {
+      "start": 499.88,
+      "end": 501.15999999999997,
+      "text": "inside the Outerless Assistant,",
+      "words": []
+    },
+    {
+      "start": 501.88,
+      "end": 503.8,
+      "text": "using Microsoft Copilot Studio.",
+      "words": []
+    },
+    {
+      "start": 504.44,
+      "end": 507.56,
+      "text": "So this is a similar output, a similar outcome,",
+      "words": []
+    },
+    {
+      "start": 508.36,
+      "end": 510.44,
+      "text": "but it is very project-specific.",
+      "words": []
+    },
+    {
+      "start": 510.44,
+      "end": 513.48,
+      "text": "So this will only give for that specific project",
+      "words": []
+    },
+    {
+      "start": 514.04,
+      "end": 516.92,
+      "text": "that the user has open for the Outerless Assistant.",
+      "words": []
+    },
+    {
+      "start": 516.92,
+      "end": 519.8,
+      "text": "It will give them the insights that you want to know.",
+      "words": []
+    },
+    {
+      "start": 520.76,
+      "end": 524.76,
+      "text": "But the benefit of this is that you can also use the Outerless Assistant",
+      "words": []
+    },
+    {
+      "start": 524.76,
+      "end": 528.76,
+      "text": "functionalities like creating issues, reviews.",
+      "words": []
+    },
+    {
+      "start": 528.76,
+      "end": 530.36,
+      "text": "But also the other way around.",
+      "words": []
+    },
+    {
+      "start": 530.44,
+      "end": 535.24,
+      "text": "If you integrate in Copilot Studio the ability to connect to your internal systems,",
+      "words": []
+    },
+    {
+      "start": 535.88,
+      "end": 539.48,
+      "text": "the Outerless Assistant can also connect to your internal systems.",
+      "words": []
+    },
+    {
+      "start": 540.36,
+      "end": 543.48,
+      "text": "So this is more an outsourced way of doing the security.",
+      "words": []
+    },
+    {
+      "start": 545.24,
+      "end": 548.04,
+      "text": "Yeah. But then of course you won't have your own agent",
+      "words": []
+    },
+    {
+      "start": 548.04,
+      "end": 549.32,
+      "text": "where you can communicate with.",
+      "words": []
+    },
+    {
+      "start": 551.4,
+      "end": 554.44,
+      "text": "The last one is the one based on the new MCP out,",
+      "words": []
+    },
+    {
+      "start": 554.44,
+      "end": 557.32,
+      "text": "which Peter, after this, is going to handle an East Lightning talk.",
+      "words": []
+    },
+    {
+      "start": 558.2800000000001,
+      "end": 560.2,
+      "text": "So I won't be going in depth into that one.",
+      "words": []
+    },
+    {
+      "start": 561.4000000000001,
+      "end": 564.5200000000001,
+      "text": "But purely looking at this implementation,",
+      "words": []
+    },
+    {
+      "start": 565.6400000000001,
+      "end": 569.8000000000001,
+      "text": "so what the impact was for us is that we now went from limited access",
+      "words": []
+    },
+    {
+      "start": 569.8000000000001,
+      "end": 571.1600000000001,
+      "text": "to company-wide access.",
+      "words": []
+    },
+    {
+      "start": 571.1600000000001,
+      "end": 576.12,
+      "text": "We were able to scale the agents and the automation throughout the company.",
+      "words": []
+    },
+    {
+      "start": 577.48,
+      "end": 581.6400000000001,
+      "text": "So we're more interconnected so we can connect agents together in a secure way.",
+      "words": []
+    },
+    {
+      "start": 582.6800000000001,
+      "end": 585.0,
+      "text": "And most importantly we have course project insights.",
+      "words": []
+    },
+    {
+      "start": 585.64,
+      "end": 590.36,
+      "text": "So we can see data through different projects without breaching any security",
+      "words": []
+    },
+    {
+      "start": 591.32,
+      "end": 593.96,
+      "text": "or any legal restrictions in place.",
+      "words": []
+    },
+    {
+      "start": 596.92,
+      "end": 599.4,
+      "text": "If you now look at what we're currently working on.",
+      "words": []
+    },
+    {
+      "start": 599.4,
+      "end": 604.44,
+      "text": "So as mentioned the last one, the integration of the Acadase policies",
+      "words": []
+    },
+    {
+      "start": 604.44,
+      "end": 606.84,
+      "text": "as an MCP in the Outerless Forma Assistant.",
+      "words": []
+    },
+    {
+      "start": 608.36,
+      "end": 610.92,
+      "text": "The automatic triggering of actions within more",
+      "words": []
+    },
+    {
+      "start": 611.0,
+      "end": 612.92,
+      "text": "Arcade Systems than just shown.",
+      "words": []
+    },
+    {
+      "start": 612.92,
+      "end": 614.4399999999999,
+      "text": "That's in for July on the planning.",
+      "words": []
+    },
+    {
+      "start": 615.8,
+      "end": 618.36,
+      "text": "And then we want to also integrate within the refit out of the",
+      "words": []
+    },
+    {
+      "start": 618.36,
+      "end": 619.3199999999999,
+      "text": "Desk Assistant.",
+      "words": []
+    },
+    {
+      "start": 619.3199999999999,
+      "end": 622.36,
+      "text": "So that is something we have on the planning for September.",
+      "words": []
+    },
+    {
+      "start": 623.4,
+      "end": 627.0799999999999,
+      "text": "And by end of the year we actually want to have a fully integrated MCP",
+      "words": []
+    },
+    {
+      "start": 627.0799999999999,
+      "end": 628.68,
+      "text": "within the Arcade's Assistant.",
+      "words": []
+    },
+    {
+      "start": 628.68,
+      "end": 631.9599999999999,
+      "text": "So instead of connecting Arcade's inside the Outerless,",
+      "words": []
+    },
+    {
+      "start": 631.9599999999999,
+      "end": 634.4399999999999,
+      "text": "we want to look at connecting the Outerless Assistant",
+      "words": []
+    },
+    {
+      "start": 634.4399999999999,
+      "end": 636.12,
+      "text": "within the Arcade's Assistant.",
+      "words": []
+    },
+    {
+      "start": 636.76,
+      "end": 640.4399999999999,
+      "text": "So that's something we want to accomplish by end of this year.",
+      "words": []
+    },
+    {
+      "start": 641.4,
+      "end": 644.4399999999999,
+      "text": "So again this was my short lightning talk.",
+      "words": []
+    },
+    {
+      "start": 644.4399999999999,
+      "end": 649.8,
+      "text": "And again a DEF CON life of course, Peter is going to tell more about the MCP",
+      "words": []
+    },
+    {
+      "start": 649.8,
+      "end": 651.3199999999999,
+      "text": "authentication version.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:46:49.997337+00:00"
+}

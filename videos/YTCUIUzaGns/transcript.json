@@ -1,0 +1,829 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "text": "Good morning, everybody. We're here to present a case start-up senior",
+      "words": []
+    },
+    {
+      "start": 4.0,
+      "end": 8.0,
+      "text": "Opera House using computational design and an interconnected workflow.",
+      "words": []
+    },
+    {
+      "start": 8.0,
+      "end": 14.0,
+      "text": "My name is Manel Vivas. I'm the CEO of 4G Architecture and with me is",
+      "words": []
+    },
+    {
+      "start": 14.0,
+      "end": 18.0,
+      "text": "Miel Padilla, a technical development manager for the company.",
+      "words": []
+    },
+    {
+      "start": 18.0,
+      "end": 24.0,
+      "text": "What is 4G? 4G is an outsourcing company",
+      "words": []
+    },
+    {
+      "start": 24.0,
+      "end": 28.0,
+      "text": "that starts to bring solutions to our clients. We start as a spin-off of",
+      "words": []
+    },
+    {
+      "start": 28.0,
+      "end": 32.0,
+      "text": "construction company to adjust our architectural plans. But we start",
+      "words": []
+    },
+    {
+      "start": 32.0,
+      "end": 36.0,
+      "text": "evolving a bit trying to bring new solutions to our clients that",
+      "words": []
+    },
+    {
+      "start": 36.0,
+      "end": 41.0,
+      "text": "are same clients have come to trust us and we start to engineering plans,",
+      "words": []
+    },
+    {
+      "start": 41.0,
+      "end": 47.0,
+      "text": "construction management services such as quantity take-ups or estimates.",
+      "words": []
+    },
+    {
+      "start": 47.0,
+      "end": 51.0,
+      "text": "We start to show drawings and fabrication documents to the planning and",
+      "words": []
+    },
+    {
+      "start": 51.0,
+      "end": 57.0,
+      "text": "regulations industry and we have done computational design solutions and",
+      "words": []
+    },
+    {
+      "start": 57.0,
+      "end": 63.0,
+      "text": "facade consulting. With all these IECO services that we start",
+      "words": []
+    },
+    {
+      "start": 63.0,
+      "end": 67.0,
+      "text": "bringing they started also asking us to start developing",
+      "words": []
+    },
+    {
+      "start": 67.0,
+      "end": 72.0,
+      "text": "software solutions development solutions that we started doing on our",
+      "words": []
+    },
+    {
+      "start": 72.0,
+      "end": 78.0,
+      "text": "company. What are we going to cover today? First, how to connect with the",
+      "words": []
+    },
+    {
+      "start": 78.0,
+      "end": 86.0,
+      "text": "Revit App, extract the geometry needed of the model and on the second",
+      "words": []
+    },
+    {
+      "start": 86.0,
+      "end": 92.0,
+      "text": "side we're going to do a computational design solution based on",
+      "words": []
+    },
+    {
+      "start": 92.0,
+      "end": 96.0,
+      "text": "panelization and power distribution. Finally we're going to try to bring",
+      "words": []
+    },
+    {
+      "start": 96.0,
+      "end": 102.0,
+      "text": "an interconnected workflow to the table. Now Miel is going to continue",
+      "words": []
+    },
+    {
+      "start": 102.0,
+      "end": 106.0,
+      "text": "with the presentation talking a little bit more about computational design and",
+      "words": []
+    },
+    {
+      "start": 106.0,
+      "end": 111.0,
+      "text": "how these solutions that he's going to bring to the table. Well, hello everyone.",
+      "words": []
+    },
+    {
+      "start": 111.0,
+      "end": 116.0,
+      "text": "We're going to start with the computational design. What is computational design for us?",
+      "words": []
+    },
+    {
+      "start": 116.0,
+      "end": 122.0,
+      "text": "Well, generally speaking computational design is the use of computational",
+      "words": []
+    },
+    {
+      "start": 122.0,
+      "end": 128.0,
+      "text": "power to solve problems. But this topic have like too many topics behind",
+      "words": []
+    },
+    {
+      "start": 128.0,
+      "end": 134.0,
+      "text": "them and one of them are the parameter design. Parametric design is more or",
+      "words": []
+    },
+    {
+      "start": 134.0,
+      "end": 140.0,
+      "text": "less the use of maths, logic, coding skills to try to solve problems but not",
+      "words": []
+    },
+    {
+      "start": 140.0,
+      "end": 147.0,
+      "text": "like a specific problem. We use the code environment to develop systems",
+      "words": []
+    },
+    {
+      "start": 147.0,
+      "end": 152.0,
+      "text": "than allow us to interact with many inputs and create multiple outcomes.",
+      "words": []
+    },
+    {
+      "start": 152.0,
+      "end": 158.0,
+      "text": "We don't make a specific model. We make the logic behind how we are going to",
+      "words": []
+    },
+    {
+      "start": 158.0,
+      "end": 164.0,
+      "text": "develop a model, and parametically speaking if we change something on the",
+      "words": []
+    },
+    {
+      "start": 164.0,
+      "end": 172.0,
+      "text": "inputs we can now look what happened with the outputs. In Arcade, we can",
+      "words": []
+    },
+    {
+      "start": 172.0,
+      "end": 178.0,
+      "text": "develop like surface or shapes that represent the panel of a gate for example.",
+      "words": []
+    },
+    {
+      "start": 178.0,
+      "end": 190.0,
+      "text": "Those models can be created multiple proposals for what specific design.",
+      "words": []
+    },
+    {
+      "start": 190.0,
+      "end": 196.0,
+      "text": "If we did them a little bit with those models, I can get like a rubber algorithm.",
+      "words": []
+    },
+    {
+      "start": 196.0,
+      "end": 202.0,
+      "text": "We can even start to play with panelization strategies that are like",
+      "words": []
+    },
+    {
+      "start": 202.0,
+      "end": 212.0,
+      "text": "we create elements that respect some fabrications constraints and we implement those",
+      "words": []
+    },
+    {
+      "start": 212.0,
+      "end": 218.0,
+      "text": "elements and populate the surface that we create in the parametric design stage.",
+      "words": []
+    },
+    {
+      "start": 218.0,
+      "end": 226.0,
+      "text": "Those panelizations needs to have like the system logic behind.",
+      "words": []
+    },
+    {
+      "start": 226.0,
+      "end": 234.0,
+      "text": "In the example of this, we create a case study based on the Sydney Opera House.",
+      "words": []
+    },
+    {
+      "start": 234.0,
+      "end": 242.0,
+      "text": "The Sydney Opera House is one of the most non geometry complex projects that have the work.",
+      "words": []
+    },
+    {
+      "start": 242.0,
+      "end": 252.0,
+      "text": "We are going to make two approaches on how we are going to cover the shelves of the Sydney Opera House with different panel systems.",
+      "words": []
+    },
+    {
+      "start": 252.0,
+      "end": 258.0,
+      "text": "Our first approach is like covering with squarcing good panels.",
+      "words": []
+    },
+    {
+      "start": 258.0,
+      "end": 264.0,
+      "text": "Just taking an item with one specific size and try to cover with that planar square,",
+      "words": []
+    },
+    {
+      "start": 264.0,
+      "end": 270.0,
+      "text": "the complete area of those shelves that have like too many complex things.",
+      "words": []
+    },
+    {
+      "start": 270.0,
+      "end": 276.0,
+      "text": "One of is the geometry that have like a double carburetor surface.",
+      "words": []
+    },
+    {
+      "start": 276.0,
+      "end": 286.0,
+      "text": "We need to deal how we position those systems to try to cover without having any balls but on the shelf.",
+      "words": []
+    },
+    {
+      "start": 286.0,
+      "end": 302.0,
+      "text": "We developed like a second approach that is our radial trapezoidal panelization that is more or less having the shelves shapes and making some radials of divisions and",
+      "words": []
+    },
+    {
+      "start": 302.0,
+      "end": 310.0,
+      "text": "create panels that have the shape of a trapezoid covering the entire roof.",
+      "words": []
+    },
+    {
+      "start": 310.0,
+      "end": 316.0,
+      "text": "We developed a workflow that is not like a linear process.",
+      "words": []
+    },
+    {
+      "start": 316.0,
+      "end": 322.0,
+      "text": "We start with the design stage and we use like those computational approaches.",
+      "words": []
+    },
+    {
+      "start": 322.0,
+      "end": 336.0,
+      "text": "We are trying to cover also the final stage of a normal building process that is how we are going to back and how we are going to center side the system that we've re-curricated.",
+      "words": []
+    },
+    {
+      "start": 336.0,
+      "end": 346.0,
+      "text": "This first stage is going to cover how the panelizations are developed.",
+      "words": []
+    },
+    {
+      "start": 346.0,
+      "end": 352.0,
+      "text": "Here is the single square panels we have like three main constraints.",
+      "words": []
+    },
+    {
+      "start": 352.0,
+      "end": 357.0,
+      "text": "First we need to keep all the panels with the same dimension.",
+      "words": []
+    },
+    {
+      "start": 357.0,
+      "end": 365.0,
+      "text": "We have a square that have on-site a measure of 4 feet 6 inches and it needs to replicate in the entire surface.",
+      "words": []
+    },
+    {
+      "start": 365.0,
+      "end": 367.0,
+      "text": "Second we need to assure the clip engagement.",
+      "words": []
+    },
+    {
+      "start": 367.0,
+      "end": 370.0,
+      "text": "We need to assure that the system were properly.",
+      "words": []
+    },
+    {
+      "start": 370.0,
+      "end": 376.0,
+      "text": "As you see in this image we have squares that have overlaps.",
+      "words": []
+    },
+    {
+      "start": 376.0,
+      "end": 384.0,
+      "text": "The system needs to have some engagement between the elements and those have like some tolerance.",
+      "words": []
+    },
+    {
+      "start": 384.0,
+      "end": 390.0,
+      "text": "We have like around two inches of tolerance on that interaction, that overlap.",
+      "words": []
+    },
+    {
+      "start": 390.0,
+      "end": 397.0,
+      "text": "Now we need a third constraint that is that we need to keep as close as possible to the surface of the Sydney Opera House shelves.",
+      "words": []
+    },
+    {
+      "start": 397.0,
+      "end": 409.0,
+      "text": "On each condition we are trying to replicate the shelf shape so the system needs to morph those surfaces.",
+      "words": []
+    },
+    {
+      "start": 409.0,
+      "end": 411.0,
+      "text": "We start the process with that model.",
+      "words": []
+    },
+    {
+      "start": 411.0,
+      "end": 416.0,
+      "text": "With that model we use like some shapes for reference.",
+      "words": []
+    },
+    {
+      "start": 416.0,
+      "end": 420.0,
+      "text": "We bring into a computational design environment.",
+      "words": []
+    },
+    {
+      "start": 420.0,
+      "end": 429.0,
+      "text": "We use the shelves and we use a property that have the Sydney Opera House that is that all those shades come from at sphere.",
+      "words": []
+    },
+    {
+      "start": 429.0,
+      "end": 436.0,
+      "text": "The same is fear so those are like triangular cuts of the fear that have the same radius.",
+      "words": []
+    },
+    {
+      "start": 436.0,
+      "end": 442.0,
+      "text": "We use that behavior of the building in our advantage.",
+      "words": []
+    },
+    {
+      "start": 442.0,
+      "end": 454.0,
+      "text": "We cut like a personal sphere that can cover the entire the biggest triangular shape that have the Sydney Opera House shelves.",
+      "words": []
+    },
+    {
+      "start": 455.0,
+      "end": 473.0,
+      "text": "With that geometry we start to create like an iterative process to create a mesh that have the behavior that we want for the system.",
+      "words": []
+    },
+    {
+      "start": 473.0,
+      "end": 490.0,
+      "text": "In this case we create a what mesh onto a surface that is a portion of the fear and that mesh have like so many faces that are near to our from boilish shape.",
+      "words": []
+    },
+    {
+      "start": 490.0,
+      "end": 503.0,
+      "text": "That geometry that we want is not exactly like the square mesh why because the actual panels are square but they are not connected to the edges.",
+      "words": []
+    },
+    {
+      "start": 503.0,
+      "end": 508.0,
+      "text": "So we are not developing a mesh that have square faces.",
+      "words": []
+    },
+    {
+      "start": 508.0,
+      "end": 526.0,
+      "text": "We are more interested in having the proper use of the system and those shingles have some attachment points and those attachment points define a rhomboidal shape and we define what dimensions we need to set as a goal for those measures.",
+      "words": []
+    },
+    {
+      "start": 526.0,
+      "end": 530.0,
+      "text": "We start the optimization process.",
+      "words": []
+    },
+    {
+      "start": 530.0,
+      "end": 546.0,
+      "text": "We use kangaroo kangaroo is a visit base solver that allows to iteratively relax a mesh trying to find the proper shape for each face of the mesh.",
+      "words": []
+    },
+    {
+      "start": 546.0,
+      "end": 561.0,
+      "text": "We set some goals that define the diagonal dimension the angles and the and we assure that the bird is of those faces belongs to the original surface.",
+      "words": []
+    },
+    {
+      "start": 561.0,
+      "end": 574.0,
+      "text": "So the mesh it start to relaxing and iteratively they move through an optimal solution.",
+      "words": []
+    },
+    {
+      "start": 574.0,
+      "end": 597.0,
+      "text": "Once we have that mesh that mesh is not like the final solution that mess just represent like an instructor that we use as a reference to place some coordinate system on each face of the mesh and we develop a code that allows us to place each panel from",
+      "words": []
+    },
+    {
+      "start": 597.0,
+      "end": 605.0,
+      "text": "a normal reference goes from a specific reference to each coordinate system that we develop on the mesh.",
+      "words": []
+    },
+    {
+      "start": 605.0,
+      "end": 609.0,
+      "text": "So we covered entire panelization that we develop.",
+      "words": []
+    },
+    {
+      "start": 609.0,
+      "end": 616.0,
+      "text": "And as I mentioned before we develop a panelization that comes from the prediction of a grid.",
+      "words": []
+    },
+    {
+      "start": 616.0,
+      "end": 625.0,
+      "text": "But we also in that stage we cut the shape in order to match from each shell of the senior house.",
+      "words": []
+    },
+    {
+      "start": 625.0,
+      "end": 639.0,
+      "text": "Once we have the complete area covered by shingles we it's pour back to ravage that geometry and that geometry a proceed with the being worth.",
+      "words": []
+    },
+    {
+      "start": 639.0,
+      "end": 654.0,
+      "text": "We also have like a second approach that is a radial segmentation we take those shells and we make subdivision of each shows a radial and longitudinal wise and that creates like trapezoidal panels.",
+      "words": []
+    },
+    {
+      "start": 654.0,
+      "end": 669.0,
+      "text": "So our constraint are like the maximal a panel size that is five foot by a foot and we have minimal panel size of three inches in both directions.",
+      "words": []
+    },
+    {
+      "start": 669.0,
+      "end": 679.0,
+      "text": "We need to keep panels planner and those planar panels need to emulate the behavior of the shell.",
+      "words": []
+    },
+    {
+      "start": 679.0,
+      "end": 686.0,
+      "text": "We start like a radial instructor that is no more like a subdivision of our sphere.",
+      "words": []
+    },
+    {
+      "start": 686.0,
+      "end": 693.0,
+      "text": "And we connect those subdivision with the actual panel shape with the actual panel dimensions.",
+      "words": []
+    },
+    {
+      "start": 693.0,
+      "end": 700.0,
+      "text": "So if we increase the numbers of division the dimension of the panel are going to be reduced.",
+      "words": []
+    },
+    {
+      "start": 700.0,
+      "end": 714.0,
+      "text": "So the optimization process start defining like for each shell a subdivision of radial segmentation and log do you do in those and mentations.",
+      "words": []
+    },
+    {
+      "start": 714.0,
+      "end": 737.0,
+      "text": "We set those like an input for our solver that is calapagos calapagos is a genetic algorithm solver that take those inputs and start to barine creating a thousand solution of thousands of possible combination and our optimization function is trying to maximize the average panel area.",
+      "words": []
+    },
+    {
+      "start": 737.0,
+      "end": 744.0,
+      "text": "In other words, we're trying to reduce the number of element that cover the shell.",
+      "words": []
+    },
+    {
+      "start": 744.0,
+      "end": 752.0,
+      "text": "Once we have that structure, we make like a procedure similar to the other approach in which we develop the shape of each panel.",
+      "words": []
+    },
+    {
+      "start": 752.0,
+      "end": 763.0,
+      "text": "We take those lines in this case are not mentioned there are lines and we come from those entities to create the actual panel structure.",
+      "words": []
+    },
+    {
+      "start": 763.0,
+      "end": 792.0,
+      "text": "The face the flanges the offset for each join of the system and this approach is geometrically easy, but that create like new challenges not in the design stage phase but in the packing and optimization process if we have different size panels we need to we need to develop a way to order and create and selling to sites and well that's another way to create a new process.",
+      "words": []
+    },
+    {
+      "start": 792.0,
+      "end": 799.0,
+      "text": "Well, that's another problem that when all is the one that are going to cover how we deal with that.",
+      "words": []
+    },
+    {
+      "start": 799.0,
+      "end": 809.0,
+      "text": "Thanks, we are now we're going to talk about the optimization and cure tracking as I said before we work for tailor made solutions for our clients.",
+      "words": []
+    },
+    {
+      "start": 809.0,
+      "end": 816.0,
+      "text": "These are two of the cases that have come aboard for the echo industry that we work for.",
+      "words": []
+    },
+    {
+      "start": 816.0,
+      "end": 829.0,
+      "text": "Most of the time these optimizations or these solutions come think about two things how to save money and how to save time.",
+      "words": []
+    },
+    {
+      "start": 829.0,
+      "end": 831.0,
+      "text": "As we all mentioned earlier.",
+      "words": []
+    },
+    {
+      "start": 831.0,
+      "end": 845.0,
+      "text": "Now we have a new challenge having different size of panels how are we going to pack them the logistics of this packing and how can we present these information adequately for for clients or for the site.",
+      "words": []
+    },
+    {
+      "start": 846.0,
+      "end": 853.0,
+      "text": "We have two inputs or it's actually just one input with twin information Sunit.",
+      "words": []
+    },
+    {
+      "start": 853.0,
+      "end": 871.0,
+      "text": "Everything comes from the revenue model the revenue model we need the geometry has and some more information that it's more metadata that it would be panel sequence or panel installation phases to try to understand the problems that come on the field.",
+      "words": []
+    },
+    {
+      "start": 872.0,
+      "end": 878.0,
+      "text": "The second problem that we're trying to abort or the accurate tracking system.",
+      "words": []
+    },
+    {
+      "start": 878.0,
+      "end": 892.0,
+      "text": "My panel is in which state it has been fabricated it has been installed it's damaged this is a common problem and you should under a lot of applications that can cover the solution.",
+      "words": []
+    },
+    {
+      "start": 892.0,
+      "end": 912.0,
+      "text": "We have the advantage that we know a little bit more of the industry and we try to find solutions that are a bit more direct to the industry where the inputs and we need the same create outputs that we have on the other side or just having a revenue model we can also do it directly from the revenue model.",
+      "words": []
+    },
+    {
+      "start": 913.0,
+      "end": 928.0,
+      "text": "If you want more information but it's not needed you can have also the innovations and the fabrication drawings for each of the panels the fabrication drawings can change to a specific information of each individual panel.",
+      "words": []
+    },
+    {
+      "start": 928.0,
+      "end": 930.0,
+      "text": "How does everything work?",
+      "words": []
+    },
+    {
+      "start": 931.0,
+      "end": 944.0,
+      "text": "We've come with a series of algorithms thinking about each of our different clients some of them have stacking limitations some of them have weight limitations.",
+      "words": []
+    },
+    {
+      "start": 945.0,
+      "end": 970.0,
+      "text": "We try to do depending on the constraints that we have set have a 2d worth 3d solution of the creating process that can have each specific constraint that a client needs what's the difference between other optimization optimization process in the industry they usually don't take into account different type of panels.",
+      "words": []
+    },
+    {
+      "start": 970.0,
+      "end": 985.0,
+      "text": "The flat panel that includes borders soft it's just that the faces are perpendicular are different to the ones that are curved and the ones that are are blue.",
+      "words": []
+    },
+    {
+      "start": 985.0,
+      "end": 998.0,
+      "text": "Right now we're having a process that take all those things into account the flat panels it's going to stretch them up and bring a change of data geometry to a flat geometry.",
+      "words": []
+    },
+    {
+      "start": 998.0,
+      "end": 1009.0,
+      "text": "This then goes to the actual algorithms that we've developed and try to find an optimal solution of how to pack them and how to clearly show that information that we're not sure what the end.",
+      "words": []
+    },
+    {
+      "start": 1009.0,
+      "end": 1027.0,
+      "text": "On the QR side we're thinking about we have some dashboards that bring information of the whole process you can know each project how much panels have been fabricated how many have they have been damaged how many have been installed you can put your own.",
+      "words": []
+    },
+    {
+      "start": 1028.0,
+      "end": 1057.0,
+      "text": "Stats and you can view them and different parts of these are there to different parts of the of them of the ones in the industry one that you can connect it with just one click to the to form and if that if he if the price informer you can update the status from the QR application you can see the actual panels that have been installed or fabricated on real time on your revenue model.",
+      "words": []
+    },
+    {
+      "start": 1057.0,
+      "end": 1082.0,
+      "text": "And to you can put some constraints if someone is telling you that the power is damaged you can force that every damage panel has a picture associated or if you want to have the install panels with also with photographic evidence you can also put to that in we're trying to think the problems that we have seen on the construction industry or in the equity industry.",
+      "words": []
+    },
+    {
+      "start": 1082.0,
+      "end": 1110.0,
+      "text": "The application works easily it's just as any other application you just take a picture of a QR code you change and the former here it says ACC sorry for that the changes new but the former model installation comes up we just connect to the APS happy and and using two different topics we we change the status one we find the project the second one change the property inside each of the pounds.",
+      "words": []
+    },
+    {
+      "start": 1110.0,
+      "end": 1117.0,
+      "text": "Now we're going to present a video that show how does the whole process come up together.",
+      "words": []
+    },
+    {
+      "start": 1117.0,
+      "end": 1133.0,
+      "text": "So to start here you can see the rabbit model from here we just want the geometry to pass it to Ryan or so we're selecting the geometry and with the plugin we're just going to export everything to Ryan.",
+      "words": []
+    },
+    {
+      "start": 1133.0,
+      "end": 1154.0,
+      "text": "That's important to Ryan now we need we're going to work for the quadrilateral solution we do a seed mesh that comes from a sphere that's what you can be seeing here it's first of that mesh and we project the mesh to the sphere.",
+      "words": []
+    },
+    {
+      "start": 1155.0,
+      "end": 1176.0,
+      "text": "And this mesh is the one that we're going to try to optimize with the problems that me and was talking before hand after the mesh is optimized here you have each individual panel how it should be distributed and now we're going to project it to to put it in in every single shell.",
+      "words": []
+    },
+    {
+      "start": 1177.0,
+      "end": 1191.0,
+      "text": "Now we have the individual shell that we have shown before and he could it on each of the shells we exported or imported again to rabbit.",
+      "words": []
+    },
+    {
+      "start": 1191.0,
+      "end": 1194.0,
+      "text": "We've spread it from right to rabbit.",
+      "words": []
+    },
+    {
+      "start": 1195.0,
+      "end": 1201.0,
+      "text": "Now we're going to see this was a big jump but now we're going to do the great optimization.",
+      "words": []
+    },
+    {
+      "start": 1201.0,
+      "end": 1222.0,
+      "text": "It's just one application that you need with the plugin you put the name of the project this is for the rail solution that's the big jump that you saw over there it makes more sense for this type of problems and you just put the link of the form that's telling that of the project and the form.",
+      "words": []
+    },
+    {
+      "start": 1223.0,
+      "end": 1240.0,
+      "text": "It says that it has a successful connection so every change now that you're going to happen the QR application that was already linked as we did the also the the great it's it's now on the on the QR application.",
+      "words": []
+    },
+    {
+      "start": 1241.0,
+      "end": 1252.0,
+      "text": "Everything just with the click of the bottom you just you don't even need to go out of private you can do some of other projects directly from the applications but it ain't needed this is a great application.",
+      "words": []
+    },
+    {
+      "start": 1254.0,
+      "end": 1269.0,
+      "text": "He's was just showing a project here he's here was putting elevations on the project just to have a quick finder when you see one of the individual panels or try to look up on the middle panel you can also have a location of the PDF file.",
+      "words": []
+    },
+    {
+      "start": 1271.0,
+      "end": 1289.0,
+      "text": "So you can see that panel over the left quarter was the panel that that it's look up you can see that you actually have all elevations there and you have the exact page and here is the ACC we just filter the fabricated panels and you can see the whole all the fabricated pounds on the video.",
+      "words": []
+    },
+    {
+      "start": 1289.0,
+      "end": 1298.0,
+      "text": "And just with a simple filter those were the ones that the cura application just scanned and they change it to the model.",
+      "words": []
+    },
+    {
+      "start": 1299.0,
+      "end": 1314.0,
+      "text": "And how the outputs of the of these two workflows goes are this was over here you can have a PDF that also have an action Excel software that excel output that's the one that the cure tracking takes.",
+      "words": []
+    },
+    {
+      "start": 1314.0,
+      "end": 1337.0,
+      "text": "And the creates show each of the individual panels that are in the create and give you some sections if you have different levels it gives you also a view of the different levels on the right side of the cure tracking you can see that there are some dashboards and you can see the elevations shown and it's not on the an image you also have the format part that you can see the revenue model.",
+      "words": []
+    },
+    {
+      "start": 1337.0,
+      "end": 1343.0,
+      "text": "A filtered with the the pounds status as they are interested in.",
+      "words": []
+    },
+    {
+      "start": 1345.0,
+      "end": 1348.0,
+      "text": "Thank you very much again my name is Manol Vivas.",
+      "words": []
+    },
+    {
+      "start": 1349.0,
+      "end": 1359.0,
+      "text": "And like my partner is me Elpadilla if you are some cure codes with our information if you have any questions or anything you can just reach out to us we'll happily help.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:01:32.650252+00:00"
+}

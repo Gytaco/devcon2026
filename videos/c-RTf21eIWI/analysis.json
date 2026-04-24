@@ -1,0 +1,98 @@
+{
+  "video_id": "c-RTf21eIWI",
+  "demo_timestamps": [
+    {
+      "start": 188.0,
+      "end": 345.0,
+      "description": "Introduction to Varies tool for AI rendering"
+    },
+    {
+      "start": 375.0,
+      "end": 435.0,
+      "description": "Using Varies for architectural visualization in Revit"
+    },
+    {
+      "start": 451.0,
+      "end": 533.0,
+      "description": "Generating images from sketches in Varies"
+    },
+    {
+      "start": 670.0,
+      "end": 777.0,
+      "description": "Populating office space with furniture using AI"
+    },
+    {
+      "start": 967.0,
+      "end": 1095.0,
+      "description": "AI enhancements for final renders with people and vegetation"
+    },
+    {
+      "start": 1159.19,
+      "end": 1186.41,
+      "description": "Global enhancement algorithm that improves photorealism of people and vegetation"
+    },
+    {
+      "start": 1210.52,
+      "end": 1278.3,
+      "description": "Post-process upscaling images to save render time via collaboration service"
+    }
+  ],
+  "themes": [
+    "AI in architectural visualization",
+    "AI-enhanced architectural visualization",
+    "Reduction of render times through AI",
+    "Post-process enhancements and upscaling"
+  ],
+  "client_mentions": [
+    {
+      "name": "Kennedy Hills",
+      "context": "a collection of companies working on visualization software for over 25 years",
+      "timestamp": 74.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 126.0
+    },
+    {
+      "name": "Forma",
+      "is_api": false,
+      "timestamp": 127.0
+    },
+    {
+      "name": "3DS Max",
+      "is_api": false,
+      "timestamp": 128.0
+    },
+    {
+      "name": "Maya",
+      "is_api": false,
+      "timestamp": 129.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "ChatGPT",
+      "category": "llm",
+      "context": "used for generating detailed prompts from base images",
+      "timestamp": 559.0
+    },
+    {
+      "name": "Gemini",
+      "category": "llm",
+      "context": "used for generating detailed prompts for architectural images",
+      "timestamp": 560.0
+    },
+    {
+      "name": "Generative AI",
+      "category": "llm",
+      "context": "Used for modifying person attributes like age and hair color in the visualization",
+      "timestamp": 1236.52
+    }
+  ],
+  "summary": "The video explores AI's role in architectural visualization, focusing on reducing render times and enhancing realism in final renders by using tools like Varies. It highlights AI-driven features such as rapid rendering, upscaling for high-resolution outputs, and photorealistic adjustments for people and vegetation, while also discussing future prospects in 3D scene manipulation and construction document automation.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:17:54.545734+00:00"
+}

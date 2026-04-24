@@ -1,0 +1,69 @@
+{
+  "video_id": "yeqwu_wVex0",
+  "demo_timestamps": [
+    {
+      "start": 288.0,
+      "end": 342.0,
+      "description": "Gamma AR uses augmented reality to overlay design models with the real world."
+    },
+    {
+      "start": 372.0,
+      "end": 414.0,
+      "description": "MatterPort creates digital twins by embedding real-world spatial data into AECO workflows."
+    }
+  ],
+  "themes": [
+    "Integration of Autodesk products with partner technologies",
+    "Enhancing construction efficiency through collaborations"
+  ],
+  "client_mentions": [
+    {
+      "name": "Gamma AR",
+      "context": "Used augmented reality to combine design world with real world and built integrations with Autodesk technology.",
+      "timestamp": 287.0
+    },
+    {
+      "name": "MatterPort",
+      "context": "Creates digital twins and integrates spatial data with Autodesk products.",
+      "timestamp": 412.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "Autodesk Forma",
+      "is_api": false,
+      "timestamp": 22.0
+    },
+    {
+      "name": "AutoCAD",
+      "is_api": false,
+      "timestamp": 27.0
+    },
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 27.0
+    },
+    {
+      "name": "Navisworks",
+      "is_api": false,
+      "timestamp": 27.0
+    },
+    {
+      "name": "Civil 3D",
+      "is_api": false,
+      "timestamp": 27.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "Forma AI",
+      "category": "other",
+      "context": "Technology underpinning Autodesk Forma connecting workflows and data.",
+      "timestamp": 77.0
+    }
+  ],
+  "summary": "The video focuses on the importance of the Autodesk Partner Ecosystem for construction companies, highlighting how partners like Gamma AR and MatterPort use integrations with Autodesk solutions. These partnerships enhance project efficiency by utilizing augmented reality and spatial data, ultimately improving outcomes through collaborative workflows.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:18:26.787394+00:00"
+}

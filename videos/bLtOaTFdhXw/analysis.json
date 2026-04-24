@@ -1,0 +1,45 @@
+{
+  "video_id": "bLtOaTFdhXw",
+  "demo_timestamps": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "description": "Comparison of traditional QA process with AI-assisted QA in Revit."
+    }
+  ],
+  "themes": [
+    "AI-assisted QA",
+    "Productivity in design teams",
+    "Digital innovation in AEC"
+  ],
+  "client_mentions": [
+    {
+      "name": "Global Digital Ventures",
+      "context": "Division working with design teams to leverage AI for meaningful value",
+      "timestamp": 60.0
+    },
+    {
+      "name": "Montfag Donald",
+      "context": "Organization having a division focused on digital innovation",
+      "timestamp": 44.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 6.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "AI-driven QA chatbot",
+      "category": "agent",
+      "context": "Transforming QA processes in Revit",
+      "timestamp": 14.0
+    }
+  ],
+  "summary": "The video discusses the implementation of an AI-driven QA chatbot within Revit to enhance productivity by transforming traditional QA processes. The AI technology aims to assist design teams in performing faster, more accurate quality checks, ultimately improving design quality and reducing manual efforts.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:56:04.881844+00:00"
+}

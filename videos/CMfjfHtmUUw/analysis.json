@@ -1,0 +1,39 @@
+{
+  "video_id": "CMfjfHtmUUw",
+  "demo_timestamps": [],
+  "themes": [
+    "Managing APS Usage",
+    "APS Business Model",
+    "APS Subscription Management",
+    "API capacity management",
+    "pass through usage",
+    "Autodesk APS business model"
+  ],
+  "client_mentions": [],
+  "autodesk_products": [
+    {
+      "name": "Autodesk Platform Services",
+      "is_api": false,
+      "timestamp": 7.0
+    },
+    {
+      "name": "APS",
+      "is_api": true,
+      "timestamp": 36.0
+    },
+    {
+      "name": "APS Developer Hub",
+      "is_api": false,
+      "timestamp": 168.0
+    },
+    {
+      "name": "Forma Build",
+      "is_api": false,
+      "timestamp": 2236.0
+    }
+  ],
+  "ai_technologies": [],
+  "summary": "The video discusses the new Autodesk Platform Services (APS) business model, emphasizing the importance of control and visibility over API usage and outlining features available in the APS Developer Hub. It introduces the concept of 'pass-through usage', enabling customers to use APS capacity with third-party applications, and mentions upcoming functionalities like included usage and notifications to streamline subscription management. Autodesk is refining the 'pass-through usage' feature and plans to launch it soon, involving a feature sponsorship program with select customers.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:14:52.916510+00:00"
+}

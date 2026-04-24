@@ -1,0 +1,176 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\yeqwu_wVex0\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\yeqwu_wVex0\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents information about the Autodesk AECO Technology Partner Program, including the speaker's role and date of the presentation.",
+      "products_visible": [
+        "Autodesk AECO"
+      ],
+      "ui_elements": [
+        "Navigating the Autodesk AECO Technology Partner Program",
+        "April 15, 2026"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\yeqwu_wVex0\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents various solutions and platform capabilities in Autodesk Forma, focusing on planning, design, and project management.",
+      "products_visible": [
+        "Autodesk Forma"
+      ],
+      "ui_elements": [
+        "Solutions",
+        "Platform Capabilities",
+        "Connected Data",
+        "Planning & Analysis",
+        "Design Authoring & Collaboration",
+        "Model Management",
+        "Quantification & Estimating",
+        "Bid Management & Qualification",
+        "Project Management",
+        "Cost Management",
+        "Quality & Safety",
+        "Project Closeout",
+        "Operations",
+        "Builders Network",
+        "Data Management",
+        "Insights",
+        "Autodesk AI",
+        "Administration",
+        "Mobile App",
+        "Open Ecosystem"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\yeqwu_wVex0\\frames\\frame_000006.jpg",
+      "timestamp_seconds": 150.0,
+      "frame_index": 6,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing integration with Autodesk products across the AECO lifecycle.",
+      "products_visible": [
+        "Autodesk Revit",
+        "Autodesk Navisworks",
+        "Autodesk AutoCAD",
+        "Autodesk Civil 3D",
+        "Autodesk Forma"
+      ],
+      "ui_elements": [
+        "Forma Data Management",
+        "Autodesk Platform Services",
+        "REST APIs",
+        "GraphQL APIs",
+        "Desktop Plugins",
+        "Partner Cards"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\yeqwu_wVex0\\frames\\frame_000009.jpg",
+      "timestamp_seconds": 240.0,
+      "frame_index": 9,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide highlights the value of Autodesk's AECO ecosystem to partners, customers, and Autodesk itself.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Value to Partners",
+        "Value to Customers",
+        "Value to Autodesk"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\yeqwu_wVex0\\frames\\frame_000011.jpg",
+      "timestamp_seconds": 300.0,
+      "frame_index": 11,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide discussing Gamma AR's progress tracking capabilities with a focus on object precision.",
+      "products_visible": [
+        "Gamma AR",
+        "Autodesk Revit",
+        "Autodesk Navisworks",
+        "Autodesk Forma Build",
+        "Autodesk Forma Data Management"
+      ],
+      "ui_elements": [
+        "Progress tracking with object precision"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\yeqwu_wVex0\\frames\\frame_000013.jpg",
+      "timestamp_seconds": 360.0,
+      "frame_index": 13,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide discussing the integration of Matterport with Autodesk products like Revit, AutoCAD, Forma Build, and Data Management.",
+      "products_visible": [
+        "Matterport",
+        "Autodesk Revit",
+        "Autodesk AutoCAD",
+        "Autodesk Forma Build",
+        "Autodesk Forma Data Management"
+      ],
+      "ui_elements": [
+        "Import Matterport point clouds and BIM files",
+        "Embed Matterport digital twins",
+        "Create and track Forma Build Issues"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\yeqwu_wVex0\\frames\\frame_000015.jpg",
+      "timestamp_seconds": 420.0,
+      "frame_index": 15,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide about an Autodesk program to deliver joint customer value through the AECO technology partner program benefits.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Autodesk Developer Network (ADN) discount",
+        "Launch announcement support",
+        "AECO Integrations Webpage",
+        "Amplify customer-facing collateral",
+        "Social media coordination",
+        "And more!"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\yeqwu_wVex0\\frames\\frame_000016.jpg",
+      "timestamp_seconds": 450.0,
+      "frame_index": 16,
+      "category": "transition",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Make Anything"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:18:22.438699+00:00"
+}

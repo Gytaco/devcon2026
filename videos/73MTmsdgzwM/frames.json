@@ -1,0 +1,240 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\73MTmsdgzwM\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing a Safe Harbor Statement in a presentation context.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Safe Harbor Statement"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\73MTmsdgzwM\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide provides information about the speaker, including expertise and achievements.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "About the Speaker",
+        "Core Expertise",
+        "Achievements & Speaking"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\73MTmsdgzwM\\frames\\frame_000007.jpg",
+      "timestamp_seconds": 180.0,
+      "frame_index": 7,
+      "category": "slides",
+      "keep": true,
+      "description": "This frame shows an agenda for a presentation at an Autodesk DevCon event, covering topics like BIM data access and API usage.",
+      "products_visible": [
+        "Autodesk",
+        "VIKTOR Platform",
+        "AEC Data Model"
+      ],
+      "ui_elements": [
+        "Agenda",
+        "The Problem",
+        "AEC Data Model API",
+        "VIKTOR Platform",
+        "Architecture",
+        "Live Demo",
+        "Code Deep Dive",
+        "Key Takeaways & Next Steps"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\73MTmsdgzwM\\frames\\frame_000010.jpg",
+      "timestamp_seconds": 270.0,
+      "frame_index": 10,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing issues with traditional BIM data access, listing problems such as the need for multiple REST endpoints and hefty JSON downloads.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "The Problem",
+        "Traditional BIM Data Access is Broken",
+        "8\u201310 different REST endpoints to query one model",
+        "Translate entire file before you can access any data",
+        "Download megabytes of JSON, filter client-side",
+        "Model Derivative now PAID (Flex tokens since Dec 2025)"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\73MTmsdgzwM\\frames\\frame_000015.jpg",
+      "timestamp_seconds": 420.0,
+      "frame_index": 15,
+      "category": "slides",
+      "keep": true,
+      "description": "Comparison slide showcasing the workflow differences between REST API and GraphQL.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "REST API Workflow vs GraphQL",
+        "OLD WAY: REST + Model Derivative",
+        "NEW WAY: AEC Data Model + GraphQL"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\73MTmsdgzwM\\frames\\frame_000020.jpg",
+      "timestamp_seconds": 570.0,
+      "frame_index": 20,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide explaining the AEC Data Model with five constructs: Hub, Project, ElementGroup, Element, and Property, along with an example of a door in the graph.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "AEC Data Model",
+        "Hub",
+        "Project",
+        "ElementGroup",
+        "Element",
+        "Property",
+        "EXAMPLE: Door DR-001 in the Graph"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\73MTmsdgzwM\\frames\\frame_000028.jpg",
+      "timestamp_seconds": 810.0,
+      "frame_index": 28,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation showing the VIKTOR platform's architecture for supporting multiple engineering applications.",
+      "products_visible": [
+        "AUTODESK",
+        "VIKTOR"
+      ],
+      "ui_elements": [
+        "VIKTOR Cloud Platform",
+        "VIKTOR Worker Hub",
+        "Tekla Structures",
+        "Autodesk Revit",
+        "ETABS",
+        "Robot Structural",
+        "Civil 3D",
+        "Grasshopper"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\73MTmsdgzwM\\frames\\frame_000035.jpg",
+      "timestamp_seconds": 1020.0,
+      "frame_index": 35,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide comparing the use of VIKTOR with traditional methods for building software features, highlighting differences in lines of code and team requirements.",
+      "products_visible": [
+        "AUTODESK",
+        "VIKTOR"
+      ],
+      "ui_elements": [
+        "With VIKTOR",
+        "Without VIKTOR",
+        "Aspect"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\73MTmsdgzwM\\frames\\frame_000048.jpg",
+      "timestamp_seconds": 1410.0,
+      "frame_index": 48,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents the architecture of 3 API services: Authentication API, AEC Data Model API, and APS Viewer API.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Authentication API",
+        "AEC Data Model API",
+        "APS Viewer API"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\73MTmsdgzwM\\frames\\frame_000052.jpg",
+      "timestamp_seconds": 1530.0,
+      "frame_index": 52,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'Live Application \u2014 7 Analysis Modules' showcasing different analysis modules like Visualization, Compliance Check, and Carbon Analysis.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Visualization",
+        "Query Elements",
+        "Browse ACC",
+        "Compliance Check",
+        "Carbon Analysis",
+        "Cost and Schedule",
+        "Statistics"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\73MTmsdgzwM\\frames\\frame_000053.jpg",
+      "timestamp_seconds": 1560.0,
+      "frame_index": 53,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation showing a table about query properties used in data analysis.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "One Query Powers Everything",
+        "Property",
+        "Used By",
+        "Purpose"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\73MTmsdgzwM\\frames\\frame_000067.jpg",
+      "timestamp_seconds": 1980.0,
+      "frame_index": 67,
+      "category": "slides",
+      "keep": true,
+      "description": "This frame shows a slide from an Autodesk DevCon presentation about transforming BIM data into a unified analytics platform.",
+      "products_visible": [
+        "Autodesk Construction Cloud",
+        "VIKTOR Platform",
+        "Autodesk AEC Data Model API",
+        "ACC Integration"
+      ],
+      "ui_elements": [
+        "WSP",
+        "AEC Data Model"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\73MTmsdgzwM\\frames\\frame_000071.jpg",
+      "timestamp_seconds": 2100.0,
+      "frame_index": 71,
+      "category": "demo",
+      "keep": true,
+      "description": "A demo with a participant in a virtual meeting environment showing a software interface with a cost calculation in progress.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "QTO & Cost",
+        "Calculating results",
+        "QTO Summary"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:13:12.974343+00:00"
+}

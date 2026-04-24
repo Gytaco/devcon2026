@@ -1,0 +1,73 @@
+{
+  "video_id": "TkVsBBBc5MY",
+  "demo_timestamps": [
+    {
+      "start": 379.0,
+      "end": 833.0,
+      "description": "Demonstrating how the AI agent reads and interprets BIM standards, constructs AEC data model queries, and generates results."
+    },
+    {
+      "start": 988.0,
+      "end": 1290.0,
+      "description": "Explaining the architecture of the solution using AWS services and how to build it."
+    },
+    {
+      "start": 1173.0,
+      "end": 1265.0,
+      "description": "The architecture and workflow for AI agent using AWS and Autodesk services, including query processing and issue creation."
+    }
+  ],
+  "themes": [
+    "Automation of BIM standard compliance using AI and AWS",
+    "AI Agent Development",
+    "Integration of AWS and Autodesk Technology",
+    "Automating ACC Projects"
+  ],
+  "client_mentions": [
+    {
+      "name": "AWS",
+      "context": "Describing how AWS automates BIM projects.",
+      "timestamp": 12.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "APS",
+      "is_api": false,
+      "timestamp": 914.0
+    },
+    {
+      "name": "ACC",
+      "is_api": false,
+      "timestamp": 793.0
+    },
+    {
+      "name": "Forma",
+      "is_api": false,
+      "timestamp": 1201.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "Amazon Bedrock",
+      "category": "agent",
+      "context": "Used to build and run the AI agent within AWS.",
+      "timestamp": 1092.0
+    },
+    {
+      "name": "Stranz SDK",
+      "category": "agent",
+      "context": "Framework for building and running AI agents on AWS.",
+      "timestamp": 1179.0
+    },
+    {
+      "name": "Bedrock Knowledge Base",
+      "category": "other",
+      "context": "Used by the AI agent to reference BIM Standards.",
+      "timestamp": 1221.0
+    }
+  ],
+  "summary": "The video discusses AWS's automation of BIM standard compliance in AEC projects using AI agents and Amazon Bedrock, demonstrated through a model check and solution suggestion demo. It highlights the development of the Stranz SDK, which automates ACC projects by integrating Autodesk's APS and Forma with AWS storage and managed services, ensuring a simplified deployment process.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T21:53:06.897032+00:00"
+}

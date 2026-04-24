@@ -1,0 +1,1597 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "text": "Hi everyone, today we're going to talk about building secure AI pipelines with the model context protocol.",
+      "words": []
+    },
+    {
+      "start": 8.0,
+      "end": 24.0,
+      "text": "We'll start with Rho, Messi, AC data, and by the end of this talk, you'll understand how to get that data flowing into AI agents that can actually do useful work safely and more importantly, reliably.",
+      "words": []
+    },
+    {
+      "start": 25.0,
+      "end": 27.0,
+      "text": "So, let me give you a quick introduction.",
+      "words": []
+    },
+    {
+      "start": 28.0,
+      "end": 38.0,
+      "text": "I am CTO at NACORM. My background is in software development with the specialization in high performance graphics, artificial intelligence, and data processing.",
+      "words": []
+    },
+    {
+      "start": 39.0,
+      "end": 44.0,
+      "text": "NACORM develops and applies advanced AI technologies specifically for the AC industry.",
+      "words": []
+    },
+    {
+      "start": 45.0,
+      "end": 51.0,
+      "text": "We help organizations move from experimentation to reliable operational AI systems.",
+      "words": []
+    },
+    {
+      "start": 52.0,
+      "end": 67.0,
+      "text": "That takes three forms, training and awareness through conferences and workshops like this one, AI and data consulting with leading AC partners, and custom software development for AI-powered tools.",
+      "words": []
+    },
+    {
+      "start": 68.0,
+      "end": 75.0,
+      "text": "So, what we're covering today isn't theoretical. This is what we build and deploy every day.",
+      "words": []
+    },
+    {
+      "start": 76.0,
+      "end": 80.0,
+      "text": "Our structure distalk around four pillars.",
+      "words": []
+    },
+    {
+      "start": 81.0,
+      "end": 86.0,
+      "text": "Data, AI, API, and MCP.",
+      "words": []
+    },
+    {
+      "start": 86.0,
+      "end": 92.0,
+      "text": "Together, they'll form the complete picture of what it takes to build intelligent systems in our industry.",
+      "words": []
+    },
+    {
+      "start": 92.0,
+      "end": 94.0,
+      "text": "So, let's work through each one.",
+      "words": []
+    },
+    {
+      "start": 95.0,
+      "end": 101.0,
+      "text": "So, first, data, understanding and labeling your data. This is where everything starts.",
+      "words": []
+    },
+    {
+      "start": 102.0,
+      "end": 109.0,
+      "text": "Second, AI, identifying AI applications and matching the right technique to the right problem.",
+      "words": []
+    },
+    {
+      "start": 110.0,
+      "end": 115.0,
+      "text": "Third, API, connecting systems and exposing capabilities.",
+      "words": []
+    },
+    {
+      "start": 116.0,
+      "end": 121.0,
+      "text": "This is the bridge between your data, your AI, and the outside world.",
+      "words": []
+    },
+    {
+      "start": 122.0,
+      "end": 127.0,
+      "text": "And fourth, MCP, standardizing AI to tool communication.",
+      "words": []
+    },
+    {
+      "start": 128.0,
+      "end": 130.0,
+      "text": "So, let's start with data.",
+      "words": []
+    },
+    {
+      "start": 133.0,
+      "end": 136.0,
+      "text": "Let me get the most important point out of the way first.",
+      "words": []
+    },
+    {
+      "start": 137.0,
+      "end": 141.0,
+      "text": "AI is entirely dependent on data. There is no shortcut.",
+      "words": []
+    },
+    {
+      "start": 142.0,
+      "end": 148.0,
+      "text": "The quality of your AI system is directly proportional to the quality of your data.",
+      "words": []
+    },
+    {
+      "start": 149.0,
+      "end": 153.0,
+      "text": "If your data is messy, your model will be messy.",
+      "words": []
+    },
+    {
+      "start": 154.0,
+      "end": 164.0,
+      "text": "And this is especially relevant in AC, where data is often incomplete, heterogeneous, and scattered across disconnected systems.",
+      "words": []
+    },
+    {
+      "start": 165.0,
+      "end": 174.0,
+      "text": "You might have a Revit model that says one thing, a spreadsheet that says another, and the PDF plan, set that contradicts both.",
+      "words": []
+    },
+    {
+      "start": 175.0,
+      "end": 182.0,
+      "text": "So, before we talk about AI, before we talk about APIs or MCP, we need to understand what data we need to understand.",
+      "words": []
+    },
+    {
+      "start": 183.0,
+      "end": 186.0,
+      "text": "So, we're working with and how to evaluate it.",
+      "words": []
+    },
+    {
+      "start": 188.0,
+      "end": 191.0,
+      "text": "There are six main categories of data.",
+      "words": []
+    },
+    {
+      "start": 192.0,
+      "end": 198.0,
+      "text": "New Merit data, is information, expressed as numbers for measurement or calculation.",
+      "words": []
+    },
+    {
+      "start": 199.0,
+      "end": 201.0,
+      "text": "Because data planning data sensor telemetry.",
+      "words": []
+    },
+    {
+      "start": 202.0,
+      "end": 207.0,
+      "text": "This is often the easiest to work with because it's inherently structured.",
+      "words": []
+    },
+    {
+      "start": 208.0,
+      "end": 215.0,
+      "text": "Then we have text data, such as site reports, contract documents, standards, specifications.",
+      "words": []
+    },
+    {
+      "start": 216.0,
+      "end": 220.0,
+      "text": "It is rich in context, but hard for machines to process automatically.",
+      "words": []
+    },
+    {
+      "start": 222.0,
+      "end": 229.0,
+      "text": "Audio data, such as meeting recordings, voice notes, noise monitoring, it's temporal and dense.",
+      "words": []
+    },
+    {
+      "start": 230.0,
+      "end": 234.0,
+      "text": "A one hour recording contains far more useful information than most people realize.",
+      "words": []
+    },
+    {
+      "start": 234.0,
+      "end": 246.0,
+      "text": "Then we have visual or 2D data, such as CAD drawings, PDF plans, photographs, they are powerful but unstructured.",
+      "words": []
+    },
+    {
+      "start": 247.0,
+      "end": 257.0,
+      "text": "Video, such as drone footage, progress captures, site recordings, its visual data with the added dimension of time.",
+      "words": []
+    },
+    {
+      "start": 258.0,
+      "end": 263.0,
+      "text": "And finally, geometric or 3D data.",
+      "words": []
+    },
+    {
+      "start": 264.0,
+      "end": 268.0,
+      "text": "This is where Revit models, beam, lighter scans and point clouds live.",
+      "words": []
+    },
+    {
+      "start": 269.0,
+      "end": 274.0,
+      "text": "Arguably, the most valuable data type in AC and also the most complex.",
+      "words": []
+    },
+    {
+      "start": 275.0,
+      "end": 282.0,
+      "text": "A beam model isn't just geometry, it's geometry plus metadata, relationships and context.",
+      "words": []
+    },
+    {
+      "start": 283.0,
+      "end": 293.0,
+      "text": "So, each of these behave differently, it's processed differently and becomes and comes with its own challenges.",
+      "words": []
+    },
+    {
+      "start": 295.0,
+      "end": 300.0,
+      "text": "Now, how do we evaluate whether our data is any good?",
+      "words": []
+    },
+    {
+      "start": 301.0,
+      "end": 303.0,
+      "text": "There are 4 key attributes.",
+      "words": []
+    },
+    {
+      "start": 305.0,
+      "end": 309.0,
+      "text": "Accuracy, consistency, completeness and accessibility.",
+      "words": []
+    },
+    {
+      "start": 310.0,
+      "end": 313.0,
+      "text": "So, accuracy.",
+      "words": []
+    },
+    {
+      "start": 314.0,
+      "end": 317.0,
+      "text": "Does data, correct, reflect real-world facts?",
+      "words": []
+    },
+    {
+      "start": 318.0,
+      "end": 321.0,
+      "text": "An accurate dataset hits the target.",
+      "words": []
+    },
+    {
+      "start": 322.0,
+      "end": 327.0,
+      "text": "A precise but inaccurate dataset clusters tightly by in the wrong place.",
+      "words": []
+    },
+    {
+      "start": 328.0,
+      "end": 338.0,
+      "text": "In AC, a precise dataset could be a model that shows dimensions consistently, but they're all 5 cm off from the actual site.",
+      "words": []
+    },
+    {
+      "start": 339.0,
+      "end": 341.0,
+      "text": "And that's not what we want.",
+      "words": []
+    },
+    {
+      "start": 342.0,
+      "end": 344.0,
+      "text": "Consistency.",
+      "words": []
+    },
+    {
+      "start": 345.0,
+      "end": 349.0,
+      "text": "Is the data represented identically across system?",
+      "words": []
+    },
+    {
+      "start": 350.0,
+      "end": 361.0,
+      "text": "If one system calls an element A01 cube with dimensions in meters and another calls it a cube A1 for example, with dimensions in decimeters, you have a consistency problem.",
+      "words": []
+    },
+    {
+      "start": 362.0,
+      "end": 365.0,
+      "text": "Same object, different representations.",
+      "words": []
+    },
+    {
+      "start": 366.0,
+      "end": 368.0,
+      "text": "Completeness.",
+      "words": []
+    },
+    {
+      "start": 369.0,
+      "end": 371.0,
+      "text": "Is all required data captured?",
+      "words": []
+    },
+    {
+      "start": 372.0,
+      "end": 376.0,
+      "text": "An incomplete dataset is like a puzzle with missing pieces.",
+      "words": []
+    },
+    {
+      "start": 377.0,
+      "end": 381.0,
+      "text": "You might be able to guess what goes there, but your AI system can't.",
+      "words": []
+    },
+    {
+      "start": 382.0,
+      "end": 385.0,
+      "text": "And finally, accessibility.",
+      "words": []
+    },
+    {
+      "start": 386.0,
+      "end": 392.0,
+      "text": "Can authorized users or system actually locate, retrieve and use the data when they need it?",
+      "words": []
+    },
+    {
+      "start": 392.0,
+      "end": 401.0,
+      "text": "Data locked behind permissions, buried in legacy systems, or stored in unreadable formats is effectively invisible.",
+      "words": []
+    },
+    {
+      "start": 403.0,
+      "end": 408.0,
+      "text": "So beyond those four attributes, there are several other factors worth watching.",
+      "words": []
+    },
+    {
+      "start": 409.0,
+      "end": 413.0,
+      "text": "Internal versus external quality.",
+      "words": []
+    },
+    {
+      "start": 414.0,
+      "end": 419.0,
+      "text": "Internal quality is about your own systems, where you set the rules.",
+      "words": []
+    },
+    {
+      "start": 420.0,
+      "end": 426.0,
+      "text": "External quality is about how your data interfaces with partners and standards.",
+      "words": []
+    },
+    {
+      "start": 427.0,
+      "end": 432.0,
+      "text": "You don't control external quality, so always make sure to validate any data you receive.",
+      "words": []
+    },
+    {
+      "start": 434.0,
+      "end": 437.0,
+      "text": "Structured versus unstructured data.",
+      "words": []
+    },
+    {
+      "start": 438.0,
+      "end": 443.0,
+      "text": "Structured data lives in tables, columns and fields.",
+      "words": []
+    },
+    {
+      "start": 444.0,
+      "end": 446.0,
+      "text": "It's easy to query, easy to connect.",
+      "words": []
+    },
+    {
+      "start": 447.0,
+      "end": 456.0,
+      "text": "Unstructured data, such as emails, PDFs, images, conversations, has no fixed format, but is often rich in context.",
+      "words": []
+    },
+    {
+      "start": 457.0,
+      "end": 464.0,
+      "text": "The good news is that unstructured data can be transformed, with automatic classification, object detection, entity recognition.",
+      "words": []
+    },
+    {
+      "start": 465.0,
+      "end": 469.0,
+      "text": "This technique extracts structured from unstructured data.",
+      "words": []
+    },
+    {
+      "start": 471.0,
+      "end": 473.0,
+      "text": "Then we have data quantity.",
+      "words": []
+    },
+    {
+      "start": 473.0,
+      "end": 475.0,
+      "text": "More is not always better.",
+      "words": []
+    },
+    {
+      "start": 476.0,
+      "end": 485.0,
+      "text": "A database with a million records can be less useful than a sample of 100,000 that covers all observed situations.",
+      "words": []
+    },
+    {
+      "start": 487.0,
+      "end": 488.0,
+      "text": "And noise.",
+      "words": []
+    },
+    {
+      "start": 489.0,
+      "end": 495.0,
+      "text": "Error news, inconsistent or random values that don't represent reality.",
+      "words": []
+    },
+    {
+      "start": 496.0,
+      "end": 499.0,
+      "text": "Noise hides real trends and reduce reliability.",
+      "words": []
+    },
+    {
+      "start": 500.0,
+      "end": 506.0,
+      "text": "It comes from data entry errors, miscalibrated sensors, incomplete records and bad format conversions.",
+      "words": []
+    },
+    {
+      "start": 509.0,
+      "end": 511.0,
+      "text": "So, how does all of this come together?",
+      "words": []
+    },
+    {
+      "start": 512.0,
+      "end": 514.0,
+      "text": "Through the AC data pipeline.",
+      "words": []
+    },
+    {
+      "start": 515.0,
+      "end": 520.0,
+      "text": "Five stages, collection, evaluation, structuring, cleaning and enrichment.",
+      "words": []
+    },
+    {
+      "start": 522.0,
+      "end": 524.0,
+      "text": "Each stage builds on the previous one.",
+      "words": []
+    },
+    {
+      "start": 524.0,
+      "end": 529.0,
+      "text": "And skipping any of them means your downstream AI systems will be broken.",
+      "words": []
+    },
+    {
+      "start": 530.0,
+      "end": 535.0,
+      "text": "This pipeline is what connects the data pillar to everything else.",
+      "words": []
+    },
+    {
+      "start": 536.0,
+      "end": 540.0,
+      "text": "Clean, structured and rich data is what feeds the AI models.",
+      "words": []
+    },
+    {
+      "start": 541.0,
+      "end": 545.0,
+      "text": "Flows through the APIs and finally gets exposed via MCP.",
+      "words": []
+    },
+    {
+      "start": 547.0,
+      "end": 549.0,
+      "text": "So, that's the data foundation.",
+      "words": []
+    },
+    {
+      "start": 550.0,
+      "end": 553.0,
+      "text": "Now, let's talk about what we can actually do with the data.",
+      "words": []
+    },
+    {
+      "start": 554.0,
+      "end": 557.0,
+      "text": "The AI and pillar is artificial intelligence.",
+      "words": []
+    },
+    {
+      "start": 559.0,
+      "end": 561.0,
+      "text": "AI isn't one technology.",
+      "words": []
+    },
+    {
+      "start": 562.0,
+      "end": 564.0,
+      "text": "It's a family of techniques.",
+      "words": []
+    },
+    {
+      "start": 565.0,
+      "end": 570.0,
+      "text": "And the useful way to understand them is through the lens of human capabilities.",
+      "words": []
+    },
+    {
+      "start": 571.0,
+      "end": 581.0,
+      "text": "Human can see, hear, speak, understand language, act in the physical world, learn from experience, find relevant information and reason through complex problems.",
+      "words": []
+    },
+    {
+      "start": 581.0,
+      "end": 586.0,
+      "text": "AI mirrors each of these with a corresponding technology.",
+      "words": []
+    },
+    {
+      "start": 587.0,
+      "end": 591.0,
+      "text": "Now, MCP was mainly built around language understanding.",
+      "words": []
+    },
+    {
+      "start": 592.0,
+      "end": 594.0,
+      "text": "That's where LLMs operate.",
+      "words": []
+    },
+    {
+      "start": 595.0,
+      "end": 597.0,
+      "text": "But that doesn't mean you can ignore the rest.",
+      "words": []
+    },
+    {
+      "start": 598.0,
+      "end": 603.0,
+      "text": "You need to understand all of these technologies so you can pick the right one for the right problem.",
+      "words": []
+    },
+    {
+      "start": 604.0,
+      "end": 606.0,
+      "text": "Not every task needs an LLM.",
+      "words": []
+    },
+    {
+      "start": 607.0,
+      "end": 609.0,
+      "text": "Sometimes you need computer vision.",
+      "words": []
+    },
+    {
+      "start": 609.0,
+      "end": 611.0,
+      "text": "Sometimes you need machine learning.",
+      "words": []
+    },
+    {
+      "start": 612.0,
+      "end": 614.0,
+      "text": "The point is knowing which tools fit.",
+      "words": []
+    },
+    {
+      "start": 615.0,
+      "end": 621.0,
+      "text": "So, let me walk you through four of these capabilities with AAC specific examples.",
+      "words": []
+    },
+    {
+      "start": 624.0,
+      "end": 633.0,
+      "text": "The ability to hear and speak maps to STT, speech to text and TTS, text to speech technologies.",
+      "words": []
+    },
+    {
+      "start": 634.0,
+      "end": 641.0,
+      "text": "These enable voice synthesis and transcription, converting text to speech and vice versa.",
+      "words": []
+    },
+    {
+      "start": 643.0,
+      "end": 649.0,
+      "text": "In AAC, STT, speech to text, enables automated beam model documentation.",
+      "words": []
+    },
+    {
+      "start": 650.0,
+      "end": 658.0,
+      "text": "Spoken notes from inspectors and architects are transcribed directly into beam data, reducing manual input.",
+      "words": []
+    },
+    {
+      "start": 659.0,
+      "end": 672.0,
+      "text": "TTS and STT together, power virtual beam assistance that can answer questions about materials, compliance and model data through natural conversation.",
+      "words": []
+    },
+    {
+      "start": 674.0,
+      "end": 676.0,
+      "text": "Understanding language.",
+      "words": []
+    },
+    {
+      "start": 677.0,
+      "end": 681.0,
+      "text": "These maps to natural language processing or NLP.",
+      "words": []
+    },
+    {
+      "start": 682.0,
+      "end": 688.0,
+      "text": "It enables interpretation, analysis and extraction of information from text data.",
+      "words": []
+    },
+    {
+      "start": 690.0,
+      "end": 695.0,
+      "text": "The goal is to extract meaning, behavior and emotion from written content.",
+      "words": []
+    },
+    {
+      "start": 696.0,
+      "end": 705.0,
+      "text": "These powers automated compliance checking where NLP analyzes regulations and compers them to beam models to flag non-compliance.",
+      "words": []
+    },
+    {
+      "start": 706.0,
+      "end": 719.0,
+      "text": "It also enables issue tracking and reporting, where the model processes incident reports, emails, chats and field notes and links them to the beam elements for faster resolution.",
+      "words": []
+    },
+    {
+      "start": 722.0,
+      "end": 729.0,
+      "text": "Fighting relevant information, maps to retrieval, augmented generation or RIGD.",
+      "words": []
+    },
+    {
+      "start": 730.0,
+      "end": 738.0,
+      "text": "RIG combines information retrieval and contexts content generation to deliver accurate contextual responses.",
+      "words": []
+    },
+    {
+      "start": 740.0,
+      "end": 748.0,
+      "text": "These powers automated specification matching or the model compares manufacturer databases with beam requirements to recommend optimal materials.",
+      "words": []
+    },
+    {
+      "start": 749.0,
+      "end": 760.0,
+      "text": "And also smart issue resolution, where AI analyzes past issues and suggests contextual solution within the beam environments.",
+      "words": []
+    },
+    {
+      "start": 763.0,
+      "end": 766.0,
+      "text": "The ability to reason maps to logical inference.",
+      "words": []
+    },
+    {
+      "start": 768.0,
+      "end": 772.0,
+      "text": "This applies rules to make informed decisions based on available data.",
+      "words": []
+    },
+    {
+      "start": 773.0,
+      "end": 786.0,
+      "text": "It powers design conflict resolution, where AI analyzes conflicting requirements, for example, structure versus energy efficiency and suggests optimal solutions.",
+      "words": []
+    },
+    {
+      "start": 787.0,
+      "end": 797.0,
+      "text": "Layout optimization is another example, where the model recommends optimal special layouts based on functional and regulatory requirements.",
+      "words": []
+    },
+    {
+      "start": 798.0,
+      "end": 805.0,
+      "text": "So, we have a good data and we know what AI can do with it.",
+      "words": []
+    },
+    {
+      "start": 806.0,
+      "end": 815.0,
+      "text": "But how do we actually connect these systems? How does AI talk to your BIM platform, your project management tools or your cloud storage?",
+      "words": []
+    },
+    {
+      "start": 817.0,
+      "end": 821.0,
+      "text": "So that brings us to the third pillar, APIs.",
+      "words": []
+    },
+    {
+      "start": 822.0,
+      "end": 830.0,
+      "text": "An API or application programming interface is a contract between two software systems.",
+      "words": []
+    },
+    {
+      "start": 831.0,
+      "end": 836.0,
+      "text": "It defines how one system can request data or trigger actions in another.",
+      "words": []
+    },
+    {
+      "start": 838.0,
+      "end": 845.0,
+      "text": "Four key characteristics. First, we have defined endpoints, URLs that identify specific resources.",
+      "words": []
+    },
+    {
+      "start": 846.0,
+      "end": 852.0,
+      "text": "Then we have structured requests and response formats, typically in JSON.",
+      "words": []
+    },
+    {
+      "start": 853.0,
+      "end": 861.0,
+      "text": "We also have authentication via API keys or token. And finally, documentation with versioning.",
+      "words": []
+    },
+    {
+      "start": 863.0,
+      "end": 872.0,
+      "text": "So, how does an API work? The cycle is straightforward. The client sends a request to a specific endpoint.",
+      "words": []
+    },
+    {
+      "start": 873.0,
+      "end": 881.0,
+      "text": "Say, get projects 1, 2, 3. The server processes the requests, accesses its database.",
+      "words": []
+    },
+    {
+      "start": 882.0,
+      "end": 887.0,
+      "text": "The server returns a structured response with a status code and data.",
+      "words": []
+    },
+    {
+      "start": 889.0,
+      "end": 901.0,
+      "text": "The core elements are the endpoints, the method such as get, post, put, delete, the headers for metadata and authentication and the body for data.",
+      "words": []
+    },
+    {
+      "start": 902.0,
+      "end": 907.0,
+      "text": "And then we have our payloads. This is the foundation of every modern web service.",
+      "words": []
+    },
+    {
+      "start": 907.0,
+      "end": 911.0,
+      "text": "A browser does this thousands of times a day.",
+      "words": []
+    },
+    {
+      "start": 912.0,
+      "end": 923.0,
+      "text": "Now, here's where things get interesting. APIs are powerful, but they have a fundamental weakness, the n times m problem.",
+      "words": []
+    },
+    {
+      "start": 924.0,
+      "end": 934.0,
+      "text": "Without a standard, connecting n AI models to m tools requires n times m custom integrations.",
+      "words": []
+    },
+    {
+      "start": 935.0,
+      "end": 941.0,
+      "text": "Each one built from scratch, maintained independently, updated when either side changes.",
+      "words": []
+    },
+    {
+      "start": 942.0,
+      "end": 949.0,
+      "text": "So, three AI models times four tools equals 12 custom adaptators.",
+      "words": []
+    },
+    {
+      "start": 950.0,
+      "end": 957.0,
+      "text": "And the cost grows exponentially, not linearly. Every new model or tool multiplies the work.",
+      "words": []
+    },
+    {
+      "start": 958.0,
+      "end": 966.0,
+      "text": "In a field where new models and new tools appear every month, this becomes unsustainable very quickly.",
+      "words": []
+    },
+    {
+      "start": 968.0,
+      "end": 972.0,
+      "text": "Let me give you three APIs examples.",
+      "words": []
+    },
+    {
+      "start": 972.0,
+      "end": 977.0,
+      "text": "First one, Autodesk Platform Services or APS.",
+      "words": []
+    },
+    {
+      "start": 977.0,
+      "end": 983.0,
+      "text": "The API layer for accessing BIM data, managing files, translating models.",
+      "words": []
+    },
+    {
+      "start": 983.0,
+      "end": 989.0,
+      "text": "It has restful endpoints for data management, model derivative and ACC.",
+      "words": []
+    },
+    {
+      "start": 990.0,
+      "end": 997.0,
+      "text": "Secondly, the LLM provider APIs, such as OpenAI and Thropic or Gemini.",
+      "words": []
+    },
+    {
+      "start": 997.0,
+      "end": 1003.0,
+      "text": "You send prompts and you receive completions, fixed request formats.",
+      "words": []
+    },
+    {
+      "start": 1003.0,
+      "end": 1013.0,
+      "text": "And finally, the ACC API is specifically for issues, RFIs, project members and construction lifecycle automation.",
+      "words": []
+    },
+    {
+      "start": 1013.0,
+      "end": 1023.0,
+      "text": "All three are well designed, well documented, but each requires a separate custom integration.",
+      "words": []
+    },
+    {
+      "start": 1023.0,
+      "end": 1033.0,
+      "text": "If you want an AI agent that talks to all three, you need three different connectors, three authentication flows, three responses formats.",
+      "words": []
+    },
+    {
+      "start": 1034.0,
+      "end": 1038.0,
+      "text": "This is exactly the problem MCP was designed to solve.",
+      "words": []
+    },
+    {
+      "start": 1038.0,
+      "end": 1051.0,
+      "text": "So, APIs are essential. They're show how systems communicate, but when it comes to AI, their static nature and the n times m problem, create real friction.",
+      "words": []
+    },
+    {
+      "start": 1051.0,
+      "end": 1058.0,
+      "text": "Let's close that gap with the fourth and final pillar, MCP, the model context protocol.",
+      "words": []
+    },
+    {
+      "start": 1060.0,
+      "end": 1074.0,
+      "text": "What is MCP? MCP is an open standard for communication between large language models and external systems, tools, APIs, databases, even other LLMs.",
+      "words": []
+    },
+    {
+      "start": 1075.0,
+      "end": 1079.0,
+      "text": "It's often referred to as the USB-C of AI.",
+      "words": []
+    },
+    {
+      "start": 1079.0,
+      "end": 1087.0,
+      "text": "Before USB-C, every device had its own connector. Every time you got a new device, you needed a new cable.",
+      "words": []
+    },
+    {
+      "start": 1087.0,
+      "end": 1095.0,
+      "text": "MCP does the same thing for AI. Before MCP, each connection between the model and the tool was custom built.",
+      "words": []
+    },
+    {
+      "start": 1095.0,
+      "end": 1102.0,
+      "text": "A developer had to create a different proprietary adapter for each LLM and each tool.",
+      "words": []
+    },
+    {
+      "start": 1102.0,
+      "end": 1111.0,
+      "text": "So, MCP creates a standard plug. Any MCP compatible LLM can instantly connect to any MCP compatible tool.",
+      "words": []
+    },
+    {
+      "start": 1111.0,
+      "end": 1114.0,
+      "text": "Reasonable and it's also interoperable.",
+      "words": []
+    },
+    {
+      "start": 1115.0,
+      "end": 1120.0,
+      "text": "This is how MCP solves the n times m problem.",
+      "words": []
+    },
+    {
+      "start": 1120.0,
+      "end": 1128.0,
+      "text": "Instead of building custom adapters for every combination, MCP uses a one to many approach.",
+      "words": []
+    },
+    {
+      "start": 1128.0,
+      "end": 1135.0,
+      "text": "So, you build one MCP server per tool and it works with any MCP compatible client.",
+      "words": []
+    },
+    {
+      "start": 1135.0,
+      "end": 1143.0,
+      "text": "You build one MCP client per host and it works with any MCP server.",
+      "words": []
+    },
+    {
+      "start": 1143.0,
+      "end": 1148.0,
+      "text": "You can add new tools without modifying the AI agent.",
+      "words": []
+    },
+    {
+      "start": 1148.0,
+      "end": 1152.0,
+      "text": "You can reuse servers across projects, teams and organizations.",
+      "words": []
+    },
+    {
+      "start": 1153.0,
+      "end": 1159.0,
+      "text": "You can swap LLMs without rewriting the tool integrations.",
+      "words": []
+    },
+    {
+      "start": 1159.0,
+      "end": 1168.0,
+      "text": "The same MCP server you build for Autodesk APH today works with Claude, Copilot or any future MCP compatible host.",
+      "words": []
+    },
+    {
+      "start": 1168.0,
+      "end": 1172.0,
+      "text": "No adapter needed.",
+      "words": []
+    },
+    {
+      "start": 1172.0,
+      "end": 1175.0,
+      "text": "Every MCP system has two sides.",
+      "words": []
+    },
+    {
+      "start": 1175.0,
+      "end": 1182.0,
+      "text": "The MCP client lives inside the AI application, an IDE, a chatbot, a desktop agent.",
+      "words": []
+    },
+    {
+      "start": 1182.0,
+      "end": 1190.0,
+      "text": "It manages connections, forwards tool calls from the LLM and returns responses.",
+      "words": []
+    },
+    {
+      "start": 1190.0,
+      "end": 1194.0,
+      "text": "The MCP server is on the tool side.",
+      "words": []
+    },
+    {
+      "start": 1194.0,
+      "end": 1202.0,
+      "text": "It's a lightweight service that registers tools, resources and prompts and handles execution,",
+      "words": []
+    },
+    {
+      "start": 1202.0,
+      "end": 1210.0,
+      "text": "such as API calls, file reads, database queries and can run locally or remotely.",
+      "words": []
+    },
+    {
+      "start": 1210.0,
+      "end": 1214.0,
+      "text": "The server doesn't need to know which LLM is calling it.",
+      "words": []
+    },
+    {
+      "start": 1214.0,
+      "end": 1217.0,
+      "text": "The client doesn't need to know how the tool works internally.",
+      "words": []
+    },
+    {
+      "start": 1217.0,
+      "end": 1222.0,
+      "text": "The protocol handles the translation.",
+      "words": []
+    },
+    {
+      "start": 1222.0,
+      "end": 1228.0,
+      "text": "MCP defines three core components that a server can expose.",
+      "words": []
+    },
+    {
+      "start": 1228.0,
+      "end": 1232.0,
+      "text": "These are called primitive.",
+      "words": []
+    },
+    {
+      "start": 1232.0,
+      "end": 1235.0,
+      "text": "Prompts are user-controlled.",
+      "words": []
+    },
+    {
+      "start": 1235.0,
+      "end": 1238.0,
+      "text": "Now, this isn't what you might think.",
+      "words": []
+    },
+    {
+      "start": 1238.0,
+      "end": 1242.0,
+      "text": "An MCP, an MCP or prompt, isn't just text someone types.",
+      "words": []
+    },
+    {
+      "start": 1242.0,
+      "end": 1250.0,
+      "text": "It's a predefined template that the server registers and makes available, like a shortcut.",
+      "words": []
+    },
+    {
+      "start": 1250.0,
+      "end": 1252.0,
+      "text": "Think of it as a saved workflow.",
+      "words": []
+    },
+    {
+      "start": 1252.0,
+      "end": 1257.0,
+      "text": "For example, analyze this Revit model for code compliance.",
+      "words": []
+    },
+    {
+      "start": 1257.0,
+      "end": 1267.0,
+      "text": "The user selects it, the server fills in the context and the LLM receives a fully structured request.",
+      "words": []
+    },
+    {
+      "start": 1267.0,
+      "end": 1271.0,
+      "text": "It is the user that triggers it.",
+      "words": []
+    },
+    {
+      "start": 1271.0,
+      "end": 1275.0,
+      "text": "Resources are application-controlled.",
+      "words": []
+    },
+    {
+      "start": 1275.0,
+      "end": 1278.0,
+      "text": "Data the server makes available for context.",
+      "words": []
+    },
+    {
+      "start": 1278.0,
+      "end": 1284.0,
+      "text": "Project files, beam metadata, user preferences, think of them like get and points.",
+      "words": []
+    },
+    {
+      "start": 1284.0,
+      "end": 1286.0,
+      "text": "Read only context.",
+      "words": []
+    },
+    {
+      "start": 1286.0,
+      "end": 1289.0,
+      "text": "Tools are model-controlled.",
+      "words": []
+    },
+    {
+      "start": 1289.0,
+      "end": 1293.0,
+      "text": "Functions, the LLM can call to perform actions.",
+      "words": []
+    },
+    {
+      "start": 1293.0,
+      "end": 1297.0,
+      "text": "Create an issue, get model properties, run class detections.",
+      "words": []
+    },
+    {
+      "start": 1297.0,
+      "end": 1301.0,
+      "text": "The LLM decides when and how to use them.",
+      "words": []
+    },
+    {
+      "start": 1301.0,
+      "end": 1309.0,
+      "text": "Prompts for workflows, resources for context, tools for action.",
+      "words": []
+    },
+    {
+      "start": 1309.0,
+      "end": 1314.0,
+      "text": "This brings us to a fundamental concept.",
+      "words": []
+    },
+    {
+      "start": 1314.0,
+      "end": 1320.0,
+      "text": "LLMs are powerful, but they operate in a limited context window.",
+      "words": []
+    },
+    {
+      "start": 1320.0,
+      "end": 1326.0,
+      "text": "An LLM with no project context gives generic answers.",
+      "words": []
+    },
+    {
+      "start": 1326.0,
+      "end": 1333.0,
+      "text": "An LLM with relevant project context gives specific useful answers.",
+      "words": []
+    },
+    {
+      "start": 1333.0,
+      "end": 1338.0,
+      "text": "The difference is almost entirely about context.",
+      "words": []
+    },
+    {
+      "start": 1338.0,
+      "end": 1342.0,
+      "text": "MCP manages what goes into that context window.",
+      "words": []
+    },
+    {
+      "start": 1342.0,
+      "end": 1348.0,
+      "text": "Prompts frame the task, resource inject structured data.",
+      "words": []
+    },
+    {
+      "start": 1348.0,
+      "end": 1354.0,
+      "text": "Tool results provide real-time information from life system.",
+      "words": []
+    },
+    {
+      "start": 1354.0,
+      "end": 1363.0,
+      "text": "Now, validation and security matter a lot because we're giving AI the ability to interact with real systems.",
+      "words": []
+    },
+    {
+      "start": 1363.0,
+      "end": 1369.0,
+      "text": "Real-bim data, real project files, real production environments.",
+      "words": []
+    },
+    {
+      "start": 1369.0,
+      "end": 1374.0,
+      "text": "MCP introduces structured control at three levels.",
+      "words": []
+    },
+    {
+      "start": 1374.0,
+      "end": 1376.0,
+      "text": "Input validation.",
+      "words": []
+    },
+    {
+      "start": 1376.0,
+      "end": 1379.0,
+      "text": "Every tool defines a schema.",
+      "words": []
+    },
+    {
+      "start": 1379.0,
+      "end": 1383.0,
+      "text": "Parameters are validated before execution.",
+      "words": []
+    },
+    {
+      "start": 1383.0,
+      "end": 1387.0,
+      "text": "Maltformed requests are rejected.",
+      "words": []
+    },
+    {
+      "start": 1387.0,
+      "end": 1392.0,
+      "text": "The LLM cannot call a tool with unexpected arguments.",
+      "words": []
+    },
+    {
+      "start": 1392.0,
+      "end": 1394.0,
+      "text": "Human in the loop.",
+      "words": []
+    },
+    {
+      "start": 1394.0,
+      "end": 1400.0,
+      "text": "The host can require user approval before executing sensitive actions.",
+      "words": []
+    },
+    {
+      "start": 1400.0,
+      "end": 1406.0,
+      "text": "Delayed, modified, published, these go through a confirmation step.",
+      "words": []
+    },
+    {
+      "start": 1406.0,
+      "end": 1409.0,
+      "text": "Transport security.",
+      "words": []
+    },
+    {
+      "start": 1409.0,
+      "end": 1414.0,
+      "text": "Local servers use STDIO with no network exposure.",
+      "words": []
+    },
+    {
+      "start": 1414.0,
+      "end": 1420.0,
+      "text": "Remote servers use HTTPS plus authentication.",
+      "words": []
+    },
+    {
+      "start": 1420.0,
+      "end": 1424.0,
+      "text": "MCP doesn't give the AI an unrestricted access.",
+      "words": []
+    },
+    {
+      "start": 1424.0,
+      "end": 1433.0,
+      "text": "It gives it controlled, validated, auditable access with human staying in the loop for high-stakes decisions.",
+      "words": []
+    },
+    {
+      "start": 1433.0,
+      "end": 1438.0,
+      "text": "So, let me make this concrete with the real-world example.",
+      "words": []
+    },
+    {
+      "start": 1438.0,
+      "end": 1444.0,
+      "text": "This is how GitHub Copilot actually works with MCP.",
+      "words": []
+    },
+    {
+      "start": 1444.0,
+      "end": 1448.0,
+      "text": "Imagine a developer in VSCO asking Copilot.",
+      "words": []
+    },
+    {
+      "start": 1448.0,
+      "end": 1457.0,
+      "text": "The latest release broke the login feature, run the test suite, find the failing test, and tell me what's wrong.",
+      "words": []
+    },
+    {
+      "start": 1457.0,
+      "end": 1460.0,
+      "text": "There are three actors in this architecture.",
+      "words": []
+    },
+    {
+      "start": 1460.0,
+      "end": 1462.0,
+      "text": "The host is your ID.",
+      "words": []
+    },
+    {
+      "start": 1462.0,
+      "end": 1466.0,
+      "text": "The VSCO in your face will retive the comment.",
+      "words": []
+    },
+    {
+      "start": 1466.0,
+      "end": 1474.0,
+      "text": "The brain is the remote LLM, the powerful reasoning engine running in the cloud.",
+      "words": []
+    },
+    {
+      "start": 1474.0,
+      "end": 1483.0,
+      "text": "The hand is the local MCP server, a service running on your machine with approved access to your terminal and file system.",
+      "words": []
+    },
+    {
+      "start": 1483.0,
+      "end": 1487.0,
+      "text": "Here's what happens, step by step.",
+      "words": []
+    },
+    {
+      "start": 1487.0,
+      "end": 1492.0,
+      "text": "Step one, the host sends prompt to the remote brain.",
+      "words": []
+    },
+    {
+      "start": 1492.0,
+      "end": 1497.0,
+      "text": "Step two, the brain understands that a terminal command is needed.",
+      "words": []
+    },
+    {
+      "start": 1497.0,
+      "end": 1502.0,
+      "text": "It sends a standardized tool call back to the ID.",
+      "words": []
+    },
+    {
+      "start": 1502.0,
+      "end": 1508.0,
+      "text": "Tool name, run terminal command, parameters, command, npm test.",
+      "words": []
+    },
+    {
+      "start": 1508.0,
+      "end": 1512.0,
+      "text": "Step three, the host receives this plan.",
+      "words": []
+    },
+    {
+      "start": 1512.0,
+      "end": 1520.0,
+      "text": "It validates the command, asks for approval if needed, and forwards the call to the local hand.",
+      "words": []
+    },
+    {
+      "start": 1520.0,
+      "end": 1526.0,
+      "text": "Step four, the hand runs npm tests on the local terminal.",
+      "words": []
+    },
+    {
+      "start": 1526.0,
+      "end": 1532.0,
+      "text": "The test fails and produces a raw error log.",
+      "words": []
+    },
+    {
+      "start": 1532.0,
+      "end": 1537.0,
+      "text": "Step five, the hand sends that error log back to the brain.",
+      "words": []
+    },
+    {
+      "start": 1537.0,
+      "end": 1543.0,
+      "text": "The brain reads the log and there sends which test failed and generates the answer.",
+      "words": []
+    },
+    {
+      "start": 1543.0,
+      "end": 1550.0,
+      "text": "The error is in tests.auth.test.js on the user login page.",
+      "words": []
+    },
+    {
+      "start": 1550.0,
+      "end": 1553.0,
+      "text": "The local hand acts in the real world.",
+      "words": []
+    },
+    {
+      "start": 1553.0,
+      "end": 1556.0,
+      "text": "The remote brain provides the intelligence.",
+      "words": []
+    },
+    {
+      "start": 1556.0,
+      "end": 1563.0,
+      "text": "And the MCP standardizes the entire communication flow between them.",
+      "words": []
+    },
+    {
+      "start": 1563.0,
+      "end": 1567.0,
+      "text": "The brain never touches your file system directly.",
+      "words": []
+    },
+    {
+      "start": 1567.0,
+      "end": 1571.0,
+      "text": "The hand never needs to understand the task.",
+      "words": []
+    },
+    {
+      "start": 1571.0,
+      "end": 1577.0,
+      "text": "Each component does what it's best at and the protocol handles the rest.",
+      "words": []
+    },
+    {
+      "start": 1577.0,
+      "end": 1582.0,
+      "text": "So, let's bring it all together.",
+      "words": []
+    },
+    {
+      "start": 1582.0,
+      "end": 1588.0,
+      "text": "The path from raw data to intelligent agents isn't magic.",
+      "words": []
+    },
+    {
+      "start": 1588.0,
+      "end": 1591.0,
+      "text": "It is software architecture.",
+      "words": []
+    },
+    {
+      "start": 1591.0,
+      "end": 1596.0,
+      "text": "So you have data and your AI is only as good as the data you've fed it.",
+      "words": []
+    },
+    {
+      "start": 1596.0,
+      "end": 1601.0,
+      "text": "So you have to know what you have, clean it, and structure it.",
+      "words": []
+    },
+    {
+      "start": 1601.0,
+      "end": 1605.0,
+      "text": "AI, pick the right capability for the right task.",
+      "words": []
+    },
+    {
+      "start": 1605.0,
+      "end": 1608.0,
+      "text": "Not everything needs an LLM.",
+      "words": []
+    },
+    {
+      "start": 1608.0,
+      "end": 1615.0,
+      "text": "API, APIs connect systems, but they weren't designed to interface with LLMs.",
+      "words": []
+    },
+    {
+      "start": 1615.0,
+      "end": 1619.0,
+      "text": "Every new model or tool multiplies the integration work.",
+      "words": []
+    },
+    {
+      "start": 1619.0,
+      "end": 1625.0,
+      "text": "And finally, MCP standardizes AI to tool communication.",
+      "words": []
+    },
+    {
+      "start": 1625.0,
+      "end": 1629.0,
+      "text": "You build ones and you connect anywhere.",
+      "words": []
+    },
+    {
+      "start": 1629.0,
+      "end": 1632.0,
+      "text": "These four pillars are the foundations.",
+      "words": []
+    },
+    {
+      "start": 1632.0,
+      "end": 1643.0,
+      "text": "Each one is necessary and together they give you everything you need to build intelligent, secure, production ready, AI systems for AC.",
+      "words": []
+    },
+    {
+      "start": 1643.0,
+      "end": 1645.0,
+      "text": "And that's it.",
+      "words": []
+    },
+    {
+      "start": 1645.0,
+      "end": 1648.0,
+      "text": "Thank you very much for listening to me.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T21:54:57.531032+00:00"
+}

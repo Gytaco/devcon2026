@@ -1,0 +1,35 @@
+{
+  "video_id": "1nGB_tqCCnk",
+  "demo_timestamps": [],
+  "themes": [
+    "AI Renaissance in AEC",
+    "Knowledge evolution",
+    "Human-AI collaboration",
+    "AI integration in workflows",
+    "Knowledge management and continuous learning",
+    "Change management and organizational transformation"
+  ],
+  "client_mentions": [
+    {
+      "name": "Global E-Training",
+      "context": "Susan Braper is the Founder and Chief Customer Officer at Global E-Training.",
+      "timestamp": 5.0
+    },
+    {
+      "name": "Globally Training",
+      "context": "Helping teams move from silent expertise to shared intelligence and partnering with Autodesk.",
+      "timestamp": 0.21
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "APS",
+      "is_api": true,
+      "timestamp": 0.23
+    }
+  ],
+  "ai_technologies": [],
+  "summary": "The video discusses the transformative impact of AI and Autodesk APS in the Architecture, Engineering, and Construction (AEC) industries, emphasizing an 'AI Renaissance' marked by dynamic knowledge and continuous learning. It highlights the necessity for structure, standards, and change management in adapting human behavior to technological advancements. The partnership between Globally Training and Autodesk is aimed at supporting organizations in implementing and mastering these innovations.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T21:50:07.752966+00:00"
+}

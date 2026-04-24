@@ -1,0 +1,134 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Azpc8l69S4M\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon titled 'APS and AI for Large Scale Project Delivery' with speaker details.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "APS and AI for Large Scale Project Delivery",
+        "End-to-End Control for your Deliverables",
+        "AUTODESK DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Azpc8l69S4M\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide titled 'A weekend adventure' showing an assortment of ingredients and a dish, with 'Dinner without a recipe' subtitle.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Azpc8l69S4M\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses challenges in AEC projects, focusing on the clarity of project deliverables and roles.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "The Challenge",
+        "What are we actually delivering?",
+        "Who is supposed to deliver it?",
+        "Where do we stand right now?",
+        "Are the deliverables compliant?",
+        "Are the deliverables issued already?"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Azpc8l69S4M\\frames\\frame_000007.jpg",
+      "timestamp_seconds": 180.0,
+      "frame_index": 7,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide explains the traditional workflow in three steps using Excel and Revit, highlighting key challenges such as disconnected data.",
+      "products_visible": [
+        "Autodesk",
+        "Revit",
+        "Autodesk Forma"
+      ],
+      "ui_elements": [
+        "Traditional Workflow",
+        "Define",
+        "Create",
+        "Deliver",
+        "Disconnected Data"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Azpc8l69S4M\\frames\\frame_000011.jpg",
+      "timestamp_seconds": 300.0,
+      "frame_index": 11,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide shows a roadmap with steps including centralization, connection to models, and AI implementation.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Our roadmap",
+        "Centralization",
+        "Connection to Models",
+        "Design Guidelines",
+        "Automated Exports",
+        "Real Use Case",
+        "Automatic Sheet Creation",
+        "AI Implementation"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Azpc8l69S4M\\frames\\frame_000036.jpg",
+      "timestamp_seconds": 1050.0,
+      "frame_index": 36,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide titled 'Netflix & Chill' with a cartoon showing an overwhelmed person surrounded by many choices on Netflix.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Netflix"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Azpc8l69S4M\\frames\\frame_000037.jpg",
+      "timestamp_seconds": 1080.0,
+      "frame_index": 37,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'Netflix & Chill' showing a cartoon of someone overwhelmed by Netflix options with the Autodesk DevCon branding.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Netflix & Chill"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Azpc8l69S4M\\frames\\frame_000045.jpg",
+      "timestamp_seconds": 1320.0,
+      "frame_index": 45,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon showing a humorous quote about 'redlining' documents overnight.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:49:48.826368+00:00"
+}

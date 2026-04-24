@@ -1,0 +1,1861 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.84,
+      "text": "Hello everyone, today we're going to talk about business models and pricing strategies.",
+      "words": []
+    },
+    {
+      "start": 7.84,
+      "end": 13.68,
+      "text": "This is our Safe Harbor statement.",
+      "words": []
+    },
+    {
+      "start": 13.68,
+      "end": 19.04,
+      "text": "And just to introduce ourselves, my name is Emil Cafuri, I'm the senior director for platform",
+      "words": []
+    },
+    {
+      "start": 19.04,
+      "end": 24.8,
+      "text": "engineering and the at the focused on the developer ecosystem.",
+      "words": []
+    },
+    {
+      "start": 24.8,
+      "end": 30.12,
+      "text": "And with me is my colleague, Erica Beffert, who's the director of product management,",
+      "words": []
+    },
+    {
+      "start": 30.12,
+      "end": 34.84,
+      "text": "also for the developer ecosystem.",
+      "words": []
+    },
+    {
+      "start": 34.84,
+      "end": 40.08,
+      "text": "So let's start with choosing the right business model.",
+      "words": []
+    },
+    {
+      "start": 40.08,
+      "end": 42.040000000000006,
+      "text": "You've built something great.",
+      "words": []
+    },
+    {
+      "start": 42.040000000000006,
+      "end": 46.16,
+      "text": "Now what do you do?",
+      "words": []
+    },
+    {
+      "start": 46.16,
+      "end": 51.28,
+      "text": "If you've been to any of my other classes, you'll know I'm a big fan of starting with the basics,",
+      "words": []
+    },
+    {
+      "start": 51.28,
+      "end": 53.56,
+      "text": "the product market fit.",
+      "words": []
+    },
+    {
+      "start": 53.56,
+      "end": 55.72,
+      "text": "The product market fit is really simple.",
+      "words": []
+    },
+    {
+      "start": 55.72,
+      "end": 62.0,
+      "text": "It's really, do you have the right product for the right market at the right price delivered",
+      "words": []
+    },
+    {
+      "start": 62.0,
+      "end": 68.28,
+      "text": "in the right way so that your customers will pay for it and tell others about it?",
+      "words": []
+    },
+    {
+      "start": 68.28,
+      "end": 73.88,
+      "text": "Even though this is really simple, each one of these items needs to be tested and confirmed",
+      "words": []
+    },
+    {
+      "start": 73.88,
+      "end": 79.2,
+      "text": "to make sure that you have product market fit and are able to go through that hypergrowth",
+      "words": []
+    },
+    {
+      "start": 79.2,
+      "end": 82.84,
+      "text": "cycle.",
+      "words": []
+    },
+    {
+      "start": 82.84,
+      "end": 87.76,
+      "text": "Let me give you an example of the same product that can have different outcomes once you've",
+      "words": []
+    },
+    {
+      "start": 87.76,
+      "end": 92.04,
+      "text": "got the product market fit, right?",
+      "words": []
+    },
+    {
+      "start": 92.04,
+      "end": 97.76,
+      "text": "Here's a product that is a structural inspection and tracking tool.",
+      "words": []
+    },
+    {
+      "start": 97.76,
+      "end": 102.04,
+      "text": "It is a desktop application sold for $99.",
+      "words": []
+    },
+    {
+      "start": 102.04,
+      "end": 107.24000000000001,
+      "text": "And the engineers that are sitting at their desk using this tool absolutely love it.",
+      "words": []
+    },
+    {
+      "start": 107.24000000000001,
+      "end": 112.08000000000001,
+      "text": "Nobody ever pushed back on the price because it was saving over $1,000 a month in labor",
+      "words": []
+    },
+    {
+      "start": 112.08,
+      "end": 113.96,
+      "text": "costs.",
+      "words": []
+    },
+    {
+      "start": 113.96,
+      "end": 117.8,
+      "text": "But the field inspectors that were on the job site weren't able to use it.",
+      "words": []
+    },
+    {
+      "start": 117.8,
+      "end": 122.16,
+      "text": "They don't always have internet access and they don't have a desktop application with",
+      "words": []
+    },
+    {
+      "start": 122.16,
+      "end": 126.72,
+      "text": "them because they're using a mobile application or a tablet.",
+      "words": []
+    },
+    {
+      "start": 126.72,
+      "end": 136.44,
+      "text": "So once the developers of the product realized that they had reached a cap for their sales,",
+      "words": []
+    },
+    {
+      "start": 136.44,
+      "end": 139.6,
+      "text": "they went back and looked at what was holding the product back.",
+      "words": []
+    },
+    {
+      "start": 139.6,
+      "end": 145.56,
+      "text": "They rebuilt it mobile first with offline capable and it would sink once it connected",
+      "words": []
+    },
+    {
+      "start": 145.56,
+      "end": 146.56,
+      "text": "to the internet.",
+      "words": []
+    },
+    {
+      "start": 146.56,
+      "end": 152.24,
+      "text": "It was basically the same product but it was delivered in a different way.",
+      "words": []
+    },
+    {
+      "start": 152.24,
+      "end": 159.79999999999998,
+      "text": "And then they also reassessed the price and they turned it into a $50 a month subscription.",
+      "words": []
+    },
+    {
+      "start": 159.79999999999998,
+      "end": 165.88,
+      "text": "And now with both of these things adjusted and fixed, they started to see significant",
+      "words": []
+    },
+    {
+      "start": 165.88,
+      "end": 170.68,
+      "text": "growth in the product because now it was delivered in the right way and it was properly",
+      "words": []
+    },
+    {
+      "start": 170.68,
+      "end": 174.48,
+      "text": "priced based on the value that was being delivered.",
+      "words": []
+    },
+    {
+      "start": 174.48,
+      "end": 179.79999999999998,
+      "text": "And so it's really important to be able to pick these right tools and be able to use all",
+      "words": []
+    },
+    {
+      "start": 179.79999999999998,
+      "end": 185.12,
+      "text": "of these bits of information that you're getting from your customers.",
+      "words": []
+    },
+    {
+      "start": 185.12,
+      "end": 188.76,
+      "text": "So there are basically three decisions that make up your model.",
+      "words": []
+    },
+    {
+      "start": 188.76,
+      "end": 193.35999999999999,
+      "text": "There's the distribution that you use, there's the pricing that you use and there's the",
+      "words": []
+    },
+    {
+      "start": 193.36,
+      "end": 200.96,
+      "text": "value that you're delivering and does it align with the expectations of your customer.",
+      "words": []
+    },
+    {
+      "start": 200.96,
+      "end": 207.16000000000003,
+      "text": "Let's first jump into the delivery model and look at what your options are and how they",
+      "words": []
+    },
+    {
+      "start": 207.16000000000003,
+      "end": 213.92000000000002,
+      "text": "can be used.",
+      "words": []
+    },
+    {
+      "start": 213.92000000000002,
+      "end": 218.52,
+      "text": "So the first option is the one that most of us are familiar with.",
+      "words": []
+    },
+    {
+      "start": 218.52,
+      "end": 223.88000000000002,
+      "text": "It's basically that option of downloading something, whether it's to your desktop, your",
+      "words": []
+    },
+    {
+      "start": 223.88000000000002,
+      "end": 228.52,
+      "text": "Mac, your PC or downloading it to your phone or tablet.",
+      "words": []
+    },
+    {
+      "start": 228.52,
+      "end": 232.8,
+      "text": "And there's certainly advantages in that most people are used to using that.",
+      "words": []
+    },
+    {
+      "start": 232.8,
+      "end": 237.16000000000003,
+      "text": "But it does create a lot of overhead, there's a lot of different types of hardware.",
+      "words": []
+    },
+    {
+      "start": 237.16000000000003,
+      "end": 243.48000000000002,
+      "text": "And so now you've got to make sure the application that you've built works on everyone's hardware.",
+      "words": []
+    },
+    {
+      "start": 243.48,
+      "end": 245.95999999999998,
+      "text": "And so that is certainly one way to go.",
+      "words": []
+    },
+    {
+      "start": 245.95999999999998,
+      "end": 256.68,
+      "text": "That is the way almost every rev it, AutoCAD, inventor application is delivered to the customers.",
+      "words": []
+    },
+    {
+      "start": 256.68,
+      "end": 265.4,
+      "text": "The other option completely at the other end is a SaaS solution, basically a web application",
+      "words": []
+    },
+    {
+      "start": 265.4,
+      "end": 271.03999999999996,
+      "text": "that is delivered in the same way effectively to everybody.",
+      "words": []
+    },
+    {
+      "start": 271.04,
+      "end": 275.44,
+      "text": "And the advantage of course is that you're building this once and everyone can take advantage",
+      "words": []
+    },
+    {
+      "start": 275.44,
+      "end": 277.48,
+      "text": "of it and use your product.",
+      "words": []
+    },
+    {
+      "start": 277.48,
+      "end": 282.28000000000003,
+      "text": "On the other hand, you're also incurring a lot of costs that you wouldn't be incurring",
+      "words": []
+    },
+    {
+      "start": 282.28000000000003,
+      "end": 287.72,
+      "text": "if you're using the downloader on-prem solution in that you're going to be incurring all",
+      "words": []
+    },
+    {
+      "start": 287.72,
+      "end": 292.64000000000004,
+      "text": "of the hardware costs and all of the maintenance of this product.",
+      "words": []
+    },
+    {
+      "start": 292.64000000000004,
+      "end": 297.32000000000005,
+      "text": "So certainly understanding what the advantages and disadvantages are.",
+      "words": []
+    },
+    {
+      "start": 297.32,
+      "end": 301.96,
+      "text": "And then there's a hybrid solution where it may be a same product, but it's",
+      "words": []
+    },
+    {
+      "start": 301.96,
+      "end": 308.88,
+      "text": "in delivered in different ways or potentially a on-prem or desktop product that is cloud connected",
+      "words": []
+    },
+    {
+      "start": 308.88,
+      "end": 315.56,
+      "text": "and can have extra value delivered once it is connected to the cloud.",
+      "words": []
+    },
+    {
+      "start": 315.56,
+      "end": 320.6,
+      "text": "And then of course the actual way that it's distributed is also really important.",
+      "words": []
+    },
+    {
+      "start": 320.6,
+      "end": 326.24,
+      "text": "Are you selling or providing this product through just your website, in which case people",
+      "words": []
+    },
+    {
+      "start": 326.24,
+      "end": 330.52,
+      "text": "need to be able to find your website, to be able to find your product?",
+      "words": []
+    },
+    {
+      "start": 330.52,
+      "end": 337.76,
+      "text": "Or are you going to leverage a third-party marketplace like Autodesk's Design and Make Marketplace?",
+      "words": []
+    },
+    {
+      "start": 337.76,
+      "end": 342.96000000000004,
+      "text": "Once you do that, it's important to understand all of the cost and all of the value that you're",
+      "words": []
+    },
+    {
+      "start": 342.96000000000004,
+      "end": 343.96000000000004,
+      "text": "getting from it.",
+      "words": []
+    },
+    {
+      "start": 343.96000000000004,
+      "end": 350.28000000000003,
+      "text": "For example, these public marketplaces may have a huge amount of marketing budget and a huge",
+      "words": []
+    },
+    {
+      "start": 350.28000000000003,
+      "end": 353.0,
+      "text": "amount of traffic that goes through them.",
+      "words": []
+    },
+    {
+      "start": 353.0,
+      "end": 360.56,
+      "text": "And so even though it may be more costly than just delivering it on your website, it can",
+      "words": []
+    },
+    {
+      "start": 360.56,
+      "end": 364.44,
+      "text": "actually provide you with a much larger distribution.",
+      "words": []
+    },
+    {
+      "start": 364.44,
+      "end": 370.24,
+      "text": "Over here it's also really important to think about the naming for your product because",
+      "words": []
+    },
+    {
+      "start": 370.24,
+      "end": 375.68,
+      "text": "if you put your company's name on it that could have positive or negative impact on the",
+      "words": []
+    },
+    {
+      "start": 375.68,
+      "end": 376.68,
+      "text": "product.",
+      "words": []
+    },
+    {
+      "start": 376.68,
+      "end": 381.76,
+      "text": "So think long and hard about your brand and whether you want to build your products brand",
+      "words": []
+    },
+    {
+      "start": 381.84,
+      "end": 385.12,
+      "text": "or your company's brand with your product.",
+      "words": []
+    },
+    {
+      "start": 385.12,
+      "end": 390.52,
+      "text": "Just as an example, let's say you are a channel partner and Autodesk channel partner in",
+      "words": []
+    },
+    {
+      "start": 390.52,
+      "end": 394.44,
+      "text": "France and you've built an amazing application.",
+      "words": []
+    },
+    {
+      "start": 394.44,
+      "end": 400.24,
+      "text": "If you put your name on it, it may make it difficult for a channel partner in Italy,",
+      "words": []
+    },
+    {
+      "start": 400.24,
+      "end": 405.32,
+      "text": "for example, to want to sell your product because they don't want to elevate your company",
+      "words": []
+    },
+    {
+      "start": 405.32,
+      "end": 406.32,
+      "text": "brand.",
+      "words": []
+    },
+    {
+      "start": 406.4,
+      "end": 412.76,
+      "text": "Similarly, if you're an engineering company in Italy and you put your name on that product",
+      "words": []
+    },
+    {
+      "start": 412.76,
+      "end": 416.36,
+      "text": "that you're selling, your app that you're selling, you may find out that engineering",
+      "words": []
+    },
+    {
+      "start": 416.36,
+      "end": 423.15999999999997,
+      "text": "companies and other parts of the world may also not want to buy or use your product because",
+      "words": []
+    },
+    {
+      "start": 423.15999999999997,
+      "end": 426.8,
+      "text": "they don't want to be supporting a competitor.",
+      "words": []
+    },
+    {
+      "start": 426.8,
+      "end": 429.96,
+      "text": "So picking that name is really important.",
+      "words": []
+    },
+    {
+      "start": 429.96,
+      "end": 433.12,
+      "text": "Keep that in mind.",
+      "words": []
+    },
+    {
+      "start": 433.12,
+      "end": 437.48,
+      "text": "So out this presentation, I have a number of worksheets for you that you'll also be able",
+      "words": []
+    },
+    {
+      "start": 437.48,
+      "end": 443.28000000000003,
+      "text": "to access that will allow you to work through some of these questions and try and figure",
+      "words": []
+    },
+    {
+      "start": 443.28000000000003,
+      "end": 447.32,
+      "text": "out what the right options are for you.",
+      "words": []
+    },
+    {
+      "start": 447.32,
+      "end": 450.04,
+      "text": "Now moving on to the pricing model.",
+      "words": []
+    },
+    {
+      "start": 450.04,
+      "end": 455.68,
+      "text": "Again, there's many different options and once we get to Erica's presentation, she's",
+      "words": []
+    },
+    {
+      "start": 455.68,
+      "end": 463.8,
+      "text": "going to dig into how these things relate to your connection with Autodesk and Autodesk",
+      "words": []
+    },
+    {
+      "start": 463.8,
+      "end": 471.12,
+      "text": "platform services and the other Autodesk portfolio products.",
+      "words": []
+    },
+    {
+      "start": 471.12,
+      "end": 477.48,
+      "text": "So the most classic way of charging someone for your product is that one time purchase",
+      "words": []
+    },
+    {
+      "start": 477.48,
+      "end": 480.04,
+      "text": "or what's called a perpetual license.",
+      "words": []
+    },
+    {
+      "start": 480.04,
+      "end": 485.0,
+      "text": "The agreement you basically have with your users is you give me your money.",
+      "words": []
+    },
+    {
+      "start": 485.0,
+      "end": 489.6,
+      "text": "I give you the product, we go in different directions and never bother each other again.",
+      "words": []
+    },
+    {
+      "start": 489.6,
+      "end": 496.92,
+      "text": "It's not exactly the world's best customer experience and it really leaves a lot undone.",
+      "words": []
+    },
+    {
+      "start": 496.92,
+      "end": 501.76,
+      "text": "And so there's other ways and sometimes better ways to sell.",
+      "words": []
+    },
+    {
+      "start": 501.76,
+      "end": 507.0,
+      "text": "But keep in mind that almost every app that's sold on the Apple and Google App Store is",
+      "words": []
+    },
+    {
+      "start": 507.0,
+      "end": 508.2,
+      "text": "sold in this way.",
+      "words": []
+    },
+    {
+      "start": 508.2,
+      "end": 513.24,
+      "text": "So there's certainly nothing wrong with this, but there's sometimes better options for",
+      "words": []
+    },
+    {
+      "start": 513.28,
+      "end": 516.48,
+      "text": "more complex products.",
+      "words": []
+    },
+    {
+      "start": 516.48,
+      "end": 523.64,
+      "text": "The next one is a usage based or consumption based pricing model, which basically allows",
+      "words": []
+    },
+    {
+      "start": 523.64,
+      "end": 528.12,
+      "text": "someone to use it and the more they use it, the more they're paying you for it.",
+      "words": []
+    },
+    {
+      "start": 528.12,
+      "end": 535.5600000000001,
+      "text": "And that can align your value with the price very directly.",
+      "words": []
+    },
+    {
+      "start": 535.5600000000001,
+      "end": 541.6800000000001,
+      "text": "But a lot of times people don't want to be burdened by having to worry about how much",
+      "words": []
+    },
+    {
+      "start": 541.76,
+      "end": 545.16,
+      "text": "they use the product and how much it's going to cost them.",
+      "words": []
+    },
+    {
+      "start": 545.16,
+      "end": 547.76,
+      "text": "The next option is a subscription.",
+      "words": []
+    },
+    {
+      "start": 547.76,
+      "end": 553.0799999999999,
+      "text": "And this is sort of where you see a lot of products moving to today, where the agreement",
+      "words": []
+    },
+    {
+      "start": 553.0799999999999,
+      "end": 560.2399999999999,
+      "text": "is I keep providing you with the product as it continues to improve and you the customer",
+      "words": []
+    },
+    {
+      "start": 560.2399999999999,
+      "end": 564.4799999999999,
+      "text": "will continue to pay me for it.",
+      "words": []
+    },
+    {
+      "start": 564.4799999999999,
+      "end": 570.24,
+      "text": "And then there's the premium that can be overlaid on any of these options, which is a certain",
+      "words": []
+    },
+    {
+      "start": 570.24,
+      "end": 576.5600000000001,
+      "text": "amount of usage or a certain level of capabilities are provided for free.",
+      "words": []
+    },
+    {
+      "start": 576.5600000000001,
+      "end": 586.4,
+      "text": "And if the user likes it and wants more of that, then they would start to pay for it.",
+      "words": []
+    },
+    {
+      "start": 586.4,
+      "end": 591.8,
+      "text": "And there's always the option to be able to tear your pricing, sort of a good, better",
+      "words": []
+    },
+    {
+      "start": 591.8,
+      "end": 593.76,
+      "text": "best model.",
+      "words": []
+    },
+    {
+      "start": 593.76,
+      "end": 599.0,
+      "text": "And in this case, what you can do is make sure that everyone has access based on their",
+      "words": []
+    },
+    {
+      "start": 599.0,
+      "end": 600.48,
+      "text": "willingness to pay.",
+      "words": []
+    },
+    {
+      "start": 600.48,
+      "end": 607.96,
+      "text": "So a single user, a less sophisticated user, would be able to go with that good pricing,",
+      "words": []
+    },
+    {
+      "start": 607.96,
+      "end": 609.6,
+      "text": "basic capabilities.",
+      "words": []
+    },
+    {
+      "start": 609.6,
+      "end": 614.92,
+      "text": "The better pricing allows capabilities like collaboration and reporting, sort of more",
+      "words": []
+    },
+    {
+      "start": 614.92,
+      "end": 617.32,
+      "text": "advanced capabilities.",
+      "words": []
+    },
+    {
+      "start": 617.32,
+      "end": 623.88,
+      "text": "And then that best pricing would be for enterprise users, integrating with single sign-on, providing",
+      "words": []
+    },
+    {
+      "start": 623.88,
+      "end": 629.4,
+      "text": "administrator capabilities and service level agreements.",
+      "words": []
+    },
+    {
+      "start": 629.4,
+      "end": 636.72,
+      "text": "And then of course, all of these can be blended together in sort of a hybrid pricing.",
+      "words": []
+    },
+    {
+      "start": 636.72,
+      "end": 644.04,
+      "text": "What's really important though is to make sure that you start very simple with one model,",
+      "words": []
+    },
+    {
+      "start": 644.04,
+      "end": 647.72,
+      "text": "the thing that you think will be the most accessible to your customer.",
+      "words": []
+    },
+    {
+      "start": 647.72,
+      "end": 652.84,
+      "text": "And then layer on complexity as you learn more about the way that your customer is willing",
+      "words": []
+    },
+    {
+      "start": 652.84,
+      "end": 656.0,
+      "text": "to pay for your product.",
+      "words": []
+    },
+    {
+      "start": 656.0,
+      "end": 661.32,
+      "text": "And again, I have a worksheet for you on this one.",
+      "words": []
+    },
+    {
+      "start": 661.32,
+      "end": 667.2800000000001,
+      "text": "The next thing is to really explore the value that you are delivering and how you want",
+      "words": []
+    },
+    {
+      "start": 667.2800000000001,
+      "end": 669.88,
+      "text": "people to pay for it.",
+      "words": []
+    },
+    {
+      "start": 669.88,
+      "end": 673.6,
+      "text": "There's always the simple cost plus model.",
+      "words": []
+    },
+    {
+      "start": 673.6,
+      "end": 677.6800000000001,
+      "text": "Basically you look at what the cost was for you to develop the product and the ongoing",
+      "words": []
+    },
+    {
+      "start": 677.68,
+      "end": 683.4799999999999,
+      "text": "maintenance, amortize that for example over five years, add a margin to it and that's",
+      "words": []
+    },
+    {
+      "start": 683.4799999999999,
+      "end": 685.4,
+      "text": "your price.",
+      "words": []
+    },
+    {
+      "start": 685.4,
+      "end": 691.4,
+      "text": "On the other hand, what we recommend is that you look at value pricing.",
+      "words": []
+    },
+    {
+      "start": 691.4,
+      "end": 697.4399999999999,
+      "text": "And the way that works is you start off for example with a price that is about 10% of",
+      "words": []
+    },
+    {
+      "start": 697.4399999999999,
+      "end": 701.76,
+      "text": "what the customer is saving by using your product.",
+      "words": []
+    },
+    {
+      "start": 701.76,
+      "end": 706.92,
+      "text": "Then you make sure you have a good margin after you've considered your labor cost and your",
+      "words": []
+    },
+    {
+      "start": 706.92,
+      "end": 710.76,
+      "text": "ongoing maintenance cost and infrastructure cost.",
+      "words": []
+    },
+    {
+      "start": 710.76,
+      "end": 716.52,
+      "text": "If the price is too high for your customers to buy it, they may just walk away and you",
+      "words": []
+    },
+    {
+      "start": 716.52,
+      "end": 724.0,
+      "text": "know that you may not have a viable product if it's price too high or if when you add",
+      "words": []
+    },
+    {
+      "start": 724.0,
+      "end": 727.68,
+      "text": "all of your expenses, you simply can't get the margin that you want.",
+      "words": []
+    },
+    {
+      "start": 727.68,
+      "end": 732.68,
+      "text": "So that's an indicator that maybe this is the wrong product, the wrong price delivered",
+      "words": []
+    },
+    {
+      "start": 732.68,
+      "end": 735.9599999999999,
+      "text": "in the wrong way to the wrong people.",
+      "words": []
+    },
+    {
+      "start": 736.0,
+      "end": 740.9200000000001,
+      "text": "On the other hand, if the price is too low, you always have room to be able to raise",
+      "words": []
+    },
+    {
+      "start": 740.9200000000001,
+      "end": 741.9200000000001,
+      "text": "your price.",
+      "words": []
+    },
+    {
+      "start": 741.9200000000001,
+      "end": 744.24,
+      "text": "So that is not necessarily a problem.",
+      "words": []
+    },
+    {
+      "start": 744.24,
+      "end": 750.64,
+      "text": "It allows you to seed the market as you learn more about your customer.",
+      "words": []
+    },
+    {
+      "start": 750.64,
+      "end": 754.2800000000001,
+      "text": "How do you explore the willingness to pay?",
+      "words": []
+    },
+    {
+      "start": 754.2800000000001,
+      "end": 758.5600000000001,
+      "text": "What you don't want to do is basically ask people how much do you want to pay for this",
+      "words": []
+    },
+    {
+      "start": 758.5600000000001,
+      "end": 759.5600000000001,
+      "text": "thing.",
+      "words": []
+    },
+    {
+      "start": 759.5600000000001,
+      "end": 761.6,
+      "text": "First of all, they may low-ball you.",
+      "words": []
+    },
+    {
+      "start": 761.6,
+      "end": 767.4,
+      "text": "One of all, they may actually not know what the value of this product is to them.",
+      "words": []
+    },
+    {
+      "start": 767.4,
+      "end": 772.72,
+      "text": "So ask them questions that helps both of you understand the value that you're delivering.",
+      "words": []
+    },
+    {
+      "start": 772.72,
+      "end": 774.84,
+      "text": "How did you solve this today?",
+      "words": []
+    },
+    {
+      "start": 774.84,
+      "end": 776.84,
+      "text": "What does it cost your team?",
+      "words": []
+    },
+    {
+      "start": 776.84,
+      "end": 779.24,
+      "text": "What happens when it goes wrong?",
+      "words": []
+    },
+    {
+      "start": 779.24,
+      "end": 785.16,
+      "text": "All of these things will help you get a better understanding of the value of the product.",
+      "words": []
+    },
+    {
+      "start": 785.16,
+      "end": 791.2,
+      "text": "Also, make sure that you see if people are pushing back on the price.",
+      "words": []
+    },
+    {
+      "start": 791.2,
+      "end": 795.6400000000001,
+      "text": "If they're not, it could simply be too cheap.",
+      "words": []
+    },
+    {
+      "start": 795.6400000000001,
+      "end": 802.6800000000001,
+      "text": "The next thing is to explore, instead of guessing, run experiments, iterate, think like lean",
+      "words": []
+    },
+    {
+      "start": 802.6800000000001,
+      "end": 810.08,
+      "text": "methodology, try something, see how customers react, and based on that feedback, be able",
+      "words": []
+    },
+    {
+      "start": 810.08,
+      "end": 816.24,
+      "text": "to refine your pricing and refine your business model.",
+      "words": []
+    },
+    {
+      "start": 816.24,
+      "end": 820.0400000000001,
+      "text": "Lightweight experiments are always really, really valuable.",
+      "words": []
+    },
+    {
+      "start": 820.04,
+      "end": 826.0799999999999,
+      "text": "So like the proverbial iceberg, you want to start with digging deeper down.",
+      "words": []
+    },
+    {
+      "start": 826.0799999999999,
+      "end": 832.68,
+      "text": "At the top, the stuff that's above the surface, it's really that surface level pricing questions.",
+      "words": []
+    },
+    {
+      "start": 832.68,
+      "end": 839.3199999999999,
+      "text": "But as you dig deeper down below the waterline, you'll start to really understand the value,",
+      "words": []
+    },
+    {
+      "start": 839.3199999999999,
+      "end": 844.64,
+      "text": "the time save, the productivity, the risk avoided, etc.",
+      "words": []
+    },
+    {
+      "start": 844.64,
+      "end": 852.12,
+      "text": "So don't look at that bit on top, just the price, think about all the value you're delivering.",
+      "words": []
+    },
+    {
+      "start": 852.12,
+      "end": 855.28,
+      "text": "So going back to the product market fit.",
+      "words": []
+    },
+    {
+      "start": 855.28,
+      "end": 859.56,
+      "text": "Remember, it's the right product for the right market at the right price delivered in",
+      "words": []
+    },
+    {
+      "start": 859.56,
+      "end": 864.76,
+      "text": "the right way for customers to pay for it and just as importantly to tell others about",
+      "words": []
+    },
+    {
+      "start": 864.76,
+      "end": 866.12,
+      "text": "it.",
+      "words": []
+    },
+    {
+      "start": 866.12,
+      "end": 870.96,
+      "text": "So going back to that example, just changing the way the product is delivered and the",
+      "words": []
+    },
+    {
+      "start": 870.96,
+      "end": 877.08,
+      "text": "pricing can make a big difference for how your product will grow.",
+      "words": []
+    },
+    {
+      "start": 877.08,
+      "end": 880.52,
+      "text": "And again, I have a worksheet for you on this.",
+      "words": []
+    },
+    {
+      "start": 880.52,
+      "end": 887.5600000000001,
+      "text": "So just to recap before I hand it off to Erica, the four takeaways are think lean, start",
+      "words": []
+    },
+    {
+      "start": 887.5600000000001,
+      "end": 892.52,
+      "text": "simple, learn fast, evolve deliberately.",
+      "words": []
+    },
+    {
+      "start": 892.52,
+      "end": 895.52,
+      "text": "Price based on value, not cost.",
+      "words": []
+    },
+    {
+      "start": 895.52,
+      "end": 898.48,
+      "text": "Your delivery model is really important.",
+      "words": []
+    },
+    {
+      "start": 898.48,
+      "end": 903.36,
+      "text": "So be very, very deliberate about that and experiment, don't guess.",
+      "words": []
+    },
+    {
+      "start": 903.36,
+      "end": 907.96,
+      "text": "And with that, I'm going to hand it off to Erica.",
+      "words": []
+    },
+    {
+      "start": 907.96,
+      "end": 912.36,
+      "text": "For this talk, we are assuming that most of you are building applications that are using",
+      "words": []
+    },
+    {
+      "start": 912.36,
+      "end": 919.0799999999999,
+      "text": "APS APIs and that the cost of using those APIs is one factor that you will consider as",
+      "words": []
+    },
+    {
+      "start": 919.0799999999999,
+      "end": 923.12,
+      "text": "you're going through the exercises that a meal has outlined.",
+      "words": []
+    },
+    {
+      "start": 923.12,
+      "end": 927.5600000000001,
+      "text": "So I want to talk now about changes to the APS business model that you should be aware",
+      "words": []
+    },
+    {
+      "start": 927.5600000000001,
+      "end": 933.2,
+      "text": "of and some features and that we're currently working on that will be coming in the next",
+      "words": []
+    },
+    {
+      "start": 933.2,
+      "end": 934.72,
+      "text": "year.",
+      "words": []
+    },
+    {
+      "start": 934.72,
+      "end": 941.24,
+      "text": "In December, we made several key improvements to the APS business model.",
+      "words": []
+    },
+    {
+      "start": 941.24,
+      "end": 947.72,
+      "text": "First of all, we switched from the limited 90 day trials to an APS free tier, which gives",
+      "words": []
+    },
+    {
+      "start": 947.72,
+      "end": 956.1600000000001,
+      "text": "everyone that signs up ongoing monthly access to all of our APIs with a free but useful",
+      "words": []
+    },
+    {
+      "start": 956.1600000000001,
+      "end": 958.72,
+      "text": "amount of usage every month.",
+      "words": []
+    },
+    {
+      "start": 958.72,
+      "end": 963.52,
+      "text": "And second, we increased the different ways that you're able to pay for those of our",
+      "words": []
+    },
+    {
+      "start": 963.52,
+      "end": 964.64,
+      "text": "paid APIs.",
+      "words": []
+    },
+    {
+      "start": 964.64,
+      "end": 970.8000000000001,
+      "text": "Not only can you purchase and flex tokens in advance to pay for usage, but you can also",
+      "words": []
+    },
+    {
+      "start": 970.8,
+      "end": 978.28,
+      "text": "in select markets sign up for pay as you go and get billed every month for for your usage.",
+      "words": []
+    },
+    {
+      "start": 978.28,
+      "end": 982.7199999999999,
+      "text": "This capability is available currently in certain markets and we will continue to expand",
+      "words": []
+    },
+    {
+      "start": 982.7199999999999,
+      "end": 985.4399999999999,
+      "text": "that.",
+      "words": []
+    },
+    {
+      "start": 985.4399999999999,
+      "end": 992.1999999999999,
+      "text": "In May, we're introducing an additional way to get access to APS APIs that's called included",
+      "words": []
+    },
+    {
+      "start": 992.1999999999999,
+      "end": 998.3199999999999,
+      "text": "usage for companies using APS for internal use.",
+      "words": []
+    },
+    {
+      "start": 998.32,
+      "end": 1003.6400000000001,
+      "text": "Access subscriptions may now include monthly API usage capacity.",
+      "words": []
+    },
+    {
+      "start": 1003.6400000000001,
+      "end": 1007.6800000000001,
+      "text": "Products will typically include APIs related to their product and I'll go through an example",
+      "words": []
+    },
+    {
+      "start": 1007.6800000000001,
+      "end": 1011.48,
+      "text": "here on the next slide to illustrate this.",
+      "words": []
+    },
+    {
+      "start": 1011.48,
+      "end": 1016.84,
+      "text": "The amount of monthly capacity scales with the number of subscriptions purchased and",
+      "words": []
+    },
+    {
+      "start": 1016.84,
+      "end": 1022.6,
+      "text": "included usage is designed to work seamlessly with a prepaid or pay as you go to ensure that",
+      "words": []
+    },
+    {
+      "start": 1022.6,
+      "end": 1026.16,
+      "text": "you have ongoing access to your APIs.",
+      "words": []
+    },
+    {
+      "start": 1026.16,
+      "end": 1032.3600000000001,
+      "text": "If your monthly capacity for any API is ever used up, tokens or pay as you go will seamlessly",
+      "words": []
+    },
+    {
+      "start": 1032.3600000000001,
+      "end": 1038.1200000000001,
+      "text": "kick in to cover that usage and ensure that service on nudity.",
+      "words": []
+    },
+    {
+      "start": 1038.1200000000001,
+      "end": 1044.16,
+      "text": "The first two APIs, which we will offer using this model are AEC data model and the manufacturing",
+      "words": []
+    },
+    {
+      "start": 1044.16,
+      "end": 1046.8400000000001,
+      "text": "data model.",
+      "words": []
+    },
+    {
+      "start": 1046.8400000000001,
+      "end": 1050.88,
+      "text": "So I want to go through here through a brief description and I want to highlight that",
+      "words": []
+    },
+    {
+      "start": 1050.88,
+      "end": 1056.68,
+      "text": "on the right hand side what you're seeing is the rate sheet for the amount of usage",
+      "words": []
+    },
+    {
+      "start": 1056.68,
+      "end": 1059.5600000000002,
+      "text": "that's included with different products subscriptions.",
+      "words": []
+    },
+    {
+      "start": 1059.5600000000002,
+      "end": 1064.1200000000001,
+      "text": "This is available on our blog, on a recent announcement.",
+      "words": []
+    },
+    {
+      "start": 1064.1200000000001,
+      "end": 1069.6000000000001,
+      "text": "If you go to APS.autodesk.com and go to our community section and click on our blog, you'll",
+      "words": []
+    },
+    {
+      "start": 1069.6000000000001,
+      "end": 1071.2,
+      "text": "see it right there at the top.",
+      "words": []
+    },
+    {
+      "start": 1071.2,
+      "end": 1074.88,
+      "text": "You can get a bigger view of it and you can read more about the details of these coming",
+      "words": []
+    },
+    {
+      "start": 1074.88,
+      "end": 1077.0800000000002,
+      "text": "capabilities.",
+      "words": []
+    },
+    {
+      "start": 1077.08,
+      "end": 1082.4399999999998,
+      "text": "So let's say that I purchased five subscriptions to Autodesk build.",
+      "words": []
+    },
+    {
+      "start": 1082.4399999999998,
+      "end": 1090.56,
+      "text": "Autodesk build now has included with it a hundred megabytes per subscription of granular",
+      "words": []
+    },
+    {
+      "start": 1090.56,
+      "end": 1092.1999999999998,
+      "text": "data download.",
+      "words": []
+    },
+    {
+      "start": 1092.1999999999998,
+      "end": 1096.96,
+      "text": "So this means when I just to emphasize different between granular data and file data, you're",
+      "words": []
+    },
+    {
+      "start": 1096.96,
+      "end": 1101.84,
+      "text": "not downloading entire files that have a very big size but you're downloading all of",
+      "words": []
+    },
+    {
+      "start": 1101.84,
+      "end": 1107.52,
+      "text": "the window dimensions from a model or all of the number of doors.",
+      "words": []
+    },
+    {
+      "start": 1107.52,
+      "end": 1113.4399999999998,
+      "text": "If you have five subscriptions, that means every month you will get access to 500 megabytes",
+      "words": []
+    },
+    {
+      "start": 1113.4399999999998,
+      "end": 1118.72,
+      "text": "of the ability to download granular data out of that AEC data model and then any of the",
+      "words": []
+    },
+    {
+      "start": 1118.72,
+      "end": 1123.6,
+      "text": "APS applications which you have built on the N or N or N or developer hub on that same",
+      "words": []
+    },
+    {
+      "start": 1123.6,
+      "end": 1127.6799999999998,
+      "text": "team will be able to use that capacity.",
+      "words": []
+    },
+    {
+      "start": 1128.4,
+      "end": 1133.28,
+      "text": "One of the things I do want to highlight is that this capacity included with products",
+      "words": []
+    },
+    {
+      "start": 1133.28,
+      "end": 1139.1200000000001,
+      "text": "subscriptions is intended for non-commercial use which means you would spend it on an application",
+      "words": []
+    },
+    {
+      "start": 1139.1200000000001,
+      "end": 1140.48,
+      "text": "that you built internally.",
+      "words": []
+    },
+    {
+      "start": 1140.48,
+      "end": 1146.4,
+      "text": "But if you're an ISD, that included use is not intended for you to spend on running one",
+      "words": []
+    },
+    {
+      "start": 1146.4,
+      "end": 1148.72,
+      "text": "of your commercial applications.",
+      "words": []
+    },
+    {
+      "start": 1148.72,
+      "end": 1153.48,
+      "text": "But we've got capabilities coming that will help you take advantage of the included",
+      "words": []
+    },
+    {
+      "start": 1153.48,
+      "end": 1155.3200000000002,
+      "text": "usage being offered to your customers.",
+      "words": []
+    },
+    {
+      "start": 1157.68,
+      "end": 1163.68,
+      "text": "Customers can spend their included usage on the apps that they build or the apps that",
+      "words": []
+    },
+    {
+      "start": 1163.68,
+      "end": 1169.1200000000001,
+      "text": "they acquire from partners such as yourself.",
+      "words": []
+    },
+    {
+      "start": 1169.1200000000001,
+      "end": 1175.04,
+      "text": "It's the ISV or you as a company's choice who is going to pay for that APS usage and",
+      "words": []
+    },
+    {
+      "start": 1175.04,
+      "end": 1180.4,
+      "text": "what I want to talk a little bit now is how that works and how that relates to the, you",
+      "words": []
+    },
+    {
+      "start": 1180.4,
+      "end": 1185.8,
+      "text": "sort of make a choice between who's going to pay based on the decisions that you're making",
+      "words": []
+    },
+    {
+      "start": 1185.8,
+      "end": 1189.6399999999999,
+      "text": "about which business model or what's pricing model you want to support for your application.",
+      "words": []
+    },
+    {
+      "start": 1189.6399999999999,
+      "end": 1195.24,
+      "text": "So first of all, this choice is available to all of you today.",
+      "words": []
+    },
+    {
+      "start": 1195.24,
+      "end": 1201.3999999999999,
+      "text": "You as the ISV who's running the application calling APS APIs can choose today to pay for",
+      "words": []
+    },
+    {
+      "start": 1201.3999999999999,
+      "end": 1207.76,
+      "text": "all of the APS usage that is incurred by those applications and bakelack into the cost",
+      "words": []
+    },
+    {
+      "start": 1207.76,
+      "end": 1213.08,
+      "text": "of your application whether that's a monthly subscription or other pricing model.",
+      "words": []
+    },
+    {
+      "start": 1213.08,
+      "end": 1217.56,
+      "text": "You can also choose when a customer wants to sign up for your product to ask your customer",
+      "words": []
+    },
+    {
+      "start": 1217.56,
+      "end": 1223.72,
+      "text": "to create a developer hub and an APS app, generate that client ID and then share it with you",
+      "words": []
+    },
+    {
+      "start": 1223.72,
+      "end": 1228.4399999999998,
+      "text": "and you can save that in your application and then you're using that when you make the",
+      "words": []
+    },
+    {
+      "start": 1228.4399999999998,
+      "end": 1231.32,
+      "text": "API calls and the customer pays for that usage.",
+      "words": []
+    },
+    {
+      "start": 1231.32,
+      "end": 1235.56,
+      "text": "We do have customer, you know, ISV's and customers doing that now.",
+      "words": []
+    },
+    {
+      "start": 1235.56,
+      "end": 1240.6,
+      "text": "But the feedback that we've got from both of them is that while this makes this method",
+      "words": []
+    },
+    {
+      "start": 1240.6,
+      "end": 1243.04,
+      "text": "possible, it's not that easy.",
+      "words": []
+    },
+    {
+      "start": 1243.08,
+      "end": 1248.6399999999999,
+      "text": "It's not a good user experience for customers or for ISVs and we've taken that feedback",
+      "words": []
+    },
+    {
+      "start": 1248.6399999999999,
+      "end": 1252.0,
+      "text": "and we'll be working to improve that workflow.",
+      "words": []
+    },
+    {
+      "start": 1253.28,
+      "end": 1259.12,
+      "text": "So this is a capability that we're calling pass through and what it means is that when",
+      "words": []
+    },
+    {
+      "start": 1259.12,
+      "end": 1265.2,
+      "text": "we release this capability, the ISV will still be able to choose to pay for all the API",
+      "words": []
+    },
+    {
+      "start": 1265.2,
+      "end": 1270.8,
+      "text": "usage or they can choose to have the customer pay it and how this works is you can have",
+      "words": []
+    },
+    {
+      "start": 1270.8,
+      "end": 1276.32,
+      "text": "multiple different applications and you can decide to have some of those applications where",
+      "words": []
+    },
+    {
+      "start": 1276.32,
+      "end": 1280.6399999999999,
+      "text": "you're going to pay for the usage and then those others you designate as customer pays.",
+      "words": []
+    },
+    {
+      "start": 1280.6399999999999,
+      "end": 1285.9199999999998,
+      "text": "When the customer wants to sign up for your application, they agree to pay for that usage",
+      "words": []
+    },
+    {
+      "start": 1286.6399999999999,
+      "end": 1292.8,
+      "text": "and once that workflow is complete, then the customer can now use that included usage that came",
+      "words": []
+    },
+    {
+      "start": 1292.8,
+      "end": 1300.24,
+      "text": "with our products subscription to pay for the API usage of your application and then if it needs",
+      "words": []
+    },
+    {
+      "start": 1300.24,
+      "end": 1305.2,
+      "text": "more than the monthly allotment they would pay with tokens or with pay as you go.",
+      "words": []
+    },
+    {
+      "start": 1306.88,
+      "end": 1313.52,
+      "text": "The goal of pass through is to give both the customer and the ISV visibility into and control over",
+      "words": []
+    },
+    {
+      "start": 1313.52,
+      "end": 1320.32,
+      "text": "usage to make it easier to budget and prepare for the operating costs of running different applications.",
+      "words": []
+    },
+    {
+      "start": 1321.36,
+      "end": 1325.68,
+      "text": "As I mentioned, this is the capability that we're currently working on and if you were interested",
+      "words": []
+    },
+    {
+      "start": 1325.68,
+      "end": 1332.16,
+      "text": "in joining our feature sponsorship program and shaping the design and development of this capability,",
+      "words": []
+    },
+    {
+      "start": 1332.16,
+      "end": 1337.92,
+      "text": "please reach out to me and we'll see if that ends up being a good fit for both of us.",
+      "words": []
+    },
+    {
+      "start": 1342.16,
+      "end": 1347.76,
+      "text": "So how does this relate back to the choices that you'll be making as you go through your pricing model?",
+      "words": []
+    },
+    {
+      "start": 1347.76,
+      "end": 1354.8,
+      "text": "I put up the six different proposed models that a meal talked through at the beginning of his",
+      "words": []
+    },
+    {
+      "start": 1354.8,
+      "end": 1361.84,
+      "text": "presentation. I've kind of put them on a spectrum here and so as you're going through that exercise",
+      "words": []
+    },
+    {
+      "start": 1361.84,
+      "end": 1365.84,
+      "text": "and deciding which pricing model is going to make the most sense for your application, you can kind",
+      "words": []
+    },
+    {
+      "start": 1365.84,
+      "end": 1373.52,
+      "text": "of think about the spectrum where if you're going with a tiered model or a subscription model where",
+      "words": []
+    },
+    {
+      "start": 1373.52,
+      "end": 1379.28,
+      "text": "you want to give your customer that fixed cost and your customer is communicated to you that they",
+      "words": []
+    },
+    {
+      "start": 1379.28,
+      "end": 1385.68,
+      "text": "want to have an ongoing same amount of cost and you've built in a healthy margin there. Then for",
+      "words": []
+    },
+    {
+      "start": 1385.68,
+      "end": 1391.28,
+      "text": "subscription and tiered, it really makes more sense to pay for APS directly yourself and then maintain",
+      "words": []
+    },
+    {
+      "start": 1391.28,
+      "end": 1395.52,
+      "text": "that direct relationship between you and the customer. They don't have to set up something with us",
+      "words": []
+    },
+    {
+      "start": 1395.52,
+      "end": 1402.32,
+      "text": "and something with you. It's just it's all you. On the other hand, if for example you are putting a",
+      "words": []
+    },
+    {
+      "start": 1402.3999999999999,
+      "end": 1411.9199999999998,
+      "text": "free application into the app store or to the marketplace and or you're asking for one time payment",
+      "words": []
+    },
+    {
+      "start": 1411.9199999999998,
+      "end": 1419.4399999999998,
+      "text": "on the application, those are business model types where it would make sense if there's any APS",
+      "words": []
+    },
+    {
+      "start": 1419.4399999999998,
+      "end": 1424.8,
+      "text": "costs associated with that to sign up for a pass through and have that application be sort of a",
+      "words": []
+    },
+    {
+      "start": 1424.8,
+      "end": 1431.36,
+      "text": "one-time or free cost to the customer with the ongoing usage going to to a pass through.",
+      "words": []
+    },
+    {
+      "start": 1432.32,
+      "end": 1437.36,
+      "text": "If you're doing hybrid or usage based, again, this is one of those where you'll want to try some",
+      "words": []
+    },
+    {
+      "start": 1437.36,
+      "end": 1443.68,
+      "text": "experiments. You can start using some of the the you start your application out maybe in the",
+      "words": []
+    },
+    {
+      "start": 1443.68,
+      "end": 1450.08,
+      "text": "free tier, run a couple of months of that application where you're paying for that usage and observe",
+      "words": []
+    },
+    {
+      "start": 1450.6399999999999,
+      "end": 1455.6799999999998,
+      "text": "how customers are using your application and whether it's going to make more sense for their usage",
+      "words": []
+    },
+    {
+      "start": 1455.6799999999998,
+      "end": 1461.52,
+      "text": "patterns, the margin that you're that you're looking to achieve from that application and the the",
+      "words": []
+    },
+    {
+      "start": 1461.52,
+      "end": 1465.9199999999998,
+      "text": "price instruction you want to achieve, whether you want to simply pay for that usage yourself",
+      "words": []
+    },
+    {
+      "start": 1466.96,
+      "end": 1472.96,
+      "text": "or whether you want to pass that through to customers. The other thing that you'll want to think",
+      "words": []
+    },
+    {
+      "start": 1472.96,
+      "end": 1479.6,
+      "text": "about and consider is do your customers have a lot of auto desk products? Look at those rate",
+      "words": []
+    },
+    {
+      "start": 1479.6,
+      "end": 1484.0,
+      "text": "sheets and try to understand the amount of different APIs that amount of monthly usage that they're",
+      "words": []
+    },
+    {
+      "start": 1484.0,
+      "end": 1490.9599999999998,
+      "text": "going to have access to and certainly think about how to make your your applications use of the",
+      "words": []
+    },
+    {
+      "start": 1490.9599999999998,
+      "end": 1497.36,
+      "text": "API's efficient so that that is attractive to the customers because now sort of like fuel efficiency",
+      "words": []
+    },
+    {
+      "start": 1497.36,
+      "end": 1501.4399999999998,
+      "text": "that would be something that a customer would look at if they were considering whether or not to",
+      "words": []
+    },
+    {
+      "start": 1501.52,
+      "end": 1510.56,
+      "text": "sign up for pass through. All right so with all of that being said we are constantly",
+      "words": []
+    },
+    {
+      "start": 1510.56,
+      "end": 1515.28,
+      "text": "interested in hearing from you and hearing your feedback and so whether you sign up for the",
+      "words": []
+    },
+    {
+      "start": 1515.28,
+      "end": 1519.44,
+      "text": "feature sponsorship program for this particular feature or not we definitely welcome you to join",
+      "words": []
+    },
+    {
+      "start": 1519.44,
+      "end": 1525.28,
+      "text": "the developer Vanguard program. This is the place that many of the product teams at auto desk go to",
+      "words": []
+    },
+    {
+      "start": 1525.28,
+      "end": 1529.44,
+      "text": "when they are interested in talking to customers about an API that they're building or feature that",
+      "words": []
+    },
+    {
+      "start": 1529.44,
+      "end": 1533.92,
+      "text": "they're building to really make sure that they get that that customer feedback and so if you",
+      "words": []
+    },
+    {
+      "start": 1533.92,
+      "end": 1539.6000000000001,
+      "text": "are interested in a particular one of either the APIs or other programs that are listed here",
+      "words": []
+    },
+    {
+      "start": 1539.6000000000001,
+      "end": 1545.28,
+      "text": "definitely sign up but even if you're just in general want to express interest of other topics",
+      "words": []
+    },
+    {
+      "start": 1545.28,
+      "end": 1550.0,
+      "text": "you'd like to be called on for you can register that as well and make that connection with us.",
+      "words": []
+    },
+    {
+      "start": 1555.68,
+      "end": 1556.16,
+      "text": "Thank you.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:54:22.533111+00:00"
+}

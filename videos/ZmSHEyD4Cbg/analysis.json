@@ -1,0 +1,83 @@
+{
+  "video_id": "ZmSHEyD4Cbg",
+  "demo_timestamps": [
+    {
+      "start": 732.0,
+      "end": 888.0,
+      "description": "Demo of the current process to create commissioning forms using task-oriented MCPs"
+    },
+    {
+      "start": 1056.0,
+      "end": 1140.0,
+      "description": "Demo of Jarvis Mark 2 with enhanced context management and agent orchestration"
+    },
+    {
+      "start": 0.24,
+      "end": 0.28,
+      "description": "Discussing AI agent integration and deployment in construction processes."
+    },
+    {
+      "start": 0.22,
+      "end": 0.26,
+      "description": "Optimizing token usage and managing context windows in AI systems."
+    }
+  ],
+  "themes": [
+    "AI Personal Assistants in Construction",
+    "Augmentation of Human Capabilities with AI",
+    "AI Integration in Construction",
+    "Optimizing AI Systems"
+  ],
+  "client_mentions": [
+    {
+      "name": "Highlands",
+      "context": "Collaboration with Autodesk to integrate AI assistants",
+      "timestamp": 120.0
+    },
+    {
+      "name": "Hyneman",
+      "context": "Worked closely with IT department to manage solution life cycles and deployment.",
+      "timestamp": 0.22
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "ACC",
+      "is_api": false,
+      "timestamp": 960.0
+    },
+    {
+      "name": "MCP",
+      "is_api": false,
+      "timestamp": 660.0
+    },
+    {
+      "name": "Platform Services",
+      "is_api": false,
+      "timestamp": 400.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "Large Language Models",
+      "category": "llm",
+      "context": "Used to enhance new user experiences and augment human capabilities",
+      "timestamp": 263.0
+    },
+    {
+      "name": "AI Agents",
+      "category": "agent",
+      "context": "Facilitating task automation and improving workflows",
+      "timestamp": 653.0
+    },
+    {
+      "name": "Microsoft Copilot",
+      "category": "agent",
+      "context": "Used for integration and orchestration within Microsoft Teams",
+      "timestamp": 444.0
+    }
+  ],
+  "summary": "The video explores the integration of AI personal assistants in the construction industry through Autodesk MCP, drawing inspiration from Iron Man's Jarvis. It showcases collaborations and demos of task-oriented and workflow-oriented MCPs, addressing challenges like agent deployment and token optimization to enhance productivity and deliver direct business value at construction sites.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:38:41.651640+00:00"
+}

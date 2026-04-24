@@ -1,0 +1,299 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c-RTf21eIWI\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents a talk on AI for Architectural Visualization, scheduled for April 16, 2026, with a focus on transitioning concepts to finished products.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "AI for Architectural Visualization: From Concept to Finish"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c-RTf21eIWI\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "This frame shows a slide from an Autodesk DevCon presentation with a content list about AI rendering and ideation.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Contents",
+        "About Chaos",
+        "Traditional vs AI rendering",
+        "AI for ideation/concepts and video",
+        "AI for enhancing final renders",
+        "The future and Q&A"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c-RTf21eIWI\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide from Autodesk DevCon about Chaos, detailing visualization and rendering solutions and integrations with Autodesk software.",
+      "products_visible": [
+        "Autodesk",
+        "V-Ray",
+        "Corona",
+        "Enscape",
+        "Veras",
+        "Revit",
+        "Forma",
+        "3ds Max",
+        "Maya"
+      ],
+      "ui_elements": [
+        "About Chaos",
+        "Solutions for (real-time) visualization and rendering"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c-RTf21eIWI\\frames\\frame_000005.jpg",
+      "timestamp_seconds": 120.0,
+      "frame_index": 5,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide showing the employment of AI from vision to production with different AI applications like rendering and documentation.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Employing AI from vision to production",
+        "AI rendering",
+        "AI Gaussian Splats",
+        "AI Asset Placement",
+        "AI Material Generator",
+        "AI Enhancer",
+        "AI-documentation"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c-RTf21eIWI\\frames\\frame_000007.jpg",
+      "timestamp_seconds": 180.0,
+      "frame_index": 7,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide comparing traditional design/rendering with AI design/rendering, showing steps like modeling and applying materials.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Traditional Design/Rendering vs AI Design/Rendering",
+        "Model",
+        "Apply Materials",
+        "Setup Lights",
+        "Assign Sky",
+        "Post-Produce"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c-RTf21eIWI\\frames\\frame_000009.jpg",
+      "timestamp_seconds": 240.0,
+      "frame_index": 9,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide about Veras, focusing on visualization for architects and interior designers, with integration details.",
+      "products_visible": [
+        "Autodesk Revit",
+        "Autodesk Forma",
+        "3ds Max"
+      ],
+      "ui_elements": [
+        "Autodesk DevCon",
+        "https://veras.evolvelab.io"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c-RTf21eIWI\\frames\\frame_000011.jpg",
+      "timestamp_seconds": 300.0,
+      "frame_index": 11,
+      "category": "demo",
+      "keep": true,
+      "description": "A presentation showcasing a 3D modeling interface, likely Autodesk Revit, with a person speaking alongside it.",
+      "products_visible": [
+        "Autodesk Revit"
+      ],
+      "ui_elements": [
+        "3D View",
+        "Properties",
+        "Project Browser",
+        "File",
+        "Architecture"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c-RTf21eIWI\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "demo",
+      "keep": true,
+      "description": "A demo showcasing a 3D architectural model using Autodesk technology, possibly involving design rendering.",
+      "products_visible": [
+        "AUTODESK",
+        "Chaos Vantage",
+        "Revit"
+      ],
+      "ui_elements": [
+        "EXPLORE",
+        "COMPOSE",
+        "EDIT",
+        "VIDEO",
+        "GALLERY",
+        "Preview Image",
+        "Render Engine",
+        "Resolution"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c-RTf21eIWI\\frames\\frame_000013.jpg",
+      "timestamp_seconds": 360.0,
+      "frame_index": 13,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a demonstration of the Autodesk DevCon with a software tool interface for designing a traditional English house with red bricks during autumn.",
+      "products_visible": [
+        "Autodesk",
+        "Chaos Vantage",
+        "Revit"
+      ],
+      "ui_elements": [
+        "EXPLORE",
+        "COMPOSE",
+        "EDIT",
+        "VIDEO",
+        "GALLERY",
+        "Preview Image",
+        "Prompt",
+        "Aspect Ratio",
+        "Resolution",
+        "Render Engine",
+        "RENDER"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c-RTf21eIWI\\frames\\frame_000017.jpg",
+      "timestamp_seconds": 480.0,
+      "frame_index": 17,
+      "category": "demo",
+      "keep": true,
+      "description": "A presentation featuring a screenshot from a software interface displaying a 3D model of a building with editing tools.",
+      "products_visible": [
+        "Autodesk",
+        "VERAS"
+      ],
+      "ui_elements": [
+        "EXPLORE",
+        "COMPOSE",
+        "EDIT",
+        "VIDEO",
+        "GALLERY",
+        "Source image",
+        "Rendered Image",
+        "Render Engine",
+        "RENDER"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c-RTf21eIWI\\frames\\frame_000022.jpg",
+      "timestamp_seconds": 630.0,
+      "frame_index": 22,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide shows an image of a toy train set with annotations, next to a speaker in a 'DevCon' event layout.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Hero Render",
+        "Reference image input",
+        "Macro Prompt"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c-RTf21eIWI\\frames\\frame_000033.jpg",
+      "timestamp_seconds": 960.0,
+      "frame_index": 33,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c-RTf21eIWI\\frames\\frame_000040.jpg",
+      "timestamp_seconds": 1170.0,
+      "frame_index": 40,
+      "category": "demo",
+      "keep": true,
+      "description": "A presentation showcasing a 3D rendering on an application interface with a split view of a speaker on one side.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Project | Collaboration",
+        "cloud.chaos.com"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c-RTf21eIWI\\frames\\frame_000043.jpg",
+      "timestamp_seconds": 1260.0,
+      "frame_index": 43,
+      "category": "demo",
+      "keep": true,
+      "description": "A demonstration of an AI Enhancer tool on an Enscape project, showcasing object enhancements with a focus on a face in the scene.",
+      "products_visible": [
+        "Autodesk",
+        "Enscape"
+      ],
+      "ui_elements": [
+        "AI Enhancer",
+        "Object enhancements",
+        "Enhance whole image",
+        "Enhance objects individually",
+        "You are in enhancement mode"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c-RTf21eIWI\\frames\\frame_000044.jpg",
+      "timestamp_seconds": 1290.0,
+      "frame_index": 44,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a presentation with a user interface demonstrating an AI Enhancer tool for design collaboration.",
+      "products_visible": [
+        "Autodesk",
+        "Enscape"
+      ],
+      "ui_elements": [
+        "AI Enhancer",
+        "Create new enhancement",
+        "Object enhancements",
+        "Enhance material",
+        "Enhance whole image"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c-RTf21eIWI\\frames\\frame_000054.jpg",
+      "timestamp_seconds": 1590.0,
+      "frame_index": 54,
+      "category": "blank",
+      "keep": false,
+      "description": "",
+      "products_visible": [],
+      "ui_elements": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:17:43.299835+00:00"
+}

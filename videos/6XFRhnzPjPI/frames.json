@@ -1,0 +1,203 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\6XFRhnzPjPI\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\6XFRhnzPjPI\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide discussing the topic 'Talk to Your Model', focusing on unlocking GraphQL with natural language.",
+      "products_visible": [
+        "Autodesk",
+        "GraphQL"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "Talk to Your Model"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\6XFRhnzPjPI\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation discussing issues in construction data management, highlighting that 90% of data goes unused and the associated $16B annual cost.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "90% Goes Unused",
+        "$16B Annual Cost",
+        "Construction\u2019s Hidden Tax"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\6XFRhnzPjPI\\frames\\frame_000009.jpg",
+      "timestamp_seconds": 240.0,
+      "frame_index": 9,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide emphasizes 'Coordination' and displays various icons related to file types and collaboration tools.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "PDF",
+        "RVT",
+        "CAD"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\6XFRhnzPjPI\\frames\\frame_000017.jpg",
+      "timestamp_seconds": 480.0,
+      "frame_index": 17,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide details 'The Architecture of Alignment' with focus on scaling intelligence through managing context and reliability.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Agent Skills",
+        "Model Context Protocol",
+        "AEC Data Model API"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\6XFRhnzPjPI\\frames\\frame_000019.jpg",
+      "timestamp_seconds": 540.0,
+      "frame_index": 19,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide features the text 'It's Already Real. Today.' along with an abstract graphic design, and a talking head in the corner.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\6XFRhnzPjPI\\frames\\frame_000036.jpg",
+      "timestamp_seconds": 1050.0,
+      "frame_index": 36,
+      "category": "demo",
+      "keep": true,
+      "description": "A software demo screen with a person's video on the left discussing the content displayed.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Anthony is thinking",
+        "How can I help you today?",
+        "Write",
+        "Learn",
+        "Code",
+        "Life stuff",
+        "Claude's choice"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\6XFRhnzPjPI\\frames\\frame_000037.jpg",
+      "timestamp_seconds": 1080.0,
+      "frame_index": 37,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a demonstration of Autodesk software with project files and 3D models displayed. A person is also seen speaking in a smaller window.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "AECOM authentication execution",
+        "View",
+        "Return to speaker"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\6XFRhnzPjPI\\frames\\frame_000038.jpg",
+      "timestamp_seconds": 1110.0,
+      "frame_index": 38,
+      "category": "demo",
+      "keep": true,
+      "description": "A person is presenting a demo at Autodesk DevCon, showing a visualization of column data with types and counts.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Columns visualization",
+        "Column Type Summary"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\6XFRhnzPjPI\\frames\\frame_000040.jpg",
+      "timestamp_seconds": 1170.0,
+      "frame_index": 40,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide discussing designs and graphs, featuring a diagram involving construction materials and the GraphQL logo.",
+      "products_visible": [
+        "GraphQL"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\6XFRhnzPjPI\\frames\\frame_000046.jpg",
+      "timestamp_seconds": 1350.0,
+      "frame_index": 46,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide discussing the limitations of schema-based skills, featuring a code snippet and points on natural language and query complexity.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "DevCon",
+        "query Doors"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\6XFRhnzPjPI\\frames\\frame_000047.jpg",
+      "timestamp_seconds": 1380.0,
+      "frame_index": 47,
+      "category": "demo",
+      "keep": true,
+      "description": "A presentation frame showing a person speaking with a 'Demo' slide displayed on an Autodesk-themed background.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Demo"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\6XFRhnzPjPI\\frames\\frame_000048.jpg",
+      "timestamp_seconds": 1410.0,
+      "frame_index": 48,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide illustrates a process cycle with the words 'Introspect', 'Search', and 'Validate'. A list of files is shown on the right side.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Introspect",
+        "Search",
+        "Validate",
+        "list the windows higher th"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T05:29:08.437358+00:00"
+}

@@ -1,0 +1,1189 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.36,
+      "text": "Hello and welcome to the Autodesk DevCon.",
+      "words": []
+    },
+    {
+      "start": 3.36,
+      "end": 7.6000000000000005,
+      "text": "I am happy that so many of you are here today for our presentation",
+      "words": []
+    },
+    {
+      "start": 7.6000000000000005,
+      "end": 11.28,
+      "text": "about automating reporting processes with APS.",
+      "words": []
+    },
+    {
+      "start": 12.32,
+      "end": 18.48,
+      "text": "For those of us working as a contractor, maybe also in the MEP sector like the",
+      "words": []
+    },
+    {
+      "start": 18.48,
+      "end": 23.2,
+      "text": "EGOT Technologies, probably all of us have the same problem.",
+      "words": []
+    },
+    {
+      "start": 24.080000000000002,
+      "end": 29.2,
+      "text": "We cannot create our own digital processes because our customers are",
+      "words": []
+    },
+    {
+      "start": 29.2,
+      "end": 32.4,
+      "text": "ready yet or have different processes in place.",
+      "words": []
+    },
+    {
+      "start": 33.6,
+      "end": 38.8,
+      "text": "And everyone here knows, on the construction site, there is still a lot to do",
+      "words": []
+    },
+    {
+      "start": 38.8,
+      "end": 46.56,
+      "text": "in the digital transformation. Every single day we handle hundreds of issues, forms, photos,",
+      "words": []
+    },
+    {
+      "start": 46.56,
+      "end": 52.72,
+      "text": "checklists and documents, created in a field, in the office or somewhere between.",
+      "words": []
+    },
+    {
+      "start": 52.72,
+      "end": 60.72,
+      "text": "Today we want to show you how you can still build your own digital processes",
+      "words": []
+    },
+    {
+      "start": 60.72,
+      "end": 64.48,
+      "text": "and how the APS APIs can support you.",
+      "words": []
+    },
+    {
+      "start": 69.03999999999999,
+      "end": 73.2,
+      "text": "About us. My name is Michael and I've been with the",
+      "words": []
+    },
+    {
+      "start": 73.2,
+      "end": 80.24,
+      "text": "your industries almost 29 years now. I started as a technical draftman and for many years,",
+      "words": []
+    },
+    {
+      "start": 80.24,
+      "end": 83.44,
+      "text": "I worked in the field directly on our projects.",
+      "words": []
+    },
+    {
+      "start": 84.56,
+      "end": 90.39999999999999,
+      "text": "Today I focus on BIM processes, workflows and the digital transformation of our company.",
+      "words": []
+    },
+    {
+      "start": 91.36,
+      "end": 96.24,
+      "text": "My job is to develop digital solutions so they work in practice.",
+      "words": []
+    },
+    {
+      "start": 98.32,
+      "end": 104.0,
+      "text": "I'm here today with my colleague Samuel. He has been part of my team almost three years now.",
+      "words": []
+    },
+    {
+      "start": 104.72,
+      "end": 109.36,
+      "text": "He develops our extensions and interfaces for Autodesk construction cloud.",
+      "words": []
+    },
+    {
+      "start": 110.08,
+      "end": 113.44,
+      "text": "His thoughts were standard platform functionality ads.",
+      "words": []
+    },
+    {
+      "start": 114.4,
+      "end": 122.4,
+      "text": "He builds APS powered solution to optimize our daily work and allow us to rethink our existing processes.",
+      "words": []
+    },
+    {
+      "start": 123.68,
+      "end": 130.24,
+      "text": "Both of us follow a simple principle. First, understand what they want to do.",
+      "words": []
+    },
+    {
+      "start": 130.96,
+      "end": 133.92000000000002,
+      "text": "Then simplify it and then automate.",
+      "words": []
+    },
+    {
+      "start": 134.07999999999998,
+      "end": 143.92,
+      "text": "To understand from which perspective we are talking today, a short overview about",
+      "words": []
+    },
+    {
+      "start": 143.92,
+      "end": 151.92,
+      "text": "EGRE industries. EGRE industries has four main units. The first and the most important for today",
+      "words": []
+    },
+    {
+      "start": 151.92,
+      "end": 159.44,
+      "text": "is EGRE technologies, which includes all companies that work in MAP and plant engineering sector.",
+      "words": []
+    },
+    {
+      "start": 159.92,
+      "end": 167.52,
+      "text": "All of these companies work as contractors. As contractors, we must follow the processes of our",
+      "words": []
+    },
+    {
+      "start": 167.52,
+      "end": 174.72,
+      "text": "customers, which differ from project to project. At the same time, the amount of information we have",
+      "words": []
+    },
+    {
+      "start": 174.72,
+      "end": 181.92,
+      "text": "to deliver keeps growing. Customers want more details, more information, more documentation",
+      "words": []
+    },
+    {
+      "start": 182.48,
+      "end": 185.76,
+      "text": "and all of these have to be made transparent.",
+      "words": []
+    },
+    {
+      "start": 188.23999999999998,
+      "end": 194.95999999999998,
+      "text": "The other units are EGRE construction, which includes our construction companies such like BOM,",
+      "words": []
+    },
+    {
+      "start": 195.76,
+      "end": 201.92,
+      "text": "EGRE development, which focus on project development with UBM and EGRE innovation,",
+      "words": []
+    },
+    {
+      "start": 201.92,
+      "end": 210.48,
+      "text": "which invests into startups. As you can see, EGRE industries covers all parts of the construction",
+      "words": []
+    },
+    {
+      "start": 210.64,
+      "end": 215.35999999999999,
+      "text": "life cycle. This allows us to deliver and to end solutions.",
+      "words": []
+    },
+    {
+      "start": 219.12,
+      "end": 230.88,
+      "text": "In 2024, EGRE technologies generated 720 million euros and employed about 3,500 people",
+      "words": []
+    },
+    {
+      "start": 230.88,
+      "end": 238.79999999999998,
+      "text": "across 44 locations in seven different European countries. All units of EGRE industries together",
+      "words": []
+    },
+    {
+      "start": 238.8,
+      "end": 244.0,
+      "text": "generate 8 billion euros with more than 25,000 employees.",
+      "words": []
+    },
+    {
+      "start": 249.36,
+      "end": 254.96,
+      "text": "First, we will start with a short overview of the requirements in our projects,",
+      "words": []
+    },
+    {
+      "start": 254.96,
+      "end": 262.64,
+      "text": "and by EGRE reporting was the first important step for us. Then, some will explain how we start",
+      "words": []
+    },
+    {
+      "start": 262.71999999999997,
+      "end": 270.4,
+      "text": "with low code and how we worked on our first solutions. After that, he will show the limits",
+      "words": []
+    },
+    {
+      "start": 270.4,
+      "end": 278.71999999999997,
+      "text": "we reached with low code. And finally, he will explain how we used raw code to scale our solutions",
+      "words": []
+    },
+    {
+      "start": 278.71999999999997,
+      "end": 290.32,
+      "text": "across many projects. Yes, welcome to the reality of MAP contractors, where every project runs",
+      "words": []
+    },
+    {
+      "start": 290.4,
+      "end": 300.48,
+      "text": "on a different tool. In most projects, we receive the contract very late in the process,",
+      "words": []
+    },
+    {
+      "start": 300.48,
+      "end": 308.32,
+      "text": "where a lot of details are already set. Therefore, we have no control on the format in which data",
+      "words": []
+    },
+    {
+      "start": 308.32,
+      "end": 315.28,
+      "text": "must be delivered. There are many different requirements depending on the projects. Sometimes,",
+      "words": []
+    },
+    {
+      "start": 315.44,
+      "end": 323.59999999999997,
+      "text": "we must deliver data printed on paper or PDFs. In other cases, we must use accl-sheets or external tools",
+      "words": []
+    },
+    {
+      "start": 323.59999999999997,
+      "end": 333.28,
+      "text": "like Lahnrader, Fieldwire or Dalux, just to name a few. In the past, we tried to adjust our work",
+      "words": []
+    },
+    {
+      "start": 333.28,
+      "end": 340.71999999999997,
+      "text": "to each project tool. As a result, we did not get real learnings for the next project.",
+      "words": []
+    },
+    {
+      "start": 341.44000000000005,
+      "end": 348.56,
+      "text": "At the same time, many team members worked in more projects parallel, each with complete,",
+      "words": []
+    },
+    {
+      "start": 348.56,
+      "end": 356.88000000000005,
+      "text": "completely different workflows and tools. So, we made a clear decision in 2022.",
+      "words": []
+    },
+    {
+      "start": 358.0,
+      "end": 364.72,
+      "text": "We must implement our own processes no matter which platform is used from the customer.",
+      "words": []
+    },
+    {
+      "start": 365.68,
+      "end": 372.24,
+      "text": "And we did not want simply copy our old analog workflows in the digital form,",
+      "words": []
+    },
+    {
+      "start": 372.24,
+      "end": 381.6,
+      "text": "we wanted to rethink and optimize them. In 2020, we prepared a full move from AutoCAD to",
+      "words": []
+    },
+    {
+      "start": 381.6,
+      "end": 388.72,
+      "text": "Ravit, including Cloud Worksharing and Autodesk stocks. So, it was the logical next step to",
+      "words": []
+    },
+    {
+      "start": 388.72,
+      "end": 394.40000000000003,
+      "text": "expand our use of the AutoDust Construction Cloud with Autodesk build.",
+      "words": []
+    },
+    {
+      "start": 400.48,
+      "end": 405.6,
+      "text": "The new workflows we create link different functions in AutoDust build together.",
+      "words": []
+    },
+    {
+      "start": 406.16,
+      "end": 410.56,
+      "text": "For example, forms linked with issues, issues linked with photos,",
+      "words": []
+    },
+    {
+      "start": 410.56,
+      "end": 416.88000000000005,
+      "text": "asset linked to forms, and sometimes even more modules combined in one workflow.",
+      "words": []
+    },
+    {
+      "start": 417.6,
+      "end": 422.24,
+      "text": "Let me give you a simple example with photo documentation.",
+      "words": []
+    },
+    {
+      "start": 423.6,
+      "end": 430.71999999999997,
+      "text": "On every project, thousands of photos are taken. Usually, ending up in random folders,",
+      "words": []
+    },
+    {
+      "start": 430.71999999999997,
+      "end": 436.08,
+      "text": "phones or chats, completely disconnected from the context where they were created.",
+      "words": []
+    },
+    {
+      "start": 437.28,
+      "end": 442.71999999999997,
+      "text": "We changed this fundamentally. For every room, on the side, we are to",
+      "words": []
+    },
+    {
+      "start": 442.72,
+      "end": 450.32000000000005,
+      "text": "medically create an issue. This issue is the central anchor point of the photo documentation",
+      "words": []
+    },
+    {
+      "start": 450.32000000000005,
+      "end": 457.84000000000003,
+      "text": "and is also placed on a sheet. This way, all project members can easily take photos with",
+      "words": []
+    },
+    {
+      "start": 457.84000000000003,
+      "end": 464.56,
+      "text": "the smartphone or tablet app and every single photo is always connected to the correct room.",
+      "words": []
+    },
+    {
+      "start": 465.44000000000005,
+      "end": 471.68,
+      "text": "So, we connect issues, photos, sheets, and locations in one workflow.",
+      "words": []
+    },
+    {
+      "start": 473.20000000000005,
+      "end": 481.44000000000005,
+      "text": "This means it's not just about reporting. It's about organizing all project data in a structured way,",
+      "words": []
+    },
+    {
+      "start": 481.44000000000005,
+      "end": 489.76000000000005,
+      "text": "so that it is always available when needed. And this is extremely important because it becomes",
+      "words": []
+    },
+    {
+      "start": 489.76000000000005,
+      "end": 496.16,
+      "text": "the foundation for all future interfaces and integrations with other systems.",
+      "words": []
+    },
+    {
+      "start": 496.40000000000003,
+      "end": 508.48,
+      "text": "Having our own workflows was helpful. We could work with the same functions and tools in every project,",
+      "words": []
+    },
+    {
+      "start": 509.12,
+      "end": 515.12,
+      "text": "but even with that, we could not deliver the information in the way our customers wanted.",
+      "words": []
+    },
+    {
+      "start": 516.1600000000001,
+      "end": 519.76,
+      "text": "So, we needed a solution that works for both sites.",
+      "words": []
+    },
+    {
+      "start": 520.3199999999999,
+      "end": 527.6,
+      "text": "We needed a reporting system that produced results immediately, not hours or days later.",
+      "words": []
+    },
+    {
+      "start": 527.6,
+      "end": 535.4399999999999,
+      "text": "Don't get me wrong. Power BI and the data connector are great tools, but for the daily work",
+      "words": []
+    },
+    {
+      "start": 535.4399999999999,
+      "end": 543.2,
+      "text": "of a project manager, they are simply too slow. In a word, when new information is added,",
+      "words": []
+    },
+    {
+      "start": 543.2,
+      "end": 550.72,
+      "text": "updated and connected to others all the time. In the field, in the office or directly in a meeting,",
+      "words": []
+    },
+    {
+      "start": 550.72,
+      "end": 556.72,
+      "text": "by anyone in the project team, we need information within seconds.",
+      "words": []
+    },
+    {
+      "start": 561.6800000000001,
+      "end": 563.6800000000001,
+      "text": "Let me show a short example.",
+      "words": []
+    },
+    {
+      "start": 563.76,
+      "end": 574.0,
+      "text": "In this video, we show how we handle the daily field report. A daily report contains static",
+      "words": []
+    },
+    {
+      "start": 574.0,
+      "end": 582.0,
+      "text": "information, how many workers were on the field, what activities were going on, and what work was done.",
+      "words": []
+    },
+    {
+      "start": 583.3599999999999,
+      "end": 590.3199999999999,
+      "text": "We create this information directly in build forms and they are filled out every day.",
+      "words": []
+    },
+    {
+      "start": 590.8000000000001,
+      "end": 597.9200000000001,
+      "text": "At the same time, a lot of dynamic information are created in the project, for example,",
+      "words": []
+    },
+    {
+      "start": 597.9200000000001,
+      "end": 606.1600000000001,
+      "text": "block problems, blockers or safety issues. These issues are created in build completely",
+      "words": []
+    },
+    {
+      "start": 606.1600000000001,
+      "end": 611.5200000000001,
+      "text": "independent from the form and they can be created by anyone in the project team.",
+      "words": []
+    },
+    {
+      "start": 611.5200000000001,
+      "end": 618.72,
+      "text": "I cannot simply write these problems into a form and hope something will happen. I need to",
+      "words": []
+    },
+    {
+      "start": 618.72,
+      "end": 624.88,
+      "text": "track them, document them, add photos and so on until they are full resolved.",
+      "words": []
+    },
+    {
+      "start": 626.64,
+      "end": 632.96,
+      "text": "But in the end, we still need to bring all of this information together in one clear report.",
+      "words": []
+    },
+    {
+      "start": 633.84,
+      "end": 642.32,
+      "text": "This is exactly what you see here in this video. A report that includes the static information",
+      "words": []
+    },
+    {
+      "start": 642.32,
+      "end": 650.72,
+      "text": "like weather, man-bowers and activities and also all open issues that are still active and need",
+      "words": []
+    },
+    {
+      "start": 650.72,
+      "end": 658.96,
+      "text": "to be solved. And with this, I would now like to hand over to my colleague Samuel,",
+      "words": []
+    },
+    {
+      "start": 658.96,
+      "end": 663.9200000000001,
+      "text": "who will explain more details about the technology behind.",
+      "words": []
+    },
+    {
+      "start": 664.56,
+      "end": 670.0,
+      "text": "What are we doing this? The answer is our own ego reporting platform.",
+      "words": []
+    },
+    {
+      "start": 672.3199999999999,
+      "end": 679.12,
+      "text": "The trial started about 4 years ago with roughly 10 project. Back then, it was one of the side",
+      "words": []
+    },
+    {
+      "start": 679.12,
+      "end": 685.76,
+      "text": "project and the over scope was still unknown. Our guiding principle was build fast and felt cheap.",
+      "words": []
+    },
+    {
+      "start": 686.88,
+      "end": 693.1999999999999,
+      "text": "So we started with the simple and very limited reports. In some cases, the date that was up to 8",
+      "words": []
+    },
+    {
+      "start": 693.2,
+      "end": 700.08,
+      "text": "hours old. Not ideal, but acceptable for a start. We knew this was far from perfect,",
+      "words": []
+    },
+    {
+      "start": 700.08,
+      "end": 705.84,
+      "text": "but we needed to start somewhere. At that time, we had no experience using Autodesk platform",
+      "words": []
+    },
+    {
+      "start": 705.84,
+      "end": 711.6,
+      "text": "services and still had to build up our knowledge. Luckily, there was some great tutorials and",
+      "words": []
+    },
+    {
+      "start": 711.6,
+      "end": 718.4000000000001,
+      "text": "solid documentation from Autodesk. We chose a low-code approach because it allowed us to get",
+      "words": []
+    },
+    {
+      "start": 718.4,
+      "end": 724.72,
+      "text": "results quickly in the chief early wins. We were able to integrate the new reports into our",
+      "words": []
+    },
+    {
+      "start": 724.72,
+      "end": 731.68,
+      "text": "existing reporting system. In the end, we needed almost no new infrastructure that helped us to",
+      "words": []
+    },
+    {
+      "start": 731.68,
+      "end": 740.88,
+      "text": "keep overhead and costs so minimum. Let's have a look at our journey. We started with just 10",
+      "words": []
+    },
+    {
+      "start": 740.96,
+      "end": 748.88,
+      "text": "projects, but within one year we had five times as many. By the end of 2023, we had surpassed 100",
+      "words": []
+    },
+    {
+      "start": 748.88,
+      "end": 756.08,
+      "text": "project mark and the reporting started to take off. Today, we served over 600 projects with our",
+      "words": []
+    },
+    {
+      "start": 756.08,
+      "end": 766.08,
+      "text": "reporting platform and the number continues to grow. Currently, ego reporting manages an",
+      "words": []
+    },
+    {
+      "start": 766.08,
+      "end": 772.5600000000001,
+      "text": "extensive and growing data set, including more than 100,000 issues, twice as many assets,",
+      "words": []
+    },
+    {
+      "start": 772.5600000000001,
+      "end": 778.8000000000001,
+      "text": "300,000 photos and approximately 1.4 million relationships between different entities.",
+      "words": []
+    },
+    {
+      "start": 780.0,
+      "end": 785.0400000000001,
+      "text": "In total, the system operates today on nearly 15 million individual records.",
+      "words": []
+    },
+    {
+      "start": 788.4000000000001,
+      "end": 794.08,
+      "text": "Let me show you two milestones. Three years ago, when we had around 50 projects,",
+      "words": []
+    },
+    {
+      "start": 794.72,
+      "end": 801.2,
+      "text": "we noticed a growing desire from our users for more complex reports. We saw the potential,",
+      "words": []
+    },
+    {
+      "start": 801.2,
+      "end": 804.72,
+      "text": "took the chance and decided to expand our reporting system.",
+      "words": []
+    },
+    {
+      "start": 806.24,
+      "end": 812.8000000000001,
+      "text": "Six months later, we reached the 100 project mark. At the same time, we were able to introduce",
+      "words": []
+    },
+    {
+      "start": 812.8000000000001,
+      "end": 818.5600000000001,
+      "text": "real-time updates for our reports, more reports and faster report loading for users.",
+      "words": []
+    },
+    {
+      "start": 819.28,
+      "end": 823.1999999999999,
+      "text": "How did we achieve this?",
+      "words": []
+    },
+    {
+      "start": 824.4,
+      "end": 829.1999999999999,
+      "text": "We used Power Automate to fetch the desired data from our desk construction cloud and",
+      "words": []
+    },
+    {
+      "start": 829.1999999999999,
+      "end": 835.76,
+      "text": "perform some initial data transformations. After that, we transferred the data to our secret",
+      "words": []
+    },
+    {
+      "start": 835.76,
+      "end": 842.16,
+      "text": "server for further processing. We might ask why we didn't do our processing in Power Automate.",
+      "words": []
+    },
+    {
+      "start": 842.48,
+      "end": 848.88,
+      "text": "Well, data transformation in Power Automate has its limitations and can enlarge data sets",
+      "words": []
+    },
+    {
+      "start": 848.88,
+      "end": 855.36,
+      "text": "can take quite some time. So from this start, we decided to perform only the first filtering",
+      "words": []
+    },
+    {
+      "start": 855.36,
+      "end": 860.8,
+      "text": "and transformation steps in Power Automate and then hand everything off to our secret server to do",
+      "words": []
+    },
+    {
+      "start": 860.8,
+      "end": 867.4399999999999,
+      "text": "the rest. In the end, the data was stored in the correct tables so that our reporting applications",
+      "words": []
+    },
+    {
+      "start": 867.44,
+      "end": 873.36,
+      "text": "could access it. The secret server not only provides the data for our on-view",
+      "words": []
+    },
+    {
+      "start": 873.36,
+      "end": 879.36,
+      "text": "porting application, which Michael already showed you, you can also access the data from Power BI",
+      "words": []
+    },
+    {
+      "start": 879.36,
+      "end": 885.84,
+      "text": "on Microsoft Excel. This allows our users to build their own casting dashboards and lists",
+      "words": []
+    },
+    {
+      "start": 885.84,
+      "end": 888.72,
+      "text": "with data directly from our desk construction cloud.",
+      "words": []
+    },
+    {
+      "start": 889.36,
+      "end": 897.84,
+      "text": "Let's have a look at Power Automate. We chose it because it integrates well in the Microsoft",
+      "words": []
+    },
+    {
+      "start": 897.84,
+      "end": 904.08,
+      "text": "ecosystem and offers great value, especially for the price. On the other hand, as with almost",
+      "words": []
+    },
+    {
+      "start": 904.08,
+      "end": 910.88,
+      "text": "low, with almost all low code platforms, there is no native ACC connector that meant we had to",
+      "words": []
+    },
+    {
+      "start": 910.88,
+      "end": 917.84,
+      "text": "build our own. But also few, one familiar with low code. A connector provides the different",
+      "words": []
+    },
+    {
+      "start": 917.84,
+      "end": 924.96,
+      "text": "actions that can be used inside workflows. In our case, we built our own APS connector based",
+      "words": []
+    },
+    {
+      "start": 924.96,
+      "end": 933.12,
+      "text": "on the official APS-REST API specification. The path to solution is more or less the same across",
+      "words": []
+    },
+    {
+      "start": 933.12,
+      "end": 940.1600000000001,
+      "text": "all low code platforms. Here's a trigger action that starts a workflow. For example, a carburetql",
+      "words": []
+    },
+    {
+      "start": 940.1600000000001,
+      "end": 947.2,
+      "text": "and incoming mail are a time-based trigger. After that, election blocks are executed sequentially,",
+      "words": []
+    },
+    {
+      "start": 947.2,
+      "end": 954.6400000000001,
+      "text": "passing data from one to the next until the workflow ends. While building workflows is quite simple,",
+      "words": []
+    },
+    {
+      "start": 954.6400000000001,
+      "end": 959.9200000000001,
+      "text": "building custom connectors requires the vanilla of the underlying APIs and technologies.",
+      "words": []
+    },
+    {
+      "start": 961.2,
+      "end": 967.5200000000001,
+      "text": "As our data warehouse, we decided to use SQL Server because we already had one in place for other",
+      "words": []
+    },
+    {
+      "start": 967.52,
+      "end": 978.0,
+      "text": "reports. So what did we learn using low code in the past years? First, we are glad that we chose",
+      "words": []
+    },
+    {
+      "start": 978.0,
+      "end": 985.28,
+      "text": "this path and we truly value the knowledge we gathered in the past years. On the bright side,",
+      "words": []
+    },
+    {
+      "start": 986.16,
+      "end": 991.92,
+      "text": "low code empowers more teams to build bigger projects. It is fast to get started and ship",
+      "words": []
+    },
+    {
+      "start": 992.4,
+      "end": 998.88,
+      "text": "solutions quickly. The cost of entry is quite low since there is little to no need for additional",
+      "words": []
+    },
+    {
+      "start": 998.88,
+      "end": 1006.56,
+      "text": "infrastructure and no expensive staff training is required. There are also many integrations available",
+      "words": []
+    },
+    {
+      "start": 1006.56,
+      "end": 1013.92,
+      "text": "for your APS systems, document management systems, BI tools and many more. However, there are challenges",
+      "words": []
+    },
+    {
+      "start": 1013.92,
+      "end": 1020.88,
+      "text": "as well. The ease of use comes with a performance penalty. Depending on the use case, in our own",
+      "words": []
+    },
+    {
+      "start": 1020.88,
+      "end": 1026.8,
+      "text": "tests, pro code solutions run up to 10 times faster as the equivalent low code approach.",
+      "words": []
+    },
+    {
+      "start": 1028.32,
+      "end": 1033.84,
+      "text": "In the end, developers are still needed to build custom integrations, design complex workflows",
+      "words": []
+    },
+    {
+      "start": 1033.84,
+      "end": 1038.64,
+      "text": "and connect different systems. There are also a vendor lock-in effect.",
+      "words": []
+    },
+    {
+      "start": 1039.52,
+      "end": 1044.08,
+      "text": "Switching providers is difficult and therefore you are more vulnerable to pricing changes.",
+      "words": []
+    },
+    {
+      "start": 1045.04,
+      "end": 1051.6,
+      "text": "And finally, our platforms have used such limitations. There is strict and maximum scaling,",
+      "words": []
+    },
+    {
+      "start": 1051.6,
+      "end": 1058.24,
+      "text": "the number of actions and total executions of your workflows. This brings us right to the limits.",
+      "words": []
+    },
+    {
+      "start": 1060.08,
+      "end": 1065.6,
+      "text": "With more complex reports, with more data and the writing number of uses and projects,",
+      "words": []
+    },
+    {
+      "start": 1065.6,
+      "end": 1071.84,
+      "text": "we saw our first scaling issues in mid-24. This resulted in increasing load times as we",
+      "words": []
+    },
+    {
+      "start": 1071.84,
+      "end": 1078.1599999999999,
+      "text": "had multiple platform limitations. At first, we tried working around these limitations.",
+      "words": []
+    },
+    {
+      "start": 1078.1599999999999,
+      "end": 1083.52,
+      "text": "We optimized workflows and paralyzed as much as we could, but this was not sustainable.",
+      "words": []
+    },
+    {
+      "start": 1084.6399999999999,
+      "end": 1089.6799999999998,
+      "text": "At the time, we managed about 300 projects, less than half of what we have today.",
+      "words": []
+    },
+    {
+      "start": 1090.8799999999999,
+      "end": 1094.24,
+      "text": "You can only imagine what would have happened if we hadn't done anything.",
+      "words": []
+    },
+    {
+      "start": 1095.36,
+      "end": 1100.9599999999998,
+      "text": "To give you an idea of the scale, in just one year, we widen tripled our API calls to",
+      "words": []
+    },
+    {
+      "start": 1100.96,
+      "end": 1106.88,
+      "text": "Autodesk. Now hitting 116 million requests per quarter, only for reporting tool.",
+      "words": []
+    },
+    {
+      "start": 1108.4,
+      "end": 1113.1200000000001,
+      "text": "I know this number sounds abstract. To give you a better sense of what it means,",
+      "words": []
+    },
+    {
+      "start": 1113.92,
+      "end": 1117.3600000000001,
+      "text": "that the more than two API calls, every single second.",
+      "words": []
+    },
+    {
+      "start": 1118.48,
+      "end": 1122.88,
+      "text": "Therefore, in early 25, we decided that we needed a foundational change.",
+      "words": []
+    },
+    {
+      "start": 1125.6000000000001,
+      "end": 1128.08,
+      "text": "We decided to switch our backend to C-Shop.",
+      "words": []
+    },
+    {
+      "start": 1128.3999999999999,
+      "end": 1133.76,
+      "text": "Now, we are able to scale beyond the old platform limitations and a no longer vendor,",
+      "words": []
+    },
+    {
+      "start": 1133.76,
+      "end": 1136.1599999999999,
+      "text": "blocked and more flexible for the future.",
+      "words": []
+    },
+    {
+      "start": 1139.04,
+      "end": 1145.28,
+      "text": "Waiting, change from minutes to seconds. Some reports load now up to 10 times faster.",
+      "words": []
+    },
+    {
+      "start": 1145.28,
+      "end": 1150.48,
+      "text": "Additionally, we can reuse our business logic with only minimal adjustments,",
+      "words": []
+    },
+    {
+      "start": 1150.48,
+      "end": 1156.08,
+      "text": "as the chip provides us. This means we practically have no vendor login anymore.",
+      "words": []
+    },
+    {
+      "start": 1157.04,
+      "end": 1162.6399999999999,
+      "text": "And probably most important, the code can be reused across other projects as well.",
+      "words": []
+    },
+    {
+      "start": 1163.84,
+      "end": 1168.3999999999999,
+      "text": "However, building protocol solutions takes more time and to cross-mode know-how.",
+      "words": []
+    },
+    {
+      "start": 1169.1999999999998,
+      "end": 1172.1599999999999,
+      "text": "And, third-party integration is not as easy either.",
+      "words": []
+    },
+    {
+      "start": 1175.84,
+      "end": 1177.76,
+      "text": "How does our current text-tech look?",
+      "words": []
+    },
+    {
+      "start": 1179.12,
+      "end": 1183.52,
+      "text": "To fetch data from ACC, we now use serverless functions with NECShop.",
+      "words": []
+    },
+    {
+      "start": 1184.48,
+      "end": 1189.04,
+      "text": "We chose this approach because serverless functions are highly flexible and scalable.",
+      "words": []
+    },
+    {
+      "start": 1189.68,
+      "end": 1192.4,
+      "text": "Yet, still cheaper than first-scale server solutions.",
+      "words": []
+    },
+    {
+      "start": 1193.44,
+      "end": 1196.72,
+      "text": "There's no data transformation happening in the SQL Server anymore.",
+      "words": []
+    },
+    {
+      "start": 1197.52,
+      "end": 1200.48,
+      "text": "Everything is done directly inside the serverless functions.",
+      "words": []
+    },
+    {
+      "start": 1201.92,
+      "end": 1206.16,
+      "text": "Since the code is gradually generic, we can use this with providers and the no longer vendor log.",
+      "words": []
+    },
+    {
+      "start": 1207.36,
+      "end": 1210.8,
+      "text": "As our data here by our house, we still use SQL Server.",
+      "words": []
+    },
+    {
+      "start": 1211.44,
+      "end": 1216.6399999999999,
+      "text": "Simply because there was a reason to change it, and continues to scale without any issues.",
+      "words": []
+    },
+    {
+      "start": 1219.84,
+      "end": 1223.28,
+      "text": "How was the transition? The transition between the back-ends was smooth.",
+      "words": []
+    },
+    {
+      "start": 1224.24,
+      "end": 1228.0,
+      "text": "In fact, our users were completely unaware of the underlying changes,",
+      "words": []
+    },
+    {
+      "start": 1228.0,
+      "end": 1230.3999999999999,
+      "text": "except the reports became a lot faster.",
+      "words": []
+    },
+    {
+      "start": 1231.76,
+      "end": 1236.24,
+      "text": "How was it possible? The reporting applications for the users data same.",
+      "words": []
+    },
+    {
+      "start": 1236.88,
+      "end": 1238.72,
+      "text": "Our changes happened in the back-end.",
+      "words": []
+    },
+    {
+      "start": 1239.84,
+      "end": 1243.84,
+      "text": "After testing the new back-end, we removed both systems in parallel for a while",
+      "words": []
+    },
+    {
+      "start": 1243.84,
+      "end": 1247.1200000000001,
+      "text": "to be sure that everything worked as expected.",
+      "words": []
+    },
+    {
+      "start": 1248.48,
+      "end": 1252.48,
+      "text": "Then, we started switching models from the old 2D Neo system, one by one,",
+      "words": []
+    },
+    {
+      "start": 1253.04,
+      "end": 1255.84,
+      "text": "first issues, then forms and assets, and so on.",
+      "words": []
+    },
+    {
+      "start": 1256.96,
+      "end": 1262.8,
+      "text": "Whenever something didn't work, we were able to switch back to the old system within seconds.",
+      "words": []
+    },
+    {
+      "start": 1266.32,
+      "end": 1270.24,
+      "text": "To wrap it all up, in hindsight, we recommend low code at a starting point.",
+      "words": []
+    },
+    {
+      "start": 1271.2,
+      "end": 1273.76,
+      "text": "We get fast results and can achieve quick wins.",
+      "words": []
+    },
+    {
+      "start": 1274.88,
+      "end": 1279.36,
+      "text": "The overhead is comparatively low, and third-party integration is quite easy.",
+      "words": []
+    },
+    {
+      "start": 1280.32,
+      "end": 1285.44,
+      "text": "Most importantly, you quickly can experience with auto-desk platform services and expand the knowledge.",
+      "words": []
+    },
+    {
+      "start": 1286.64,
+      "end": 1291.36,
+      "text": "Nevertheless, once you need to scale up by an assertive threshold,",
+      "words": []
+    },
+    {
+      "start": 1291.36,
+      "end": 1295.04,
+      "text": "you won't get around using ProCode. It is faster and more efficient.",
+      "words": []
+    },
+    {
+      "start": 1295.68,
+      "end": 1297.68,
+      "text": "But it requires specialized knowledge.",
+      "words": []
+    },
+    {
+      "start": 1300.32,
+      "end": 1304.08,
+      "text": "Thank you for joining us today. We appreciate your time and interest,",
+      "words": []
+    },
+    {
+      "start": 1304.08,
+      "end": 1309.44,
+      "text": "and we hope that the insights we shared will help you build your own APS-powered solutions.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T21:46:35.717128+00:00"
+}

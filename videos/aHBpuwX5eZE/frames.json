@@ -1,0 +1,309 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\aHBpuwX5eZE\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\aHBpuwX5eZE\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide titled 'When Automated Workflows Act Governing Decision-Making in AI-Driven Platforms' at Autodesk DevCon 2026.",
+      "products_visible": [
+        "AUTODESK",
+        "Nacorm"
+      ],
+      "ui_elements": [
+        "When Automated Workflows Act",
+        "Governing Decision-Making in AI-Driven Platforms",
+        "Candice HASSINE",
+        "Nabil SADEG",
+        "April 15, 2026"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\aHBpuwX5eZE\\frames\\frame_000005.jpg",
+      "timestamp_seconds": 120.0,
+      "frame_index": 5,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses decision-making in AI workflows, outlining the roles of platforms, AI, and actions in the process.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Platforms",
+        "AI",
+        "Actions"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\aHBpuwX5eZE\\frames\\frame_000008.jpg",
+      "timestamp_seconds": 210.0,
+      "frame_index": 8,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing decisions in project workflows, focusing on the types and quantity of decisions in a construction project.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "How many decisions are made in a construction project?",
+        "What kind of decisions are they?"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\aHBpuwX5eZE\\frames\\frame_000011.jpg",
+      "timestamp_seconds": 300.0,
+      "frame_index": 11,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide showing three questions about decisions in AI-driven platforms, discussing where decisions emerge, automation, and governance.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Three questions about decisions in AI-driven platforms",
+        "Where do decisions emerge in AI-driven workflows?",
+        "Why shouldn\u2019t all decisions be automated?",
+        "How can platforms govern these decisions?"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\aHBpuwX5eZE\\frames\\frame_000013.jpg",
+      "timestamp_seconds": 360.0,
+      "frame_index": 13,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide showing three questions about decisions in AI-driven platforms with a speaker next to it.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Three questions about decisions in AI-driven platforms",
+        "01 Where do decisions emerge in AI-driven workflows?",
+        "02 Why shouldn\u2019t all decisions be automated?",
+        "03 How can platforms govern these decisions?"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\aHBpuwX5eZE\\frames\\frame_000017.jpg",
+      "timestamp_seconds": 480.0,
+      "frame_index": 17,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide analyzing the components that make up a decision: prediction and judgment.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "What makes a decision?",
+        "Decision",
+        "Prediction",
+        "Judgment"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\aHBpuwX5eZE\\frames\\frame_000018.jpg",
+      "timestamp_seconds": 510.0,
+      "frame_index": 18,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing a decision-making process with steps such as Signals, Interpretation, Decision, Action, and Feedback, and underlying tensions of Information, Responsibility, and Judgment.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Signals",
+        "Interpretation",
+        "Decision",
+        "Action",
+        "Feedback",
+        "Information",
+        "Responsibility",
+        "Judgment"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\aHBpuwX5eZE\\frames\\frame_000022.jpg",
+      "timestamp_seconds": 630.0,
+      "frame_index": 22,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation about decision-making processes, showing a chain from signals to feedback with tensions in information, responsibility, and judgment.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Signals",
+        "Interpretation",
+        "Decision",
+        "Action",
+        "Feedback",
+        "Information",
+        "Responsibility",
+        "Judgment"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\aHBpuwX5eZE\\frames\\frame_000023.jpg",
+      "timestamp_seconds": 660.0,
+      "frame_index": 23,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide describes human-machine interactions across various stages such as signals, interpretation, decision, action, and feedback.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Human-machine interactions across the chain",
+        "Signals",
+        "Interpretation",
+        "Decision",
+        "Action",
+        "Feedback"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\aHBpuwX5eZE\\frames\\frame_000028.jpg",
+      "timestamp_seconds": 810.0,
+      "frame_index": 28,
+      "category": "slides",
+      "keep": true,
+      "description": "This slide titled 'The decision space' categorizes different types of project decisions based on impact and complexity.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "The decision space",
+        "Compliance and control decisions",
+        "Strategic project decisions",
+        "Routine coordination decisions",
+        "Technical Coordination Decision"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\aHBpuwX5eZE\\frames\\frame_000031.jpg",
+      "timestamp_seconds": 900.0,
+      "frame_index": 31,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide discussing the levels of automation, including human control and system autonomy with assist, augment, and automate levels.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "The automation challenge",
+        "Assist",
+        "Augment",
+        "Automate",
+        "Human control",
+        "System Autonomy"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\aHBpuwX5eZE\\frames\\frame_000033.jpg",
+      "timestamp_seconds": 960.0,
+      "frame_index": 33,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses levels of automation with categories such as Assist, Augment, and Automate, explaining how decisions are delegated between human control and system autonomy.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "The automation challenge",
+        "Human control",
+        "System Autonomy",
+        "Assist",
+        "Augment",
+        "Automate"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\aHBpuwX5eZE\\frames\\frame_000035.jpg",
+      "timestamp_seconds": 1020.0,
+      "frame_index": 35,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide discussing how AI interventions shape project decisions using computer vision, NLP, and BIM/machine learning.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Computer Vision",
+        "NLP",
+        "BIM/Machine learning"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\aHBpuwX5eZE\\frames\\frame_000043.jpg",
+      "timestamp_seconds": 1260.0,
+      "frame_index": 43,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses the need for governance in automation, mentioning AI intervention in project workflows.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Automation Requires Governance"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\aHBpuwX5eZE\\frames\\frame_000047.jpg",
+      "timestamp_seconds": 1380.0,
+      "frame_index": 47,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing AI architecture for defect detection, including object recognition, material recognition, and defect detection processes.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "AI Architecture for Defect Detection",
+        "Object recognition",
+        "Material Recognition",
+        "Defect Detection"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\aHBpuwX5eZE\\frames\\frame_000051.jpg",
+      "timestamp_seconds": 1500.0,
+      "frame_index": 51,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide highlights examples of how AI signals become governed project actions, including BIM Clash Coordination, Document Compliance Check, and Schedule Deviation Monitoring.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "BIM Clash Coordination",
+        "Document Compliance Check",
+        "Schedule Deviation Monitoring"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\aHBpuwX5eZE\\frames\\frame_000056.jpg",
+      "timestamp_seconds": 1650.0,
+      "frame_index": 56,
+      "category": "transition",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:28:15.891438+00:00"
+}

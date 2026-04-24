@@ -1,0 +1,249 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Yck4v4chnew\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide from Autodesk DevCon with images and titles of presenters Peter Madlener and Luka Obuljen, along with their company affiliations.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "The presenters",
+        "VIKTOR",
+        "SWECO"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Yck4v4chnew\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses the increasing pressures on the engineering industry including energy transition, climate adaptation, and housing shortages.",
+      "products_visible": [
+        "AUTODESK",
+        "VIKTOR"
+      ],
+      "ui_elements": [
+        "Energy transition",
+        "Climate adaptation",
+        "Housing shortages",
+        "Aging infrastructure",
+        "Budget pressure",
+        "Talent shortage",
+        "Short timelines"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Yck4v4chnew\\frames\\frame_000005.jpg",
+      "timestamp_seconds": 120.0,
+      "frame_index": 5,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses AI enabling automation in engineering companies, showing a chart of AI usage per industry.",
+      "products_visible": [
+        "AUTODESK",
+        "VIKTOR"
+      ],
+      "ui_elements": [
+        "AI usage per industry"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Yck4v4chnew\\frames\\frame_000010.jpg",
+      "timestamp_seconds": 270.0,
+      "frame_index": 10,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide about Sweco Belgium, detailing its operations and key areas of focus such as buildings, urban areas, and sustainability.",
+      "products_visible": [],
+      "ui_elements": [
+        "Sweco Belgium",
+        "One of the largest engineering and architecture company in Europe"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Yck4v4chnew\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents Sweco Belgium's digital pillars, focusing on digitizing core processes, transforming client experience, unlocking new business, building culture and digital capabilities, and digitalizing the back office.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Digitize the Core",
+        "Transform the Client Experience",
+        "Unlock New Business",
+        "Build Culture & Digital Capabilities",
+        "Digitalize the Back Office"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Yck4v4chnew\\frames\\frame_000013.jpg",
+      "timestamp_seconds": 360.0,
+      "frame_index": 13,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses digital transformation strategies by Sweco & VIKTOR AI, focusing on digitalizing the core, transforming the client experience, and unlocking new opportunities.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Digitalize the Core",
+        "Transforming the Client Experience",
+        "Unlocking new Opportunities"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Yck4v4chnew\\frames\\frame_000015.jpg",
+      "timestamp_seconds": 420.0,
+      "frame_index": 15,
+      "category": "demo",
+      "keep": true,
+      "description": "A user interface is demonstrated alongside a speaker during an Autodesk DevCon presentation.",
+      "products_visible": [
+        "Autodesk",
+        "SWECO"
+      ],
+      "ui_elements": [
+        "Home",
+        "Projects",
+        "Develop",
+        "App store",
+        "Hi Luka",
+        "Create app"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Yck4v4chnew\\frames\\frame_000017.jpg",
+      "timestamp_seconds": 480.0,
+      "frame_index": 17,
+      "category": "demo",
+      "keep": true,
+      "description": "A person is speaking on the left, while a file upload dialog from a software interface is shown on the right.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Upload your training data",
+        "Downloads",
+        "Show Options",
+        "Cancel",
+        "Done"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Yck4v4chnew\\frames\\frame_000019.jpg",
+      "timestamp_seconds": 540.0,
+      "frame_index": 19,
+      "category": "demo",
+      "keep": true,
+      "description": "A presentation at Autodesk DevCon with a demo of the VIKTOR app builder, showing options for creating applications.",
+      "products_visible": [
+        "Autodesk",
+        "VIKTOR"
+      ],
+      "ui_elements": [
+        "VIKTOR",
+        "Hi Luka, What kind of app would you like to create today?"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Yck4v4chnew\\frames\\frame_000028.jpg",
+      "timestamp_seconds": 810.0,
+      "frame_index": 28,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses upcoming workflows and AI agents, featuring a diagram illustrating a workflow involving design, calculation, and validation apps.",
+      "products_visible": [
+        "AUTODESK",
+        "VIKTOR"
+      ],
+      "ui_elements": [
+        "What is up next?",
+        "Workflow",
+        "App store",
+        "Design app",
+        "Calculation app",
+        "Validation app"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Yck4v4chnew\\frames\\frame_000032.jpg",
+      "timestamp_seconds": 930.0,
+      "frame_index": 32,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a presenter demonstrating a software interface related to Autodesk, with an open file browsing dialog on the screen.",
+      "products_visible": [
+        "Autodesk",
+        "VIKTOR"
+      ],
+      "ui_elements": [
+        "Browse files",
+        "VIKTOR (US region)",
+        "Example Project"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Yck4v4chnew\\frames\\frame_000038.jpg",
+      "timestamp_seconds": 1110.0,
+      "frame_index": 38,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a presentation with a split view of a UI demo, including a 3D model visualization and a panel with various analytical components.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Workflow Graph",
+        "Viewer",
+        "Analytical Members",
+        "Analytical Panels",
+        "Update"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Yck4v4chnew\\frames\\frame_000047.jpg",
+      "timestamp_seconds": 1380.0,
+      "frame_index": 47,
+      "category": "demo",
+      "keep": true,
+      "description": "A demonstration of a building design application showing a model view and a workflow interface.",
+      "products_visible": [
+        "Autodesk",
+        "VIKTOR"
+      ],
+      "ui_elements": [
+        "Workflow Graph",
+        "Viewer",
+        "Table Tool",
+        "Model View Analytical",
+        "Running Poll Pile ACC Job"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Yck4v4chnew\\frames\\frame_000048.jpg",
+      "timestamp_seconds": 1410.0,
+      "frame_index": 48,
+      "category": "demo",
+      "keep": true,
+      "description": "A demonstration of a 3D structural model in a software application is shown during an Autodesk DevCon presentation.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "pile_output_82d7ad",
+        "icon buttons",
+        "top view cube"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:14:40.949670+00:00"
+}

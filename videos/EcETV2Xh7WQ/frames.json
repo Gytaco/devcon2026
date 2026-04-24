@@ -1,0 +1,333 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\EcETV2Xh7WQ\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide about enterprise-scale ACC project lifecycle management with APS and SSA.",
+      "products_visible": [
+        "Autodesk",
+        "APS",
+        "SSA"
+      ],
+      "ui_elements": [
+        "Enterprise-Scale Forma (ACC) Project Lifecycle Management: From Initial Design to Asset Delivery with APS + SSA"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\EcETV2Xh7WQ\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "This slide introduces speakers Ionut-Adrian Birsan and Rodney Dsilva, showing their roles and affiliations.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Speaker Introduction",
+        "Primary speaker",
+        "Co-speaker"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\EcETV2Xh7WQ\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide titled 'Arcadis at a glance' with statistics about the company, including founding year, employee count, client projects, revenue projections, and global centers.",
+      "products_visible": [
+        "AUTODESK",
+        "Arcadis"
+      ],
+      "ui_elements": [
+        "Arcadis at a glance",
+        "Founded in 1888",
+        "34,000+ people",
+        "10,000+ client projects",
+        "\u20ac5.0 billion",
+        "3 Global Excellence Centers"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\EcETV2Xh7WQ\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation outlines learning objectives regarding project lifecycle management, cross-product workflows, and the use of AI-driven insights.",
+      "products_visible": [
+        "Autodesk",
+        "Forma",
+        "APS",
+        "SSA"
+      ],
+      "ui_elements": [
+        "What You'll Learn"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\EcETV2Xh7WQ\\frames\\frame_000007.jpg",
+      "timestamp_seconds": 180.0,
+      "frame_index": 7,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide showing the agenda for a talk at Autodesk DevCon, covering topics like project control tools and solution architecture.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Agenda",
+        "Enterprise Challenges at Scale",
+        "Introducing Project Control Tool (PCT)",
+        "Solution Architecture",
+        "Automations & Intelligence",
+        "Outcomes",
+        "Roadmap"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\EcETV2Xh7WQ\\frames\\frame_000008.jpg",
+      "timestamp_seconds": 210.0,
+      "frame_index": 8,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide discussing key challenges in scaling enterprise-scale Forma (ACC) operations.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Key Challenges",
+        "Scale & Complexity",
+        "Standardization & Governance",
+        "Manual Effort & Connected Workflows"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\EcETV2Xh7WQ\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide introduces the Project Control Tool (PCT) with an image of a digital control interface.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Introducing Project Control Tool (PCT)"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\EcETV2Xh7WQ\\frames\\frame_000015.jpg",
+      "timestamp_seconds": 420.0,
+      "frame_index": 15,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide from Autodesk DevCon explaining the business process of 'How PCT Works' in a step-by-step workflow.",
+      "products_visible": [
+        "AUTODESK",
+        "Forma (ACC)"
+      ],
+      "ui_elements": [
+        "Platform Setup",
+        "Project Request",
+        "Approval Workflow",
+        "Automated Project Setup",
+        "Project Ready & Managed"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\EcETV2Xh7WQ\\frames\\frame_000019.jpg",
+      "timestamp_seconds": 540.0,
+      "frame_index": 19,
+      "category": "ui",
+      "keep": true,
+      "description": "The frame shows a Project Control Tool interface being used during an Autodesk DevCon presentation.",
+      "products_visible": [
+        "Autodesk",
+        "Arcadis"
+      ],
+      "ui_elements": [
+        "Project Control Tool",
+        "Platform Management",
+        "Project Details",
+        "Global aligned templates"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\EcETV2Xh7WQ\\frames\\frame_000021.jpg",
+      "timestamp_seconds": 600.0,
+      "frame_index": 21,
+      "category": "demo",
+      "keep": true,
+      "description": "A presentation showing a software interface with a project information form related to Arcadis templates.",
+      "products_visible": [
+        "AUTODESK",
+        "Arcadis"
+      ],
+      "ui_elements": [
+        "Global aligned templates",
+        "New Requests",
+        "Project start date",
+        "Project end date"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\EcETV2Xh7WQ\\frames\\frame_000024.jpg",
+      "timestamp_seconds": 690.0,
+      "frame_index": 24,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide presentation on 'Solution Architecture' related to project requests, featuring server infrastructure.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "DevCon",
+        "Solution Architecture",
+        "PROJECT REQUEST"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\EcETV2Xh7WQ\\frames\\frame_000026.jpg",
+      "timestamp_seconds": 750.0,
+      "frame_index": 26,
+      "category": "diagram",
+      "keep": true,
+      "description": "The frame shows a solution architecture diagram with components like PCT Frontend, PCT Backend, Azure SQL Database, and various integrations using Microsoft Azure and Autodesk services.",
+      "products_visible": [
+        "Autodesk",
+        "Microsoft Azure",
+        "Azure SQL",
+        "Microsoft SharePoint"
+      ],
+      "ui_elements": [
+        "Solution Architecture",
+        "PCT Frontend (UI)",
+        "PCT Backend (Azure Function App)",
+        "API Layer",
+        "Platform Strategy Layer",
+        "Orchestration Layer",
+        "Data Access Layer",
+        "Platform Integration Layer"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\EcETV2Xh7WQ\\frames\\frame_000029.jpg",
+      "timestamp_seconds": 840.0,
+      "frame_index": 29,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide covers workflow orchestration at scale, detailing platform workflows, automation, and services used in Autodesk DevCon.",
+      "products_visible": [
+        "Autodesk",
+        "Azure Functions",
+        "APS"
+      ],
+      "ui_elements": [
+        "User Request",
+        "API Layer",
+        "Platform Strategy",
+        "Durable Orchestrator",
+        "Activity Execution",
+        "Shared Service Layer",
+        "Target Platforms"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\EcETV2Xh7WQ\\frames\\frame_000032.jpg",
+      "timestamp_seconds": 930.0,
+      "frame_index": 32,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses automation at scale with sections on project provisioning, access and governance, workflow automation, and integrations.",
+      "products_visible": [
+        "Autodesk",
+        "Forma"
+      ],
+      "ui_elements": [
+        "Project Provisioning",
+        "Access & Governance",
+        "Workflow Automation",
+        "Integrations"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\EcETV2Xh7WQ\\frames\\frame_000041.jpg",
+      "timestamp_seconds": 1200.0,
+      "frame_index": 41,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a speaker discussing a Project Control Tool interface at an Autodesk DevCon event.",
+      "products_visible": [
+        "Autodesk",
+        "ARCACIS"
+      ],
+      "ui_elements": [
+        "Project Control Tool",
+        "Auto-Populate",
+        "Apply Suggestions",
+        "Project Details",
+        "Platform Specific"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\EcETV2Xh7WQ\\frames\\frame_000042.jpg",
+      "timestamp_seconds": 1230.0,
+      "frame_index": 42,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide discusses the use of AI-powered insights to improve enterprise visibility by utilizing Forma (ACC) project data.",
+      "products_visible": [
+        "AUTODESK",
+        "Forma (ACC)"
+      ],
+      "ui_elements": [
+        "Distributed project data",
+        "Need for standardized insight",
+        "From insight to action"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\EcETV2Xh7WQ\\frames\\frame_000054.jpg",
+      "timestamp_seconds": 1590.0,
+      "frame_index": 54,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide featuring a quote from Mark Kroezen, discussing PCT's benefits for standardizing projects and improving efficiency.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "quote",
+        "mark kroezen | bim manager",
+        "PCT helps us standardize..."
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\EcETV2Xh7WQ\\frames\\frame_000056.jpg",
+      "timestamp_seconds": 1650.0,
+      "frame_index": 56,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing a timeline for Arcadis' next steps with milestones in May, August, and October 2026.",
+      "products_visible": [
+        "Autodesk Assistant",
+        "MCP",
+        "Forma",
+        "ProjectWise"
+      ],
+      "ui_elements": [
+        "Arcadis next steps timeline",
+        "May 2026",
+        "August 2026",
+        "October 2026"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:44:14.544214+00:00"
+}

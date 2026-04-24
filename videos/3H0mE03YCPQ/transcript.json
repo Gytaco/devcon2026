@@ -1,0 +1,1795 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.68,
+      "text": "Welcome to the session about closing the safety loop, real-time incident notifications from",
+      "words": []
+    },
+    {
+      "start": 5.68,
+      "end": 7.68,
+      "text": "all the desk format to the field.",
+      "words": []
+    },
+    {
+      "start": 7.68,
+      "end": 12.1,
+      "text": "My name is Christopher Bouter, I'm the manager of innovation at EBS and my colleague Arno",
+      "words": []
+    },
+    {
+      "start": 12.1,
+      "end": 13.18,
+      "text": "you will meet later.",
+      "words": []
+    },
+    {
+      "start": 13.18,
+      "end": 16.76,
+      "text": "EBS is a construction company based in Antwer, Belgium.",
+      "words": []
+    },
+    {
+      "start": 16.76,
+      "end": 23.64,
+      "text": "We specialize in three sectors being healthcare schools and hospitals.",
+      "words": []
+    },
+    {
+      "start": 23.64,
+      "end": 29.76,
+      "text": "We do that as a general contractor and the revenue that we turn over every year is about",
+      "words": []
+    },
+    {
+      "start": 29.76,
+      "end": 33.160000000000004,
+      "text": "70 million and we do that with about 70 to 75 people.",
+      "words": []
+    },
+    {
+      "start": 33.160000000000004,
+      "end": 39.260000000000005,
+      "text": "We work exclusively with subcontractors which makes us a different kind of general contractor",
+      "words": []
+    },
+    {
+      "start": 39.260000000000005,
+      "end": 41.68,
+      "text": "than most.",
+      "words": []
+    },
+    {
+      "start": 41.68,
+      "end": 46.64,
+      "text": "So we've all been there, you've all experienced this, you improve reporting, you standardize",
+      "words": []
+    },
+    {
+      "start": 46.64,
+      "end": 52.68000000000001,
+      "text": "templates, you clean, you finally get clean data in other desk format and then suddenly",
+      "words": []
+    },
+    {
+      "start": 52.68000000000001,
+      "end": 55.56,
+      "text": "response times slow down and issues don't get solved.",
+      "words": []
+    },
+    {
+      "start": 55.56,
+      "end": 60.6,
+      "text": "You've got problems on the job site which you log in issues for example and they don't",
+      "words": []
+    },
+    {
+      "start": 60.6,
+      "end": 64.2,
+      "text": "get there's no action being followed.",
+      "words": []
+    },
+    {
+      "start": 64.2,
+      "end": 70.0,
+      "text": "So I'm going to take you through what we encountered, why it matters, what actually happened",
+      "words": []
+    },
+    {
+      "start": 70.0,
+      "end": 73.64,
+      "text": "and what we built to solve it.",
+      "words": []
+    },
+    {
+      "start": 73.64,
+      "end": 81.08,
+      "text": "So in 2025 we started scaling safety reporting across all our construction projects.",
+      "words": []
+    },
+    {
+      "start": 81.08,
+      "end": 89.2,
+      "text": "We rolled it out in 2025 using standardized issue templates which you probably all know.",
+      "words": []
+    },
+    {
+      "start": 89.2,
+      "end": 95.8,
+      "text": "We had problems that everybody filled in some other topic in those issues and we standardized",
+      "words": []
+    },
+    {
+      "start": 95.8,
+      "end": 102.8,
+      "text": "those using these issue templates, the standard ones in ACC with a mixture of what we call",
+      "words": []
+    },
+    {
+      "start": 102.8,
+      "end": 103.88,
+      "text": "the EBS DNA.",
+      "words": []
+    },
+    {
+      "start": 103.88,
+      "end": 109.88,
+      "text": "We have a stone table that we send out to all of our subcontractors with the 10 commandments",
+      "words": []
+    },
+    {
+      "start": 109.88,
+      "end": 114.16,
+      "text": "of the safety commandments of the job site itself.",
+      "words": []
+    },
+    {
+      "start": 114.16,
+      "end": 120.0,
+      "text": "We translated those into the safety templates and we started rolling out in 2025 and we saw",
+      "words": []
+    },
+    {
+      "start": 120.0,
+      "end": 125.19999999999999,
+      "text": "an increase in data that we got into our data warehouse.",
+      "words": []
+    },
+    {
+      "start": 125.19999999999999,
+      "end": 131.07999999999998,
+      "text": "And so what we got out of it is a dashboard of which companies had which issues, which",
+      "words": []
+    },
+    {
+      "start": 131.07999999999998,
+      "end": 136.2,
+      "text": "type of issues were most commonly observed.",
+      "words": []
+    },
+    {
+      "start": 136.2,
+      "end": 140.32,
+      "text": "And so we could take actions from those templates themselves.",
+      "words": []
+    },
+    {
+      "start": 140.32,
+      "end": 146.2,
+      "text": "So for example, wearing a hard hat was the number one priority in 2025 and that's where",
+      "words": []
+    },
+    {
+      "start": 146.2,
+      "end": 149.11999999999998,
+      "text": "we made a few campaigns about.",
+      "words": []
+    },
+    {
+      "start": 149.11999999999998,
+      "end": 156.56,
+      "text": "Now some people think that having more safety issues is actually not that good.",
+      "words": []
+    },
+    {
+      "start": 156.56,
+      "end": 163.39999999999998,
+      "text": "In Belgium we need to focus on measuring those safety issues so that we can put dedicated",
+      "words": []
+    },
+    {
+      "start": 163.4,
+      "end": 166.64000000000001,
+      "text": "campaigns into the field at work.",
+      "words": []
+    },
+    {
+      "start": 166.64000000000001,
+      "end": 172.48000000000002,
+      "text": "So it's all about the iceberg concept where you measure what the type of iceberg above",
+      "words": []
+    },
+    {
+      "start": 172.48000000000002,
+      "end": 178.0,
+      "text": "the water level is to know which actually resides below the water level because not every",
+      "words": []
+    },
+    {
+      "start": 178.0,
+      "end": 180.72,
+      "text": "issue is reported.",
+      "words": []
+    },
+    {
+      "start": 180.72,
+      "end": 186.76,
+      "text": "And so we saw an increase in 2025 in all of those safety issues increasing and increasing.",
+      "words": []
+    },
+    {
+      "start": 186.76,
+      "end": 193.0,
+      "text": "We started the deployment somewhere around February March in 2025 and so you see the increase",
+      "words": []
+    },
+    {
+      "start": 193.0,
+      "end": 195.88,
+      "text": "of the incline in issues made.",
+      "words": []
+    },
+    {
+      "start": 195.88,
+      "end": 200.92,
+      "text": "And then suddenly November, October November, we saw a decline.",
+      "words": []
+    },
+    {
+      "start": 200.92,
+      "end": 205.6,
+      "text": "And so we sat down with the project leaders talking about yeah, what's going on here and",
+      "words": []
+    },
+    {
+      "start": 205.6,
+      "end": 211.0,
+      "text": "what they the feedback that they gave us was yeah, we're reporting all these issues in",
+      "words": []
+    },
+    {
+      "start": 211.0,
+      "end": 213.52,
+      "text": "other desk format.",
+      "words": []
+    },
+    {
+      "start": 213.52,
+      "end": 216.08,
+      "text": "But we're not seeing actions on the job site itself.",
+      "words": []
+    },
+    {
+      "start": 216.08,
+      "end": 222.96,
+      "text": "And so people don't look at the notifications they get from other desk format because it's",
+      "words": []
+    },
+    {
+      "start": 222.96,
+      "end": 224.64000000000001,
+      "text": "in their mailbox somewhere.",
+      "words": []
+    },
+    {
+      "start": 224.64000000000001,
+      "end": 229.08,
+      "text": "It's being sent out the next day or the next week and they don't even look at it.",
+      "words": []
+    },
+    {
+      "start": 229.08,
+      "end": 233.12,
+      "text": "So issues were being logged but no actions were being taken.",
+      "words": []
+    },
+    {
+      "start": 233.12,
+      "end": 239.64000000000001,
+      "text": "And so what they did, the project leaders was changed their method of working from creating",
+      "words": []
+    },
+    {
+      "start": 239.64000000000001,
+      "end": 245.64000000000001,
+      "text": "issues in a other desk construction cloud or other format to sending what's up messages",
+      "words": []
+    },
+    {
+      "start": 245.64000000000001,
+      "end": 251.92000000000002,
+      "text": "to those specific subcontractors where they detected the safety issues.",
+      "words": []
+    },
+    {
+      "start": 251.92,
+      "end": 257.12,
+      "text": "And so that's when we got the idea, well, why not combine it to why not have an issue",
+      "words": []
+    },
+    {
+      "start": 257.12,
+      "end": 262.88,
+      "text": "created in our desk format and have what's up message, message being sent directly to",
+      "words": []
+    },
+    {
+      "start": 262.88,
+      "end": 267.28,
+      "text": "the one assigned to the issue.",
+      "words": []
+    },
+    {
+      "start": 267.28,
+      "end": 270.96,
+      "text": "So we're about to show it who wants to see it work.",
+      "words": []
+    },
+    {
+      "start": 270.96,
+      "end": 272.76,
+      "text": "All right.",
+      "words": []
+    },
+    {
+      "start": 272.76,
+      "end": 273.76,
+      "text": "Hello everybody.",
+      "words": []
+    },
+    {
+      "start": 273.76,
+      "end": 274.91999999999996,
+      "text": "I'm Arno.",
+      "words": []
+    },
+    {
+      "start": 274.91999999999996,
+      "end": 279.44,
+      "text": "I am an in house developer at events.",
+      "words": []
+    },
+    {
+      "start": 279.44,
+      "end": 287.2,
+      "text": "And as Christopher just said, let's show you a video real quick about how this actually",
+      "words": []
+    },
+    {
+      "start": 287.2,
+      "end": 289.4,
+      "text": "works in practice.",
+      "words": []
+    },
+    {
+      "start": 289.4,
+      "end": 295.56,
+      "text": "So what we see in the video here is we are creating an issue in former.",
+      "words": []
+    },
+    {
+      "start": 295.56,
+      "end": 300.68,
+      "text": "All of the information is being filled out description, the title, your assigned user,",
+      "words": []
+    },
+    {
+      "start": 300.68,
+      "end": 306.72,
+      "text": "we are going to be adding an image in just a moment.",
+      "words": []
+    },
+    {
+      "start": 306.72,
+      "end": 312.56,
+      "text": "And when this issue gets created, what will eventually happen is we will eventually see",
+      "words": []
+    },
+    {
+      "start": 312.56,
+      "end": 316.84000000000003,
+      "text": "a WhatsApp message being sent in the WhatsApp window.",
+      "words": []
+    },
+    {
+      "start": 316.84000000000003,
+      "end": 319.04,
+      "text": "Of course, the application has to do its job.",
+      "words": []
+    },
+    {
+      "start": 319.04,
+      "end": 324.16,
+      "text": "This will take a little second before the message is going to appear.",
+      "words": []
+    },
+    {
+      "start": 324.16,
+      "end": 328.08000000000004,
+      "text": "And I will be talking a little bit more about how this all works in the background in",
+      "words": []
+    },
+    {
+      "start": 328.08000000000004,
+      "end": 329.08000000000004,
+      "text": "a moment.",
+      "words": []
+    },
+    {
+      "start": 329.08000000000004,
+      "end": 332.12,
+      "text": "But let's focus on the video right now.",
+      "words": []
+    },
+    {
+      "start": 332.12,
+      "end": 333.76,
+      "text": "So the issue has been created in a moment.",
+      "words": []
+    },
+    {
+      "start": 333.76,
+      "end": 338.64,
+      "text": "We will see this WhatsApp message getting sent in WhatsApp.",
+      "words": []
+    },
+    {
+      "start": 338.64,
+      "end": 344.84000000000003,
+      "text": "And then what's going to happen is we are also going to be replying to this message in WhatsApp.",
+      "words": []
+    },
+    {
+      "start": 344.84000000000003,
+      "end": 350.08,
+      "text": "So we are going to give it a little bit of a thumbs up and we are going to send an actual",
+      "words": []
+    },
+    {
+      "start": 350.08,
+      "end": 354.4,
+      "text": "reply following up on this issue.",
+      "words": []
+    },
+    {
+      "start": 354.4,
+      "end": 358.56,
+      "text": "And then we go back to the issue in former.",
+      "words": []
+    },
+    {
+      "start": 358.56,
+      "end": 366.48,
+      "text": "We are also going to see that this feedback that happened in WhatsApp is going to show up",
+      "words": []
+    },
+    {
+      "start": 366.48,
+      "end": 368.56,
+      "text": "in former too on the issue.",
+      "words": []
+    },
+    {
+      "start": 368.56,
+      "end": 372.76,
+      "text": "So scroll down to the comments on the issue in a sec.",
+      "words": []
+    },
+    {
+      "start": 372.76,
+      "end": 377.04,
+      "text": "We will see that the little thumbs up that we gave, the little comment that we made also",
+      "words": []
+    },
+    {
+      "start": 377.04,
+      "end": 381.68,
+      "text": "is including right now.",
+      "words": []
+    },
+    {
+      "start": 381.68,
+      "end": 392.6,
+      "text": "So now that we have shown you how this works in practice as I promised, let's also go into",
+      "words": []
+    },
+    {
+      "start": 392.6,
+      "end": 398.64,
+      "text": "how this all works, how we built this application.",
+      "words": []
+    },
+    {
+      "start": 398.64,
+      "end": 403.16,
+      "text": "Because I, as I said, I am an advanced developer at Ebenz and I was the one responsible for",
+      "words": []
+    },
+    {
+      "start": 403.16,
+      "end": 406.16,
+      "text": "developing all this.",
+      "words": []
+    },
+    {
+      "start": 406.16,
+      "end": 413.72,
+      "text": "And what I am going to do is I am not going to be diving into any code today because that's",
+      "words": []
+    },
+    {
+      "start": 413.72,
+      "end": 415.64000000000004,
+      "text": "rather boring of course.",
+      "words": []
+    },
+    {
+      "start": 415.64000000000004,
+      "end": 419.6,
+      "text": "And instead I will be talking about a few more high level things.",
+      "words": []
+    },
+    {
+      "start": 419.6,
+      "end": 426.04,
+      "text": "First of all, I will be talking about the general processes that make the application work",
+      "words": []
+    },
+    {
+      "start": 426.04,
+      "end": 430.84000000000003,
+      "text": "and to simply how does the application go from A to B.",
+      "words": []
+    },
+    {
+      "start": 430.84,
+      "end": 436.88,
+      "text": "I will also quickly be talking about the different services that we used to build the application.",
+      "words": []
+    },
+    {
+      "start": 436.88,
+      "end": 443.4,
+      "text": "And then to me at least most interestingly, I will also be diving into some intricacies",
+      "words": []
+    },
+    {
+      "start": 443.4,
+      "end": 447.08,
+      "text": "and some hurdles that we encountered during the development process.",
+      "words": []
+    },
+    {
+      "start": 447.08,
+      "end": 452.32,
+      "text": "And then what we did to tackle and solve this problem.",
+      "words": []
+    },
+    {
+      "start": 452.32,
+      "end": 455.35999999999996,
+      "text": "So let's start with the process.",
+      "words": []
+    },
+    {
+      "start": 455.35999999999996,
+      "end": 460.32,
+      "text": "As I said at the process, what I mean by that is how do we go from A to B. In this case,",
+      "words": []
+    },
+    {
+      "start": 460.32,
+      "end": 467.76,
+      "text": "is how do we go from an issue being created or updated in FormA to a WhatsApp message actually",
+      "words": []
+    },
+    {
+      "start": 467.76,
+      "end": 469.96,
+      "text": "being sent.",
+      "words": []
+    },
+    {
+      "start": 469.96,
+      "end": 472.4,
+      "text": "So what happens when an issue gets created?",
+      "words": []
+    },
+    {
+      "start": 472.4,
+      "end": 475.4,
+      "text": "Our application will get called.",
+      "words": []
+    },
+    {
+      "start": 475.4,
+      "end": 481.12,
+      "text": "But before our application actually starts, we first do some filtering.",
+      "words": []
+    },
+    {
+      "start": 481.12,
+      "end": 486.6,
+      "text": "We are going to filter for example on the type of the message or the type of the issue",
+      "words": []
+    },
+    {
+      "start": 486.6,
+      "end": 487.6,
+      "text": "rather.",
+      "words": []
+    },
+    {
+      "start": 487.76000000000005,
+      "end": 491.76000000000005,
+      "text": "We only for example want safety issues to go through.",
+      "words": []
+    },
+    {
+      "start": 491.76000000000005,
+      "end": 498.16,
+      "text": "We are also going to filter on the status of the issue and maybe some other attributes of the issue.",
+      "words": []
+    },
+    {
+      "start": 498.16,
+      "end": 504.16,
+      "text": "And what this filtering also allows us to do is make sure that for each issue only one message",
+      "words": []
+    },
+    {
+      "start": 504.16,
+      "end": 505.40000000000003,
+      "text": "gets sent.",
+      "words": []
+    },
+    {
+      "start": 505.40000000000003,
+      "end": 508.44,
+      "text": "An issue can get updated multiple times.",
+      "words": []
+    },
+    {
+      "start": 508.44,
+      "end": 513.6800000000001,
+      "text": "The application will get called multiple times and this filtering will then filter out any",
+      "words": []
+    },
+    {
+      "start": 513.68,
+      "end": 517.52,
+      "text": "consecutive times an issue gets calls the application.",
+      "words": []
+    },
+    {
+      "start": 517.52,
+      "end": 523.52,
+      "text": "So it doesn't send multiple WhatsApp messages for the same.",
+      "words": []
+    },
+    {
+      "start": 523.52,
+      "end": 530.28,
+      "text": "Now after this filtering has happened, our application can start good and well.",
+      "words": []
+    },
+    {
+      "start": 530.28,
+      "end": 534.8,
+      "text": "And what this application is then going to do is it's going to collect information.",
+      "words": []
+    },
+    {
+      "start": 534.8,
+      "end": 539.28,
+      "text": "First of all, it's going to collect information by the issue, going to collect the title of",
+      "words": []
+    },
+    {
+      "start": 539.28,
+      "end": 544.0799999999999,
+      "text": "the issue, the description, all kinds of attributes.",
+      "words": []
+    },
+    {
+      "start": 544.0799999999999,
+      "end": 550.6,
+      "text": "But also if any images are attached to this issue, it's also going to get them.",
+      "words": []
+    },
+    {
+      "start": 550.6,
+      "end": 555.0,
+      "text": "As we all know, an image speaks a thousand words.",
+      "words": []
+    },
+    {
+      "start": 555.0,
+      "end": 559.68,
+      "text": "So if there are any images attached to the issue, we also want to end up sending that along",
+      "words": []
+    },
+    {
+      "start": 559.68,
+      "end": 561.68,
+      "text": "with the message in WhatsApp.",
+      "words": []
+    },
+    {
+      "start": 561.68,
+      "end": 566.64,
+      "text": "We're not only going to get information by the issue, but we're also going to get information",
+      "words": []
+    },
+    {
+      "start": 566.64,
+      "end": 569.96,
+      "text": "by the user that is assigned to the issue.",
+      "words": []
+    },
+    {
+      "start": 569.96,
+      "end": 573.88,
+      "text": "So they can get their name and most importantly, we can get their phone number.",
+      "words": []
+    },
+    {
+      "start": 573.88,
+      "end": 578.4,
+      "text": "So we actually know where to send the message to.",
+      "words": []
+    },
+    {
+      "start": 578.4,
+      "end": 583.8,
+      "text": "Now that we have all the information, we are ready to send a message.",
+      "words": []
+    },
+    {
+      "start": 583.8,
+      "end": 588.64,
+      "text": "But what we definitely don't want to do is just dump all the information which it's got",
+      "words": []
+    },
+    {
+      "start": 588.64,
+      "end": 594.2,
+      "text": "into a message because what we really want to accomplish is we want to engage the person",
+      "words": []
+    },
+    {
+      "start": 594.2800000000001,
+      "end": 599.9200000000001,
+      "text": "that we are sending the message to to take action to provide some feedback or to take any",
+      "words": []
+    },
+    {
+      "start": 599.9200000000001,
+      "end": 600.9200000000001,
+      "text": "kind of other action.",
+      "words": []
+    },
+    {
+      "start": 600.9200000000001,
+      "end": 605.96,
+      "text": "Just dumping a lot of information on them is not going to accomplish that.",
+      "words": []
+    },
+    {
+      "start": 605.96,
+      "end": 612.2,
+      "text": "So what we actually want to do is we want to send a very human, a very personable message",
+      "words": []
+    },
+    {
+      "start": 612.2,
+      "end": 616.2,
+      "text": "and how we accomplish that is using an AI agent.",
+      "words": []
+    },
+    {
+      "start": 616.2,
+      "end": 619.44,
+      "text": "So we configured an NLM, an AI agent.",
+      "words": []
+    },
+    {
+      "start": 619.44,
+      "end": 625.84,
+      "text": "We feed all the information that we just acquired and we feed some instructions and that AI",
+      "words": []
+    },
+    {
+      "start": 625.84,
+      "end": 631.5200000000001,
+      "text": "agent will then transform all this information into, as I said, a very human, a very personable",
+      "words": []
+    },
+    {
+      "start": 631.5200000000001,
+      "end": 638.0,
+      "text": "message that will then engage that user with that person to take action to provide them",
+      "words": []
+    },
+    {
+      "start": 638.0,
+      "end": 640.44,
+      "text": "back.",
+      "words": []
+    },
+    {
+      "start": 640.44,
+      "end": 646.5200000000001,
+      "text": "And then the message that that AI informs will then get sends to WhatsApp along with any",
+      "words": []
+    },
+    {
+      "start": 646.52,
+      "end": 652.0,
+      "text": "images that we acquired from the issue itself.",
+      "words": []
+    },
+    {
+      "start": 652.0,
+      "end": 657.8,
+      "text": "Now this is actually only the first of two processes from the application because now we of",
+      "words": []
+    },
+    {
+      "start": 657.8,
+      "end": 663.48,
+      "text": "course went from A to B, we went from the issue to the WhatsApp message.",
+      "words": []
+    },
+    {
+      "start": 663.48,
+      "end": 670.88,
+      "text": "But as I just saw in the video, what also happens is that any feedback that comes from WhatsApp",
+      "words": []
+    },
+    {
+      "start": 670.88,
+      "end": 674.36,
+      "text": "will also get sent back to the issue in Forma.",
+      "words": []
+    },
+    {
+      "start": 674.36,
+      "end": 675.64,
+      "text": "And that's very important to us.",
+      "words": []
+    },
+    {
+      "start": 675.64,
+      "end": 679.76,
+      "text": "We call this closing the feedback loop.",
+      "words": []
+    },
+    {
+      "start": 679.76,
+      "end": 684.52,
+      "text": "And what we read by that is that we, any information, any feedback from WhatsApp, we want to send",
+      "words": []
+    },
+    {
+      "start": 684.52,
+      "end": 686.52,
+      "text": "that back to the issue in Forma.",
+      "words": []
+    },
+    {
+      "start": 686.52,
+      "end": 693.2,
+      "text": "To the issue in Forma actually stays somewhat like a centralized type of information that we",
+      "words": []
+    },
+    {
+      "start": 693.2,
+      "end": 698.32,
+      "text": "can use, that we can always access to get all the information.",
+      "words": []
+    },
+    {
+      "start": 699.32,
+      "end": 704.6,
+      "text": "So we went from A to B and now we also want to go from B to A.",
+      "words": []
+    },
+    {
+      "start": 704.6,
+      "end": 710.96,
+      "text": "Now I mentioned any information or any feedback in WhatsApp, we want to go back to the issue",
+      "words": []
+    },
+    {
+      "start": 710.96,
+      "end": 712.6400000000001,
+      "text": "in Forma.",
+      "words": []
+    },
+    {
+      "start": 712.6400000000001,
+      "end": 714.36,
+      "text": "What kind of feedback am I talking about?",
+      "words": []
+    },
+    {
+      "start": 714.36,
+      "end": 718.0400000000001,
+      "text": "Well first of all, there is any message status updates.",
+      "words": []
+    },
+    {
+      "start": 718.0400000000001,
+      "end": 723.08,
+      "text": "What I mean by that is, for example, is a message send, has a message been delivered,",
+      "words": []
+    },
+    {
+      "start": 723.08,
+      "end": 724.08,
+      "text": "has a message been read.",
+      "words": []
+    },
+    {
+      "start": 724.08,
+      "end": 728.08,
+      "text": "These are the little check marks that you always see at the bottom of your message in WhatsApp.",
+      "words": []
+    },
+    {
+      "start": 728.44,
+      "end": 732.5200000000001,
+      "text": "That can even from issue we want that to go back to the issue.",
+      "words": []
+    },
+    {
+      "start": 732.5200000000001,
+      "end": 739.08,
+      "text": "And then secondly, also any human feedback, any replies from the person in WhatsApp that",
+      "words": []
+    },
+    {
+      "start": 739.08,
+      "end": 745.2,
+      "text": "can be a emoji reaction, that can be a textual reply, that can be an image that they reply,",
+      "words": []
+    },
+    {
+      "start": 745.2,
+      "end": 750.44,
+      "text": "all that kind of stuff we also want to go back to the issue in Forma.",
+      "words": []
+    },
+    {
+      "start": 750.44,
+      "end": 756.2800000000001,
+      "text": "So when this thing happens, so when the status of the message updates or a reply happens",
+      "words": []
+    },
+    {
+      "start": 756.28,
+      "end": 759.36,
+      "text": "from the assigned person, our application will get called again.",
+      "words": []
+    },
+    {
+      "start": 759.36,
+      "end": 765.8,
+      "text": "And that information will get fed back into Forma in the case of the status update,",
+      "words": []
+    },
+    {
+      "start": 765.8,
+      "end": 770.4399999999999,
+      "text": "there's a specific attribute, a specific building issue that will get updated in the case",
+      "words": []
+    },
+    {
+      "start": 770.4399999999999,
+      "end": 777.12,
+      "text": "of any replies, there will be comments added on the issue.",
+      "words": []
+    },
+    {
+      "start": 777.12,
+      "end": 783.04,
+      "text": "So now that I've talked a little bit about the general processes of the application,",
+      "words": []
+    },
+    {
+      "start": 783.0799999999999,
+      "end": 788.04,
+      "text": "let's dive a little bit deeper into some problems that we encounter.",
+      "words": []
+    },
+    {
+      "start": 788.04,
+      "end": 793.12,
+      "text": "Any good developer knows during the development process, you are always going to encounter some problems,",
+      "words": []
+    },
+    {
+      "start": 793.12,
+      "end": 796.0,
+      "text": "you're going to encounter some difficulties.",
+      "words": []
+    },
+    {
+      "start": 796.0,
+      "end": 803.3199999999999,
+      "text": "And there's four things I want to talk about here that we encountered during the development process,",
+      "words": []
+    },
+    {
+      "start": 803.3199999999999,
+      "end": 810.36,
+      "text": "that we encountered, what are those things, why were there a problem, and how did we solve them?",
+      "words": []
+    },
+    {
+      "start": 810.4,
+      "end": 813.92,
+      "text": "The first thing I want to talk about has to do with something I mentioned earlier,",
+      "words": []
+    },
+    {
+      "start": 813.92,
+      "end": 819.4,
+      "text": "the only one to send one message for every issue that we create.",
+      "words": []
+    },
+    {
+      "start": 819.4,
+      "end": 824.8000000000001,
+      "text": "So we don't want to spam or contract us with multiple messages for the same,",
+      "words": []
+    },
+    {
+      "start": 824.8000000000001,
+      "end": 826.64,
+      "text": "basically what that means.",
+      "words": []
+    },
+    {
+      "start": 826.64,
+      "end": 834.6,
+      "text": "Now our original logic for this was very simple, we just used database,",
+      "words": []
+    },
+    {
+      "start": 834.64,
+      "end": 838.96,
+      "text": "and when an issue gets created or an issue gets updated,",
+      "words": []
+    },
+    {
+      "start": 838.96,
+      "end": 843.12,
+      "text": "this database is checked if the issue is already sent,",
+      "words": []
+    },
+    {
+      "start": 843.12,
+      "end": 848.96,
+      "text": "and if not the application starts, the message gets sent and the database gets up.",
+      "words": []
+    },
+    {
+      "start": 848.96,
+      "end": 851.5600000000001,
+      "text": "Now that all works great in theory,",
+      "words": []
+    },
+    {
+      "start": 851.5600000000001,
+      "end": 856.36,
+      "text": "but there is a problem that arises when an issue gets updated multiple times",
+      "words": []
+    },
+    {
+      "start": 856.36,
+      "end": 858.0400000000001,
+      "text": "in a very short span of time.",
+      "words": []
+    },
+    {
+      "start": 858.0400000000001,
+      "end": 863.64,
+      "text": "And this often happens, for example, when an issue gets created,",
+      "words": []
+    },
+    {
+      "start": 863.64,
+      "end": 866.92,
+      "text": "because an issue gets created and then after it gets created,",
+      "words": []
+    },
+    {
+      "start": 866.92,
+      "end": 872.88,
+      "text": "there's a lot of fields that get filled in, there's an image that gets attached,",
+      "words": []
+    },
+    {
+      "start": 872.88,
+      "end": 878.12,
+      "text": "so it gets updated a lot of times in a very short span of time.",
+      "words": []
+    },
+    {
+      "start": 878.12,
+      "end": 885.36,
+      "text": "And what then happens is the following, so you can kind of see it in a little graph,",
+      "words": []
+    },
+    {
+      "start": 885.36,
+      "end": 886.68,
+      "text": "I just showed you.",
+      "words": []
+    },
+    {
+      "start": 886.68,
+      "end": 892.88,
+      "text": "So the first time the application gets called everything is great,",
+      "words": []
+    },
+    {
+      "start": 892.92,
+      "end": 896.28,
+      "text": "but then the application will get called second time,",
+      "words": []
+    },
+    {
+      "start": 896.28,
+      "end": 899.8,
+      "text": "and the process will get started the second time,",
+      "words": []
+    },
+    {
+      "start": 899.8,
+      "end": 902.8,
+      "text": "but this will happen before the database actually gets updated.",
+      "words": []
+    },
+    {
+      "start": 902.8,
+      "end": 906.4,
+      "text": "So the database gets checked by the second process,",
+      "words": []
+    },
+    {
+      "start": 906.4,
+      "end": 915.08,
+      "text": "it doesn't see that message has already been sent for this issue.",
+      "words": []
+    },
+    {
+      "start": 915.08,
+      "end": 917.36,
+      "text": "So it just starts, the application just starts,",
+      "words": []
+    },
+    {
+      "start": 917.36,
+      "end": 920.72,
+      "text": "and this will eventually end up sending another message,",
+      "words": []
+    },
+    {
+      "start": 920.72,
+      "end": 924.36,
+      "text": "and this will happen third time when it gets called third time, etc.",
+      "words": []
+    },
+    {
+      "start": 924.36,
+      "end": 930.96,
+      "text": "And so what happens is a multiple messages will get sent for the same week,",
+      "words": []
+    },
+    {
+      "start": 930.96,
+      "end": 933.52,
+      "text": "and that's not what we want, as I said.",
+      "words": []
+    },
+    {
+      "start": 933.52,
+      "end": 938.36,
+      "text": "So how we solve this is we introduced a queueing system.",
+      "words": []
+    },
+    {
+      "start": 938.36,
+      "end": 947.84,
+      "text": "So instead of letting multiple processes for the same issue run in parallel,",
+      "words": []
+    },
+    {
+      "start": 948.24,
+      "end": 956.6800000000001,
+      "text": "we introduced a queue that made sure that every process only starts and only runs consecutively.",
+      "words": []
+    },
+    {
+      "start": 956.6800000000001,
+      "end": 960.88,
+      "text": "So it waits for the previous process to end,",
+      "words": []
+    },
+    {
+      "start": 960.88,
+      "end": 968.88,
+      "text": "to start the next process, and that makes sure that the previous process gets time to update the database,",
+      "words": []
+    },
+    {
+      "start": 968.88,
+      "end": 973.08,
+      "text": "and then the second process will check the database,",
+      "words": []
+    },
+    {
+      "start": 973.08,
+      "end": 977.12,
+      "text": "be that the message has already been sent and just end prematurely,",
+      "words": []
+    },
+    {
+      "start": 977.12,
+      "end": 978.72,
+      "text": "and not sent an other message.",
+      "words": []
+    },
+    {
+      "start": 978.72,
+      "end": 983.68,
+      "text": "And this queueing process is queue, then solves that issue of multiple messages,",
+      "words": []
+    },
+    {
+      "start": 983.68,
+      "end": 986.92,
+      "text": "and for the same issue.",
+      "words": []
+    },
+    {
+      "start": 986.92,
+      "end": 994.68,
+      "text": "And then we also introduced a similar queueing kind of process for the data updates and replies,",
+      "words": []
+    },
+    {
+      "start": 994.68,
+      "end": 1006.24,
+      "text": "to get back into ACC to make sure that they are also handled in the correct order.",
+      "words": []
+    },
+    {
+      "start": 1006.24,
+      "end": 1011.76,
+      "text": "Now that we make sure that the application only starts when it needs to,",
+      "words": []
+    },
+    {
+      "start": 1011.76,
+      "end": 1020.28,
+      "text": "the application just starts, all works fine, or information gets gathered, and we get to our AI.",
+      "words": []
+    },
+    {
+      "start": 1020.28,
+      "end": 1026.48,
+      "text": "As I mentioned earlier, this AI is great, very helpful to form a very personable message,",
+      "words": []
+    },
+    {
+      "start": 1026.48,
+      "end": 1030.76,
+      "text": "but for anyone who has already worked with AI,",
+      "words": []
+    },
+    {
+      "start": 1030.76,
+      "end": 1035.4,
+      "text": "they know that it also can produce some real results.",
+      "words": []
+    },
+    {
+      "start": 1035.44,
+      "end": 1038.2800000000002,
+      "text": "And this case is no different.",
+      "words": []
+    },
+    {
+      "start": 1038.2800000000002,
+      "end": 1045.96,
+      "text": "There were, for example, the AI had a tendency to make a message longer than it needed.",
+      "words": []
+    },
+    {
+      "start": 1045.96,
+      "end": 1048.2800000000002,
+      "text": "We actually want very short, very direct messages,",
+      "words": []
+    },
+    {
+      "start": 1048.2800000000002,
+      "end": 1054.0400000000002,
+      "text": "while the AI had a little bit of a tendency to jab on, and we don't want that.",
+      "words": []
+    },
+    {
+      "start": 1054.0400000000002,
+      "end": 1059.4,
+      "text": "On top of that, it also has a tendency to hallucinate extra information that it was not given,",
+      "words": []
+    },
+    {
+      "start": 1059.4,
+      "end": 1062.8400000000001,
+      "text": "which is definitely not something we want.",
+      "words": []
+    },
+    {
+      "start": 1062.8799999999999,
+      "end": 1066.84,
+      "text": "It also had some problems with addressing people directly in the message.",
+      "words": []
+    },
+    {
+      "start": 1066.84,
+      "end": 1072.36,
+      "text": "It often had a tendency of talking to people in the third person,",
+      "words": []
+    },
+    {
+      "start": 1072.36,
+      "end": 1081.08,
+      "text": "while we wanted to talk to them in a first person, kind of context.",
+      "words": []
+    },
+    {
+      "start": 1081.08,
+      "end": 1084.6399999999999,
+      "text": "Then it also had a little bit of a tone issue.",
+      "words": []
+    },
+    {
+      "start": 1084.6399999999999,
+      "end": 1087.36,
+      "text": "It had a tendency of being too friendly.",
+      "words": []
+    },
+    {
+      "start": 1087.36,
+      "end": 1092.28,
+      "text": "It would often say things like, oh, just FYI or by the way,",
+      "words": []
+    },
+    {
+      "start": 1092.32,
+      "end": 1098.6,
+      "text": "which is definitely something that doesn't really fit urgency required in safety context.",
+      "words": []
+    },
+    {
+      "start": 1098.6,
+      "end": 1103.8,
+      "text": "And then last but not least, it also had a tendency to say,",
+      "words": []
+    },
+    {
+      "start": 1103.8,
+      "end": 1106.44,
+      "text": "your location or your site and the contractors,",
+      "words": []
+    },
+    {
+      "start": 1106.44,
+      "end": 1110.6,
+      "text": "while they were actually actually contracted to work on our site or our location.",
+      "words": []
+    },
+    {
+      "start": 1110.6,
+      "end": 1113.56,
+      "text": "But that was also a little bit weird.",
+      "words": []
+    },
+    {
+      "start": 1113.56,
+      "end": 1118.76,
+      "text": "In the main lesson, we really learned from this is garbage in garbage out.",
+      "words": []
+    },
+    {
+      "start": 1118.84,
+      "end": 1125.48,
+      "text": "What is more important in an AI scenario is you want to give the correct information,",
+      "words": []
+    },
+    {
+      "start": 1125.48,
+      "end": 1129.32,
+      "text": "but you also want to give it the correct instruction.",
+      "words": []
+    },
+    {
+      "start": 1129.32,
+      "end": 1138.76,
+      "text": "It does just require some time to really tune this process to really know what kind of information",
+      "words": []
+    },
+    {
+      "start": 1138.76,
+      "end": 1142.04,
+      "text": "do I need to give it, what kind of instructions do I need to give it,",
+      "words": []
+    },
+    {
+      "start": 1142.04,
+      "end": 1145.0,
+      "text": "to really get the results that you want.",
+      "words": []
+    },
+    {
+      "start": 1145.48,
+      "end": 1149.56,
+      "text": "Now, luckily, most of those little quirks we encountered,",
+      "words": []
+    },
+    {
+      "start": 1149.56,
+      "end": 1151.96,
+      "text": "we encountered them during the development process.",
+      "words": []
+    },
+    {
+      "start": 1153.4,
+      "end": 1157.0,
+      "text": "But even now, it has been in production for a while now.",
+      "words": []
+    },
+    {
+      "start": 1157.0,
+      "end": 1159.16,
+      "text": "We still encountered some weird things once in a while,",
+      "words": []
+    },
+    {
+      "start": 1159.16,
+      "end": 1165.32,
+      "text": "and we still spend time further tuning the AI agents to make sure that all the messages",
+      "words": []
+    },
+    {
+      "start": 1165.32,
+      "end": 1167.24,
+      "text": "being sent out, be it our standard.",
+      "words": []
+    },
+    {
+      "start": 1168.84,
+      "end": 1170.68,
+      "text": "So now that we actually have our message,",
+      "words": []
+    },
+    {
+      "start": 1171.0,
+      "end": 1174.28,
+      "text": "we have a message that we can send out.",
+      "words": []
+    },
+    {
+      "start": 1174.28,
+      "end": 1177.48,
+      "text": "We kind of encounter our following problem,",
+      "words": []
+    },
+    {
+      "start": 1177.48,
+      "end": 1181.48,
+      "text": "and that problem actually has to do with actually sending that message out.",
+      "words": []
+    },
+    {
+      "start": 1182.68,
+      "end": 1186.76,
+      "text": "Now, of course, we need a phone number to send this message out.",
+      "words": []
+    },
+    {
+      "start": 1187.3200000000002,
+      "end": 1193.48,
+      "text": "And the problem is that in Forma, this phone number is not always present in the user.",
+      "words": []
+    },
+    {
+      "start": 1194.44,
+      "end": 1200.76,
+      "text": "The user themselves are controlled their own profile,",
+      "words": []
+    },
+    {
+      "start": 1200.76,
+      "end": 1203.8,
+      "text": "so they are responsible for filling in their phone number,",
+      "words": []
+    },
+    {
+      "start": 1203.8,
+      "end": 1205.48,
+      "text": "and this doesn't always happen.",
+      "words": []
+    },
+    {
+      "start": 1205.48,
+      "end": 1208.04,
+      "text": "So we don't always have a phone number to send a message to.",
+      "words": []
+    },
+    {
+      "start": 1209.8,
+      "end": 1215.64,
+      "text": "An RKID is that we always want someone to follow up on the issue.",
+      "words": []
+    },
+    {
+      "start": 1215.64,
+      "end": 1220.84,
+      "text": "So we added some fallbacks to make sure that the message always ends up with someone.",
+      "words": []
+    },
+    {
+      "start": 1221.8,
+      "end": 1228.84,
+      "text": "First of all, when a phone number isn't found in the Forma users themselves,",
+      "words": []
+    },
+    {
+      "start": 1229.8799999999999,
+      "end": 1234.6,
+      "text": "we are going to check our own internal databases to see if we can find a phone number for the user",
+      "words": []
+    },
+    {
+      "start": 1234.6,
+      "end": 1238.36,
+      "text": "there. And if we don't find a phone number there,",
+      "words": []
+    },
+    {
+      "start": 1238.36,
+      "end": 1244.4399999999998,
+      "text": "then we will just send the message to our own project leader so that they can follow up on it.",
+      "words": []
+    },
+    {
+      "start": 1244.68,
+      "end": 1255.56,
+      "text": "Now, one last thing I want to talk about is some intricacies we have read WhatsApp themselves",
+      "words": []
+    },
+    {
+      "start": 1256.52,
+      "end": 1261.64,
+      "text": "or what the application itself. First of all, what is very important in WhatsApp is that we",
+      "words": []
+    },
+    {
+      "start": 1261.64,
+      "end": 1266.68,
+      "text": "want to prevent that any of your messages that you can send out get reported, because",
+      "words": []
+    },
+    {
+      "start": 1267.48,
+      "end": 1271.64,
+      "text": "any messages get reported, your account will get banned and your accounts have out any more",
+      "words": []
+    },
+    {
+      "start": 1271.64,
+      "end": 1278.0400000000002,
+      "text": "messages. Definitely not something won't. So we kind of introduced a no-send list.",
+      "words": []
+    },
+    {
+      "start": 1278.0400000000002,
+      "end": 1283.5600000000002,
+      "text": "So basically, anytime someone receives a message, they can reply, stop to that message,",
+      "words": []
+    },
+    {
+      "start": 1283.5600000000002,
+      "end": 1290.2800000000002,
+      "text": "and they will be put on that no-send list. And this makes sure that they won't be reporting",
+      "words": []
+    },
+    {
+      "start": 1290.2800000000002,
+      "end": 1295.48,
+      "text": "the other messages, because they have kind of the option to just stop the messages being sent to them.",
+      "words": []
+    },
+    {
+      "start": 1296.2,
+      "end": 1302.52,
+      "text": "And it also will make sure that we don't waste any resources on creating a sending messages to",
+      "words": []
+    },
+    {
+      "start": 1302.52,
+      "end": 1309.4,
+      "text": "people who don't want them anyway. The second thing with WhatsApp is that we need to use templates.",
+      "words": []
+    },
+    {
+      "start": 1310.92,
+      "end": 1315.48,
+      "text": "To send a message, we can just send any message. We need to kind of have these templates that",
+      "words": []
+    },
+    {
+      "start": 1315.48,
+      "end": 1321.24,
+      "text": "we send out and its templates, they get put into certain categories. There are different categories,",
+      "words": []
+    },
+    {
+      "start": 1321.24,
+      "end": 1324.84,
+      "text": "things like marketing, utility, these are all different categories that exist.",
+      "words": []
+    },
+    {
+      "start": 1324.9199999999998,
+      "end": 1329.56,
+      "text": "In WhatsApp. But they also all have a different price point. For example,",
+      "words": []
+    },
+    {
+      "start": 1331.1599999999999,
+      "end": 1335.1599999999999,
+      "text": "utility messages or utility template messages are cheaper than marketing.",
+      "words": []
+    },
+    {
+      "start": 1335.8,
+      "end": 1340.4399999999998,
+      "text": "So ideally, you want your template to be categorized in the utility category and not in the",
+      "words": []
+    },
+    {
+      "start": 1340.4399999999998,
+      "end": 1347.24,
+      "text": "marketing category. Now, unfortunately, we haven't been able to achieve that ourselves. The whole",
+      "words": []
+    },
+    {
+      "start": 1348.04,
+      "end": 1352.6,
+      "text": "process behind this is very automated and the amount of support hasn't been very helpful",
+      "words": []
+    },
+    {
+      "start": 1353.3999999999999,
+      "end": 1358.52,
+      "text": "until for now. So for now, our own messages are classified as marketing,",
+      "words": []
+    },
+    {
+      "start": 1358.52,
+      "end": 1365.6399999999999,
+      "text": "but we are still kind of looking at fines to get that utility category to make our messages cheaper.",
+      "words": []
+    },
+    {
+      "start": 1368.1999999999998,
+      "end": 1374.36,
+      "text": "Now, finally, I really quickly want to talk about the services that we use to build a replication.",
+      "words": []
+    },
+    {
+      "start": 1375.3999999999999,
+      "end": 1380.28,
+      "text": "But technically, it's very simple. Basically, we did everything in Microsoft Azure. That's a very",
+      "words": []
+    },
+    {
+      "start": 1380.28,
+      "end": 1386.44,
+      "text": "central application and services platform that we use here. The application itself is a function",
+      "words": []
+    },
+    {
+      "start": 1386.44,
+      "end": 1393.56,
+      "text": "app called the .NET that runs in Azure. The queue, storage, databases, all runs in Azure.",
+      "words": []
+    },
+    {
+      "start": 1393.56,
+      "end": 1398.2,
+      "text": "We also have a keyfold with any sensitive information in Azure that we create application.",
+      "words": []
+    },
+    {
+      "start": 1398.2,
+      "end": 1406.36,
+      "text": "The AI is an AI finally in Azure. And even WhatsApp, WhatsApp has its own API. But Azure provides",
+      "words": []
+    },
+    {
+      "start": 1406.6799999999998,
+      "end": 1414.12,
+      "text": "a kind of layer on top of that via its advanced messages that also allows us to use Azure to",
+      "words": []
+    },
+    {
+      "start": 1414.12,
+      "end": 1419.56,
+      "text": "send us WhatsApp messages. So basically, everything was built inside of Azure.",
+      "words": []
+    },
+    {
+      "start": 1420.1999999999998,
+      "end": 1426.04,
+      "text": "Right. So just imagine what you could do with this technology if you expand it towards",
+      "words": []
+    },
+    {
+      "start": 1426.04,
+      "end": 1433.32,
+      "text": "quality issues or if I notification for equipment alerts, cost anomalies, when a subcontractor",
+      "words": []
+    },
+    {
+      "start": 1433.3999999999999,
+      "end": 1439.56,
+      "text": "walks up to you or takes something that you can create an issue and that it automatically generates",
+      "words": []
+    },
+    {
+      "start": 1439.56,
+      "end": 1446.6799999999998,
+      "text": "a WhatsApp message to your project manager, for example, or your client. I think the possibilities",
+      "words": []
+    },
+    {
+      "start": 1446.6799999999998,
+      "end": 1451.8799999999999,
+      "text": "are endless and we are just in the brink of discovering what this integration with WhatsApp",
+      "words": []
+    },
+    {
+      "start": 1451.8799999999999,
+      "end": 1457.0,
+      "text": "and other disk format can do for us in the future. So thank you for listening.",
+      "words": []
+    },
+    {
+      "start": 1457.8,
+      "end": 1461.8799999999999,
+      "text": "And we have come to the conclusion. The end of our presentation. Thank you for listening.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:29:05.099896+00:00"
+}

@@ -1,0 +1,264 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\1nGB_tqCCnk\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide titled 'The AI Renaissance Elevating Human Ability in the New Industrial Revolution' with the name of the speaker and their role.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "The AI Renaissance",
+        "Elevating Human Ability in the New Industrial Revolution",
+        "Susan Brattberg",
+        "Global eTraining",
+        "April 2026",
+        "AUTODESK DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\1nGB_tqCCnk\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide featuring Susan Brattberg from Global eTraining, discussing the importance of modern learning systems.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "DevCon",
+        "Global eTraining",
+        "Get Smart Training",
+        "The Voice of the Renaissance",
+        "Susan Brattberg"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\1nGB_tqCCnk\\frames\\frame_000009.jpg",
+      "timestamp_seconds": 240.0,
+      "frame_index": 9,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide titled 'The Map That Was Wrong' discusses the realization of an incomplete world view in 1507 and relates it to AI's impact on professional knowledge today.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "The Map That Was Wrong"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\1nGB_tqCCnk\\frames\\frame_000011.jpg",
+      "timestamp_seconds": 300.0,
+      "frame_index": 11,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide titled 'The Velocity of Knowledge' discussing the acceleration of change with a diagram illustrating human adaptability and technology.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "The Velocity of Knowledge",
+        "Learning faster and governing smarter"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\1nGB_tqCCnk\\frames\\frame_000017.jpg",
+      "timestamp_seconds": 480.0,
+      "frame_index": 17,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide with a quote by Thomas Friedman discussing technology and adaptation.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\1nGB_tqCCnk\\frames\\frame_000020.jpg",
+      "timestamp_seconds": 570.0,
+      "frame_index": 20,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'The Pulse of the Revolution' showing statistics on AI usage in firms and construction companies, and the benefits of AI adoption.",
+      "products_visible": [
+        "AUTODESK",
+        "Global eTraining"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "The Pulse of the Revolution",
+        "Global eTraining",
+        "GeT SMART TRAINING"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\1nGB_tqCCnk\\frames\\frame_000022.jpg",
+      "timestamp_seconds": 630.0,
+      "frame_index": 22,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'The Printing Press vs. AI' discussing the democratization of knowledge.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\1nGB_tqCCnk\\frames\\frame_000025.jpg",
+      "timestamp_seconds": 720.0,
+      "frame_index": 25,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide titled 'Programmers as Renaissance Architects' accompanied by an image of a person in a historic setting working with technology.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\1nGB_tqCCnk\\frames\\frame_000028.jpg",
+      "timestamp_seconds": 810.0,
+      "frame_index": 28,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'Expanding the Thinkable Universe' discussing AI as a knowledge multiplier is displayed alongside a telescope image.",
+      "products_visible": [
+        "AUTODESK",
+        "Global Training",
+        "Get Smart Training"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\1nGB_tqCCnk\\frames\\frame_000031.jpg",
+      "timestamp_seconds": 900.0,
+      "frame_index": 31,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon discussing the governance needed for technical revolutions, featuring an illustration of digital and historical figures.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Every Revolution Needs Governance"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\1nGB_tqCCnk\\frames\\frame_000033.jpg",
+      "timestamp_seconds": 960.0,
+      "frame_index": 33,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon titled 'Great Ideas Don\u2019t Scale Without Standards' discussing lessons from Git, Docker, and the Metric System.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Global eTraining",
+        "Get Smart Training"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\1nGB_tqCCnk\\frames\\frame_000036.jpg",
+      "timestamp_seconds": 1050.0,
+      "frame_index": 36,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide titled 'Knowledge Engineering' discussing the movement from fragmented documentation to structured repositories at the Autodesk DevCon event.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "DevCon",
+        "Knowledge Engineering",
+        "A new layer of engineering",
+        "Moving from Fragmented Documentation to Structured Repositories"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\1nGB_tqCCnk\\frames\\frame_000041.jpg",
+      "timestamp_seconds": 1200.0,
+      "frame_index": 41,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide titled 'Training is the New Literacy' alongside a person on a video call. It discusses the importance of training for AI success.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\1nGB_tqCCnk\\frames\\frame_000044.jpg",
+      "timestamp_seconds": 1290.0,
+      "frame_index": 44,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide about change management with Global eTraining, including a screenshot of a computer screen displaying software.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Embracing Change with GeT",
+        "Change Management: The Heart of the Revolution"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\1nGB_tqCCnk\\frames\\frame_000047.jpg",
+      "timestamp_seconds": 1380.0,
+      "frame_index": 47,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide from Autodesk DevCon discussing 'Get Smart Training' with a QR code and Global eTraining platform details.",
+      "products_visible": [
+        "Autodesk",
+        "Global eTraining"
+      ],
+      "ui_elements": [
+        "Get Smart Training",
+        "QR code",
+        "Knowledge Management Platform"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\1nGB_tqCCnk\\frames\\frame_000050.jpg",
+      "timestamp_seconds": 1470.0,
+      "frame_index": 50,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon about the impact of a small lens on our understanding of the universe.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "A Small Lens That Changed the Universe",
+        "The Tool Didn't Change the Stars, It Changed Us",
+        "Global eTraining",
+        "Get SMART TRAINING"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\1nGB_tqCCnk\\frames\\frame_000051.jpg",
+      "timestamp_seconds": 1500.0,
+      "frame_index": 51,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents a theme called 'Welcome to the AI Renaissance' with a historical and futuristic illustration, focusing on exploration in AI.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "DevCon",
+        "Global eTraining",
+        "Get SMART TRAINING"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T21:50:00.848291+00:00"
+}

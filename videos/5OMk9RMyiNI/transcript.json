@@ -1,0 +1,1093 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 9.0,
+      "text": "Hello everyone and thank you for being here. My name is Alexon Rassal and with me is up there at Campanatia. We are both from Asia's",
+      "words": []
+    },
+    {
+      "start": 10.0,
+      "end": 12.0,
+      "text": "Global Engineering Group based in France.",
+      "words": []
+    },
+    {
+      "start": 13.0,
+      "end": 23.0,
+      "text": "Today we will show you how we combine AI to this platform services and domain engineering to automate compliance check-in.",
+      "words": []
+    },
+    {
+      "start": 24.0,
+      "end": 27.0,
+      "text": "On one of the largest infrastructure projects in the world.",
+      "words": []
+    },
+    {
+      "start": 31.0,
+      "end": 39.0,
+      "text": "Here's how Agenda will start with some context strategies and run parisic press project.",
+      "words": []
+    },
+    {
+      "start": 40.0,
+      "end": 48.0,
+      "text": "Then we take you through the journey from manual checks to the K-Degon to be automated pipeline we run today in the cloud.",
+      "words": []
+    },
+    {
+      "start": 49.0,
+      "end": 57.0,
+      "text": "We'll dive into the AI layer, cloud architecture, the puber integration and finally where we are heading next.",
+      "words": []
+    },
+    {
+      "start": 58.0,
+      "end": 59.0,
+      "text": "Let's begin.",
+      "words": []
+    },
+    {
+      "start": 60.0,
+      "end": 70.0,
+      "text": "Just a quick introduction. I'm Alexon. I lead digital project development for beam and computational design and edges in all building technical departments.",
+      "words": []
+    },
+    {
+      "start": 71.0,
+      "end": 81.0,
+      "text": "Abinakim is beam and digital transformation and giant error in the same departments. He's been hands on building the solution. We'll show you today.",
+      "words": []
+    },
+    {
+      "start": 81.0,
+      "end": 102.0,
+      "text": "So who is Agis? We are global consulting and engineering group. Our 2 billion year old in revenue, 22,000 employees, active in more than 70 countries.",
+      "words": []
+    },
+    {
+      "start": 103.0,
+      "end": 116.0,
+      "text": "Our core sector of our transport, cities and buildings, energy, water and environments. We work across the pool life cycle from only design through construction and operations.",
+      "words": []
+    },
+    {
+      "start": 117.0,
+      "end": 122.0,
+      "text": "That life cycle perspective is key to what we'll present today.",
+      "words": []
+    },
+    {
+      "start": 122.0,
+      "end": 139.0,
+      "text": "Here are some of our landmark projects. You can see right at the metro in Saudi Arabia, the triangle tower in Paris, Iowa, Conceitions, airport and rail project worldwide.",
+      "words": []
+    },
+    {
+      "start": 139.0,
+      "end": 153.0,
+      "text": "The project at the Earth and the beginning of our use case today's talk is Gropar Express.",
+      "words": []
+    },
+    {
+      "start": 153.0,
+      "end": 168.0,
+      "text": "One of the world's largest urban-trended projects currently under construction. 200 kilometers of new mutual lines, 180 of future underground.",
+      "words": []
+    },
+    {
+      "start": 168.0,
+      "end": 181.0,
+      "text": "68 new stations for entire new lines to the extensions. 36 billion euro of investments.",
+      "words": []
+    },
+    {
+      "start": 182.0,
+      "end": 194.0,
+      "text": "Target of 2 million daily passengers. I expected. And it's full automated snow drivers.",
+      "words": []
+    },
+    {
+      "start": 195.0,
+      "end": 203.0,
+      "text": "So this is the world in a range of projects across the role lines on this infrastructure project.",
+      "words": []
+    },
+    {
+      "start": 204.0,
+      "end": 209.0,
+      "text": "About civil engineering, systems and project management.",
+      "words": []
+    },
+    {
+      "start": 210.0,
+      "end": 219.0,
+      "text": "The use case will present today concerns our role as an into the personnel engineering design office.",
+      "words": []
+    },
+    {
+      "start": 219.0,
+      "end": 226.0,
+      "text": "That includes civil engineering, electrical engineering and ship-ach on the plane.",
+      "words": []
+    },
+    {
+      "start": 227.0,
+      "end": 244.0,
+      "text": "Online 16. There are 10 stations, 49 technical buildings between stations and 100 of technical rooms and over 100 specifications for permanent time.",
+      "words": []
+    },
+    {
+      "start": 250.0,
+      "end": 263.0,
+      "text": "So here starts our story. Undergrowth space is expansion, exponential expansion.",
+      "words": []
+    },
+    {
+      "start": 264.0,
+      "end": 272.0,
+      "text": "Undergrowth construction is fundamentally stressed. Every square meter you earn, we try deeper excavation.",
+      "words": []
+    },
+    {
+      "start": 273.0,
+      "end": 280.0,
+      "text": "And deeper excavation, we try thicker walls, thicker slabs, stronger structures.",
+      "words": []
+    },
+    {
+      "start": 281.0,
+      "end": 284.0,
+      "text": "And bigger structure, drive more complex logistics.",
+      "words": []
+    },
+    {
+      "start": 286.0,
+      "end": 292.0,
+      "text": "And a view of the use is it leads to exponential higher cost.",
+      "words": []
+    },
+    {
+      "start": 293.0,
+      "end": 302.0,
+      "text": "So think of it this way. In a station 30 meters deep, adding one square meter doesn't just cost one square meter.",
+      "words": []
+    },
+    {
+      "start": 303.0,
+      "end": 316.0,
+      "text": "It costs an entire column of earth about it. So optimizing room size is not just technical exercise, it's a strategic and financial necessity.",
+      "words": []
+    },
+    {
+      "start": 323.0,
+      "end": 334.0,
+      "text": "And here is paradox in a contractual context with separation between civil engineering and systems.",
+      "words": []
+    },
+    {
+      "start": 335.0,
+      "end": 344.0,
+      "text": "We need rooms to be as small as possible, but we must prove full compliance with every single requirement.",
+      "words": []
+    },
+    {
+      "start": 345.0,
+      "end": 364.0,
+      "text": "So technical rooms, ships, define every minimum dimensions required equipment, quantities, clearance, domes around each piece of equipment, dull size, access paths, circulation, surface finish, network crossings.",
+      "words": []
+    },
+    {
+      "start": 365.0,
+      "end": 373.0,
+      "text": "So the challenge is to minimize space while proving compliance with under-reader rules.",
+      "words": []
+    },
+    {
+      "start": 374.0,
+      "end": 377.0,
+      "text": "That's the paradox we needed to solve.",
+      "words": []
+    },
+    {
+      "start": 378.0,
+      "end": 388.0,
+      "text": "So online 16, the decade ago, here was our process.",
+      "words": []
+    },
+    {
+      "start": 389.0,
+      "end": 404.0,
+      "text": "The team of six beam and coordination experts creating beam libraries from scratch, working for several months, manually opening each revit models, cross-referencing each specification documents by hand,",
+      "words": []
+    },
+    {
+      "start": 405.0,
+      "end": 424.0,
+      "text": "performing cross-domain modellization and coordination as compliance proof, protein compliance reports, spreadsheets and fast, it worked, but it was manual, slow, odd and difficult to scale.",
+      "words": []
+    },
+    {
+      "start": 425.0,
+      "end": 430.0,
+      "text": "And every time the design changed, we essentially started out.",
+      "words": []
+    },
+    {
+      "start": 431.0,
+      "end": 447.0,
+      "text": "Networks. And as a proof, we are granted a beam door in 2017, over the line 16 project team, so we were product.",
+      "words": []
+    },
+    {
+      "start": 448.0,
+      "end": 459.0,
+      "text": "But we also knew that is the same need came back on the larger project, we couldn't do it in the same way.",
+      "words": []
+    },
+    {
+      "start": 463.0,
+      "end": 473.0,
+      "text": "So 10 years later, the same need came back, but when project manager asked, can we automate this?",
+      "words": []
+    },
+    {
+      "start": 474.0,
+      "end": 481.0,
+      "text": "Our answer was yes, and that's how technical room compliance services was born.",
+      "words": []
+    },
+    {
+      "start": 482.0,
+      "end": 492.0,
+      "text": "It's an automated validation assistance pipeline that combines AI, autodesk platform services on our own AG automation platform.",
+      "words": []
+    },
+    {
+      "start": 493.0,
+      "end": 495.0,
+      "text": "Built in 25.",
+      "words": []
+    },
+    {
+      "start": 496.0,
+      "end": 503.0,
+      "text": "Now, let me hand over to Adelaque, who will take you from technical details.",
+      "words": []
+    },
+    {
+      "start": 504.0,
+      "end": 513.0,
+      "text": "Thank you, Aysan, so we had seen the challenge and now we are going to see how we saw that before to start.",
+      "words": []
+    },
+    {
+      "start": 514.0,
+      "end": 524.0,
+      "text": "We would like to introduce the platform that we used for AI and it is the platform which make it possible.",
+      "words": []
+    },
+    {
+      "start": 525.0,
+      "end": 528.0,
+      "text": "IRIS is our AI platform.",
+      "words": []
+    },
+    {
+      "start": 528.0,
+      "end": 536.0,
+      "text": "It is a platform that allows our engineers and project managers and designers to use AI in safe context.",
+      "words": []
+    },
+    {
+      "start": 537.0,
+      "end": 547.0,
+      "text": "So we have this platform which make it possible to concrete the documents.",
+      "words": []
+    },
+    {
+      "start": 547.0,
+      "end": 562.0,
+      "text": "We ensure that the documents will stay in our infrastructure and it has an open API that allows to connect IRIS to our agent.",
+      "words": []
+    },
+    {
+      "start": 563.0,
+      "end": 575.0,
+      "text": "So every agent in our workflow is connected to IRIS and it is IRIS who will choose which is the best LLM model.",
+      "words": []
+    },
+    {
+      "start": 576.0,
+      "end": 580.0,
+      "text": "We will use depending on the context and on the project.",
+      "words": []
+    },
+    {
+      "start": 581.0,
+      "end": 589.0,
+      "text": "So IRIS is an important belief in our workflow.",
+      "words": []
+    },
+    {
+      "start": 593.0,
+      "end": 601.0,
+      "text": "So the first use case for IRIS was to structure the requirement with the agent.",
+      "words": []
+    },
+    {
+      "start": 602.0,
+      "end": 614.0,
+      "text": "So we have seen with Aysan that for a project like Grompari Express we have a several technical compliance sheet that we have to check.",
+      "words": []
+    },
+    {
+      "start": 615.0,
+      "end": 628.0,
+      "text": "And the challenge is that does the technical compliance sheet are written for humans and they contain three text, tables, diagrams and implicit rules.",
+      "words": []
+    },
+    {
+      "start": 629.0,
+      "end": 642.0,
+      "text": "And we can have hundreds of rules project and we can have also hundreds of rules page etc.",
+      "words": []
+    },
+    {
+      "start": 643.0,
+      "end": 656.0,
+      "text": "So it is important before to send the rules to our automation and join to translate the rules into a machine program.",
+      "words": []
+    },
+    {
+      "start": 657.0,
+      "end": 673.0,
+      "text": "So what the first agent does is to read the specification document using LLM and prompt that we worked with IRIS.",
+      "words": []
+    },
+    {
+      "start": 674.0,
+      "end": 692.0,
+      "text": "It would extract all the specifications such as dimensions, equipment, clariners, door specifications, surface, and it produces the structural JSON which can be used by our game scratch.",
+      "words": []
+    },
+    {
+      "start": 693.0,
+      "end": 703.0,
+      "text": "So we had over the 60, 100 rules extracted automatically across all the room types.",
+      "words": []
+    },
+    {
+      "start": 703.0,
+      "end": 714.0,
+      "text": "And we have also built over the years of the delivery in the edges with our project experience.",
+      "words": []
+    },
+    {
+      "start": 715.0,
+      "end": 738.0,
+      "text": "So the agent read the specifications and for each specification it will put a function that will be able to calculate the data in order to check if we are we we complain the background.",
+      "words": []
+    },
+    {
+      "start": 739.0,
+      "end": 752.0,
+      "text": "So here we have an example of the structure of the JSON that we produce with our agent by agent in IRIS.",
+      "words": []
+    },
+    {
+      "start": 753.0,
+      "end": 762.0,
+      "text": "So it takes the compliance sheet and it will transform it into JSON.",
+      "words": []
+    },
+    {
+      "start": 762.0,
+      "end": 776.0,
+      "text": "So the JSON is the native language that we use to communicate with our cloud based function.",
+      "words": []
+    },
+    {
+      "start": 777.0,
+      "end": 784.0,
+      "text": "Of course we use a cloud. We have two platforms that are connected into our workflow.",
+      "words": []
+    },
+    {
+      "start": 784.0,
+      "end": 792.0,
+      "text": "We have auto desk platform services and this is a cloud platform which is our automation platform.",
+      "words": []
+    },
+    {
+      "start": 792.0,
+      "end": 799.0,
+      "text": "So what why we choose to move to the cloud, there are several reasons.",
+      "words": []
+    },
+    {
+      "start": 800.0,
+      "end": 810.0,
+      "text": "And one of them is that in the big project like Rampari Xers we have to deal with a lot of models.",
+      "words": []
+    },
+    {
+      "start": 810.0,
+      "end": 819.0,
+      "text": "So for example in my section we have more than 60 models with different disciplines.",
+      "words": []
+    },
+    {
+      "start": 820.0,
+      "end": 831.0,
+      "text": "And each model can have a weight of 2000 or 5000 megaflux tech.",
+      "words": []
+    },
+    {
+      "start": 831.0,
+      "end": 843.0,
+      "text": "So we need to make parallel execution and we cannot process them at one time because it will take a lot of time.",
+      "words": []
+    },
+    {
+      "start": 844.0,
+      "end": 855.0,
+      "text": "So what we could do in days, now we can do it in hours using the parallel execution.",
+      "words": []
+    },
+    {
+      "start": 855.0,
+      "end": 869.0,
+      "text": "And also with the cloud based solution we can help our code on our server side and it's not deployed on local machines.",
+      "words": []
+    },
+    {
+      "start": 870.0,
+      "end": 875.0,
+      "text": "So update and deployment is more easy.",
+      "words": []
+    },
+    {
+      "start": 875.0,
+      "end": 885.0,
+      "text": "So when the code is on local machines it's hard to update because we need each user to download the last version etc.",
+      "words": []
+    },
+    {
+      "start": 885.0,
+      "end": 893.0,
+      "text": "And also what is important for us is to protect the code and the knowledge.",
+      "words": []
+    },
+    {
+      "start": 894.0,
+      "end": 900.0,
+      "text": "So when the code is on our side it is protected so we protect our process.",
+      "words": []
+    },
+    {
+      "start": 900.0,
+      "end": 909.0,
+      "text": "And also having the code in a cloud based solution allows us to have always the same environment each time.",
+      "words": []
+    },
+    {
+      "start": 909.0,
+      "end": 916.0,
+      "text": "So we don't depend on the setup or the laptop used by the user.",
+      "words": []
+    },
+    {
+      "start": 916.0,
+      "end": 938.0,
+      "text": "So cloud with each automation and platform, power, our solution and give us the ability to discover and maintain and secure our solution.",
+      "words": []
+    },
+    {
+      "start": 939.0,
+      "end": 955.0,
+      "text": "Also one decision that drives our architecture is that the users that are using our tool are not all living users.",
+      "words": []
+    },
+    {
+      "start": 955.0,
+      "end": 964.0,
+      "text": "So most of them they don't have living, they don't have powerful hardware and they are not even experts.",
+      "words": []
+    },
+    {
+      "start": 965.0,
+      "end": 975.0,
+      "text": "So we need to make them use our solution without having knowledge on beam software or having the power for laptop.",
+      "words": []
+    },
+    {
+      "start": 975.0,
+      "end": 993.0,
+      "text": "And that's why we prefer to move to the cloud and with this solution they need just a browser to have access to our existing automation platform, powered by appets of the display functions.",
+      "words": []
+    },
+    {
+      "start": 994.0,
+      "end": 1005.0,
+      "text": "Also and it's important to understand we are using appets with design automation for a bit.",
+      "words": []
+    },
+    {
+      "start": 1005.0,
+      "end": 1014.0,
+      "text": "And it is because the most data that we deliver is not data available directly in the model.",
+      "words": []
+    },
+    {
+      "start": 1014.0,
+      "end": 1026.0,
+      "text": "For example, we have to calculate a height available in the room and this data is not directly available in the room because sometimes it can be.",
+      "words": []
+    },
+    {
+      "start": 1027.0,
+      "end": 1045.0,
+      "text": "We can have a structural beam or structural element that will reduce the height and it will be this value that we need to check.",
+      "words": []
+    },
+    {
+      "start": 1046.0,
+      "end": 1054.0,
+      "text": "So in order to have this information we don't extract from the room and we do calculation.",
+      "words": []
+    },
+    {
+      "start": 1054.0,
+      "end": 1061.0,
+      "text": "It's a geometry calculation using the clutch detection and the rate racing.",
+      "words": []
+    },
+    {
+      "start": 1061.0,
+      "end": 1069.0,
+      "text": "So this type of data is not available directly in the model and we can have other calculation that we need to assert.",
+      "words": []
+    },
+    {
+      "start": 1070.0,
+      "end": 1079.0,
+      "text": "For example, in a technical room where we need to calculate the minimal distance to exit from the room.",
+      "words": []
+    },
+    {
+      "start": 1079.0,
+      "end": 1093.0,
+      "text": "So we need to prove that in each point of the room we can access to the door exit door in a distance for example under 12 meters.",
+      "words": []
+    },
+    {
+      "start": 1094.0,
+      "end": 1097.0,
+      "text": "So we did this kind of information.",
+      "words": []
+    },
+    {
+      "start": 1097.0,
+      "end": 1113.0,
+      "text": "We can extract very few from the model and we need to make calculation and that's why we need a rivet engine to use a rivet API in order to make this type of calculation.",
+      "words": []
+    },
+    {
+      "start": 1114.0,
+      "end": 1122.0,
+      "text": "And also we have another reason for the material achievement that are inside of the room.",
+      "words": []
+    },
+    {
+      "start": 1122.0,
+      "end": 1131.0,
+      "text": "We sometimes need to calculate the maintenance clearance and the distance between the achievements.",
+      "words": []
+    },
+    {
+      "start": 1131.0,
+      "end": 1142.0,
+      "text": "So also this kind of data is not available in the models or in the elements and we need to calculate using rivet engine.",
+      "words": []
+    },
+    {
+      "start": 1142.0,
+      "end": 1154.0,
+      "text": "So it's important to understand that we need all the data that we use is calculated and it's not always available.",
+      "words": []
+    },
+    {
+      "start": 1154.0,
+      "end": 1167.0,
+      "text": "And also the aim of our application at the final is to produce reports and to produce reports we need to justify the results that we provide.",
+      "words": []
+    },
+    {
+      "start": 1167.0,
+      "end": 1180.0,
+      "text": "And with the rivet engine and the rivet API inside of design automation for rivet we can extract three reviews sections and annotated floor plans.",
+      "words": []
+    },
+    {
+      "start": 1180.0,
+      "end": 1195.0,
+      "text": "So if we visit our final report comes with visual proof generated automatically by design automation for rivet and our scripts and it will they will be used inside of our reports.",
+      "words": []
+    },
+    {
+      "start": 1197.0,
+      "end": 1218.0,
+      "text": "So inside of our C-sharp bundle we have scripts that will deal with the multiple films and across some data because in this type of project we can work with different architect agency.",
+      "words": []
+    },
+    {
+      "start": 1218.0,
+      "end": 1230.0,
+      "text": "And we cannot relate on the parameters that they use for example for the doors or for the windows they can have different families with the parameters with different names.",
+      "words": []
+    },
+    {
+      "start": 1230.0,
+      "end": 1244.0,
+      "text": "And even if we have parameters available so we are not sure that they contain the right value so we need sometimes to do it with the geometry calculation.",
+      "words": []
+    },
+    {
+      "start": 1245.0,
+      "end": 1263.0,
+      "text": "And also we are dealing with the mutual model complexity because in a project like this one we can have one model discipline so we can have structural model, architectural model and hVart model etc.",
+      "words": []
+    },
+    {
+      "start": 1263.0,
+      "end": 1275.0,
+      "text": "And we need to combine all these models in order to extract the data and our scripts will deal directly with the feedback.",
+      "words": []
+    },
+    {
+      "start": 1275.0,
+      "end": 1287.0,
+      "text": "So design automation for rivet is not optional for our workflow it is the computation engine that our cloud based workflow.",
+      "words": []
+    },
+    {
+      "start": 1288.0,
+      "end": 1308.0,
+      "text": "And once we have the data we need to use it in context we need also validation from our engineers or project managers and in this context we are using also the appears viewer.",
+      "words": []
+    },
+    {
+      "start": 1309.0,
+      "end": 1324.0,
+      "text": "So we have inside of our platform integrated the appears viewer so we have the possibility to navigate through the 3D model directly in the browser.",
+      "words": []
+    },
+    {
+      "start": 1325.0,
+      "end": 1336.0,
+      "text": "We have complaints that allows the user to click on align and go directly into room.",
+      "words": []
+    },
+    {
+      "start": 1336.0,
+      "end": 1350.0,
+      "text": "We have identification data that can make easy to identify the room that we are dealing with.",
+      "words": []
+    },
+    {
+      "start": 1351.0,
+      "end": 1362.0,
+      "text": "And as I said each time that we click on align we are thinking inside of the room.",
+      "words": []
+    },
+    {
+      "start": 1362.0,
+      "end": 1374.0,
+      "text": "So with the appears viewer we don't need to read we don't need to download the model etc everything is available in the browser.",
+      "words": []
+    },
+    {
+      "start": 1375.0,
+      "end": 1385.0,
+      "text": "And here we also added an agent connected to iVist our iA platform.",
+      "words": []
+    },
+    {
+      "start": 1385.0,
+      "end": 1394.0,
+      "text": "So the first agent send a JSON to our application on appears.",
+      "words": []
+    },
+    {
+      "start": 1395.0,
+      "end": 1404.0,
+      "text": "It contains a list of requirements and the user as a result a list of requirements.",
+      "words": []
+    },
+    {
+      "start": 1404.0,
+      "end": 1417.0,
+      "text": "So the problem is that the JSON is not available for human and we need to use iA also to explain each result for the users.",
+      "words": []
+    },
+    {
+      "start": 1418.0,
+      "end": 1423.0,
+      "text": "So our engineers or project managers need their context and explanation.",
+      "words": []
+    },
+    {
+      "start": 1423.0,
+      "end": 1434.0,
+      "text": "So the agent is in charge of explain each feature user and make it be developed for the user.",
+      "words": []
+    },
+    {
+      "start": 1435.0,
+      "end": 1452.0,
+      "text": "And the engineer in our platform he meets an explanation of the results and not a spreadsheet of numbers and raw data.",
+      "words": []
+    },
+    {
+      "start": 1453.0,
+      "end": 1457.0,
+      "text": "And we have also a target agent.",
+      "words": []
+    },
+    {
+      "start": 1457.0,
+      "end": 1465.0,
+      "text": "The target agent is in charge of pre-autizing the results.",
+      "words": []
+    },
+    {
+      "start": 1465.0,
+      "end": 1475.0,
+      "text": "So in the slide zone we have more than 100 of the rules record results.",
+      "words": []
+    },
+    {
+      "start": 1476.0,
+      "end": 1483.0,
+      "text": "So we need to prioritize which one we have to use to do first.",
+      "words": []
+    },
+    {
+      "start": 1483.0,
+      "end": 1488.0,
+      "text": "And we need also to classify the user by security.",
+      "words": []
+    },
+    {
+      "start": 1488.0,
+      "end": 1492.0,
+      "text": "So someone of them are critical, someone are ignored.",
+      "words": []
+    },
+    {
+      "start": 1492.0,
+      "end": 1499.0,
+      "text": "And if we start by using the critical zone we will be more efficient.",
+      "words": []
+    },
+    {
+      "start": 1500.0,
+      "end": 1507.0,
+      "text": "So we can filter also by selecting highlights blocking the usual etc.",
+      "words": []
+    },
+    {
+      "start": 1507.0,
+      "end": 1510.0,
+      "text": "And we have also another one.",
+      "words": []
+    },
+    {
+      "start": 1510.0,
+      "end": 1523.0,
+      "text": "It's not finished but we are working on it because we have seen that even if we bring the user inside of the room it's not enough because we need to have more context.",
+      "words": []
+    },
+    {
+      "start": 1524.0,
+      "end": 1533.0,
+      "text": "So the rooms can be very large and we need to understand what is the element that is creating the usual.",
+      "words": []
+    },
+    {
+      "start": 1533.0,
+      "end": 1541.0,
+      "text": "So this agent is in charge of set to the camera position, view point etc.",
+      "words": []
+    },
+    {
+      "start": 1541.0,
+      "end": 1548.0,
+      "text": "To explain directly to the user what is happening is for example we have a problem with the door.",
+      "words": []
+    },
+    {
+      "start": 1549.0,
+      "end": 1570.0,
+      "text": "So it will direct the camera to the door and it will for example create a measurement to the door to show the user that the width of the door is not correct.",
+      "words": []
+    },
+    {
+      "start": 1571.0,
+      "end": 1587.0,
+      "text": "But all this is another to make our engineers and project management decision about the final decision of the environment.",
+      "words": []
+    },
+    {
+      "start": 1588.0,
+      "end": 1602.0,
+      "text": "And what we are using in our platform is the user interface that allows the user to change the status of an issue also to add comments.",
+      "words": []
+    },
+    {
+      "start": 1602.0,
+      "end": 1613.0,
+      "text": "For example we can have a problem with the door or area but the project manager had an information that the IA doesn't have.",
+      "words": []
+    },
+    {
+      "start": 1614.0,
+      "end": 1619.0,
+      "text": "So we can add comments, we can correct the value etc.",
+      "words": []
+    },
+    {
+      "start": 1619.0,
+      "end": 1632.0,
+      "text": "And it is important to understand that IA is important for us but the final decision is made by the user which can be an engineer or project manager.",
+      "words": []
+    },
+    {
+      "start": 1632.0,
+      "end": 1641.0,
+      "text": "And here is in charge of the validation of the result produced by IA and our skits.",
+      "words": []
+    },
+    {
+      "start": 1641.0,
+      "end": 1648.0,
+      "text": "So here we have a hand to hand a stature with the different steps that Adelaikim just explained.",
+      "words": []
+    },
+    {
+      "start": 1648.0,
+      "end": 1664.0,
+      "text": "And we also to explain that it brings stories of analysis and review and then we can iterate compliance.",
+      "words": []
+    },
+    {
+      "start": 1665.0,
+      "end": 1677.0,
+      "text": "So here is the transformation, decade ago several months of work, manual and rune from Nascale label.",
+      "words": []
+    },
+    {
+      "start": 1677.0,
+      "end": 1681.0,
+      "text": "These are the changes from the start and the over.",
+      "words": []
+    },
+    {
+      "start": 1681.0,
+      "end": 1690.0,
+      "text": "And nowadays it takes days not months and it is associated by automation and a repeatable.",
+      "words": []
+    },
+    {
+      "start": 1691.0,
+      "end": 1693.0,
+      "text": "But what next?",
+      "words": []
+    },
+    {
+      "start": 1693.0,
+      "end": 1703.0,
+      "text": "We think we should include our real-time continuous monitoring, self-improving, machine learning, applicable to any building or why.",
+      "words": []
+    },
+    {
+      "start": 1703.0,
+      "end": 1716.0,
+      "text": "Prior to compliance earlier before the issue from which the reviewer and all past projects become training data for future ones.",
+      "words": []
+    },
+    {
+      "start": 1717.0,
+      "end": 1731.0,
+      "text": "So technical rune compliance pipeline is not just AI, it is not just cloud, not just a viewer, it is an orchestrated workflow where each label does what is best.",
+      "words": []
+    },
+    {
+      "start": 1732.0,
+      "end": 1744.0,
+      "text": "Usually we have the cloud platform, we have algorithm, we have artificial intelligence, we have a viewer, we have context and obviously in more importance to human.",
+      "words": []
+    },
+    {
+      "start": 1744.0,
+      "end": 1754.0,
+      "text": "So as a center, the engineer and the project manager validate or correct in the ground derogations.",
+      "words": []
+    },
+    {
+      "start": 1755.0,
+      "end": 1757.0,
+      "text": "So the gives signals in the app.",
+      "words": []
+    },
+    {
+      "start": 1757.0,
+      "end": 1763.0,
+      "text": "So AI is both who obviously, but only where it belongs.",
+      "words": []
+    },
+    {
+      "start": 1763.0,
+      "end": 1768.0,
+      "text": "So the real value is orchestration of this pipeline.",
+      "words": []
+    },
+    {
+      "start": 1771.0,
+      "end": 1776.0,
+      "text": "So what could be deployed today?",
+      "words": []
+    },
+    {
+      "start": 1777.0,
+      "end": 1794.0,
+      "text": "So AI extract specification, cloud compute geometry checks, explains nothing from man's, prioritizations, features, AI sets the three dsings and the human validates.",
+      "words": []
+    },
+    {
+      "start": 1794.0,
+      "end": 1797.0,
+      "text": "We pause our generated automatically.",
+      "words": []
+    },
+    {
+      "start": 1798.0,
+      "end": 1811.0,
+      "text": "And tomorrow, what we're building now, agents that monitor models continuously, stand as protocols like MCP that connect the rituals in pipeline.",
+      "words": []
+    },
+    {
+      "start": 1812.0,
+      "end": 1821.0,
+      "text": "AI that proposes fixes and waits for engineer promos to complains that becomes proactive, not reactive.",
+      "words": []
+    },
+    {
+      "start": 1822.0,
+      "end": 1826.0,
+      "text": "So let me be clear about one thing.",
+      "words": []
+    },
+    {
+      "start": 1826.0,
+      "end": 1835.0,
+      "text": "So we are not replacing engineers, we are giving them an a forward eyes that never sleep and the final world always states with them.",
+      "words": []
+    },
+    {
+      "start": 1836.0,
+      "end": 1853.0,
+      "text": "We are actively collaborating with Autodesk consulting and AT&TMs, interpreting Autodesk agents and MCP into our platform from automatic checks to agent complaints workflow.",
+      "words": []
+    },
+    {
+      "start": 1853.0,
+      "end": 1862.0,
+      "text": "As I said, we are actively collaborating with Autodesk teams to integrate the next generation of AI power tools.",
+      "words": []
+    },
+    {
+      "start": 1863.0,
+      "end": 1869.0,
+      "text": "And we believe the future of construction compliance is agentage.",
+      "words": []
+    },
+    {
+      "start": 1874.0,
+      "end": 1881.0,
+      "text": "So I want to close with this thing that AI is commodizing production.",
+      "words": []
+    },
+    {
+      "start": 1881.0,
+      "end": 1886.0,
+      "text": "It can generate drawings, models, calculations, faster everyday.",
+      "words": []
+    },
+    {
+      "start": 1887.0,
+      "end": 1889.0,
+      "text": "So where does value be great?",
+      "words": []
+    },
+    {
+      "start": 1889.0,
+      "end": 1894.0,
+      "text": "We think it would be great to verification, and how does value be great to verification?",
+      "words": []
+    },
+    {
+      "start": 1894.0,
+      "end": 1899.0,
+      "text": "To the ability to check, to satisfy, to make responsibility for the results.",
+      "words": []
+    },
+    {
+      "start": 1899.0,
+      "end": 1907.0,
+      "text": "As someone in our free law firm say, the client does not buy a driving device, this agent and the patient.",
+      "words": []
+    },
+    {
+      "start": 1908.0,
+      "end": 1917.0,
+      "text": "So in the world where AI can generate anything or a lump, the one who verifies become the one matters.",
+      "words": []
+    },
+    {
+      "start": 1917.0,
+      "end": 1921.0,
+      "text": "And that is precisely what technical compliance does.",
+      "words": []
+    },
+    {
+      "start": 1921.0,
+      "end": 1930.0,
+      "text": "So that is not replaced, the engineers' judgment, it amplifies, it gives the engineers the tools to verify faster and deeper.",
+      "words": []
+    },
+    {
+      "start": 1931.0,
+      "end": 1938.0,
+      "text": "So they can focus on what only humans can do, makes this agent take the responsibility and stand behind us.",
+      "words": []
+    },
+    {
+      "start": 1938.0,
+      "end": 1941.0,
+      "text": "That the people we are making.",
+      "words": []
+    },
+    {
+      "start": 1941.0,
+      "end": 1945.0,
+      "text": "Thank you for your time and attention.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:20:51.848932+00:00"
+}

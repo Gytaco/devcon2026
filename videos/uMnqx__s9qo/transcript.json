@@ -1,0 +1,2611 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "text": "Automate first.",
+      "words": []
+    },
+    {
+      "start": 2.0,
+      "end": 3.0,
+      "text": "Thank you.",
+      "words": []
+    },
+    {
+      "start": 3.0,
+      "end": 6.0,
+      "text": "This is our contribution for that con 26.",
+      "words": []
+    },
+    {
+      "start": 6.0,
+      "end": 8.0,
+      "text": "But we are going to show you how we build.",
+      "words": []
+    },
+    {
+      "start": 8.0,
+      "end": 13.0,
+      "text": "We started building extensions for formal side design.",
+      "words": []
+    },
+    {
+      "start": 13.0,
+      "end": 16.0,
+      "text": "With me is a bello.",
+      "words": []
+    },
+    {
+      "start": 16.0,
+      "end": 19.0,
+      "text": "I'm a new student at the Institute for Advanced",
+      "words": []
+    },
+    {
+      "start": 19.0,
+      "end": 20.0,
+      "text": "Adarchitecture of Katalbunir.",
+      "words": []
+    },
+    {
+      "start": 20.0,
+      "end": 21.0,
+      "text": "We did part of this.",
+      "words": []
+    },
+    {
+      "start": 21.0,
+      "end": 23.0,
+      "text": "I'm a star within an end.",
+      "words": []
+    },
+    {
+      "start": 23.0,
+      "end": 26.0,
+      "text": "And and me.",
+      "words": []
+    },
+    {
+      "start": 26.0,
+      "end": 29.0,
+      "text": "I need the emergent technology team.",
+      "words": []
+    },
+    {
+      "start": 29.0,
+      "end": 32.0,
+      "text": "I'll start up like entity within the company.",
+      "words": []
+    },
+    {
+      "start": 32.0,
+      "end": 34.0,
+      "text": "We are.",
+      "words": []
+    },
+    {
+      "start": 34.0,
+      "end": 38.0,
+      "text": "This is us about the 26 people.",
+      "words": []
+    },
+    {
+      "start": 38.0,
+      "end": 40.0,
+      "text": "Between Bergen and Munich in Germany,",
+      "words": []
+    },
+    {
+      "start": 40.0,
+      "end": 41.0,
+      "text": "it's on foot.",
+      "words": []
+    },
+    {
+      "start": 41.0,
+      "end": 46.0,
+      "text": "And should I were active worldwide with a strong focus on.",
+      "words": []
+    },
+    {
+      "start": 46.0,
+      "end": 47.0,
+      "text": "On work.",
+      "words": []
+    },
+    {
+      "start": 47.0,
+      "end": 50.0,
+      "text": "Where the kind of the long history is starting to design work",
+      "words": []
+    },
+    {
+      "start": 50.0,
+      "end": 52.0,
+      "text": "races from the first open space.",
+      "words": []
+    },
+    {
+      "start": 52.0,
+      "end": 54.0,
+      "text": "Office in the company.",
+      "words": []
+    },
+    {
+      "start": 54.0,
+      "end": 57.0,
+      "text": "Office in Europe to contemporary.",
+      "words": []
+    },
+    {
+      "start": 57.0,
+      "end": 62.0,
+      "text": "Office spaces in Kuwait or to the current remote work and",
+      "words": []
+    },
+    {
+      "start": 62.0,
+      "end": 64.0,
+      "text": "in a situation in the rest of the world.",
+      "words": []
+    },
+    {
+      "start": 64.0,
+      "end": 68.0,
+      "text": "With design offices of very different technologies with a",
+      "words": []
+    },
+    {
+      "start": 68.0,
+      "end": 72.0,
+      "text": "strong focus on workplaces of science building and",
+      "words": []
+    },
+    {
+      "start": 72.0,
+      "end": 73.0,
+      "text": "industrial building.",
+      "words": []
+    },
+    {
+      "start": 73.0,
+      "end": 75.0,
+      "text": "And.",
+      "words": []
+    },
+    {
+      "start": 75.0,
+      "end": 78.0,
+      "text": "One can shorten it to pretty much every city,",
+      "words": []
+    },
+    {
+      "start": 78.0,
+      "end": 81.0,
+      "text": "but the residential to culture had to care.",
+      "words": []
+    },
+    {
+      "start": 81.0,
+      "end": 84.0,
+      "text": "So.",
+      "words": []
+    },
+    {
+      "start": 84.0,
+      "end": 87.0,
+      "text": "Ultimate first is our title for today.",
+      "words": []
+    },
+    {
+      "start": 87.0,
+      "end": 92.0,
+      "text": "And this was the thoughts that led us to design this extension",
+      "words": []
+    },
+    {
+      "start": 92.0,
+      "end": 94.0,
+      "text": "this product for showing you today.",
+      "words": []
+    },
+    {
+      "start": 94.0,
+      "end": 99.0,
+      "text": "And I'll go first to the to the to the to the program always.",
+      "words": []
+    },
+    {
+      "start": 99.0,
+      "end": 101.0,
+      "text": "Oh, it's me what we call the gap.",
+      "words": []
+    },
+    {
+      "start": 101.0,
+      "end": 104.0,
+      "text": "That we wanted to or to feel.",
+      "words": []
+    },
+    {
+      "start": 104.0,
+      "end": 108.0,
+      "text": "And the strategy that guided the implementation and we're not",
+      "words": []
+    },
+    {
+      "start": 108.0,
+      "end": 111.0,
+      "text": "going to show you the target itself in the.",
+      "words": []
+    },
+    {
+      "start": 111.0,
+      "end": 114.0,
+      "text": "Show a little bit of what comes next.",
+      "words": []
+    },
+    {
+      "start": 114.0,
+      "end": 119.0,
+      "text": "So this is a context model in the early design phases.",
+      "words": []
+    },
+    {
+      "start": 119.0,
+      "end": 121.0,
+      "text": "We talk about feasibility studies.",
+      "words": []
+    },
+    {
+      "start": 121.0,
+      "end": 124.0,
+      "text": "We talk about creepetition, the very early phases of design.",
+      "words": []
+    },
+    {
+      "start": 124.0,
+      "end": 128.0,
+      "text": "This is how we would like to have it now with all the vegetation",
+      "words": []
+    },
+    {
+      "start": 128.0,
+      "end": 131.0,
+      "text": "on it with the building news in your other simplified form.",
+      "words": []
+    },
+    {
+      "start": 131.0,
+      "end": 136.0,
+      "text": "And all the vegetation are the very base level because it informs",
+      "words": []
+    },
+    {
+      "start": 136.0,
+      "end": 139.0,
+      "text": "so much about design.",
+      "words": []
+    },
+    {
+      "start": 139.0,
+      "end": 144.0,
+      "text": "And when we are open for to use the extension to get the vegetation",
+      "words": []
+    },
+    {
+      "start": 144.0,
+      "end": 147.0,
+      "text": "that the site that we got usually excellent.",
+      "words": []
+    },
+    {
+      "start": 147.0,
+      "end": 153.0,
+      "text": "Building environment, but the trees is is a bit.",
+      "words": []
+    },
+    {
+      "start": 153.0,
+      "end": 157.0,
+      "text": "The result is other erratic depending a lot in the data.",
+      "words": []
+    },
+    {
+      "start": 157.0,
+      "end": 158.0,
+      "text": "So data sources.",
+      "words": []
+    },
+    {
+      "start": 158.0,
+      "end": 162.0,
+      "text": "The trees are even there or not there partially there.",
+      "words": []
+    },
+    {
+      "start": 162.0,
+      "end": 164.0,
+      "text": "I mean, the really so on.",
+      "words": []
+    },
+    {
+      "start": 164.0,
+      "end": 167.0,
+      "text": "And this is a bit the problem that we're finding.",
+      "words": []
+    },
+    {
+      "start": 167.0,
+      "end": 172.0,
+      "text": "But what we see in for the is an excellent or to photos excellent",
+      "words": []
+    },
+    {
+      "start": 172.0,
+      "end": 175.0,
+      "text": "satellite images of the context model.",
+      "words": []
+    },
+    {
+      "start": 175.0,
+      "end": 181.0,
+      "text": "And this is a bit was a bit the inspiration for the idea.",
+      "words": []
+    },
+    {
+      "start": 181.0,
+      "end": 186.0,
+      "text": "The problem right now is that we have a source of the context file",
+      "words": []
+    },
+    {
+      "start": 186.0,
+      "end": 187.0,
+      "text": "of a context model.",
+      "words": []
+    },
+    {
+      "start": 187.0,
+      "end": 192.0,
+      "text": "And we need to seal it into a desktop application to then",
+      "words": []
+    },
+    {
+      "start": 192.0,
+      "end": 197.0,
+      "text": "add the context to it using using script using the different data",
+      "words": []
+    },
+    {
+      "start": 197.0,
+      "end": 201.0,
+      "text": "sources using manual.",
+      "words": []
+    },
+    {
+      "start": 201.0,
+      "end": 205.0,
+      "text": "Placement and modeling and from there we can then expand to",
+      "words": []
+    },
+    {
+      "start": 205.0,
+      "end": 209.0,
+      "text": "other disciplines that needs to be involved in our phase of studies.",
+      "words": []
+    },
+    {
+      "start": 209.0,
+      "end": 213.0,
+      "text": "From architecture, programming to sustainability to start",
+      "words": []
+    },
+    {
+      "start": 213.0,
+      "end": 214.0,
+      "text": "sure I'm so on.",
+      "words": []
+    },
+    {
+      "start": 214.0,
+      "end": 218.0,
+      "text": "And I mean that that part of the early say of early",
+      "words": []
+    },
+    {
+      "start": 218.0,
+      "end": 222.0,
+      "text": "information finding and study of the master will turns",
+      "words": []
+    },
+    {
+      "start": 222.0,
+      "end": 227.0,
+      "text": "an instant into sharing models with version files and so on.",
+      "words": []
+    },
+    {
+      "start": 227.0,
+      "end": 231.0,
+      "text": "What we would like to have is to increase the amount of information",
+      "words": []
+    },
+    {
+      "start": 231.0,
+      "end": 233.0,
+      "text": "that we have at the beginning of the file.",
+      "words": []
+    },
+    {
+      "start": 233.0,
+      "end": 238.0,
+      "text": "And even I had more ideally have all the different stakeholders",
+      "words": []
+    },
+    {
+      "start": 238.0,
+      "end": 243.0,
+      "text": "and not facing the project of independent access to the same",
+      "words": []
+    },
+    {
+      "start": 243.0,
+      "end": 246.0,
+      "text": "source to the same content.",
+      "words": []
+    },
+    {
+      "start": 246.0,
+      "end": 249.0,
+      "text": "And it's the gap in a world there is a need for collaboration",
+      "words": []
+    },
+    {
+      "start": 249.0,
+      "end": 251.0,
+      "text": "and a need for context.",
+      "words": []
+    },
+    {
+      "start": 251.0,
+      "end": 257.0,
+      "text": "I need the strategy that is guiding us into closing this gap.",
+      "words": []
+    },
+    {
+      "start": 257.0,
+      "end": 260.0,
+      "text": "It's built on three.",
+      "words": []
+    },
+    {
+      "start": 260.0,
+      "end": 263.0,
+      "text": "We three elements are taking to consider actually three elements.",
+      "words": []
+    },
+    {
+      "start": 263.0,
+      "end": 266.0,
+      "text": "One is the current bottom base situation.",
+      "words": []
+    },
+    {
+      "start": 266.0,
+      "end": 271.0,
+      "text": "The other is the desire to the idea to switch to a certain",
+      "words": []
+    },
+    {
+      "start": 271.0,
+      "end": 276.0,
+      "text": "idea that allows a web based real time collaboration.",
+      "words": []
+    },
+    {
+      "start": 276.0,
+      "end": 280.0,
+      "text": "And the underlying idea for infrastructure that allows",
+      "words": []
+    },
+    {
+      "start": 280.0,
+      "end": 284.0,
+      "text": "everybody involved in the coaching project to share the",
+      "words": []
+    },
+    {
+      "start": 284.0,
+      "end": 286.0,
+      "text": "solution.",
+      "words": []
+    },
+    {
+      "start": 286.0,
+      "end": 289.0,
+      "text": "The strategy of re-instead with the path that you see",
+      "words": []
+    },
+    {
+      "start": 289.0,
+      "end": 291.0,
+      "text": "design technology taken nowadays.",
+      "words": []
+    },
+    {
+      "start": 291.0,
+      "end": 294.0,
+      "text": "We're going from output days, the design process,",
+      "words": []
+    },
+    {
+      "start": 294.0,
+      "end": 298.0,
+      "text": "where the floor plan and the section and the build material",
+      "words": []
+    },
+    {
+      "start": 298.0,
+      "end": 302.0,
+      "text": "taking individual where you're project in your architect",
+      "words": []
+    },
+    {
+      "start": 302.0,
+      "end": 305.0,
+      "text": "and to the beam around where you have a data model,",
+      "words": []
+    },
+    {
+      "start": 305.0,
+      "end": 311.0,
+      "text": "and all the artifacts out of it are just exports",
+      "words": []
+    },
+    {
+      "start": 311.0,
+      "end": 313.0,
+      "text": "from a central information model.",
+      "words": []
+    },
+    {
+      "start": 313.0,
+      "end": 317.0,
+      "text": "But still see what into big files that are available for",
+      "words": []
+    },
+    {
+      "start": 317.0,
+      "end": 322.0,
+      "text": "collaboration but with a lot of its robots to the attention",
+      "words": []
+    },
+    {
+      "start": 322.0,
+      "end": 327.0,
+      "text": "that we see now towards online to an inter-cognitive.",
+      "words": []
+    },
+    {
+      "start": 327.0,
+      "end": 330.0,
+      "text": "And this is not something that is unique to your",
+      "words": []
+    },
+    {
+      "start": 330.0,
+      "end": 333.0,
+      "text": "next to a digital design type of origin.",
+      "words": []
+    },
+    {
+      "start": 333.0,
+      "end": 336.0,
+      "text": "The history of architecture is the history of the tools",
+      "words": []
+    },
+    {
+      "start": 336.0,
+      "end": 338.0,
+      "text": "from a computer texture.",
+      "words": []
+    },
+    {
+      "start": 338.0,
+      "end": 341.0,
+      "text": "We see those in a great examples.",
+      "words": []
+    },
+    {
+      "start": 341.0,
+      "end": 344.0,
+      "text": "For instance, I opt on this.",
+      "words": []
+    },
+    {
+      "start": 344.0,
+      "end": 348.0,
+      "text": "It's a research in tensile structures.",
+      "words": []
+    },
+    {
+      "start": 348.0,
+      "end": 351.0,
+      "text": "It was building the tools that were going to do the right",
+      "words": []
+    },
+    {
+      "start": 351.0,
+      "end": 354.0,
+      "text": "project to do the project that it needs to be.",
+      "words": []
+    },
+    {
+      "start": 354.0,
+      "end": 357.0,
+      "text": "Even when using even more experimental tools like",
+      "words": []
+    },
+    {
+      "start": 357.0,
+      "end": 361.0,
+      "text": "SOC bubbles, the way with that of the tools",
+      "words": []
+    },
+    {
+      "start": 361.0,
+      "end": 365.0,
+      "text": "came up with this new, but the mindset is the same.",
+      "words": []
+    },
+    {
+      "start": 365.0,
+      "end": 369.0,
+      "text": "And the way we do it concretely is that we embraced",
+      "words": []
+    },
+    {
+      "start": 369.0,
+      "end": 371.0,
+      "text": "full-length software development, the software development",
+      "words": []
+    },
+    {
+      "start": 371.0,
+      "end": 374.0,
+      "text": "feedback looks something that you can",
+      "words": []
+    },
+    {
+      "start": 374.0,
+      "end": 377.0,
+      "text": "do with classical architecture, you can iterate from ability",
+      "words": []
+    },
+    {
+      "start": 377.0,
+      "end": 378.0,
+      "text": "after it's been done.",
+      "words": []
+    },
+    {
+      "start": 378.0,
+      "end": 383.0,
+      "text": "And really define user journey as we simulate them",
+      "words": []
+    },
+    {
+      "start": 383.0,
+      "end": 387.0,
+      "text": "and we find the features that we test in the development",
+      "words": []
+    },
+    {
+      "start": 387.0,
+      "end": 389.0,
+      "text": "to where it gives a product.",
+      "words": []
+    },
+    {
+      "start": 389.0,
+      "end": 392.0,
+      "text": "And even more concrete way to have built",
+      "words": []
+    },
+    {
+      "start": 392.0,
+      "end": 395.0,
+      "text": "a guidance way of figuring out guidelines for a",
+      "words": []
+    },
+    {
+      "start": 395.0,
+      "end": 398.0,
+      "text": "IAS system coding, which allows people that",
+      "words": []
+    },
+    {
+      "start": 398.0,
+      "end": 400.0,
+      "text": "are audition and know the structure, but",
+      "words": []
+    },
+    {
+      "start": 400.0,
+      "end": 404.0,
+      "text": "new necessary ever technology to very quickly embrace",
+      "words": []
+    },
+    {
+      "start": 404.0,
+      "end": 407.0,
+      "text": "new technology experiment and test them.",
+      "words": []
+    },
+    {
+      "start": 407.0,
+      "end": 411.0,
+      "text": "And of the four pillars that you see here,",
+      "words": []
+    },
+    {
+      "start": 411.0,
+      "end": 414.0,
+      "text": "the most important one, I think, is the last one,",
+      "words": []
+    },
+    {
+      "start": 414.0,
+      "end": 416.0,
+      "text": "oversight, unit to our digital unit,",
+      "words": []
+    },
+    {
+      "start": 416.0,
+      "end": 418.0,
+      "text": "the funds, more incrementally, to read every",
+      "words": []
+    },
+    {
+      "start": 418.0,
+      "end": 420.0,
+      "text": "rank code, need to understand what's happening",
+      "words": []
+    },
+    {
+      "start": 420.0,
+      "end": 423.0,
+      "text": "to guide the tools.",
+      "words": []
+    },
+    {
+      "start": 423.0,
+      "end": 426.0,
+      "text": "Maybe six months, it could be this short at the",
+      "words": []
+    },
+    {
+      "start": 426.0,
+      "end": 429.0,
+      "text": "moment, we'll spin like that.",
+      "words": []
+    },
+    {
+      "start": 429.0,
+      "end": 432.0,
+      "text": "And with this overall introduction out of the way,",
+      "words": []
+    },
+    {
+      "start": 432.0,
+      "end": 435.0,
+      "text": "you can use this link.",
+      "words": []
+    },
+    {
+      "start": 435.0,
+      "end": 437.0,
+      "text": "There is a short link, literally, the",
+      "words": []
+    },
+    {
+      "start": 437.0,
+      "end": 440.0,
+      "text": "search format, or use the QR code.",
+      "words": []
+    },
+    {
+      "start": 440.0,
+      "end": 444.0,
+      "text": "It can take you to our tool page.",
+      "words": []
+    },
+    {
+      "start": 444.0,
+      "end": 447.0,
+      "text": "Let me show you how to use the extension,",
+      "words": []
+    },
+    {
+      "start": 447.0,
+      "end": 450.0,
+      "text": "what design the artworks is, and also get to the",
+      "words": []
+    },
+    {
+      "start": 450.0,
+      "end": 452.0,
+      "text": "GitHub, because they're always open source.",
+      "words": []
+    },
+    {
+      "start": 452.0,
+      "end": 456.0,
+      "text": "And with that, we go to the project demo,",
+      "words": []
+    },
+    {
+      "start": 456.0,
+      "end": 460.0,
+      "text": "also show a bit of the detailed implementation,",
+      "words": []
+    },
+    {
+      "start": 460.0,
+      "end": 463.0,
+      "text": "but this is a new one, it's to our value.",
+      "words": []
+    },
+    {
+      "start": 463.0,
+      "end": 466.0,
+      "text": "Perfect.",
+      "words": []
+    },
+    {
+      "start": 466.0,
+      "end": 468.0,
+      "text": "Thank you, Emiliano.",
+      "words": []
+    },
+    {
+      "start": 468.0,
+      "end": 471.0,
+      "text": "So on the high level, this is how our extension works.",
+      "words": []
+    },
+    {
+      "start": 471.0,
+      "end": 473.0,
+      "text": "First, we have an extension with the login.",
+      "words": []
+    },
+    {
+      "start": 473.0,
+      "end": 476.0,
+      "text": "We fetch the project with the satellite tile.",
+      "words": []
+    },
+    {
+      "start": 476.0,
+      "end": 478.0,
+      "text": "We tune the HSV, detect the trees, and finally,",
+      "words": []
+    },
+    {
+      "start": 478.0,
+      "end": 481.0,
+      "text": "the most principal important thing for us is placing",
+      "words": []
+    },
+    {
+      "start": 481.0,
+      "end": 485.0,
+      "text": "the trees inside of our format site design.",
+      "words": []
+    },
+    {
+      "start": 485.0,
+      "end": 486.0,
+      "text": "This is on a high level.",
+      "words": []
+    },
+    {
+      "start": 486.0,
+      "end": 489.0,
+      "text": "Let's get to the details.",
+      "words": []
+    },
+    {
+      "start": 489.0,
+      "end": 491.0,
+      "text": "So first, we have the fetching of project",
+      "words": []
+    },
+    {
+      "start": 491.0,
+      "end": 493.0,
+      "text": "in funds satellite images.",
+      "words": []
+    },
+    {
+      "start": 493.0,
+      "end": 497.0,
+      "text": "First, we get the project information from the",
+      "words": []
+    },
+    {
+      "start": 497.0,
+      "end": 498.0,
+      "text": "format site design.",
+      "words": []
+    },
+    {
+      "start": 498.0,
+      "end": 501.0,
+      "text": "We have the location, the latitude, the longitude,",
+      "words": []
+    },
+    {
+      "start": 501.0,
+      "end": 504.0,
+      "text": "the size of the sites, and other information.",
+      "words": []
+    },
+    {
+      "start": 504.0,
+      "end": 507.0,
+      "text": "And from there, we go and fetch the satellite imagery",
+      "words": []
+    },
+    {
+      "start": 507.0,
+      "end": 511.0,
+      "text": "that's precisely, and with the higher-risk",
+      "words": []
+    },
+    {
+      "start": 511.0,
+      "end": 514.0,
+      "text": "satellite imagery, that presupply shows us how",
+      "words": []
+    },
+    {
+      "start": 514.0,
+      "end": 516.0,
+      "text": "what our site looks like.",
+      "words": []
+    },
+    {
+      "start": 516.0,
+      "end": 521.0,
+      "text": "Next, we have our tuning tree detection and tuning.",
+      "words": []
+    },
+    {
+      "start": 521.0,
+      "end": 526.0,
+      "text": "After we get our satellite image, we tune the HSV",
+      "words": []
+    },
+    {
+      "start": 526.0,
+      "end": 529.0,
+      "text": "sliders, the hue saturation and value, to be able to detect",
+      "words": []
+    },
+    {
+      "start": 529.0,
+      "end": 532.0,
+      "text": "as many trees as possible in our sites.",
+      "words": []
+    },
+    {
+      "start": 532.0,
+      "end": 535.0,
+      "text": "After that, we run the detection, our algorithm",
+      "words": []
+    },
+    {
+      "start": 535.0,
+      "end": 539.0,
+      "text": "in the backend detects it, and gets the location of each",
+      "words": []
+    },
+    {
+      "start": 539.0,
+      "end": 541.0,
+      "text": "individual tree in that site.",
+      "words": []
+    },
+    {
+      "start": 541.0,
+      "end": 546.0,
+      "text": "We then get the exact elevation of each of those individual trees",
+      "words": []
+    },
+    {
+      "start": 546.0,
+      "end": 550.0,
+      "text": "in our site for a real, for as close as reality,",
+      "words": []
+    },
+    {
+      "start": 550.0,
+      "end": 552.0,
+      "text": "as possible for our sites.",
+      "words": []
+    },
+    {
+      "start": 552.0,
+      "end": 555.0,
+      "text": "After that, we get to the fun parts, get the tree placement",
+      "words": []
+    },
+    {
+      "start": 555.0,
+      "end": 556.0,
+      "text": "in format.",
+      "words": []
+    },
+    {
+      "start": 556.0,
+      "end": 560.0,
+      "text": "After we get the detection, the list of all detected trees,",
+      "words": []
+    },
+    {
+      "start": 560.0,
+      "end": 564.0,
+      "text": "we can then just click on the detection trees, and we will have",
+      "words": []
+    },
+    {
+      "start": 564.0,
+      "end": 568.0,
+      "text": "pop-up inside of our own for the site design, all the trees",
+      "words": []
+    },
+    {
+      "start": 568.0,
+      "end": 572.0,
+      "text": "of our sites that we can really help us for our early stage",
+      "words": []
+    },
+    {
+      "start": 572.0,
+      "end": 576.0,
+      "text": "feasibility and climate and feasibility design that we can",
+      "words": []
+    },
+    {
+      "start": 576.0,
+      "end": 579.0,
+      "text": "really get a nice idea and a good idea of what our project",
+      "words": []
+    },
+    {
+      "start": 579.0,
+      "end": 581.0,
+      "text": "looks like.",
+      "words": []
+    },
+    {
+      "start": 581.0,
+      "end": 586.0,
+      "text": "After that, we get, after you finish with your project info,",
+      "words": []
+    },
+    {
+      "start": 586.0,
+      "end": 588.0,
+      "text": "you get also your project history.",
+      "words": []
+    },
+    {
+      "start": 588.0,
+      "end": 591.0,
+      "text": "So you can track all the project that you've used the extension",
+      "words": []
+    },
+    {
+      "start": 591.0,
+      "end": 594.0,
+      "text": "with, and you get basic information like the latitude,",
+      "words": []
+    },
+    {
+      "start": 594.0,
+      "end": 598.0,
+      "text": "the longitude, the name of the project, et cetera.",
+      "words": []
+    },
+    {
+      "start": 601.0,
+      "end": 606.0,
+      "text": "And next, after that, so we can see here, this is a perfect",
+      "words": []
+    },
+    {
+      "start": 606.0,
+      "end": 608.0,
+      "text": "example of how our extension works.",
+      "words": []
+    },
+    {
+      "start": 608.0,
+      "end": 611.0,
+      "text": "You get the FormaSide design project, where you get your",
+      "words": []
+    },
+    {
+      "start": 611.0,
+      "end": 614.0,
+      "text": "blocks, and also in yellow here, you can see the trees that were",
+      "words": []
+    },
+    {
+      "start": 614.0,
+      "end": 617.0,
+      "text": "placed by our extension.",
+      "words": []
+    },
+    {
+      "start": 617.0,
+      "end": 620.0,
+      "text": "And this helps us really well for the next step, which is",
+      "words": []
+    },
+    {
+      "start": 620.0,
+      "end": 623.0,
+      "text": "either renderings, where you can see this beautiful rendering",
+      "words": []
+    },
+    {
+      "start": 623.0,
+      "end": 626.0,
+      "text": "over the same site with the tree that we've added that gives us",
+      "words": []
+    },
+    {
+      "start": 626.0,
+      "end": 631.0,
+      "text": "a really nice look about, like, really improved to look not only",
+      "words": []
+    },
+    {
+      "start": 631.0,
+      "end": 634.0,
+      "text": "for the rendering, but also it's really helpful for everything",
+      "words": []
+    },
+    {
+      "start": 634.0,
+      "end": 637.0,
+      "text": "set up for more complex and more precise things such as",
+      "words": []
+    },
+    {
+      "start": 637.0,
+      "end": 642.0,
+      "text": "climate, climate context and climate simulations to get",
+      "words": []
+    },
+    {
+      "start": 642.0,
+      "end": 647.0,
+      "text": "more accurate idea of how the site really performs in terms of",
+      "words": []
+    },
+    {
+      "start": 647.0,
+      "end": 650.0,
+      "text": "climate simulation, wind simulation, heat simulation, and",
+      "words": []
+    },
+    {
+      "start": 650.0,
+      "end": 651.0,
+      "text": "all of this.",
+      "words": []
+    },
+    {
+      "start": 651.0,
+      "end": 654.0,
+      "text": "So this is also really crucial for next steps.",
+      "words": []
+    },
+    {
+      "start": 654.0,
+      "end": 658.0,
+      "text": "On a high level, this is our dev setup, we use in VS Code",
+      "words": []
+    },
+    {
+      "start": 658.0,
+      "end": 662.0,
+      "text": "as an IDE with an Cloud Code as an AI agent model.",
+      "words": []
+    },
+    {
+      "start": 663.0,
+      "end": 666.0,
+      "text": "For the method, we use, of course, the SDK will go more into",
+      "words": []
+    },
+    {
+      "start": 666.0,
+      "end": 667.0,
+      "text": "that a little bit.",
+      "words": []
+    },
+    {
+      "start": 667.0,
+      "end": 670.0,
+      "text": "And more importantly, it was, and the part that was really",
+      "words": []
+    },
+    {
+      "start": 670.0,
+      "end": 675.0,
+      "text": "helpful about this project is that we could really rely on the",
+      "words": []
+    },
+    {
+      "start": 675.0,
+      "end": 680.0,
+      "text": "Forma developer software developers, because they really have,",
+      "words": []
+    },
+    {
+      "start": 680.0,
+      "end": 683.0,
+      "text": "they were really fast to respond, and also the developer,",
+      "words": []
+    },
+    {
+      "start": 683.0,
+      "end": 687.0,
+      "text": "the FormaSide design forum, developer forum, has been really",
+      "words": []
+    },
+    {
+      "start": 687.0,
+      "end": 689.0,
+      "text": "helpful.",
+      "words": []
+    },
+    {
+      "start": 689.0,
+      "end": 692.0,
+      "text": "So more precisely, this is the tech stack.",
+      "words": []
+    },
+    {
+      "start": 692.0,
+      "end": 694.0,
+      "text": "For the front-end, we use React.",
+      "words": []
+    },
+    {
+      "start": 694.0,
+      "end": 697.0,
+      "text": "For the backend, we use Node.js with an express backend.",
+      "words": []
+    },
+    {
+      "start": 697.0,
+      "end": 701.0,
+      "text": "And for the computer, all the computer vision and heavy",
+      "words": []
+    },
+    {
+      "start": 701.0,
+      "end": 703.0,
+      "text": "computing we are using Python.",
+      "words": []
+    },
+    {
+      "start": 703.0,
+      "end": 706.0,
+      "text": "The data is sourced from Mapbox as an IPI.",
+      "words": []
+    },
+    {
+      "start": 708.0,
+      "end": 711.0,
+      "text": "To get into more details, so you can see Nielo, this is the",
+      "words": []
+    },
+    {
+      "start": 711.0,
+      "end": 715.0,
+      "text": "FormaSide design, and this is, and Outline Nielo is what the",
+      "words": []
+    },
+    {
+      "start": 715.0,
+      "end": 716.0,
+      "text": "user interacts with.",
+      "words": []
+    },
+    {
+      "start": 716.0,
+      "end": 718.0,
+      "text": "This is the front-end.",
+      "words": []
+    },
+    {
+      "start": 718.0,
+      "end": 721.0,
+      "text": "From the front-end, we get the Mapbox APIs, and the backend,",
+      "words": []
+    },
+    {
+      "start": 721.0,
+      "end": 724.0,
+      "text": "the express Node.js backend, is the crucial one.",
+      "words": []
+    },
+    {
+      "start": 724.0,
+      "end": 727.0,
+      "text": "It takes care of logging, authentication, talking to the,",
+      "words": []
+    },
+    {
+      "start": 727.0,
+      "end": 731.0,
+      "text": "to our database, and also serves as a proxy from the front-end",
+      "words": []
+    },
+    {
+      "start": 731.0,
+      "end": 735.0,
+      "text": "to the Python backend, where we get the open computer vision",
+      "words": []
+    },
+    {
+      "start": 735.0,
+      "end": 739.0,
+      "text": "and the tree detection, as well as finally the obj,",
+      "words": []
+    },
+    {
+      "start": 739.0,
+      "end": 743.0,
+      "text": "the generation of the site with our trees that are downloadable",
+      "words": []
+    },
+    {
+      "start": 743.0,
+      "end": 745.0,
+      "text": "as an obj or outside design.",
+      "words": []
+    },
+    {
+      "start": 745.0,
+      "end": 748.0,
+      "text": "So we fetch the tiles, we fetch the information, we detect the trees,",
+      "words": []
+    },
+    {
+      "start": 748.0,
+      "end": 752.0,
+      "text": "we get the elevation, and we place them in our sites.",
+      "words": []
+    },
+    {
+      "start": 754.0,
+      "end": 757.0,
+      "text": "So the SDK, the software developing kit in APIs,",
+      "words": []
+    },
+    {
+      "start": 757.0,
+      "end": 762.0,
+      "text": "we're using the FormaSide design SDK, that is openly available,",
+      "words": []
+    },
+    {
+      "start": 762.0,
+      "end": 764.0,
+      "text": "with the format documentation.",
+      "words": []
+    },
+    {
+      "start": 764.0,
+      "end": 768.0,
+      "text": "This is what we're using to interact with our site design,",
+      "words": []
+    },
+    {
+      "start": 768.0,
+      "end": 770.0,
+      "text": "and has been pretty helpful.",
+      "words": []
+    },
+    {
+      "start": 770.0,
+      "end": 773.0,
+      "text": "And for how we've used it, for example,",
+      "words": []
+    },
+    {
+      "start": 773.0,
+      "end": 776.0,
+      "text": "is that we just take our A agents,",
+      "words": []
+    },
+    {
+      "start": 776.0,
+      "end": 782.0,
+      "text": "we give the path to the SDK, to the SDK nodes module folder,",
+      "words": []
+    },
+    {
+      "start": 782.0,
+      "end": 785.0,
+      "text": "and the A agent takes care of reading all the documentation,",
+      "words": []
+    },
+    {
+      "start": 785.0,
+      "end": 788.0,
+      "text": "and takes care of implementing your features.",
+      "words": []
+    },
+    {
+      "start": 789.0,
+      "end": 792.0,
+      "text": "Another very helpful thing with the FormaSide design,",
+      "words": []
+    },
+    {
+      "start": 792.0,
+      "end": 795.0,
+      "text": "is the fact that there's a help button inside of your,",
+      "words": []
+    },
+    {
+      "start": 795.0,
+      "end": 797.0,
+      "text": "of your project tab.",
+      "words": []
+    },
+    {
+      "start": 797.0,
+      "end": 800.0,
+      "text": "So you can click that, and you have access not only to the developer,",
+      "words": []
+    },
+    {
+      "start": 800.0,
+      "end": 804.0,
+      "text": "the Forma developers, the Forma developers,",
+      "words": []
+    },
+    {
+      "start": 804.0,
+      "end": 806.0,
+      "text": "that you can directly interact with,",
+      "words": []
+    },
+    {
+      "start": 806.0,
+      "end": 808.0,
+      "text": "ask them questions, not only about your site,",
+      "words": []
+    },
+    {
+      "start": 808.0,
+      "end": 810.0,
+      "text": "but also about how you're developing your extension.",
+      "words": []
+    },
+    {
+      "start": 810.0,
+      "end": 814.0,
+      "text": "They have been really helpful, helping us get through some really,",
+      "words": []
+    },
+    {
+      "start": 814.0,
+      "end": 819.0,
+      "text": "from the basic issues to the most complex one,",
+      "words": []
+    },
+    {
+      "start": 819.0,
+      "end": 822.0,
+      "text": "the responding in a day or two maximum.",
+      "words": []
+    },
+    {
+      "start": 822.0,
+      "end": 824.0,
+      "text": "And the most, also one of the most helpful things,",
+      "words": []
+    },
+    {
+      "start": 824.0,
+      "end": 827.0,
+      "text": "is the FormaSide design developer forum.",
+      "words": []
+    },
+    {
+      "start": 827.0,
+      "end": 830.0,
+      "text": "Most of our questions already been answered in the forum,",
+      "words": []
+    },
+    {
+      "start": 830.0,
+      "end": 833.0,
+      "text": "and in the Asset by the Forma team,",
+      "words": []
+    },
+    {
+      "start": 833.0,
+      "end": 835.0,
+      "text": "and it's been very helpful to get all that documentation,",
+      "words": []
+    },
+    {
+      "start": 835.0,
+      "end": 840.0,
+      "text": "well planned, that really helps us to go forward with our extension.",
+      "words": []
+    },
+    {
+      "start": 842.0,
+      "end": 848.0,
+      "text": "So, one of the main hurdles or issues that we've had",
+      "words": []
+    },
+    {
+      "start": 848.0,
+      "end": 851.0,
+      "text": "to take care of for our extension, was getting the data.",
+      "words": []
+    },
+    {
+      "start": 851.0,
+      "end": 855.0,
+      "text": "The problem is that, the FormaSide design uses the projection,",
+      "words": []
+    },
+    {
+      "start": 855.0,
+      "end": 858.0,
+      "text": "it uses UTM for in meters, which is really helpful,",
+      "words": []
+    },
+    {
+      "start": 858.0,
+      "end": 861.0,
+      "text": "a really practical for urban site design,",
+      "words": []
+    },
+    {
+      "start": 861.0,
+      "end": 864.0,
+      "text": "but not books and other satellite providers,",
+      "words": []
+    },
+    {
+      "start": 864.0,
+      "end": 867.0,
+      "text": "image satellite providers, they only had give us in WebMercator,",
+      "words": []
+    },
+    {
+      "start": 867.0,
+      "end": 869.0,
+      "text": "which is two different types of projections.",
+      "words": []
+    },
+    {
+      "start": 869.0,
+      "end": 873.0,
+      "text": "So, when you overlay both of them, they're not quite bright.",
+      "words": []
+    },
+    {
+      "start": 873.0,
+      "end": 875.0,
+      "text": "Then we had to fix that issue.",
+      "words": []
+    },
+    {
+      "start": 875.0,
+      "end": 877.0,
+      "text": "The solution, linear homography.",
+      "words": []
+    },
+    {
+      "start": 877.0,
+      "end": 879.0,
+      "text": "What we're doing is basically calibrating the image.",
+      "words": []
+    },
+    {
+      "start": 879.0,
+      "end": 882.0,
+      "text": "We take the image, we get the site from Forma,",
+      "words": []
+    },
+    {
+      "start": 883.0,
+      "end": 887.0,
+      "text": "we know where the site is, we get the image from my box,",
+      "words": []
+    },
+    {
+      "start": 887.0,
+      "end": 890.0,
+      "text": "the satellite images, which is in a different projection,",
+      "words": []
+    },
+    {
+      "start": 890.0,
+      "end": 893.0,
+      "text": "and then we use linear homography functions",
+      "words": []
+    },
+    {
+      "start": 893.0,
+      "end": 896.0,
+      "text": "to calibrate the image back into the UTM",
+      "words": []
+    },
+    {
+      "start": 896.0,
+      "end": 899.0,
+      "text": "so that it projects perfectly well with our project",
+      "words": []
+    },
+    {
+      "start": 899.0,
+      "end": 901.0,
+      "text": "on the site of Forma.",
+      "words": []
+    },
+    {
+      "start": 901.0,
+      "end": 905.0,
+      "text": "For more details, here is this for all the developers out there",
+      "words": []
+    },
+    {
+      "start": 905.0,
+      "end": 907.0,
+      "text": "that, and we can understand this.",
+      "words": []
+    },
+    {
+      "start": 907.0,
+      "end": 909.0,
+      "text": "So, it's pretty simple.",
+      "words": []
+    },
+    {
+      "start": 909.0,
+      "end": 915.0,
+      "text": "We have the first step is converting this corner mapping.",
+      "words": []
+    },
+    {
+      "start": 915.0,
+      "end": 918.0,
+      "text": "So, we established the reference points inside of the map.",
+      "words": []
+    },
+    {
+      "start": 918.0,
+      "end": 921.0,
+      "text": "Next, we use the mathematical framework of DLT matrix,",
+      "words": []
+    },
+    {
+      "start": 921.0,
+      "end": 923.0,
+      "text": "which organizes those references,",
+      "words": []
+    },
+    {
+      "start": 923.0,
+      "end": 926.0,
+      "text": "and then we solve what we call an A times H equal B.",
+      "words": []
+    },
+    {
+      "start": 926.0,
+      "end": 930.0,
+      "text": "So, what we do is we solve this equation for homography vectors,",
+      "words": []
+    },
+    {
+      "start": 930.0,
+      "end": 934.0,
+      "text": "and based on that, we apply that inverse transformation",
+      "words": []
+    },
+    {
+      "start": 934.0,
+      "end": 937.0,
+      "text": "to every single pixel, so that the picture,",
+      "words": []
+    },
+    {
+      "start": 937.0,
+      "end": 940.0,
+      "text": "so that the satellite image perfectly rearranges",
+      "words": []
+    },
+    {
+      "start": 940.0,
+      "end": 943.0,
+      "text": "and calibrates perfectly to our sites.",
+      "words": []
+    },
+    {
+      "start": 944.0,
+      "end": 948.0,
+      "text": "So, the computer vision pipeline, our most important thing.",
+      "words": []
+    },
+    {
+      "start": 948.0,
+      "end": 950.0,
+      "text": "So, what we do is, as I said,",
+      "words": []
+    },
+    {
+      "start": 950.0,
+      "end": 953.0,
+      "text": "is explain aligned the satellite image using the homography.",
+      "words": []
+    },
+    {
+      "start": 953.0,
+      "end": 957.0,
+      "text": "We use the then HSV mask to isolate the green pixels,",
+      "words": []
+    },
+    {
+      "start": 957.0,
+      "end": 959.0,
+      "text": "most importantly, the green tree pixels,",
+      "words": []
+    },
+    {
+      "start": 959.0,
+      "end": 962.0,
+      "text": "which can be kind of tricky sometimes to detect,",
+      "words": []
+    },
+    {
+      "start": 962.0,
+      "end": 966.0,
+      "text": "based on the time of the year that the satellite image has been checking",
+      "words": []
+    },
+    {
+      "start": 966.0,
+      "end": 967.0,
+      "text": "has been taken.",
+      "words": []
+    },
+    {
+      "start": 967.0,
+      "end": 969.0,
+      "text": "We can, we take the control of those trees,",
+      "words": []
+    },
+    {
+      "start": 969.0,
+      "end": 973.0,
+      "text": "and we detect the exact coordinates of each tree.",
+      "words": []
+    },
+    {
+      "start": 974.0,
+      "end": 979.0,
+      "text": "How that works in more details is that we have,",
+      "words": []
+    },
+    {
+      "start": 979.0,
+      "end": 981.0,
+      "text": "we receive the image from the params,",
+      "words": []
+    },
+    {
+      "start": 981.0,
+      "end": 984.0,
+      "text": "so we then, we get the HSV mask,",
+      "words": []
+    },
+    {
+      "start": 984.0,
+      "end": 986.0,
+      "text": "we detect the trees with our open sea,",
+      "words": []
+    },
+    {
+      "start": 986.0,
+      "end": 990.0,
+      "text": "with our Python backend, then we have the trees that are divided",
+      "words": []
+    },
+    {
+      "start": 990.0,
+      "end": 991.0,
+      "text": "in two categories.",
+      "words": []
+    },
+    {
+      "start": 991.0,
+      "end": 993.0,
+      "text": "We have the trees and individuals,",
+      "words": []
+    },
+    {
+      "start": 993.0,
+      "end": 995.0,
+      "text": "same things that you can see, for example,",
+      "words": []
+    },
+    {
+      "start": 995.0,
+      "end": 997.0,
+      "text": "in trees where each tree is,",
+      "words": []
+    },
+    {
+      "start": 997.0,
+      "end": 1000.0,
+      "text": "is, is, is, is, is,",
+      "words": []
+    },
+    {
+      "start": 1000.0,
+      "end": 1002.0,
+      "text": "is, is, puts individually,",
+      "words": []
+    },
+    {
+      "start": 1002.0,
+      "end": 1004.0,
+      "text": "but we also have cases where we have forest,",
+      "words": []
+    },
+    {
+      "start": 1004.0,
+      "end": 1006.0,
+      "text": "which is dense and have multiple trees,",
+      "words": []
+    },
+    {
+      "start": 1006.0,
+      "end": 1010.0,
+      "text": "and so that we have clusters of trees that are detected",
+      "words": []
+    },
+    {
+      "start": 1010.0,
+      "end": 1012.0,
+      "text": "and populated separately.",
+      "words": []
+    },
+    {
+      "start": 1012.0,
+      "end": 1014.0,
+      "text": "And finally, after we detect the trees,",
+      "words": []
+    },
+    {
+      "start": 1014.0,
+      "end": 1017.0,
+      "text": "we get the elevation from formal.",
+      "words": []
+    },
+    {
+      "start": 1017.0,
+      "end": 1021.0,
+      "text": "After that, we just run through the SDK functions",
+      "words": []
+    },
+    {
+      "start": 1022.0,
+      "end": 1025.0,
+      "text": "and place the trees as easy as it, as easy as that,",
+      "words": []
+    },
+    {
+      "start": 1025.0,
+      "end": 1028.0,
+      "text": "up to 3000 trees in just a couple of seconds.",
+      "words": []
+    },
+    {
+      "start": 1028.0,
+      "end": 1031.0,
+      "text": "So, all this is nice,",
+      "words": []
+    },
+    {
+      "start": 1031.0,
+      "end": 1033.0,
+      "text": "but we still have a problem.",
+      "words": []
+    },
+    {
+      "start": 1033.0,
+      "end": 1035.0,
+      "text": "We have a limit with, with Forma,",
+      "words": []
+    },
+    {
+      "start": 1035.0,
+      "end": 1038.0,
+      "text": "which can only take up to two by two kilometers,",
+      "words": []
+    },
+    {
+      "start": 1038.0,
+      "end": 1040.0,
+      "text": "where sometimes, for example, for hand,",
+      "words": []
+    },
+    {
+      "start": 1040.0,
+      "end": 1041.0,
+      "text": "have a master planning process,",
+      "words": []
+    },
+    {
+      "start": 1041.0,
+      "end": 1044.0,
+      "text": "often spend over four by four kilometers.",
+      "words": []
+    },
+    {
+      "start": 1044.0,
+      "end": 1046.0,
+      "text": "We need more context.",
+      "words": []
+    },
+    {
+      "start": 1046.0,
+      "end": 1048.0,
+      "text": "And for that, we created our new,",
+      "words": []
+    },
+    {
+      "start": 1048.0,
+      "end": 1051.0,
+      "text": "new feature, which is the extend feature.",
+      "words": []
+    },
+    {
+      "start": 1051.0,
+      "end": 1053.0,
+      "text": "What it does is that it takes the satellite image",
+      "words": []
+    },
+    {
+      "start": 1053.0,
+      "end": 1056.0,
+      "text": "from our base project,",
+      "words": []
+    },
+    {
+      "start": 1056.0,
+      "end": 1059.0,
+      "text": "and then we can extend it up to five kilometers by five kilometers.",
+      "words": []
+    },
+    {
+      "start": 1059.0,
+      "end": 1061.0,
+      "text": "I can extend by five kilometers less,",
+      "words": []
+    },
+    {
+      "start": 1061.0,
+      "end": 1063.0,
+      "text": "two kilometers east, et cetera,",
+      "words": []
+    },
+    {
+      "start": 1063.0,
+      "end": 1064.0,
+      "text": "as you can see here,",
+      "words": []
+    },
+    {
+      "start": 1064.0,
+      "end": 1066.0,
+      "text": "and it gets a more wider,",
+      "words": []
+    },
+    {
+      "start": 1066.0,
+      "end": 1069.0,
+      "text": "bigger picture of our projects.",
+      "words": []
+    },
+    {
+      "start": 1069.0,
+      "end": 1074.0,
+      "text": "After that, we can take that same extended feature tile",
+      "words": []
+    },
+    {
+      "start": 1074.0,
+      "end": 1076.0,
+      "text": "and run the same detection algorithm on it.",
+      "words": []
+    },
+    {
+      "start": 1076.0,
+      "end": 1080.0,
+      "text": "So, we can detect bigger and more complex sites,",
+      "words": []
+    },
+    {
+      "start": 1080.0,
+      "end": 1083.0,
+      "text": "where you can have up to 80,000, 60,000 trees",
+      "words": []
+    },
+    {
+      "start": 1083.0,
+      "end": 1085.0,
+      "text": "that can be detected in our sites,",
+      "words": []
+    },
+    {
+      "start": 1085.0,
+      "end": 1088.0,
+      "text": "using the same logic.",
+      "words": []
+    },
+    {
+      "start": 1088.0,
+      "end": 1091.0,
+      "text": "After that, you can take that same site and same detection",
+      "words": []
+    },
+    {
+      "start": 1091.0,
+      "end": 1094.0,
+      "text": "and generate an OBJ file",
+      "words": []
+    },
+    {
+      "start": 1094.0,
+      "end": 1097.0,
+      "text": "that you can then export to your 3D software",
+      "words": []
+    },
+    {
+      "start": 1097.0,
+      "end": 1099.0,
+      "text": "of preference,",
+      "words": []
+    },
+    {
+      "start": 1099.0,
+      "end": 1103.0,
+      "text": "Revit, Blender, Rhino, et cetera.",
+      "words": []
+    },
+    {
+      "start": 1104.0,
+      "end": 1107.0,
+      "text": "Just to make it clear,",
+      "words": []
+    },
+    {
+      "start": 1107.0,
+      "end": 1110.0,
+      "text": "for the extension, we can only use,",
+      "words": []
+    },
+    {
+      "start": 1110.0,
+      "end": 1113.0,
+      "text": "when we extend the tile,",
+      "words": []
+    },
+    {
+      "start": 1113.0,
+      "end": 1117.0,
+      "text": "it is only used to download as an OBJ",
+      "words": []
+    },
+    {
+      "start": 1117.0,
+      "end": 1120.0,
+      "text": "or as a list of the coordinates of each tree.",
+      "words": []
+    },
+    {
+      "start": 1120.0,
+      "end": 1126.0,
+      "text": "So, this gives back to the performance limits.",
+      "words": []
+    },
+    {
+      "start": 1126.0,
+      "end": 1128.0,
+      "text": "So, as an OBJ,",
+      "words": []
+    },
+    {
+      "start": 1128.0,
+      "end": 1130.0,
+      "text": "you can only export up to 60,000 trees",
+      "words": []
+    },
+    {
+      "start": 1130.0,
+      "end": 1133.0,
+      "text": "for the detection.",
+      "words": []
+    },
+    {
+      "start": 1133.0,
+      "end": 1136.0,
+      "text": "By that, I mean, getting the list of all the texture trees",
+      "words": []
+    },
+    {
+      "start": 1136.0,
+      "end": 1139.0,
+      "text": "with their precise location, X and Y,",
+      "words": []
+    },
+    {
+      "start": 1139.0,
+      "end": 1142.0,
+      "text": "and precise elevation, there is no limit.",
+      "words": []
+    },
+    {
+      "start": 1142.0,
+      "end": 1145.0,
+      "text": "If you detect 10,000 trees, 100,000 trees,",
+      "words": []
+    },
+    {
+      "start": 1145.0,
+      "end": 1148.0,
+      "text": "there will be detected.",
+      "words": []
+    },
+    {
+      "start": 1148.0,
+      "end": 1151.0,
+      "text": "As for the format inside, the browser,",
+      "words": []
+    },
+    {
+      "start": 1151.0,
+      "end": 1153.0,
+      "text": "we have a, we've set a limit of 3,000",
+      "words": []
+    },
+    {
+      "start": 1153.0,
+      "end": 1155.0,
+      "text": "because based on our testing for computers",
+      "words": []
+    },
+    {
+      "start": 1155.0,
+      "end": 1157.0,
+      "text": "of around 16 gigabytes of RAM,",
+      "words": []
+    },
+    {
+      "start": 1157.0,
+      "end": 1160.0,
+      "text": "after 3,000, it becomes super leaky.",
+      "words": []
+    },
+    {
+      "start": 1160.0,
+      "end": 1161.0,
+      "text": "The memory is saturated,",
+      "words": []
+    },
+    {
+      "start": 1161.0,
+      "end": 1165.0,
+      "text": "and it really ruins the experience.",
+      "words": []
+    },
+    {
+      "start": 1165.0,
+      "end": 1166.0,
+      "text": "So, we've set that limit,",
+      "words": []
+    },
+    {
+      "start": 1166.0,
+      "end": 1168.0,
+      "text": "but if you want to interact with it,",
+      "words": []
+    },
+    {
+      "start": 1168.0,
+      "end": 1172.0,
+      "text": "in more better and more powerful software like Rhino,",
+      "words": []
+    },
+    {
+      "start": 1172.0,
+      "end": 1173.0,
+      "text": "you can download it as an OBJ,",
+      "words": []
+    },
+    {
+      "start": 1173.0,
+      "end": 1175.0,
+      "text": "interact with it as much as you want,",
+      "words": []
+    },
+    {
+      "start": 1175.0,
+      "end": 1176.0,
+      "text": "and connect it, for example,",
+      "words": []
+    },
+    {
+      "start": 1176.0,
+      "end": 1181.0,
+      "text": "with the format to Rhino extension.",
+      "words": []
+    },
+    {
+      "start": 1181.0,
+      "end": 1184.0,
+      "text": "Finally, this is how we're breaking the limit.",
+      "words": []
+    },
+    {
+      "start": 1184.0,
+      "end": 1186.0,
+      "text": "We have the export as a GLB,",
+      "words": []
+    },
+    {
+      "start": 1186.0,
+      "end": 1188.0,
+      "text": "and we can either export the format,",
+      "words": []
+    },
+    {
+      "start": 1188.0,
+      "end": 1190.0,
+      "text": "the site project that you have,",
+      "words": []
+    },
+    {
+      "start": 1190.0,
+      "end": 1193.0,
+      "text": "or the external ones that you've generated,",
+      "words": []
+    },
+    {
+      "start": 1193.0,
+      "end": 1196.0,
+      "text": "and completely, we'll complete the bypassing",
+      "words": []
+    },
+    {
+      "start": 1196.0,
+      "end": 1198.0,
+      "text": "the browser limit.",
+      "words": []
+    },
+    {
+      "start": 1198.0,
+      "end": 1201.0,
+      "text": "But as we step back and looked at the panel,",
+      "words": []
+    },
+    {
+      "start": 1201.0,
+      "end": 1205.0,
+      "text": "we realize the trees are just really the first layer,",
+      "words": []
+    },
+    {
+      "start": 1205.0,
+      "end": 1209.0,
+      "text": "the first step into everything that is context,",
+      "words": []
+    },
+    {
+      "start": 1209.0,
+      "end": 1211.0,
+      "text": "and to talk about that,",
+      "words": []
+    },
+    {
+      "start": 1211.0,
+      "end": 1214.0,
+      "text": "other layers of context that we are planning to add,",
+      "words": []
+    },
+    {
+      "start": 1214.0,
+      "end": 1216.0,
+      "text": "and where this entire tool is heading next,",
+      "words": []
+    },
+    {
+      "start": 1216.0,
+      "end": 1218.0,
+      "text": "I'll give the seed back to Emiliano",
+      "words": []
+    },
+    {
+      "start": 1218.0,
+      "end": 1221.0,
+      "text": "to give you back more details about our next steps.",
+      "words": []
+    },
+    {
+      "start": 1221.0,
+      "end": 1223.0,
+      "text": "Thank you.",
+      "words": []
+    },
+    {
+      "start": 1223.0,
+      "end": 1225.0,
+      "text": "Thank you, Abdada.",
+      "words": []
+    },
+    {
+      "start": 1225.0,
+      "end": 1226.0,
+      "text": "Exactly.",
+      "words": []
+    },
+    {
+      "start": 1226.0,
+      "end": 1230.0,
+      "text": "So, whenever working prototype that is being deployed,",
+      "words": []
+    },
+    {
+      "start": 1230.0,
+      "end": 1233.0,
+      "text": "that's been a testament used in other phases.",
+      "words": []
+    },
+    {
+      "start": 1233.0,
+      "end": 1238.0,
+      "text": "The next phase is switched from the computer vision pipeline",
+      "words": []
+    },
+    {
+      "start": 1238.0,
+      "end": 1242.0,
+      "text": "to another machine learning processes in the back end",
+      "words": []
+    },
+    {
+      "start": 1242.0,
+      "end": 1244.0,
+      "text": "to get a better detection,",
+      "words": []
+    },
+    {
+      "start": 1244.0,
+      "end": 1246.0,
+      "text": "get better automated detection,",
+      "words": []
+    },
+    {
+      "start": 1246.0,
+      "end": 1248.0,
+      "text": "to maybe even be able to detect the new",
+      "words": []
+    },
+    {
+      "start": 1248.0,
+      "end": 1250.0,
+      "text": "those pieces of trees,",
+      "words": []
+    },
+    {
+      "start": 1250.0,
+      "end": 1253.0,
+      "text": "get better clustering detection saw.",
+      "words": []
+    },
+    {
+      "start": 1253.0,
+      "end": 1255.0,
+      "text": "And once we have that,",
+      "words": []
+    },
+    {
+      "start": 1255.0,
+      "end": 1257.0,
+      "text": "it's easy to imagine on the next step,",
+      "words": []
+    },
+    {
+      "start": 1257.0,
+      "end": 1260.0,
+      "text": "in which we extend it to all other urban assets,",
+      "words": []
+    },
+    {
+      "start": 1260.0,
+      "end": 1263.0,
+      "text": "to add people cars to life,",
+      "words": []
+    },
+    {
+      "start": 1263.0,
+      "end": 1266.0,
+      "text": "what you would have in the urban context.",
+      "words": []
+    },
+    {
+      "start": 1266.0,
+      "end": 1270.0,
+      "text": "But the goal that we had,",
+      "words": []
+    },
+    {
+      "start": 1271.0,
+      "end": 1273.0,
+      "text": "really works for this implementation.",
+      "words": []
+    },
+    {
+      "start": 1273.0,
+      "end": 1277.0,
+      "text": "We managed to shift this information,",
+      "words": []
+    },
+    {
+      "start": 1277.0,
+      "end": 1279.0,
+      "text": "injection early,",
+      "words": []
+    },
+    {
+      "start": 1279.0,
+      "end": 1282.0,
+      "text": "and to use foreign side design as a hub,",
+      "words": []
+    },
+    {
+      "start": 1282.0,
+      "end": 1285.0,
+      "text": "and actually get the designer to stay in a foreign side design",
+      "words": []
+    },
+    {
+      "start": 1285.0,
+      "end": 1286.0,
+      "text": "for a while longer,",
+      "words": []
+    },
+    {
+      "start": 1286.0,
+      "end": 1289.0,
+      "text": "and run their simulation rather than having to first",
+      "words": []
+    },
+    {
+      "start": 1289.0,
+      "end": 1291.0,
+      "text": "enrich the model of Quebec,",
+      "words": []
+    },
+    {
+      "start": 1291.0,
+      "end": 1294.0,
+      "text": "and then maybe even upload it to form to then run simulation.",
+      "words": []
+    },
+    {
+      "start": 1294.0,
+      "end": 1299.0,
+      "text": "The whole process runs, you know, definitely the smooth.",
+      "words": []
+    },
+    {
+      "start": 1299.0,
+      "end": 1304.0,
+      "text": "And the main reason with it was that we saw the chance",
+      "words": []
+    },
+    {
+      "start": 1304.0,
+      "end": 1305.0,
+      "text": "to do it rather easily,",
+      "words": []
+    },
+    {
+      "start": 1305.0,
+      "end": 1306.0,
+      "text": "like a final size,",
+      "words": []
+    },
+    {
+      "start": 1306.0,
+      "end": 1308.0,
+      "text": "it was a relatively low hanging short,",
+      "words": []
+    },
+    {
+      "start": 1308.0,
+      "end": 1310.0,
+      "text": "it once you observe the process,",
+      "words": []
+    },
+    {
+      "start": 1310.0,
+      "end": 1312.0,
+      "text": "and you'll see how you can improve it.",
+      "words": []
+    },
+    {
+      "start": 1312.0,
+      "end": 1316.0,
+      "text": "And moves the designer into what we want to do anyway,",
+      "words": []
+    },
+    {
+      "start": 1316.0,
+      "end": 1319.0,
+      "text": "that will be in a shelf collaborative space",
+      "words": []
+    },
+    {
+      "start": 1319.0,
+      "end": 1321.0,
+      "text": "for our first projects,",
+      "words": []
+    },
+    {
+      "start": 1321.0,
+      "end": 1324.0,
+      "text": "and brings data close up to reality",
+      "words": []
+    },
+    {
+      "start": 1324.0,
+      "end": 1328.0,
+      "text": "to our survey models or context models.",
+      "words": []
+    },
+    {
+      "start": 1328.0,
+      "end": 1333.0,
+      "text": "And now, thank you for your attention.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T21:57:26.574797+00:00"
+}

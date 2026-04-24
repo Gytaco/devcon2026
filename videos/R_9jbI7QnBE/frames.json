@@ -1,0 +1,274 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R_9jbI7QnBE\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "This slide presents information about a speaker, including core expertise and achievements.",
+      "products_visible": [
+        "Autodesk APS/Forge",
+        "Azure Open AI",
+        "C# Revit API"
+      ],
+      "ui_elements": [
+        "About the Speaker",
+        "Core Expertise",
+        "Achievements & Speaking"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R_9jbI7QnBE\\frames\\frame_000005.jpg",
+      "timestamp_seconds": 120.0,
+      "frame_index": 5,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows an agenda slide listing topics for an Autodesk DevCon session, focusing on AI and design challenges.",
+      "products_visible": [
+        "Autodesk Forma"
+      ],
+      "ui_elements": [
+        "Agenda",
+        "Introduction & Speaker",
+        "Urban Design Challenges",
+        "What is Autodesk Forma?",
+        "Demo: Diamond Heights SF",
+        "AI Building Optimizer",
+        "Results & ROI",
+        "Key Takeaways & Q&A"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R_9jbI7QnBE\\frames\\frame_000008.jpg",
+      "timestamp_seconds": 210.0,
+      "frame_index": 8,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows an agenda slide for an Autodesk DevCon presentation, listing topics such as urban design challenges, Autodesk Forma, and AI Building Optimizer.",
+      "products_visible": [
+        "Autodesk Forma"
+      ],
+      "ui_elements": [
+        "Agenda",
+        "Introduction & Speaker",
+        "Urban Design Challenges",
+        "What is Autodesk Forma?",
+        "Demo: Diamond Heights SF",
+        "AI Building Optimizer",
+        "Results & ROI",
+        "Key Takeaways & Q&A"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R_9jbI7QnBE\\frames\\frame_000010.jpg",
+      "timestamp_seconds": 270.0,
+      "frame_index": 10,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'The Urban Design Challenge' discussing challenges in sustainable urban design, such as time pressure and data overload.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "The Urban Design Challenge",
+        "Time",
+        "Data",
+        "Dcsn",
+        "Cost",
+        "Wkfl",
+        "Sust"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R_9jbI7QnBE\\frames\\frame_000014.jpg",
+      "timestamp_seconds": 390.0,
+      "frame_index": 14,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon discussing features of Autodesk Forma, highlighting its cloud-native platform and various analysis tools.",
+      "products_visible": [
+        "Autodesk",
+        "Autodesk Forma"
+      ],
+      "ui_elements": [
+        "Cloud",
+        "Map",
+        "Sun",
+        "Daylight",
+        "Wind",
+        "Carbon",
+        "API",
+        "Integration"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R_9jbI7QnBE\\frames\\frame_000018.jpg",
+      "timestamp_seconds": 510.0,
+      "frame_index": 18,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame displays a slide from Autodesk DevCon about the 'Autodesk Forma Platform Architecture' featuring a component diagram.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Autodesk Forma Platform Architecture",
+        "Component diagram"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R_9jbI7QnBE\\frames\\frame_000019.jpg",
+      "timestamp_seconds": 540.0,
+      "frame_index": 19,
+      "category": "demo",
+      "keep": true,
+      "description": "A person is presenting a 3D building model using Autodesk software during a DevCon event.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "3D Massing",
+        "Properties",
+        "Analyze",
+        "Layers"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R_9jbI7QnBE\\frames\\frame_000021.jpg",
+      "timestamp_seconds": 600.0,
+      "frame_index": 21,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a software demonstration with a user interface displaying an app store related to Autodesk products.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Autodesk App Store",
+        "Add"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R_9jbI7QnBE\\frames\\frame_000026.jpg",
+      "timestamp_seconds": 750.0,
+      "frame_index": 26,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide showing a 3D massing view of a mixed-use block in a dense urban context using Autodesk software.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Option A: Mixed-Use Block (Traditional)",
+        "Mixed-Use Block in Diamond Heights SF"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R_9jbI7QnBE\\frames\\frame_000028.jpg",
+      "timestamp_seconds": 810.0,
+      "frame_index": 28,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showcasing an option for a commercial tower with a 3D model of buildings, included in the 'Autodesk DevCon' presentation.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Forma -- Option B: Commercial Tower",
+        "Single 20-22 floor tower",
+        "Option B: Commercial Tower (High Density)"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R_9jbI7QnBE\\frames\\frame_000031.jpg",
+      "timestamp_seconds": 900.0,
+      "frame_index": 31,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a person presenting a webpage related to Autodesk Platform Services, featuring various APIs such as AutoCAD and BIM 360.",
+      "products_visible": [
+        "AutoCAD",
+        "BIM 360",
+        "Autodesk Platform Services"
+      ],
+      "ui_elements": [
+        "Filter by industry",
+        "Filter by capability",
+        "Filter by language",
+        "Explore API"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R_9jbI7QnBE\\frames\\frame_000039.jpg",
+      "timestamp_seconds": 1140.0,
+      "frame_index": 39,
+      "category": "demo",
+      "keep": true,
+      "description": "A video frame showing a presenter with a browser window open indicating an Autodesk sign-in has been completed.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Autodesk Sign-In Complete"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R_9jbI7QnBE\\frames\\frame_000040.jpg",
+      "timestamp_seconds": 1170.0,
+      "frame_index": 40,
+      "category": "demo",
+      "keep": true,
+      "description": "A person is presenting a demo of the Autodesk Forma API showcasing AI Building Optimizer with options for building configurations.",
+      "products_visible": [
+        "Autodesk",
+        "Forma API"
+      ],
+      "ui_elements": [
+        "AI Building Optimizer",
+        "Option A - Mixed-size Block",
+        "Option B - Commercial Tower",
+        "Option C - Courtyard"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R_9jbI7QnBE\\frames\\frame_000041.jpg",
+      "timestamp_seconds": 1200.0,
+      "frame_index": 41,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows an Autodesk DevCon presentation with a demo of the Forma API AI Building Optimizer, displaying options for mixed-use blocks, commercial towers, and courtyards.",
+      "products_visible": [
+        "Autodesk",
+        "Forma API"
+      ],
+      "ui_elements": [
+        "AI Building Optimizer",
+        "Option A - Mixed-use Block",
+        "Option B - Commercial Tower",
+        "Option C - Courtyard"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R_9jbI7QnBE\\frames\\frame_000049.jpg",
+      "timestamp_seconds": 1440.0,
+      "frame_index": 49,
+      "category": "slides",
+      "keep": true,
+      "description": "This frame shows analysis results for a commercial tower with metrics like sun hours, day lighting, and energy use.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Sun Hours",
+        "Day lighting",
+        "Wind Comfort",
+        "Carbon",
+        "Energy Use",
+        "Open Space"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:09:28.745098+00:00"
+}

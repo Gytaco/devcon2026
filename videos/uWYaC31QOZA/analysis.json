@@ -1,0 +1,82 @@
+{
+  "video_id": "uWYaC31QOZA",
+  "demo_timestamps": [
+    {
+      "start": 27.0,
+      "end": 395.0,
+      "description": "Describing how connecting workflows in design and manufacturing can improve efficiency and outcomes."
+    },
+    {
+      "start": 450.0,
+      "end": 608.0,
+      "description": "Partners demonstrating value in various stages, including quoting, design, engineering, and manufacturing."
+    }
+  ],
+  "themes": [
+    "Connected Workflows",
+    "Integration and Automation",
+    "Strategic Partnerships"
+  ],
+  "client_mentions": [
+    {
+      "name": "Paperless Parts",
+      "context": "Quoting and collaboration platform.",
+      "timestamp": 438.0
+    },
+    {
+      "name": "Szenera",
+      "context": "No-code automation platform for engineering workflows.",
+      "timestamp": 506.0
+    },
+    {
+      "name": "Cloud NC",
+      "context": "Uses AI to generate optimized CNC tool paths.",
+      "timestamp": 577.0
+    },
+    {
+      "name": "AvNet",
+      "context": "Global distributor of electronic components.",
+      "timestamp": 610.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "Fusion",
+      "is_api": false,
+      "timestamp": 455.0
+    },
+    {
+      "name": "Fusion Technology Partner Program",
+      "is_api": false,
+      "timestamp": 53.0
+    },
+    {
+      "name": "Autodesk design and make platform",
+      "is_api": false,
+      "timestamp": 632.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "AI",
+      "category": "llm",
+      "context": "Supporting decisions and automating repetitive work.",
+      "timestamp": 207.0
+    },
+    {
+      "name": "Cloud NC's cam assist",
+      "category": "llm",
+      "context": "Uses AI for generating CNC tool paths.",
+      "timestamp": 577.0
+    },
+    {
+      "name": "a GenTik AI",
+      "category": "other",
+      "context": "AI requiring data access and execution capabilities.",
+      "timestamp": 1074.0
+    }
+  ],
+  "summary": "The video introduces the Fusion Technology Partner Program, focusing on connecting workflows in manufacturing to improve efficiency and outcomes. It highlights the importance of integrations, showcasing how partners like Paperless Parts and Szenera add value. Finally, strategic partnerships with Autodesk are encouraged to expand reach and scale solutions within the Fusion ecosystem.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:57:45.489574+00:00"
+}

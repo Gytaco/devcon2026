@@ -1,0 +1,1015 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 8.6,
+      "text": "Hi everyone, thanks for joining. I am Mayank and today Varun and I am going to talk to you",
+      "words": []
+    },
+    {
+      "start": 8.6,
+      "end": 14.92,
+      "text": "through the story behind this session, the most expensive connector. This is really",
+      "words": []
+    },
+    {
+      "start": 14.92,
+      "end": 21.72,
+      "text": "a talk about what happens when a successful integration grows beyond what it was originally",
+      "words": []
+    },
+    {
+      "start": 21.72,
+      "end": 29.560000000000002,
+      "text": "designed for. We will say how that happened to us, what we learned from customers and how",
+      "words": []
+    },
+    {
+      "start": 29.56,
+      "end": 40.44,
+      "text": "it boosts us towards a much more scalable architecture. Before we start, a quick intro.",
+      "words": []
+    },
+    {
+      "start": 40.44,
+      "end": 49.64,
+      "text": "I am Mayank, Senior Software Engineer at Autodesk and I am joined by Varun. Varun, please introduce",
+      "words": []
+    },
+    {
+      "start": 49.64,
+      "end": 55.519999999999996,
+      "text": "yourself. Thank you, thank you, Mayank for inviting me. I am Varun, co-founder and CEO of",
+      "words": []
+    },
+    {
+      "start": 55.52,
+      "end": 61.36,
+      "text": "EncircleTech, been in this industry for about 20 years now. I am happy to be part of this call.",
+      "words": []
+    },
+    {
+      "start": 61.36,
+      "end": 70.92,
+      "text": "We are coming at this from slightly different angles, which actually makes this a stronger",
+      "words": []
+    },
+    {
+      "start": 70.92,
+      "end": 78.2,
+      "text": "story because what we are sharing today comes from a real product building, real customer",
+      "words": []
+    },
+    {
+      "start": 78.2,
+      "end": 85.48,
+      "text": "adoption and real scaling problems. I will cover how the problem evolved and why we",
+      "words": []
+    },
+    {
+      "start": 85.48,
+      "end": 92.52000000000001,
+      "text": "changed the architecture. Then Varun will walk through the back end, the demo and what",
+      "words": []
+    },
+    {
+      "start": 92.52000000000001,
+      "end": 100.12,
+      "text": "this design makes possible in practice. This is the flow for today. We will start with",
+      "words": []
+    },
+    {
+      "start": 100.12,
+      "end": 107.0,
+      "text": "the connector story and the customer pressure that changed the problem for us. Then we",
+      "words": []
+    },
+    {
+      "start": 107.0,
+      "end": 113.72,
+      "text": "will walk you through the architecture shift from thick client to thin client and briefly touch",
+      "words": []
+    },
+    {
+      "start": 113.72,
+      "end": 121.56,
+      "text": "on SSA. After that, Varun will take over and show the smart back end, the demo and the bigger",
+      "words": []
+    },
+    {
+      "start": 121.56,
+      "end": 129.96,
+      "text": "set of use cases. This architecture unlocks. So the talk moves from problem to redesign to",
+      "words": []
+    },
+    {
+      "start": 129.96,
+      "end": 140.76000000000002,
+      "text": "prove to what comes next. We saved the power BI connector for data exchange and honestly,",
+      "words": []
+    },
+    {
+      "start": 140.76000000000002,
+      "end": 148.68,
+      "text": "customers loved it. It solved a real lead, it helped teams pull design data into dashboards",
+      "words": []
+    },
+    {
+      "start": 148.68,
+      "end": 155.96,
+      "text": "and start getting real value quickly. But then something interesting happened. People didn't",
+      "words": []
+    },
+    {
+      "start": 156.04000000000002,
+      "end": 163.48000000000002,
+      "text": "use it lightly, they pushed it hard, they loved, they started loading much bigger models,",
+      "words": []
+    },
+    {
+      "start": 163.48000000000002,
+      "end": 170.36,
+      "text": "they started using the data for real business decisions and very quickly they stopped",
+      "words": []
+    },
+    {
+      "start": 170.36,
+      "end": 179.72,
+      "text": "trading it like a simple connector. They wanted real time, they wanted scale and that was the",
+      "words": []
+    },
+    {
+      "start": 179.72,
+      "end": 190.28,
+      "text": "moment we realized. This was no longer just a connector problem. It had became a data volume problem",
+      "words": []
+    },
+    {
+      "start": 191.32,
+      "end": 200.6,
+      "text": "because when you start thinking about AI analytics, live dashboards and automation, the challenge",
+      "words": []
+    },
+    {
+      "start": 200.6,
+      "end": 208.84,
+      "text": "changes. It's not about making one API call, it is not about handling 100 records, not 1000,",
+      "words": []
+    },
+    {
+      "start": 209.64,
+      "end": 217.79999999999998,
+      "text": "not even a million. In the AI era, the real question is can your architecture survive the volume?",
+      "words": []
+    },
+    {
+      "start": 218.51999999999998,
+      "end": 225.07999999999998,
+      "text": "That become our turning point. So this talk is really the story of what happened next.",
+      "words": []
+    },
+    {
+      "start": 226.04000000000002,
+      "end": 233.08,
+      "text": "How we moved from building a connector that could make cause to building an architecture that",
+      "words": []
+    },
+    {
+      "start": 233.08,
+      "end": 244.68,
+      "text": "could handle scale. This is where we started and to be fair, it was a good place to start. This",
+      "words": []
+    },
+    {
+      "start": 244.68,
+      "end": 251.08,
+      "text": "connector was already in the market, it had real customers, real adoption and real value.",
+      "words": []
+    },
+    {
+      "start": 252.04000000000002,
+      "end": 258.04,
+      "text": "Architecture forms were using it to bring rapid data into power BI dashboards.",
+      "words": []
+    },
+    {
+      "start": 258.6,
+      "end": 265.72,
+      "text": "Construction teams were using it to track model changes and monitor project in much easier way.",
+      "words": []
+    },
+    {
+      "start": 265.72,
+      "end": 272.76,
+      "text": "So this was not a lab idea, it was not a prototype, it was something people were actually using",
+      "words": []
+    },
+    {
+      "start": 272.76,
+      "end": 279.56,
+      "text": "using in their day to day work and that matters because customer success is usually the best",
+      "words": []
+    },
+    {
+      "start": 279.96,
+      "end": 285.24,
+      "text": "test of whether you build something useful but success also changes expectations.",
+      "words": []
+    },
+    {
+      "start": 286.2,
+      "end": 293.4,
+      "text": "Once customers saw the value, they wanted to do more with it, more data, more models, more frequent",
+      "words": []
+    },
+    {
+      "start": 293.4,
+      "end": 300.04,
+      "text": "refreshes, more business decisions based on what they were seeing in those dashboards.",
+      "words": []
+    },
+    {
+      "start": 300.68,
+      "end": 308.28,
+      "text": "And that was the tip. What started as a useful connector was now being asked to support much",
+      "words": []
+    },
+    {
+      "start": 308.28,
+      "end": 315.71999999999997,
+      "text": "bigger, more serious use cases. So yes, it worked. But customers were growing faster than the",
+      "words": []
+    },
+    {
+      "start": 315.71999999999997,
+      "end": 321.88,
+      "text": "architecture behind it and that is really where the next part of the story begins.",
+      "words": []
+    },
+    {
+      "start": 328.03999999999996,
+      "end": 335.47999999999996,
+      "text": "On the previous slide, I saw that the connector was already working and customers were getting",
+      "words": []
+    },
+    {
+      "start": 335.48,
+      "end": 342.52000000000004,
+      "text": "real value from it. But once customers started depending on it, the conversation changed.",
+      "words": []
+    },
+    {
+      "start": 342.52000000000004,
+      "end": 348.52000000000004,
+      "text": "They were no longer asking for small features. They were hitting real limits.",
+      "words": []
+    },
+    {
+      "start": 348.52000000000004,
+      "end": 355.40000000000003,
+      "text": "Some were telling us that loading last property set was too slow. Others were saying that their",
+      "words": []
+    },
+    {
+      "start": 355.40000000000003,
+      "end": 361.88,
+      "text": "dashboards were now tied to real business decisions so the data had to be much more current.",
+      "words": []
+    },
+    {
+      "start": 362.6,
+      "end": 366.84,
+      "text": "Some teams were rebuilding the same integration again and again for every customer.",
+      "words": []
+    },
+    {
+      "start": 367.56,
+      "end": 374.68,
+      "text": "And more and more customers wanted this data to go beyond dashboards into AI pipelines,",
+      "words": []
+    },
+    {
+      "start": 374.68,
+      "end": 383.08,
+      "text": "fabric and broader enterprises workflow. So taken one by one, these might sound like small",
+      "words": []
+    },
+    {
+      "start": 383.08,
+      "end": 391.15999999999997,
+      "text": "separate requests but for us, they all pointed to the same thing. The connector had been adopted",
+      "words": []
+    },
+    {
+      "start": 391.16,
+      "end": 398.84000000000003,
+      "text": "successfully and now customer needed it to grow with them. And honestly, this is a good problem to",
+      "words": []
+    },
+    {
+      "start": 398.84000000000003,
+      "end": 406.20000000000005,
+      "text": "have because it means customer believed in the value. They were not asking should we use this.",
+      "words": []
+    },
+    {
+      "start": 406.20000000000005,
+      "end": 414.04,
+      "text": "They were asking can this support where we are going next? This is a very different kind of question",
+      "words": []
+    },
+    {
+      "start": 414.04,
+      "end": 420.92,
+      "text": "and it forced us to step back and realize this was not about turning one more feature inside the",
+      "words": []
+    },
+    {
+      "start": 420.92,
+      "end": 426.76,
+      "text": "connector. This was the movement we had to rethink the entire architecture itself.",
+      "words": []
+    },
+    {
+      "start": 431.64000000000004,
+      "end": 437.72,
+      "text": "Once we understood the customer pressure clearly, we knew this was not a feature problem anymore.",
+      "words": []
+    },
+    {
+      "start": 438.52000000000004,
+      "end": 444.84000000000003,
+      "text": "It was an architecture problem. Customers were asking the connector to support bigger data,",
+      "words": []
+    },
+    {
+      "start": 444.84,
+      "end": 451.56,
+      "text": "more frequent references and more serious business use cases. So instead of adding more and more",
+      "words": []
+    },
+    {
+      "start": 451.56,
+      "end": 457.4,
+      "text": "logic into the same design, we stopped and asked in more important question.",
+      "words": []
+    },
+    {
+      "start": 458.59999999999997,
+      "end": 466.2,
+      "text": "Is the connector really the right place for all this complexity? That question led to the",
+      "words": []
+    },
+    {
+      "start": 466.2,
+      "end": 475.96,
+      "text": "biggest shift we made. Our answer was no. The connector should not carry all that weight.",
+      "words": []
+    },
+    {
+      "start": 476.84,
+      "end": 484.59999999999997,
+      "text": "Before the connector was doing a lot, authentication, pagination, transforms, orchestration,",
+      "words": []
+    },
+    {
+      "start": 484.59999999999997,
+      "end": 491.8,
+      "text": "all inside the client. That helped us move fast in the beginning but over time, it became clear",
+      "words": []
+    },
+    {
+      "start": 491.88,
+      "end": 497.40000000000003,
+      "text": "that this approach would not scale. With the way customers were using this product.",
+      "words": []
+    },
+    {
+      "start": 498.04,
+      "end": 506.28000000000003,
+      "text": "So we changed it. We made the connector thin. Its job became much simpler, fetch and display.",
+      "words": []
+    },
+    {
+      "start": 506.6,
+      "end": 514.2,
+      "text": "Then we moved the heavy work into a smart backend, parallel fetches, streaming, parkage generation,",
+      "words": []
+    },
+    {
+      "start": 514.2,
+      "end": 518.6,
+      "text": "all handled in a place that is much easier to scale and reuse.",
+      "words": []
+    },
+    {
+      "start": 518.9200000000001,
+      "end": 526.44,
+      "text": "Instead of asking the connector to be smart, heavy and complex, we let it stay lightweight and",
+      "words": []
+    },
+    {
+      "start": 526.44,
+      "end": 533.32,
+      "text": "we put the intelligence where it can actually scale. So in a simple way, the shift was less",
+      "words": []
+    },
+    {
+      "start": 533.32,
+      "end": 540.36,
+      "text": "intelligence in the connector, more capability in the backend. And that gave us a much stronger",
+      "words": []
+    },
+    {
+      "start": 540.36,
+      "end": 548.44,
+      "text": "foundation for everything that comes next. And once we made that shift, we could clearly describe",
+      "words": []
+    },
+    {
+      "start": 548.6800000000001,
+      "end": 557.6400000000001,
+      "text": "the three big changes that came out of it. So if I had to reduce the whole design into three",
+      "words": []
+    },
+    {
+      "start": 557.6400000000001,
+      "end": 565.4000000000001,
+      "text": "changes, it would be these. First, we moved all the heavy processing from client into a backend",
+      "words": []
+    },
+    {
+      "start": 565.4000000000001,
+      "end": 572.6,
+      "text": "that we controlled. That was important because the connector had gradually become responsible",
+      "words": []
+    },
+    {
+      "start": 572.6,
+      "end": 580.6,
+      "text": "for too much. It was doing more than just connecting. It was starting to carry logic that",
+      "words": []
+    },
+    {
+      "start": 580.6,
+      "end": 587.08,
+      "text": "really belonged somewhere more scalable. Second, the backend now handles streaming. So the connector",
+      "words": []
+    },
+    {
+      "start": 587.08,
+      "end": 593.88,
+      "text": "can return data much closer to real time. That is direct response of what customers were telling us.",
+      "words": []
+    },
+    {
+      "start": 594.84,
+      "end": 601.24,
+      "text": "They did not want static snapsaw. They wanted fresher data. They could actually use for",
+      "words": []
+    },
+    {
+      "start": 601.24,
+      "end": 607.5600000000001,
+      "text": "decisions. And third, we replaced in memory transforms with streaming parking generation.",
+      "words": []
+    },
+    {
+      "start": 607.5600000000001,
+      "end": 615.16,
+      "text": "That gave us much better path for handling large models, data volumes without overloading the client.",
+      "words": []
+    },
+    {
+      "start": 616.44,
+      "end": 623.64,
+      "text": "So the simple summary is this. We moved the brain out of the connector into the backend.",
+      "words": []
+    },
+    {
+      "start": 623.64,
+      "end": 629.96,
+      "text": "The connector became lighter. The backend became smarter. And that gave us much stronger base",
+      "words": []
+    },
+    {
+      "start": 629.96,
+      "end": 640.6800000000001,
+      "text": "for scale. As a part of this bigger conversation around scalable architecture, we also wanted to",
+      "words": []
+    },
+    {
+      "start": 640.6800000000001,
+      "end": 648.2800000000001,
+      "text": "briefly call out SS. It is an important capability for customers building backend based integrations",
+      "words": []
+    },
+    {
+      "start": 648.2800000000001,
+      "end": 655.72,
+      "text": "on APS. The idea is pretty simple. Instead of every user authenticating one by one,",
+      "words": []
+    },
+    {
+      "start": 655.72,
+      "end": 661.24,
+      "text": "an admin can delegate access to a backend service for specific projects and files.",
+      "words": []
+    },
+    {
+      "start": 661.88,
+      "end": 667.88,
+      "text": "That means your backend can handle the work in a more controlled and scalable way.",
+      "words": []
+    },
+    {
+      "start": 668.9200000000001,
+      "end": 676.84,
+      "text": "Why this is useful? Because as soon as your architecture starts moving beyond a simple client flow,",
+      "words": []
+    },
+    {
+      "start": 676.84,
+      "end": 684.76,
+      "text": "authentication can become a real source of complexity. And SS gives you a cleaner model for that.",
+      "words": []
+    },
+    {
+      "start": 684.76,
+      "end": 690.4399999999999,
+      "text": "It is booked. It is explicit. It is allatable. And it can be removed.",
+      "words": []
+    },
+    {
+      "start": 691.56,
+      "end": 698.76,
+      "text": "So this is not about bypassing the admin. It's actually about making backend access more manageable",
+      "words": []
+    },
+    {
+      "start": 698.76,
+      "end": 705.0,
+      "text": "while keeping the admin in control. It is very useful capability to be aware of.",
+      "words": []
+    },
+    {
+      "start": 705.0,
+      "end": 710.76,
+      "text": "Especially if you are building the kind of backend driven architecture we are talking about here.",
+      "words": []
+    },
+    {
+      "start": 711.72,
+      "end": 718.4399999999999,
+      "text": "With that context, I will hand it over to Varun who will walk you through the smart backend itself",
+      "words": []
+    },
+    {
+      "start": 718.4399999999999,
+      "end": 726.6,
+      "text": "because that is where most of the scale and performance gain came from. Over to Varun.",
+      "words": []
+    },
+    {
+      "start": 727.56,
+      "end": 734.36,
+      "text": "Thank you, man. So with that, friends, let me walk you through the smart backend that",
+      "words": []
+    },
+    {
+      "start": 734.36,
+      "end": 742.52,
+      "text": "Mayang has been talking about. Essentially, the big shift that we did was moving away from",
+      "words": []
+    },
+    {
+      "start": 743.08,
+      "end": 750.6,
+      "text": "individual API calls pagination for 1000 Reconcert at a time to a single large",
+      "words": []
+    },
+    {
+      "start": 751.32,
+      "end": 759.48,
+      "text": "parquet file streaming over the server. So this is how it works. You can have any kind of client,",
+      "words": []
+    },
+    {
+      "start": 760.2,
+      "end": 766.6,
+      "text": "Power BI client, tab you any custom app, which is initiating a request with the server.",
+      "words": []
+    },
+    {
+      "start": 766.6,
+      "end": 774.9200000000001,
+      "text": "Now this is queued on the server so that even if multiple users, multiple dashboards are making a",
+      "words": []
+    },
+    {
+      "start": 774.9200000000001,
+      "end": 783.5600000000001,
+      "text": "call, we can address each of those requests. Then we process each of those requests extracting all",
+      "words": []
+    },
+    {
+      "start": 783.56,
+      "end": 793.9599999999999,
+      "text": "the data from all available model data, extracting all that information, writing that into a",
+      "words": []
+    },
+    {
+      "start": 793.9599999999999,
+      "end": 802.5999999999999,
+      "text": "parquet file. This parquet file is then streamed over the server from a S3 and cloud friend that",
+      "words": []
+    },
+    {
+      "start": 802.5999999999999,
+      "end": 809.3199999999999,
+      "text": "can be received back in the client app, which is Power BI tab you work custom app.",
+      "words": []
+    },
+    {
+      "start": 810.12,
+      "end": 817.08,
+      "text": "Essentially, we are processing requests. First in first out, streaming the parquet files, which can",
+      "words": []
+    },
+    {
+      "start": 817.08,
+      "end": 825.8000000000001,
+      "text": "then handle about millions of records in single go. It is streaming. It doesn't increase your memory",
+      "words": []
+    },
+    {
+      "start": 826.5200000000001,
+      "end": 835.1600000000001,
+      "text": "limits. These kind of job IDs are stored also in DynamoDB for future tracking and referencing,",
+      "words": []
+    },
+    {
+      "start": 835.24,
+      "end": 842.36,
+      "text": "which then enables us to resume or provide updated data on the same job ID.",
+      "words": []
+    },
+    {
+      "start": 844.52,
+      "end": 852.28,
+      "text": "What this enables is essentially all those earlier architecture where you're constantly making",
+      "words": []
+    },
+    {
+      "start": 852.28,
+      "end": 861.24,
+      "text": "parallel API calls is now replaced with one call streaming with no memory limits. It's much",
+      "words": []
+    },
+    {
+      "start": 861.24,
+      "end": 870.12,
+      "text": "faster and it can support much larger models. We are able to, we don't need to now download the",
+      "words": []
+    },
+    {
+      "start": 870.12,
+      "end": 879.08,
+      "text": "entire 3D model. We are connecting it live and loading data much faster as a 3D content in your",
+      "words": []
+    },
+    {
+      "start": 879.08,
+      "end": 887.4,
+      "text": "dashboards. The parquet files are really the backbone of many systems including Microsoft fabric.",
+      "words": []
+    },
+    {
+      "start": 887.9599999999999,
+      "end": 894.68,
+      "text": "These days, I definitely encourage all of you. You need much more control on your data",
+      "words": []
+    },
+    {
+      "start": 895.3199999999999,
+      "end": 901.3199999999999,
+      "text": "of how you're going to operate, use what analysis you are going to do with all this data.",
+      "words": []
+    },
+    {
+      "start": 901.3199999999999,
+      "end": 908.28,
+      "text": "So once this is connected via data source in Power BI, essentially you have that in fabric and then",
+      "words": []
+    },
+    {
+      "start": 908.28,
+      "end": 915.96,
+      "text": "your data is very much AI ready to do a lot more magic with the help of this data.",
+      "words": []
+    },
+    {
+      "start": 917.4,
+      "end": 924.12,
+      "text": "Now let's take a simple example. Customer wants contractor to estimate about the",
+      "words": []
+    },
+    {
+      "start": 924.84,
+      "end": 934.36,
+      "text": "paint required for all the walls in the building. And we know we don't want to share the entire",
+      "words": []
+    },
+    {
+      "start": 934.36,
+      "end": 943.3199999999999,
+      "text": "model and it's best to share information on need basis. So contractor only needs wall information,",
+      "words": []
+    },
+    {
+      "start": 943.32,
+      "end": 954.12,
+      "text": "not the entire design. And Autodesk is making that possible. We all are aware of Autodes data",
+      "words": []
+    },
+    {
+      "start": 954.12,
+      "end": 961.24,
+      "text": "exchange. Let me show you that with some images as well. So here's your evit file which has your",
+      "words": []
+    },
+    {
+      "start": 961.24,
+      "end": 971.6400000000001,
+      "text": "entire data, everything package into one file. But with the help of Autodesk Forma Data Exchange,",
+      "words": []
+    },
+    {
+      "start": 972.36,
+      "end": 979.48,
+      "text": "we can create a subset of the content that you would want to share with your contractor.",
+      "words": []
+    },
+    {
+      "start": 979.48,
+      "end": 985.96,
+      "text": "So we create this data exchange. Once this data exchange is created,",
+      "words": []
+    },
+    {
+      "start": 987.16,
+      "end": 996.68,
+      "text": "we can use the Power BI connector to quickly create our own required dashboard in Power BI.",
+      "words": []
+    },
+    {
+      "start": 997.56,
+      "end": 1004.5999999999999,
+      "text": "Here you can see there is a 3D content. So as an end user can interact with the 3D content,",
+      "words": []
+    },
+    {
+      "start": 1004.5999999999999,
+      "end": 1009.64,
+      "text": "you have simple drag-in drop use cases, you can create different kinds of charts.",
+      "words": []
+    },
+    {
+      "start": 1010.28,
+      "end": 1016.12,
+      "text": "All elements that are relevant for your contractor can be added into the dashboard.",
+      "words": []
+    },
+    {
+      "start": 1017.88,
+      "end": 1025.8,
+      "text": "This dashboard then if shared with your contractor, he can quickly filter out the walls from the",
+      "words": []
+    },
+    {
+      "start": 1026.44,
+      "end": 1037.1599999999999,
+      "text": "entire dashboard. Look at the area of wall as you can see in this 726 units of area of wall that",
+      "words": []
+    },
+    {
+      "start": 1037.1599999999999,
+      "end": 1046.9199999999998,
+      "text": "is needs to be bended. And this can then be used for estimating. What we are trying to show at a",
+      "words": []
+    },
+    {
+      "start": 1046.9199999999998,
+      "end": 1055.48,
+      "text": "high level here is customer was able to share limited data on need basis with the help of data exchange.",
+      "words": []
+    },
+    {
+      "start": 1056.52,
+      "end": 1063.32,
+      "text": "It could load the data in Power BI large amounts of data, big files now supported.",
+      "words": []
+    },
+    {
+      "start": 1064.04,
+      "end": 1075.8799999999999,
+      "text": "And as an end user, even if he doesn't have access to the core ACC, he is able to access the data",
+      "words": []
+    },
+    {
+      "start": 1077.1599999999999,
+      "end": 1082.6,
+      "text": "in Power BI dashboard and revert with estimates.",
+      "words": []
+    },
+    {
+      "start": 1086.04,
+      "end": 1098.36,
+      "text": "This is demo 2. I will show you the full walkthrough of this as it happens.",
+      "words": []
+    },
+    {
+      "start": 1102.36,
+      "end": 1109.3999999999999,
+      "text": "This is our model number 1. Again, basic steps. We are creating data exchange",
+      "words": []
+    },
+    {
+      "start": 1110.2,
+      "end": 1121.64,
+      "text": "in Autodesk format. This data exchange is published and we can create Power BI dashboard.",
+      "words": []
+    },
+    {
+      "start": 1121.64,
+      "end": 1128.92,
+      "text": "A lot of these details are already covered in earlier presentations. A lot of videos are available.",
+      "words": []
+    },
+    {
+      "start": 1130.8400000000001,
+      "end": 1137.64,
+      "text": "But the important part that we want to highlight here is the scheduled refresh is now available.",
+      "words": []
+    },
+    {
+      "start": 1137.72,
+      "end": 1145.0,
+      "text": "So your data gets updated on the fly automatically. So this is how we can configure the",
+      "words": []
+    },
+    {
+      "start": 1146.6000000000001,
+      "end": 1154.68,
+      "text": "data exchange schedule refresh. We go into data exchange. We can define which time zone what time",
+      "words": []
+    },
+    {
+      "start": 1154.68,
+      "end": 1163.8000000000002,
+      "text": "we want to want the data to be updated. Here we will book in your time zone and update daily or",
+      "words": []
+    },
+    {
+      "start": 1163.8,
+      "end": 1170.84,
+      "text": "weekly and you can set what time you want to refresh the data. This is triggered automatically.",
+      "words": []
+    },
+    {
+      "start": 1170.84,
+      "end": 1177.1599999999999,
+      "text": "So if you have published a new version of model, it will pick the data on the schedule refresh timeline",
+      "words": []
+    },
+    {
+      "start": 1177.1599999999999,
+      "end": 1185.0,
+      "text": "and you have your latest data in your dashboards. So now we are showing you a new version of model",
+      "words": []
+    },
+    {
+      "start": 1185.08,
+      "end": 1197.56,
+      "text": "getting uploaded and you just jump over this. So new model uploaded getting processed.",
+      "words": []
+    },
+    {
+      "start": 1204.36,
+      "end": 1212.52,
+      "text": "Data exchange. As you can see the difference between two versions. This is without the topology",
+      "words": []
+    },
+    {
+      "start": 1212.6,
+      "end": 1219.72,
+      "text": "and the new version is with the topology. Now the refresh will update trigger get triggered",
+      "words": []
+    },
+    {
+      "start": 1219.72,
+      "end": 1232.76,
+      "text": "automatically and when you load your dashboard back in Power BI, it has this latest information",
+      "words": []
+    },
+    {
+      "start": 1232.76,
+      "end": 1238.44,
+      "text": "of your latest model with all the topology and all the information available there.",
+      "words": []
+    },
+    {
+      "start": 1239.4,
+      "end": 1247.24,
+      "text": "As I had shown in the earlier part, you had the model without all the topology earlier version",
+      "words": []
+    },
+    {
+      "start": 1247.24,
+      "end": 1252.04,
+      "text": "of the model and now you have the latest model with all the information.",
+      "words": []
+    },
+    {
+      "start": 1254.68,
+      "end": 1263.0,
+      "text": "So with that, few tips if you are a developer,",
+      "words": []
+    },
+    {
+      "start": 1263.32,
+      "end": 1272.52,
+      "text": "learning from this, keep your connector as thin as possible, move all the processing into your",
+      "words": []
+    },
+    {
+      "start": 1272.52,
+      "end": 1279.96,
+      "text": "backend, your smart backend. This is where you can add more value, you can make it more reusable,",
+      "words": []
+    },
+    {
+      "start": 1280.76,
+      "end": 1288.44,
+      "text": "you can enhance it with all the AI techniques and analysis that you may want to do on this data.",
+      "words": []
+    },
+    {
+      "start": 1289.3200000000002,
+      "end": 1296.68,
+      "text": "You design for streaming data is just exploding through the roof, it is going to grow even further.",
+      "words": []
+    },
+    {
+      "start": 1297.24,
+      "end": 1306.8400000000001,
+      "text": "So design for streaming large volumes of data and once you have this data in your",
+      "words": []
+    },
+    {
+      "start": 1310.1200000000001,
+      "end": 1317.8,
+      "text": "AI tools or data tools like Microsoft fabric, I think you can do a lot more magic on top of it.",
+      "words": []
+    },
+    {
+      "start": 1318.8400000000001,
+      "end": 1326.68,
+      "text": "As Autodesk keeps investing in newer technologies, SSA, GraphQL,",
+      "words": []
+    },
+    {
+      "start": 1326.68,
+      "end": 1334.28,
+      "text": "model derivative streaming, please make best use of these technologies, the enable bigger workflows",
+      "words": []
+    },
+    {
+      "start": 1334.28,
+      "end": 1341.64,
+      "text": "and more enable you to solve more challenging problems. We all build on top of that and that's",
+      "words": []
+    },
+    {
+      "start": 1341.64,
+      "end": 1354.2800000000002,
+      "text": "why it's the best thing. If you want to give it a try, our latest power BI connector is,",
+      "words": []
+    },
+    {
+      "start": 1354.2800000000002,
+      "end": 1361.5600000000002,
+      "text": "you can scan this QR code and give it a try. Let us know how it goes for you if you need any help,",
+      "words": []
+    },
+    {
+      "start": 1361.5600000000002,
+      "end": 1367.3200000000002,
+      "text": "we are all available to assist you. That, thank you.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:16:30.066033+00:00"
+}

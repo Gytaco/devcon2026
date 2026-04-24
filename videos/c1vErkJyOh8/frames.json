@@ -1,0 +1,497 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c1vErkJyOh8\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Presenting"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c1vErkJyOh8\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide displays the agenda for a presentation with five points, including 'Who are we?' and 'What is OTL?'.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Agenda",
+        "01 Who are we?",
+        "02 What is OTL?",
+        "03 Our approach",
+        "04 The result",
+        "05 What's next"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c1vErkJyOh8\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide introduces 'Kevin De Maesschalck' and shows a timeline of his education and work experience.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Nice to meet you 'Kevin De Maesschalck'",
+        "Born & raised in Lokeren, Belgium",
+        "Studied Mechanical Design",
+        "Working at SBE"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c1vErkJyOh8\\frames\\frame_000005.jpg",
+      "timestamp_seconds": 120.0,
+      "frame_index": 5,
+      "category": "slides",
+      "keep": true,
+      "description": "A timeline slide showing the professional journey and projects from 2011 to 2024.",
+      "products_visible": [
+        "AUTODESK",
+        "Revit",
+        "Architecture, Engineering & Construction Collection",
+        "AUTODESK Forma",
+        "AUTODESK Datum",
+        "esri"
+      ],
+      "ui_elements": [
+        "Nice to meet you 'Jan Boonen'",
+        "2011",
+        "2013",
+        "2021",
+        "2024"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c1vErkJyOh8\\frames\\frame_000007.jpg",
+      "timestamp_seconds": 180.0,
+      "frame_index": 7,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide presents information about SBE, an independent engineering design consultancy with over 35 years of experience and 300 colleagues.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Who is SBE?",
+        "Independent engineering design consultancy",
+        "+35 years of experience",
+        "300 colleagues"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c1vErkJyOh8\\frames\\frame_000009.jpg",
+      "timestamp_seconds": 240.0,
+      "frame_index": 9,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide asking 'What is OTL?' is displayed, associated with an Autodesk DevCon event.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "What is OTL?"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c1vErkJyOh8\\frames\\frame_000015.jpg",
+      "timestamp_seconds": 420.0,
+      "frame_index": 15,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation with the title 'Approach'.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Approach"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c1vErkJyOh8\\frames\\frame_000020.jpg",
+      "timestamp_seconds": 570.0,
+      "frame_index": 20,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide shows a diagram titled 'Data Awareness' focusing on lifecycle-ready design data at the heart of the enterprise.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c1vErkJyOh8\\frames\\frame_000023.jpg",
+      "timestamp_seconds": 660.0,
+      "frame_index": 23,
+      "category": "slides",
+      "keep": true,
+      "description": "This slide discusses inventory concepts with a focus on modeling objects and software capabilities in Autodesk applications.",
+      "products_visible": [
+        "Autodesk Civil 3D",
+        "Trimble Tekla",
+        "Autodesk Revit",
+        "Autodesk Construction Cloud",
+        "Autodesk Inventor",
+        "Autodesk Navisworks",
+        "Autodesk Forma"
+      ],
+      "ui_elements": [
+        "Model objects",
+        "Software capabilities"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c1vErkJyOh8\\frames\\frame_000031.jpg",
+      "timestamp_seconds": 900.0,
+      "frame_index": 31,
+      "category": "demo",
+      "keep": true,
+      "description": "A demonstration of Autodesk software showing a 3D model with detailed parameters and options for customization.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "OTL",
+        "BIM Model",
+        "OTL definition",
+        "OTL mapping"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c1vErkJyOh8\\frames\\frame_000032.jpg",
+      "timestamp_seconds": 930.0,
+      "frame_index": 32,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide presented at Autodesk DevCon showing structured data on Autodesk Forma, with a 3D model view and object color settings.",
+      "products_visible": [
+        "Autodesk Forma"
+      ],
+      "ui_elements": [
+        "Select models",
+        "Object Colors",
+        "Settings",
+        "The result"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c1vErkJyOh8\\frames\\frame_000033.jpg",
+      "timestamp_seconds": 960.0,
+      "frame_index": 33,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showcasing structured data capabilities on Autodesk Forma with a visualization interface and an example dataset.",
+      "products_visible": [
+        "Autodesk Forma"
+      ],
+      "ui_elements": [
+        "Object Colors",
+        "Settings",
+        "Save to Book",
+        "update view"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c1vErkJyOh8\\frames\\frame_000034.jpg",
+      "timestamp_seconds": 990.0,
+      "frame_index": 34,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide demonstrates the login and setup process for the OTL interface.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Login & setup",
+        "Seleceer een hub",
+        "Search projects",
+        "LOGOUT"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c1vErkJyOh8\\frames\\frame_000036.jpg",
+      "timestamp_seconds": 1050.0,
+      "frame_index": 36,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide presentation with a 'Log in & setup' page displaying an OTL software interface.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "OTL",
+        "BIM Model",
+        "OTL definition",
+        "OTL mapping",
+        "Apply custom mapping",
+        "Update relations",
+        "Verify model"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c1vErkJyOh8\\frames\\frame_000039.jpg",
+      "timestamp_seconds": 1140.0,
+      "frame_index": 39,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing how to view, fill, and maintain data with a focus on attributes adjustment in a software application.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Attribuut aanpassen op meerdere klassen",
+        "Selecteer gewenste Klasse",
+        "BetonnenSchroep",
+        "aanzetpelt",
+        "afkapelpit",
+        "assetid_identificeert",
+        "assetid_toegekendDoor"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c1vErkJyOh8\\frames\\frame_000040.jpg",
+      "timestamp_seconds": 1170.0,
+      "frame_index": 40,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon is shown, discussing data management with a view of a table interface.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "View, fill & maintain data",
+        "Selecteer gewenste Klasse",
+        "Data tonen voor"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c1vErkJyOh8\\frames\\frame_000041.jpg",
+      "timestamp_seconds": 1200.0,
+      "frame_index": 41,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide shows a user interface for viewing, filling, and maintaining data related to a BIM model, with a focus on highlighting installations.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "OTL",
+        "BIM Model",
+        "Instellations overview",
+        "Units",
+        "Logbook"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c1vErkJyOh8\\frames\\frame_000043.jpg",
+      "timestamp_seconds": 1260.0,
+      "frame_index": 43,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide discussing the importance of data quality for better decisions with diagrams and text related to governance and risk reduction.",
+      "products_visible": [
+        "AUTODESK DevCon"
+      ],
+      "ui_elements": [
+        "Consequences",
+        "Data Quality as the Foundation for Better Decisions"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c1vErkJyOh8\\frames\\frame_000044.jpg",
+      "timestamp_seconds": 1290.0,
+      "frame_index": 44,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses the importance of data quality, standardization, and automation in decision-making processes. Various benefits and workflows related to these topics are depicted through diagrams.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Data Quality as the Foundation for Better Decisions",
+        "Standardization as a Catalyst for Automation & AI",
+        "Connected, verifiable, and controllable",
+        "Consequences"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c1vErkJyOh8\\frames\\frame_000047.jpg",
+      "timestamp_seconds": 1380.0,
+      "frame_index": 47,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide describes an asset lifecycle platform for collaboration and asset information exchange, highlighting stages such as concept design and operations.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Asset lifecycle platform",
+        "Collaboration & asset information exchange",
+        "DATUM (data layer)",
+        "Forma",
+        "Project Supply Chain",
+        "Maintenance Supply Chain"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c1vErkJyOh8\\frames\\frame_000049.jpg",
+      "timestamp_seconds": 1440.0,
+      "frame_index": 49,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide discussing the technology landscape for major projects, highlighting Autodesk's Datum Class Library and integration with other tools.",
+      "products_visible": [
+        "AUTODESK",
+        "Datum Class Library",
+        "Datum",
+        "Revit",
+        "AutoCAD Plant 3D",
+        "Civil 3D",
+        "AutoCAD"
+      ],
+      "ui_elements": [
+        "Autodesk design authoring tools",
+        "Common data environment (CDE)",
+        "Classification standards",
+        "Enterprise data landscape"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c1vErkJyOh8\\frames\\frame_000052.jpg",
+      "timestamp_seconds": 1530.0,
+      "frame_index": 52,
+      "category": "demo",
+      "keep": true,
+      "description": "A split-screen display showing a person speaking and a software interface likely from Autodesk software, demonstrating a tool or feature.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "DevCon",
+        "Prospector",
+        "Document Settings",
+        "Tool Palettes"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c1vErkJyOh8\\frames\\frame_000054.jpg",
+      "timestamp_seconds": 1590.0,
+      "frame_index": 54,
+      "category": "demo",
+      "keep": true,
+      "description": "A presentation showing an Autodesk software interface with a focus on object colors and settings options.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Enable colors",
+        "Settings",
+        "Object Colors",
+        "PL_Cluster Object",
+        "View and Sheets",
+        "Display orders"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c1vErkJyOh8\\frames\\frame_000055.jpg",
+      "timestamp_seconds": 1620.0,
+      "frame_index": 55,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a live demonstration of a software interface with a list of assets and their attributes.",
+      "products_visible": [
+        "Autodesk",
+        "BIM 360"
+      ],
+      "ui_elements": [
+        "Assets",
+        "Tag Number",
+        "Class Name",
+        "Attributes",
+        "Edit"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c1vErkJyOh8\\frames\\frame_000060.jpg",
+      "timestamp_seconds": 1770.0,
+      "frame_index": 60,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses '4D for Infrastructure: Control over complex projects' with a model and data integration illustrated.",
+      "products_visible": [
+        "Autodesk",
+        "Power BI"
+      ],
+      "ui_elements": [
+        "Schedule settings",
+        "Assets",
+        "References"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c1vErkJyOh8\\frames\\frame_000063.jpg",
+      "timestamp_seconds": 1860.0,
+      "frame_index": 63,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide on 'The Handover [Digital Twin service provision]' is shown with details about Autodesk Tandem for AEC and its integration with various components like IoT connections and parameters.",
+      "products_visible": [
+        "Autodesk Tandem for AEC",
+        "Autodesk Tandem"
+      ],
+      "ui_elements": [
+        "The Handover [Digital Twin service provision]",
+        "AEC FIRMS",
+        "IOT CONNECTIONS",
+        "DOCUMENTS",
+        "MODELS",
+        "PARAMETERS",
+        "VIEWS",
+        "OWNER"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c1vErkJyOh8\\frames\\frame_000064.jpg",
+      "timestamp_seconds": 1890.0,
+      "frame_index": 64,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "E-Autodesk Data-Driven"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\c1vErkJyOh8\\frames\\frame_000065.jpg",
+      "timestamp_seconds": 1920.0,
+      "frame_index": 65,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a 3D model of a structure being demonstrated using Autodesk software.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "CONNECTIONS",
+        "PROPERTIES",
+        "ASSET PROPERTIES"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:35:19.991650+00:00"
+}

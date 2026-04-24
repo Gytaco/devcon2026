@@ -1,0 +1,207 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uWYaC31QOZA\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uWYaC31QOZA\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "This frame shows a slide discussing the challenges manufacturers face due to disconnected workflows, focusing on longer lead times, increased rework, and missed opportunities.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "The Cost of Friction",
+        "The Problem Isn\u2019t Tools \u2013 It\u2019s Flow",
+        "The Siloed Reality"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uWYaC31QOZA\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide from Autodesk DevCon discussing the convergence of Artificial Intelligence, Automation, and Data Accessibility to transform manufacturing workflows.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Artificial Intelligence",
+        "Automation",
+        "Data Accessibility",
+        "The Shift: An Inflection Point"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uWYaC31QOZA\\frames\\frame_000006.jpg",
+      "timestamp_seconds": 150.0,
+      "frame_index": 6,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide about Autodesk Fusion, explaining its capabilities in connecting data, people, and processes for design and manufacturing.",
+      "products_visible": [
+        "Autodesk Fusion"
+      ],
+      "ui_elements": [
+        "Autodesk DevCon",
+        "Autodesk Fusion",
+        "MFG data model",
+        "Autodesk Platform Services"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uWYaC31QOZA\\frames\\frame_000009.jpg",
+      "timestamp_seconds": 240.0,
+      "frame_index": 9,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation shows the concept of an integrated workflow, including quoting, design & engineering, manufacturing, and supply chain.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "QUOTING",
+        "DESIGN & ENGINEERING",
+        "MANUFACTURING",
+        "SUPPLY CHAIN"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uWYaC31QOZA\\frames\\frame_000010.jpg",
+      "timestamp_seconds": 270.0,
+      "frame_index": 10,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide shows a connected workflow involving various technology partners such as PaperlessParts, Synera, CloudNC, and Avnet, highlighting value across key workflow stages.",
+      "products_visible": [
+        "Autodesk Fusion",
+        "PaperlessParts",
+        "Synera",
+        "CloudNC",
+        "Avnet"
+      ],
+      "ui_elements": [
+        "Quoting",
+        "Design & Engineering",
+        "Manufacturing",
+        "Supply Chain"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uWYaC31QOZA\\frames\\frame_000014.jpg",
+      "timestamp_seconds": 390.0,
+      "frame_index": 14,
+      "category": "slides",
+      "keep": true,
+      "description": "This slide from Autodesk DevCon illustrates how a streamlined workflow involves reducing delays, improving decisions, and moving faster through automation, AI, and connected data.",
+      "products_visible": [
+        "AUTODESK",
+        "AI-ENABLED PLATFORM"
+      ],
+      "ui_elements": [
+        "Reduce Delays",
+        "Improve Decisions",
+        "Move Faster",
+        "QUOTING",
+        "DESIGN & ENGINEERING",
+        "MANUFACTURING",
+        "SUPPLY CHAIN"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uWYaC31QOZA\\frames\\frame_000016.jpg",
+      "timestamp_seconds": 450.0,
+      "frame_index": 16,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide showcases flagship APIs for Design & Manufacturing offered by Autodesk, detailing various APIs and their functionalities.",
+      "products_visible": [
+        "Autodesk DevCon",
+        "Fusion API",
+        "Fusion Manage API",
+        "Fusion Operations API",
+        "MFG Data Model API",
+        "Data Management",
+        "Model Derivative API",
+        "Viewer SDK",
+        "Design Automation API"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uWYaC31QOZA\\frames\\frame_000017.jpg",
+      "timestamp_seconds": 480.0,
+      "frame_index": 17,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon showing a diagram of AI Agent, MCP Server, and Data Source interaction.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "AI Agent",
+        "MCP Server",
+        "Data Source",
+        "From Connection to Execution"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uWYaC31QOZA\\frames\\frame_000020.jpg",
+      "timestamp_seconds": 570.0,
+      "frame_index": 20,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide titled 'The Partnership Journey' outlines stages for turning integrations into scalable growth with steps: Build, Activate, and Scale.",
+      "products_visible": [
+        "Autodesk",
+        "Fusion"
+      ],
+      "ui_elements": [
+        "BUILD",
+        "ACTIVATE",
+        "SCALE"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uWYaC31QOZA\\frames\\frame_000023.jpg",
+      "timestamp_seconds": 660.0,
+      "frame_index": 23,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide detailing the Fusion Technology Partner Program by Autodesk, highlighting guidance, reach, and credibility for partners.",
+      "products_visible": [
+        "Fusion Technology Partner Program",
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Guidance",
+        "Reach",
+        "Credibility",
+        "Join today!"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uWYaC31QOZA\\frames\\frame_000027.jpg",
+      "timestamp_seconds": 780.0,
+      "frame_index": 27,
+      "category": "blank",
+      "keep": false,
+      "description": "",
+      "products_visible": [],
+      "ui_elements": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:57:38.861631+00:00"
+}

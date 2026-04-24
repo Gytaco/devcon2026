@@ -1,0 +1,1033 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.4,
+      "text": "Hi everyone, thank you for joining us and we're here to talk today about how we can help",
+      "words": []
+    },
+    {
+      "start": 6.4,
+      "end": 12.4,
+      "text": "close the loop between the design and construction phases on different projects and how systems",
+      "words": []
+    },
+    {
+      "start": 12.4,
+      "end": 17.080000000000002,
+      "text": "such as Qflow and Autodesk are working together in a wide area system to use AI and different",
+      "words": []
+    },
+    {
+      "start": 17.080000000000002,
+      "end": 24.44,
+      "text": "technologies to make sure that what we're designing is actually what we're building in reality.",
+      "words": []
+    },
+    {
+      "start": 24.44,
+      "end": 29.2,
+      "text": "So to introduce ourselves, my name is Jay and I'm one of the co-founders and CPO at Qflow",
+      "words": []
+    },
+    {
+      "start": 29.2,
+      "end": 37.519999999999996,
+      "text": "and I'm joined by Marta who is the Director of Sustainability Solutions at Autodesk.",
+      "words": []
+    },
+    {
+      "start": 37.519999999999996,
+      "end": 42.76,
+      "text": "So to frame the problem a little bit, despite popular belief, what we actually build in",
+      "words": []
+    },
+    {
+      "start": 42.76,
+      "end": 49.28,
+      "text": "reality often doesn't match up with our original design intent and where there are discrepancies",
+      "words": []
+    },
+    {
+      "start": 49.28,
+      "end": 54.239999999999995,
+      "text": "between what we think we're going to be building and both in terms of the types of materials",
+      "words": []
+    },
+    {
+      "start": 54.239999999999995,
+      "end": 58.64,
+      "text": "that are going into the buildings, the time frames at which that's being built and different",
+      "words": []
+    },
+    {
+      "start": 58.64,
+      "end": 64.56,
+      "text": "changes that can happen between both the design phase and the construction phase means",
+      "words": []
+    },
+    {
+      "start": 64.56,
+      "end": 71.12,
+      "text": "that in the messiness that occurs between those stages, there's often different mistakes,",
+      "words": []
+    },
+    {
+      "start": 71.12,
+      "end": 77.6,
+      "text": "material wastage that happens and risks that evolve when we start deviating between the",
+      "words": []
+    },
+    {
+      "start": 77.6,
+      "end": 85.88,
+      "text": "original design intent and the reality. And to give us an example of problems like this,",
+      "words": []
+    },
+    {
+      "start": 85.88,
+      "end": 91.0,
+      "text": "so at Qflow we've been working with a series of different GCs, developers, asset owners,",
+      "words": []
+    },
+    {
+      "start": 91.0,
+      "end": 95.0,
+      "text": "over time. And one of the stories that was told to us a while back before we deployed",
+      "words": []
+    },
+    {
+      "start": 95.0,
+      "end": 102.28,
+      "text": "on a particular project was a warehouse development that was being built and during the construction",
+      "words": []
+    },
+    {
+      "start": 102.28,
+      "end": 108.52,
+      "text": "phase the wrong time of agriculture had been brought onto the site through no manantent",
+      "words": []
+    },
+    {
+      "start": 109.32,
+      "end": 114.52,
+      "text": "but had been installed without being noticed and the warehouse came into fruition. It was",
+      "words": []
+    },
+    {
+      "start": 114.52,
+      "end": 120.36,
+      "text": "then tentative and operations were made for about six months until unfortunately ground",
+      "words": []
+    },
+    {
+      "start": 120.36,
+      "end": 125.88,
+      "text": "pressures were found and it meant that part of the warehouse had to be taken out of action",
+      "words": []
+    },
+    {
+      "start": 125.88,
+      "end": 129.88,
+      "text": "to redo part of the flooring where the aggra-gris was put into place and where the ground",
+      "words": []
+    },
+    {
+      "start": 129.88,
+      "end": 135.8,
+      "text": "depressions had occurred. Now at the time when the aggra-gris was delivered nobody thought much of",
+      "words": []
+    },
+    {
+      "start": 135.8,
+      "end": 141.07999999999998,
+      "text": "it and those assumptions were added being the correct grade and so the problem went unnoticed",
+      "words": []
+    },
+    {
+      "start": 141.8,
+      "end": 146.68,
+      "text": "until it began a problem further down the line. And unfortunately in that particular instance",
+      "words": []
+    },
+    {
+      "start": 146.68,
+      "end": 151.8,
+      "text": "because the section of the warehouse had been taken out of action it resulted in a large claim",
+      "words": []
+    },
+    {
+      "start": 151.8,
+      "end": 158.84,
+      "text": "from the tenants to the warehouse owner surplus of one million euros in lost income due to the",
+      "words": []
+    },
+    {
+      "start": 158.84,
+      "end": 164.44,
+      "text": "fact that those reworks then needed to happen. And unfortunately this is not a uncommon situation",
+      "words": []
+    },
+    {
+      "start": 164.44,
+      "end": 169.4,
+      "text": "uncommon story. Whilst the specific examples may look quite different on different projects",
+      "words": []
+    },
+    {
+      "start": 169.4,
+      "end": 173.88,
+      "text": "there are too many different examples of where different ceiling tiles had been installed or",
+      "words": []
+    },
+    {
+      "start": 173.88,
+      "end": 177.32,
+      "text": "other substances that have been prohibited in the site had managed to find their way in",
+      "words": []
+    },
+    {
+      "start": 178.44,
+      "end": 183.64000000000001,
+      "text": "or the rock concrete in fact has even been installed and then had to be broken out later once it was",
+      "words": []
+    },
+    {
+      "start": 184.6,
+      "end": 188.44,
+      "text": "once it was realised that it wasn't the spec or the grade that was desired.",
+      "words": []
+    },
+    {
+      "start": 189.88,
+      "end": 196.12,
+      "text": "And the reason that those problems exist is because on different kinds of schemes we've got anywhere",
+      "words": []
+    },
+    {
+      "start": 196.12,
+      "end": 199.88,
+      "text": "between tens hundreds or even thousands of deliveries and materials that are being delivered",
+      "words": []
+    },
+    {
+      "start": 199.88,
+      "end": 205.48000000000002,
+      "text": "onto these job sites every day and unfortunately we still operate you under a very analog system",
+      "words": []
+    },
+    {
+      "start": 206.12,
+      "end": 211.08,
+      "text": "where every delivery that's made is accompanied by a delivery receipt or a delivery ticket either",
+      "words": []
+    },
+    {
+      "start": 211.08,
+      "end": 216.68,
+      "text": "paper-based or in PDF form but ultimately information is contained within a series of documents",
+      "words": []
+    },
+    {
+      "start": 216.68,
+      "end": 221.64000000000001,
+      "text": "which describe exactly the item and the thing that's been delivered versus what has been designed for",
+      "words": []
+    },
+    {
+      "start": 221.64,
+      "end": 226.27999999999997,
+      "text": "what has been even ordered or procured and there are changes that can happen in between that process",
+      "words": []
+    },
+    {
+      "start": 226.27999999999997,
+      "end": 233.95999999999998,
+      "text": "things may substituted and so for an individual human or a team on site it is impossible to manage",
+      "words": []
+    },
+    {
+      "start": 233.95999999999998,
+      "end": 241.16,
+      "text": "all these deliveries coming on cross check all of that paperwork and ensure that everything is meeting",
+      "words": []
+    },
+    {
+      "start": 241.16,
+      "end": 246.67999999999998,
+      "text": "the specifications or the design that was originally intended and so information is naturally missed",
+      "words": []
+    },
+    {
+      "start": 247.4,
+      "end": 253.24,
+      "text": "changes aren't captured and what it does unfortunately result in is ineffective quality control over",
+      "words": []
+    },
+    {
+      "start": 253.24,
+      "end": 257.24,
+      "text": "these different kinds of materials and where those problems can later manifest.",
+      "words": []
+    },
+    {
+      "start": 259.40000000000003,
+      "end": 265.32,
+      "text": "So when we scale this up from individual materials or products we delivered to entire buildings",
+      "words": []
+    },
+    {
+      "start": 265.32,
+      "end": 271.96000000000004,
+      "text": "or structures or infrastructure it results in a huge disconnect between this design intent that",
+      "words": []
+    },
+    {
+      "start": 272.03999999999996,
+      "end": 278.12,
+      "text": "is within our control and can be specified to the nth degree which is then handled over to GCs",
+      "words": []
+    },
+    {
+      "start": 278.12,
+      "end": 283.0,
+      "text": "and subcontractors and supply chain and loads of different parties involved in the build process",
+      "words": []
+    },
+    {
+      "start": 283.0,
+      "end": 288.76,
+      "text": "where mistakes do happen and things change and so the materials that we thought were going to be",
+      "words": []
+    },
+    {
+      "start": 288.76,
+      "end": 294.03999999999996,
+      "text": "put into a building don't necessarily have up being ones that are installed and this is the specific",
+      "words": []
+    },
+    {
+      "start": 294.03999999999996,
+      "end": 300.91999999999996,
+      "text": "problem that a key flow we've wanted to tackle in how can we transform material tracking from this",
+      "words": []
+    },
+    {
+      "start": 300.92,
+      "end": 306.84000000000003,
+      "text": "quite analog traditional workflow into a digital one so that we can not only get better data and",
+      "words": []
+    },
+    {
+      "start": 306.84000000000003,
+      "end": 312.44,
+      "text": "information on what's actually being installed in these buildings but how can we serve as risks",
+      "words": []
+    },
+    {
+      "start": 312.44,
+      "end": 318.04,
+      "text": "in a much quicker fashion such that we can prevent the mistakes and prevent the discrepancies",
+      "words": []
+    },
+    {
+      "start": 318.04,
+      "end": 323.96000000000004,
+      "text": "that happen between those two phases and so a lot of this is around data continuity in different",
+      "words": []
+    },
+    {
+      "start": 323.96000000000004,
+      "end": 328.44,
+      "text": "phases of project from planning or through to the build and final operation.",
+      "words": []
+    },
+    {
+      "start": 330.92,
+      "end": 336.2,
+      "text": "So it would like to pass up a two martyrs talk a little bit further around what those phases might look",
+      "words": []
+    },
+    {
+      "start": 336.2,
+      "end": 343.96000000000004,
+      "text": "like. Thanks Jade. Yeah at Autodesk we think about the life cycle of design and make tools and workflows",
+      "words": []
+    },
+    {
+      "start": 344.76,
+      "end": 351.64,
+      "text": "in an ideal state and ideally to optimize cost and carbon and other kind of impacts across the",
+      "words": []
+    },
+    {
+      "start": 351.64,
+      "end": 357.24,
+      "text": "project life cycle we would love to see this sort of circular view of everything working together",
+      "words": []
+    },
+    {
+      "start": 358.2,
+      "end": 363.08,
+      "text": "achieving sustainable outcomes especially depends on the integrative and collaborative dynamics",
+      "words": []
+    },
+    {
+      "start": 363.08,
+      "end": 367.0,
+      "text": "between the processes and the people and the technologies especially across this life cycle.",
+      "words": []
+    },
+    {
+      "start": 367.56,
+      "end": 373.40000000000003,
+      "text": "However as you see in the sort of orange jagged line there the current state when it comes to",
+      "words": []
+    },
+    {
+      "start": 373.40000000000003,
+      "end": 378.76,
+      "text": "data flow and data management is that the information that flows across project life cycles is pretty",
+      "words": []
+    },
+    {
+      "start": 378.76,
+      "end": 384.68,
+      "text": "jagged and inconsistent there's different systems and stakeholders and as Jade mentioned there's a",
+      "words": []
+    },
+    {
+      "start": 384.68,
+      "end": 391.0,
+      "text": "mix between analog and digital solutions so today we know that stakeholders manage this data in a",
+      "words": []
+    },
+    {
+      "start": 391.0,
+      "end": 396.6,
+      "text": "really disconnected way and there's data loss at different points across this life cycle. This",
+      "words": []
+    },
+    {
+      "start": 396.6,
+      "end": 402.2,
+      "text": "disconnect prohibits sustainability outcomes and compromises the environmental targets we're setting.",
+      "words": []
+    },
+    {
+      "start": 405.72,
+      "end": 413.56,
+      "text": "Thank you master and absolutely anything to bring that back to the current process in terms of",
+      "words": []
+    },
+    {
+      "start": 413.56,
+      "end": 420.04,
+      "text": "what this looks like on silent and why these disconnects happen between those phases is that when",
+      "words": []
+    },
+    {
+      "start": 420.04,
+      "end": 426.36,
+      "text": "we think about how projects currently move between design and construction we have incredibly",
+      "words": []
+    },
+    {
+      "start": 426.36,
+      "end": 432.6,
+      "text": "complex and comprehensive information data and magic systems held within tools like REVIT",
+      "words": []
+    },
+    {
+      "start": 433.24,
+      "end": 438.6,
+      "text": "and then when we come to the building phase we've got a whole suite of tools and intelligence that's",
+      "words": []
+    },
+    {
+      "start": 438.6,
+      "end": 444.6,
+      "text": "held within Autodesk former and specifically within former build in this instance and what actually",
+      "words": []
+    },
+    {
+      "start": 444.6,
+      "end": 451.88,
+      "text": "happens is that with all the information and context that's provided in tools such as REVIT when it",
+      "words": []
+    },
+    {
+      "start": 451.88,
+      "end": 459.24,
+      "text": "comes to former build the GCs on site and the subcontractors are needed to input information on these",
+      "words": []
+    },
+    {
+      "start": 459.24,
+      "end": 467.56,
+      "text": "material deliveries and other workings on site and input information manually and so between",
+      "words": []
+    },
+    {
+      "start": 467.56,
+      "end": 472.2,
+      "text": "let's take the materials as the example between all the data that's input and all the issues",
+      "words": []
+    },
+    {
+      "start": 472.2,
+      "end": 478.52,
+      "text": "of risks that are being flagged not only is that reliant on manual efforts and trust within the",
+      "words": []
+    },
+    {
+      "start": 478.52,
+      "end": 484.84000000000003,
+      "text": "supply chain to input at the right time there is there is also no cross check that's happening",
+      "words": []
+    },
+    {
+      "start": 484.84000000000003,
+      "end": 491.56,
+      "text": "between these two systems at least not in a streamlined way as a this is exactly why we have these",
+      "words": []
+    },
+    {
+      "start": 491.56,
+      "end": 496.68,
+      "text": "data drop-offs between phases and why information is lost and we don't have the continuity that helps",
+      "words": []
+    },
+    {
+      "start": 496.68,
+      "end": 501.64,
+      "text": "prevent rework and ultimately support the overall delivery efficiency of delivery on site",
+      "words": []
+    },
+    {
+      "start": 503.08,
+      "end": 508.84000000000003,
+      "text": "where QFIRS system comes into this and how this how this manifests within the Autodesk ecosystem",
+      "words": []
+    },
+    {
+      "start": 509.48,
+      "end": 516.28,
+      "text": "is that QFIRS designs to be that sense check in between by helping teams to better and easily capture",
+      "words": []
+    },
+    {
+      "start": 516.28,
+      "end": 521.72,
+      "text": "data on all those materials without having the manual effort to input to different systems",
+      "words": []
+    },
+    {
+      "start": 522.36,
+      "end": 529.48,
+      "text": "and also to do their sense check on whether those original designs are actually aligned with",
+      "words": []
+    },
+    {
+      "start": 529.48,
+      "end": 534.44,
+      "text": "the deliveries that are arriving and the materials and the materials compliance around them",
+      "words": []
+    },
+    {
+      "start": 535.72,
+      "end": 543.96,
+      "text": "and so as a QFIRO can support this process in a much more easy fashion to take us from that",
+      "words": []
+    },
+    {
+      "start": 543.96,
+      "end": 547.32,
+      "text": "and Autodesk to a more digital one and better surface some of these insights",
+      "words": []
+    },
+    {
+      "start": 547.88,
+      "end": 553.6400000000001,
+      "text": "in terms of the data that's extracted from some of these documents and just describe a little",
+      "words": []
+    },
+    {
+      "start": 553.6400000000001,
+      "end": 558.9200000000001,
+      "text": "bit more around that the information is contained on the deliberated as themselves will give",
+      "words": []
+    },
+    {
+      "start": 558.9200000000001,
+      "end": 564.84,
+      "text": "basic information on the item that's arrived the description of the material the quantities",
+      "words": []
+    },
+    {
+      "start": 564.84,
+      "end": 569.48,
+      "text": "the subcontractors or suppliers that that comes from and maybe some addresses within there as well",
+      "words": []
+    },
+    {
+      "start": 570.44,
+      "end": 575.8800000000001,
+      "text": "what QFIRS aim to do in the first instance is to extract as much content and information from",
+      "words": []
+    },
+    {
+      "start": 575.88,
+      "end": 582.04,
+      "text": "those documents as we can without manual intervention and then automatically enrich that data",
+      "words": []
+    },
+    {
+      "start": 582.6,
+      "end": 587.24,
+      "text": "by understanding the relevant certificates that might be associated with those suppliers that",
+      "words": []
+    },
+    {
+      "start": 587.24,
+      "end": 592.28,
+      "text": "have been named to understand the carbon and calculate the carbon associated with those journeys",
+      "words": []
+    },
+    {
+      "start": 592.28,
+      "end": 598.92,
+      "text": "as well as the materials and also as you can see from the bottom of the screen here to make that",
+      "words": []
+    },
+    {
+      "start": 598.92,
+      "end": 606.12,
+      "text": "link make that connection between the material specification and this delivered item that has",
+      "words": []
+    },
+    {
+      "start": 606.12,
+      "end": 612.76,
+      "text": "now arrived on the job site and so all of this rich contextual information on the right hand side",
+      "words": []
+    },
+    {
+      "start": 612.76,
+      "end": 618.8399999999999,
+      "text": "is all extracted automatically simply from a photograph that's taken off the paper ticket or an",
+      "words": []
+    },
+    {
+      "start": 618.8399999999999,
+      "end": 621.24,
+      "text": "emailed copy in of the electronic ticket",
+      "words": []
+    },
+    {
+      "start": 622.12,
+      "end": 629.8,
+      "text": "that's the first layer the second layer then comes in to assess where those discrepancies exist",
+      "words": []
+    },
+    {
+      "start": 629.8,
+      "end": 636.76,
+      "text": "between that original material requirement or design requirement and of course what's actually",
+      "words": []
+    },
+    {
+      "start": 636.76,
+      "end": 643.16,
+      "text": "arrived so it's this intelligence layer that really supports teams and then being able to act to",
+      "words": []
+    },
+    {
+      "start": 643.16,
+      "end": 650.52,
+      "text": "try and prevent that mismatch material or that prohibited substance or supplier from being implemented",
+      "words": []
+    },
+    {
+      "start": 650.6,
+      "end": 653.88,
+      "text": "within or material from being installed within an again project",
+      "words": []
+    },
+    {
+      "start": 655.72,
+      "end": 662.36,
+      "text": "as though the benefits behind this and behind what a system like key flow in the AI that",
+      "words": []
+    },
+    {
+      "start": 662.36,
+      "end": 669.16,
+      "text": "underpins it can do is do automatically highlight these risks prevent those mistakes and also support",
+      "words": []
+    },
+    {
+      "start": 669.16,
+      "end": 675.4,
+      "text": "with that rich data the embodied carbon the transport carbon that exists within this material's",
+      "words": []
+    },
+    {
+      "start": 675.48,
+      "end": 681.16,
+      "text": "applied chain and by preventing rework prevent the unnecessary wastage that then happens on these jobs",
+      "words": []
+    },
+    {
+      "start": 681.16,
+      "end": 689.4,
+      "text": "as well so the integration with form and build and what that looks like is a relatively straightforward",
+      "words": []
+    },
+    {
+      "start": 689.4,
+      "end": 695.88,
+      "text": "connection between deploying Qflow initially on job sites and capturing the data on those materials",
+      "words": []
+    },
+    {
+      "start": 695.88,
+      "end": 700.92,
+      "text": "through these photographs through these emailed copies and then Qflow during the heavy lifting",
+      "words": []
+    },
+    {
+      "start": 701.0,
+      "end": 707.88,
+      "text": "of extracting that text keeping that data within the Qflow system and then taking out the highlighted",
+      "words": []
+    },
+    {
+      "start": 707.88,
+      "end": 714.4399999999999,
+      "text": "risks and issues that exist and sending those directly into form a build so that those issues can",
+      "words": []
+    },
+    {
+      "start": 714.4399999999999,
+      "end": 720.52,
+      "text": "then be can then trigger other actions within the form of ecosystem in terms of how those risks",
+      "words": []
+    },
+    {
+      "start": 720.52,
+      "end": 727.9599999999999,
+      "text": "can be managed and again better aligning the better aligning the design intent from systems that",
+      "words": []
+    },
+    {
+      "start": 728.0400000000001,
+      "end": 732.76,
+      "text": "just rev it with the reality of what's been installed and delivered within form a build.",
+      "words": []
+    },
+    {
+      "start": 734.0400000000001,
+      "end": 738.76,
+      "text": "Beyond this we're hoping to create an additional intelligence there where more information",
+      "words": []
+    },
+    {
+      "start": 738.76,
+      "end": 743.48,
+      "text": "insights that are surfaced from the data being collected within Qflow will manifest within",
+      "words": []
+    },
+    {
+      "start": 743.48,
+      "end": 748.6800000000001,
+      "text": "form a build and other areas within the Autodesk ecosystem as well as directly putting information",
+      "words": []
+    },
+    {
+      "start": 748.6800000000001,
+      "end": 753.24,
+      "text": "on design intent from different Autodesk systems such as rev it to then career at the",
+      "words": []
+    },
+    {
+      "start": 753.24,
+      "end": 759.24,
+      "text": "complete closed workflow between what we designed what's been installed and what's been delivered",
+      "words": []
+    },
+    {
+      "start": 759.24,
+      "end": 762.76,
+      "text": "the discrepancies and then learning from that moving forwards as well.",
+      "words": []
+    },
+    {
+      "start": 765.32,
+      "end": 771.72,
+      "text": "And so to paint this into context within the form a ecosystem this is specifically focused on",
+      "words": []
+    },
+    {
+      "start": 771.72,
+      "end": 779.0,
+      "text": "the build phase so by leveraging data from one system and incorporating that within the form a",
+      "words": []
+    },
+    {
+      "start": 779.0,
+      "end": 788.12,
+      "text": "ecosystem it means that other actions can then be triggered beyond the raw data itself so",
+      "words": []
+    },
+    {
+      "start": 788.12,
+      "end": 794.6,
+      "text": "being able to assign tasks to who's going to be addressing those risks and managing the material",
+      "words": []
+    },
+    {
+      "start": 794.6,
+      "end": 802.44,
+      "text": "supply chain supporting with learning this within Autodesk own AI from that same data and how can",
+      "words": []
+    },
+    {
+      "start": 802.44,
+      "end": 806.92,
+      "text": "we use that to again better reform new projects in terms of the potential risks and",
+      "words": []
+    },
+    {
+      "start": 807.56,
+      "end": 812.12,
+      "text": "and other learnings that can support program delivery in the longer term.",
+      "words": []
+    },
+    {
+      "start": 813.0,
+      "end": 817.0799999999999,
+      "text": "So all of this is very much around how can we again as Martin mentioned earlier as well",
+      "words": []
+    },
+    {
+      "start": 817.7199999999999,
+      "end": 822.1999999999999,
+      "text": "better connect data between these phases so we don't have the stop-offs and that we can actually",
+      "words": []
+    },
+    {
+      "start": 822.1999999999999,
+      "end": 824.4399999999999,
+      "text": "deliver the outcomes of these projects that we're intending to.",
+      "words": []
+    },
+    {
+      "start": 827.4,
+      "end": 831.9599999999999,
+      "text": "So I'll bring us back to this view on ideal state and where we're heading.",
+      "words": []
+    },
+    {
+      "start": 832.2,
+      "end": 839.48,
+      "text": "Currently things are disconnected and it results in things like rework and waste and general",
+      "words": []
+    },
+    {
+      "start": 839.48,
+      "end": 845.8000000000001,
+      "text": "project risk but we're developing solutions for that improved data continuity and addressing",
+      "words": []
+    },
+    {
+      "start": 845.8000000000001,
+      "end": 850.44,
+      "text": "interoperability between solutions and external ecosystems of data and services.",
+      "words": []
+    },
+    {
+      "start": 850.44,
+      "end": 856.0400000000001,
+      "text": "Qflow is a great example because with these types of integrations we can expand to other",
+      "words": []
+    },
+    {
+      "start": 856.4399999999999,
+      "end": 862.5999999999999,
+      "text": "sources of data sources of services and improve data connectivity and data traceability",
+      "words": []
+    },
+    {
+      "start": 862.5999999999999,
+      "end": 866.12,
+      "text": "that will ultimately help achieve more sustainable outcomes.",
+      "words": []
+    },
+    {
+      "start": 866.12,
+      "end": 872.04,
+      "text": "The Qflow solution really supports the Autodesk vision by enabling this continuity between people",
+      "words": []
+    },
+    {
+      "start": 872.04,
+      "end": 873.7199999999999,
+      "text": "processes and technology.",
+      "words": []
+    },
+    {
+      "start": 880.04,
+      "end": 884.4399999999999,
+      "text": "I think this ties on incredibly nicely when we think about all this data and the context of the",
+      "words": []
+    },
+    {
+      "start": 884.44,
+      "end": 889.8800000000001,
+      "text": "Gauntwred. Now of course for those of you who are familiar the Gauntwred is a specific requirement.",
+      "words": []
+    },
+    {
+      "start": 889.8800000000001,
+      "end": 894.2,
+      "text": "There's come out the Building Safety Act in the UK but ultimately the principles are",
+      "words": []
+    },
+    {
+      "start": 895.4000000000001,
+      "end": 901.24,
+      "text": "widely applicable to all kinds of different construction activities where we need to have this",
+      "words": []
+    },
+    {
+      "start": 901.24,
+      "end": 907.32,
+      "text": "consistent flow between between the original plans and specifications and any decisions that",
+      "words": []
+    },
+    {
+      "start": 907.32,
+      "end": 914.12,
+      "text": "are taken throughout the duration of a project that can help avoid in this case the risk",
+      "words": []
+    },
+    {
+      "start": 914.12,
+      "end": 919.48,
+      "text": "detents who are then utilising other buildings or residential spaces or otherwise.",
+      "words": []
+    },
+    {
+      "start": 920.36,
+      "end": 923.88,
+      "text": "But also in general beyond the health and safety implications of having",
+      "words": []
+    },
+    {
+      "start": 923.88,
+      "end": 927.72,
+      "text": "better data continuity to Martha's point around the other sustainability outcomes.",
+      "words": []
+    },
+    {
+      "start": 928.28,
+      "end": 934.76,
+      "text": "This isn't just around preventing the avoidable errors and the costs or liability associated",
+      "words": []
+    },
+    {
+      "start": 934.76,
+      "end": 940.12,
+      "text": "with that. It is also around preventing the unnecessary wasteage and costs associated with this as well.",
+      "words": []
+    },
+    {
+      "start": 940.76,
+      "end": 947.48,
+      "text": "At the moment we already know for example that 14% of materials arriving on different",
+      "words": []
+    },
+    {
+      "start": 947.48,
+      "end": 953.48,
+      "text": "job sites are going directly into waste and so there are direct margin implications on",
+      "words": []
+    },
+    {
+      "start": 953.48,
+      "end": 960.2,
+      "text": "live job sites to making sure that we have that continuity of data and the continuity of",
+      "words": []
+    },
+    {
+      "start": 960.2,
+      "end": 963.64,
+      "text": "information to help make the best decisions and to help make sure that we're delivering",
+      "words": []
+    },
+    {
+      "start": 963.8,
+      "end": 965.08,
+      "text": "an accordance with what we set out to.",
+      "words": []
+    },
+    {
+      "start": 967.64,
+      "end": 971.48,
+      "text": "And so time is back to the original example we heard at the beginning around the",
+      "words": []
+    },
+    {
+      "start": 973.0,
+      "end": 977.08,
+      "text": "simplistic problem of the wrong aggregate being installed and the problems that created",
+      "words": []
+    },
+    {
+      "start": 977.64,
+      "end": 981.24,
+      "text": "with systems that can operate together such as Qflow and Autodesk former.",
+      "words": []
+    },
+    {
+      "start": 982.12,
+      "end": 988.52,
+      "text": "What we see happening is an avoidance of these issues that are being raised and avoidance",
+      "words": []
+    },
+    {
+      "start": 988.6,
+      "end": 993.3199999999999,
+      "text": "of the risk of rework and delays to the program and other implications on the project",
+      "words": []
+    },
+    {
+      "start": 993.3199999999999,
+      "end": 1000.92,
+      "text": "and ultimately avoiding the 1 million claim that can come about from again a very simple problem",
+      "words": []
+    },
+    {
+      "start": 1000.92,
+      "end": 1005.56,
+      "text": "that in this instance can actually be tackled with quite a simple solution involving the",
+      "words": []
+    },
+    {
+      "start": 1005.56,
+      "end": 1012.12,
+      "text": "connectivity between these two systems. So thank you very much for listening and we hope you",
+      "words": []
+    },
+    {
+      "start": 1012.12,
+      "end": 1013.3199999999999,
+      "text": "enjoy the rest of the sessions.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:59:23.119383+00:00"
+}

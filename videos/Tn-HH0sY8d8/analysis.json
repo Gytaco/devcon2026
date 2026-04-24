@@ -1,0 +1,83 @@
+{
+  "video_id": "Tn-HH0sY8d8",
+  "demo_timestamps": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "description": "Bosch's process for automating fire alarm system proposals using agentic systems."
+    },
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "description": "Transform 2D plans into 3D models using Autodesk agents for system design."
+    },
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "description": "Design a table in Fusion using AI tools"
+    }
+  ],
+  "themes": [
+    "AI agents in enterprise",
+    "Automation of business processes",
+    "Partnerships in AI implementation",
+    "AI integration in business processes",
+    "Enterprise AI strategies and challenges",
+    "Data strategy and architecture in AI",
+    "Integration of AI agents in enterprise systems",
+    "Command and control in building automation",
+    "Advancements in software development practices with AI"
+  ],
+  "client_mentions": [
+    {
+      "name": "Novo Nordus",
+      "context": "Case study reducing clinical trial reporting from 10 weeks to 10 minutes.",
+      "timestamp": 0.03
+    },
+    {
+      "name": "Bosch",
+      "context": "Automating system design and operations in building solutions.",
+      "timestamp": 0.05
+    },
+    {
+      "name": "Microsoft",
+      "context": "Using Microsoft Foundry for AI capabilities",
+      "timestamp": 1164.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "Autodesk agents",
+      "is_api": false,
+      "timestamp": 0.1
+    },
+    {
+      "name": "Fusion",
+      "is_api": false,
+      "timestamp": 1716.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "AI agents",
+      "category": "agent",
+      "context": "Used at Bosch for automating fire alarm system proposals and converting 2D to 3D models.",
+      "timestamp": 0.05
+    },
+    {
+      "name": "Copilot",
+      "category": "agent",
+      "context": "System planner co-pilot for handling tender requests.",
+      "timestamp": 0.09
+    },
+    {
+      "name": "IoT",
+      "category": "other",
+      "context": "Used for proactive monitoring and maintenance",
+      "timestamp": 1494.0
+    }
+  ],
+  "summary": "The video discusses the integration of AI agents in enterprise settings, emphasizing the business case for moving beyond the proof of concept stage and focusing on data strategies, ethical AI practices, and trusted infrastructures. It highlights examples from companies like Bosch, Novo Nordus, and Autodesk, showcasing uses of AI for automation, design, operational efficiencies, and time-saving in clinical trials, while encouraging exploration despite potential risks to achieve reliable business outcomes.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T21:37:18.492421+00:00"
+}

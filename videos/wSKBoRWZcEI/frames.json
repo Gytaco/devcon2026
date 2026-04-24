@@ -1,0 +1,224 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wSKBoRWZcEI\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide shows today's speakers at an Autodesk DevCon event with their names and titles.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Today's Speakers"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wSKBoRWZcEI\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide about product-market fit, including key points such as right product, market, price, and delivery.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "Product-Market Fit"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wSKBoRWZcEI\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation discussing wrong delivery and stalled growth of a structural inspection tracking tool.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Wrong Delivery, Stalled Growth",
+        "Structural inspection tracking tool",
+        "Adoption stalls. Not the right delivery"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wSKBoRWZcEI\\frames\\frame_000007.jpg",
+      "timestamp_seconds": 180.0,
+      "frame_index": 7,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide discussing a model with three decisions: Distribution Model, Pricing Model, and Value Alignment.",
+      "products_visible": [
+        "AUTODESK",
+        "DevCon"
+      ],
+      "ui_elements": [
+        "Three Decisions, One Model",
+        "Distribution Model",
+        "Pricing Model",
+        "Value Alignment"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wSKBoRWZcEI\\frames\\frame_000015.jpg",
+      "timestamp_seconds": 420.0,
+      "frame_index": 15,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'Distribution Decision Matrix' lists factors for mapping constraints to distribution methods.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Worksheet: Distribution Decision Matrix",
+        "File sizes and data intensity",
+        "Offline access requirements",
+        "Compute and latency needs",
+        "Target user persona",
+        "Current infrastructure"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wSKBoRWZcEI\\frames\\frame_000023.jpg",
+      "timestamp_seconds": 660.0,
+      "frame_index": 23,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing two approaches to pricing: Cost-Plus and Value-Based, including their definitions and implications.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "The Value Question",
+        "Cost-Plus",
+        "Value-Based",
+        "Good Start"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wSKBoRWZcEI\\frames\\frame_000027.jpg",
+      "timestamp_seconds": 780.0,
+      "frame_index": 27,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation with the title 'Experiment, Don\u2019t Guess' and a message about not needing to get it right on day one.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Experiment, Don\u2019t Guess",
+        "You don\u2019t have to get it right on day one."
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wSKBoRWZcEI\\frames\\frame_000029.jpg",
+      "timestamp_seconds": 840.0,
+      "frame_index": 29,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon discussing product-market fit, showing key points for achieving the right fit with a graphic of a puzzle and target.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Product-Market Fit \u2014 The Full Picture",
+        "Same product, different delivery and price, transformed business."
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wSKBoRWZcEI\\frames\\frame_000031.jpg",
+      "timestamp_seconds": 900.0,
+      "frame_index": 31,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'APS Business Model and Experience' is shown, related to Autodesk's DevCon event.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "APS Business Model and Experience"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wSKBoRWZcEI\\frames\\frame_000032.jpg",
+      "timestamp_seconds": 930.0,
+      "frame_index": 32,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents information about ongoing free usage and flexible payment methods, including Pre-paid Tokens, Pay as You Go, and APS Free.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Ongoing free usage and flexible payment methods",
+        "Pre-paid (Tokens)",
+        "Pay as You Go",
+        "APS Free"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wSKBoRWZcEI\\frames\\frame_000039.jpg",
+      "timestamp_seconds": 1140.0,
+      "frame_index": 39,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon showing information about data models offered as included usage, with a focus on subscriptions and pay-as-you-go options.",
+      "products_visible": [
+        "Autodesk",
+        "AEC Data Model",
+        "Manufacturing Data Model",
+        "Autodesk Build"
+      ],
+      "ui_elements": [
+        "Example",
+        "Product",
+        "Subscribers",
+        "Non-subscribers",
+        "Included usage"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wSKBoRWZcEI\\frames\\frame_000040.jpg",
+      "timestamp_seconds": 1170.0,
+      "frame_index": 40,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide discussing who pays for APS usage, showing options for ISV and customer payment responsibilities.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "App",
+        "APIs",
+        "Customer",
+        "ISV Pays",
+        "Customer Pays"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wSKBoRWZcEI\\frames\\frame_000051.jpg",
+      "timestamp_seconds": 1500.0,
+      "frame_index": 51,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide about the Developer Vanguard Program with participation options and active beta projects.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Roadmap readouts",
+        "Talk to product teams",
+        "Early access",
+        "Give feedback on designs",
+        "Influence product direction",
+        "Join Now"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:54:59.351090+00:00"
+}

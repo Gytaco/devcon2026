@@ -1,0 +1,55 @@
+{
+  "video_id": "U0dof8v0tkQ",
+  "demo_timestamps": [
+    {
+      "start": 92.0,
+      "end": 255.0,
+      "description": "Demo of 2050 Material agent showing file uploads, 3D design modeling, and automatic carbon emission factor matching for 3D design items."
+    },
+    {
+      "start": 411.0,
+      "end": 465.0,
+      "description": "Using AI to generate template emails for team communication about carbon calculations and areas for improvement."
+    }
+  ],
+  "themes": [
+    "AI automation in sustainable design",
+    "Integrating sustainability data in design workflows"
+  ],
+  "client_mentions": [
+    {
+      "name": "2050 Materials",
+      "context": "Company focused on sustainability data integration within design workflows.",
+      "timestamp": 6.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 111.0
+    },
+    {
+      "name": "APS",
+      "is_api": true,
+      "timestamp": 861.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "GPT",
+      "category": "llm",
+      "context": "Chat interface similar to GPT used for interacting with the sustainability agent.",
+      "timestamp": 285.0
+    },
+    {
+      "name": "LLM",
+      "category": "llm",
+      "context": "Used for classifying components and providing confidence scores.",
+      "timestamp": 369.0
+    }
+  ],
+  "summary": "The video presents 2050 Materials' AI-driven agent for integrating sustainability data directly into design workflows. It demonstrates the automation of carbon analysis in 3D design environments such as Revit, utilizing AI technologies to match design components with carbon emission factors and facilitating communication through AI-generated emails. The aim is to empower designers to make sustainable decisions without specialized sustainability knowledge.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T05:26:48.551149+00:00"
+}

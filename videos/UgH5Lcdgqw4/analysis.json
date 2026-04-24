@@ -1,0 +1,74 @@
+{
+  "video_id": "UgH5Lcdgqw4",
+  "demo_timestamps": [
+    {
+      "start": 842.0,
+      "end": 1257.0,
+      "description": "Demonstration of web application with wall designer, unit assembler, and building designer."
+    },
+    {
+      "start": 1134.0,
+      "end": 1285.0,
+      "description": "Configuration of walls in unit assembler, creating and using variants."
+    },
+    {
+      "start": 1080.0,
+      "end": 1292.0,
+      "description": "Using JSON data to generate geometry in Forma and Revit."
+    },
+    {
+      "start": 1215.0,
+      "end": 1325.0,
+      "description": "Utilizing points to position Revit elements and flex global parameters in line with Forma design"
+    }
+  ],
+  "themes": [
+    "Building Configurator Automation",
+    "Integration of Design and Fabrication Tools",
+    "Use of APIs for Customized Workflows",
+    "Integration of design and fabrication tools",
+    "Smarter building systems and workflow optimization"
+  ],
+  "client_mentions": [],
+  "autodesk_products": [
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 643.0
+    },
+    {
+      "name": "Inventor",
+      "is_api": false,
+      "timestamp": 496.0
+    },
+    {
+      "name": "Forma",
+      "is_api": false,
+      "timestamp": 1105.0
+    },
+    {
+      "name": "Dynamo",
+      "is_api": false,
+      "timestamp": 1093.0
+    },
+    {
+      "name": "APS",
+      "is_api": true,
+      "timestamp": 773.0
+    },
+    {
+      "name": "InForm Design",
+      "is_api": true,
+      "timestamp": 1321.0
+    },
+    {
+      "name": "Model Derivative",
+      "is_api": true,
+      "timestamp": 1425.0
+    }
+  ],
+  "ai_technologies": [],
+  "summary": "The video demonstrates building smarter building configurators by integrating Autodesk Informed Design and APS, focusing on design automation with architectural and fabrication tools using new APIs. It showcases creating product geometries, using web configurators, and employing JSON data for seamless integration into platforms like Forma and Revit, emphasizing synchronized building geometries, shared rule frameworks, and future enhancements like structural analysis and design optimization.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:39:24.808606+00:00"
+}

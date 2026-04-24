@@ -1,0 +1,39 @@
+{
+  "video_id": "Mz_UVa9DFpE",
+  "demo_timestamps": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "description": "Demonstrating the next generation Autodesk App Store platform enhancements"
+    },
+    {
+      "start": 0.04,
+      "end": 0.05,
+      "description": "Describing improvements in search and navigation and a redesigned product details page"
+    }
+  ],
+  "themes": [
+    "Autodesk App Store enhancements",
+    "AI-driven discovery",
+    "Publisher growth and market expansion"
+  ],
+  "client_mentions": [],
+  "autodesk_products": [
+    {
+      "name": "APS",
+      "is_api": false,
+      "timestamp": 0.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "Autodesk Assistant",
+      "category": "agent",
+      "context": "Conversational AI to improve solution discovery",
+      "timestamp": 0.06
+    }
+  ],
+  "summary": "The video discusses the upcoming launch of the next generation Autodesk App Store, which aims to enhance user experience and boost publisher growth through improved search, navigation, and AI-driven discovery. It also highlights the introduction of an AI marketplace and Autodesk Assistant to aid in conversational solution discovery, thereby offering a significant advantage to early-adopting publishers.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:45:48.816946+00:00"
+}

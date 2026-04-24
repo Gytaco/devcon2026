@@ -1,0 +1,293 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UgH5Lcdgqw4\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide from an Autodesk DevCon presentation discussing building configurators using Informed Design and APS.",
+      "products_visible": [
+        "Autodesk",
+        "APS"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UgH5Lcdgqw4\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "This frame shows a presentation slide with speaker introductions and biographies at Autodesk DevCon.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UgH5Lcdgqw4\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide showing profiles of industry experts with information about their experience and specialties.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UgH5Lcdgqw4\\frames\\frame_000005.jpg",
+      "timestamp_seconds": 120.0,
+      "frame_index": 5,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide titled 'The problem' with images of a design interface, part of an Autodesk DevCon session.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "The problem"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UgH5Lcdgqw4\\frames\\frame_000007.jpg",
+      "timestamp_seconds": 180.0,
+      "frame_index": 7,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon discussing a problem related to building configuration and presenting some new solutions.",
+      "products_visible": [
+        "Autodesk",
+        "Dynamo"
+      ],
+      "ui_elements": [
+        "The problem",
+        "Some new solutions",
+        "Same Building Configuration Driven by Dynamo"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UgH5Lcdgqw4\\frames\\frame_000009.jpg",
+      "timestamp_seconds": 240.0,
+      "frame_index": 9,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide displays an overview for a session on Autodesk Inventor, with a list of requirements for material options and inputs.",
+      "products_visible": [
+        "Autodesk",
+        "Inventor"
+      ],
+      "ui_elements": [
+        "Overview for this session",
+        "Requirements for the material input forms / Inputs"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UgH5Lcdgqw4\\frames\\frame_000011.jpg",
+      "timestamp_seconds": 300.0,
+      "frame_index": 11,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide provides an overview of a session on a Configurator App involving Autodesk products like Inventor, Dynamo, and Revit.",
+      "products_visible": [
+        "Inventor",
+        "AUTODESK Informed Design",
+        "Dynamo",
+        "Revit",
+        "AUTODESK Forma"
+      ],
+      "ui_elements": [
+        "Overview for this session",
+        "Configurator App"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UgH5Lcdgqw4\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide shows an overview of a session on a configurator app, featuring Autodesk products like Inventor, Dynamo, and Revit.",
+      "products_visible": [
+        "Autodesk",
+        "Inventor",
+        "Revit",
+        "Dynamo",
+        "Forma"
+      ],
+      "ui_elements": [
+        "Configurator App",
+        "Overview for this session"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UgH5Lcdgqw4\\frames\\frame_000013.jpg",
+      "timestamp_seconds": 360.0,
+      "frame_index": 13,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses 'Parametric Panel Authoring in Inventor' and mentions key aspects like assembly-driven modeling and top-down control.",
+      "products_visible": [
+        "AUTODESK",
+        "Inventor"
+      ],
+      "ui_elements": [
+        "Parametric Panel Authoring in Inventor",
+        "The model behaves like a configurable product, not a static 3D mode or drawing"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UgH5Lcdgqw4\\frames\\frame_000018.jpg",
+      "timestamp_seconds": 510.0,
+      "frame_index": 18,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide from Autodesk DevCon discussing the process of moving from model to product definition with features like configurable products and cloud-based rule execution.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Product definitions",
+        "Parameters"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UgH5Lcdgqw4\\frames\\frame_000023.jpg",
+      "timestamp_seconds": 660.0,
+      "frame_index": 23,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide discussing Product-Driven Design & Documentation in Revit with points on loading products, configuring variants, and rules enforcement.",
+      "products_visible": [
+        "AUTODESK",
+        "Revit"
+      ],
+      "ui_elements": [
+        "Wall Configurator"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UgH5Lcdgqw4\\frames\\frame_000029.jpg",
+      "timestamp_seconds": 840.0,
+      "frame_index": 29,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon presenting the Web Configurator for product-driven building workflow, covering variant creation, unit assembly, and building configuration.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Web Configurator",
+        "Product-driven Building Workflow"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UgH5Lcdgqw4\\frames\\frame_000030.jpg",
+      "timestamp_seconds": 870.0,
+      "frame_index": 30,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon presentation shows the Web Configurator for product-driven building workflow with variant creation, unit assembly, and building configuration.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Customize panel within rules"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UgH5Lcdgqw4\\frames\\frame_000037.jpg",
+      "timestamp_seconds": 1080.0,
+      "frame_index": 37,
+      "category": "slides",
+      "keep": true,
+      "description": "The video frame displays a presentation slide explaining a 'Web Configurator' workflow for a product-driven building configuration.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Variant Creation",
+        "Unit Assembly",
+        "Building Configuration"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UgH5Lcdgqw4\\frames\\frame_000039.jpg",
+      "timestamp_seconds": 1140.0,
+      "frame_index": 39,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide discussing the transition from a web app to Forma using elements like Dynamo and JSON dictionaries.",
+      "products_visible": [
+        "Autodesk",
+        "Dynamo",
+        "JSON"
+      ],
+      "ui_elements": [
+        "JSON Dictionary",
+        "Select a floor"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UgH5Lcdgqw4\\frames\\frame_000043.jpg",
+      "timestamp_seconds": 1260.0,
+      "frame_index": 43,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide shows a presentation about moving from a web app to Revit using JSON and Dynamo with Autodesk Forma integration.",
+      "products_visible": [
+        "Autodesk Forma",
+        "Dynamo",
+        "Revit"
+      ],
+      "ui_elements": [
+        "DictionaryValueAtKey",
+        "JSON"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UgH5Lcdgqw4\\frames\\frame_000046.jpg",
+      "timestamp_seconds": 1350.0,
+      "frame_index": 46,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon detailing APIs for connecting various design tools like Inventor, Dynamo, Forma, Revit, and Custom Applications.",
+      "products_visible": [
+        "Autodesk",
+        "Inventor",
+        "Revit",
+        "Informed Design API",
+        "Forma",
+        "Web Configurator"
+      ],
+      "ui_elements": [
+        "Autodesk DevCon logo",
+        "High-Fidelity Manufacturing",
+        "Parametric Logic & Rules",
+        "Seamless CNC Output",
+        "Precise Shop Drawings",
+        "Rapid Engineering Revisions"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UgH5Lcdgqw4\\frames\\frame_000050.jpg",
+      "timestamp_seconds": 1470.0,
+      "frame_index": 50,
+      "category": "transition",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Make Anything"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:39:15.250234+00:00"
+}

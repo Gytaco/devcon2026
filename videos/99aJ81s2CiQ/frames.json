@@ -1,0 +1,187 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\99aJ81s2CiQ\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "This frame shows a presentation slide from an Autodesk DevCon event about ACC and AI at Sweco, discussing data insights with APS, ACC, and SwecoGPT.",
+      "products_visible": [
+        "Autodesk",
+        "APS",
+        "ACC",
+        "SwecoGPT"
+      ],
+      "ui_elements": [
+        "ACC + AI at Sweco:",
+        "From ISO 19650-Ready Data to Instant Insights with APS, ACC, and SwecoGPT"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\99aJ81s2CiQ\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide discussing the challenge of granular data in silos and using LLM to improve decision making.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "The challenge",
+        "ISO 19650",
+        "Granular data in separate silos",
+        "Using LLM to bridge the gap and improve decision making"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\99aJ81s2CiQ\\frames\\frame_000010.jpg",
+      "timestamp_seconds": 270.0,
+      "frame_index": 10,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents Sweco Netherlands' digital strategy, featuring tools like Autodesk Construction Cloud, ArcGIS, and SharePoint.",
+      "products_visible": [
+        "AUTODESK CONSTRUCTION CLOUD",
+        "ArcGIS",
+        "SharePoint",
+        "SwecoGPT",
+        "Sweco Data Market"
+      ],
+      "ui_elements": [
+        "working@sweco"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\99aJ81s2CiQ\\frames\\frame_000011.jpg",
+      "timestamp_seconds": 300.0,
+      "frame_index": 11,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation featuring a demo titled 'SwecoGPT & ACC, The demo' with an image of a cityscape.",
+      "products_visible": [
+        "AUTODESK",
+        "SwecoGPT",
+        "ACC"
+      ],
+      "ui_elements": [
+        "DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\99aJ81s2CiQ\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation showing a conceptual flow for AI chat and design software integration.",
+      "products_visible": [
+        "AUTODESK",
+        "SwecoGPT",
+        "APS",
+        "ACC"
+      ],
+      "ui_elements": [
+        "Conceptual flow",
+        "AI Chat & Model",
+        "Design Software"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\99aJ81s2CiQ\\frames\\frame_000013.jpg",
+      "timestamp_seconds": 360.0,
+      "frame_index": 13,
+      "category": "slides",
+      "keep": true,
+      "description": "This frame shows a presentation slide about a Sustainability Assistant use case for design sustainability scans in BIM models.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Building design sustainability scan",
+        "Sustainability scans on model data"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\99aJ81s2CiQ\\frames\\frame_000017.jpg",
+      "timestamp_seconds": 480.0,
+      "frame_index": 17,
+      "category": "demo",
+      "keep": true,
+      "description": "A presentation frame showing an Autodesk demo with a 3D model and material taxonomy details.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Chat",
+        "Rooms",
+        "AI Assistant",
+        "Dutch material taxonomy examples"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\99aJ81s2CiQ\\frames\\frame_000018.jpg",
+      "timestamp_seconds": 510.0,
+      "frame_index": 18,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a live demo of a 3D model analysis with details about wall materials in a construction model, presented at Autodesk DevCon.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "AI Assistant",
+        "Chat",
+        "Rooms"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\99aJ81s2CiQ\\frames\\frame_000023.jpg",
+      "timestamp_seconds": 660.0,
+      "frame_index": 23,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame showcases an Autodesk DevCon presentation with a 3D model of construction elements and an AI assistant chat on the right side.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "AI Assistant",
+        "Chat",
+        "Rooms"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\99aJ81s2CiQ\\frames\\frame_000028.jpg",
+      "timestamp_seconds": 810.0,
+      "frame_index": 28,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide shows future capabilities, focusing on cross-system insights and secure AI integration, enhancing data-driven project quality.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "BIM",
+        "GIS",
+        "ArcGIS",
+        "SharePoint"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\99aJ81s2CiQ\\frames\\frame_000030.jpg",
+      "timestamp_seconds": 870.0,
+      "frame_index": 30,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide with Autodesk branding and slogan 'Make Anything' displayed, likely an introduction or branding slide.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-23T00:01:28.697492+00:00"
+}
