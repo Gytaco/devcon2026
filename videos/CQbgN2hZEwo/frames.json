@@ -1,0 +1,352 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CQbgN2hZEwo\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide displaying the Safe Harbor Statement during an Autodesk DevCon event.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Safe Harbor Statement",
+        "www.sec.gov"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CQbgN2hZEwo\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation agenda with topics related to technology development, part of an Autodesk DevCon event.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Agenda",
+        "PEC",
+        "The Problem on the Path to Autonomy",
+        "Model Context Protocol Server",
+        "Implementation",
+        "What's Next"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CQbgN2hZEwo\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation showing information about PEC, a company focusing on energizing communities and infrastructure solutions.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "PEC logo",
+        "Professional Engineering Consultants",
+        "text about PEC",
+        "building photo"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CQbgN2hZEwo\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "This frame shows a slide from an Autodesk DevCon presentation featuring PEC projects and various construction images.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "DevCon",
+        "PEC Projects"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CQbgN2hZEwo\\frames\\frame_000005.jpg",
+      "timestamp_seconds": 120.0,
+      "frame_index": 5,
+      "category": "slides",
+      "keep": true,
+      "description": "The video frame shows a slide with the title 'POC Team and Contributors' alongside team member names and titles.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Bobby Goldsberry",
+        "Don VenJohn",
+        "Luis Salmeron",
+        "AJ Jefferson",
+        "Colby Turybury",
+        "David Johnson",
+        "Shaun Conway"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CQbgN2hZEwo\\frames\\frame_000006.jpg",
+      "timestamp_seconds": 150.0,
+      "frame_index": 6,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide discussing the limitations of AI with highlighted bullet points on data connectivity, program usage, and connection management.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "AI is limited by",
+        "What data it can connect to",
+        "What programs it can use",
+        "How safely and consistently those connections can be managed"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CQbgN2hZEwo\\frames\\frame_000008.jpg",
+      "timestamp_seconds": 210.0,
+      "frame_index": 8,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses challenges in managing project data, including issues and ways to adhere to standards and processes. Autodesk DevCon branding is visible.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Challenges in Managing Project Data",
+        "Issues",
+        "Ways to adhere to standards and processes"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CQbgN2hZEwo\\frames\\frame_000011.jpg",
+      "timestamp_seconds": 300.0,
+      "frame_index": 11,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation, discussing workflow development and requirements for Autodesk Construction Cloud.",
+      "products_visible": [
+        "Autodesk Construction Cloud"
+      ],
+      "ui_elements": [
+        "Developing a Workflow",
+        "Requirements"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CQbgN2hZEwo\\frames\\frame_000014.jpg",
+      "timestamp_seconds": 390.0,
+      "frame_index": 14,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide outlines phases and processes within a workflow involving LLM, ACC APIs, and reviews.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Trigger",
+        "LLM",
+        "ACC",
+        "Workflow",
+        "Report"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CQbgN2hZEwo\\frames\\frame_000017.jpg",
+      "timestamp_seconds": 480.0,
+      "frame_index": 17,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide with the text 'Model Context Protocol Server' and a speaker on stage, along with an 'AI' backdrop.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Model Context Protocol Server",
+        "AI"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CQbgN2hZEwo\\frames\\frame_000018.jpg",
+      "timestamp_seconds": 510.0,
+      "frame_index": 18,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide about getting started with MCP, which is a governed orchestration layer for AI agents, along with supplies and capabilities details.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Getting Started with MCP",
+        "MCP",
+        "AI Agent",
+        "APIs & Commands",
+        "Data",
+        "Login",
+        "Prompts"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CQbgN2hZEwo\\frames\\frame_000021.jpg",
+      "timestamp_seconds": 600.0,
+      "frame_index": 21,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide with code snippets related to tool definitions, focusing on project and review retrieval using APIs.",
+      "products_visible": [
+        "Autodesk",
+        "BIM360",
+        "Autodesk Construction Cloud"
+      ],
+      "ui_elements": [
+        "Tool Definitions"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CQbgN2hZEwo\\frames\\frame_000025.jpg",
+      "timestamp_seconds": 720.0,
+      "frame_index": 25,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide from an Autodesk DevCon presentation outlining several requirements including software independence and API access.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Requirements"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CQbgN2hZEwo\\frames\\frame_000029.jpg",
+      "timestamp_seconds": 840.0,
+      "frame_index": 29,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'Implementation' is shown alongside a lab environment with a person using a tablet.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Implementation"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CQbgN2hZEwo\\frames\\frame_000030.jpg",
+      "timestamp_seconds": 870.0,
+      "frame_index": 30,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation showing a list of Autodesk APIs such as Authentication APIs, Account Admin APIs, and others.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Autodesk APIs",
+        "API & SDK Documentation",
+        "Autodesk Platform Services (APS)"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CQbgN2hZEwo\\frames\\frame_000033.jpg",
+      "timestamp_seconds": 960.0,
+      "frame_index": 33,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation listing various tools like Revu Bluebeam APIs and Excel file handling methods.",
+      "products_visible": [
+        "AUTODESK",
+        "DevCon"
+      ],
+      "ui_elements": [
+        "Other Tools",
+        "Revu Bluebeam APIs",
+        "Get_Excel_Info",
+        "Read_Excel_Sheet",
+        "Download_ACC_Files",
+        "Read_ACC_Files",
+        "Read_Downloaded_File"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CQbgN2hZEwo\\frames\\frame_000036.jpg",
+      "timestamp_seconds": 1050.0,
+      "frame_index": 36,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discusses project file management at Autodesk DevCon, outlining file types and project phases.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Get Project Files"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CQbgN2hZEwo\\frames\\frame_000038.jpg",
+      "timestamp_seconds": 1110.0,
+      "frame_index": 38,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'Get Reviews' displays information about document reviews in an ACC account.",
+      "products_visible": [
+        "Autodesk DevCon"
+      ],
+      "ui_elements": [
+        "Get Reviews",
+        "ACC account",
+        "Mechanical Process Review"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CQbgN2hZEwo\\frames\\frame_000047.jpg",
+      "timestamp_seconds": 1380.0,
+      "frame_index": 47,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing a document comparison between files with a focus on structural checklists and schedules.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Document Compare",
+        "PEC logo"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CQbgN2hZEwo\\frames\\frame_000049.jpg",
+      "timestamp_seconds": 1440.0,
+      "frame_index": 49,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide from Autodesk DevCon discussing file searching with Tandem, alongside a data table with headings like 'Name' and 'Level'.",
+      "products_visible": [
+        "Autodesk Tandem"
+      ],
+      "ui_elements": [
+        "Tandem",
+        "ACC.Link",
+        "O&M Tandem folders"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CQbgN2hZEwo\\frames\\frame_000054.jpg",
+      "timestamp_seconds": 1590.0,
+      "frame_index": 54,
+      "category": "slides",
+      "keep": true,
+      "description": "A concluding slide from an Autodesk DevCon presentation discussing scaling AI and expertise.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Conclusion",
+        "AI that works",
+        "Expertise amplified",
+        "Foundation to scale"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:01:40.731976+00:00"
+}

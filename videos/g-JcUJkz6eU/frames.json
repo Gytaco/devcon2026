@@ -1,0 +1,318 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\g-JcUJkz6eU\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'Decarbon'Action' discussing APS-based carbon scenario comparison for water and waste infrastructures. It includes presenter details.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "Decarbon'Action",
+        "Building an APS-Based Carbon Scenario Comparison for Water & Waste Infrastructures"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\g-JcUJkz6eU\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide shows team speakers for Autodesk DevCon with names and titles for Gr\u00e9goire Courchel and Laurence Gauthier. There is also a note about making a pipeline between the BIM ecosystem and a GHG calculator.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Team speakers",
+        "COURCHEL, Gr\u00e9goire, M.Ing",
+        "GAUTHIER, Laurence"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\g-JcUJkz6eU\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide contains a quote from SUEZ Consulting about their mission toward sustainable infrastructures, presented during Autodesk DevCon.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "SUEZ Consulting mission statement"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\g-JcUJkz6eU\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide showing an agenda for a DevCon event, listing various topics related to their project.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Agenda"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\g-JcUJkz6eU\\frames\\frame_000005.jpg",
+      "timestamp_seconds": 120.0,
+      "frame_index": 5,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses the importance of lifecycle BIM in carbon emissions and project decisions.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Why this matters?",
+        "Life-cycle BIM",
+        "Design and Engineering",
+        "Construction",
+        "Operations"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\g-JcUJkz6eU\\frames\\frame_000009.jpg",
+      "timestamp_seconds": 240.0,
+      "frame_index": 9,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide from an Autodesk presentation discussing decarbonization challenges in wastewater and water treatment plants.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "DevCon",
+        "What are the Context and Challenges?",
+        "The challenge"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\g-JcUJkz6eU\\frames\\frame_000014.jpg",
+      "timestamp_seconds": 390.0,
+      "frame_index": 14,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'Decarbon\u2019Action : What\u2019s the goal?' detailing environmental goals and strategies using Autodesk Platform Services.",
+      "products_visible": [
+        "Autodesk Platform Services"
+      ],
+      "ui_elements": [
+        "Compare two (or more) design variants",
+        "Calculate GHG emissions",
+        "Make carbon impacts visible",
+        "Deliver an interactive interface"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\g-JcUJkz6eU\\frames\\frame_000020.jpg",
+      "timestamp_seconds": 570.0,
+      "frame_index": 20,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation showing a project timeline for developing a GHG calculator.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Timeline of the project",
+        "Initial Hackathon",
+        "Internal Development",
+        "Autodesk Accelerator Paris",
+        "Autodesk DevCon 2026",
+        "To be continued..."
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\g-JcUJkz6eU\\frames\\frame_000023.jpg",
+      "timestamp_seconds": 660.0,
+      "frame_index": 23,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon showcasing the 'LUMA Initiative' with diagrams explaining model scenarios and data flow.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "LUMA Initiative"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\g-JcUJkz6eU\\frames\\frame_000028.jpg",
+      "timestamp_seconds": 810.0,
+      "frame_index": 28,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing the LUMA Initiative with a handwritten diagram illustrating a conceptual process.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "LUMA Initiative",
+        "WORK IN PROGRESS"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\g-JcUJkz6eU\\frames\\frame_000031.jpg",
+      "timestamp_seconds": 900.0,
+      "frame_index": 31,
+      "category": "slides",
+      "keep": true,
+      "description": "This frame showcases various tools including Revit, Excel, Power BI, eveBIM, and VCAD used for BIM creation, carbon calculation, and dashboarding.",
+      "products_visible": [
+        "Autodesk",
+        "Revit",
+        "Excel",
+        "Power BI",
+        "eveBIM",
+        "VCAD"
+      ],
+      "ui_elements": [
+        "Tools",
+        "Creation of BIM models",
+        "Internal Carbon Calculator",
+        "PowerBI dashboard"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\g-JcUJkz6eU\\frames\\frame_000034.jpg",
+      "timestamp_seconds": 990.0,
+      "frame_index": 34,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon shows information about three APIs: Model Derivative API, Viewer SDK API, and Automation API.",
+      "products_visible": [
+        "Autodesk DevCon"
+      ],
+      "ui_elements": [
+        "Model Derivative API",
+        "Viewer SDK API",
+        "Automation API"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\g-JcUJkz6eU\\frames\\frame_000037.jpg",
+      "timestamp_seconds": 1080.0,
+      "frame_index": 37,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation shows the use of custom GPTs for low code development, detailing a process involving targeted extraction, data cleaning, structuring, and smart comparison.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Low Code : Our use of custom GPTs",
+        "INPUT",
+        "OUTPUT"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\g-JcUJkz6eU\\frames\\frame_000039.jpg",
+      "timestamp_seconds": 1140.0,
+      "frame_index": 39,
+      "category": "demo",
+      "keep": true,
+      "description": "A demonstration of Autodesk software with a 3D model being manipulated on screen.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Demonstration"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\g-JcUJkz6eU\\frames\\frame_000040.jpg",
+      "timestamp_seconds": 1170.0,
+      "frame_index": 40,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a demonstration of Autodesk software in use, with architectural designs displayed.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Demonstration",
+        "Model view",
+        "Project Browser"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\g-JcUJkz6eU\\frames\\frame_000041.jpg",
+      "timestamp_seconds": 1200.0,
+      "frame_index": 41,
+      "category": "demo",
+      "keep": true,
+      "description": "A demonstration screen showing a file explorer window during a presentation at Autodesk DevCon.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Demonstration",
+        "File Explorer"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\g-JcUJkz6eU\\frames\\frame_000047.jpg",
+      "timestamp_seconds": 1380.0,
+      "frame_index": 47,
+      "category": "demo",
+      "keep": true,
+      "description": "The video frame shows a demonstration involving spreadsheet data displayed on a computer screen, alongside a speaker.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Demonstration",
+        "Fichier",
+        "Accueil",
+        "Insertion",
+        "Page",
+        "Formules",
+        "Donn\u00e9es",
+        "R\u00e9vision",
+        "Affichage",
+        "Automatisation",
+        "Aide"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\g-JcUJkz6eU\\frames\\frame_000049.jpg",
+      "timestamp_seconds": 1440.0,
+      "frame_index": 49,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a software demonstration with a 3D model being manipulated in an Autodesk product interface.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Demonstration"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\g-JcUJkz6eU\\frames\\frame_000051.jpg",
+      "timestamp_seconds": 1500.0,
+      "frame_index": 51,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide titled 'Difficulties & Failures' outlines areas for improvement including software development background and IT security.",
+      "products_visible": [
+        "Autodesk",
+        "Visual Studio Code"
+      ],
+      "ui_elements": [
+        "Difficulties & Failures",
+        "What could be improved?"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:41:33.854233+00:00"
+}

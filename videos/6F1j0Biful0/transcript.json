@@ -1,0 +1,517 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 10.24,
+      "text": "Welcome back to the MCP workshop series.",
+      "words": []
+    },
+    {
+      "start": 10.24,
+      "end": 16.92,
+      "text": "Last time we covered the data pillar, understanding what types of data exist and how to evaluate",
+      "words": []
+    },
+    {
+      "start": 16.92,
+      "end": 17.92,
+      "text": "their quality.",
+      "words": []
+    },
+    {
+      "start": 17.92,
+      "end": 22.88,
+      "text": "Now, it's time to talk about what we can actually do with that data.",
+      "words": []
+    },
+    {
+      "start": 22.88,
+      "end": 26.400000000000002,
+      "text": "This is the second pillar, artificial intelligence.",
+      "words": []
+    },
+    {
+      "start": 26.4,
+      "end": 31.56,
+      "text": "Before we go any further, let's clear up a confusion that trips up almost everyone.",
+      "words": []
+    },
+    {
+      "start": 31.56,
+      "end": 35.519999999999996,
+      "text": "What's the difference between an algorithm and AI?",
+      "words": []
+    },
+    {
+      "start": 35.519999999999996,
+      "end": 39.96,
+      "text": "An algorithm follows a fixed series of steps to solve a task.",
+      "words": []
+    },
+    {
+      "start": 39.96,
+      "end": 43.84,
+      "text": "It always behaves the same way when provided with the same inputs.",
+      "words": []
+    },
+    {
+      "start": 43.84,
+      "end": 45.879999999999995,
+      "text": "Think of it like a recipe.",
+      "words": []
+    },
+    {
+      "start": 45.879999999999995,
+      "end": 49.32,
+      "text": "Same ingredients, same steps, same results.",
+      "words": []
+    },
+    {
+      "start": 49.32,
+      "end": 51.36,
+      "text": "Artificial intelligence is different.",
+      "words": []
+    },
+    {
+      "start": 51.36,
+      "end": 54.56,
+      "text": "AI uses data to improve over time.",
+      "words": []
+    },
+    {
+      "start": 54.56,
+      "end": 60.0,
+      "text": "It can adapt to new situations and make decisions without being explicitly programmed for each",
+      "words": []
+    },
+    {
+      "start": 60.0,
+      "end": 61.0,
+      "text": "one.",
+      "words": []
+    },
+    {
+      "start": 61.0,
+      "end": 62.52,
+      "text": "That's the fundamental shift.",
+      "words": []
+    },
+    {
+      "start": 62.52,
+      "end": 64.96000000000001,
+      "text": "A calculator follows rules.",
+      "words": []
+    },
+    {
+      "start": 64.96000000000001,
+      "end": 71.88,
+      "text": "An AI system learns patterns from data and makes decisions based on what it's seen before.",
+      "words": []
+    },
+    {
+      "start": 71.88,
+      "end": 74.76,
+      "text": "Now AI isn't one technology.",
+      "words": []
+    },
+    {
+      "start": 74.76,
+      "end": 76.80000000000001,
+      "text": "It's a family of techniques.",
+      "words": []
+    },
+    {
+      "start": 76.80000000000001,
+      "end": 82.32000000000001,
+      "text": "And the useful way to understand them is through the lens of human capabilities.",
+      "words": []
+    },
+    {
+      "start": 82.32,
+      "end": 88.63999999999999,
+      "text": "Humans can see here and speak, understand language, act in the physical world, learn from",
+      "words": []
+    },
+    {
+      "start": 88.63999999999999,
+      "end": 94.44,
+      "text": "experience, find relevant information, and reason through complex problems.",
+      "words": []
+    },
+    {
+      "start": 94.44,
+      "end": 100.44,
+      "text": "AI mirrors each of these capabilities with a corresponding technology.",
+      "words": []
+    },
+    {
+      "start": 100.44,
+      "end": 102.35999999999999,
+      "text": "Let's walk through them one by one.",
+      "words": []
+    },
+    {
+      "start": 102.35999999999999,
+      "end": 106.75999999999999,
+      "text": "And for each one, I'll give you concrete use cases from our industry.",
+      "words": []
+    },
+    {
+      "start": 106.75999999999999,
+      "end": 110.35999999999999,
+      "text": "The ability to see maps to computer vision.",
+      "words": []
+    },
+    {
+      "start": 110.36,
+      "end": 117.64,
+      "text": "Interview vision interprets images and 3D environments to extract useful information and detect",
+      "words": []
+    },
+    {
+      "start": 117.64,
+      "end": 118.64,
+      "text": "patterns.",
+      "words": []
+    },
+    {
+      "start": 118.64,
+      "end": 123.08,
+      "text": "The input data can be images, video, or 3D geometry.",
+      "words": []
+    },
+    {
+      "start": 123.08,
+      "end": 128.8,
+      "text": "The goal is information extraction, pattern detection, and object recognition.",
+      "words": []
+    },
+    {
+      "start": 128.8,
+      "end": 135.56,
+      "text": "In AC, this enables automated quality control, where computer vision analyzes 3Db models,",
+      "words": []
+    },
+    {
+      "start": 135.56,
+      "end": 139.6,
+      "text": "and site photos to detect deviations and ensure compliance.",
+      "words": []
+    },
+    {
+      "start": 139.6,
+      "end": 146.0,
+      "text": "It also enables object recognition and classification, where AI identifies construction elements like",
+      "words": []
+    },
+    {
+      "start": 146.0,
+      "end": 151.04,
+      "text": "doors, windows, and pipes in a beam model or a site scan.",
+      "words": []
+    },
+    {
+      "start": 151.04,
+      "end": 160.16,
+      "text": "The ability to hear and speak maps to STT, speech to text, and TTS, text to speech technologies.",
+      "words": []
+    },
+    {
+      "start": 160.16,
+      "end": 167.56,
+      "text": "These enable voice synthesis and transcription, converting text to speech and vice versa.",
+      "words": []
+    },
+    {
+      "start": 167.56,
+      "end": 173.32,
+      "text": "In AC, speech to text enables automated beam documentation, where spoken notes from",
+      "words": []
+    },
+    {
+      "start": 173.32,
+      "end": 180.32,
+      "text": "inspectors and architects are transcribed directly into beam data, reducing manual input.",
+      "words": []
+    },
+    {
+      "start": 180.32,
+      "end": 187.8,
+      "text": "TTS and STT together power virtual beam assistants that can answer questions about materials, compliance,",
+      "words": []
+    },
+    {
+      "start": 187.8,
+      "end": 191.2,
+      "text": "and model data through natural conversation.",
+      "words": []
+    },
+    {
+      "start": 191.2,
+      "end": 196.48000000000002,
+      "text": "Understanding language maps to natural language processing, or NLP.",
+      "words": []
+    },
+    {
+      "start": 196.48,
+      "end": 202.67999999999998,
+      "text": "NLP enables interpretation, analysis, and extraction of information from text data.",
+      "words": []
+    },
+    {
+      "start": 202.67999999999998,
+      "end": 207.6,
+      "text": "The goal is to extract meaning, behavior, and emotion from written content.",
+      "words": []
+    },
+    {
+      "start": 207.6,
+      "end": 214.23999999999998,
+      "text": "This powers automated compliance checking, where NLP analyzes regulations and compares them",
+      "words": []
+    },
+    {
+      "start": 214.23999999999998,
+      "end": 217.39999999999998,
+      "text": "to beam models to flag non-compliance.",
+      "words": []
+    },
+    {
+      "start": 217.39999999999998,
+      "end": 223.79999999999998,
+      "text": "It also enables issue tracking and reporting, where the model processes incident reports,",
+      "words": []
+    },
+    {
+      "start": 223.8,
+      "end": 229.72,
+      "text": "emails, chats, and field notes, and link them to beam elements for faster resolution.",
+      "words": []
+    },
+    {
+      "start": 229.72,
+      "end": 233.96,
+      "text": "The ability to act maps to robotics and automation.",
+      "words": []
+    },
+    {
+      "start": 233.96,
+      "end": 240.92000000000002,
+      "text": "This covers automating repetitive or complex tasks using intelligent systems and robots.",
+      "words": []
+    },
+    {
+      "start": 240.92000000000002,
+      "end": 246.08,
+      "text": "The goal is to perform physical and virtual tasks and make decisions.",
+      "words": []
+    },
+    {
+      "start": 246.08,
+      "end": 254.08,
+      "text": "In AC, this means automated prefabrication and assembly, where robots use beam data to",
+      "words": []
+    },
+    {
+      "start": 254.08,
+      "end": 260.0,
+      "text": "cut, assemble, and transport components, reducing wastes and boosting efficiency.",
+      "words": []
+    },
+    {
+      "start": 260.0,
+      "end": 265.68,
+      "text": "It also means AI powered side inspections, where drones and robots navigate sites, compare",
+      "words": []
+    },
+    {
+      "start": 265.68,
+      "end": 269.56,
+      "text": "progress to beam models, and detect real-time discrepancies.",
+      "words": []
+    },
+    {
+      "start": 269.56,
+      "end": 273.24,
+      "text": "The ability to learn maps to machine learning.",
+      "words": []
+    },
+    {
+      "start": 273.24,
+      "end": 279.16,
+      "text": "Machine learning uses historical data to identify patterns and generate predictive models.",
+      "words": []
+    },
+    {
+      "start": 279.16,
+      "end": 284.32,
+      "text": "The goal is pattern recognition, outcome prediction, and rule discovery.",
+      "words": []
+    },
+    {
+      "start": 284.32,
+      "end": 290.0,
+      "text": "This enables construction risk assessment, where AI analyzes historical data and beam",
+      "words": []
+    },
+    {
+      "start": 290.0,
+      "end": 295.40000000000003,
+      "text": "models to predict delays, cost of a run, and safety risks.",
+      "words": []
+    },
+    {
+      "start": 295.40000000000003,
+      "end": 300.56,
+      "text": "It also enables AI-based cost estimation, where machine learning generates accurate cost",
+      "words": []
+    },
+    {
+      "start": 300.56,
+      "end": 305.48,
+      "text": "estimates, from beam models, reducing budget uncertainty.",
+      "words": []
+    },
+    {
+      "start": 305.48,
+      "end": 311.64,
+      "text": "The ability to find relevant information maps to RIG, or retrieval augmented generation.",
+      "words": []
+    },
+    {
+      "start": 311.64,
+      "end": 318.28,
+      "text": "RIG combines information retrieval and content generation to deliver accurate contextual",
+      "words": []
+    },
+    {
+      "start": 318.28,
+      "end": 319.28,
+      "text": "responses.",
+      "words": []
+    },
+    {
+      "start": 319.28,
+      "end": 322.88,
+      "text": "The goal is quick retrieval of relevant information.",
+      "words": []
+    },
+    {
+      "start": 322.88,
+      "end": 329.08,
+      "text": "This powers automated specification matching, where the model compares manufacturer databases",
+      "words": []
+    },
+    {
+      "start": 329.08,
+      "end": 333.88,
+      "text": "with beam requirements to recommend optimal materials.",
+      "words": []
+    },
+    {
+      "start": 333.88,
+      "end": 341.52,
+      "text": "It also enables smart issue resolution, where AI analyzes past issues and suggests contextual",
+      "words": []
+    },
+    {
+      "start": 341.52,
+      "end": 344.15999999999997,
+      "text": "solutions within the beam environment.",
+      "words": []
+    },
+    {
+      "start": 344.15999999999997,
+      "end": 348.96,
+      "text": "Finally, the ability to reason maps to logical inference.",
+      "words": []
+    },
+    {
+      "start": 348.96,
+      "end": 355.03999999999996,
+      "text": "Logical inference applies rules to make informed decisions based on available data.",
+      "words": []
+    },
+    {
+      "start": 355.04,
+      "end": 361.36,
+      "text": "This powers design conflict resolution, where AI analyzes conflicting requirements, for",
+      "words": []
+    },
+    {
+      "start": 361.36,
+      "end": 367.56,
+      "text": "example, structure versus energy efficiency, and suggests optimal solutions.",
+      "words": []
+    },
+    {
+      "start": 367.56,
+      "end": 373.90000000000003,
+      "text": "It also enables layout optimization, where the model recommends optimal spatial layouts",
+      "words": []
+    },
+    {
+      "start": 373.90000000000003,
+      "end": 378.36,
+      "text": "based on functional and regulatory requirements.",
+      "words": []
+    },
+    {
+      "start": 378.36,
+      "end": 381.0,
+      "text": "So that's the AI pillar.",
+      "words": []
+    },
+    {
+      "start": 381.0,
+      "end": 387.8,
+      "text": "Seven human capabilities, seven AI technologies, each with real applications in our industry.",
+      "words": []
+    },
+    {
+      "start": 387.8,
+      "end": 390.88,
+      "text": "The key takeaway is that AI isn't magic.",
+      "words": []
+    },
+    {
+      "start": 390.88,
+      "end": 397.36,
+      "text": "It's a set of tools, each designed for a specific type of problem, and the better your data,",
+      "words": []
+    },
+    {
+      "start": 397.36,
+      "end": 400.32,
+      "text": "the more powerful these tools become.",
+      "words": []
+    },
+    {
+      "start": 400.32,
+      "end": 403.68,
+      "text": "Next time, we move to the third pillar, APIs.",
+      "words": []
+    },
+    {
+      "start": 403.68,
+      "end": 410.24,
+      "text": "We look at how systems connect to each other, how data flows between platforms, and why",
+      "words": []
+    },
+    {
+      "start": 410.24,
+      "end": 415.36,
+      "text": "traditional APIs have a fundamental limitation when it comes to AI.",
+      "words": []
+    },
+    {
+      "start": 415.36,
+      "end": 418.76,
+      "text": "Leave your questions in the comments, and I'll see you for the next one.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-23T00:06:46.970095+00:00"
+}

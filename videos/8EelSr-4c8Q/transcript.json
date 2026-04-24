@@ -1,0 +1,1045 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 10.08,
+      "text": "Hi, everybody. Thank you for joining us today. This presentation we're going to be speaking a little bit about deterministic AI used in highway design and rail design actually.",
+      "words": []
+    },
+    {
+      "start": 13.040000000000001,
+      "end": 29.6,
+      "text": "Do some brief introductions here for myself. I'm Kevin O'Connor with Parsons. I manage an XT services group focused on digital delivery and the implementation of our civil design technologies for critical infrastructure in North America.",
+      "words": []
+    },
+    {
+      "start": 30.64,
+      "end": 38.88,
+      "text": "Let Edmondo Herrera introduce himself. Hello everybody. Thank you for joining us. Thank you Kevin. My name is Edmond Herrera. I'm a student engineer.",
+      "words": []
+    },
+    {
+      "start": 38.96,
+      "end": 53.440000000000005,
+      "text": "What's important living in Texas and been working for audits for 15 years. It's a pleasure being here to start presenting how deterministic AI should and must be used in infrastructure projects.",
+      "words": []
+    },
+    {
+      "start": 54.160000000000004,
+      "end": 64.48,
+      "text": "Back to you Kevin. All right, so a little bit about the agenda. What we're going to discuss today for this presentation. I'm going to go in myself to really the project overview.",
+      "words": []
+    },
+    {
+      "start": 65.36,
+      "end": 77.76,
+      "text": "What was the job all about? Where is this job that we worked on some of the details behind it? And then what was the need? Why did we do this? Why did we bring this technology to this particular project?",
+      "words": []
+    },
+    {
+      "start": 78.4,
+      "end": 87.2,
+      "text": "I had to do with the complexity of the job and how can we automate some of this? Obviously AI is a hot topic and we wanted to see if they were a value in this.",
+      "words": []
+    },
+    {
+      "start": 87.76,
+      "end": 99.12,
+      "text": "Then Edmondo is going to take over and really kind of get into the proof in the pudding here, which is the workflow and how we actually how we develop this technology and implemented that.",
+      "words": []
+    },
+    {
+      "start": 102.48,
+      "end": 111.36,
+      "text": "So a little background on who we are, Parsons myself. I work in critical infrastructure, which is a subdivision of our global company.",
+      "words": []
+    },
+    {
+      "start": 112.32,
+      "end": 128.0,
+      "text": "We have a federal branch as well. Federal is probably about a 50% equity in the company, but again, my focus critical infrastructure and primarily North America, including Hawaii, which is out there a bit.",
+      "words": []
+    },
+    {
+      "start": 131.12,
+      "end": 137.76,
+      "text": "So where's this particular job? We're here over an Amsterdam and this project really couldn't be much farther away.",
+      "words": []
+    },
+    {
+      "start": 138.72,
+      "end": 153.04,
+      "text": "About halfway around the world on a island of Oahu in Hawaii, the overall program was a three-phase three-segmented project that is a elevated tomato rail stretches across the island of Oahu.",
+      "words": []
+    },
+    {
+      "start": 153.84,
+      "end": 159.76,
+      "text": "The first phase of this job was completed quite some time ago by another company, another contractor.",
+      "words": []
+    },
+    {
+      "start": 160.48,
+      "end": 169.76,
+      "text": "We designed and worked with our contractor on the second phase, which is under construction is about complete actually just about done.",
+      "words": []
+    },
+    {
+      "start": 170.32,
+      "end": 175.67999999999998,
+      "text": "The focus of the project that we're dealing with right now is on the third part of this.",
+      "words": []
+    },
+    {
+      "start": 176.48,
+      "end": 186.79999999999998,
+      "text": "So some snapshots behind the current progress of the job out there. This is a stretch of the elevated guideway approaching one of the stations.",
+      "words": []
+    },
+    {
+      "start": 187.52,
+      "end": 192.32000000000002,
+      "text": "This is the Pearl Harbor station that's been completed. These are all within that second segment.",
+      "words": []
+    },
+    {
+      "start": 193.20000000000002,
+      "end": 198.0,
+      "text": "And then we've actually completed the station at the airport itself.",
+      "words": []
+    },
+    {
+      "start": 198.72,
+      "end": 206.8,
+      "text": "So as you exit the airport, if you do have the advantage may able to go over to Hawaii sometime, which I would highly recommend.",
+      "words": []
+    },
+    {
+      "start": 207.12,
+      "end": 213.12,
+      "text": "You can walk out of there and get on this train and eventually be able to get right downtown down to Waikiki Beach.",
+      "words": []
+    },
+    {
+      "start": 213.84,
+      "end": 220.24,
+      "text": "So our focus again here is on this third phase. This is the third and final phase of that job.",
+      "words": []
+    },
+    {
+      "start": 220.24,
+      "end": 226.16,
+      "text": "It's broken into six different design units and again we're partnered with two to three.",
+      "words": []
+    },
+    {
+      "start": 226.16,
+      "end": 237.76,
+      "text": "This is three miles. This last three miles of the job. It's got six stations. It was awarded to us back in 24 and construction is ongoing.",
+      "words": []
+    },
+    {
+      "start": 238.72,
+      "end": 244.32,
+      "text": "They actually just broke ground the real construction on this final third part about a month or two ago.",
+      "words": []
+    },
+    {
+      "start": 246.32,
+      "end": 251.35999999999999,
+      "text": "So what was the need? Let's kind of talk about what got us to this point and why we're standing here today.",
+      "words": []
+    },
+    {
+      "start": 251.92,
+      "end": 257.28,
+      "text": "So the real need for this is that we had again six stations, six very complex",
+      "words": []
+    },
+    {
+      "start": 257.28,
+      "end": 264.88,
+      "text": "revit models of each station on this job. And we needed a way to verify that these stations met compliance,",
+      "words": []
+    },
+    {
+      "start": 265.2,
+      "end": 270.15999999999997,
+      "text": "ADA criteria, design standards, all these different aspects of that project.",
+      "words": []
+    },
+    {
+      "start": 272.0,
+      "end": 282.64,
+      "text": "We also needed a way to create an issue. So it's one thing to be able to go in and kind of evaluate and interrogate a model and find these problems with some tool.",
+      "words": []
+    },
+    {
+      "start": 283.12,
+      "end": 288.8,
+      "text": "But we want to make this actionable. How do I turn this into something that other people can be aware of?",
+      "words": []
+    },
+    {
+      "start": 289.36,
+      "end": 297.84,
+      "text": "So I wanted a way to be able to push this out to ACC or form up and create the actual issues out there and then track those issues.",
+      "words": []
+    },
+    {
+      "start": 299.12,
+      "end": 303.91999999999996,
+      "text": "And then once I got those again, I want to be able to track them and make updates.",
+      "words": []
+    },
+    {
+      "start": 303.91999999999996,
+      "end": 311.76,
+      "text": "So I want to be able to get into this model, issue by issue, see what that issue was that it found in an automated secure process.",
+      "words": []
+    },
+    {
+      "start": 312.71999999999997,
+      "end": 317.03999999999996,
+      "text": "And then how do I make a modification to that and track that that issue has been resolved.",
+      "words": []
+    },
+    {
+      "start": 318.64,
+      "end": 330.24,
+      "text": "So at a high level, our real priorities here is I wanted a repeatable, accurate, secure process that would allow me to do this.",
+      "words": []
+    },
+    {
+      "start": 331.2,
+      "end": 338.0,
+      "text": "And I could not expose the data. The data that we have is client sensitive information.",
+      "words": []
+    },
+    {
+      "start": 338.48,
+      "end": 343.84,
+      "text": "So we could not use the large language model and just dump information out there and ask it to do things.",
+      "words": []
+    },
+    {
+      "start": 344.4,
+      "end": 350.32,
+      "text": "For several reasons. One, it's not secure. And two, it's not deterministic.",
+      "words": []
+    },
+    {
+      "start": 350.32,
+      "end": 356.48,
+      "text": "The information, the results that you give back each time you drop that in there and ask it to do something, it could be very different.",
+      "words": []
+    },
+    {
+      "start": 357.36,
+      "end": 362.16,
+      "text": "Language models tend to hallucinate. We couldn't have that. We needed a deterministic solution.",
+      "words": []
+    },
+    {
+      "start": 362.96,
+      "end": 367.84,
+      "text": "And at Mundo figured out that, you know what? Python was probably going to be our best approach.",
+      "words": []
+    },
+    {
+      "start": 368.16,
+      "end": 377.92,
+      "text": "It's a very deterministic tool. He figured out how to dig in with these APIs and make connections that would make sure that our data is state secure.",
+      "words": []
+    },
+    {
+      "start": 378.64,
+      "end": 387.12,
+      "text": "And we could then go back and forth, dig in the models, create the issues, log them in ACC and turn this into something that we can share.",
+      "words": []
+    },
+    {
+      "start": 389.28,
+      "end": 393.36,
+      "text": "So how did this happen? What was the more of the background behind this?",
+      "words": []
+    },
+    {
+      "start": 393.44,
+      "end": 396.24,
+      "text": "Well, it's really about the partnership that we have with Autodesk.",
+      "words": []
+    },
+    {
+      "start": 397.12,
+      "end": 404.8,
+      "text": "I've worked in Mundo for probably 20 years or more. We've upgraded on a lot of things in the past.",
+      "words": []
+    },
+    {
+      "start": 405.84000000000003,
+      "end": 410.32,
+      "text": "He's been extremely valuable for me. So I can put it that way.",
+      "words": []
+    },
+    {
+      "start": 411.44,
+      "end": 417.12,
+      "text": "But I've reached out to Mundo and I said, hey, here's the need. You know, he's shared some of the stuff that he's doing.",
+      "words": []
+    },
+    {
+      "start": 417.6,
+      "end": 424.88,
+      "text": "I've shared some of the projects that we're working on. He's found value in that. And we said, hey, let's see if we can come up with solution.",
+      "words": []
+    },
+    {
+      "start": 425.68,
+      "end": 434.24,
+      "text": "I handed this off to him. Mundo and I'm happy to let him share now what solution he came up with for this. So thank you, Mundo.",
+      "words": []
+    },
+    {
+      "start": 435.68,
+      "end": 444.64,
+      "text": "Thank you, Kevin. Yes. So, yeah, I mean, it was really a joint effort, just like Kevin is saying between Parsons and Autodesk.",
+      "words": []
+    },
+    {
+      "start": 445.44,
+      "end": 455.44,
+      "text": "He is under a lot of pressure to start implementing AI so much effort. Many owners are having so many problems.",
+      "words": []
+    },
+    {
+      "start": 457.03999999999996,
+      "end": 463.03999999999996,
+      "text": "He started to give me ideas. I started to give them ideas. It was a true joint effort between both companies.",
+      "words": []
+    },
+    {
+      "start": 463.12,
+      "end": 478.08000000000004,
+      "text": "To come up with which I can say now it is being deployed everywhere. And I'm not only with Parsons. I mean, any industry because this works on the one that we came up with.",
+      "words": []
+    },
+    {
+      "start": 478.24,
+      "end": 486.88,
+      "text": "It is extremely simple. Now, of course, now that we figured out, but look at this. So use in March, which model?",
+      "words": []
+    },
+    {
+      "start": 486.96,
+      "end": 494.88,
+      "text": "Any of the ones that you want, even, you know, it just doesn't even matter. Okay. The secret is never expose any of your data.",
+      "words": []
+    },
+    {
+      "start": 495.2,
+      "end": 502.4,
+      "text": "You know, even customers who say, I have no problem just like looking up on the internet. Okay. I would want this.",
+      "words": []
+    },
+    {
+      "start": 503.04,
+      "end": 511.28,
+      "text": "So use select a program in which of your choice we selected Python. Very secure, very fast, very, very fast.",
+      "words": []
+    },
+    {
+      "start": 511.84,
+      "end": 517.4399999999999,
+      "text": "And it's extremely accurate. Okay. You need that deterministic component. Okay.",
+      "words": []
+    },
+    {
+      "start": 517.52,
+      "end": 522.48,
+      "text": "So, but since we're, you know, Kevin and I were selling to the years, we know nothing about Python.",
+      "words": []
+    },
+    {
+      "start": 522.72,
+      "end": 532.0,
+      "text": "However, the world has changed, right? In Japan, they said, you know, enough of the hallucinations, enough of what were large language models.",
+      "words": []
+    },
+    {
+      "start": 532.0,
+      "end": 539.8399999999999,
+      "text": "The hype is going enough. Let's just, you know, be, you know, stop breath and take two steps back.",
+      "words": []
+    },
+    {
+      "start": 540.0,
+      "end": 545.76,
+      "text": "And this is exactly what we did within the perfect combination of describing the intent to the large language model.",
+      "words": []
+    },
+    {
+      "start": 546.08,
+      "end": 556.5600000000001,
+      "text": "I would want a function to list projects in ACC. Okay. In order to do that, it's no, to give you, you're not providing any, any data.",
+      "words": []
+    },
+    {
+      "start": 556.64,
+      "end": 564.0,
+      "text": "It's going to give you the script. Then you use that script and then, you know, you place it in Python and then you execute it in Python.",
+      "words": []
+    },
+    {
+      "start": 564.16,
+      "end": 570.88,
+      "text": "So in other words, this is the elegant workflow. The author becomes a large language model.",
+      "words": []
+    },
+    {
+      "start": 570.88,
+      "end": 574.8,
+      "text": "And the executor becomes what the large language model wrote.",
+      "words": []
+    },
+    {
+      "start": 574.8,
+      "end": 581.44,
+      "text": "But you're never ever exposing anything. Okay. So your credentials, their security is, you know,",
+      "words": []
+    },
+    {
+      "start": 581.44,
+      "end": 588.72,
+      "text": "it's encrypted in Python and it is said, no, right here on an ENV file that is local to you.",
+      "words": []
+    },
+    {
+      "start": 588.8000000000001,
+      "end": 599.84,
+      "text": "This ENV file, which is just a, no, pad, it's just an ask if I'll it has your credentials to be authenticated in the cloud.",
+      "words": []
+    },
+    {
+      "start": 600.1600000000001,
+      "end": 617.6,
+      "text": "And the power of it is not only the deterministic in the term, it's in AI. It is, you know, that from your machine, from your local machine, you can make sure you're a link, communicate to the world.",
+      "words": []
+    },
+    {
+      "start": 617.84,
+      "end": 633.84,
+      "text": "Okay, to the cloud, you know, we chose, of course, the our district search cloud because from, you know, this script, it is going to be fetching data from the cloud, you know, through APS.",
+      "words": []
+    },
+    {
+      "start": 633.84,
+      "end": 645.44,
+      "text": "APS are got it more and less than instructions. So with these instructions and this authentication is going to go to the cloud, it's going to go to one already projects.",
+      "words": []
+    },
+    {
+      "start": 645.5200000000001,
+      "end": 656.8800000000001,
+      "text": "And then from there, you can grab all the data that you want like wherever it files, the WGFoundspds docs text files, Linux and mail files, VGA files, anything that you want.",
+      "words": []
+    },
+    {
+      "start": 657.5200000000001,
+      "end": 662.5600000000001,
+      "text": "And it's going to do it safely, securely and extremely fast.",
+      "words": []
+    },
+    {
+      "start": 663.36,
+      "end": 674.24,
+      "text": "Okay. So in less than one second, it is going to be retrieving data that, you know, it feeds back to the script and then the script, you know, carries on from.",
+      "words": []
+    },
+    {
+      "start": 675.04,
+      "end": 689.52,
+      "text": "You know, from the moment it grabs the data and it does exactly what you control it, what you want. Okay. And then if it finds any problems or if you want any actions after it processes, it sent them back to the cloud as.",
+      "words": []
+    },
+    {
+      "start": 690.72,
+      "end": 700.64,
+      "text": "As issues, right. So that everybody would be immediately being formed that there is a problem that it must be fixed. And then you avoid so many headaches here.",
+      "words": []
+    },
+    {
+      "start": 700.8,
+      "end": 711.12,
+      "text": "It's a duplication of effort. It is of course being fine because you didn't do proper design review. You don't have records of this of this review, right.",
+      "words": []
+    },
+    {
+      "start": 711.4399999999999,
+      "end": 728.72,
+      "text": "And it's extremely important that what that why didn't we do it because we want to, you know, grab all this massive amount of data in New York. See, they told me, you know, I've got a just a building that's got over 12,000 windows. Can you imagine.",
+      "words": []
+    },
+    {
+      "start": 729.12,
+      "end": 742.88,
+      "text": "So breaking it down and it reviewing that everything was placed properly. So first of all, reviewed against standards can't mention ADA hard and on architectural standards. And that was another task.",
+      "words": []
+    },
+    {
+      "start": 743.28,
+      "end": 750.72,
+      "text": "So we needed to always review and be compliant with these tasks. And then once they're sent back to the cloud.",
+      "words": []
+    },
+    {
+      "start": 751.2,
+      "end": 765.6800000000001,
+      "text": "Well, it doesn't stop there, right. You know, everybody's informed that there's problems. But if there's problems, I can go back to Revit. And then for Revit, I can then immediately grab all these open issues,",
+      "words": []
+    },
+    {
+      "start": 765.68,
+      "end": 777.68,
+      "text": "and then you know, scan them one by one. It's going to zoom into these particular locations in my model that do have even the option to correct them.",
+      "words": []
+    },
+    {
+      "start": 778.0,
+      "end": 790.3199999999999,
+      "text": "And then once they're corrected, I can even close them directly in the cloud. The world has changed everything. No more files. It is just about modeled in the collaboration. The cloud. That's the future. Okay.",
+      "words": []
+    },
+    {
+      "start": 791.2800000000001,
+      "end": 803.7600000000001,
+      "text": "So we weren't doing ADA auditing, hard, you know, the architecture project, regulations, auditing, an issued creation in graph and ACC.",
+      "words": []
+    },
+    {
+      "start": 804.88,
+      "end": 814.8000000000001,
+      "text": "Why is this the large building project? Why didn't we do it? What is the imperative need? Large building projects have hundreds and thousands of elements.",
+      "words": []
+    },
+    {
+      "start": 814.88,
+      "end": 825.04,
+      "text": "A complex six are required by law. They're not even optional. Okay. How about that? The better review of the case base, participant, personal.",
+      "words": []
+    },
+    {
+      "start": 825.5999999999999,
+      "end": 837.04,
+      "text": "And then this gets compounded if there's even more and more revisions. It just the nightmare that you know, here we saw in so many complicated ways. Okay.",
+      "words": []
+    },
+    {
+      "start": 837.28,
+      "end": 842.8,
+      "text": "They go through multiple iterations. Every chase means reaching. It's just a snowball effect.",
+      "words": []
+    },
+    {
+      "start": 843.36,
+      "end": 856.0799999999999,
+      "text": "You know, really potential problems in a first time and money. Okay. So not complied. Sorry, discovered it. You know, and then you know, in concertion costs. Take times.",
+      "words": []
+    },
+    {
+      "start": 856.5600000000001,
+      "end": 875.76,
+      "text": "They're more expensive to fix that in design. Can you imagine that's also a need to only say elements. If you find a problem during concertion, it is much more costly than if the problem was to figure it out when the design process was taking place.",
+      "words": []
+    },
+    {
+      "start": 876.3199999999999,
+      "end": 887.6,
+      "text": "So also there was an imperative need because there's a disconnection right. The model is the rabbit. The issues like the ACC. The fix is done. But then it's just so many multiple steps.",
+      "words": []
+    },
+    {
+      "start": 887.92,
+      "end": 900.4,
+      "text": "We have to glue this together. That's where camp and I came in and said, you know, no more of this. Okay. What we do is this. We detect the applied cell. It's natively in rabbit models.",
+      "words": []
+    },
+    {
+      "start": 900.56,
+      "end": 916.0799999999999,
+      "text": "The issues are automatically in the cloud. Then you go back to rabbit. Then you can navigate each issue inside of rabbit. And then you mark them as we saw in closest ACC issues. It's just perfect. Perfect.",
+      "words": []
+    },
+    {
+      "start": 916.64,
+      "end": 923.4399999999999,
+      "text": "You know, solution to all of the projects that you may be working on. Okay. So",
+      "words": []
+    },
+    {
+      "start": 924.4000000000001,
+      "end": 933.2800000000001,
+      "text": "what is it we created a secure web application that is only fired up with an ex file with an exit gable file.",
+      "words": []
+    },
+    {
+      "start": 933.9200000000001,
+      "end": 938.32,
+      "text": "Okay. From your machine, you open your project. You know, you",
+      "words": []
+    },
+    {
+      "start": 939.84,
+      "end": 948.5600000000001,
+      "text": "go and then open your ACC projects, your ACC hubs in a or format.",
+      "words": []
+    },
+    {
+      "start": 948.7199999999999,
+      "end": 954.7199999999999,
+      "text": "Or the search and cloud you open it. Then you select your project within the project. Then you select which files.",
+      "words": []
+    },
+    {
+      "start": 954.7199999999999,
+      "end": 961.1999999999999,
+      "text": "But you do it. That's the beauty of it. You are doing it directly from your computer. And then from here,",
+      "words": []
+    },
+    {
+      "start": 961.8399999999999,
+      "end": 971.04,
+      "text": "it's a beauty. What you can do right in sky is the limit. It's just the script saying, okay. Now that I've seen it, that you have every single element.",
+      "words": []
+    },
+    {
+      "start": 971.12,
+      "end": 978.64,
+      "text": "Extract the categories. Why do we want to extract the categories? Because categories are the elements that aren't being",
+      "words": []
+    },
+    {
+      "start": 979.4399999999999,
+      "end": 983.52,
+      "text": "you know, reviewed for compliance. And then from there, what's that can",
+      "words": []
+    },
+    {
+      "start": 983.68,
+      "end": 989.92,
+      "text": "categories have been extracted? Then you get all its standards like Kevin was saying you get at, you know,",
+      "words": []
+    },
+    {
+      "start": 989.92,
+      "end": 997.04,
+      "text": "anything against any standards or hard standards which by the way, they can their own city center guide",
+      "words": []
+    },
+    {
+      "start": 997.52,
+      "end": 1004.7199999999999,
+      "text": "guideways and stations design, build rules and regulations. But it doesn't even matter. You can use any of the standards,",
+      "words": []
+    },
+    {
+      "start": 1005.28,
+      "end": 1012.9599999999999,
+      "text": "you know, in order to do the compliance check. And then all the problems that it finds, then you can automatically create the issues.",
+      "words": []
+    },
+    {
+      "start": 1012.9599999999999,
+      "end": 1021.04,
+      "text": "And then you're sent directly to ACC. Imagine this. And then once everybody knows it's saying, okay, so you're",
+      "words": []
+    },
+    {
+      "start": 1021.12,
+      "end": 1028.3999999999999,
+      "text": "catapult for it, you go out and fix it. Okay. And this is where, you know, we are really, really, you know,",
+      "words": []
+    },
+    {
+      "start": 1029.84,
+      "end": 1037.92,
+      "text": "closing the complete, you know, cycle here because you can go into Revit. And then from Revit, you can just click, oh,",
+      "words": []
+    },
+    {
+      "start": 1037.92,
+      "end": 1046.1599999999999,
+      "text": "take me to the open issues. And it's going to take you to the open issues from the cloud. No more manual. There's no more value work.",
+      "words": []
+    },
+    {
+      "start": 1046.24,
+      "end": 1052.5600000000002,
+      "text": "And it's going to zoom into those issues. And it's up to you to, you know, to fix it or not. Okay.",
+      "words": []
+    },
+    {
+      "start": 1054.4,
+      "end": 1063.92,
+      "text": "Okay. And then here is the, the video. Okay. So here's the video and then just the web app that you are running directly from your machine.",
+      "words": []
+    },
+    {
+      "start": 1063.92,
+      "end": 1075.3600000000001,
+      "text": "And then you go into your, you know, your folder, you're going to be opening this Revit model, which contains the substations for one of the many substations.",
+      "words": []
+    },
+    {
+      "start": 1075.36,
+      "end": 1081.6,
+      "text": "For the hard project, this is real data. This is, you know, Parsons. And then from here, you know, we're going to be",
+      "words": []
+    },
+    {
+      "start": 1081.6,
+      "end": 1088.7199999999998,
+      "text": "certain categories. I promise you, it's not edited. It is that fast. And let's say the second, it extracts all the categories.",
+      "words": []
+    },
+    {
+      "start": 1088.7199999999998,
+      "end": 1099.6799999999998,
+      "text": "And even if you select each of the categories, you know, it even has the option to, you know, to automatically, you know, isolate or highlight whichever element you want.",
+      "words": []
+    },
+    {
+      "start": 1099.68,
+      "end": 1108.96,
+      "text": "Okay, whichever function you want. Now, let's talk about, you know, if we're not doing ADA complies, if it's just a PDF like hard was. Okay.",
+      "words": []
+    },
+    {
+      "start": 1108.96,
+      "end": 1117.6000000000001,
+      "text": "So this is the design specific rules and regulations for the hard project in how the rule, okay.",
+      "words": []
+    },
+    {
+      "start": 1117.6000000000001,
+      "end": 1122.96,
+      "text": "And it's got the description. It's got everything that the architecture part must comply.",
+      "words": []
+    },
+    {
+      "start": 1123.04,
+      "end": 1129.52,
+      "text": "And then, you know, it's up to us to then always review that meets a V standards.",
+      "words": []
+    },
+    {
+      "start": 1129.52,
+      "end": 1138.8,
+      "text": "So rather than, you know, just going to every single PDF, you know, I used any large language models. This is hot, for example.",
+      "words": []
+    },
+    {
+      "start": 1138.8,
+      "end": 1145.44,
+      "text": "And then I'm going to be analyzing all the complete components. And then you just feed it. It's public information.",
+      "words": []
+    },
+    {
+      "start": 1145.44,
+      "end": 1152.48,
+      "text": "And it's going to give you a Jason file, a Jason file is nothing more, nothing less than an ask me for perfect.",
+      "words": []
+    },
+    {
+      "start": 1152.48,
+      "end": 1160.24,
+      "text": "Now, other than you have the, you know, these elements against these standards. And it's just incredible.",
+      "words": []
+    },
+    {
+      "start": 1160.24,
+      "end": 1166.88,
+      "text": "The speed I'm probably, this is not edited. You know, thanks to other problems, you can go back to the categories.",
+      "words": []
+    },
+    {
+      "start": 1166.88,
+      "end": 1173.76,
+      "text": "And then complying that complying elements, you know, stairs you can review everything you want without even touching.",
+      "words": []
+    },
+    {
+      "start": 1173.76,
+      "end": 1179.44,
+      "text": "You know, this is not even the product, right. And as a matter of fact, it's much faster than rather itself.",
+      "words": []
+    },
+    {
+      "start": 1179.44,
+      "end": 1187.28,
+      "text": "If you use, you know, all the APIs to this extent, okay. So you've got all these elements that are compliant, that's implying.",
+      "words": []
+    },
+    {
+      "start": 1187.28,
+      "end": 1192.72,
+      "text": "And then, well, let's, you know, let me even, you know, I think I can fast forward it a little bit. Okay.",
+      "words": []
+    },
+    {
+      "start": 1192.72,
+      "end": 1198.0,
+      "text": "So, you know, you've got all these cells that are not complying. And then you are already saying, you know, enough.",
+      "words": []
+    },
+    {
+      "start": 1198.08,
+      "end": 1204.96,
+      "text": "You know, all these elements are failing. And then there's just no way that, you know, the project instead of, you know,",
+      "words": []
+    },
+    {
+      "start": 1204.96,
+      "end": 1217.84,
+      "text": "suffers so many setbacks just because of this. Okay. And then, so it's, it's, it's about time to really start, you know, fixing everything and make somebody accountable for it.",
+      "words": []
+    },
+    {
+      "start": 1217.84,
+      "end": 1222.64,
+      "text": "Automating this incredibly tough process. Okay. So.",
+      "words": []
+    },
+    {
+      "start": 1223.1200000000001,
+      "end": 1229.6000000000001,
+      "text": "Sorry about that. So you've got, you know, all these elements that are still compliant, but, you know, enough with the logic.",
+      "words": []
+    },
+    {
+      "start": 1229.6000000000001,
+      "end": 1239.0400000000002,
+      "text": "I'm going to go to a different category here in a second because there's not a complaint. And then from here, I am going to say, okay.",
+      "words": []
+    },
+    {
+      "start": 1241.44,
+      "end": 1248.0800000000002,
+      "text": "Select a different category, which is going to be doors. Okay. On this one, it up got 13 doors that are not compliant.",
+      "words": []
+    },
+    {
+      "start": 1248.1599999999999,
+      "end": 1256.8799999999999,
+      "text": "Look at what's going to happen now that I've, you know, selected them and these ones we fixed ASAP. So you better create the issues. Hold somebody accountable for it.",
+      "words": []
+    },
+    {
+      "start": 1256.8799999999999,
+      "end": 1265.9199999999998,
+      "text": "You know, really remember terminus the AI or AI would doubt a purposes, you know, it's meaningless. So from here, you create the issues.",
+      "words": []
+    },
+    {
+      "start": 1265.9199999999998,
+      "end": 1274.6399999999999,
+      "text": "Again, it's not ended. Third issues are going to be created on the fly so that, you know, immediately this is, you know, the whole project gets",
+      "words": []
+    },
+    {
+      "start": 1274.64,
+      "end": 1284.8000000000002,
+      "text": "in the form and say, what in the world? Everyone's going to get an email saying, you must fix this. So no more duplication of work and get your home and somebody accountable for it.",
+      "words": []
+    },
+    {
+      "start": 1284.8000000000002,
+      "end": 1292.24,
+      "text": "So it is just about time that it's going to be done. You know, creating this issues and then you can review them right there from the applications.",
+      "words": []
+    },
+    {
+      "start": 1292.24,
+      "end": 1300.24,
+      "text": "You do the project. You don't even need to put, you know, the time, you know, the title or the description.",
+      "words": []
+    },
+    {
+      "start": 1300.24,
+      "end": 1308.08,
+      "text": "So to do it automatically for you. This is the API's work at its best. And then from here, once they are created, guess what?",
+      "words": []
+    },
+    {
+      "start": 1308.08,
+      "end": 1314.96,
+      "text": "Then you go into rev it and say, you know, okay, take me to the open issues. Please take me to the open issues.",
+      "words": []
+    },
+    {
+      "start": 1314.96,
+      "end": 1318.56,
+      "text": "I don't want to do anything manually more. So I got to fix all of them.",
+      "words": []
+    },
+    {
+      "start": 1318.6399999999999,
+      "end": 1323.6,
+      "text": "Of course, right? There were 13 doors. Let me take them to these issues.",
+      "words": []
+    },
+    {
+      "start": 1323.6,
+      "end": 1332.6399999999999,
+      "text": "And then there they are. One by one, you can start, you know, reviewing all these different problems that, you know, it found",
+      "words": []
+    },
+    {
+      "start": 1333.6,
+      "end": 1341.9199999999998,
+      "text": "deterministically. And then not only do you have the position or the opportunity to review them, but let's say, okay, you know, enough.",
+      "words": []
+    },
+    {
+      "start": 1342.48,
+      "end": 1349.76,
+      "text": "Let me stop right here. Let me change it. Oh, yes, I did not have enough time here. You're going to change it and then",
+      "words": []
+    },
+    {
+      "start": 1350.5600000000002,
+      "end": 1356.96,
+      "text": "select it, market as we saw it. And you know, sense it back. Sinc it back to the cloud. And then",
+      "words": []
+    },
+    {
+      "start": 1357.6000000000001,
+      "end": 1366.48,
+      "text": "now that it's processed, it sends it back and then you close. Well, you work, you know, inside of rev it, you talk to the cloud and closed it.",
+      "words": []
+    },
+    {
+      "start": 1366.72,
+      "end": 1377.68,
+      "text": "Now one Python script, the front that is just JavaScript and CSS is getting style sheets in the back end is the Python and APS. And you know, this is a deathcon event.",
+      "words": []
+    },
+    {
+      "start": 1377.68,
+      "end": 1386.8,
+      "text": "You need to know which, you know, APS were used. Okay. Of course, you used, you know, pie brevitt, which is the Python for rev it inside of red, you just install it.",
+      "words": []
+    },
+    {
+      "start": 1387.28,
+      "end": 1402.8,
+      "text": "The, you know, that's what we used. Okay. So first of all, let's, you know, review the PDF format. You do not use optical character recognition. It just doesn't work like that. You have to extract all the elements, all the values that are",
+      "words": []
+    },
+    {
+      "start": 1403.68,
+      "end": 1412.8799999999999,
+      "text": "relevant to the project. And they create, you know, your own ask if out, but this is done in seconds that when you use any log slide, which model you created Jason file.",
+      "words": []
+    },
+    {
+      "start": 1413.2,
+      "end": 1424.96,
+      "text": "So the APS use art authentication, the project again, you know, for the top folders, you need the project management for the recursion, you know, find some folders, you need the data management API.",
+      "words": []
+    },
+    {
+      "start": 1425.3600000000001,
+      "end": 1440.3200000000002,
+      "text": "And then, you know, remember every time you visualize something on the, you know, on, you know, on forage now called on this viewer, you know, it needs the URL, which is, you know, the identification of the version of the file.",
+      "words": []
+    },
+    {
+      "start": 1440.6399999999999,
+      "end": 1445.04,
+      "text": "So it's going to read it and then it's going to pass it to the model derivative API.",
+      "words": []
+    },
+    {
+      "start": 1445.52,
+      "end": 1458.72,
+      "text": "So okay, use this one. Okay, the model, the derivative API creates, you know, a script creates its own little report. You know, always referencing this, you know, this, you are it.",
+      "words": []
+    },
+    {
+      "start": 1459.04,
+      "end": 1475.92,
+      "text": "And then from here, it just sends it to the viewer, which when there's this, this model, this derivative model, it just, you know, uses the API's interviewer to render it and visualize it. And of course, you know, issues, consortium issues.",
+      "words": []
+    },
+    {
+      "start": 1476.3200000000002,
+      "end": 1499.1200000000001,
+      "text": "Again, you know, this is the three-legged token, you know, and also, you know, from a revved standpoint of you from the pie revved, of course, you need to authentication. It reads, you got it. Read which issues are open and then close. You just patch, patch to close, get is to get them. Remember, this is revved.",
+      "words": []
+    },
+    {
+      "start": 1499.52,
+      "end": 1514.7199999999998,
+      "text": "The previous one was the application that you were doing that when you're in rather, you need to send me the three-legged token authentication. You read which issues are open and if you still decide to close them, then you need to use the patch, consortium issues.",
+      "words": []
+    },
+    {
+      "start": 1515.1200000000001,
+      "end": 1528.72,
+      "text": "So, you know, the live demo and then let me just, you know, revert to the live demo here and then this is what it is. I'm just executing the file and then from here, I am going to go to the sandbox rabbit and then the stations.",
+      "words": []
+    },
+    {
+      "start": 1528.72,
+      "end": 1542.72,
+      "text": "Hey, I am going to be selecting downtown here and then downtown, I'm going to be selecting this revved model. They've got so many RVT's file here. Okay. But look at this in Henderson and then I can call.",
+      "words": []
+    },
+    {
+      "start": 1542.72,
+      "end": 1561.72,
+      "text": "Can we hear in that remember this is not a big. This is really like data. Okay, here and then okay, extract the categories and then it is going to be extracted. Look at the speed. Okay, ceiling, columns, curtain walls, doors, you know, everything incredibly done incredibly done in seconds. Okay.",
+      "words": []
+    },
+    {
+      "start": 1562.1200000000001,
+      "end": 1570.52,
+      "text": "And then right here, I'm going to then then show all revert back and then audit standards. It is going to be okay, which ones.",
+      "words": []
+    },
+    {
+      "start": 1571.72,
+      "end": 1583.72,
+      "text": "This decalments and finds them and it creates the issues and it's going to be fetching the issues and it's going to be what type of issues isn't okay quality. And it's just going to be, you know, sending them directly to the car.",
+      "words": []
+    },
+    {
+      "start": 1584.82,
+      "end": 1585.32,
+      "text": "Beauty.",
+      "words": []
+    },
+    {
+      "start": 1586.32,
+      "end": 1606.32,
+      "text": "We encompassed everything and that's, you know, what parsons really requested and you know, they are really, you know, spirit and technology is when it comes to, you know, all these deterministic processes. So it's been a pleasure sending back to you. And thank you very much. Take your ready for joining the Kate's a pleasure.",
+      "words": []
+    },
+    {
+      "start": 1607.82,
+      "end": 1612.32,
+      "text": "Thank you, Amanda. And I think that wraps things up for today. I appreciate that.",
+      "words": []
+    },
+    {
+      "start": 1615.32,
+      "end": 1617.82,
+      "text": "You",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:37:43.924210+00:00"
+}

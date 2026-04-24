@@ -1,0 +1,1261 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.5200000000000005,
+      "text": "Hello guys, my name is Terrell Menesys, I work as expert at Dresund Somer in Frankfurt",
+      "words": []
+    },
+    {
+      "start": 6.4,
+      "end": 11.76,
+      "text": "and I'm in charge of creating tools, development and automation workflows.",
+      "words": []
+    },
+    {
+      "start": 12.96,
+      "end": 18.240000000000002,
+      "text": "Hello and welcome to this session. APS and AI for large-scale project delivery",
+      "words": []
+    },
+    {
+      "start": 18.240000000000002,
+      "end": 24.64,
+      "text": "end-to-end control of your deliverables. The word end-to-end reminds me that last weekend I was a bit",
+      "words": []
+    },
+    {
+      "start": 25.52,
+      "end": 31.92,
+      "text": "so I thought let's do some adventure and I decided to cook dinner without a recipe so I just",
+      "words": []
+    },
+    {
+      "start": 31.92,
+      "end": 40.56,
+      "text": "started adding random things, some pasta, some chili, some yogurt, some soy sauce, and in the end",
+      "words": []
+    },
+    {
+      "start": 40.56,
+      "end": 48.32,
+      "text": "some chocolate. And I ended up creating a publicly new cuisine category. I thought it was really",
+      "words": []
+    },
+    {
+      "start": 48.32,
+      "end": 56.64,
+      "text": "incredible but in the end it was very inedible. So this sounds silly but unplanned misadventures",
+      "words": []
+    },
+    {
+      "start": 56.64,
+      "end": 62.96,
+      "text": "like this are really fun in the kitchen but unplanned misadventures like this in an AEC project",
+      "words": []
+    },
+    {
+      "start": 63.76,
+      "end": 68.8,
+      "text": "can blow off your budget, can be really expensive and can cause a lot of delays.",
+      "words": []
+    },
+    {
+      "start": 69.68,
+      "end": 74.32,
+      "text": "But still this tends to happen quite often and this is what we want to address. We don't want to",
+      "words": []
+    },
+    {
+      "start": 74.32,
+      "end": 78.8,
+      "text": "deliver chocolate pasta to our clients so what's the challenge we are facing here?",
+      "words": []
+    },
+    {
+      "start": 79.67999999999999,
+      "end": 87.11999999999999,
+      "text": "So AEC projects depend on clearly defined deliverables and yet cleverties often missing. We are often",
+      "words": []
+    },
+    {
+      "start": 87.11999999999999,
+      "end": 93.19999999999999,
+      "text": "faced with questions like what are we actually delivering? Who is supposed to deliver it? Who is",
+      "words": []
+    },
+    {
+      "start": 93.19999999999999,
+      "end": 100.72,
+      "text": "in charge? And where do we stand right now? What's the status? Are the deliverables issued, submitted",
+      "words": []
+    },
+    {
+      "start": 100.8,
+      "end": 107.36,
+      "text": "already, and are the deliverables compliant? Do they follow the guidelines? Now imagine a large-scale",
+      "words": []
+    },
+    {
+      "start": 107.36,
+      "end": 114.16,
+      "text": "AEC project. It often enoules more than 11 different disciplines. We will be working on",
+      "words": []
+    },
+    {
+      "start": 114.16,
+      "end": 121.92,
+      "text": "30 different models and in the end how to deliver more than 6000 deliverables. And what's typically",
+      "words": []
+    },
+    {
+      "start": 121.92,
+      "end": 128.64,
+      "text": "delivered? So typical deliverables consist of drawings like floor plan sections, elevations,",
+      "words": []
+    },
+    {
+      "start": 128.64,
+      "end": 137.27999999999997,
+      "text": "and also technical data sheets like reports, calculations, etc. And most of these come from",
+      "words": []
+    },
+    {
+      "start": 137.27999999999997,
+      "end": 143.44,
+      "text": "3D models. And as you see two-thirds of these deliverables are drawings and that's where the",
+      "words": []
+    },
+    {
+      "start": 143.44,
+      "end": 149.44,
+      "text": "money is. And this is what we aim to track in the beginning. How do we do this so far?",
+      "words": []
+    },
+    {
+      "start": 150.39999999999998,
+      "end": 157.76,
+      "text": "Traditionally this was a three-step process. Define, create, and deliver. Sounds really easy,",
+      "words": []
+    },
+    {
+      "start": 158.72,
+      "end": 165.67999999999998,
+      "text": "so deliverables were defined in excel sheet, a massive excel list. And then someone had to go through",
+      "words": []
+    },
+    {
+      "start": 165.67999999999998,
+      "end": 172.95999999999998,
+      "text": "this excel and create a responding VEWS and sheets in the Revit model. And then in the end",
+      "words": []
+    },
+    {
+      "start": 173.76,
+      "end": 180.72,
+      "text": "export these VEWS and sheets from the Revit model with the required naming convention to a",
+      "words": []
+    },
+    {
+      "start": 180.72,
+      "end": 184.79999999999998,
+      "text": "designated folder on Autodesk format, formerly known as Autodesk Construction Cloud.",
+      "words": []
+    },
+    {
+      "start": 185.28,
+      "end": 191.92000000000002,
+      "text": "But there are some challenges here. What are the key challenges? Disconnected data.",
+      "words": []
+    },
+    {
+      "start": 192.56,
+      "end": 197.20000000000002,
+      "text": "Excel file is not optimal for collaborative working. It's a static snapshot in time.",
+      "words": []
+    },
+    {
+      "start": 198.24,
+      "end": 203.76000000000002,
+      "text": "When lots of people are saving different versions, working on different versions, nobody knows",
+      "words": []
+    },
+    {
+      "start": 204.32000000000002,
+      "end": 209.92000000000002,
+      "text": "which is the latest file. And also there is no connection to the source models.",
+      "words": []
+    },
+    {
+      "start": 210.64,
+      "end": 216.32,
+      "text": "So we cannot know the status. And then there is lack of transparency.",
+      "words": []
+    },
+    {
+      "start": 216.88,
+      "end": 223.11999999999998,
+      "text": "It is not clear who is in charge of which is deliverable. And also the status is not visible.",
+      "words": []
+    },
+    {
+      "start": 224.48,
+      "end": 230.07999999999998,
+      "text": "And then in the end people had to manually go through the sheets and check for quality.",
+      "words": []
+    },
+    {
+      "start": 230.79999999999998,
+      "end": 235.44,
+      "text": "And then export all of the sheets and leaves manually. So that's a lot of repetitive,",
+      "words": []
+    },
+    {
+      "start": 236.0,
+      "end": 242.4,
+      "text": "intensive boring work. This is a recipe for disaster. And in this setting people tend to",
+      "words": []
+    },
+    {
+      "start": 242.4,
+      "end": 248.72,
+      "text": "often delay the tasks until the end. And then when the deadline is approaching, there is a lot",
+      "words": []
+    },
+    {
+      "start": 248.72,
+      "end": 254.96,
+      "text": "of panic. And we don't want to do all the work while crying. That's why two years ago we came up with",
+      "words": []
+    },
+    {
+      "start": 254.96,
+      "end": 262.08,
+      "text": "the roadmap to have a unified solution for this issue. And using Autodesk Platform services,",
+      "words": []
+    },
+    {
+      "start": 262.08,
+      "end": 266.0,
+      "text": "we managed to achieve most of these milestones, but still there is a lot more to go.",
+      "words": []
+    },
+    {
+      "start": 267.03999999999996,
+      "end": 272.96,
+      "text": "So basically we wanted to centralize our deliverables instead of storing it in a local file.",
+      "words": []
+    },
+    {
+      "start": 273.91999999999996,
+      "end": 278.71999999999997,
+      "text": "Then we wanted to establish connection to the source models and deliverables.",
+      "words": []
+    },
+    {
+      "start": 279.52,
+      "end": 284.24,
+      "text": "We wanted to check quality of all the sheets based on design guidelines.",
+      "words": []
+    },
+    {
+      "start": 284.96000000000004,
+      "end": 289.76,
+      "text": "And we also wanted to automate the exports.",
+      "words": []
+    },
+    {
+      "start": 291.84000000000003,
+      "end": 297.6,
+      "text": "And then we wanted to try all of the solutions as the proof of concept on a real project.",
+      "words": []
+    },
+    {
+      "start": 298.8,
+      "end": 302.48,
+      "text": "And then we also wanted to automatically create missing sheets.",
+      "words": []
+    },
+    {
+      "start": 302.48,
+      "end": 306.72,
+      "text": "And in the end implement AI for insights and prediction.",
+      "words": []
+    },
+    {
+      "start": 307.6,
+      "end": 313.92,
+      "text": "When we started working, we started right in the middle. Because it was the easiest thing to start with.",
+      "words": []
+    },
+    {
+      "start": 314.8,
+      "end": 318.32,
+      "text": "We introduced a technical setup behind this in the last year's DevCon.",
+      "words": []
+    },
+    {
+      "start": 319.12,
+      "end": 324.56,
+      "text": "And now we will show you what we are added on top. But before we move on, I will give you a brief",
+      "words": []
+    },
+    {
+      "start": 324.56,
+      "end": 331.52,
+      "text": "overview on how our deliverables are structured. So a set of parameters are initially defined for",
+      "words": []
+    },
+    {
+      "start": 331.52,
+      "end": 338.96000000000004,
+      "text": "a viewing project like this. In a simple way, three tables, you can see here the different values,",
+      "words": []
+    },
+    {
+      "start": 338.96,
+      "end": 342.88,
+      "text": "there are codified values on left and there's description on the right.",
+      "words": []
+    },
+    {
+      "start": 344.08,
+      "end": 350.32,
+      "text": "So a simple floor plan created for the first floor Brian architect would be codified like this.",
+      "words": []
+    },
+    {
+      "start": 351.2,
+      "end": 356.08,
+      "text": "Right, that's how we derive the file name for the documents. And then based on this logic,",
+      "words": []
+    },
+    {
+      "start": 357.2,
+      "end": 363.52,
+      "text": "the list would look like this. This is a very, very simple example. Now back to our roadline,",
+      "words": []
+    },
+    {
+      "start": 363.52,
+      "end": 369.68,
+      "text": "centralization. What are we solving here? We need a centralized way to define deliverables.",
+      "words": []
+    },
+    {
+      "start": 370.79999999999995,
+      "end": 376.79999999999995,
+      "text": "We need scopes for clear ownership. We want to have a configurable file name in convention.",
+      "words": []
+    },
+    {
+      "start": 377.59999999999997,
+      "end": 383.68,
+      "text": "So we implemented our solution using MongoDB as a database in our tool called I love the",
+      "words": []
+    },
+    {
+      "start": 383.68,
+      "end": 391.84,
+      "text": "L. The L stands for deliverables and we love them of course. And as you can see in our world map,",
+      "words": []
+    },
+    {
+      "start": 391.84,
+      "end": 397.03999999999996,
+      "text": "we also wanted to try the solution in real use case. And that's what we did this year. We implemented",
+      "words": []
+    },
+    {
+      "start": 397.03999999999996,
+      "end": 403.2,
+      "text": "this on one of our own project, which is let's say an experimental office building.",
+      "words": []
+    },
+    {
+      "start": 404.47999999999996,
+      "end": 410.0,
+      "text": "And for this project, we tried defining our deliverables in the newly implemented solution.",
+      "words": []
+    },
+    {
+      "start": 411.28,
+      "end": 417.84,
+      "text": "So here you can see the parameters like building, trade, document type are clearly defined",
+      "words": []
+    },
+    {
+      "start": 417.91999999999996,
+      "end": 421.67999999999995,
+      "text": "in the interface and then combination of these parameters.",
+      "words": []
+    },
+    {
+      "start": 423.84,
+      "end": 432.79999999999995,
+      "text": "You can see here in the master deliverable list. Here each row is supposed to represent one",
+      "words": []
+    },
+    {
+      "start": 432.79999999999995,
+      "end": 438.55999999999995,
+      "text": "deliverable. Here you can also see the file name. For the file name in convention,",
+      "words": []
+    },
+    {
+      "start": 439.52,
+      "end": 447.03999999999996,
+      "text": "we used previously a very complex Excel formula. It looks really, really complex that only",
+      "words": []
+    },
+    {
+      "start": 447.04,
+      "end": 453.52000000000004,
+      "text": "Neo could read it, but we don't have Neo in our theme. So we don't want that. So we developed an",
+      "words": []
+    },
+    {
+      "start": 453.52000000000004,
+      "end": 458.88,
+      "text": "easily configurable interface to set up the naming convention. The code was to have an",
+      "words": []
+    },
+    {
+      "start": 458.88,
+      "end": 464.48,
+      "text": "adjustable system instead of having static formula that's relative to columns. If naming convention",
+      "words": []
+    },
+    {
+      "start": 464.48,
+      "end": 470.56,
+      "text": "had to be changed and there were extra columns in Excel, people ended up creating the whole list",
+      "words": []
+    },
+    {
+      "start": 470.56,
+      "end": 475.04,
+      "text": "from scratch because it was too complex. But with this new approach, it's just as easy as moving",
+      "words": []
+    },
+    {
+      "start": 475.04,
+      "end": 481.84000000000003,
+      "text": "the bubbles here. And as we upload the deliverables to Autodest Forma, we need to have this exact",
+      "words": []
+    },
+    {
+      "start": 481.84000000000003,
+      "end": 488.8,
+      "text": "naming convention also on Autodest Form. But currently we don't have a way to do this via API,",
+      "words": []
+    },
+    {
+      "start": 488.8,
+      "end": 497.04,
+      "text": "so we use the Excel import option on Forma. So now we have defined our deliverables.",
+      "words": []
+    },
+    {
+      "start": 497.04,
+      "end": 503.44,
+      "text": "centrally, we still have an issue ownership out of 6000 deliverables. How does someone know",
+      "words": []
+    },
+    {
+      "start": 503.52,
+      "end": 509.36,
+      "text": "which documents they're in charge of creating? This reminds me that I used to be part of a huge",
+      "words": []
+    },
+    {
+      "start": 509.36,
+      "end": 517.04,
+      "text": "WhatsApp family group, which had 70 members in it. And every morning I wake up, there used to be",
+      "words": []
+    },
+    {
+      "start": 517.04,
+      "end": 524.8,
+      "text": "999 hundred messages. So one day I decided to open it. What's going on there? When I opened,",
+      "words": []
+    },
+    {
+      "start": 524.8,
+      "end": 530.48,
+      "text": "there were so many messages and then I saw there was a message from my mom. She asked me to buy some",
+      "words": []
+    },
+    {
+      "start": 530.48,
+      "end": 538.8000000000001,
+      "text": "onions. So I went out and bought a lot of onions. And then I realized it wasn't my mom. It was someone",
+      "words": []
+    },
+    {
+      "start": 538.8000000000001,
+      "end": 545.2,
+      "text": "else's mom. It was just a user name. And I also realized that I live in Germany now and my mom",
+      "words": []
+    },
+    {
+      "start": 545.2,
+      "end": 552.16,
+      "text": "is in India. So what do I do with all these onions? What I'm trying to say here is our lives will be",
+      "words": []
+    },
+    {
+      "start": 552.16,
+      "end": 559.12,
+      "text": "much simpler if we only see the data that we are supposed to see and not everything all at once.",
+      "words": []
+    },
+    {
+      "start": 560.08,
+      "end": 567.92,
+      "text": "And how did we do this in our tool before? We had Excel groups. And the users had to navigate",
+      "words": []
+    },
+    {
+      "start": 567.92,
+      "end": 572.96,
+      "text": "these groups on their own and just find out stuff. So basically for me this looks like a one",
+      "words": []
+    },
+    {
+      "start": 572.96,
+      "end": 580.0,
+      "text": "bit giant WhatsApp family group. And we don't want this. That's why we decided to define scopes",
+      "words": []
+    },
+    {
+      "start": 581.12,
+      "end": 584.5600000000001,
+      "text": "for roads based on parameters. In this example,",
+      "words": []
+    },
+    {
+      "start": 585.28,
+      "end": 591.8399999999999,
+      "text": "based on trade and area designation, in area work, we have seven scopes defined.",
+      "words": []
+    },
+    {
+      "start": 593.1999999999999,
+      "end": 599.52,
+      "text": "And based on these scopes, we can filter our master list and show only relevant data for user",
+      "words": []
+    },
+    {
+      "start": 599.52,
+      "end": 604.7199999999999,
+      "text": "based on their roads. But what's still missing here is the connection to rev it models.",
+      "words": []
+    },
+    {
+      "start": 605.76,
+      "end": 609.1999999999999,
+      "text": "That brings us to our next step on the roadmap connection to models.",
+      "words": []
+    },
+    {
+      "start": 609.5200000000001,
+      "end": 616.88,
+      "text": "So for use case we have seven different models on former cloud, which we must link to our scopes.",
+      "words": []
+    },
+    {
+      "start": 616.88,
+      "end": 625.2,
+      "text": "For this we use AEC data model API to query element groups. And then from the current results,",
+      "words": []
+    },
+    {
+      "start": 625.2,
+      "end": 629.76,
+      "text": "we get the IDs of the element groups and we link map these IDs to our scopes.",
+      "words": []
+    },
+    {
+      "start": 631.6800000000001,
+      "end": 636.96,
+      "text": "You can also see that we can also get this alternative identifiers, which we can use with the",
+      "words": []
+    },
+    {
+      "start": 636.96,
+      "end": 642.88,
+      "text": "data management API to get some metadata from this file item. For example,",
+      "words": []
+    },
+    {
+      "start": 642.88,
+      "end": 649.2800000000001,
+      "text": "for structuring project ID and model ID, we can use this to automatically edit the cloud model",
+      "words": []
+    },
+    {
+      "start": 649.2800000000001,
+      "end": 656.64,
+      "text": "using automation API and synchronize and stuff like this. So with this data, we provide the users",
+      "words": []
+    },
+    {
+      "start": 656.64,
+      "end": 661.52,
+      "text": "a drop down to easily map the files to the scopes and the background, we link to element group",
+      "words": []
+    },
+    {
+      "start": 661.52,
+      "end": 668.8,
+      "text": "by here. We can also map one relevant model to multiple scopes, just in case users are working",
+      "words": []
+    },
+    {
+      "start": 668.8,
+      "end": 673.52,
+      "text": "on fragmented files, which are linked to one big model, it's also possible to map one model to",
+      "words": []
+    },
+    {
+      "start": 673.52,
+      "end": 678.72,
+      "text": "multiple scopes. But there's still something missing. How would we know which sheet or",
+      "words": []
+    },
+    {
+      "start": 678.72,
+      "end": 685.04,
+      "text": "wave inside relevant maps to which deliverable? For this we need an element level connection.",
+      "words": []
+    },
+    {
+      "start": 685.04,
+      "end": 690.0,
+      "text": "How do we do this? So our defined deliverable list has parameters.",
+      "words": []
+    },
+    {
+      "start": 691.52,
+      "end": 696.0799999999999,
+      "text": "And also sheets inside relevant model have parameters and we have to map these.",
+      "words": []
+    },
+    {
+      "start": 697.1999999999999,
+      "end": 701.28,
+      "text": "And we are not planning to read out these parameters using the OCR functionality,",
+      "words": []
+    },
+    {
+      "start": 701.28,
+      "end": 707.92,
+      "text": "but we once again use AEC data model API. We know which relevant model we must check from the scopes,",
+      "words": []
+    },
+    {
+      "start": 707.92,
+      "end": 714.3199999999999,
+      "text": "so basically we query the relevant sheets from this model and also the project information,",
+      "words": []
+    },
+    {
+      "start": 715.2,
+      "end": 721.44,
+      "text": "along with their parameters, a parameter needs. Now we have the names of all the parameters,",
+      "words": []
+    },
+    {
+      "start": 721.44,
+      "end": 729.6800000000001,
+      "text": "which we can let the users using a drop down to map to the parameters in our deliverable list.",
+      "words": []
+    },
+    {
+      "start": 730.4000000000001,
+      "end": 736.0,
+      "text": "So all of the setup we did until now can be saved as a template, so the users can reuse it",
+      "words": []
+    },
+    {
+      "start": 736.0,
+      "end": 739.44,
+      "text": "for a new project if we tell the similar structure, they don't have to do it all over again.",
+      "words": []
+    },
+    {
+      "start": 740.4000000000001,
+      "end": 745.9200000000001,
+      "text": "So with this we can say the models are fully connected to the deliverables.",
+      "words": []
+    },
+    {
+      "start": 745.9200000000001,
+      "end": 751.12,
+      "text": "And based on this connection we have a comparison page in our tool which shows us the current status",
+      "words": []
+    },
+    {
+      "start": 751.12,
+      "end": 757.44,
+      "text": "of the deliverables in the models. Here we can see a comparison window which shows current status",
+      "words": []
+    },
+    {
+      "start": 757.44,
+      "end": 762.96,
+      "text": "of the model for architectures code. The values here are first filtered based on relevant documents",
+      "words": []
+    },
+    {
+      "start": 762.96,
+      "end": 768.72,
+      "text": "like floor plans sections, etc. and not the technical data sheets for now. The green dot here",
+      "words": []
+    },
+    {
+      "start": 769.2,
+      "end": 773.6,
+      "text": "means the parameters are perfect match everything matches perfectly and to go.",
+      "words": []
+    },
+    {
+      "start": 775.2,
+      "end": 781.0400000000001,
+      "text": "Yellow dot means the sheet exists in brevity, but all the parameters are not matching,",
+      "words": []
+    },
+    {
+      "start": 781.0400000000001,
+      "end": 788.32,
+      "text": "for example here the level doesn't match. These sheets need review. The red dot means that the",
+      "words": []
+    },
+    {
+      "start": 788.32,
+      "end": 793.52,
+      "text": "sheet does not exist in brevity yet somebody has to create them. The blue dot means the sheet",
+      "words": []
+    },
+    {
+      "start": 793.52,
+      "end": 798.8,
+      "text": "exists in brevity, but corresponding value doesn't exist in the deliverables list so something",
+      "words": []
+    },
+    {
+      "start": 798.8,
+      "end": 803.4399999999999,
+      "text": "might be wrong there. So this can give us a good status overview of the sheets.",
+      "words": []
+    },
+    {
+      "start": 804.96,
+      "end": 811.76,
+      "text": "And what do we do with the sheets whose parameters don't match like this? So for this you can",
+      "words": []
+    },
+    {
+      "start": 811.76,
+      "end": 818.0,
+      "text": "click the button at the bottom in our tool called fixinbrevity and then once you click it,",
+      "words": []
+    },
+    {
+      "start": 818.0,
+      "end": 824.4,
+      "text": "tasks would be created in the tool. Here you can see the names of the files for which tasks have",
+      "words": []
+    },
+    {
+      "start": 824.4,
+      "end": 831.12,
+      "text": "been created and on the right side you can see what kind of tasks are created and then below that",
+      "words": []
+    },
+    {
+      "start": 831.12,
+      "end": 835.76,
+      "text": "you can see the inputs for these tasks. Here you can see the name of the parameter, the correct value",
+      "words": []
+    },
+    {
+      "start": 835.76,
+      "end": 843.6,
+      "text": "and which red element it has to be assigned to. So in the end these tasks can be executed by Ermin.",
+      "words": []
+    },
+    {
+      "start": 844.5600000000001,
+      "end": 849.9200000000001,
+      "text": "Right and what happens once they execute it what happens in the backrop? So once again we have",
+      "words": []
+    },
+    {
+      "start": 849.9200000000001,
+      "end": 854.32,
+      "text": "this information from our scopes that we derived earlier and we also have the inputs.",
+      "words": []
+    },
+    {
+      "start": 855.12,
+      "end": 862.0,
+      "text": "So we use automation API to send these inputs as a work item. Basically we open the",
+      "words": []
+    },
+    {
+      "start": 862.0,
+      "end": 867.6,
+      "text": "private cloud model and then we assign the right values to the parameters using the inputs",
+      "words": []
+    },
+    {
+      "start": 867.6,
+      "end": 874.48,
+      "text": "and then we synchronize the model. So now the parameters are fixed but do we still have everything",
+      "words": []
+    },
+    {
+      "start": 874.48,
+      "end": 882.24,
+      "text": "we need? Just having the parameters right is this enough? What if the sheet is empty or what if",
+      "words": []
+    },
+    {
+      "start": 882.24,
+      "end": 888.96,
+      "text": "wrong title block was used or wrong report was used? Could we export the sheet and submit it to",
+      "words": []
+    },
+    {
+      "start": 888.96,
+      "end": 897.44,
+      "text": "the clients? What about the contents? For this we need a quality control and this brings us to",
+      "words": []
+    },
+    {
+      "start": 897.6,
+      "end": 904.24,
+      "text": "the next step design guidelines. So we need to establish some guidelines which we can use to",
+      "words": []
+    },
+    {
+      "start": 904.24,
+      "end": 912.1600000000001,
+      "text": "check qualities of the sheet in our model. So this is how we define guidelines for our projects",
+      "words": []
+    },
+    {
+      "start": 912.1600000000001,
+      "end": 917.9200000000001,
+      "text": "for different types of plans. For example what kinds of legends and notations reports it should",
+      "words": []
+    },
+    {
+      "start": 917.9200000000001,
+      "end": 923.7600000000001,
+      "text": "have, how the dimensions have to be marked and so on. These are some guidelines defined for our",
+      "words": []
+    },
+    {
+      "start": 923.76,
+      "end": 931.4399999999999,
+      "text": "case study project and we configured these guidelines using our relic plugin colidious tool",
+      "words": []
+    },
+    {
+      "start": 931.4399999999999,
+      "end": 937.04,
+      "text": "which was presented at 824 other days in university when working on models this tool gives",
+      "words": []
+    },
+    {
+      "start": 937.04,
+      "end": 942.8,
+      "text": "users feedback on what is wrong and what to do next. And in this tool we have user interface where",
+      "words": []
+    },
+    {
+      "start": 942.8,
+      "end": 948.8,
+      "text": "we can create design guidelines configurations like what title block to use, what legend, what",
+      "words": []
+    },
+    {
+      "start": 948.88,
+      "end": 956.16,
+      "text": "report and lots of other options and then we save these settings in the data storage object",
+      "words": []
+    },
+    {
+      "start": 956.16,
+      "end": 962.4799999999999,
+      "text": "after a relic model. And how do we access it from here? We once again use automation API.",
+      "words": []
+    },
+    {
+      "start": 962.4799999999999,
+      "end": 968.8,
+      "text": "We know which relic model to work on. We just open this model on the cloud, we extract the design",
+      "words": []
+    },
+    {
+      "start": 968.8,
+      "end": 974.9599999999999,
+      "text": "guidelines from the data storage object, then we check all the sheets if they comply and then we",
+      "words": []
+    },
+    {
+      "start": 974.96,
+      "end": 981.6,
+      "text": "send this information back to the tool. And with this information you can show an additional column",
+      "words": []
+    },
+    {
+      "start": 981.6,
+      "end": 988.88,
+      "text": "in our comparison window as a percentage of compliance. So basically here you can see three out of",
+      "words": []
+    },
+    {
+      "start": 988.88,
+      "end": 994.5600000000001,
+      "text": "nine sheets past the guideline checks and they are good to go. So we can export them and deliver",
+      "words": []
+    },
+    {
+      "start": 994.5600000000001,
+      "end": 1000.8000000000001,
+      "text": "them. But once again we don't want to export them manually because this can take really long time",
+      "words": []
+    },
+    {
+      "start": 1000.8,
+      "end": 1006.0799999999999,
+      "text": "with lots of the lurables. This brings us to our next step automating exports. As I mentioned",
+      "words": []
+    },
+    {
+      "start": 1006.0799999999999,
+      "end": 1010.88,
+      "text": "earlier this was the first thing that we saw because it was easiest to implement. Our setup",
+      "words": []
+    },
+    {
+      "start": 1010.88,
+      "end": 1018.7199999999999,
+      "text": "looked like this. So the users can easily configure export settings in our tool for a relic file on",
+      "words": []
+    },
+    {
+      "start": 1018.7199999999999,
+      "end": 1024.48,
+      "text": "the cloud. For example which we've set or we've set to be exported, what export settings have to be",
+      "words": []
+    },
+    {
+      "start": 1025.44,
+      "end": 1032.72,
+      "text": "used and then using automation API or Revit. The model is open on the cloud and deliverables,",
+      "words": []
+    },
+    {
+      "start": 1032.72,
+      "end": 1038.8,
+      "text": "views and sheets are exported and uploaded to a designated folder on our last format.",
+      "words": []
+    },
+    {
+      "start": 1039.68,
+      "end": 1045.3600000000001,
+      "text": "With this we have the full cycle in line from defining the deliverables to export them.",
+      "words": []
+    },
+    {
+      "start": 1046.16,
+      "end": 1053.2,
+      "text": "So what's next? The next step is AI implementation. Now why do we need this? Is this because everybody",
+      "words": []
+    },
+    {
+      "start": 1053.2,
+      "end": 1060.24,
+      "text": "else is implementing AI? Now imagine it's Friday night and you open Netflix, you want to",
+      "words": []
+    },
+    {
+      "start": 1060.24,
+      "end": 1065.76,
+      "text": "watch something funny so you filter comedy moves. But there are still thousands of titles,",
+      "words": []
+    },
+    {
+      "start": 1065.76,
+      "end": 1071.3600000000001,
+      "text": "you keep scrolling and scrolling and you finish your popcorn bucket and 20 meatballs but you",
+      "words": []
+    },
+    {
+      "start": 1071.3600000000001,
+      "end": 1078.64,
+      "text": "still didn't find the movie. So next time you use AI assistant, you ask I want something funny",
+      "words": []
+    },
+    {
+      "start": 1078.72,
+      "end": 1084.0,
+      "text": "under 90 minutes with Adam Sandler and this turns an overwhelming choice into action-able",
+      "words": []
+    },
+    {
+      "start": 1084.0,
+      "end": 1090.88,
+      "text": "recommendations. In our use case, our comparison window shows us this status. But the AI",
+      "words": []
+    },
+    {
+      "start": 1090.88,
+      "end": 1095.6000000000001,
+      "text": "assistants can refine the choices and give simple summaries and actionable insights for the user.",
+      "words": []
+    },
+    {
+      "start": 1097.44,
+      "end": 1104.0,
+      "text": "So we have implemented a simple AI assist layer which will be improved in the upcoming days",
+      "words": []
+    },
+    {
+      "start": 1104.56,
+      "end": 1109.92,
+      "text": "but the beginning with here's how it works. For this we use open AI model GPT-4 or many.",
+      "words": []
+    },
+    {
+      "start": 1110.64,
+      "end": 1114.48,
+      "text": "Imagine the user asks what details are missing in the electrical scope.",
+      "words": []
+    },
+    {
+      "start": 1115.6,
+      "end": 1121.2,
+      "text": "The question is sent to the AI model to parse the intent of the question first because if the user",
+      "words": []
+    },
+    {
+      "start": 1121.2,
+      "end": 1126.96,
+      "text": "asks something irrelevant then it shouldn't try to answer it. Once the intent is parsed we know",
+      "words": []
+    },
+    {
+      "start": 1126.96,
+      "end": 1133.76,
+      "text": "what scope the user is talking about and what document type the user is asking about and then we also",
+      "words": []
+    },
+    {
+      "start": 1133.76,
+      "end": 1141.12,
+      "text": "know he's talking about missing sheets. So based on this intent we filter data in our tool,",
+      "words": []
+    },
+    {
+      "start": 1141.12,
+      "end": 1146.72,
+      "text": "we gather facts and then we send these gathered facts back to the model to analyze",
+      "words": []
+    },
+    {
+      "start": 1147.6,
+      "end": 1153.36,
+      "text": "based on the analysis provide an output and we display this output to the users along with",
+      "words": []
+    },
+    {
+      "start": 1153.36,
+      "end": 1160.96,
+      "text": "actionable insights if available. Here you can see it in action. The user is asking for floor",
+      "words": []
+    },
+    {
+      "start": 1160.96,
+      "end": 1169.3600000000001,
+      "text": "plans that need review in architecture scope. Then we get the result with some statistics,",
+      "words": []
+    },
+    {
+      "start": 1170.32,
+      "end": 1178.96,
+      "text": "with some numbers, also the top mismatched parameters. Then at the bottom you can see two buttons",
+      "words": []
+    },
+    {
+      "start": 1178.96,
+      "end": 1186.0,
+      "text": "which are actionable insights. Now the user can click filter to filter the sheets based on the",
+      "words": []
+    },
+    {
+      "start": 1186.0,
+      "end": 1194.88,
+      "text": "result and then can just review the sheets one by one, check the missing parameters and probably",
+      "words": []
+    },
+    {
+      "start": 1194.88,
+      "end": 1202.88,
+      "text": "fix them one by one or the user can use the other actionable insight button. So it creates",
+      "words": []
+    },
+    {
+      "start": 1203.6,
+      "end": 1213.76,
+      "text": "the automation tasks for all of the sheets at once like this. Basically with this we as of",
+      "words": []
+    },
+    {
+      "start": 1213.76,
+      "end": 1220.32,
+      "text": "today are using AI just for assistance for quick summary, quick insights but we aim to connect data",
+      "words": []
+    },
+    {
+      "start": 1220.32,
+      "end": 1231.36,
+      "text": "in future and we can use this data to learn patterns which can be analyzed by AI to predict certain",
+      "words": []
+    },
+    {
+      "start": 1231.36,
+      "end": 1238.48,
+      "text": "outcomes and based on these predictions we can make smart decisions on our upcoming project.",
+      "words": []
+    },
+    {
+      "start": 1238.48,
+      "end": 1244.48,
+      "text": "Basically in the end we need something like a predictive and generative AI which means",
+      "words": []
+    },
+    {
+      "start": 1245.76,
+      "end": 1251.52,
+      "text": "we would like to automatically generate deliverables using AI based on user inputs. For example what",
+      "words": []
+    },
+    {
+      "start": 1251.52,
+      "end": 1257.3600000000001,
+      "text": "kind of building we are working on like airport. Number of floors involved, number of traits and",
+      "words": []
+    },
+    {
+      "start": 1257.3600000000001,
+      "end": 1264.88,
+      "text": "based on this input it should automatically create the deliverables content and then we also want to",
+      "words": []
+    },
+    {
+      "start": 1264.88,
+      "end": 1273.0400000000002,
+      "text": "detect patterns based on past projects and warn the users early. We also want to predict readiness",
+      "words": []
+    },
+    {
+      "start": 1273.0400000000002,
+      "end": 1281.68,
+      "text": "risk and also warn the users early before milestones. This is our next steps, future outlook and in",
+      "words": []
+    },
+    {
+      "start": 1281.68,
+      "end": 1287.92,
+      "text": "addition we also want to implement automatic creations of missing sheets based on guidelines.",
+      "words": []
+    },
+    {
+      "start": 1288.64,
+      "end": 1293.44,
+      "text": "It was also in our milestones but we did not achieve it yet. We also want to",
+      "words": []
+    },
+    {
+      "start": 1294.0800000000002,
+      "end": 1299.76,
+      "text": "you cross the citizen checks for example check compared the architecture model with the fire",
+      "words": []
+    },
+    {
+      "start": 1299.76,
+      "end": 1304.16,
+      "text": "protection just to check everything is it line or not and then we also want to integrate",
+      "words": []
+    },
+    {
+      "start": 1304.16,
+      "end": 1309.3600000000001,
+      "text": "the deliverables that don't come from where they are. But in the end what's the impact of all of",
+      "words": []
+    },
+    {
+      "start": 1309.3600000000001,
+      "end": 1316.96,
+      "text": "this? Why do we have such a big pipeline set up? Compute this manually. So have you ever",
+      "words": []
+    },
+    {
+      "start": 1317.6000000000001,
+      "end": 1321.6000000000001,
+      "text": "tried redlining 6000 documents overnight and made it out alive?",
+      "words": []
+    },
+    {
+      "start": 1322.56,
+      "end": 1329.76,
+      "text": "This guy did and he's still 21 years old. What I'm trying to say is if you spend hours and hours",
+      "words": []
+    },
+    {
+      "start": 1329.76,
+      "end": 1334.72,
+      "text": "on repetitive tasks it's a waste of human intelligence. It don't want to be the architect who is",
+      "words": []
+    },
+    {
+      "start": 1334.72,
+      "end": 1340.96,
+      "text": "stressed who has to go to 6000 sheets manually to check if they're up to quality and export them",
+      "words": []
+    },
+    {
+      "start": 1340.96,
+      "end": 1345.3600000000001,
+      "text": "and print them at midnight no matter how hard it tries. It's not going to make it.",
+      "words": []
+    },
+    {
+      "start": 1346.32,
+      "end": 1350.8799999999999,
+      "text": "But if most of the boring work labor intense and repetitive work was automated",
+      "words": []
+    },
+    {
+      "start": 1352.08,
+      "end": 1357.6,
+      "text": "then you can concentrate on things that need human intelligence. And thanks to Autodesk",
+      "words": []
+    },
+    {
+      "start": 1357.6,
+      "end": 1364.24,
+      "text": "Platform Services and AI we can make this possible. My name is Devo thank you very much for listening.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:49:21.049594+00:00"
+}

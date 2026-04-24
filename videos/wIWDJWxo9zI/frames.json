@@ -1,0 +1,325 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wIWDJWxo9zI\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wIWDJWxo9zI\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk DevCon"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wIWDJWxo9zI\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows an agenda slide for a presentation at Autodesk DevCon, outlining topics related to quality checks and AI solutions.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Agenda",
+        "Current state of Quality checks today",
+        "Real-world example\u2013 BCA Singapore",
+        "Autodesk\u2019s AI powered solution",
+        "Demo",
+        "How to engage"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wIWDJWxo9zI\\frames\\frame_000005.jpg",
+      "timestamp_seconds": 120.0,
+      "frame_index": 5,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide with a poll asking about catching issues and automation, part of Autodesk DevCon.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Poll",
+        "Raise your hand if you\u2019ve ever caught an issue later than you would\u2019ve liked",
+        "Raise your hand if you think more automation could have prevented that"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wIWDJWxo9zI\\frames\\frame_000007.jpg",
+      "timestamp_seconds": 180.0,
+      "frame_index": 7,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents a workflow for design quality check processes and their impact in terms of change orders, budget, and schedule.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Design Quality Check Workflows TODAY",
+        "Workflow",
+        "Impact",
+        "Change Orders",
+        "Budget Impact",
+        "Schedule Impact"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wIWDJWxo9zI\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide presenting a customer story related to BCA by Autodesk shown at DevCon.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Customer story - BCA"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wIWDJWxo9zI\\frames\\frame_000013.jpg",
+      "timestamp_seconds": 360.0,
+      "frame_index": 13,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide discussing the impact of regulatory approval process in Singapore's built environment industry.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Singapore's Built Environment Industry at a Glance",
+        "Impact of Regulatory Approval Process for Building Works",
+        "> 20 approval stages",
+        "~6000 regulatory rules",
+        "~600 processing officers",
+        "~19,600 new registered projects annually",
+        "~205,000 submissions"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wIWDJWxo9zI\\frames\\frame_000015.jpg",
+      "timestamp_seconds": 420.0,
+      "frame_index": 15,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide about today's separate and concurrent regulatory approval process in the construction industry.",
+      "products_visible": [
+        "Autodesk",
+        "Corenet"
+      ],
+      "ui_elements": [
+        "Today's Separate and Concurrent Regulatory Approval Process",
+        "Industry",
+        "Agencies",
+        "Construction"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wIWDJWxo9zI\\frames\\frame_000016.jpg",
+      "timestamp_seconds": 450.0,
+      "frame_index": 16,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide compares today's regulatory approval process with a streamlined version, and mentions CoreNet's role in redesigning these processes into three main gateways.",
+      "products_visible": [
+        "AUTODESK",
+        "CoreNet"
+      ],
+      "ui_elements": [
+        "Independent Planning & Design",
+        "Coordinated Submission",
+        "Design Gateway",
+        "Piling Gateway",
+        "Construction Gateway",
+        "TOP/Statutory Completion"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wIWDJWxo9zI\\frames\\frame_000018.jpg",
+      "timestamp_seconds": 510.0,
+      "frame_index": 18,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide discussing the benefits of CORENET X with details on live projects and benefits like agency approvals, confidence, and cost savings.",
+      "products_visible": [
+        "Autodesk",
+        "CORENET X"
+      ],
+      "ui_elements": [
+        "Benefits of CORENET X",
+        "105 Ongoing/Completed Live Projects",
+        "IBEW 2025",
+        "Benefits"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wIWDJWxo9zI\\frames\\frame_000023.jpg",
+      "timestamp_seconds": 660.0,
+      "frame_index": 23,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide titled 'Exploring AI for Automated Model Checker' with details on leveraging AI for regulatory interpretation and model quality testing.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Exploring AI for Automated Model Checker",
+        "AI Rule Interpretation",
+        "Automated Code Generation",
+        "Streamlined Testing"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wIWDJWxo9zI\\frames\\frame_000025.jpg",
+      "timestamp_seconds": 720.0,
+      "frame_index": 25,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents an AI-driven quality platform focusing on end-to-end automation from rules extraction to issue creation.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "A unified, AI-driven Quality platform",
+        "Rules Extraction",
+        "Quality Check",
+        "Issue Creation",
+        "Customer Rules"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wIWDJWxo9zI\\frames\\frame_000032.jpg",
+      "timestamp_seconds": 930.0,
+      "frame_index": 32,
+      "category": "demo",
+      "keep": true,
+      "description": "A demonstration of a 3D view highlighting bollard height violations using an Autodesk software.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Tech Preview",
+        "3D view",
+        "Violations Found",
+        "Save as data exchange",
+        "View detailed compliance report"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wIWDJWxo9zI\\frames\\frame_000033.jpg",
+      "timestamp_seconds": 960.0,
+      "frame_index": 33,
+      "category": "demo",
+      "keep": true,
+      "description": "A software interface is shown with a focus on compliance report regarding bollard violations.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Create issues for bollard violations",
+        "Save as data exchange",
+        "View detailed compliance report",
+        "Continue validation with next batch",
+        "Tech Preview",
+        "Ask Autodesk Assistant"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wIWDJWxo9zI\\frames\\frame_000034.jpg",
+      "timestamp_seconds": 990.0,
+      "frame_index": 34,
+      "category": "demo",
+      "keep": true,
+      "description": "A presentation slide from Autodesk DevCon showing parametric rules and an issues list related to various construction parameters.",
+      "products_visible": [
+        "AUTODESK Forge"
+      ],
+      "ui_elements": [
+        "Parametric Rules",
+        "Issues",
+        "Create issue",
+        "Export",
+        "Status",
+        "Details",
+        "Activity log"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wIWDJWxo9zI\\frames\\frame_000037.jpg",
+      "timestamp_seconds": 1080.0,
+      "frame_index": 37,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide contrasts past and present methods for quality checks in projects, highlighting improvements such as automated checks and real-time insights.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Before",
+        "Now",
+        "Quality, Reimagined"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wIWDJWxo9zI\\frames\\frame_000038.jpg",
+      "timestamp_seconds": 1110.0,
+      "frame_index": 38,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide stating 'It is not just about automating checks...' next to a talking head view.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wIWDJWxo9zI\\frames\\frame_000039.jpg",
+      "timestamp_seconds": 1140.0,
+      "frame_index": 39,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide from Autodesk DevCon discussing the journey involving expanding rule coverage, supporting more regions, and extending AI agents.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Journey from here",
+        "Expand rule coverage",
+        "Support more regions",
+        "Extend AI agents"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\wIWDJWxo9zI\\frames\\frame_000040.jpg",
+      "timestamp_seconds": 1170.0,
+      "frame_index": 40,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Let's scale design quality together!",
+        "Swati Agarwal",
+        "Farzad Towhidi"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:24:07.387173+00:00"
+}

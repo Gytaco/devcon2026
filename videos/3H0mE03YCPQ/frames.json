@@ -1,0 +1,214 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\3H0mE03YCPQ\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide introduces speakers from a session, listing their names and roles at the company 'ibens'.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Speakers",
+        "Christopher, Baute",
+        "Arno, Steynen"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\3H0mE03YCPQ\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon discussing the slow response times and unsolved issues after data improvements.",
+      "products_visible": [
+        "Autodesk Forma"
+      ],
+      "ui_elements": [
+        "You\u2019ve probably experienced this..",
+        "DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\3H0mE03YCPQ\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide from an Autodesk DevCon presentation focusing on scaling safety reporting across projects.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Scaling safety reporting across all projects"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\3H0mE03YCPQ\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide about standardized issue templates with a list of safety issues.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Standardized issue templates"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\3H0mE03YCPQ\\frames\\frame_000005.jpg",
+      "timestamp_seconds": 120.0,
+      "frame_index": 5,
+      "category": "data",
+      "keep": true,
+      "description": "The frame shows a data presentation with charts and treemaps on safety notifications.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Totaal # veiligheidsmelding per maand",
+        "Risico",
+        "Jaar",
+        "Totaal # meldingen per title",
+        "What improved"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\3H0mE03YCPQ\\frames\\frame_000010.jpg",
+      "timestamp_seconds": 270.0,
+      "frame_index": 10,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing a demonstration of creating an issue in Autodesk's interface alongside a WhatsApp screen.",
+      "products_visible": [
+        "AUTODESK",
+        "WhatsApp"
+      ],
+      "ui_elements": [
+        "Create issue",
+        "Add to Favorites"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\3H0mE03YCPQ\\frames\\frame_000016.jpg",
+      "timestamp_seconds": 450.0,
+      "frame_index": 16,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide with a speaker discussing the process of creating an issue using Autodesk.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Issue created",
+        "Process A"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\3H0mE03YCPQ\\frames\\frame_000017.jpg",
+      "timestamp_seconds": 480.0,
+      "frame_index": 17,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing a process with issue creation and filtering, ending with a WhatsApp communication.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Issue created",
+        "Filtering",
+        "WhatsApp"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\3H0mE03YCPQ\\frames\\frame_000024.jpg",
+      "timestamp_seconds": 690.0,
+      "frame_index": 24,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide titled 'How we built it' with a focus on the 'Process'.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "How we built it",
+        "Process"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\3H0mE03YCPQ\\frames\\frame_000025.jpg",
+      "timestamp_seconds": 720.0,
+      "frame_index": 25,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide showing the process behind message status updates and replies with icons.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Message status updated",
+        "Reply",
+        "Process"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\3H0mE03YCPQ\\frames\\frame_000035.jpg",
+      "timestamp_seconds": 1020.0,
+      "frame_index": 35,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing AI tuning, highlighting that AI is helpful for forming messages but can produce weird results.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "AI",
+        "How we built it"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\3H0mE03YCPQ\\frames\\frame_000042.jpg",
+      "timestamp_seconds": 1230.0,
+      "frame_index": 42,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'How we built it' discusses the importance of phone numbers for messaging and mentions the use of an internal database and notifying project leaders.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "My Profile",
+        "First Name",
+        "Last Name",
+        "Phone",
+        "Location",
+        "Contact number",
+        "Extension",
+        "Email"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\3H0mE03YCPQ\\frames\\frame_000045.jpg",
+      "timestamp_seconds": 1320.0,
+      "frame_index": 45,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses building a WhatsApp feature with emphasis on preventing reporting and cost templates.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "How we built it",
+        "Prevent reporting",
+        "Templates"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:29:38.436293+00:00"
+}

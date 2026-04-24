@@ -1,0 +1,1423 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.64,
+      "text": "Hi everyone, welcome to Autodesk DevCon 2026.",
+      "words": []
+    },
+    {
+      "start": 4.64,
+      "end": 6.28,
+      "text": "My name is Mateusz Rukasziewicz.",
+      "words": []
+    },
+    {
+      "start": 6.28,
+      "end": 8.6,
+      "text": "I'm Associate Director of Digital Technology at",
+      "words": []
+    },
+    {
+      "start": 8.6,
+      "end": 10.36,
+      "text": "KEO International Consultants.",
+      "words": []
+    },
+    {
+      "start": 10.36,
+      "end": 12.040000000000001,
+      "text": "Today, I will be speaking about",
+      "words": []
+    },
+    {
+      "start": 12.040000000000001,
+      "end": 13.76,
+      "text": "building predictive and preventive",
+      "words": []
+    },
+    {
+      "start": 13.76,
+      "end": 18.56,
+      "text": "QAQ systems with AI and Autodesk platform services.",
+      "words": []
+    },
+    {
+      "start": 18.56,
+      "end": 20.76,
+      "text": "What if every question could be",
+      "words": []
+    },
+    {
+      "start": 20.76,
+      "end": 23.2,
+      "text": "answered with a simple yes or no?",
+      "words": []
+    },
+    {
+      "start": 23.2,
+      "end": 24.96,
+      "text": "This can be achieved using",
+      "words": []
+    },
+    {
+      "start": 24.96,
+      "end": 28.8,
+      "text": "predictive binary models which assess the current situation based",
+      "words": []
+    },
+    {
+      "start": 28.8,
+      "end": 32.64,
+      "text": "on the past experience to forecast the outcome.",
+      "words": []
+    },
+    {
+      "start": 33.92,
+      "end": 37.760000000000005,
+      "text": "Who's using predictive models or industries?",
+      "words": []
+    },
+    {
+      "start": 37.760000000000005,
+      "end": 42.88,
+      "text": "Let's explore how predictive models can be used for QAQC process.",
+      "words": []
+    },
+    {
+      "start": 42.88,
+      "end": 46.84,
+      "text": "In this session, I will cover the complete process of building",
+      "words": []
+    },
+    {
+      "start": 46.84,
+      "end": 50.56,
+      "text": "a predictive model following the fourth parts agenda.",
+      "words": []
+    },
+    {
+      "start": 50.56,
+      "end": 54.480000000000004,
+      "text": "We start with short intro and theory.",
+      "words": []
+    },
+    {
+      "start": 54.480000000000004,
+      "end": 58.760000000000005,
+      "text": "This is the official class description and learning objectives.",
+      "words": []
+    },
+    {
+      "start": 58.76,
+      "end": 67.16,
+      "text": "My name is Mateusz Rukasziewicz and I have primary experience in",
+      "words": []
+    },
+    {
+      "start": 67.16,
+      "end": 68.75999999999999,
+      "text": "building information modeling,",
+      "words": []
+    },
+    {
+      "start": 68.75999999999999,
+      "end": 70.64,
+      "text": "project and construction management,",
+      "words": []
+    },
+    {
+      "start": 70.64,
+      "end": 72.92,
+      "text": "computer programming and computational design,",
+      "words": []
+    },
+    {
+      "start": 72.92,
+      "end": 76.28,
+      "text": "and also digital twins and I'm based in Dubai in",
+      "words": []
+    },
+    {
+      "start": 76.28,
+      "end": 78.64,
+      "text": "United Arab Emirates.",
+      "words": []
+    },
+    {
+      "start": 78.64,
+      "end": 82.08,
+      "text": "I represent KEO International Consultants,",
+      "words": []
+    },
+    {
+      "start": 82.08,
+      "end": 84.4,
+      "text": "which provides end-to-end services in",
+      "words": []
+    },
+    {
+      "start": 84.4,
+      "end": 86.0,
+      "text": "the architectural engineering,",
+      "words": []
+    },
+    {
+      "start": 86.0,
+      "end": 87.92,
+      "text": "construction and operational space,",
+      "words": []
+    },
+    {
+      "start": 87.92,
+      "end": 91.12,
+      "text": "and personally I'm part of digital advisory services,",
+      "words": []
+    },
+    {
+      "start": 91.12,
+      "end": 94.08,
+      "text": "which is the digital arm of the organization supporting",
+      "words": []
+    },
+    {
+      "start": 94.08,
+      "end": 98.24000000000001,
+      "text": "both KEO and external clients in digital initiatives.",
+      "words": []
+    },
+    {
+      "start": 98.24000000000001,
+      "end": 100.72,
+      "text": "In this session, we'll build",
+      "words": []
+    },
+    {
+      "start": 100.72,
+      "end": 106.12,
+      "text": "proactive, preventive and predictive QAQ system that can be used for",
+      "words": []
+    },
+    {
+      "start": 106.12,
+      "end": 109.92,
+      "text": "both quality assurance and also quality control.",
+      "words": []
+    },
+    {
+      "start": 109.92,
+      "end": 113.04,
+      "text": "Predictive systems are data driven,",
+      "words": []
+    },
+    {
+      "start": 113.04,
+      "end": 117.28,
+      "text": "multiple Autodesk platform services APIs were used to facilitate",
+      "words": []
+    },
+    {
+      "start": 117.28,
+      "end": 122.96000000000001,
+      "text": "data automation extraction and validation.",
+      "words": []
+    },
+    {
+      "start": 122.96000000000001,
+      "end": 127.68,
+      "text": "Another key component of building predictive systems was AI,",
+      "words": []
+    },
+    {
+      "start": 127.68,
+      "end": 130.92000000000002,
+      "text": "which was used to automate repetitive tasks,",
+      "words": []
+    },
+    {
+      "start": 130.92000000000002,
+      "end": 134.76,
+      "text": "provide a guidance in developing machine learning model and",
+      "words": []
+    },
+    {
+      "start": 134.76,
+      "end": 137.56,
+      "text": "that's how to analyze the data.",
+      "words": []
+    },
+    {
+      "start": 138.64,
+      "end": 145.84,
+      "text": "The AI and machine learning in the sessions are not the buzzwords.",
+      "words": []
+    },
+    {
+      "start": 146.32,
+      "end": 149.48,
+      "text": "This predictive model was developed using machine learning,",
+      "words": []
+    },
+    {
+      "start": 149.48,
+      "end": 153.92000000000002,
+      "text": "K nearest neighbor algorithm that will be explained later on.",
+      "words": []
+    },
+    {
+      "start": 155.68,
+      "end": 159.96,
+      "text": "The K&N model is a type of supervised learning where the system",
+      "words": []
+    },
+    {
+      "start": 159.96,
+      "end": 162.84,
+      "text": "learns from the examples with known answers,",
+      "words": []
+    },
+    {
+      "start": 162.84,
+      "end": 165.8,
+      "text": "and there are two main types of supervised learning.",
+      "words": []
+    },
+    {
+      "start": 165.8,
+      "end": 169.32,
+      "text": "First type is the regression where the goal is to predict",
+      "words": []
+    },
+    {
+      "start": 169.32,
+      "end": 171.96,
+      "text": "a continuous number in the given range,",
+      "words": []
+    },
+    {
+      "start": 172.08,
+      "end": 175.44,
+      "text": "which can be a linear approximation or polynomial.",
+      "words": []
+    },
+    {
+      "start": 176.88,
+      "end": 180.52,
+      "text": "Or classification where the goal is to predict the class label",
+      "words": []
+    },
+    {
+      "start": 180.52,
+      "end": 182.48000000000002,
+      "text": "from the predefined list of possibilities.",
+      "words": []
+    },
+    {
+      "start": 183.60000000000002,
+      "end": 186.92000000000002,
+      "text": "Within this classification, we distinguish two types,",
+      "words": []
+    },
+    {
+      "start": 186.92000000000002,
+      "end": 190.84,
+      "text": "which is binary classification, where only two types are being",
+      "words": []
+    },
+    {
+      "start": 190.84,
+      "end": 194.44,
+      "text": "predicted, for example, through our false or multi-class",
+      "words": []
+    },
+    {
+      "start": 194.44,
+      "end": 197.36,
+      "text": "classification where multiple groups can be identified.",
+      "words": []
+    },
+    {
+      "start": 198.28,
+      "end": 202.68,
+      "text": "In this class, we'll be focusing on the binary classification",
+      "words": []
+    },
+    {
+      "start": 202.68,
+      "end": 209.68,
+      "text": "with the possible outcome of true false or positive and negative.",
+      "words": []
+    },
+    {
+      "start": 215.32000000000002,
+      "end": 217.76000000000002,
+      "text": "Supervised learning is a process.",
+      "words": []
+    },
+    {
+      "start": 217.76000000000002,
+      "end": 221.76000000000002,
+      "text": "It starts with data collection followed by the data split",
+      "words": []
+    },
+    {
+      "start": 221.76000000000002,
+      "end": 224.48000000000002,
+      "text": "into training set and the test set.",
+      "words": []
+    },
+    {
+      "start": 225.48,
+      "end": 228.6,
+      "text": "Then it follows by the actual machine learning model",
+      "words": []
+    },
+    {
+      "start": 228.6,
+      "end": 233.07999999999998,
+      "text": "development, the training of the model using training data,",
+      "words": []
+    },
+    {
+      "start": 233.07999999999998,
+      "end": 239.79999999999998,
+      "text": "and testing the model using the test data to validate accuracy.",
+      "words": []
+    },
+    {
+      "start": 239.79999999999998,
+      "end": 243.92,
+      "text": "It may take few iterations to train the model to optimize",
+      "words": []
+    },
+    {
+      "start": 243.92,
+      "end": 244.95999999999998,
+      "text": "its accuracy.",
+      "words": []
+    },
+    {
+      "start": 245.72,
+      "end": 249.44,
+      "text": "Once the model is created, it is moved into production,",
+      "words": []
+    },
+    {
+      "start": 249.44,
+      "end": 252.92,
+      "text": "where the new data is being evaluated to predict the outcome",
+      "words": []
+    },
+    {
+      "start": 252.92,
+      "end": 255.16,
+      "text": "based on the historic data.",
+      "words": []
+    },
+    {
+      "start": 255.16,
+      "end": 258.52,
+      "text": "At the end, the received feedback from relevant reviewing",
+      "words": []
+    },
+    {
+      "start": 258.52,
+      "end": 262.59999999999997,
+      "text": "party allows the forecast accuracy validation and solution",
+      "words": []
+    },
+    {
+      "start": 262.59999999999997,
+      "end": 265.47999999999996,
+      "text": "optimization as more data is available.",
+      "words": []
+    },
+    {
+      "start": 270.32,
+      "end": 273.47999999999996,
+      "text": "Data is critical in machine learning and predictive models.",
+      "words": []
+    },
+    {
+      "start": 273.47999999999996,
+      "end": 276.47999999999996,
+      "text": "Let's explore how the data can be obtained from various sources.",
+      "words": []
+    },
+    {
+      "start": 278.76,
+      "end": 282.03999999999996,
+      "text": "Data can be extracted using free of charge custom desktop",
+      "words": []
+    },
+    {
+      "start": 282.04,
+      "end": 285.76000000000005,
+      "text": "applications, like for example, to this interoperability tools,",
+      "words": []
+    },
+    {
+      "start": 285.76000000000005,
+      "end": 289.36,
+      "text": "or by own plugins developed by various companies.",
+      "words": []
+    },
+    {
+      "start": 290.56,
+      "end": 294.52000000000004,
+      "text": "In the absence of specific functionality, now with AI custom",
+      "words": []
+    },
+    {
+      "start": 294.52000000000004,
+      "end": 297.20000000000005,
+      "text": "plugins can be easily created.",
+      "words": []
+    },
+    {
+      "start": 297.20000000000005,
+      "end": 302.6,
+      "text": "Here's the sample of how generative AI can support in first",
+      "words": []
+    },
+    {
+      "start": 302.6,
+      "end": 307.6,
+      "text": "identifying critical health metrics for rapid models,",
+      "words": []
+    },
+    {
+      "start": 307.64000000000004,
+      "end": 311.92,
+      "text": "but also in creating the source code for custom solution.",
+      "words": []
+    },
+    {
+      "start": 316.84000000000003,
+      "end": 321.04,
+      "text": "Data can be also extracted automatically based on the trigger.",
+      "words": []
+    },
+    {
+      "start": 321.04,
+      "end": 324.84000000000003,
+      "text": "It doesn't have to be executed manually by the user selecting",
+      "words": []
+    },
+    {
+      "start": 324.84000000000003,
+      "end": 325.88,
+      "text": "certain icon.",
+      "words": []
+    },
+    {
+      "start": 325.88,
+      "end": 329.52000000000004,
+      "text": "In this short video, we'll see the example of how the data is",
+      "words": []
+    },
+    {
+      "start": 329.52000000000004,
+      "end": 333.32000000000005,
+      "text": "being extracted automatically once the Revit model is synchronized.",
+      "words": []
+    },
+    {
+      "start": 334.92,
+      "end": 336.96000000000004,
+      "text": "Here we synchronize the Revit model,",
+      "words": []
+    },
+    {
+      "start": 337.0,
+      "end": 342.44,
+      "text": "and we'll observe that the data is being extracted automatically,",
+      "words": []
+    },
+    {
+      "start": 343.91999999999996,
+      "end": 347.56,
+      "text": "which allows us to refresh the data source and to validate the",
+      "words": []
+    },
+    {
+      "start": 347.56,
+      "end": 350.24,
+      "text": "health metrics for the latest information.",
+      "words": []
+    },
+    {
+      "start": 358.47999999999996,
+      "end": 361.64,
+      "text": "Plugins can be also executed directly in the cloud by using",
+      "words": []
+    },
+    {
+      "start": 361.64,
+      "end": 367.0,
+      "text": "APS Automation API, or can be asked directly obtained from the",
+      "words": []
+    },
+    {
+      "start": 367.0,
+      "end": 370.08,
+      "text": "cloud without using desktop products APIs.",
+      "words": []
+    },
+    {
+      "start": 371.08,
+      "end": 375.64,
+      "text": "In this case, we are accessing Autodesk ACC or now",
+      "words": []
+    },
+    {
+      "start": 375.64,
+      "end": 380.47999999999996,
+      "text": "Forma data directly from the JavaScript application.",
+      "words": []
+    },
+    {
+      "start": 381.8,
+      "end": 385.71999999999997,
+      "text": "We see we are obtaining specific information for particular",
+      "words": []
+    },
+    {
+      "start": 385.71999999999997,
+      "end": 390.0,
+      "text": "model hosted in ACC, where all the properties are",
+      "words": []
+    },
+    {
+      "start": 390.52,
+      "end": 393.44,
+      "text": "available in the data extract.",
+      "words": []
+    },
+    {
+      "start": 402.08,
+      "end": 405.6,
+      "text": "The easiest and the most common way to visualize and store the data",
+      "words": []
+    },
+    {
+      "start": 405.6,
+      "end": 406.84,
+      "text": "is a table.",
+      "words": []
+    },
+    {
+      "start": 406.84,
+      "end": 411.16,
+      "text": "In this case, data for 10 models is shown in the table.",
+      "words": []
+    },
+    {
+      "start": 411.16,
+      "end": 415.04,
+      "text": "With the corresponding review outcome, which can be passed or",
+      "words": []
+    },
+    {
+      "start": 415.04,
+      "end": 418.8,
+      "text": "failed, and in terms of machine learning, the model name,",
+      "words": []
+    },
+    {
+      "start": 418.8,
+      "end": 423.92,
+      "text": "providing the design unique value would be the ID of the data",
+      "words": []
+    },
+    {
+      "start": 423.92,
+      "end": 427.88,
+      "text": "entry, whereas the model health metrics would be called features,",
+      "words": []
+    },
+    {
+      "start": 428.28000000000003,
+      "end": 430.6,
+      "text": "and the review outcome would be called a label.",
+      "words": []
+    },
+    {
+      "start": 436.04,
+      "end": 438.16,
+      "text": "So now let's move to the machine learning part.",
+      "words": []
+    },
+    {
+      "start": 439.0,
+      "end": 442.68,
+      "text": "But before that, let's ask the question, can we predict outcomes",
+      "words": []
+    },
+    {
+      "start": 442.68,
+      "end": 446.36,
+      "text": "without building a machine learning model, which seems to be fairly",
+      "words": []
+    },
+    {
+      "start": 446.36,
+      "end": 447.6,
+      "text": "complex activity?",
+      "words": []
+    },
+    {
+      "start": 448.8,
+      "end": 453.2,
+      "text": "The answer is it depends in certain cases, just by looking at the",
+      "words": []
+    },
+    {
+      "start": 453.2,
+      "end": 453.96000000000004,
+      "text": "data.",
+      "words": []
+    },
+    {
+      "start": 453.96000000000004,
+      "end": 457.52000000000004,
+      "text": "The result can be predicted with great accuracy as the data can",
+      "words": []
+    },
+    {
+      "start": 457.52000000000004,
+      "end": 461.8,
+      "text": "be split into pass or failure results easily.",
+      "words": []
+    },
+    {
+      "start": 461.8,
+      "end": 467.6,
+      "text": "You can see the speed as the as the line or the curve for two",
+      "words": []
+    },
+    {
+      "start": 467.6,
+      "end": 468.40000000000003,
+      "text": "features.",
+      "words": []
+    },
+    {
+      "start": 468.40000000000003,
+      "end": 472.68,
+      "text": "However, sometimes the boundary between pass and failure results",
+      "words": []
+    },
+    {
+      "start": 472.68,
+      "end": 476.76,
+      "text": "can be hard to specify, and the prediction may not be accurate",
+      "words": []
+    },
+    {
+      "start": 476.76,
+      "end": 478.88,
+      "text": "as shown on the third example.",
+      "words": []
+    },
+    {
+      "start": 482.24,
+      "end": 486.2,
+      "text": "It gets even more complicated if the more features are being",
+      "words": []
+    },
+    {
+      "start": 486.2,
+      "end": 487.68,
+      "text": "considered.",
+      "words": []
+    },
+    {
+      "start": 487.68,
+      "end": 490.52,
+      "text": "For example, for the three features, it's already difficult to",
+      "words": []
+    },
+    {
+      "start": 490.52,
+      "end": 494.15999999999997,
+      "text": "visualize and analyze data in the 3D space.",
+      "words": []
+    },
+    {
+      "start": 494.15999999999997,
+      "end": 498.32,
+      "text": "And what if we have more features, for example, for how to",
+      "words": []
+    },
+    {
+      "start": 498.32,
+      "end": 503.28,
+      "text": "visualize the default feature, perhaps we can use the diameter",
+      "words": []
+    },
+    {
+      "start": 503.28,
+      "end": 508.88,
+      "text": "of the data entry to reflect the corresponding value.",
+      "words": []
+    },
+    {
+      "start": 508.88,
+      "end": 512.9599999999999,
+      "text": "However, in reality, several features may be considered to",
+      "words": []
+    },
+    {
+      "start": 512.9599999999999,
+      "end": 516.6,
+      "text": "achieve the great accuracy of machine learning model.",
+      "words": []
+    },
+    {
+      "start": 516.6,
+      "end": 519.9599999999999,
+      "text": "Hence, the best way is to operate on the tabulated data",
+      "words": []
+    },
+    {
+      "start": 519.9599999999999,
+      "end": 523.52,
+      "text": "format and usage of machine learning models.",
+      "words": []
+    },
+    {
+      "start": 523.52,
+      "end": 528.72,
+      "text": "So until certain extent, we can just look at the data and make",
+      "words": []
+    },
+    {
+      "start": 528.72,
+      "end": 529.92,
+      "text": "predictions based on it.",
+      "words": []
+    },
+    {
+      "start": 529.92,
+      "end": 535.3199999999999,
+      "text": "However, for the complex data sets, it is necessary to help",
+      "words": []
+    },
+    {
+      "start": 535.3199999999999,
+      "end": 538.7199999999999,
+      "text": "with tabulated data and usage of machine learning models.",
+      "words": []
+    },
+    {
+      "start": 541.64,
+      "end": 543.9599999999999,
+      "text": "Going back to the process, the first step is the data",
+      "words": []
+    },
+    {
+      "start": 543.9599999999999,
+      "end": 545.56,
+      "text": "collection.",
+      "words": []
+    },
+    {
+      "start": 545.56,
+      "end": 549.36,
+      "text": "In our case, Tadi, we've collected three data sets.",
+      "words": []
+    },
+    {
+      "start": 549.36,
+      "end": 554.04,
+      "text": "First, is the data set for a Revit model health matrix,",
+      "words": []
+    },
+    {
+      "start": 554.04,
+      "end": 557.56,
+      "text": "and corresponding feedback, whether the model was accepted",
+      "words": []
+    },
+    {
+      "start": 557.56,
+      "end": 562.88,
+      "text": "or rejected by the reviewing authority, such the client.",
+      "words": []
+    },
+    {
+      "start": 562.88,
+      "end": 566.28,
+      "text": "Second, set, which is design coordination status based on",
+      "words": []
+    },
+    {
+      "start": 566.28,
+      "end": 569.68,
+      "text": "various ACC and forma matrix.",
+      "words": []
+    },
+    {
+      "start": 569.68,
+      "end": 573.3199999999999,
+      "text": "And finally, FCU equipment failure data based on the",
+      "words": []
+    },
+    {
+      "start": 573.3199999999999,
+      "end": 576.76,
+      "text": "matrix extracted from Autodesk, TAN, and Data Streams.",
+      "words": []
+    },
+    {
+      "start": 579.9599999999999,
+      "end": 586.1999999999999,
+      "text": "Collected data is then split, 75% into training, and",
+      "words": []
+    },
+    {
+      "start": 586.2,
+      "end": 588.5200000000001,
+      "text": "25% into testing.",
+      "words": []
+    },
+    {
+      "start": 588.5200000000001,
+      "end": 591.1600000000001,
+      "text": "In machine learning, it is important to separate these two",
+      "words": []
+    },
+    {
+      "start": 591.1600000000001,
+      "end": 591.88,
+      "text": "data sets.",
+      "words": []
+    },
+    {
+      "start": 594.6800000000001,
+      "end": 598.12,
+      "text": "After splitting the data, it's time to build the model.",
+      "words": []
+    },
+    {
+      "start": 598.12,
+      "end": 601.44,
+      "text": "This is the short intro about the K&N model using our",
+      "words": []
+    },
+    {
+      "start": 601.44,
+      "end": 602.6400000000001,
+      "text": "solution.",
+      "words": []
+    },
+    {
+      "start": 602.6400000000001,
+      "end": 606.6400000000001,
+      "text": "The algorithm is looking for a single or multiple closest",
+      "words": []
+    },
+    {
+      "start": 606.6400000000001,
+      "end": 610.1600000000001,
+      "text": "neighbors in the historic data sets to predict the value of",
+      "words": []
+    },
+    {
+      "start": 610.1600000000001,
+      "end": 611.36,
+      "text": "the new data.",
+      "words": []
+    },
+    {
+      "start": 611.36,
+      "end": 615.24,
+      "text": "It is a sort of a voting system of the closest historic data",
+      "words": []
+    },
+    {
+      "start": 615.24,
+      "end": 617.64,
+      "text": "points around the new data point.",
+      "words": []
+    },
+    {
+      "start": 617.64,
+      "end": 621.88,
+      "text": "We see other examples later on.",
+      "words": []
+    },
+    {
+      "start": 621.88,
+      "end": 626.24,
+      "text": "So in our case, we developed a model using Google call up,",
+      "words": []
+    },
+    {
+      "start": 626.24,
+      "end": 629.32,
+      "text": "using Python and machine learning libraries.",
+      "words": []
+    },
+    {
+      "start": 629.32,
+      "end": 633.8,
+      "text": "In this video, we can see the imports of various libraries",
+      "words": []
+    },
+    {
+      "start": 633.8,
+      "end": 637.76,
+      "text": "loading the data, splitting the data into training and test,",
+      "words": []
+    },
+    {
+      "start": 637.76,
+      "end": 642.04,
+      "text": "scaling the features, and also applying various number of",
+      "words": []
+    },
+    {
+      "start": 642.04,
+      "end": 645.9599999999999,
+      "text": "closest neighbors, and finally visualizing the results.",
+      "words": []
+    },
+    {
+      "start": 648.4399999999999,
+      "end": 652.04,
+      "text": "Here are the results, 97.7%",
+      "words": []
+    },
+    {
+      "start": 652.04,
+      "end": 655.3199999999999,
+      "text": "Revit model acceptance prediction accuracy based on",
+      "words": []
+    },
+    {
+      "start": 655.3199999999999,
+      "end": 660.8399999999999,
+      "text": "health metrics, 72% design coordination status prediction",
+      "words": []
+    },
+    {
+      "start": 660.8399999999999,
+      "end": 667.3199999999999,
+      "text": "based on Autodesk format data, and 91.2% accuracy for the",
+      "words": []
+    },
+    {
+      "start": 667.3199999999999,
+      "end": 671.24,
+      "text": "FCU failure prediction based on Autodesk TAN, data streams.",
+      "words": []
+    },
+    {
+      "start": 673.0,
+      "end": 676.4,
+      "text": "Until now, we operated on the historic data with known",
+      "words": []
+    },
+    {
+      "start": 676.4,
+      "end": 677.52,
+      "text": "outcomes.",
+      "words": []
+    },
+    {
+      "start": 677.52,
+      "end": 680.76,
+      "text": "Let's now use the model to validate the new data that has",
+      "words": []
+    },
+    {
+      "start": 680.76,
+      "end": 686.28,
+      "text": "not been reviewed by any reviewing authority or the client.",
+      "words": []
+    },
+    {
+      "start": 686.28,
+      "end": 689.24,
+      "text": "How does the prediction in K&N model work?",
+      "words": []
+    },
+    {
+      "start": 689.24,
+      "end": 694.12,
+      "text": "Let's take at this short example of five closest neighbors.",
+      "words": []
+    },
+    {
+      "start": 694.12,
+      "end": 698.76,
+      "text": "The new data is found in the proximity of three positive and",
+      "words": []
+    },
+    {
+      "start": 698.76,
+      "end": 701.4399999999999,
+      "text": "two negative results.",
+      "words": []
+    },
+    {
+      "start": 701.5200000000001,
+      "end": 705.5200000000001,
+      "text": "So the question now is the new data result pass or fail?",
+      "words": []
+    },
+    {
+      "start": 706.5600000000001,
+      "end": 707.8800000000001,
+      "text": "The answer it depends.",
+      "words": []
+    },
+    {
+      "start": 707.8800000000001,
+      "end": 711.2,
+      "text": "And it depends on the acceptance criteria known as a",
+      "words": []
+    },
+    {
+      "start": 711.2,
+      "end": 715.5200000000001,
+      "text": "threshold, which has a bit of analogy to the voting system.",
+      "words": []
+    },
+    {
+      "start": 715.5200000000001,
+      "end": 719.2,
+      "text": "And the threshold shows that while using machine learning",
+      "words": []
+    },
+    {
+      "start": 719.2,
+      "end": 723.44,
+      "text": "models, still the human judgment is a critical aspect,",
+      "words": []
+    },
+    {
+      "start": 723.44,
+      "end": 725.5200000000001,
+      "text": "as it impacts the results.",
+      "words": []
+    },
+    {
+      "start": 725.5200000000001,
+      "end": 728.5600000000001,
+      "text": "In this case, depending on the threshold, the result might be",
+      "words": []
+    },
+    {
+      "start": 728.56,
+      "end": 732.68,
+      "text": "fail or pass, depending what is our tolerance and how strict",
+      "words": []
+    },
+    {
+      "start": 732.68,
+      "end": 735.04,
+      "text": "we are on the acceptance criteria.",
+      "words": []
+    },
+    {
+      "start": 737.04,
+      "end": 738.4799999999999,
+      "text": "Now back to our example.",
+      "words": []
+    },
+    {
+      "start": 738.4799999999999,
+      "end": 743.76,
+      "text": "The video shows 100 data rows of Revit model health metrics.",
+      "words": []
+    },
+    {
+      "start": 743.76,
+      "end": 747.1999999999999,
+      "text": "And we can notice that the result is unknown.",
+      "words": []
+    },
+    {
+      "start": 747.1999999999999,
+      "end": 751.1199999999999,
+      "text": "As this data has not been yet sent and reviewed by the",
+      "words": []
+    },
+    {
+      "start": 751.1199999999999,
+      "end": 752.16,
+      "text": "reviewing authority.",
+      "words": []
+    },
+    {
+      "start": 753.1199999999999,
+      "end": 757.92,
+      "text": "Such data is loaded into machine learning model, where we apply",
+      "words": []
+    },
+    {
+      "start": 758.0,
+      "end": 764.24,
+      "text": "various acceptance thresholds, which as we may expect,",
+      "words": []
+    },
+    {
+      "start": 764.24,
+      "end": 766.16,
+      "text": "led to various outcomes.",
+      "words": []
+    },
+    {
+      "start": 773.36,
+      "end": 775.36,
+      "text": "These are the results, depending on the outcome.",
+      "words": []
+    },
+    {
+      "start": 776.8,
+      "end": 779.92,
+      "text": "In the next slide, I will show the summary of all the results.",
+      "words": []
+    },
+    {
+      "start": 781.76,
+      "end": 784.24,
+      "text": "So as expected, they hired the threshold.",
+      "words": []
+    },
+    {
+      "start": 784.24,
+      "end": 787.5999999999999,
+      "text": "The less models are likely to be accepted by the client.",
+      "words": []
+    },
+    {
+      "start": 787.6800000000001,
+      "end": 789.6,
+      "text": "And how to read this data?",
+      "words": []
+    },
+    {
+      "start": 789.6,
+      "end": 796.64,
+      "text": "So for example, if you take 70% threshold, it means that only 10 out of 100 models",
+      "words": []
+    },
+    {
+      "start": 796.64,
+      "end": 799.2,
+      "text": "are predicted to pass the client review.",
+      "words": []
+    },
+    {
+      "start": 801.84,
+      "end": 805.52,
+      "text": "And now we have a closer look at the data results per model.",
+      "words": []
+    },
+    {
+      "start": 806.24,
+      "end": 813.44,
+      "text": "For example, the model of ID 26 is predicted as pass based on over 78",
+      "words": []
+    },
+    {
+      "start": 813.44,
+      "end": 814.72,
+      "text": "percent historic results.",
+      "words": []
+    },
+    {
+      "start": 815.44,
+      "end": 819.84,
+      "text": "So the information delivered by the model is that this model is",
+      "words": []
+    },
+    {
+      "start": 820.8000000000001,
+      "end": 826.24,
+      "text": "of high quality, and this is supported by the 78% matching",
+      "words": []
+    },
+    {
+      "start": 826.8800000000001,
+      "end": 829.12,
+      "text": "closest records in the past.",
+      "words": []
+    },
+    {
+      "start": 830.1600000000001,
+      "end": 834.24,
+      "text": "Whereas other models, for example, of the ID 12,",
+      "words": []
+    },
+    {
+      "start": 835.36,
+      "end": 838.1600000000001,
+      "text": "shows poor quality, where only eight positive",
+      "words": []
+    },
+    {
+      "start": 839.2,
+      "end": 841.84,
+      "text": "matches have been found in the historic data.",
+      "words": []
+    },
+    {
+      "start": 842.5600000000001,
+      "end": 846.5600000000001,
+      "text": "So the results can be used to support decision-making process,",
+      "words": []
+    },
+    {
+      "start": 847.44,
+      "end": 849.6800000000001,
+      "text": "whether the package should be released or",
+      "words": []
+    },
+    {
+      "start": 849.6800000000001,
+      "end": 852.08,
+      "text": "assess whether additional work is required.",
+      "words": []
+    },
+    {
+      "start": 853.12,
+      "end": 859.0400000000001,
+      "text": "Also to prioritize this rework, and effectively long-term improve machine learning model.",
+      "words": []
+    },
+    {
+      "start": 862.4,
+      "end": 866.96,
+      "text": "Moving forward, the package is submitted to the client who reviews the data and provide the",
+      "words": []
+    },
+    {
+      "start": 866.96,
+      "end": 867.44,
+      "text": "feedback.",
+      "words": []
+    },
+    {
+      "start": 868.32,
+      "end": 874.08,
+      "text": "The previously enabled data that has been issued to the client with unknown result,",
+      "words": []
+    },
+    {
+      "start": 874.08,
+      "end": 879.0400000000001,
+      "text": "only with the forecast that result is now labeled as we receive the official",
+      "words": []
+    },
+    {
+      "start": 879.84,
+      "end": 883.7600000000001,
+      "text": "feedback from the client about the result of particular models.",
+      "words": []
+    },
+    {
+      "start": 884.96,
+      "end": 890.48,
+      "text": "This label data enables comparison across prediction thresholds as shown in the chart.",
+      "words": []
+    },
+    {
+      "start": 890.48,
+      "end": 895.6800000000001,
+      "text": "The machine learning model achieves up to 91 percent accuracy for the new data as",
+      "words": []
+    },
+    {
+      "start": 896.64,
+      "end": 905.04,
+      "text": "using 70% threshold. And in other words, we've been able to predict the client or authority",
+      "words": []
+    },
+    {
+      "start": 905.92,
+      "end": 911.3599999999999,
+      "text": "feedback with up to 91 percent accuracy before even receiving the result.",
+      "words": []
+    },
+    {
+      "start": 911.3599999999999,
+      "end": 917.5999999999999,
+      "text": "There is a high value on in machine learning models as we are able to predict the outcomes.",
+      "words": []
+    },
+    {
+      "start": 918.2399999999999,
+      "end": 923.04,
+      "text": "Prior actually receiving the feedback from the corresponding party.",
+      "words": []
+    },
+    {
+      "start": 923.36,
+      "end": 926.8,
+      "text": "Machine learning is a continuous data driven loop.",
+      "words": []
+    },
+    {
+      "start": 927.4399999999999,
+      "end": 932.4,
+      "text": "The more data provides more accuracy, which allows us to optimize the solution.",
+      "words": []
+    },
+    {
+      "start": 933.28,
+      "end": 936.9599999999999,
+      "text": "The solution can be optimized by further analyzing the data,",
+      "words": []
+    },
+    {
+      "start": 937.68,
+      "end": 942.0,
+      "text": "cleaning, balancing, and also scaling.",
+      "words": []
+    },
+    {
+      "start": 943.1999999999999,
+      "end": 948.56,
+      "text": "And also by fine tuning the machine learning model by applying various configurations",
+      "words": []
+    },
+    {
+      "start": 948.56,
+      "end": 955.28,
+      "text": "and algorithm enhancements. That brings us into the conclusion that the future of QAQC is driven",
+      "words": []
+    },
+    {
+      "start": 955.28,
+      "end": 961.52,
+      "text": "by the integration of data, AI, human expertise, enabling shifting the industry from reactive",
+      "words": []
+    },
+    {
+      "start": 961.52,
+      "end": 966.0,
+      "text": "quality checks to proactive risk prevention. I hope that you enjoyed the session and",
+      "words": []
+    },
+    {
+      "start": 966.0,
+      "end": 971.28,
+      "text": "recognize the potential of predictive models in QAQ system and us, the role of Autodesk platform",
+      "words": []
+    },
+    {
+      "start": 971.28,
+      "end": 982.0,
+      "text": "services and AI in the process. Thank you.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:14:30.696456+00:00"
+}

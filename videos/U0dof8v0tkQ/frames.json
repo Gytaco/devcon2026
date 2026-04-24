@@ -1,0 +1,221 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\U0dof8v0tkQ\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\U0dof8v0tkQ\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide presenting an APS-based sustainability agent for material matching and benchmarks, using Autodesk APIs.",
+      "products_visible": [
+        "Autodesk Sustainability Data API",
+        "2050 Materials API"
+      ],
+      "ui_elements": [
+        "Autodesk DevCon",
+        "An APS-Based Sustainability Agent for Material Matching & Benchmarks"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\U0dof8v0tkQ\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing the integration of AI in design workflows to handle carbon calculations.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Designers should keep designing. AI should handle the carbon maths."
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\U0dof8v0tkQ\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a demo for generating a carbon report from an IFC upload in under two minutes, featuring a person speaking and slides illustrating the process.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Demo",
+        "From IFC upload to carbon report \u2014 in under two minutes."
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\U0dof8v0tkQ\\frames\\frame_000005.jpg",
+      "timestamp_seconds": 120.0,
+      "frame_index": 5,
+      "category": "demo",
+      "keep": true,
+      "description": "A presentation screen showing a user interface with a message from an AI agent about embodied carbon analysis.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Send a message...",
+        "Hello! I am your 2050M Agent."
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\U0dof8v0tkQ\\frames\\frame_000006.jpg",
+      "timestamp_seconds": 150.0,
+      "frame_index": 6,
+      "category": "demo",
+      "keep": true,
+      "description": "A presentation screen showing a software interface with a list of commands and a 3D model viewer.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Available Commands",
+        "3D Model Viewer",
+        "Send a message"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\U0dof8v0tkQ\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents the architecture of an end-to-end pipeline with six stages including ingest, preprocess, extract, match, boost, and report.",
+      "products_visible": [
+        "AUTODESK",
+        "2050 Materials Matching API",
+        "Google ADK"
+      ],
+      "ui_elements": [
+        "Ingest",
+        "Preprocess",
+        "Extract",
+        "Match",
+        "Boost",
+        "Report"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\U0dof8v0tkQ\\frames\\frame_000015.jpg",
+      "timestamp_seconds": 420.0,
+      "frame_index": 15,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide on 'Agentic File Processing' explaining input formats and pipeline processes for BIM element extraction and processing.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Agentic File Processing",
+        "Input Formats",
+        "Pipeline",
+        "Output"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\U0dof8v0tkQ\\frames\\frame_000019.jpg",
+      "timestamp_seconds": 540.0,
+      "frame_index": 19,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents 'Material Intelligence' by Autodesk, showing how LLM extracts naming, classification, and specs, powering matching & boosting.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Material Intelligence",
+        "LLM EXTRACT",
+        "Text Similarity Match",
+        "Metadata Boost"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\U0dof8v0tkQ\\frames\\frame_000023.jpg",
+      "timestamp_seconds": 660.0,
+      "frame_index": 23,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide discussing the benefits of agentic workflows with examples of different levels of complexity.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Why Agentic Workflows?",
+        "Simple",
+        "Composite",
+        "Context",
+        "Ambiguous",
+        "EXTRACTION FLAGS -- SUBAGENT ROUTING"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\U0dof8v0tkQ\\frames\\frame_000025.jpg",
+      "timestamp_seconds": 720.0,
+      "frame_index": 25,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses 'Carbon Assessment' with a comparison between old and new processes using an API-powered assessment.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Carbon Assessment",
+        "The Old Narrative",
+        "API-Powered Assessment"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\U0dof8v0tkQ\\frames\\frame_000029.jpg",
+      "timestamp_seconds": 840.0,
+      "frame_index": 29,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide titled 'Where We Are & What's Next' showing completed tasks and future plans.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "IFC upload + 3D viewer",
+        "AI normalization + batch matching",
+        "Carbon calculation with GWP benchmarking",
+        "Interactive charts, AI chat, PDF reports",
+        "AI recommendations + email drafting",
+        "Native Sustainability Data API hooks",
+        "Compare design options by carbon impact",
+        "Iterative matching",
+        "A1\u2013D modules"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\U0dof8v0tkQ\\frames\\frame_000032.jpg",
+      "timestamp_seconds": 930.0,
+      "frame_index": 32,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide from Autodesk DevCon discussing enabling designers to deliver low-carbon projects with AI and structured data.",
+      "products_visible": [
+        "Autodesk",
+        "APS"
+      ],
+      "ui_elements": [
+        "166k products in database",
+        "~2 min full building analysis",
+        "RICS WLCA V2 compliant"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T05:26:44.325483+00:00"
+}

@@ -1,0 +1,949 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.72,
+      "text": "Hello, everyone. Welcome to AI for ideation, telling a good story with Victor AI and Autodesk platform",
+      "words": []
+    },
+    {
+      "start": 6.72,
+      "end": 13.200000000000001,
+      "text": "services. I am Zach Smith and with me is Andral Lanowitz. We'll be talking into this session.",
+      "words": []
+    },
+    {
+      "start": 15.36,
+      "end": 23.84,
+      "text": "Today we are going to talk about the problem that we are encountering. The solution or the tools",
+      "words": []
+    },
+    {
+      "start": 23.84,
+      "end": 29.04,
+      "text": "that we're using, the solution we've built with those tools, some support info and we'll wrap up.",
+      "words": []
+    },
+    {
+      "start": 30.48,
+      "end": 39.519999999999996,
+      "text": "So about us, hi, I'm Zach Smith, Autodesk platform developer. I am very, very passionate about",
+      "words": []
+    },
+    {
+      "start": 39.519999999999996,
+      "end": 44.56,
+      "text": "connection that could be connecting people, that could be connecting technology or people on",
+      "words": []
+    },
+    {
+      "start": 44.56,
+      "end": 52.480000000000004,
+      "text": "technology. And I spend a lot of my day standardizing development practices and getting them connected.",
+      "words": []
+    },
+    {
+      "start": 53.12,
+      "end": 59.279999999999994,
+      "text": "So I'm Andral Lanowitz. I'm a digital delivery lead, which means that I support",
+      "words": []
+    },
+    {
+      "start": 59.919999999999995,
+      "end": 64.72,
+      "text": "everything that we produce digitally and how that needs to be standardized, documented,",
+      "words": []
+    },
+    {
+      "start": 64.72,
+      "end": 70.56,
+      "text": "and delivered to clients across my entire company. But most importantly, for the sake of this",
+      "words": []
+    },
+    {
+      "start": 70.56,
+      "end": 79.67999999999999,
+      "text": "presentation, Zach is actually a programmer and I am not. And just for some fun, here are a",
+      "words": []
+    },
+    {
+      "start": 79.68,
+      "end": 90.08000000000001,
+      "text": "photos of most of our cats. So Zach, something I've encountered is that there is a solution that I",
+      "words": []
+    },
+    {
+      "start": 90.08000000000001,
+      "end": 95.52000000000001,
+      "text": "like in one part of the Autodesk construction cloud or form a build, if you will, where the",
+      "words": []
+    },
+    {
+      "start": 97.04,
+      "end": 104.32000000000001,
+      "text": "statuses and assets works exactly how I want it to work, but it doesn't work in issues. So why can't we",
+      "words": []
+    },
+    {
+      "start": 104.32,
+      "end": 108.39999999999999,
+      "text": "just copy this code so I can have it in both places?",
+      "words": []
+    },
+    {
+      "start": 113.6,
+      "end": 120.88,
+      "text": "No, well, in short, everything's different. We can't. It's very complicated.",
+      "words": []
+    },
+    {
+      "start": 120.88,
+      "end": 125.75999999999999,
+      "text": "They'll have different architectures, different data sources, business requirements, APIs,",
+      "words": []
+    },
+    {
+      "start": 126.39999999999999,
+      "end": 132.95999999999998,
+      "text": "development teams, different terms for the same thing, sometimes the same term for different",
+      "words": []
+    },
+    {
+      "start": 132.96,
+      "end": 141.20000000000002,
+      "text": "things. And that's before we even get to development. We might have, we might want to talk about",
+      "words": []
+    },
+    {
+      "start": 141.20000000000002,
+      "end": 145.92000000000002,
+      "text": "different approaches. Do we want to make something new? We want to integrate into something existing?",
+      "words": []
+    },
+    {
+      "start": 145.92000000000002,
+      "end": 150.72,
+      "text": "Do we want to replace something that's existing? It gets really complicated.",
+      "words": []
+    },
+    {
+      "start": 154.64000000000001,
+      "end": 162.48000000000002,
+      "text": "So some of the troubles that we end up having in conversations like this is we're never",
+      "words": []
+    },
+    {
+      "start": 162.48,
+      "end": 167.6,
+      "text": "on the same page from a developer perspective. We get unclear requirements. We get",
+      "words": []
+    },
+    {
+      "start": 169.04,
+      "end": 175.04,
+      "text": "an appropriate complexity. Maybe something is too complex before we start or at the beginning of",
+      "words": []
+    },
+    {
+      "start": 175.04,
+      "end": 179.6,
+      "text": "a design or it's not complex enough or detailed enough later in the design.",
+      "words": []
+    },
+    {
+      "start": 182.88,
+      "end": 188.07999999999998,
+      "text": "We might not have enough detail and need to do some research before we can get answers.",
+      "words": []
+    },
+    {
+      "start": 188.16000000000003,
+      "end": 197.84,
+      "text": "Terminology can be inconsistent or unclear. Requirements change over time. Priorities change over time.",
+      "words": []
+    },
+    {
+      "start": 199.04000000000002,
+      "end": 202.08,
+      "text": "And documenting all of this takes a lot of time.",
+      "words": []
+    },
+    {
+      "start": 206.08,
+      "end": 211.04000000000002,
+      "text": "I don't like that you are telling me I don't know what a nice to have is versus the requirement.",
+      "words": []
+    },
+    {
+      "start": 211.04,
+      "end": 218.72,
+      "text": "Everything I ask for is everything I need. So from a user's side, we are working. We have real projects",
+      "words": []
+    },
+    {
+      "start": 218.72,
+      "end": 222.56,
+      "text": "and real deadlines. I can't be pulled away to answer questions or give more detail sometimes.",
+      "words": []
+    },
+    {
+      "start": 226.23999999999998,
+      "end": 233.6,
+      "text": "The support for me on supporting development is very liable. Developers don't speak my language.",
+      "words": []
+    },
+    {
+      "start": 233.6,
+      "end": 237.51999999999998,
+      "text": "So I don't understand what they're saying. They don't understand what I'm saying. I need it for my",
+      "words": []
+    },
+    {
+      "start": 237.52,
+      "end": 241.76000000000002,
+      "text": "project right now. I've brought it up because we found an issue not because I'm thinking down the",
+      "words": []
+    },
+    {
+      "start": 241.76000000000002,
+      "end": 247.28,
+      "text": "road. And in the middle of development, I will often say, oh, now that we're thinking about it,",
+      "words": []
+    },
+    {
+      "start": 247.28,
+      "end": 256.8,
+      "text": "can't also do this. So you tend to see things from your lens and solve problems based on what",
+      "words": []
+    },
+    {
+      "start": 256.8,
+      "end": 261.52,
+      "text": "your training is. A developer is going to try to solve problems by developing. Somebody who's a",
+      "words": []
+    },
+    {
+      "start": 261.52,
+      "end": 266.32,
+      "text": "modeler is going to try to solve problems within the model. So this brings us to that kind of famous",
+      "words": []
+    },
+    {
+      "start": 266.32,
+      "end": 271.84,
+      "text": "quote of a hammer sees all problems as nails and therefore the solution is to hit it. So how do we",
+      "words": []
+    },
+    {
+      "start": 271.84,
+      "end": 277.59999999999997,
+      "text": "get a user and a developer to solve problems together if we can't train them both in each other's",
+      "words": []
+    },
+    {
+      "start": 277.59999999999997,
+      "end": 288.88,
+      "text": "fields? Well, let's create that shared lens. Inter-victor AI and APS. So Victor is a platform that",
+      "words": []
+    },
+    {
+      "start": 288.88,
+      "end": 295.03999999999996,
+      "text": "enables easier development, easier review, approval deployment, and easier integrations with systems",
+      "words": []
+    },
+    {
+      "start": 295.04,
+      "end": 306.96000000000004,
+      "text": "like APS, Autodesk platform services. Why did we pick Victor? Well, a few reasons. From a security",
+      "words": []
+    },
+    {
+      "start": 306.96000000000004,
+      "end": 312.8,
+      "text": "perspective, Victor provides us with an isolated environment. Our content isn't going to make it",
+      "words": []
+    },
+    {
+      "start": 312.8,
+      "end": 319.84000000000003,
+      "text": "into the hands of our competitors. It gives us the ability to manage permissions and admins the",
+      "words": []
+    },
+    {
+      "start": 319.84,
+      "end": 330.15999999999997,
+      "text": "ability to manage permissions and integrations. The user interface is easy to use. So easy to use",
+      "words": []
+    },
+    {
+      "start": 330.15999999999997,
+      "end": 340.71999999999997,
+      "text": "that it actually gets used. And our focus as an organization is on not on replacing people. It's",
+      "words": []
+    },
+    {
+      "start": 340.71999999999997,
+      "end": 345.91999999999996,
+      "text": "on upskilling the people that we have and giving them the ability to focus on what matters,",
+      "words": []
+    },
+    {
+      "start": 345.92,
+      "end": 355.92,
+      "text": "what problems do they actually have. So speaking of our companies' goals around AI,",
+      "words": []
+    },
+    {
+      "start": 355.92,
+      "end": 364.0,
+      "text": "we had our own AI governance task force essentially where basically as Zach mentioned earlier,",
+      "words": []
+    },
+    {
+      "start": 365.04,
+      "end": 372.08000000000004,
+      "text": "we get to hold our data. We own it. It's not being shared back out. So it's not taking our",
+      "words": []
+    },
+    {
+      "start": 372.08,
+      "end": 377.52,
+      "text": "information. It's not training it elsewhere. It's not storing it elsewhere. We own the",
+      "words": []
+    },
+    {
+      "start": 377.52,
+      "end": 383.91999999999996,
+      "text": "production and all of the data stays with us. That's very key to any AI that we will adopt across",
+      "words": []
+    },
+    {
+      "start": 383.91999999999996,
+      "end": 393.03999999999996,
+      "text": "our organization. All right. So we've talked about Victor a bit generally. But the problem that we're",
+      "words": []
+    },
+    {
+      "start": 393.03999999999996,
+      "end": 400.88,
+      "text": "actually focusing on for this session is really the beginning of a development project. There are",
+      "words": []
+    },
+    {
+      "start": 400.88,
+      "end": 406.64,
+      "text": "a lot of steps. A lot of people need to be involved. You need to have somebody identify that",
+      "words": []
+    },
+    {
+      "start": 406.64,
+      "end": 411.68,
+      "text": "there is a problem in the first place. You need to have someone, some leadership person say,",
+      "words": []
+    },
+    {
+      "start": 411.68,
+      "end": 419.12,
+      "text": "hey, yeah, this is a big enough problem we need to develop something for. Then it gets more",
+      "words": []
+    },
+    {
+      "start": 419.12,
+      "end": 423.6,
+      "text": "complex from there. You need to gather requirements. You need to gather priorities. You need to put",
+      "words": []
+    },
+    {
+      "start": 423.6,
+      "end": 432.16,
+      "text": "together a proof of concept. Then once all of that is set, the actual development begins.",
+      "words": []
+    },
+    {
+      "start": 435.20000000000005,
+      "end": 446.72,
+      "text": "But what Victor helps with is helping us reduce that. Because when you look at how much effort",
+      "words": []
+    },
+    {
+      "start": 446.72,
+      "end": 451.28000000000003,
+      "text": "goes into just figuring out what the problem is, how many of those meetings do you actually need?",
+      "words": []
+    },
+    {
+      "start": 451.91999999999996,
+      "end": 461.11999999999995,
+      "text": "How much of that communication is actually valuable time? So what Victor helps with is it lets you",
+      "words": []
+    },
+    {
+      "start": 461.11999999999995,
+      "end": 467.44,
+      "text": "build that proof of concept from the start. And you build it together with the people that understand",
+      "words": []
+    },
+    {
+      "start": 467.44,
+      "end": 472.23999999999995,
+      "text": "the problem that they're trying to solve and the people that understand how they might build a solution",
+      "words": []
+    },
+    {
+      "start": 473.2,
+      "end": 481.03999999999996,
+      "text": "and Victor. Victor does help with a lot of the execution and implementation phase as well. But again,",
+      "words": []
+    },
+    {
+      "start": 481.04,
+      "end": 484.8,
+      "text": "the focus here today is on shortening that cycle for scoping.",
+      "words": []
+    },
+    {
+      "start": 488.48,
+      "end": 495.04,
+      "text": "So let's talk about how this plays out when we work together as an end user and development team",
+      "words": []
+    },
+    {
+      "start": 495.04,
+      "end": 501.12,
+      "text": "Victor. And again, I did want to point out that just because Victor's art is a solution, you can",
+      "words": []
+    },
+    {
+      "start": 501.12,
+      "end": 506.88,
+      "text": "replace that whatever your choice solution is. So we may say Victor, but we just mean a low code",
+      "words": []
+    },
+    {
+      "start": 506.88,
+      "end": 513.76,
+      "text": "solution to support. So I'm not a programmer and I'm very nervous to start. What do I do?",
+      "words": []
+    },
+    {
+      "start": 515.36,
+      "end": 519.6,
+      "text": "So one of the things we're going to do is we're going to identify a simple automation task.",
+      "words": []
+    },
+    {
+      "start": 519.6,
+      "end": 525.2,
+      "text": "We're going to get me trained on some of the basics of Victor. We're going to start me understanding",
+      "words": []
+    },
+    {
+      "start": 525.2,
+      "end": 530.8,
+      "text": "Autodesk API. So what the directory is and some of those base terms like what Git and Post means.",
+      "words": []
+    },
+    {
+      "start": 531.6,
+      "end": 535.84,
+      "text": "And this is going to help me later down the line in a step that we're going to highlight.",
+      "words": []
+    },
+    {
+      "start": 536.96,
+      "end": 542.24,
+      "text": "But most importantly, I need to write out some information with the app. The goals, how it should work,",
+      "words": []
+    },
+    {
+      "start": 542.96,
+      "end": 546.0,
+      "text": "a few other pieces here. We're going to see this play out in a video.",
+      "words": []
+    },
+    {
+      "start": 547.28,
+      "end": 552.88,
+      "text": "So let's take a look at a video of this happening. So I'm taking all of that information and I've",
+      "words": []
+    },
+    {
+      "start": 552.88,
+      "end": 556.64,
+      "text": "written it out. What I'm expecting it to do. What I want it to do and I'm telling it to go.",
+      "words": []
+    },
+    {
+      "start": 557.6,
+      "end": 563.04,
+      "text": "And it's going to run. It's going to come up with a few key pieces of things that",
+      "words": []
+    },
+    {
+      "start": 563.76,
+      "end": 568.0799999999999,
+      "text": "it can't do. Like there's some authorization in there integration and",
+      "words": []
+    },
+    {
+      "start": 569.52,
+      "end": 574.24,
+      "text": "additionally some integrations that are available but aren't set up. It's how many how to solve some of this.",
+      "words": []
+    },
+    {
+      "start": 575.4399999999999,
+      "end": 580.9599999999999,
+      "text": "So now it's going to go into building the app or at least it's first attempt with the app.",
+      "words": []
+    },
+    {
+      "start": 581.5999999999999,
+      "end": 588.9599999999999,
+      "text": "And we're going to see here. And just a second, what its first attempt is. But I can't pull down a hub.",
+      "words": []
+    },
+    {
+      "start": 588.96,
+      "end": 593.0400000000001,
+      "text": "I can't select a project. I'm having some trouble. I can see that there's some code there.",
+      "words": []
+    },
+    {
+      "start": 593.6800000000001,
+      "end": 600.8000000000001,
+      "text": "What's going on? I need some help. So I've run into an issue. And one of the things that we figured out",
+      "words": []
+    },
+    {
+      "start": 600.8000000000001,
+      "end": 606.5600000000001,
+      "text": "is that I have open office hours with our developers is a great place for me to share the progress that I've done.",
+      "words": []
+    },
+    {
+      "start": 609.52,
+      "end": 615.2800000000001,
+      "text": "I can bring up these blockers. So when I'm struggling with the authentication, authorization,",
+      "words": []
+    },
+    {
+      "start": 615.28,
+      "end": 621.8399999999999,
+      "text": "integrations, basically the developers help me solve that solution. And I'm learning more about",
+      "words": []
+    },
+    {
+      "start": 621.8399999999999,
+      "end": 627.4399999999999,
+      "text": "how the program in AI works as I talk to the developer. So I'll be better next time. We're building a",
+      "words": []
+    },
+    {
+      "start": 627.4399999999999,
+      "end": 632.56,
+      "text": "shared understanding of the tool and of the needs with an example right there. So we're able to",
+      "words": []
+    },
+    {
+      "start": 632.56,
+      "end": 639.52,
+      "text": "start shifting our language to be more aligned. And I'm learning about these programming complexities.",
+      "words": []
+    },
+    {
+      "start": 639.52,
+      "end": 645.04,
+      "text": "This authentication thing, what do you mean? I have an authenticator app on my phone. I just sign in.",
+      "words": []
+    },
+    {
+      "start": 645.04,
+      "end": 652.0799999999999,
+      "text": "What do you have to do in a program? But I can also start to build a checklist for the next app that I build.",
+      "words": []
+    },
+    {
+      "start": 652.4,
+      "end": 659.52,
+      "text": "So after I've tried, I started. One of a good thing to have is a checklist that you can start sharing with them.",
+      "words": []
+    },
+    {
+      "start": 659.52,
+      "end": 664.72,
+      "text": "But don't overwhelm them with a large list at first. So let them take that first stab when they run into their first",
+      "words": []
+    },
+    {
+      "start": 664.72,
+      "end": 669.84,
+      "text": "issue, come to the office hours, start to share this checklist with them. So you can see at the top",
+      "words": []
+    },
+    {
+      "start": 669.84,
+      "end": 675.0400000000001,
+      "text": "here that there's some tips for better prompts for how specifically Victor works. So any AI tool that",
+      "words": []
+    },
+    {
+      "start": 675.0400000000001,
+      "end": 680.5600000000001,
+      "text": "you're working with will have that. There's a checklist that I've started, right? So that first step,",
+      "words": []
+    },
+    {
+      "start": 680.5600000000001,
+      "end": 685.44,
+      "text": "if you remember back at the beginning, I said learn a little bit about that out of this API. So verify",
+      "words": []
+    },
+    {
+      "start": 685.44,
+      "end": 690.72,
+      "text": "that there is an API. So the tool saying it can't do something. And you look at the API documentation. And it",
+      "words": []
+    },
+    {
+      "start": 690.72,
+      "end": 696.96,
+      "text": "says yes, you absolutely can get this information or yes, you can post this. Then there's a problem with the app and not",
+      "words": []
+    },
+    {
+      "start": 696.96,
+      "end": 702.88,
+      "text": "with the access with audit with the artist product. So there's a checklist to go through.",
+      "words": []
+    },
+    {
+      "start": 705.36,
+      "end": 713.0400000000001,
+      "text": "So now I'm ready for my second attempt. So I'm updating the app. I'm adding integrations based off of what it said.",
+      "words": []
+    },
+    {
+      "start": 713.0400000000001,
+      "end": 719.6,
+      "text": "I'm adding additional steps because I've decided at this point that I realize I don't want it to decide",
+      "words": []
+    },
+    {
+      "start": 719.6,
+      "end": 725.52,
+      "text": "to take some of my files and just delete them. I want to add a step where I can check them.",
+      "words": []
+    },
+    {
+      "start": 726.16,
+      "end": 732.5600000000001,
+      "text": "Now you can see that with it connected, I can choose hubs, I can choose projects. This is what I was",
+      "words": []
+    },
+    {
+      "start": 732.5600000000001,
+      "end": 739.0400000000001,
+      "text": "mentioning here. I don't want it to decide to delete files. It thinks are orphaned. I want to add that",
+      "words": []
+    },
+    {
+      "start": 739.0400000000001,
+      "end": 745.6800000000001,
+      "text": "step as a human checkpoint. So we're letting it think. It's telling me what it's doing. It's",
+      "words": []
+    },
+    {
+      "start": 745.68,
+      "end": 751.92,
+      "text": "pulling out some methods, some options here. And now we're going to see that there's multiple steps",
+      "words": []
+    },
+    {
+      "start": 751.92,
+      "end": 756.88,
+      "text": "in the process. So instead of one button run and done, you'll see that there's finding them. And then",
+      "words": []
+    },
+    {
+      "start": 756.88,
+      "end": 762.2399999999999,
+      "text": "once I verify that they're there, then I can tell it to delete them. So that way it's not deleting files that I",
+      "words": []
+    },
+    {
+      "start": 762.2399999999999,
+      "end": 770.4,
+      "text": "don't want it to delete. All right, great. So now I just keep rinsing and repeating. There are some things",
+      "words": []
+    },
+    {
+      "start": 770.4,
+      "end": 776.0,
+      "text": "that maybe I've come up with an error. So that can actually step into the app I'm developing and dev concept",
+      "words": []
+    },
+    {
+      "start": 776.0,
+      "end": 781.92,
+      "text": "in and solve the problem for me. There's some graphic options for how I want that tool to run. So you saw",
+      "words": []
+    },
+    {
+      "start": 781.92,
+      "end": 786.64,
+      "text": "where it had the three steps in a line. This one's got tabs at the top. It's got two different buttons.",
+      "words": []
+    },
+    {
+      "start": 786.64,
+      "end": 792.56,
+      "text": "So there's how I want this to actually work steps. And what's going to trigger each one of these in",
+      "words": []
+    },
+    {
+      "start": 792.56,
+      "end": 798.64,
+      "text": "this case. This is a button. In the other case, it was run and it would go. It would go. So it was also",
+      "words": []
+    },
+    {
+      "start": 798.64,
+      "end": 803.84,
+      "text": "a button, but this is a button. It'll do it every all steps at once. The other one will have a button",
+      "words": []
+    },
+    {
+      "start": 803.84,
+      "end": 812.96,
+      "text": "first step. So it's kind of pretty interesting. So now if I don't want to have the step in every time",
+      "words": []
+    },
+    {
+      "start": 812.96,
+      "end": 819.1999999999999,
+      "text": "to fix my error, one of the interesting things is that Victor has built in a way to self solve some of",
+      "words": []
+    },
+    {
+      "start": 819.1999999999999,
+      "end": 823.28,
+      "text": "its own problems where maybe he just didn't prompt it correctly and it kind of knows what you want.",
+      "words": []
+    },
+    {
+      "start": 823.28,
+      "end": 829.6,
+      "text": "But it means you to say, yes, please go fix this and then it'll fix itself. And then it's back to working.",
+      "words": []
+    },
+    {
+      "start": 830.56,
+      "end": 836.64,
+      "text": "So that's a pretty great piece. And I think that's really valuable that I'm not relying on dev to solve",
+      "words": []
+    },
+    {
+      "start": 836.64,
+      "end": 845.04,
+      "text": "every single problem, only a more complex one. So now I've done it. I've made a program. So Zach,",
+      "words": []
+    },
+    {
+      "start": 845.04,
+      "end": 856.88,
+      "text": "does this make me a developer? Oh, certainly. Absolutely. Are you ready to tackle this problem now?",
+      "words": []
+    },
+    {
+      "start": 860.3199999999999,
+      "end": 865.5999999999999,
+      "text": "After that simple automation, I think this is probably a little bit of a bigger lift than I was",
+      "words": []
+    },
+    {
+      "start": 865.6,
+      "end": 868.8000000000001,
+      "text": "expecting. So we're just going to kind of wait on that a bit.",
+      "words": []
+    },
+    {
+      "start": 870.96,
+      "end": 883.52,
+      "text": "Agreed. Yeah. So some of the really nifty features that we've found with Victor for development.",
+      "words": []
+    },
+    {
+      "start": 884.32,
+      "end": 889.6,
+      "text": "This makes development easier. The builder you can interact through a chat interface.",
+      "words": []
+    },
+    {
+      "start": 890.4,
+      "end": 896.88,
+      "text": "The preview tab you can actually see the user interface and go through the user experience",
+      "words": []
+    },
+    {
+      "start": 897.6800000000001,
+      "end": 904.0,
+      "text": "immediately. It just builds it for you. You can review the code itself, the source code, and the code tab.",
+      "words": []
+    },
+    {
+      "start": 905.0400000000001,
+      "end": 910.72,
+      "text": "Within the code tab, there are some extra tools to help. You can show changes like what we see here.",
+      "words": []
+    },
+    {
+      "start": 910.72,
+      "end": 915.12,
+      "text": "If we want to see those deaths, there is also that console. This is the same thing that Victor",
+      "words": []
+    },
+    {
+      "start": 915.12,
+      "end": 920.64,
+      "text": "itself is using to troubleshoot if it has its issues. We have access to all of that as developer.",
+      "words": []
+    },
+    {
+      "start": 921.84,
+      "end": 929.28,
+      "text": "It also simplifies the software development lifecycle. You can select testers to share with",
+      "words": []
+    },
+    {
+      "start": 929.28,
+      "end": 935.12,
+      "text": "for your user acceptance testing. You can select developers to share with for dev review and dev testing.",
+      "words": []
+    },
+    {
+      "start": 936.08,
+      "end": 940.16,
+      "text": "You can publish and approve for a wider audience once you're ready.",
+      "words": []
+    },
+    {
+      "start": 941.12,
+      "end": 948.3199999999999,
+      "text": "And integration is managed by admins from a developer perspective. It's just a dropdown.",
+      "words": []
+    },
+    {
+      "start": 953.36,
+      "end": 957.76,
+      "text": "So from the beginning, we talked about this problem of development and using this",
+      "words": []
+    },
+    {
+      "start": 958.88,
+      "end": 966.4,
+      "text": "solution to create a more aligned team stronger results. So I lay out the need as an end user.",
+      "words": []
+    },
+    {
+      "start": 966.48,
+      "end": 971.84,
+      "text": "Development is supporting me in the app development itself. So we have a quicker understanding both",
+      "words": []
+    },
+    {
+      "start": 971.84,
+      "end": 977.92,
+      "text": "in the app and AI as well as what I'm trying to build. So we'll have fewer communication errors",
+      "words": []
+    },
+    {
+      "start": 977.92,
+      "end": 984.48,
+      "text": "with faster and more accurate decisions. And now it becomes that we've set the context of the problem.",
+      "words": []
+    },
+    {
+      "start": 985.04,
+      "end": 990.0799999999999,
+      "text": "And the workflow of the solution is shared. So now we've got that shared language that's shared",
+      "words": []
+    },
+    {
+      "start": 991.0400000000001,
+      "end": 996.32,
+      "text": "so instead of a developer trying to ask questions to figure out what I mean or what I'm saying or",
+      "words": []
+    },
+    {
+      "start": 996.32,
+      "end": 1000.96,
+      "text": "what I'm looking for, it's now the developer can take that farther and start asking questions to",
+      "words": []
+    },
+    {
+      "start": 1000.96,
+      "end": 1006.72,
+      "text": "find gaps or holes or ways to make it better. So this makes us have a stronger in-product",
+      "words": []
+    },
+    {
+      "start": 1006.72,
+      "end": 1012.48,
+      "text": "as well as be more aligned and it builds that rapport. So we have a much more positive relationship",
+      "words": []
+    },
+    {
+      "start": 1012.48,
+      "end": 1015.9200000000001,
+      "text": "and the phrase, why can't you becomes how can we?",
+      "words": []
+    },
+    {
+      "start": 1016.88,
+      "end": 1023.36,
+      "text": "Yes, Victor did make the development lifecycle easier on us and made it faster and more accessible.",
+      "words": []
+    },
+    {
+      "start": 1024.0,
+      "end": 1031.36,
+      "text": "But beyond those numbers, we have better alignment, we have a lowered barrier to entry for development,",
+      "words": []
+    },
+    {
+      "start": 1031.36,
+      "end": 1038.3999999999999,
+      "text": "we have more people who understand the problem solving the problem, and we have control where it matters.",
+      "words": []
+    },
+    {
+      "start": 1041.12,
+      "end": 1042.56,
+      "text": "Together we're telling a good story.",
+      "words": []
+    },
+    {
+      "start": 1046.24,
+      "end": 1053.6000000000001,
+      "text": "So in closing, this is us. Feel free to connect with us and thank you for your time.",
+      "words": []
+    },
+    {
+      "start": 1055.6000000000001,
+      "end": 1057.68,
+      "text": "Now that we're done, we can take a catnap, right?",
+      "words": []
+    },
+    {
+      "start": 1061.52,
+      "end": 1063.52,
+      "text": "Yes.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:21:18.631079+00:00"
+}

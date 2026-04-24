@@ -1,0 +1,39 @@
+{
+  "video_id": "aTat67jzuY4",
+  "demo_timestamps": [
+    {
+      "start": 406.0,
+      "end": 454.0,
+      "description": "GitHub Copilot's integration with MCP"
+    }
+  ],
+  "themes": [
+    "MCP protocol",
+    "AI and API integration",
+    "Security in AI systems"
+  ],
+  "client_mentions": [],
+  "autodesk_products": [
+    {
+      "name": "Autodesk APIs",
+      "is_api": false,
+      "timestamp": 125.0
+    },
+    {
+      "name": "Forge",
+      "is_api": true,
+      "timestamp": 0.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "GitHub Copilot",
+      "category": "other",
+      "context": "Used as an example of MCP's capabilities",
+      "timestamp": 338.0
+    }
+  ],
+  "summary": "The video introduces the Model Context Protocol (MCP), which allows efficient communication between large language models and external systems such as APIs and tools, promoting reusability and interoperability. It delves into the detailed architecture of MCP and its security measures, demonstrating practical application through GitHub Copilot's integration.",
+  "_complete": true,
+  "_saved_at": "2026-04-23T00:06:07.224367+00:00"
+}

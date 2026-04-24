@@ -1,0 +1,1051 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.0,
+      "text": "Hi, everyone, and welcome to the roadmap session for Autos Platform Services.",
+      "words": []
+    },
+    {
+      "start": 5.0,
+      "end": 9.0,
+      "text": "Before we begin, I want to include the obligatory safe harbor statement.",
+      "words": []
+    },
+    {
+      "start": 9.0,
+      "end": 12.0,
+      "text": "Please do not make any purchase decisions based on what you hear today.",
+      "words": []
+    },
+    {
+      "start": 12.0,
+      "end": 17.0,
+      "text": "This is meant to be visionary nature to explain to you where we're going and where we're headed.",
+      "words": []
+    },
+    {
+      "start": 17.0,
+      "end": 22.0,
+      "text": "And not to be a distinct set of deliverables that you can make purchasing decisions upon.",
+      "words": []
+    },
+    {
+      "start": 22.0,
+      "end": 24.0,
+      "text": "Before we get into it, I'd like to do a quick round of intros.",
+      "words": []
+    },
+    {
+      "start": 24.0,
+      "end": 28.0,
+      "text": "My name is Brent Scanell. I'm a senior product manager within the developer and",
+      "words": []
+    },
+    {
+      "start": 28.0,
+      "end": 33.0,
+      "text": "I'm a position of Autos Platform Services. I'm an adjoining my colleague Erica.",
+      "words": []
+    },
+    {
+      "start": 33.0,
+      "end": 38.0,
+      "text": "I'm the director of product management also in the same part of the organization that Brent has.",
+      "words": []
+    },
+    {
+      "start": 38.0,
+      "end": 40.0,
+      "text": "Like Erica.",
+      "words": []
+    },
+    {
+      "start": 40.0,
+      "end": 46.0,
+      "text": "Okay, so I want to start by setting some context before we kind of get really into the roadmap details.",
+      "words": []
+    },
+    {
+      "start": 46.0,
+      "end": 50.0,
+      "text": "The way we built software in the past was designed for a different model.",
+      "words": []
+    },
+    {
+      "start": 50.0,
+      "end": 55.0,
+      "text": "As developers, we built increasingly sophisticated integrations, connect systems,",
+      "words": []
+    },
+    {
+      "start": 55.0,
+      "end": 58.0,
+      "text": "and stick together workflows across products.",
+      "words": []
+    },
+    {
+      "start": 58.0,
+      "end": 62.0,
+      "text": "But at the core, these workflows are still largely human driven.",
+      "words": []
+    },
+    {
+      "start": 62.0,
+      "end": 68.0,
+      "text": "A user trigger something, a process kicks off, systems respond.",
+      "words": []
+    },
+    {
+      "start": 68.0,
+      "end": 72.0,
+      "text": "What's changing now is that software is starting to operate more autonomously.",
+      "words": []
+    },
+    {
+      "start": 72.0,
+      "end": 79.0,
+      "text": "With workflows being orchestrated across systems continuously, not just in response to individual user actions.",
+      "words": []
+    },
+    {
+      "start": 79.0,
+      "end": 83.0,
+      "text": "And the patterns we've relied upon, even more advanced ones, weren't really good at that model.",
+      "words": []
+    },
+    {
+      "start": 83.0,
+      "end": 87.0,
+      "text": "This is not an incremental API story. It's a paradigm shift.",
+      "words": []
+    },
+    {
+      "start": 87.0,
+      "end": 94.0,
+      "text": "The shift towards continuous automation and system orchestrated workflows.",
+      "words": []
+    },
+    {
+      "start": 94.0,
+      "end": 97.0,
+      "text": "So why does this matter for you as a developer?",
+      "words": []
+    },
+    {
+      "start": 97.0,
+      "end": 102.0,
+      "text": "If you think about what you're building today, more and more, it doesn't live in a single place.",
+      "words": []
+    },
+    {
+      "start": 102.0,
+      "end": 108.0,
+      "text": "You're no longer building or you're no longer calling a single set of APIs or integrating with one product.",
+      "words": []
+    },
+    {
+      "start": 108.0,
+      "end": 112.0,
+      "text": "You workflow spend multiple systems, depend on different services.",
+      "words": []
+    },
+    {
+      "start": 112.0,
+      "end": 115.0,
+      "text": "And often don't have a clean beginning or end.",
+      "words": []
+    },
+    {
+      "start": 115.0,
+      "end": 119.0,
+      "text": "And they're not just triggered by our user anymore, they're running continuously,",
+      "words": []
+    },
+    {
+      "start": 119.0,
+      "end": 121.0,
+      "text": "re-acting the changes across systems.",
+      "words": []
+    },
+    {
+      "start": 121.0,
+      "end": 125.0,
+      "text": "And if you step back for a second, you can already see where this is going.",
+      "words": []
+    },
+    {
+      "start": 125.0,
+      "end": 129.0,
+      "text": "The complexity isn't going away. It's increasing.",
+      "words": []
+    },
+    {
+      "start": 129.0,
+      "end": 133.0,
+      "text": "You feel this pain and so do we.",
+      "words": []
+    },
+    {
+      "start": 133.0,
+      "end": 138.0,
+      "text": "So if we're honest about where we are today, we have a lot of power for capabilities in the platform.",
+      "words": []
+    },
+    {
+      "start": 138.0,
+      "end": 142.0,
+      "text": "But they're fragmented. Patterns differ across products.",
+      "words": []
+    },
+    {
+      "start": 142.0,
+      "end": 145.0,
+      "text": "APIs behave a little differently depending on where you are.",
+      "words": []
+    },
+    {
+      "start": 145.0,
+      "end": 149.0,
+      "text": "And you end up having to relearn things as you move between them.",
+      "words": []
+    },
+    {
+      "start": 149.0,
+      "end": 155.0,
+      "text": "And when you build across products, you're writing custom orchestrations, stitching everything together yourself.",
+      "words": []
+    },
+    {
+      "start": 155.0,
+      "end": 158.0,
+      "text": "And that worked when integrations were smaller, more contained.",
+      "words": []
+    },
+    {
+      "start": 158.0,
+      "end": 161.0,
+      "text": "When workflows live closer to a single product or use case.",
+      "words": []
+    },
+    {
+      "start": 161.0,
+      "end": 166.0,
+      "text": "But as workflows become more autonomous and span multiple systems, the model starts to break down,",
+      "words": []
+    },
+    {
+      "start": 166.0,
+      "end": 173.0,
+      "text": "which means the more you build, the more complexity you end up owning.",
+      "words": []
+    },
+    {
+      "start": 173.0,
+      "end": 177.0,
+      "text": "So what happens if we don't accelerate a shift, a shift to support this new paradigm?",
+      "words": []
+    },
+    {
+      "start": 177.0,
+      "end": 181.0,
+      "text": "You'll still build powerful integrations. You'll still connect systems.",
+      "words": []
+    },
+    {
+      "start": 181.0,
+      "end": 185.0,
+      "text": "You'll work for straight workflows and solve real problems across products.",
+      "words": []
+    },
+    {
+      "start": 185.0,
+      "end": 188.0,
+      "text": "But the complexity doesn't go away. It gets worse.",
+      "words": []
+    },
+    {
+      "start": 188.0,
+      "end": 192.0,
+      "text": "You're still writing custom orchestrations, still managing education, edge cases,",
+      "words": []
+    },
+    {
+      "start": 192.0,
+      "end": 195.0,
+      "text": "still rebuilding the same patterns across different contexts,",
+      "words": []
+    },
+    {
+      "start": 195.0,
+      "end": 198.0,
+      "text": "and asking scale that burden just grows.",
+      "words": []
+    },
+    {
+      "start": 198.0,
+      "end": 201.0,
+      "text": "So yes, the way software is built and used is changing really fast.",
+      "words": []
+    },
+    {
+      "start": 201.0,
+      "end": 205.0,
+      "text": "And the platform needs to evolve to support that.",
+      "words": []
+    },
+    {
+      "start": 205.0,
+      "end": 208.0,
+      "text": "But there's another piece that is just as important.",
+      "words": []
+    },
+    {
+      "start": 208.0,
+      "end": 214.0,
+      "text": "If APS is going to evolve into a true platform, something developers build on and not just integrate with,",
+      "words": []
+    },
+    {
+      "start": 214.0,
+      "end": 218.0,
+      "text": "it also needs to be treated like a product in its own right.",
+      "words": []
+    },
+    {
+      "start": 218.0,
+      "end": 226.0,
+      "text": "We need to evolve on the business end as well to ensure the platform has been grow, improve, and scale along, alongside the way you're building.",
+      "words": []
+    },
+    {
+      "start": 226.0,
+      "end": 232.0,
+      "text": "So with that, I'll hand it over to my colleague, Erica, to walk through how we're evolving that foundation.",
+      "words": []
+    },
+    {
+      "start": 232.0,
+      "end": 242.0,
+      "text": "I'm now going to switch the tone of the presentation just a little bit to talk about some of the specific capabilities we are releasing to all of you over the next year.",
+      "words": []
+    },
+    {
+      "start": 242.0,
+      "end": 258.0,
+      "text": "In the 10 plus years since the Autodesk App Store was first launched, it is served to connect Autodesk customers with solutions provided by all of you that extend their core product capabilities, served specialized needs and connected to them, their systems.",
+      "words": []
+    },
+    {
+      "start": 258.0,
+      "end": 266.0,
+      "text": "And we often hear from you that you are able to reach far more customers through the App Store than you ever could on your own.",
+      "words": []
+    },
+    {
+      "start": 266.0,
+      "end": 278.0,
+      "text": "We are investing in this experience to keep it on the go to destination for customers to find solutions, as well as a valuable distribution channel for all of you.",
+      "words": []
+    },
+    {
+      "start": 278.0,
+      "end": 290.0,
+      "text": "In April, we will launch the new consumer experience designed to make it faster and easier to discover, acquire, and manage listed products.",
+      "words": []
+    },
+    {
+      "start": 290.0,
+      "end": 308.0,
+      "text": "Some of those features will include improved navigation, search and discovery, enriched product detail pages, because making sure that your customers understand your products very quickly and are able to choose them from among everything that is out there is critical to your business success.",
+      "words": []
+    },
+    {
+      "start": 308.0,
+      "end": 316.0,
+      "text": "Multi-quantity subscription purchasing and streamlined post production and installation, as well as enhanced seat management.",
+      "words": []
+    },
+    {
+      "start": 316.0,
+      "end": 322.0,
+      "text": "These are some enhancements that you have been requesting for a while to the consumer experience for your customers.",
+      "words": []
+    },
+    {
+      "start": 322.0,
+      "end": 331.0,
+      "text": "To hear more about this exciting release, please be sure to check out the session that will be coming later in DevCon.",
+      "words": []
+    },
+    {
+      "start": 331.0,
+      "end": 341.0,
+      "text": "The name is quite a mouthful, but it's the Autodesk Advantage, faster go to market, smarter API consumption, and stronger ecosystem outcomes.",
+      "words": []
+    },
+    {
+      "start": 341.0,
+      "end": 347.0,
+      "text": "We will talk a little bit more about this release in detail and answer any questions that you have.",
+      "words": []
+    },
+    {
+      "start": 347.0,
+      "end": 355.0,
+      "text": "Next, not only are we modernizing the experience, we are also expanding the types of content that you can sell.",
+      "words": []
+    },
+    {
+      "start": 355.0,
+      "end": 370.0,
+      "text": "This is not only in reaction to feedback we received from both you and customers about the types of things that you would like to be able to offer, but also in response to the way that the world is changing and the types of tools that customers are going to be needing in the future.",
+      "words": []
+    },
+    {
+      "start": 370.0,
+      "end": 387.0,
+      "text": "Not only will you be able to supply desktop apps, web apps, but also data, MCPs, and other types of agenda tools to make sure that your businesses and your offerings stay relevant as our customers change how they are doing their work.",
+      "words": []
+    },
+    {
+      "start": 387.0,
+      "end": 391.0,
+      "text": "Finally, we are streamlining the listing process.",
+      "words": []
+    },
+    {
+      "start": 391.0,
+      "end": 411.0,
+      "text": "Later this year, you will see a relaunched what we call publisher experience, making it easier for you to navigate the listing process and easier for you to manage multiple listings and have larger teams working together and collaborating on your listings.",
+      "words": []
+    },
+    {
+      "start": 412.0,
+      "end": 428.0,
+      "text": "Moving on from the marketplace, I want to talk a little bit about the APS experience roadmap and those capabilities that we provide to you and to our customers through both the developer portal and also through the account portal for managing your APS usage.",
+      "words": []
+    },
+    {
+      "start": 428.0,
+      "end": 437.0,
+      "text": "And I've rather than having this sort of time, time based, I want to talk about this in three key buckets that we're working on for you.",
+      "words": []
+    },
+    {
+      "start": 437.0,
+      "end": 454.0,
+      "text": "The first is giving you and customers more control over your APS usage, putting guard rails around usage so that you can run your applications reliably and within your budget and some of the key things that I want to highlight that will be coming this year.",
+      "words": []
+    },
+    {
+      "start": 454.0,
+      "end": 463.0,
+      "text": "Are the ability to have multiple developer hubs under one team after we launch the developer hubs in December, this is the number one request.",
+      "words": []
+    },
+    {
+      "start": 463.0,
+      "end": 469.0,
+      "text": "So we'll be bringing this out soon, give you that, give you more ability to organize your development activities.",
+      "words": []
+    },
+    {
+      "start": 469.0,
+      "end": 487.0,
+      "text": "Secondly, we're really critical to us that you receive adequate notification when your balance is running low, whether you're paying in tokens or you're using up some of your free balance so that you can avoid any service disruptions by other purchasing tokens or signing it for pay as you go.",
+      "words": []
+    },
+    {
+      "start": 487.0,
+      "end": 492.0,
+      "text": "And finally, we're going to be working on a couple of features that we're calling pass through usage and usage caps.",
+      "words": []
+    },
+    {
+      "start": 492.0,
+      "end": 497.0,
+      "text": "I want to talk about those at the end of my part of the presentation. So I'll skip over for them for now.",
+      "words": []
+    },
+    {
+      "start": 497.0,
+      "end": 510.0,
+      "text": "The second bucket is really related to that visibility into APS usage, making sure that you understand what your usage has looked like in the past and how much capacity you have right now.",
+      "words": []
+    },
+    {
+      "start": 511.0,
+      "end": 513.0,
+      "text": "Based on your historic usage.",
+      "words": []
+    },
+    {
+      "start": 513.0,
+      "end": 524.0,
+      "text": "So the two areas that are really working on there is making sure that you have those real time API balances at the team level within the account portal so that you can understand for each API that you're using.",
+      "words": []
+    },
+    {
+      "start": 524.0,
+      "end": 527.0,
+      "text": "What does your monthly balance look like?",
+      "words": []
+    },
+    {
+      "start": 527.0,
+      "end": 553.0,
+      "text": "And the second part is bringing that cost reporting or how many tokens or dollars or euros and pay as you go have been spent on a specific developer hub or on a specific app so that you can have that granularity of cost reporting that's going to help you make decisions about whether to continue running an app or whether to maybe invest in in optimizing its usage of the APIs.",
+      "words": []
+    },
+    {
+      "start": 553.0,
+      "end": 563.0,
+      "text": "Thirdly, we're investing in tools powered by AI to make it even faster and easier for you to build applications on APS.",
+      "words": []
+    },
+    {
+      "start": 563.0,
+      "end": 572.0,
+      "text": "And the first two of these are going to be centered around building the Autodesk assistant into the developer portal.",
+      "words": []
+    },
+    {
+      "start": 572.0,
+      "end": 586.0,
+      "text": "The first one, the cost advisor tool will be something that we will build into the Autodesk assistant and maybe also offer as a standalone MCP for using third party clients of your choice.",
+      "words": []
+    },
+    {
+      "start": 586.0,
+      "end": 594.0,
+      "text": "This is something we're continuing to work on and we hope to bring into private data soon so that we can start getting from feedback from all of you.",
+      "words": []
+    },
+    {
+      "start": 594.0,
+      "end": 607.0,
+      "text": "But the goal is for you to be able to chat with the assistant and start putting in scenarios that you have you want to build a spare parts generator you want to build some type of other integrated workflow.",
+      "words": []
+    },
+    {
+      "start": 607.0,
+      "end": 622.0,
+      "text": "And based on a question and answer with a chatbot get a better sense of not only the APIs that you would need to use, but also what it might cost you to use those APIs based on their current pricing and usage information such as the number of end users that you provide.",
+      "words": []
+    },
+    {
+      "start": 622.0,
+      "end": 631.0,
+      "text": "You can kind of think about it sort of as a retirement planning tool that asks you a lot of questions and then advises you on what it might cost or how much money you might need.",
+      "words": []
+    },
+    {
+      "start": 631.0,
+      "end": 649.0,
+      "text": "The second thing is that we'll integrate our documentation with the assistant so that you can ask it questions and get more personalized solutions and how to guides based on the actual documentation rather than just needing to navigate through static web pages yourself.",
+      "words": []
+    },
+    {
+      "start": 650.0,
+      "end": 663.0,
+      "text": "And the third one is that we will finally launch the APS management API which we've had in beta for some time after we make some enhancements based on the visibility and usage changes that we're making in the UI.",
+      "words": []
+    },
+    {
+      "start": 663.0,
+      "end": 671.0,
+      "text": "This will make it easier for you to automate the management of your hubs and apps credentials.",
+      "words": []
+    },
+    {
+      "start": 671.0,
+      "end": 682.0,
+      "text": "And also to retrieve any of that API usage at the team hub or app level, maybe to integrate into your own dashboards or other systems where you might need that information.",
+      "words": []
+    },
+    {
+      "start": 682.0,
+      "end": 697.0,
+      "text": "So moving on from the experience that next part I want to talk about a little bit is the business model evolution that has occurred over the last year will continue to occur to help support the types of changes that Brent has been talking about that are coming.",
+      "words": []
+    },
+    {
+      "start": 697.0,
+      "end": 707.0,
+      "text": "And also to make sure that we're keeping this experience and the way that you pay for that usage as flexible as possible.",
+      "words": []
+    },
+    {
+      "start": 707.0,
+      "end": 719.0,
+      "text": "So in December we made the first big changes to the business model and that we shifted away from that 90 day time bound trial to an ongoing monthly amount of usage capacity.",
+      "words": []
+    },
+    {
+      "start": 719.0,
+      "end": 732.0,
+      "text": "So that you would have like an ongoing ability to try out any of the new APIs that we bring out over the coming years for free to really foster that innovation and experimentation.",
+      "words": []
+    },
+    {
+      "start": 733.0,
+      "end": 750.0,
+      "text": "And we also introduced pay as you go and select markets to give you more ways to pay for that API usage and really set yourself up to have both tokens and pay as you go and ensure that you have that that uninterrupted access to the APIs.",
+      "words": []
+    },
+    {
+      "start": 751.0,
+      "end": 757.0,
+      "text": "Now what is coming in May we are introducing included usage.",
+      "words": []
+    },
+    {
+      "start": 757.0,
+      "end": 779.0,
+      "text": "So for companies that are using APS for internal use products subscriptions may now include monthly API usage capacity products will typically include APIs in their products and capacity for those APIs and their products that are related to those products.",
+      "words": []
+    },
+    {
+      "start": 779.0,
+      "end": 784.0,
+      "text": "So for example, and I'll show a slide with this later.",
+      "words": []
+    },
+    {
+      "start": 784.0,
+      "end": 792.0,
+      "text": "The AC build application will have access to the AC data model or capacity for that included in in the subscription.",
+      "words": []
+    },
+    {
+      "start": 792.0,
+      "end": 803.0,
+      "text": "And that amount of monthly capacity will scale with a number of subscriptions purchased included usage works seamlessly with prepaid and pay as you go.",
+      "words": []
+    },
+    {
+      "start": 803.0,
+      "end": 810.0,
+      "text": "And have products subscriptions that have monthly capacity all of that included capacity will be used first every month.",
+      "words": []
+    },
+    {
+      "start": 810.0,
+      "end": 818.0,
+      "text": "And then only if you have consumed that entire amount will start paying for usage and tokens or pay as you go.",
+      "words": []
+    },
+    {
+      "start": 818.0,
+      "end": 827.0,
+      "text": "The first two APIs which will be offered with this included usage model are the AC data model and the manufacturing data model.",
+      "words": []
+    },
+    {
+      "start": 827.0,
+      "end": 835.0,
+      "text": "So I wanted to just go over a very brief to script example and of course if there's any questions we're happy to talk about this at the end.",
+      "words": []
+    },
+    {
+      "start": 835.0,
+      "end": 843.0,
+      "text": "So as I mentioned earlier imagine that you have purchased five subscriptions of auto desk built so effectively five seats.",
+      "words": []
+    },
+    {
+      "start": 843.0,
+      "end": 848.0,
+      "text": "Each of those seats comes with a hundred megabytes of access to the AC data data model.",
+      "words": []
+    },
+    {
+      "start": 848.0,
+      "end": 854.0,
+      "text": "What that means is you can download a hundred megabytes of granular data every month as part of your subscription.",
+      "words": []
+    },
+    {
+      "start": 854.0,
+      "end": 858.0,
+      "text": "And because you have five subscriptions that gives you a total of five hundred megabytes.",
+      "words": []
+    },
+    {
+      "start": 858.0,
+      "end": 869.0,
+      "text": "Now because we're talking about granular data and we're not talking about downloading entire files five hundred megabytes gets you very far in any given month.",
+      "words": []
+    },
+    {
+      "start": 870.0,
+      "end": 878.0,
+      "text": "So once you have used that or once you have those subscriptions that capacity gets assigned to the team where those subscriptions are located.",
+      "words": []
+    },
+    {
+      "start": 878.0,
+      "end": 885.0,
+      "text": "And then any apps you have in the developer hub on that team will be able to use all of that included capacity.",
+      "words": []
+    },
+    {
+      "start": 885.0,
+      "end": 894.0,
+      "text": "And then once that capacity is used up they would pay as they go for any additional use of the data model above that limit.",
+      "words": []
+    },
+    {
+      "start": 894.0,
+      "end": 902.0,
+      "text": "And that will be at the rate of one token three dollars for each one megabyte above the included usage.",
+      "words": []
+    },
+    {
+      "start": 905.0,
+      "end": 917.0,
+      "text": "Alright, so now I want to talk a little bit about those two features that I mentioned earlier pass through and usage caps and and how this relates to the new included usage business model that we're bringing out.",
+      "words": []
+    },
+    {
+      "start": 918.0,
+      "end": 923.0,
+      "text": "In the past and if you've come to some of my presentations in the past what I've talked about choosing your business model.",
+      "words": []
+    },
+    {
+      "start": 923.0,
+      "end": 940.0,
+      "text": "We've discussed that there are that you as it as an independent software vendor creating solutions for customers have a choice about what to do with the costs incurred from the APIs that that customers invoke when they're using your application.",
+      "words": []
+    },
+    {
+      "start": 940.0,
+      "end": 958.0,
+      "text": "On the left side the first thing that you can do and really we recommend this for a lot of folks or a lot of customers, but it doesn't necessarily work for everyone is that you as the ISP simply pay for those API costs and you bake that into your operating costs of your application and account for that in your subscription model.",
+      "words": []
+    },
+    {
+      "start": 958.0,
+      "end": 966.0,
+      "text": "We have a lot of customers that do that and you will continue to be able to like to do that in the future if that makes the most sense for your business.",
+      "words": []
+    },
+    {
+      "start": 967.0,
+      "end": 973.0,
+      "text": "The other option is to have the customer pay for the usage that they're that they're incurring.",
+      "words": []
+    },
+    {
+      "start": 973.0,
+      "end": 984.0,
+      "text": "And while we didn't call it pass through effectively you were passing through those customer that those costs to the customer so they paid for your app and then they paid for for for their APS usage.",
+      "words": []
+    },
+    {
+      "start": 984.0,
+      "end": 1002.0,
+      "text": "But the methods that you and the customer needed to go through to get that set up as we heard from both sides of this is really cumbersome and it really required the customer to be very tech savvy which sort of defeated the point of them buying an off the shelf solution.",
+      "words": []
+    },
+    {
+      "start": 1002.0,
+      "end": 1011.0,
+      "text": "They had to create a developer hub create an app key and then share that with you in order to set this up.",
+      "words": []
+    },
+    {
+      "start": 1011.0,
+      "end": 1038.0,
+      "text": "So with pay as you go we're solving the complexity of that problem. The goal is still that you can make an application available to the customer and then the customer can agree to pay for that usage but the mechanism will be streamlined so that they will be able to like agree to do that in a way that doesn't require them to set up their their own.",
+      "words": []
+    },
+    {
+      "start": 1038.0,
+      "end": 1063.0,
+      "text": "And more on that we are running a feature sponsor program for that so any any partners and their customers that are really interested in providing us with feedback as we build out those capabilities should definitely connect with us during dev con get your name on the list as a as a private beta participant so that we can collect your feedback as we build out these critical features.",
+      "words": []
+    },
+    {
+      "start": 1063.0,
+      "end": 1083.0,
+      "text": "The usage caps come in is that as a customer who is agreeing to pay for that usage caps will give you control over how much any given application will be able to to spend or to consume in a month of the API to help you manage and budget costs.",
+      "words": []
+    },
+    {
+      "start": 1083.0,
+      "end": 1099.0,
+      "text": "So it doesn't only work for with applications that are using pass through any application that you have you'll be able to like set limits or notifications for specific apps to better understand and control your your usage costs.",
+      "words": []
+    },
+    {
+      "start": 1099.0,
+      "end": 1115.0,
+      "text": "So with that with those updates on what we're working to bring out for all of you around those different properties over the coming year I mean hand things back to Brent who's going to talk a little bit more about where we're headed.",
+      "words": []
+    },
+    {
+      "start": 1115.0,
+      "end": 1119.0,
+      "text": "So let's pivot back over to talk about where things are going.",
+      "words": []
+    },
+    {
+      "start": 1119.0,
+      "end": 1131.0,
+      "text": "At this point you might be expecting us to walk through a roadmap what it be eyes are coming what features are landing and when and there goes on a great job recovering that in detail on the developer experience and the business model side.",
+      "words": []
+    },
+    {
+      "start": 1131.0,
+      "end": 1136.0,
+      "text": "But we are debating whether we want to include the entire laundry of this the whole things that come.",
+      "words": []
+    },
+    {
+      "start": 1136.0,
+      "end": 1144.0,
+      "text": "The reality is that list changes constantly by the time you hear it here or watch this later parts of it would already be out of date things are moving fast.",
+      "words": []
+    },
+    {
+      "start": 1144.0,
+      "end": 1149.0,
+      "text": "But most importantly I'm not sure which ride the kind of shift that I'm hoping to engage you on.",
+      "words": []
+    },
+    {
+      "start": 1149.0,
+      "end": 1153.0,
+      "text": "I'm not sure it would actually help you make better decisions about what to build.",
+      "words": []
+    },
+    {
+      "start": 1153.0,
+      "end": 1161.0,
+      "text": "So instead what I want to do is step back a level and give you a clear picture of where the platform is going as a whole.",
+      "words": []
+    },
+    {
+      "start": 1161.0,
+      "end": 1169.0,
+      "text": "The patterns were invested in the way the platform will behave and what that means for you and how you build going forward.",
+      "words": []
+    },
+    {
+      "start": 1170.0,
+      "end": 1178.0,
+      "text": "At a practical level this is about changing both of the platform works and what it feels like for you to build on it.",
+      "words": []
+    },
+    {
+      "start": 1178.0,
+      "end": 1186.0,
+      "text": "Today a lot of what you do is type to individual products learning their APIs their patterns and their quirks.",
+      "words": []
+    },
+    {
+      "start": 1186.0,
+      "end": 1192.0,
+      "text": "What would it look like if we started breaking out our products and exposing capabilities one by one.",
+      "words": []
+    },
+    {
+      "start": 1192.0,
+      "end": 1198.0,
+      "text": "How would you use these building blocks how would agents discover them leverage them connect them together.",
+      "words": []
+    },
+    {
+      "start": 1198.0,
+      "end": 1201.0,
+      "text": "What's important for that to happen.",
+      "words": []
+    },
+    {
+      "start": 1201.0,
+      "end": 1207.0,
+      "text": "Consistency discoverability and applicability have become fundamental to our success.",
+      "words": []
+    },
+    {
+      "start": 1207.0,
+      "end": 1217.0,
+      "text": "And what about reuse you all bring something special to the table but what would it take to apply to a whole new workflow to a whole new market.",
+      "words": []
+    },
+    {
+      "start": 1218.0,
+      "end": 1225.0,
+      "text": "We want to enable the composition of workflows where these pieces fit together more naturally.",
+      "words": []
+    },
+    {
+      "start": 1225.0,
+      "end": 1233.0,
+      "text": "We're moving toward more enabling and reusing of building blocks so that what you build can be applied across different workflows.",
+      "words": []
+    },
+    {
+      "start": 1233.0,
+      "end": 1237.0,
+      "text": "Instead of rebuilding the same integration logic every time you touch a new product.",
+      "words": []
+    },
+    {
+      "start": 1237.0,
+      "end": 1241.0,
+      "text": "You're building on patterns that are to carry across.",
+      "words": []
+    },
+    {
+      "start": 1241.0,
+      "end": 1246.0,
+      "text": "Building with a BS should feel more like composing not stitching together.",
+      "words": []
+    },
+    {
+      "start": 1248.0,
+      "end": 1251.0,
+      "text": "So what will be true when you're building an APS in the future.",
+      "words": []
+    },
+    {
+      "start": 1251.0,
+      "end": 1258.0,
+      "text": "The honest truth is we don't have all these answers or open that you can help us shape this future state.",
+      "words": []
+    },
+    {
+      "start": 1258.0,
+      "end": 1261.0,
+      "text": "Here's a few things that we would do believe will be true.",
+      "words": []
+    },
+    {
+      "start": 1261.0,
+      "end": 1267.0,
+      "text": "However, first capabilities will become discoverable and consistent across the platform.",
+      "words": []
+    },
+    {
+      "start": 1267.0,
+      "end": 1274.0,
+      "text": "So instead of hunting through documentation or learning each product separately, you can find and use what you need intuitively.",
+      "words": []
+    },
+    {
+      "start": 1275.0,
+      "end": 1281.0,
+      "text": "And this will be true for both the capabilities that we, Autodesk, bring to the platform, but also those that you bring as well.",
+      "words": []
+    },
+    {
+      "start": 1281.0,
+      "end": 1285.0,
+      "text": "AI, Exist a development is fundamentally changed how we build software.",
+      "words": []
+    },
+    {
+      "start": 1285.0,
+      "end": 1288.0,
+      "text": "How will it change how we build workflows.",
+      "words": []
+    },
+    {
+      "start": 1288.0,
+      "end": 1294.0,
+      "text": "We need to make sure that everything we build fits naturally into this paradigm, both you and us.",
+      "words": []
+    },
+    {
+      "start": 1294.0,
+      "end": 1298.0,
+      "text": "So suppose you're building a tool to help manage construction schedule for example.",
+      "words": []
+    },
+    {
+      "start": 1298.0,
+      "end": 1302.0,
+      "text": "You generate timelines, you surface risks, the sort of thing.",
+      "words": []
+    },
+    {
+      "start": 1302.0,
+      "end": 1313.0,
+      "text": "As decomposed and reusable elements, imagine what it would mean to apply those base capabilities in a manufacturing context, identifying and reducing supply chains bottlenecks.",
+      "words": []
+    },
+    {
+      "start": 1313.0,
+      "end": 1316.0,
+      "text": "What if I'm building a tool that automates circuit board design.",
+      "words": []
+    },
+    {
+      "start": 1316.0,
+      "end": 1323.0,
+      "text": "Essentially this is all about routing connections through constrained spaces, minimizing overlaps, conflicts, arc clashes.",
+      "words": []
+    },
+    {
+      "start": 1323.0,
+      "end": 1331.0,
+      "text": "We will evolve our platform to make it obvious to apply this core capability to other workflows, like electrical race weight design and a building for example.",
+      "words": []
+    },
+    {
+      "start": 1332.0,
+      "end": 1341.0,
+      "text": "On ABS, you're able to build faster using reusable patterns and workflows that are designed to work not just for humans, but for systems and agents as well.",
+      "words": []
+    },
+    {
+      "start": 1341.0,
+      "end": 1347.0,
+      "text": "Once you learn how to use part of the platform, that knowledge carries forward across everything else.",
+      "words": []
+    },
+    {
+      "start": 1347.0,
+      "end": 1356.0,
+      "text": "You're not starting over each time and as the ecosystem grows, once you can build with it grows as well.",
+      "words": []
+    },
+    {
+      "start": 1356.0,
+      "end": 1363.0,
+      "text": "So we've talked about where we're headed and what this means for how you build and how the platform is supporting that.",
+      "words": []
+    },
+    {
+      "start": 1363.0,
+      "end": 1367.0,
+      "text": "The real question is, what will you go build next?",
+      "words": []
+    },
+    {
+      "start": 1367.0,
+      "end": 1371.0,
+      "text": "We look forward to having these incredible discussions with all of you.",
+      "words": []
+    },
+    {
+      "start": 1371.0,
+      "end": 1385.0,
+      "text": "So please reach out and get engaged. We have a few programs available such as our developer Vanguard program where we can have discussions just like this one on an ongoing basis and help us shape the future of this platform together.",
+      "words": []
+    },
+    {
+      "start": 1385.0,
+      "end": 1395.0,
+      "text": "Thank you and we hope you enjoy the rest of the conference.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:11:11.412606+00:00"
+}

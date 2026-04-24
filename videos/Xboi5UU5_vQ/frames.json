@@ -1,0 +1,441 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Xboi5UU5_vQ\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Xboi5UU5_vQ\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "This slide presents a session about Autodesk and Esri GeoBIM workflows with APS Viewer and ArcGIS.",
+      "products_visible": [
+        "Autodesk",
+        "APS Viewer",
+        "ArcGIS"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Xboi5UU5_vQ\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide with an agenda for a DevCon event, listing topics related to Autodesk technologies.",
+      "products_visible": [
+        "Autodesk",
+        "ArcGIS GeoBIM",
+        "APS Viewer SDK"
+      ],
+      "ui_elements": [
+        "Agenda today",
+        "The GeoBIM Challenge",
+        "Two Platforms, Two Products",
+        "Introducing ArcGIS GeoBIM",
+        "From Products to Platforms",
+        "Data-Exchange SDK Prototype"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Xboi5UU5_vQ\\frames\\frame_000006.jpg",
+      "timestamp_seconds": 150.0,
+      "frame_index": 6,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide from Autodesk DevCon featuring goals for a 5-day Denver Accelerator event, with images of attendees and activities.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "5-Day Denver Accelerator",
+        "Goals for the Attendees",
+        "Goals for Autodesk & Esri"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Xboi5UU5_vQ\\frames\\frame_000008.jpg",
+      "timestamp_seconds": 210.0,
+      "frame_index": 8,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide from Autodesk DevCon showing insights from the APS Denver Accelerator, including questions about integration solutions.",
+      "products_visible": [
+        "Autodesk",
+        "APS",
+        "Revit",
+        "AutoCAD",
+        "ArcGIS"
+      ],
+      "ui_elements": [
+        "What existing products can I use today?",
+        "What SDKs and APIs can I use today?",
+        "How do I get my building onto a map?",
+        "How do I fix the alignment of my Revit model?",
+        "How do I manage AutoCAD files for ArcGIS compatibility?",
+        "How can I automate project creation across platforms?"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Xboi5UU5_vQ\\frames\\frame_000010.jpg",
+      "timestamp_seconds": 270.0,
+      "frame_index": 10,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide discussing integration challenges between Autodesk Forma and Esri ArcGIS Online.",
+      "products_visible": [
+        "Autodesk Forma",
+        "Esri ArcGIS Online"
+      ],
+      "ui_elements": [
+        "TWO PLATFORMS, ONE SHARED PROBLEM"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Xboi5UU5_vQ\\frames\\frame_000011.jpg",
+      "timestamp_seconds": 300.0,
+      "frame_index": 11,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a presentation slide featuring Autodesk's App Store with various software components and plugins.",
+      "products_visible": [
+        "Autodesk",
+        "App Store"
+      ],
+      "ui_elements": [
+        "Add",
+        "Download"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Xboi5UU5_vQ\\frames\\frame_000013.jpg",
+      "timestamp_seconds": 360.0,
+      "frame_index": 13,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents 'ArcGIS GeoBIM', explaining its connection between GIS and BIM.",
+      "products_visible": [
+        "ArcGIS GeoBIM"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Xboi5UU5_vQ\\frames\\frame_000014.jpg",
+      "timestamp_seconds": 390.0,
+      "frame_index": 14,
+      "category": "demo",
+      "keep": true,
+      "description": "A demonstration of a 3D modeling and environmental impact analysis application, possibly related to infrastructure like bridges.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Atlantic Env Impact App",
+        "Link Explorer",
+        "Documents",
+        "Document: Atlantic_Road_Bridge1.rvt"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Xboi5UU5_vQ\\frames\\frame_000016.jpg",
+      "timestamp_seconds": 450.0,
+      "frame_index": 16,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide about ArcGIS GeoBIM explaining its integration with GIS and BIM data alongside a diagram of its ecosystem.",
+      "products_visible": [
+        "ArcGIS GeoBIM",
+        "Autodesk Construction Cloud",
+        "ArcGIS Enterprise",
+        "ArcGIS Online"
+      ],
+      "ui_elements": [
+        "Field Maps",
+        "Scene Viewer",
+        "Map Viewer",
+        "Experience Builder"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Xboi5UU5_vQ\\frames\\frame_000021.jpg",
+      "timestamp_seconds": 600.0,
+      "frame_index": 21,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses ArcGIS GeoBIM as a solution, highlighting cloud-to-cloud integration and cross-platform collaboration.",
+      "products_visible": [
+        "ArcGIS",
+        "Autodesk Forma"
+      ],
+      "ui_elements": [
+        "ArcGIS GeoBIM as the Solution",
+        "Cloud-to-Cloud Integration",
+        "Cross-platform collaboration",
+        "Consolidate workflows, not data"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Xboi5UU5_vQ\\frames\\frame_000030.jpg",
+      "timestamp_seconds": 870.0,
+      "frame_index": 30,
+      "category": "demo",
+      "keep": true,
+      "description": "A software demonstration showing an 'Atlantic Env Impact App' with map and relevant features.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Link Explorer",
+        "Documents",
+        "Bookmarks",
+        "Flood Zone",
+        "Water Facility"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Xboi5UU5_vQ\\frames\\frame_000031.jpg",
+      "timestamp_seconds": 900.0,
+      "frame_index": 31,
+      "category": "demo",
+      "keep": true,
+      "description": "A demo of the Atlantic Env Impact App is shown with UI elements for slicing and document management.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Atlantic Env Impact App",
+        "Slice",
+        "New slice",
+        "Link Explorer",
+        "Documents"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Xboi5UU5_vQ\\frames\\frame_000032.jpg",
+      "timestamp_seconds": 930.0,
+      "frame_index": 32,
+      "category": "demo",
+      "keep": true,
+      "description": "A software demonstration showing a 3D environmental impact application with features like a line of sight analysis.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Line of sight",
+        "New analysis",
+        "Link Explorer"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Xboi5UU5_vQ\\frames\\frame_000036.jpg",
+      "timestamp_seconds": 1050.0,
+      "frame_index": 36,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide describes adding document models using Autodesk Platform Services and ArcGIS GeoBIM Sync Services.",
+      "products_visible": [
+        "Autodesk Platform Services",
+        "ArcGIS GeoBIM"
+      ],
+      "ui_elements": [
+        "Add Document Models",
+        "ArcGIS GeoBIM Sync Request"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Xboi5UU5_vQ\\frames\\frame_000041.jpg",
+      "timestamp_seconds": 1200.0,
+      "frame_index": 41,
+      "category": "slides",
+      "keep": true,
+      "description": "Frame from an Autodesk DevCon event showing information about the Viewer SDK for displaying 2D and 3D designs in a web browser.",
+      "products_visible": [
+        "Autodesk Viewer SDK"
+      ],
+      "ui_elements": [
+        "Documentation",
+        "View pricing"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Xboi5UU5_vQ\\frames\\frame_000044.jpg",
+      "timestamp_seconds": 1290.0,
+      "frame_index": 44,
+      "category": "code",
+      "keep": true,
+      "description": "A coding interface is shown with instructions to create a file with endpoints and JSON responses.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Create a qsp.http file",
+        "GET Token"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Xboi5UU5_vQ\\frames\\frame_000046.jpg",
+      "timestamp_seconds": 1350.0,
+      "frame_index": 46,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a demonstration of Autodesk APS Viewer with a 3D model and code interface.",
+      "products_visible": [
+        "Autodesk",
+        "APS Viewer"
+      ],
+      "ui_elements": [
+        "APS Viewer Demo",
+        "Console",
+        "Sign in",
+        "GET"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Xboi5UU5_vQ\\frames\\frame_000048.jpg",
+      "timestamp_seconds": 1410.0,
+      "frame_index": 48,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide from an Autodesk DevCon session discussing API integration with code snippets and prompts.",
+      "products_visible": [
+        "Autodesk",
+        "APS Viewer",
+        "Postman",
+        "Cursor"
+      ],
+      "ui_elements": [
+        "Get Token",
+        "List Models"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Xboi5UU5_vQ\\frames\\frame_000049.jpg",
+      "timestamp_seconds": 1440.0,
+      "frame_index": 49,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide from Autodesk DevCon discussing Esri Terrain integration into the APS Viewer.",
+      "products_visible": [
+        "Autodesk",
+        "Autodesk Platform Services",
+        "Esri Terrain"
+      ],
+      "ui_elements": [
+        "APS Viewer",
+        "Autodesk Forge",
+        "QR Code"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Xboi5UU5_vQ\\frames\\frame_000051.jpg",
+      "timestamp_seconds": 1500.0,
+      "frame_index": 51,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a demonstration of MapLibre with Viewer, featuring a map interface for San Francisco.",
+      "products_visible": [
+        "AUTODESK",
+        "MapLibre",
+        "ArcGIS"
+      ],
+      "ui_elements": [
+        "Blog",
+        "San Francisco",
+        "localhost"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Xboi5UU5_vQ\\frames\\frame_000055.jpg",
+      "timestamp_seconds": 1620.0,
+      "frame_index": 55,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents a developer prototype combining GIS and AEC data, featuring an application that automates integration of georeferenced data.",
+      "products_visible": [
+        "Autodesk",
+        "DX SDK"
+      ],
+      "ui_elements": [
+        "A Developer Prototype: GIS + AEC Data Together",
+        "DEVELOPER CONSOLE: PROTOTYPE APPLICATION"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Xboi5UU5_vQ\\frames\\frame_000058.jpg",
+      "timestamp_seconds": 1710.0,
+      "frame_index": 58,
+      "category": "diagram",
+      "keep": true,
+      "description": "A diagram depicting the integration between Revit, Esri (ArcGIS), and another host application via a shared state called DX BLOB.",
+      "products_visible": [
+        "Autodesk",
+        "Revit",
+        "Esri (ArcGIS)"
+      ],
+      "ui_elements": [
+        "DX Pin-Wheel",
+        "DX BLOB (Shared State)",
+        "ACC (Host)"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Xboi5UU5_vQ\\frames\\frame_000059.jpg",
+      "timestamp_seconds": 1740.0,
+      "frame_index": 59,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a video demo involving ArcGIS Online, Forma Docs + Model Coordination, and Autodesk Revit, with a terrain model displayed.",
+      "products_visible": [
+        "ArcGIS Online",
+        "Forma Docs + Model Coordination",
+        "Autodesk Revit"
+      ],
+      "ui_elements": [
+        "Model Browser",
+        "File Properties"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Xboi5UU5_vQ\\frames\\frame_000063.jpg",
+      "timestamp_seconds": 1860.0,
+      "frame_index": 63,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'Live Example: Synchronizing Design and Geography' explains a demo showing Data Exchange with geographical context switch from Brownsville to the Dolomites.",
+      "products_visible": [
+        "AUTODESK DevCon"
+      ],
+      "ui_elements": [
+        "View POIs [Active]",
+        "Add POI...",
+        ">Dynamic Syncing"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\Xboi5UU5_vQ\\frames\\frame_000065.jpg",
+      "timestamp_seconds": 1920.0,
+      "frame_index": 65,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses opportunities for the community with core integration, data exchange, and AI-powered developer tools.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "CORE INTEGRATION",
+        "DATA EXCHANGE",
+        "AI-POWERED DEVELOPER TOOLS"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:05:57.504920+00:00"
+}

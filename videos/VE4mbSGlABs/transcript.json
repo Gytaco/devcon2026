@@ -1,0 +1,445 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 9.0,
+      "text": "Yeah, so this session is going to be about enterprise format data extraction and using it for AI at different agent workflows.",
+      "words": []
+    },
+    {
+      "start": 11.5,
+      "end": 19.0,
+      "text": "So this short introduction, the main speaker for this recording can be here, but she will be live at DevCon and.",
+      "words": []
+    },
+    {
+      "start": 20.0,
+      "end": 26.0,
+      "text": "She is AI engineer at the KDIS myself. I'm Joshua from Rai and product manager at Akades.",
+      "words": []
+    },
+    {
+      "start": 26.0,
+      "end": 46.0,
+      "text": "So for today we're going to keep it short because it's a lighting talk. So short introduction, then the challenge, the implementation and live demo of the implementation and of course what kind of impact it had for the organization.",
+      "words": []
+    },
+    {
+      "start": 47.0,
+      "end": 52.0,
+      "text": "So that's for today, combination of business and tech in one short presentation.",
+      "words": []
+    },
+    {
+      "start": 52.0,
+      "end": 70.0,
+      "text": "So to start off with the business case, so we have many different managers. This is a quote from Mark Ruse and been a manager from the Netherlands, from Akades and the challenge he has is even though a former has a lot of data in there.",
+      "words": []
+    },
+    {
+      "start": 71.0,
+      "end": 79.0,
+      "text": "Getting the data out of there is very difficult and when you get it out, it's either not reliable or very hard to get proper insights at skill.",
+      "words": []
+    },
+    {
+      "start": 79.0,
+      "end": 85.0,
+      "text": "So that's a challenge that a lot of people have within within Akades.",
+      "words": []
+    },
+    {
+      "start": 87.0,
+      "end": 100.0,
+      "text": "So how you could see how that looked like before. So you can see here that an end user with the same counts for an example for an agent twice to access the data from from former.",
+      "words": []
+    },
+    {
+      "start": 100.0,
+      "end": 125.0,
+      "text": "But also from different systems from Microsoft from SharePoint and many different other systems and the challenge is always the same either the access is not possible or not granular enough or the quality of the data is not is not proper and not standardized, which basically makes it impossible to connect the data between the different the different platforms.",
+      "words": []
+    },
+    {
+      "start": 125.0,
+      "end": 128.0,
+      "text": "And that way also can get the right insights.",
+      "words": []
+    },
+    {
+      "start": 131.0,
+      "end": 144.0,
+      "text": "So if you look at the challenge what is causing this so of course the APIs so the APIs are very limited from many platforms and choosing the right APIs is very important.",
+      "words": []
+    },
+    {
+      "start": 145.0,
+      "end": 151.0,
+      "text": "And it's very fragmented across different database locations regions and different different schemas.",
+      "words": []
+    },
+    {
+      "start": 152.0,
+      "end": 164.0,
+      "text": "And even though for project teams some dashboards and analytics would be enough for enterprise companies that is not in one course project intelligence and of course for AI purposes you need structured and contextualized data.",
+      "words": []
+    },
+    {
+      "start": 165.0,
+      "end": 169.0,
+      "text": "So that's the challenge that we are trying to try to solve.",
+      "words": []
+    },
+    {
+      "start": 169.0,
+      "end": 192.0,
+      "text": "If you look at the architecture that we used or implemented to solve this first we have an extraction of former data to fabric Microsoft fabric we do this for multiple reasons no not only for a I reasons but also for archival client delivery.",
+      "words": []
+    },
+    {
+      "start": 192.0,
+      "end": 200.0,
+      "text": "So that's what we we also use it for it was actually the main reason before we extract that on a daily base.",
+      "words": []
+    },
+    {
+      "start": 201.0,
+      "end": 204.0,
+      "text": "And we stored on fabric site and then in the lake house.",
+      "words": []
+    },
+    {
+      "start": 205.0,
+      "end": 220.0,
+      "text": "Then with several fabric pipelines we make sure that we bring it to a warehouse with a level security so even end user or company access data it will only see the data that the person has access to.",
+      "words": []
+    },
+    {
+      "start": 222.0,
+      "end": 230.0,
+      "text": "But also a version for privileged users that can have access to all the data within within the lake house.",
+      "words": []
+    },
+    {
+      "start": 231.0,
+      "end": 239.0,
+      "text": "So on the right side you can see an image of just a very small part of all that data that has been has been extracted on a daily base.",
+      "words": []
+    },
+    {
+      "start": 240.0,
+      "end": 254.0,
+      "text": "And of course if there are issues then we have an backup in place to notice when for example our failures in the events and we locked that and then we try to run it.",
+      "words": []
+    },
+    {
+      "start": 255.0,
+      "end": 258.0,
+      "text": "So that's high over the extraction of the data.",
+      "words": []
+    },
+    {
+      "start": 258.0,
+      "end": 269.0,
+      "text": "So as mentioned that's important for archival reasons client delivery combining the data but of course the data still is from the platform itself.",
+      "words": []
+    },
+    {
+      "start": 270.0,
+      "end": 272.0,
+      "text": "So the next step what we did is to improve it.",
+      "words": []
+    },
+    {
+      "start": 273.0,
+      "end": 278.0,
+      "text": "So we create a different semantic models inside the fabric environment based on the data.",
+      "words": []
+    },
+    {
+      "start": 278.0,
+      "end": 289.0,
+      "text": "And then we used other data sets from Oracle I twin share point connected together with a knowledge graph basically explaining how the things connected together.",
+      "words": []
+    },
+    {
+      "start": 290.0,
+      "end": 297.0,
+      "text": "And that way we were able to enrich the data to have an across all the different projects and certain logic in place.",
+      "words": []
+    },
+    {
+      "start": 298.0,
+      "end": 301.0,
+      "text": "Yeah, that both people and agents can understand.",
+      "words": []
+    },
+    {
+      "start": 303.0,
+      "end": 305.0,
+      "text": "So that's how we improve the quality of the data.",
+      "words": []
+    },
+    {
+      "start": 308.0,
+      "end": 314.0,
+      "text": "If you then look at the next step so we wanted to make it available first for internal archaed is agents.",
+      "words": []
+    },
+    {
+      "start": 316.0,
+      "end": 325.0,
+      "text": "And with the Microsoft portfolio that's actually quite straightforward. So in fabric you can create a data agent which you can use as an MP the P server.",
+      "words": []
+    },
+    {
+      "start": 326.0,
+      "end": 337.0,
+      "text": "In our case we connected it to Microsoft AI Foundry and from there on we are able to use additional policies and standards within the company.",
+      "words": []
+    },
+    {
+      "start": 338.0,
+      "end": 345.0,
+      "text": "So we work as archaed is inside our company and use that as additional input for for the agent.",
+      "words": []
+    },
+    {
+      "start": 346.0,
+      "end": 355.0,
+      "text": "And then we deployed it within a tool at the cadets called the project control tool where we bring it to the end user to be able to be used.",
+      "words": []
+    },
+    {
+      "start": 357.0,
+      "end": 366.0,
+      "text": "And of course that makes it possible to trigger also based on answers and questions from the user in the agent to trigger certain actions in other archaed systems.",
+      "words": []
+    },
+    {
+      "start": 366.0,
+      "end": 376.0,
+      "text": "But also using the autodes form our mcp we were able to trigger adjustments inside the former platform itself.",
+      "words": []
+    },
+    {
+      "start": 378.0,
+      "end": 383.0,
+      "text": "So that's the internal implementation and it is in short demo about the implementation.",
+      "words": []
+    },
+    {
+      "start": 385.0,
+      "end": 394.0,
+      "text": "I recut a bit the recording to make it shorter which you can see here that inside the project control tool and tool that we use to create different.",
+      "words": []
+    },
+    {
+      "start": 394.0,
+      "end": 397.0,
+      "text": "Yeah, former projects.",
+      "words": []
+    },
+    {
+      "start": 397.0,
+      "end": 420.0,
+      "text": "We implemented Azure AI Foundry agent in here so that the end user can chat with the agent and it will give in this case specific answers to their project from their region saying what functionality could you reuse what could you improve in your project compared to other projects that are hosted within the former hubs of of archaed is.",
+      "words": []
+    },
+    {
+      "start": 420.0,
+      "end": 432.0,
+      "text": "So this basically quality check maturity check with our also way more use cases basically anything that you could come up with and are part of the format data and part of the archaed policies.",
+      "words": []
+    },
+    {
+      "start": 433.0,
+      "end": 436.0,
+      "text": "It would be able to answer that cross project.",
+      "words": []
+    },
+    {
+      "start": 437.0,
+      "end": 441.0,
+      "text": "So that's what you can see very shortly in this example.",
+      "words": []
+    },
+    {
+      "start": 451.0,
+      "end": 462.0,
+      "text": "Then if you look at the next steps so we are also working a lot without the microscope to implement it within the outer disk assistant itself and out to other external systems.",
+      "words": []
+    },
+    {
+      "start": 463.0,
+      "end": 465.0,
+      "text": "So we use the same architecture.",
+      "words": []
+    },
+    {
+      "start": 466.0,
+      "end": 479.0,
+      "text": "We just remove the couple of things so if you look at the one from the outer disk assistant as an example we of course are going to take the data from former through the outer disk assistant and not through our own fabric space.",
+      "words": []
+    },
+    {
+      "start": 480.0,
+      "end": 495.0,
+      "text": "What is the limitation of course from the outer disk assistant is that the data is not available from many different projects because of security and legal reasons in the outer the assistant you will only see data from the project the user using the assistant has access to.",
+      "words": []
+    },
+    {
+      "start": 496.0,
+      "end": 510.0,
+      "text": "So what we did we created and maturity cross project data semantic model that can be used that has an analyze data from all the projects the 10,000 projects across all the former hubs.",
+      "words": []
+    },
+    {
+      "start": 511.0,
+      "end": 521.0,
+      "text": "So we could use that as an input for co pilot studio inside co pilot studio we again connected those standards and policies files to have our cad is.",
+      "words": []
+    },
+    {
+      "start": 521.0,
+      "end": 523.0,
+      "text": "Yeah standard way of working in there.",
+      "words": []
+    },
+    {
+      "start": 524.0,
+      "end": 539.0,
+      "text": "And that's of course then what's currently missing in the outer disk assistant giving company tailored answers to the end users so through Microsoft co pilot studio and we are able to connect that to the outer this former assistant.",
+      "words": []
+    },
+    {
+      "start": 540.0,
+      "end": 550.0,
+      "text": "And of course that's from there on most is out of the box out of this system behavior so of course the outer disk assistant get the data from from for myself.",
+      "words": []
+    },
+    {
+      "start": 551.0,
+      "end": 553.0,
+      "text": "And it can implement changes.",
+      "words": []
+    },
+    {
+      "start": 554.0,
+      "end": 568.0,
+      "text": "But additionally because we connected our mcp to it we're also able with the outer disk assistant to trigger back to the systems of our cad is like for example triggering outlook invites or adjusting files in each airport.",
+      "words": []
+    },
+    {
+      "start": 570.0,
+      "end": 574.0,
+      "text": "So how it looks like is basically this short demonstration.",
+      "words": []
+    },
+    {
+      "start": 575.0,
+      "end": 583.0,
+      "text": "We can see the outer disk assistant inside former at the bottom you can enable the different mcp's enabled for the outer disk assistant.",
+      "words": []
+    },
+    {
+      "start": 584.0,
+      "end": 592.0,
+      "text": "Then an user asked the question gives an overview in this case about a higher railway station in Brazil.",
+      "words": []
+    },
+    {
+      "start": 593.0,
+      "end": 596.0,
+      "text": "You can see it checks out archaedist policies.",
+      "words": []
+    },
+    {
+      "start": 597.0,
+      "end": 599.0,
+      "text": "It gives a summary of what could be improved.",
+      "words": []
+    },
+    {
+      "start": 600.0,
+      "end": 606.0,
+      "text": "It actually triggers the issue creation inside the project itself and assigns it to the right person.",
+      "words": []
+    },
+    {
+      "start": 607.0,
+      "end": 609.0,
+      "text": "That's based on the standard policies of a cad is.",
+      "words": []
+    },
+    {
+      "start": 610.0,
+      "end": 621.0,
+      "text": "Then it looks at the test for leads so is important to join the meeting to talk about the correct use of those functionalities within the platform.",
+      "words": []
+    },
+    {
+      "start": 622.0,
+      "end": 628.0,
+      "text": "So basically what we implemented together with the outer disk and Microsoft the last the last version and.",
+      "words": []
+    },
+    {
+      "start": 629.0,
+      "end": 639.0,
+      "text": "What that brings for our cad is so as you can see we move from really silo pieces of data from different platforms to connect the data from dashboards to decisions.",
+      "words": []
+    },
+    {
+      "start": 640.0,
+      "end": 645.0,
+      "text": "And instead of just having data we have agents that actually can act is can actually do things.",
+      "words": []
+    },
+    {
+      "start": 646.0,
+      "end": 657.0,
+      "text": "And we noticed that yeah 70% increase compared to traditional methods on how valuable we are using the data to get our insights and there are also make decisions.",
+      "words": []
+    },
+    {
+      "start": 660.0,
+      "end": 665.0,
+      "text": "Looking at the roadmap so in May 2026 so that is directly a dev com.",
+      "words": []
+    },
+    {
+      "start": 667.0,
+      "end": 673.0,
+      "text": "We implemented this first version in July we have the intent to trigger more arcade systems.",
+      "words": []
+    },
+    {
+      "start": 675.0,
+      "end": 685.0,
+      "text": "Then around you 2026 we also have a version implemented that can interact with the reference assistant the outer the weapon assistant is not only the former one.",
+      "words": []
+    },
+    {
+      "start": 686.0,
+      "end": 698.0,
+      "text": "And at the end of the area we're aiming to have the outer is consistent mcp integrated within the wider arcade is assistant to not only in the proof of concept you saw in the project control tool.",
+      "words": []
+    },
+    {
+      "start": 699.0,
+      "end": 704.0,
+      "text": "This is basically the plan that we have to implement.",
+      "words": []
+    },
+    {
+      "start": 707.0,
+      "end": 711.0,
+      "text": "This was actually the short lightning talk and thank you for listening.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:57:41.185607+00:00"
+}

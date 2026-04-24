@@ -1,0 +1,1483 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.36,
+      "text": "All right, good morning everyone and thank you very much for being here today at Devcom.",
+      "words": []
+    },
+    {
+      "start": 5.92,
+      "end": 12.0,
+      "text": "We were excited to present our project the carbon extra where we explore how to build an APS based carbon",
+      "words": []
+    },
+    {
+      "start": 12.32,
+      "end": 16.4,
+      "text": "scenario comparison workflow for water and waste infrastructure projects.",
+      "words": []
+    },
+    {
+      "start": 17.04,
+      "end": 22.88,
+      "text": "So my name is Greg Wachelschel and I am a beam manager at Swiss and I'm joined today by Lawrence Glutte,",
+      "words": []
+    },
+    {
+      "start": 22.88,
+      "end": 30.96,
+      "text": "beam director of our beam team. Our role as a beam team is to do a bridge between two worlds that",
+      "words": []
+    },
+    {
+      "start": 30.96,
+      "end": 36.64,
+      "text": "don't naturally communicate well together. On one side, the beam ecosystem and on the other,",
+      "words": []
+    },
+    {
+      "start": 36.64,
+      "end": 40.239999999999995,
+      "text": "greenhouse gas calculation tools developed by the carbon action program.",
+      "words": []
+    },
+    {
+      "start": 41.120000000000005,
+      "end": 46.879999999999995,
+      "text": "What we are trying to build is essentially a data pipeline, something that allows us to move",
+      "words": []
+    },
+    {
+      "start": 46.88,
+      "end": 55.040000000000006,
+      "text": "from design models to carbon in from design making. And these efforts is actually driving by a",
+      "words": []
+    },
+    {
+      "start": 55.040000000000006,
+      "end": 62.160000000000004,
+      "text": "water mission at Swiss computing. Our mission is to support territories in transitioning towards",
+      "words": []
+    },
+    {
+      "start": 62.160000000000004,
+      "end": 68.0,
+      "text": "more sustainable infrastructure. So this is not just a technical challenge, it's other strategic",
+      "words": []
+    },
+    {
+      "start": 68.0,
+      "end": 73.44,
+      "text": "and environmental one. And what we'll show you today is how we are trying to connect this piece",
+      "words": []
+    },
+    {
+      "start": 73.6,
+      "end": 79.52,
+      "text": "together in a practical way. Now let me walk you through the agenda for this session.",
+      "words": []
+    },
+    {
+      "start": 80.56,
+      "end": 84.32,
+      "text": "First, we'll start with the context and the key challenges we are facing.",
+      "words": []
+    },
+    {
+      "start": 85.03999999999999,
+      "end": 89.92,
+      "text": "Then we'll explain the objective of our approach. We'll briefly go through the timeline of the",
+      "words": []
+    },
+    {
+      "start": 89.92,
+      "end": 95.6,
+      "text": "project to give you some background on how it evolved. After that, we'll share how a starting point",
+      "words": []
+    },
+    {
+      "start": 95.6,
+      "end": 102.32,
+      "text": "with APS. As been specialists, we initially had limited experience with this tool so we began",
+      "words": []
+    },
+    {
+      "start": 102.39999999999999,
+      "end": 108.96,
+      "text": "with what we call the Luma initiative. Then we'll dive into the APIs and tools we used,",
+      "words": []
+    },
+    {
+      "start": 108.96,
+      "end": 114.32,
+      "text": "which is really the core technical part of this keynote. We'll just show you a live demonstration",
+      "words": []
+    },
+    {
+      "start": 114.32,
+      "end": 119.67999999999999,
+      "text": "of the workflow. And of course, we'll be transparent about the difficulties and failures we had",
+      "words": []
+    },
+    {
+      "start": 119.67999999999999,
+      "end": 126.0,
+      "text": "along the way. Finally, we'll close with future perspectives and where we see this is going.",
+      "words": []
+    },
+    {
+      "start": 126.48,
+      "end": 132.16,
+      "text": "And with that, I'll hand it over to you, laws. Hello everyone. First I'd like to thank",
+      "words": []
+    },
+    {
+      "start": 132.16,
+      "end": 138.32,
+      "text": "Greg Warr for setting the stage so clearly. No, let's dive into the core of the challenge and why",
+      "words": []
+    },
+    {
+      "start": 138.32,
+      "end": 146.0,
+      "text": "it's so critical. What we address in today is just about design or construction. It's about",
+      "words": []
+    },
+    {
+      "start": 146.0,
+      "end": 152.96,
+      "text": "the undyolafs cycle of an infrastructure project. The decisions made in the earliest phases,",
+      "words": []
+    },
+    {
+      "start": 152.96,
+      "end": 159.44,
+      "text": "whether for where the treatment plant, where the systems, or electro-mechanical equipment",
+      "words": []
+    },
+    {
+      "start": 160.16,
+      "end": 168.0,
+      "text": "lock in carbon emissions for decades. This is a plan just theory, operational and maintenance",
+      "words": []
+    },
+    {
+      "start": 168.0,
+      "end": 177.04000000000002,
+      "text": "emissions often exceed those from construction itself. Every material chosen, every pump of valve",
+      "words": []
+    },
+    {
+      "start": 177.04,
+      "end": 185.2,
+      "text": "specifying, every energy source selected, these are just technical details. They are carbon",
+      "words": []
+    },
+    {
+      "start": 185.2,
+      "end": 192.79999999999998,
+      "text": "commitments. And yet, until now, comparing the environmental impact of different design scenarios",
+      "words": []
+    },
+    {
+      "start": 192.79999999999998,
+      "end": 200.95999999999998,
+      "text": "has been maneuver time consuming on nearly impossible to scale. As a result, critical project",
+      "words": []
+    },
+    {
+      "start": 201.04000000000002,
+      "end": 208.08,
+      "text": "decisions are too often made without clear lifecycle-based carbon insights. A goal with",
+      "words": []
+    },
+    {
+      "start": 208.08,
+      "end": 216.8,
+      "text": "decarbonation to change that. To give clients and engineers and stakeholders the tools to",
+      "words": []
+    },
+    {
+      "start": 216.8,
+      "end": 222.48000000000002,
+      "text": "anticipate these impacts before the first brick is laid or the first pump is installed.",
+      "words": []
+    },
+    {
+      "start": 223.60000000000002,
+      "end": 229.36,
+      "text": "Because the most sustainable infrastructure is under one built with the lowest emissions",
+      "words": []
+    },
+    {
+      "start": 229.36,
+      "end": 238.88000000000002,
+      "text": "today, it's the one designed to minimize emissions for the next 30, 50, or even 100 years.",
+      "words": []
+    },
+    {
+      "start": 240.8,
+      "end": 248.08,
+      "text": "Let's zoom in on the reality we face every day at space. Take a wastewater treatment plant",
+      "words": []
+    },
+    {
+      "start": 248.72000000000003,
+      "end": 256.64,
+      "text": "or a water distribution network. These are just projects. They are 30 to 50",
+      "words": []
+    },
+    {
+      "start": 256.64,
+      "end": 264.96,
+      "text": "your commitments to energy use, material choices and operational emissions. Here's the start truth.",
+      "words": []
+    },
+    {
+      "start": 265.68,
+      "end": 274.56,
+      "text": "There is no existing tool that lets it quantify the lifecycle emissions of electron-canicle",
+      "words": []
+    },
+    {
+      "start": 274.56,
+      "end": 285.76,
+      "text": "equipment like pumps or valves across design variants. There is no existing tool that lets it",
+      "words": []
+    },
+    {
+      "start": 285.76,
+      "end": 293.59999999999997,
+      "text": "compare all the single pumps energy used various ways on hydraulic conditions later on",
+      "words": []
+    },
+    {
+      "start": 293.59999999999997,
+      "end": 304.0,
+      "text": "out that scale across a non-tyre system or visualize or operating emissions which we know exceed",
+      "words": []
+    },
+    {
+      "start": 304.0,
+      "end": 314.24,
+      "text": "construction emissions will evolve over decades. Let me give you an example. A pump. Some simple",
+      "words": []
+    },
+    {
+      "start": 314.32,
+      "end": 322.16,
+      "text": "right but it's carbon-foot-premise and isn't just about its materials or manufacturing. It's about",
+      "words": []
+    },
+    {
+      "start": 322.16,
+      "end": 331.12,
+      "text": "or it's used a pump operating at its optimal flow rate might consume 20,000 class energy",
+      "words": []
+    },
+    {
+      "start": 331.12,
+      "end": 340.0,
+      "text": "than one push to its limit. It limits. That flow rate it turns out by how depending on the systems",
+      "words": []
+    },
+    {
+      "start": 340.0,
+      "end": 349.68,
+      "text": "design gravity-fed versus pump. Pick demand versus off-peak and yet today we have nowhere to model",
+      "words": []
+    },
+    {
+      "start": 350.32,
+      "end": 355.92,
+      "text": "how these variables translate into tons of carbon over the asset's lifetime.",
+      "words": []
+    },
+    {
+      "start": 357.12,
+      "end": 362.96,
+      "text": "This is unjust of a carbon it's about redefining or we design a structure.",
+      "words": []
+    },
+    {
+      "start": 363.91999999999996,
+      "end": 371.68,
+      "text": "Today we optimize for cost and performance and tomorrow we optimize for carbon cost and",
+      "words": []
+    },
+    {
+      "start": 371.68,
+      "end": 382.64,
+      "text": "performance simultaneously. So how do we solve a problem this complex? At its core the carbonation",
+      "words": []
+    },
+    {
+      "start": 382.64,
+      "end": 391.52,
+      "text": "is built on three game-changing principles each designed to take care of the blind spot we just",
+      "words": []
+    },
+    {
+      "start": 391.52,
+      "end": 401.76,
+      "text": "discussed. First compare only what matters. Today carbon assessments run engineers in data",
+      "words": []
+    },
+    {
+      "start": 401.76,
+      "end": 411.84,
+      "text": "they compare entire models. Even when only five persons of elements change between variants",
+      "words": []
+    },
+    {
+      "start": 412.79999999999995,
+      "end": 417.91999999999996,
+      "text": "that's like weighing a track to measure the difference between two categories.",
+      "words": []
+    },
+    {
+      "start": 418.8,
+      "end": 426.72,
+      "text": "Approach focus on the delta by isolating only the differences. Addit pumps modify",
+      "words": []
+    },
+    {
+      "start": 426.72,
+      "end": 434.96000000000004,
+      "text": "valves or energy use variations. We cut analysis time from weeks to minutes. This isn't just",
+      "words": []
+    },
+    {
+      "start": 434.96000000000004,
+      "end": 443.36,
+      "text": "efficiency it's a parallel memory shift in all we think about carbon. Second a conduct for the",
+      "words": []
+    },
+    {
+      "start": 443.36,
+      "end": 451.44,
+      "text": "invisible. Construction emissions they are just the tip of the iceberg. For water on west water",
+      "words": []
+    },
+    {
+      "start": 451.44,
+      "end": 458.48,
+      "text": "infrastructure operating emissions can exceed construction by two or three times over a 30",
+      "words": []
+    },
+    {
+      "start": 459.28000000000003,
+      "end": 468.08000000000004,
+      "text": "year lifespan. Yet most tools in your ignore them entirely. The carbon action doesn't. We integrate",
+      "words": []
+    },
+    {
+      "start": 468.08,
+      "end": 476.4,
+      "text": "operational energy use, maintenance cycles and even pump efficiency curves into every scenario.",
+      "words": []
+    },
+    {
+      "start": 477.44,
+      "end": 485.36,
+      "text": "Because a pump that saves 10% energy today my save thousands of tons of carbon over decades.",
+      "words": []
+    },
+    {
+      "start": 486.71999999999997,
+      "end": 496.56,
+      "text": "Tab illuminate the trade of. Right now decision makers chose between cost performance and",
+      "words": []
+    },
+    {
+      "start": 496.56,
+      "end": 506.16,
+      "text": "guesswork on carbon. A goal give them quality. True interactive dashboards on three living models",
+      "words": []
+    },
+    {
+      "start": 506.16,
+      "end": 515.76,
+      "text": "coral by emission levels. Return abstract data into actionable insight. Imagine a client",
+      "words": []
+    },
+    {
+      "start": 515.76,
+      "end": 525.6,
+      "text": "saying in real time or a gravity fed system stacks up against a point one not just in euro but in tons",
+      "words": []
+    },
+    {
+      "start": 525.6,
+      "end": 533.12,
+      "text": "of carbon. That's the power of informed choice. This approach doesn't just calculate emissions it",
+      "words": []
+    },
+    {
+      "start": 533.12,
+      "end": 541.6800000000001,
+      "text": "makes them visible by leveraging them models. We can know color code object objects by their",
+      "words": []
+    },
+    {
+      "start": 541.6800000000001,
+      "end": 548.48,
+      "text": "cable carbon impact. Transforming abstract data into intuitive 3D resolution and visual",
+      "words": []
+    },
+    {
+      "start": 548.48,
+      "end": 556.88,
+      "text": "relationship. Imagine seeing a pump grow right from eye for eye emissions or green for optimized",
+      "words": []
+    },
+    {
+      "start": 556.88,
+      "end": 565.76,
+      "text": "performance. Hold within the familiar beam on viral one. But all we did we get here. Let's look",
+      "words": []
+    },
+    {
+      "start": 565.76,
+      "end": 574.8000000000001,
+      "text": "at the journey that turn this vision into reality. A journey with the carbon actions began with what",
+      "words": []
+    },
+    {
+      "start": 574.8,
+      "end": 585.28,
+      "text": "we might call today a very human approach or to be honest a bit of the DIY during that initial",
+      "words": []
+    },
+    {
+      "start": 585.28,
+      "end": 594.0799999999999,
+      "text": "a pattern. In December 2023 we were working with tools in new well the NAMO scripts manual data",
+      "words": []
+    },
+    {
+      "start": 594.0799999999999,
+      "end": 602.8,
+      "text": "extractions and a patchwork of solutions that got the job done. It worked. We could compare scenarios",
+      "words": []
+    },
+    {
+      "start": 602.88,
+      "end": 610.7199999999999,
+      "text": "on calculate emissions but let's be clear it was cross-manship. The process was for a while time",
+      "words": []
+    },
+    {
+      "start": 610.7199999999999,
+      "end": 619.04,
+      "text": "consuming and frankly not scalable. Deploying this across multiple multiple projects would have been",
+      "words": []
+    },
+    {
+      "start": 619.04,
+      "end": 626.8,
+      "text": "a nightmare. That's where the Autodesk excel at or came in. The real challenge wasn't just",
+      "words": []
+    },
+    {
+      "start": 626.8,
+      "end": 636.0799999999999,
+      "text": "building a solution. It was building one that could grow with our emissions. We needed to move",
+      "words": []
+    },
+    {
+      "start": 636.0799999999999,
+      "end": 646.0,
+      "text": "from artisanal methods to reproduce several industrialized projects. And that's exactly what we",
+      "words": []
+    },
+    {
+      "start": 646.0,
+      "end": 652.7199999999999,
+      "text": "started developing during this week in Paris back in December. This brings us to a first day",
+      "words": []
+    },
+    {
+      "start": 653.52,
+      "end": 659.52,
+      "text": "in at the accelerator on to the birth of what we call now the luma method.",
+      "words": []
+    },
+    {
+      "start": 661.6,
+      "end": 668.64,
+      "text": "Before we dive into the diagrams I want to warmly thanks the EPA steam for welcoming us",
+      "words": []
+    },
+    {
+      "start": 669.44,
+      "end": 676.08,
+      "text": "and supporting us through this accelerator. Your guidelines made a real difference.",
+      "words": []
+    },
+    {
+      "start": 676.08,
+      "end": 685.44,
+      "text": "The first day at the Autodesk accelerator was disarming to say the list. The Autodesk team",
+      "words": []
+    },
+    {
+      "start": 685.44,
+      "end": 694.0,
+      "text": "handed us a blank sheet of paper and some micers on said draw your project. No guidelines,",
+      "words": []
+    },
+    {
+      "start": 694.0,
+      "end": 701.9200000000001,
+      "text": "no constraints, just pure vision. This exercise proved to be incredibly revealing.",
+      "words": []
+    },
+    {
+      "start": 702.88,
+      "end": 710.56,
+      "text": "At the center of the diagram we initially drew a spiral with a Christian mark on a",
+      "words": []
+    },
+    {
+      "start": 710.56,
+      "end": 718.56,
+      "text": "representation of how we saw the data flow at the time. We knew we wanted to connect",
+      "words": []
+    },
+    {
+      "start": 718.56,
+      "end": 728.0799999999999,
+      "text": "and be models to carbon calculations but the oil was still foosy. That spiral became a straight",
+      "words": []
+    },
+    {
+      "start": 728.08,
+      "end": 736.32,
+      "text": "row by the end of the week. Let me work you through what we drew that day because it became the",
+      "words": []
+    },
+    {
+      "start": 736.32,
+      "end": 745.76,
+      "text": "blue sprint, the blueprint for the carbon action. In the top left you see a two models variant.",
+      "words": []
+    },
+    {
+      "start": 746.8000000000001,
+      "end": 756.0,
+      "text": "One in blue, one in pink, the color bars between them, those represent the differences we needed",
+      "words": []
+    },
+    {
+      "start": 756.0,
+      "end": 762.8,
+      "text": "to extract. We push only these differences into a carbon calculator,",
+      "words": []
+    },
+    {
+      "start": 763.68,
+      "end": 771.12,
+      "text": "showing the bottom right. No more comparing entire models, just the element that helped us to",
+      "words": []
+    },
+    {
+      "start": 771.12,
+      "end": 780.8,
+      "text": "make the difference. On that's where it gets powerful. The results flow back into rivet models",
+      "words": []
+    },
+    {
+      "start": 780.8,
+      "end": 788.0799999999999,
+      "text": "which are then visualized in a dashboard that the intervals you see in the bottom left",
+      "words": []
+    },
+    {
+      "start": 789.04,
+      "end": 796.8,
+      "text": "disclose look from beam to calculation to visualization is what makes the carbon action unique.",
+      "words": []
+    },
+    {
+      "start": 798.16,
+      "end": 806.64,
+      "text": "So after a week of investigation, coding and testing, what's the point? Well, we've proven that",
+      "words": []
+    },
+    {
+      "start": 806.96,
+      "end": 814.96,
+      "text": "that. Targetic instruction works, we can isolate exactly what matters for carbon calculations.",
+      "words": []
+    },
+    {
+      "start": 816.56,
+      "end": 822.56,
+      "text": "Spark conversion is possible, we can efficiently identify and quantify differences.",
+      "words": []
+    },
+    {
+      "start": 824.4,
+      "end": 831.84,
+      "text": "Visual feedback is achievable, we can make carbon impacts immediately visible.",
+      "words": []
+    },
+    {
+      "start": 832.4,
+      "end": 840.88,
+      "text": "The core methodology is solid, the data flows, the comparison are meaningful, it's quite",
+      "words": []
+    },
+    {
+      "start": 840.88,
+      "end": 851.84,
+      "text": "conclusive isn't it? Now, there's one piece that still needs refinement, the dashboard that will",
+      "words": []
+    },
+    {
+      "start": 851.84,
+      "end": 860.88,
+      "text": "make all this accessible to decision makers. And for that, I'll end over to Rieguar who's been",
+      "words": []
+    },
+    {
+      "start": 860.96,
+      "end": 866.24,
+      "text": "the true writer of this project. It will work you through each step in detail.",
+      "words": []
+    },
+    {
+      "start": 867.28,
+      "end": 871.92,
+      "text": "All right, thank you very much for the introduction and for setting up the",
+      "words": []
+    },
+    {
+      "start": 871.92,
+      "end": 878.08,
+      "text": "foundation with the administrative. So as I once mentioned, everything we started during an",
+      "words": []
+    },
+    {
+      "start": 878.08,
+      "end": 883.36,
+      "text": "initial hackathon. At that stage, our workflow was quite simple and honestly quite manual.",
+      "words": []
+    },
+    {
+      "start": 883.92,
+      "end": 890.24,
+      "text": "We were lying on a combination of tools, Revit, Excel, for BI, and some intermediate to",
+      "words": []
+    },
+    {
+      "start": 890.24,
+      "end": 896.16,
+      "text": "party solutions like AVM and VKN. These tools were useful at the starting point that we quickly",
+      "words": []
+    },
+    {
+      "start": 896.16,
+      "end": 902.5600000000001,
+      "text": "realized the limitations. Our objective became clear. Progressively placed these manual steps with",
+      "words": []
+    },
+    {
+      "start": 902.5600000000001,
+      "end": 909.2,
+      "text": "APIs and moved toward more automated and scalable workflows. Today, we still have got three tools,",
+      "words": []
+    },
+    {
+      "start": 909.2,
+      "end": 914.72,
+      "text": "Revit, for creating the models, in fact, extracting objects and the data, our internal carbon",
+      "words": []
+    },
+    {
+      "start": 914.72,
+      "end": 920.8000000000001,
+      "text": "calculator, in which is still Excel based and remains a critical component of our process.",
+      "words": []
+    },
+    {
+      "start": 921.44,
+      "end": 926.1600000000001,
+      "text": "And for BI to visualize and communicate the results to dashboards.",
+      "words": []
+    },
+    {
+      "start": 927.2800000000001,
+      "end": 934.8000000000001,
+      "text": "Now, one of the key challenges we faced was this one. How do we connect all these tools together,",
+      "words": []
+    },
+    {
+      "start": 934.8,
+      "end": 939.92,
+      "text": "especially when we don't come from a software development mechanism? As",
+      "words": []
+    },
+    {
+      "start": 939.92,
+      "end": 944.88,
+      "text": "been managers, we have limited coding experience. And when we joined the Excel with a program,",
+      "words": []
+    },
+    {
+      "start": 944.88,
+      "end": 950.24,
+      "text": "there was actually one of the main concerns. How can we build something robust, automated,",
+      "words": []
+    },
+    {
+      "start": 950.24,
+      "end": 954.4799999999999,
+      "text": "without being developers? And this is where we introduced a low-code approach.",
+      "words": []
+    },
+    {
+      "start": 955.68,
+      "end": 961.52,
+      "text": "Leveraging custom giblets. We developed our own internal assistance, called,",
+      "words": []
+    },
+    {
+      "start": 962.24,
+      "end": 967.68,
+      "text": "we will guess it, decarbon XO-GPT, specifically designed to compare two Revit models variants.",
+      "words": []
+    },
+    {
+      "start": 968.3199999999999,
+      "end": 973.76,
+      "text": "The idea is a following. We export our Revit models into JSON files using APIs.",
+      "words": []
+    },
+    {
+      "start": 974.4,
+      "end": 981.12,
+      "text": "Then, our GPT processes these files to generate structured Excel data sets, enabling detailed",
+      "words": []
+    },
+    {
+      "start": 981.12,
+      "end": 987.04,
+      "text": "comparison between variants. This approach allows us to bypass heavy developments while still",
+      "words": []
+    },
+    {
+      "start": 987.12,
+      "end": 994.64,
+      "text": "achieving a high level of structuring data and analysis. Now, let's talk about the APIs we used to",
+      "words": []
+    },
+    {
+      "start": 994.64,
+      "end": 1001.8399999999999,
+      "text": "build this piping. We are mainly working with three APIs APIs. The first one is the Modular Revit",
+      "words": []
+    },
+    {
+      "start": 1001.8399999999999,
+      "end": 1007.68,
+      "text": "API, that was the most accessible entry point for us. It allows us to convert Revit files into",
+      "words": []
+    },
+    {
+      "start": 1007.68,
+      "end": 1014.24,
+      "text": "SVF2, ExtractGizent Providence files from the models. And actually, this is critical because",
+      "words": []
+    },
+    {
+      "start": 1014.24,
+      "end": 1019.52,
+      "text": "it gives us an access to structured data that we can then feed into our carbon calculation work",
+      "words": []
+    },
+    {
+      "start": 1019.52,
+      "end": 1027.28,
+      "text": "fields. The second API is the Viewer SDK. This enables us to build a custom 3D viewer,",
+      "words": []
+    },
+    {
+      "start": 1027.28,
+      "end": 1031.84,
+      "text": "where we can integrate carbon related data directly into the model visualization.",
+      "words": []
+    },
+    {
+      "start": 1032.4,
+      "end": 1037.36,
+      "text": "So, instead of looking at road numbers, we can set you, we'll visualize and get much more",
+      "words": []
+    },
+    {
+      "start": 1037.36,
+      "end": 1044.0,
+      "text": "meaningful things for decision making. The third one is the Automation API, which is, I'm going to",
+      "words": []
+    },
+    {
+      "start": 1044.0,
+      "end": 1048.8,
+      "text": "be on that video, is still working progress for us. The objective part, the object type here,",
+      "words": []
+    },
+    {
+      "start": 1048.8,
+      "end": 1054.8,
+      "text": "is to create a fully automated import export pipeline between Revit and our carbon calculation tools.",
+      "words": []
+    },
+    {
+      "start": 1055.6,
+      "end": 1061.12,
+      "text": "Most specifically, we want to automatically extract differences between design variants and",
+      "words": []
+    },
+    {
+      "start": 1061.12,
+      "end": 1067.44,
+      "text": "transfer data directly into the calculator. And ultimately, we want to replace the numbers",
+      "words": []
+    },
+    {
+      "start": 1067.92,
+      "end": 1072.56,
+      "text": "and all the manual workflows while staying fully within the Autonisk ecosystem.",
+      "words": []
+    },
+    {
+      "start": 1073.92,
+      "end": 1080.48,
+      "text": "Now, going back to our local approach with GPs, let me briefly walk you through this workflow.",
+      "words": []
+    },
+    {
+      "start": 1081.2,
+      "end": 1087.52,
+      "text": "Our imputes is simple. Two JSON files, each representing a Revit model variance.",
+      "words": []
+    },
+    {
+      "start": 1088.24,
+      "end": 1094.0800000000002,
+      "text": "From there, we apply a first step process, first, targeted extraction. We select only the",
+      "words": []
+    },
+    {
+      "start": 1094.08,
+      "end": 1099.6,
+      "text": "parameters that are relevant for carbon analysis. And we standardize them into a consistent schema.",
+      "words": []
+    },
+    {
+      "start": 1100.48,
+      "end": 1106.0,
+      "text": "Second, data cleaning and validation. We remove unusual elements, for example,",
+      "words": []
+    },
+    {
+      "start": 1106.0,
+      "end": 1112.3999999999999,
+      "text": "objects with ideas or AFCGUID. And we normalize units to ensure everything is consistent.",
+      "words": []
+    },
+    {
+      "start": 1113.52,
+      "end": 1120.0,
+      "text": "Third, data structuring. We build and normalize data sets, which align columns across variants.",
+      "words": []
+    },
+    {
+      "start": 1120.0,
+      "end": 1125.36,
+      "text": "And finally, smart comparison. We match elements based on external ideas and with the",
+      "words": []
+    },
+    {
+      "start": 1125.36,
+      "end": 1133.52,
+      "text": "deck added elements, modify elements and missing values. On the output side, we generate four",
+      "words": []
+    },
+    {
+      "start": 1133.52,
+      "end": 1139.68,
+      "text": "structured Excel files, a complete data set, a variant one, a complete one, or one two,",
+      "words": []
+    },
+    {
+      "start": 1139.68,
+      "end": 1146.88,
+      "text": "a variant two, VS variant one, data sets, and the rivers. Now, let's make things more",
+      "words": []
+    },
+    {
+      "start": 1146.88,
+      "end": 1151.0400000000002,
+      "text": "concrete. Let me show you a quick demonstration of our solutions.",
+      "words": []
+    },
+    {
+      "start": 1152.64,
+      "end": 1158.16,
+      "text": "Right now, you are in Revit. And you can see two design variants inside the same model.",
+      "words": []
+    },
+    {
+      "start": 1159.1200000000001,
+      "end": 1164.48,
+      "text": "On the left, you have a steel staircase highlighted in red. This one does not exist in variant two.",
+      "words": []
+    },
+    {
+      "start": 1165.3600000000001,
+      "end": 1170.64,
+      "text": "On the right, you can see another staircase along with two e-pumps, which are not present in",
+      "words": []
+    },
+    {
+      "start": 1170.64,
+      "end": 1176.5600000000002,
+      "text": "variant one. So here we clearly visualizing the differences between the two scenarios.",
+      "words": []
+    },
+    {
+      "start": 1177.2,
+      "end": 1180.64,
+      "text": "In this model, every object includes two key parameters,",
+      "words": []
+    },
+    {
+      "start": 1181.3600000000001,
+      "end": 1186.3200000000002,
+      "text": "carbon emissions for construction and carbon emissions for operations. These are shared",
+      "words": []
+    },
+    {
+      "start": 1186.3200000000002,
+      "end": 1192.88,
+      "text": "parameters that have been embedded directly into our Revit models and they apply to all Revit elements.",
+      "words": []
+    },
+    {
+      "start": 1193.68,
+      "end": 1198.5600000000002,
+      "text": "So now, let's get to the first step. These width files are stored on our internal server.",
+      "words": []
+    },
+    {
+      "start": 1199.2,
+      "end": 1206.48,
+      "text": "What we do first is to push this model into Visual Studio Code and process it using the model",
+      "words": []
+    },
+    {
+      "start": 1206.48,
+      "end": 1214.08,
+      "text": "that Revit API. Once the model is uploaded, the API generates a JSON file, containing all the",
+      "words": []
+    },
+    {
+      "start": 1214.08,
+      "end": 1220.08,
+      "text": "properties of the model. Here, we are using the sample script provided by Autodesk,",
+      "words": []
+    },
+    {
+      "start": 1220.08,
+      "end": 1227.2,
+      "text": "which allows us to access both the 3D view and data structures. As you can see, when I push",
+      "words": []
+    },
+    {
+      "start": 1227.2,
+      "end": 1234.64,
+      "text": "the 3D file, we get all the 3D views at the same as in Revit. And so we are working on a really",
+      "words": []
+    },
+    {
+      "start": 1234.64,
+      "end": 1239.68,
+      "text": "faithful representation of the model. These 3D views that you can send Revit are the same",
+      "words": []
+    },
+    {
+      "start": 1239.68,
+      "end": 1245.1200000000001,
+      "text": "in Visual Studio. Inside the model Revit elements, we connect from it to talk the",
+      "words": []
+    },
+    {
+      "start": 1245.1200000000001,
+      "end": 1252.0800000000002,
+      "text": "derivate tree. And from there, we can export the JSON properties. This step can take a bit of",
+      "words": []
+    },
+    {
+      "start": 1252.08,
+      "end": 1258.3999999999999,
+      "text": "time, sometimes up to a minute. But once it's done, we have access to all object properties",
+      "words": []
+    },
+    {
+      "start": 1258.3999999999999,
+      "end": 1265.52,
+      "text": "into a true, true format. And what's important there is that we retrieve the same parameters",
+      "words": []
+    },
+    {
+      "start": 1265.52,
+      "end": 1271.6,
+      "text": "that exist in Revit, including our common data. So at this point, we have one JSON file,",
+      "words": []
+    },
+    {
+      "start": 1271.6,
+      "end": 1278.8,
+      "text": "for variant one, and one JSON file for variant two. Now, we move to our custom GPD called the",
+      "words": []
+    },
+    {
+      "start": 1278.8,
+      "end": 1286.56,
+      "text": "Carbon Exo. This GPD is hosted internally at Suez, so all the data remains secure and centralized.",
+      "words": []
+    },
+    {
+      "start": 1287.68,
+      "end": 1294.08,
+      "text": "We developed it, I will say intuitively, over many versions, to which a level where it can",
+      "words": []
+    },
+    {
+      "start": 1294.08,
+      "end": 1300.8,
+      "text": "reliably process with that. Now, we are uploading both the JSON files into the GPD.",
+      "words": []
+    },
+    {
+      "start": 1301.84,
+      "end": 1308.24,
+      "text": "Once they are loaded, the GPD starts working. It will extract the relevant parameters,",
+      "words": []
+    },
+    {
+      "start": 1308.24,
+      "end": 1313.04,
+      "text": "clean and structure the data, and, most importantly, compare the two variants.",
+      "words": []
+    },
+    {
+      "start": 1313.92,
+      "end": 1319.04,
+      "text": "It focuses only on elements that actually contain carbon data, because not all elements are relevant",
+      "words": []
+    },
+    {
+      "start": 1319.04,
+      "end": 1326.8,
+      "text": "to this analysis. And it follows the process I described earlier, cleaning, structuring, and comparison.",
+      "words": []
+    },
+    {
+      "start": 1328.24,
+      "end": 1332.48,
+      "text": "So, one to process is complete, and I split it up a bit on the demonstration.",
+      "words": []
+    },
+    {
+      "start": 1332.48,
+      "end": 1339.3600000000001,
+      "text": "The GPD generates an Excel file, with four shits. Variant one, variant two, variant one,",
+      "words": []
+    },
+    {
+      "start": 1339.3600000000001,
+      "end": 1343.92,
+      "text": "compared to variant two, and the other way, variant two, compared to variant one.",
+      "words": []
+    },
+    {
+      "start": 1344.8,
+      "end": 1348.24,
+      "text": "So at this stage, the workflow is still costly manual.",
+      "words": []
+    },
+    {
+      "start": 1349.44,
+      "end": 1355.76,
+      "text": "Okay, we're going to download the Excel file, and of course, our main goal is to automate this",
+      "words": []
+    },
+    {
+      "start": 1355.76,
+      "end": 1361.76,
+      "text": "in the future. Now, this Excel file is used together with our carbon calculator.",
+      "words": []
+    },
+    {
+      "start": 1363.2,
+      "end": 1366.96,
+      "text": "It's this carbon calculator. The project team, who may not be working on",
+      "words": []
+    },
+    {
+      "start": 1366.96,
+      "end": 1373.1200000000001,
+      "text": "reddit, can complete all the data, and they will cover it directly into this Excel file.",
+      "words": []
+    },
+    {
+      "start": 1374.48,
+      "end": 1380.88,
+      "text": "Once the data is ready, we're going to re-import it into reddit, with the dynamic script that I will",
+      "words": []
+    },
+    {
+      "start": 1380.88,
+      "end": 1387.3600000000001,
+      "text": "show you. This is the Excel file that the GPD is going to get us. There is four shits,",
+      "words": []
+    },
+    {
+      "start": 1387.4399999999998,
+      "end": 1392.8,
+      "text": "all of them being comparison. On this one, you get all the elements that are just",
+      "words": []
+    },
+    {
+      "start": 1393.52,
+      "end": 1400.0,
+      "text": "here to help us to choose the right scenario. But that is not completed. That's where the project",
+      "words": []
+    },
+    {
+      "start": 1400.0,
+      "end": 1406.4799999999998,
+      "text": "manager is going to get into, and it's going to feed all the data directly into the reddit file.",
+      "words": []
+    },
+    {
+      "start": 1407.84,
+      "end": 1413.1999999999998,
+      "text": "So, we want to push them back into reddit, and that's the dynamic script. I won't go into all",
+      "words": []
+    },
+    {
+      "start": 1413.2,
+      "end": 1419.68,
+      "text": "the details of the scripts, but essentially, it allows us to map the data back to the correct",
+      "words": []
+    },
+    {
+      "start": 1419.68,
+      "end": 1426.16,
+      "text": "elements. So, this is our dynamic script. You just have to get the Excel file, whatever the name",
+      "words": []
+    },
+    {
+      "start": 1426.16,
+      "end": 1433.28,
+      "text": "it is, and once it pushes, we get all this process that we've done internally to map the data.",
+      "words": []
+    },
+    {
+      "start": 1434.24,
+      "end": 1438.64,
+      "text": "Once this is done, and when I run the script, the carbon data is automatically",
+      "words": []
+    },
+    {
+      "start": 1438.64,
+      "end": 1445.6000000000001,
+      "text": "written back into the model. For example, I will select an element after this is imported,",
+      "words": []
+    },
+    {
+      "start": 1445.6000000000001,
+      "end": 1453.2,
+      "text": "and you will see the carbon parameters are no further. It will get directly GPD, so you don't",
+      "words": []
+    },
+    {
+      "start": 1453.2,
+      "end": 1459.0400000000002,
+      "text": "have to do anything. And once it's done, here I'm just going to get an element and the parameters",
+      "words": []
+    },
+    {
+      "start": 1459.0400000000002,
+      "end": 1467.0400000000002,
+      "text": "are completed. At this point, our reddit file is fully updated with carbon data and assigned",
+      "words": []
+    },
+    {
+      "start": 1467.04,
+      "end": 1473.84,
+      "text": "specifically to variants elements. Now, we move to the final step. We use the viewer SDK,",
+      "words": []
+    },
+    {
+      "start": 1473.84,
+      "end": 1481.28,
+      "text": "which allows us to load the model in SVF2 formats. At the end, it will allow us to customize the viewer.",
+      "words": []
+    },
+    {
+      "start": 1482.1599999999999,
+      "end": 1488.0,
+      "text": "The viewer can be configured with our own interface, for example, with the resbrenzing and",
+      "words": []
+    },
+    {
+      "start": 1488.0,
+      "end": 1494.1599999999999,
+      "text": "the carbon action tools. And here, we can visualize the carbon data directly into the model,",
+      "words": []
+    },
+    {
+      "start": 1494.72,
+      "end": 1500.16,
+      "text": "so we can corrocode the elements, as we all say, and interact with them. For example, if I select",
+      "words": []
+    },
+    {
+      "start": 1500.16,
+      "end": 1505.2,
+      "text": "the door, I will start case, I can directly access all the associated carbon data.",
+      "words": []
+    },
+    {
+      "start": 1506.88,
+      "end": 1513.52,
+      "text": "So, that's it for the demonstration. And now, well, I will have to tell you that we got some",
+      "words": []
+    },
+    {
+      "start": 1513.52,
+      "end": 1519.68,
+      "text": "difficulties, and we've got some failures that we've got during the process. So, to be completely",
+      "words": []
+    },
+    {
+      "start": 1519.76,
+      "end": 1525.1200000000001,
+      "text": "transparent, that was in a smooth journey. We've faced these difficulties, and we actually",
+      "words": []
+    },
+    {
+      "start": 1525.1200000000001,
+      "end": 1530.88,
+      "text": "also have what can we improve, what needs to be with us. The first major to be was data quality,",
+      "words": []
+    },
+    {
+      "start": 1530.88,
+      "end": 1536.16,
+      "text": "because in the end, everything depends on the inputs. We identify several key issues,",
+      "words": []
+    },
+    {
+      "start": 1536.96,
+      "end": 1543.28,
+      "text": "phasing in consistences, shared parameters that are not probabilistic, and more broadly a lack",
+      "words": []
+    },
+    {
+      "start": 1543.36,
+      "end": 1550.48,
+      "text": "of internal workflows and updates. So, one of our main takeaways was, okay, before building",
+      "words": []
+    },
+    {
+      "start": 1550.48,
+      "end": 1555.84,
+      "text": "advanced pipelines, we actually need to strengthen the foundations of our beam practices.",
+      "words": []
+    },
+    {
+      "start": 1556.72,
+      "end": 1561.6,
+      "text": "Better inputs, direct commands, better and more reliable carbon analysis.",
+      "words": []
+    },
+    {
+      "start": 1563.28,
+      "end": 1568.24,
+      "text": "The second challenge is something we already mentioned, our animated software development background.",
+      "words": []
+    },
+    {
+      "start": 1569.2,
+      "end": 1575.36,
+      "text": "We have to rely on low-cut approaches, dynamo, QSAMGPTs, existing cut sample. This worked, but",
+      "words": []
+    },
+    {
+      "start": 1576.0,
+      "end": 1582.8,
+      "text": "it also comes with limitations in terms of scalability and control. Another very practical",
+      "words": []
+    },
+    {
+      "start": 1582.8,
+      "end": 1588.56,
+      "text": "constraint is IT security, and I'm sure many of you can relate to this. We and concert",
+      "words": []
+    },
+    {
+      "start": 1588.56,
+      "end": 1594.4,
+      "text": "several restrictions when we try to install certain APIs, use certain APIs, or run specific workflows.",
+      "words": []
+    },
+    {
+      "start": 1594.88,
+      "end": 1599.44,
+      "text": "We are the span quite a bit of time, and we are the right way to compare models.",
+      "words": []
+    },
+    {
+      "start": 1600.0,
+      "end": 1604.72,
+      "text": "Today, we are using JSON-based comparison, which is working for us. But we are still",
+      "words": []
+    },
+    {
+      "start": 1604.72,
+      "end": 1609.44,
+      "text": "equitin, whether it is the most reliable, the most efficient, and most scalable approach,",
+      "words": []
+    },
+    {
+      "start": 1609.44,
+      "end": 1614.64,
+      "text": "but we actually don't know, but we are still working on it. Finally, we face some challenges,",
+      "words": []
+    },
+    {
+      "start": 1614.64,
+      "end": 1620.64,
+      "text": "the model-derivated API. In particular, when we are running cut samples on our own models,",
+      "words": []
+    },
+    {
+      "start": 1621.1200000000001,
+      "end": 1625.0400000000002,
+      "text": "we had some issues related to naming conventions, special characters that we've",
+      "words": []
+    },
+    {
+      "start": 1625.0400000000002,
+      "end": 1630.72,
+      "text": "got in France, and they don't have it in English, and data-families. These are the kind of problems",
+      "words": []
+    },
+    {
+      "start": 1630.72,
+      "end": 1634.48,
+      "text": "that could probably be solved quickly with more advanced development skills.",
+      "words": []
+    },
+    {
+      "start": 1635.92,
+      "end": 1642.96,
+      "text": "Now, looking ahead, we have a clear one-map. The first priority is to go further with automation",
+      "words": []
+    },
+    {
+      "start": 1642.96,
+      "end": 1650.4,
+      "text": "API. Our goal, for every place dynamo, stay entirely in the Autodesk ecosystem, and push",
+      "words": []
+    },
+    {
+      "start": 1650.48,
+      "end": 1656.8000000000002,
+      "text": "computed carbon data directly back into the bin model. Second, XA is dashboard consolidation.",
+      "words": []
+    },
+    {
+      "start": 1657.2800000000002,
+      "end": 1662.0800000000002,
+      "text": "We are using queryBI, but today, but we are seeing opportunities to extend it,",
+      "words": []
+    },
+    {
+      "start": 1662.0800000000002,
+      "end": 1668.3200000000002,
+      "text": "integrate more, and improve the overall user experience. Another key step to adapt",
+      "words": []
+    },
+    {
+      "start": 1669.3600000000001,
+      "end": 1674.8000000000002,
+      "text": "the carbon calculator itself. Right now, it was not originally designed for bin workers.",
+      "words": []
+    },
+    {
+      "start": 1675.6000000000001,
+      "end": 1679.44,
+      "text": "So, we are working more closely with the big carbon action team to make it fully",
+      "words": []
+    },
+    {
+      "start": 1679.44,
+      "end": 1686.16,
+      "text": "compatible with the model base data. Finally, we also want to move from a local prototype",
+      "words": []
+    },
+    {
+      "start": 1686.16,
+      "end": 1693.76,
+      "text": "to a more integrated platform, idly to a form-based, former ACC-based hub. The object type here",
+      "words": []
+    },
+    {
+      "start": 1693.76,
+      "end": 1699.92,
+      "text": "is to provide a more seamless and ergonomic workflow for users. Finally, we need to address the",
+      "words": []
+    },
+    {
+      "start": 1699.92,
+      "end": 1707.2,
+      "text": "business side of the solution, estimating API usage, understanding token consumption, and defining",
+      "words": []
+    },
+    {
+      "start": 1707.2,
+      "end": 1714.0800000000002,
+      "text": "the viable economic model for scaling the approach. So, to conclude, this project is still very",
+      "words": []
+    },
+    {
+      "start": 1714.0800000000002,
+      "end": 1720.96,
+      "text": "much work in progress, but it already shows us how we can start connecting BIM, data, and carbon",
+      "words": []
+    },
+    {
+      "start": 1720.96,
+      "end": 1726.4,
+      "text": "analysis to support better design decisions. So, thank you very much for your attention. We'll",
+      "words": []
+    },
+    {
+      "start": 1726.4,
+      "end": 1729.04,
+      "text": "be happy to take any questions. Thank you.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:40:40.869702+00:00"
+}

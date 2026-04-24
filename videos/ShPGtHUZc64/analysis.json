@@ -1,0 +1,46 @@
+{
+  "video_id": "ShPGtHUZc64",
+  "demo_timestamps": [
+    {
+      "start": 0.09,
+      "end": 16.24,
+      "description": "Automation of IFC delivery and managing permissions, exports, and project data at scale"
+    }
+  ],
+  "themes": [
+    "Digital construction strategy and automation"
+  ],
+  "client_mentions": [
+    {
+      "name": "Skipple",
+      "context": "Reference case for BAM's digital strategy",
+      "timestamp": 0.0
+    },
+    {
+      "name": "BAM",
+      "context": "Presenter's company and the focus of the discussion",
+      "timestamp": 0.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "ACC",
+      "is_api": false,
+      "timestamp": 490.62
+    },
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 0.0
+    },
+    {
+      "name": "Autodesk Platform Services",
+      "is_api": false,
+      "timestamp": 539.56
+    }
+  ],
+  "ai_technologies": [],
+  "summary": "The video discusses BAM's digital strategy in construction, using Skipple as a reference case. It highlights how BAM integrates technology using Autodesk products like ACC and Autodesk Platform Services to manage data and automate workflows, creating a consistent digital thread across projects and improving efficiency in processes like IFC exports and user access management.",
+  "_complete": true,
+  "_saved_at": "2026-04-23T00:11:01.891457+00:00"
+}

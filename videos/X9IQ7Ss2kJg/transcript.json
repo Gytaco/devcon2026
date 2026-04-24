@@ -1,0 +1,907 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.0,
+      "text": "Hello, everyone. My name is Tobias Hoplorn, and I'm a product manager on the APS platform.",
+      "words": []
+    },
+    {
+      "start": 6.0,
+      "end": 18.0,
+      "text": "I lead the data exchange team, and I have a real passion for interoperability, especially due to the fact that I practice as an architect for five years, and I felt the pain of a low fidelity interrupt.",
+      "words": []
+    },
+    {
+      "start": 18.0,
+      "end": 23.0,
+      "text": "So we are happy to share how Autodesk is addressing this for you.",
+      "words": []
+    },
+    {
+      "start": 23.0,
+      "end": 29.0,
+      "text": "I'm joined by several PMs on my team, and a special customer guest star.",
+      "words": []
+    },
+    {
+      "start": 29.0,
+      "end": 36.0,
+      "text": "Before we get going, I want to put up a short disclaimer that we will be showing unreleased features in our roadmap section.",
+      "words": []
+    },
+    {
+      "start": 36.0,
+      "end": 42.0,
+      "text": "Please do not make any purchasing decisions based on what you see. These are not commitments.",
+      "words": []
+    },
+    {
+      "start": 42.0,
+      "end": 46.0,
+      "text": "Roadmaps change, especially release dates.",
+      "words": []
+    },
+    {
+      "start": 46.0,
+      "end": 54.0,
+      "text": "This presentation will be about the data exchange products, and you will leave with a clear understanding of both the current value.",
+      "words": []
+    },
+    {
+      "start": 54.0,
+      "end": 62.0,
+      "text": "That data exchange delivers after seeing some cool customer examples, and you'll see where the project is headed next.",
+      "words": []
+    },
+    {
+      "start": 62.0,
+      "end": 70.0,
+      "text": "I want to set some context that Autodesk is on a long journey to help the industry move beyond files as the source of truth.",
+      "words": []
+    },
+    {
+      "start": 70.0,
+      "end": 77.0,
+      "text": "And this evolution will unlock the valuable design data stored inside of your files and make your models accessible from the cloud.",
+      "words": []
+    },
+    {
+      "start": 77.0,
+      "end": 81.0,
+      "text": "So that you can streamline and automate your workflows.",
+      "words": []
+    },
+    {
+      "start": 81.0,
+      "end": 90.0,
+      "text": "And we often get a question like why is granular data so much better than file based interoperability.",
+      "words": []
+    },
+    {
+      "start": 90.0,
+      "end": 98.0,
+      "text": "And imagine you're working with a collaborator on a complex project like this famous icon from the galaxy far, far away.",
+      "words": []
+    },
+    {
+      "start": 99.0,
+      "end": 109.0,
+      "text": "You can share the entire model like we've been doing for years, but we all know that files are complex and bulky and your collaborator only needs the control room.",
+      "words": []
+    },
+    {
+      "start": 109.0,
+      "end": 112.0,
+      "text": "Now imagine another approach.",
+      "words": []
+    },
+    {
+      "start": 112.0,
+      "end": 126.0,
+      "text": "What if you can share only the elements that the recipient needs while maintaining a connection to the original model so that you can update the shared subset if something changes on your side.",
+      "words": []
+    },
+    {
+      "start": 126.0,
+      "end": 130.0,
+      "text": "And this is how data exchange system works.",
+      "words": []
+    },
+    {
+      "start": 131.0,
+      "end": 140.0,
+      "text": "And allowing you to extract only a portion of your model using granular data structures instead of a file format.",
+      "words": []
+    },
+    {
+      "start": 140.0,
+      "end": 151.0,
+      "text": "So starting from your authoring app where you have the entire model, you can isolate extracts and then share model subsets as data exchanges.",
+      "words": []
+    },
+    {
+      "start": 151.0,
+      "end": 156.0,
+      "text": "And then the changes are accessed through Autodesk Construction Cloud.",
+      "words": []
+    },
+    {
+      "start": 156.0,
+      "end": 159.0,
+      "text": "Now we've referred to as format data management.",
+      "words": []
+    },
+    {
+      "start": 159.0,
+      "end": 165.0,
+      "text": "So that your existing project permissions and team setups still apply.",
+      "words": []
+    },
+    {
+      "start": 165.0,
+      "end": 175.0,
+      "text": "Now you have structured granular data that can be used for coordination, for documentation and visualization in power BI dashboards.",
+      "words": []
+    },
+    {
+      "start": 175.0,
+      "end": 183.0,
+      "text": "And so you can connect with the program, but the sharing pattern scales to many of the apps that you use every day.",
+      "words": []
+    },
+    {
+      "start": 183.0,
+      "end": 190.0,
+      "text": "By sharing data instead of files, we start to unlock new and exciting customer value.",
+      "words": []
+    },
+    {
+      "start": 190.0,
+      "end": 203.0,
+      "text": "You can connect to an ecosystem of different tools extending beyond just Autodesk tools while keeping explicit control over access and permissions established in format.",
+      "words": []
+    },
+    {
+      "start": 203.0,
+      "end": 208.0,
+      "text": "And so specific stakeholders have just what they need to perform their tasks.",
+      "words": []
+    },
+    {
+      "start": 208.0,
+      "end": 218.0,
+      "text": "All of this without sharing your source files. So you protect your IP while still enabling collaboration.",
+      "words": []
+    },
+    {
+      "start": 218.0,
+      "end": 222.0,
+      "text": "And all this happens through our app connectors.",
+      "words": []
+    },
+    {
+      "start": 222.0,
+      "end": 227.0,
+      "text": "So with we have the cloud connectors available through the Autodesk viewer.",
+      "words": []
+    },
+    {
+      "start": 227.0,
+      "end": 235.0,
+      "text": "These allow you to filter, create and automatically update exchanges from these file types.",
+      "words": []
+    },
+    {
+      "start": 235.0,
+      "end": 241.0,
+      "text": "Then we have the GA connectors, which you can download through the Autodesk app store.",
+      "words": []
+    },
+    {
+      "start": 241.0,
+      "end": 246.0,
+      "text": "These are plugins into your hero applications you use every day.",
+      "words": []
+    },
+    {
+      "start": 246.0,
+      "end": 254.0,
+      "text": "And we have several connectors that are in a public data, which you can access through our center code feedback portal.",
+      "words": []
+    },
+    {
+      "start": 254.0,
+      "end": 263.0,
+      "text": "All right, that's it for me and I'm going to pass it over to my colleague, Grav to talk to you through some new releases and announcements.",
+      "words": []
+    },
+    {
+      "start": 263.0,
+      "end": 265.0,
+      "text": "Thanks for bias.",
+      "words": []
+    },
+    {
+      "start": 265.0,
+      "end": 271.0,
+      "text": "So first and foremost, I think we just released our navisworks connector in general availability.",
+      "words": []
+    },
+    {
+      "start": 271.0,
+      "end": 276.0,
+      "text": "That's a very release. Most of you have been very excited about this release.",
+      "words": []
+    },
+    {
+      "start": 276.0,
+      "end": 283.0,
+      "text": "So with the navisworks connector users can now create data exchanges from their federated model, which was earlier very limited.",
+      "words": []
+    },
+    {
+      "start": 283.0,
+      "end": 290.0,
+      "text": "And now that data can be loaded downstream for analysis and visualization and just go general coordination as well.",
+      "words": []
+    },
+    {
+      "start": 290.0,
+      "end": 300.0,
+      "text": "Along with that, navisworks connector also allows you to load not the data exchanges from other sources and run class out of the box features like class detection.",
+      "words": []
+    },
+    {
+      "start": 300.0,
+      "end": 305.0,
+      "text": "From moving from public beta to GA, there have been major changes into this release.",
+      "words": []
+    },
+    {
+      "start": 305.0,
+      "end": 313.0,
+      "text": "One of them that has been the port for large models as well as the performance improvements from our beta connectors.",
+      "words": []
+    },
+    {
+      "start": 313.0,
+      "end": 317.0,
+      "text": "Please check out our data, our connector for navisworks through this.",
+      "words": []
+    },
+    {
+      "start": 317.0,
+      "end": 327.0,
+      "text": "Your code and share your feedback with us moving on to the next announcement and checking few things that are in progress.",
+      "words": []
+    },
+    {
+      "start": 327.0,
+      "end": 330.0,
+      "text": "So one of the biggest thing is the civil 3D cloud connector.",
+      "words": []
+    },
+    {
+      "start": 330.0,
+      "end": 336.0,
+      "text": "Last year we were here and we shared updates on our connectors and we heard your feedback about civil 3D.",
+      "words": []
+    },
+    {
+      "start": 336.0,
+      "end": 339.0,
+      "text": "So we worked on it and now we have a civil 3D cloud connector.",
+      "words": []
+    },
+    {
+      "start": 339.0,
+      "end": 349.0,
+      "text": "By this connector, you can basically create data exchanges directly from former using the civil 3D files that are already hosted on your former project.",
+      "words": []
+    },
+    {
+      "start": 349.0,
+      "end": 363.0,
+      "text": "On top of what we have today in the desktop connector, this cloud connector enables you to share custom properties, the custom pieces in your civil 3D project as well as support the corridor geometry out of the box.",
+      "words": []
+    },
+    {
+      "start": 363.0,
+      "end": 367.0,
+      "text": "So you don't have to do extra additional exports for the corridors.",
+      "words": []
+    },
+    {
+      "start": 367.0,
+      "end": 373.0,
+      "text": "Tight now the support is limited to a few elements, but we will enhance that as we go forward.",
+      "words": []
+    },
+    {
+      "start": 373.0,
+      "end": 377.0,
+      "text": "We will announce this public data by in a few weeks. So stay tuned on that one.",
+      "words": []
+    },
+    {
+      "start": 377.0,
+      "end": 382.0,
+      "text": "We wanted the next announcement is the power BI connector.",
+      "words": []
+    },
+    {
+      "start": 382.0,
+      "end": 387.0,
+      "text": "So power BI connector is one of our most used and most adopted connector.",
+      "words": []
+    },
+    {
+      "start": 387.0,
+      "end": 398.0,
+      "text": "And we got a lot of feedback from you regarding regarding the support for large models as well as requesting the performance improvements.",
+      "words": []
+    },
+    {
+      "start": 398.0,
+      "end": 406.0,
+      "text": "So we worked on those and we have significantly enhanced the performance of the viewer on the power BI connector.",
+      "words": []
+    },
+    {
+      "start": 406.0,
+      "end": 411.0,
+      "text": "Along with that, we've also added additional viewer improvements.",
+      "words": []
+    },
+    {
+      "start": 411.0,
+      "end": 417.0,
+      "text": "Also to support the smooth onboarding experience, we have also developed new templates and tutorials.",
+      "words": []
+    },
+    {
+      "start": 417.0,
+      "end": 422.0,
+      "text": "And these updates will be shared in the coming upcoming public beta soon as well.",
+      "words": []
+    },
+    {
+      "start": 422.0,
+      "end": 433.0,
+      "text": "So model coordination is widely used by Autodesk customers. However, it does not yet support all file formats, including data exchanges to address that.",
+      "words": []
+    },
+    {
+      "start": 433.0,
+      "end": 438.0,
+      "text": "So that gap we have been working with the model coordination team to expand its capabilities.",
+      "words": []
+    },
+    {
+      "start": 438.0,
+      "end": 447.0,
+      "text": "And we are excited to announce this private beta for model coordination, which enables the aggregation of data exchanges in the model coordination space.",
+      "words": []
+    },
+    {
+      "start": 447.0,
+      "end": 451.0,
+      "text": "Along with the support for automated last detection for inventor based exchanges.",
+      "words": []
+    },
+    {
+      "start": 451.0,
+      "end": 459.0,
+      "text": "We plan to further expand this capability so you can also use class detective capabilities with other exchanges as well.",
+      "words": []
+    },
+    {
+      "start": 459.0,
+      "end": 464.0,
+      "text": "If you are interested in exploring the current functionality, we invite you to join the waitlist.",
+      "words": []
+    },
+    {
+      "start": 464.0,
+      "end": 468.0,
+      "text": "So last but not the least data exchange live.",
+      "words": []
+    },
+    {
+      "start": 468.0,
+      "end": 474.0,
+      "text": "You must have seen the announcement for data exchange live in series keynotes as well.",
+      "words": []
+    },
+    {
+      "start": 474.0,
+      "end": 480.0,
+      "text": "So data exchange live introduces an entirely new concept of streaming live data between different tools.",
+      "words": []
+    },
+    {
+      "start": 480.0,
+      "end": 487.0,
+      "text": "This is especially valuable during the design process when the changes are frequently happening between the teams.",
+      "words": []
+    },
+    {
+      "start": 487.0,
+      "end": 492.0,
+      "text": "And on the design and the teams need to collaborate in the real time regardless of their location.",
+      "words": []
+    },
+    {
+      "start": 492.0,
+      "end": 498.0,
+      "text": "We are starting by connecting Revit and Rhino for now through this workflow.",
+      "words": []
+    },
+    {
+      "start": 498.0,
+      "end": 502.0,
+      "text": "But we are also planning to expand this to additional connectors in the future.",
+      "words": []
+    },
+    {
+      "start": 502.0,
+      "end": 512.0,
+      "text": "If you are using Revit and Rhino on your projects and would like to explore this functionality, we would like to invite you to the wait list for this as well.",
+      "words": []
+    },
+    {
+      "start": 512.0,
+      "end": 520.0,
+      "text": "And now let's take a look at some real world examples and some customers who have been using data exchange in their projects.",
+      "words": []
+    },
+    {
+      "start": 520.0,
+      "end": 527.0,
+      "text": "First and foremost is FCO and FCO is a global leader in concrete construction.",
+      "words": []
+    },
+    {
+      "start": 527.0,
+      "end": 536.0,
+      "text": "They specialize in engineered formwork ensuring solutions and the solutions are being used in high rise constructions, industrial projects worldwide.",
+      "words": []
+    },
+    {
+      "start": 536.0,
+      "end": 541.0,
+      "text": "So traditionally FCO relied on AutoCAD based processes to move data from inventor.",
+      "words": []
+    },
+    {
+      "start": 541.0,
+      "end": 549.0,
+      "text": "But this meant exporting DWGs clearing those DWGs and then managing layers and repeating the same process all over.",
+      "words": []
+    },
+    {
+      "start": 549.0,
+      "end": 553.0,
+      "text": "Every time there was a change in the in the main model.",
+      "words": []
+    },
+    {
+      "start": 553.0,
+      "end": 563.0,
+      "text": "So as their projects scaled up and the industry increasingly moved towards Revit and model based deliveries, this approached became a clear bottle like for them.",
+      "words": []
+    },
+    {
+      "start": 563.0,
+      "end": 571.0,
+      "text": "Keeping the models and drawings and quantities aligned across both the inventor and the delivery has was very time consuming.",
+      "words": []
+    },
+    {
+      "start": 571.0,
+      "end": 580.0,
+      "text": "So now we data exchange FCO took a very fundamental approach, fundamentally different approach instead of using drawings as their primary handoff.",
+      "words": []
+    },
+    {
+      "start": 580.0,
+      "end": 588.0,
+      "text": "Now they are now using 3D model once ordered into inventor and that is shared with Revit teams.",
+      "words": []
+    },
+    {
+      "start": 588.0,
+      "end": 596.0,
+      "text": "This allows the Revit users to continue to build their designs and workflows while preserving the original intent of the inventor model.",
+      "words": []
+    },
+    {
+      "start": 596.0,
+      "end": 605.0,
+      "text": "Allowing them to seamlessly operate between different devins and different tools as well.",
+      "words": []
+    },
+    {
+      "start": 605.0,
+      "end": 618.0,
+      "text": "This has been used by FCO in a team of 250 designers and they have been sharing great examples and subsets with us so far.",
+      "words": []
+    },
+    {
+      "start": 618.0,
+      "end": 623.0,
+      "text": "Now let's move on and hear from one of our customers themselves.",
+      "words": []
+    },
+    {
+      "start": 623.0,
+      "end": 626.0,
+      "text": "I'd like to invite Ahmad to share this story too.",
+      "words": []
+    },
+    {
+      "start": 627.0,
+      "end": 639.0,
+      "text": "We've been long suffering from our teams working in silos. We have the commercial team and we have the BIM team working not talking to each other only through emails, commercial talking in 2D, BIM, talking in 3D.",
+      "words": []
+    },
+    {
+      "start": 639.0,
+      "end": 650.0,
+      "text": "And we've been always trying to find a middle ground just for them to communicate together with that exchange we were able to streamline this whole process and have a handshake between the two teams.",
+      "words": []
+    },
+    {
+      "start": 650.0,
+      "end": 671.0,
+      "text": "This was very simply brought together by the data exchange and in displaying all the information through the dashboards that were provided to them simply through clicking on whatever information they're looking for they can get access to the quantities they're looking for as we can see in the video.",
+      "words": []
+    },
+    {
+      "start": 671.0,
+      "end": 678.0,
+      "text": "If they're looking for something in our correction model basement tool.",
+      "words": []
+    },
+    {
+      "start": 679.0,
+      "end": 687.0,
+      "text": "Well ground floor you go to the category and then the type and you get the quantity you're looking for.",
+      "words": []
+    },
+    {
+      "start": 696.0,
+      "end": 699.0,
+      "text": "Is another example.",
+      "words": []
+    },
+    {
+      "start": 700.0,
+      "end": 706.0,
+      "text": "She just removed the filter and then select her other model.",
+      "words": []
+    },
+    {
+      "start": 713.0,
+      "end": 717.0,
+      "text": "That's from the interior model ground floor.",
+      "words": []
+    },
+    {
+      "start": 718.0,
+      "end": 721.0,
+      "text": "The basement tool.",
+      "words": []
+    },
+    {
+      "start": 721.0,
+      "end": 728.0,
+      "text": "Then you select a category and you have your quantities straight away.",
+      "words": []
+    },
+    {
+      "start": 730.0,
+      "end": 743.0,
+      "text": "Now the nice thing about it is very dynamic it gets it straight away from the model and it eliminates the lack of communication between the two teams where they get control of whatever information they're looking for.",
+      "words": []
+    },
+    {
+      "start": 744.0,
+      "end": 749.0,
+      "text": "That's from the mechanical.",
+      "words": []
+    },
+    {
+      "start": 755.0,
+      "end": 761.0,
+      "text": "These are the quantities looking for.",
+      "words": []
+    },
+    {
+      "start": 762.0,
+      "end": 769.0,
+      "text": "That's basically everything is available upon their request.",
+      "words": []
+    },
+    {
+      "start": 779.0,
+      "end": 784.0,
+      "text": "This is really great Ahmed thanks so much for sharing this with us.",
+      "words": []
+    },
+    {
+      "start": 785.0,
+      "end": 804.0,
+      "text": "We hear this really a lot that many teams are struggling with sharing the data with stakeholders who don't have the BIM skills or who don't have the right tools to view the model and this is also another customer example here.",
+      "words": []
+    },
+    {
+      "start": 804.0,
+      "end": 812.0,
+      "text": "I want to show you shared with us by VNV Bravo, a international construction company.",
+      "words": []
+    },
+    {
+      "start": 813.0,
+      "end": 822.0,
+      "text": "We have incorporated data exchange as the key component of their monitoring operational visualization and the communication workflows.",
+      "words": []
+    },
+    {
+      "start": 822.0,
+      "end": 832.0,
+      "text": "And by combining the project schedules in this case with other relevant data along with the data changes in the power BI.",
+      "words": []
+    },
+    {
+      "start": 833.0,
+      "end": 848.0,
+      "text": "They are able to visualize their data analysis and make this information also accessible to the stakeholders who are not familiar with form or who have a limited BIM expertise like in your case Ahmed.",
+      "words": []
+    },
+    {
+      "start": 849.0,
+      "end": 863.0,
+      "text": "I think this is another really nice example of how we can use data exchanges in the context of the power BI to share the data more broadly.",
+      "words": []
+    },
+    {
+      "start": 863.0,
+      "end": 871.0,
+      "text": "As we mentioned before, a power BI is one of our most widely used connectors.",
+      "words": []
+    },
+    {
+      "start": 871.0,
+      "end": 875.0,
+      "text": "However, data exchange also supports many other workflows.",
+      "words": []
+    },
+    {
+      "start": 875.0,
+      "end": 897.0,
+      "text": "For example, the Deutsche Bahn is an early adopter of our Revit and I've seen connectors and their project are managed on form and they typically involve multiple teams with complex permission and access settings.",
+      "words": []
+    },
+    {
+      "start": 897.0,
+      "end": 907.0,
+      "text": "And to simplify the project setup and also the FC version management, the uploaded FC files are converted into the data exchanges.",
+      "words": []
+    },
+    {
+      "start": 907.0,
+      "end": 920.0,
+      "text": "And these are then used for the documentation purposes inside of Revit and are also visible across all the views of the published Revit model on form.",
+      "words": []
+    },
+    {
+      "start": 920.0,
+      "end": 940.0,
+      "text": "And in addition, of course, all the properties from the FC files are also preserved and seamlessly transferred to Revit through the data exchange so that they can be used for all other documentation purposes and also for scheduling and the annotation.",
+      "words": []
+    },
+    {
+      "start": 941.0,
+      "end": 961.0,
+      "text": "Of course, you are not limited by the connectors we build. We know that we cannot build all the connectors you need, which is why we are also continuously developing our.net SDK and also inviting everyone to build up upon it and join the data exchange ecosystem.",
+      "words": []
+    },
+    {
+      "start": 961.0,
+      "end": 972.0,
+      "text": "And to show you what is possible, let me hand over back to Tobias to guide you through some of the examples our partners have shared with us.",
+      "words": []
+    },
+    {
+      "start": 972.0,
+      "end": 980.0,
+      "text": "Awesome. Thank you, Leila and thank you to all the customers who shared their examples with us are very inspiring.",
+      "words": []
+    },
+    {
+      "start": 981.0,
+      "end": 998.0,
+      "text": "I'm very proud to get to share the latest updates in our BIMDex partnership. BIMDex creates connectors in the interoperability space and data exchange is a cloud layer that they're able to use their connectors with.",
+      "words": []
+    },
+    {
+      "start": 999.0,
+      "end": 1015.0,
+      "text": "And our friends from BIMDex are ready to release their Revit Plant 3D, Tecla and civil 3D connectors that leverage data exchange to bring the sophisticated BIMDex data into the cloud.",
+      "words": []
+    },
+    {
+      "start": 1015.0,
+      "end": 1028.0,
+      "text": "And you see here an example where plant 3D models are able to be imported to Revit as native pipes and native plant 3D elements converted into Revit elements.",
+      "words": []
+    },
+    {
+      "start": 1029.0,
+      "end": 1045.0,
+      "text": "The exciting thing is that same data can of course be loaded into power BI because the data exchange system and the BIMDex system are both one to many, meaning data created from any of the apps can load into any of the other apps.",
+      "words": []
+    },
+    {
+      "start": 1045.0,
+      "end": 1058.0,
+      "text": "And you see examples here of their enhanced Tecla workflows that can of course also be aggregated together with the plant 3D and the Revit models all together into one place.",
+      "words": []
+    },
+    {
+      "start": 1059.0,
+      "end": 1079.0,
+      "text": "And lastly, there's a civil 3D example here as well where data from civil 3D can be extracted, shared in a data exchange and then loaded along with the other model elements all into one context typically Revit for its amazing documentation powers.",
+      "words": []
+    },
+    {
+      "start": 1080.0,
+      "end": 1089.0,
+      "text": "So congratulations to BIMDex on being able to utilize the data exchange SDK in such a sophisticated and mature way.",
+      "words": []
+    },
+    {
+      "start": 1089.0,
+      "end": 1097.0,
+      "text": "They will be at DevCon so please look up our friends and learn more about how you can try out these new connectors.",
+      "words": []
+    },
+    {
+      "start": 1098.0,
+      "end": 1112.0,
+      "text": "We have another partner who we've met and worked with in the last several months in C2 is an augmented reality startup that brings future cities to life directly on your mobile phone.",
+      "words": []
+    },
+    {
+      "start": 1113.0,
+      "end": 1132.0,
+      "text": "The in C2 data exchange integration introduces a new interface for public and stakeholder engagement extending BIM and planning and design workflows beyond internal coordination behind a computer screen into real world context at street level experiences.",
+      "words": []
+    },
+    {
+      "start": 1133.0,
+      "end": 1152.0,
+      "text": "By using the data exchange in C2 is able to connect semantic and geo referenced model publishing allowing BIMD data to flow from cloud into full scale real world AR visualizations and this workflow reduces the need for manual exports and file handling.",
+      "words": []
+    },
+    {
+      "start": 1153.0,
+      "end": 1166.0,
+      "text": "We have a link to the link enable teams to publish AR ready models directly into data exchange URLs and make them accessible on site and remotely via mobile devices.",
+      "words": []
+    },
+    {
+      "start": 1166.0,
+      "end": 1172.0,
+      "text": "And this app is in the Autodesk App Store now so please download and try it out.",
+      "words": []
+    },
+    {
+      "start": 1173.0,
+      "end": 1187.0,
+      "text": "We have a site visualization initiative has been led by our colleague and AR enthusiast Peter bras who is exploring how to bring data exchange to the Apple Vision Pro.",
+      "words": []
+    },
+    {
+      "start": 1187.0,
+      "end": 1201.0,
+      "text": "Peter has been working in this area for a long time developing the necessary toolkits and tutorials to enable entirely new ways of experiencing 3D models but also data exchanges.",
+      "words": []
+    },
+    {
+      "start": 1202.0,
+      "end": 1207.0,
+      "text": "This is a very interesting opportunity a little later this year.",
+      "words": []
+    },
+    {
+      "start": 1207.0,
+      "end": 1212.0,
+      "text": "Thank you, Peter.",
+      "words": []
+    },
+    {
+      "start": 1212.0,
+      "end": 1224.0,
+      "text": "And our next example is from another developer advocate you've all probably met Michael Biel.",
+      "words": []
+    },
+    {
+      "start": 1225.0,
+      "end": 1234.0,
+      "text": "And this is a very interesting opportunity to talk about how to create a new model in the future in model coordination allowing all kinds of aggregation of BIM models.",
+      "words": []
+    },
+    {
+      "start": 1234.0,
+      "end": 1241.0,
+      "text": "And this unlocks entirely new workflows hopefully inspired you to build your own integrations.",
+      "words": []
+    },
+    {
+      "start": 1241.0,
+      "end": 1253.0,
+      "text": "And you can learn much more about this project specifically at Michael's DevCon class called Autodesk plus Esvery practical geo BIM workflows with the APS viewer and ARC GIS.",
+      "words": []
+    },
+    {
+      "start": 1253.0,
+      "end": 1266.0,
+      "text": "And the last example is amazing and it's a passion project the both Leila and I have been collaborating with our friends over at graph is soft.",
+      "words": []
+    },
+    {
+      "start": 1266.0,
+      "end": 1280.0,
+      "text": "This is inspiring and it's a connector that they are building which will allow ARCA CAD data to go into a data exchange and then be loaded into the data exchange ecosystem enabling rabbits.",
+      "words": []
+    },
+    {
+      "start": 1280.0,
+      "end": 1288.0,
+      "text": "And then you can also connect to VENTA, Rhino and Power BI workflows.",
+      "words": []
+    },
+    {
+      "start": 1288.0,
+      "end": 1300.0,
+      "text": "We'll follow where this goes they are in the process of finishing their release and it will be available in a future version of ARCA CAD and were here to see how people are using this to connect the graph a soft ecosystem into the Autodesk ecosystem.",
+      "words": []
+    },
+    {
+      "start": 1300.0,
+      "end": 1305.0,
+      "text": "And wonderful.",
+      "words": []
+    },
+    {
+      "start": 1305.0,
+      "end": 1333.0,
+      "text": "And wonderful. We hope you enjoyed today's presentation. We'll leave this QR code on the screen so that you can find our link collection and explore all of the different ways that you can start onboarding with data exchange today and reach out to us as a product team in order to hear your wonderful customer successes as well as any product feedback that you have.",
+      "words": []
+    },
+    {
+      "start": 1333.0,
+      "end": 1351.0,
+      "text": "We're a very agile group listening and responding and updating our software regularly. So anything that you would like to see or any kind of involvement you might like to have in future webinars and future presentations. We would love to hear from you.",
+      "words": []
+    },
+    {
+      "start": 1351.0,
+      "end": 1361.0,
+      "text": "We're very happy to be providing interoperability into the industry and we need all of your help in order to make that successful.",
+      "words": []
+    },
+    {
+      "start": 1361.0,
+      "end": 1371.0,
+      "text": "Thank you everybody for attending and thank you to my co speakers today. Everybody did a great job. I'm excited for DevCon next week and we'll see you soon.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:29:47.654139+00:00"
+}

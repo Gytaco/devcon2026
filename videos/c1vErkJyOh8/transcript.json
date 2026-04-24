@@ -1,0 +1,1759 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.48,
+      "text": "Okay, hello to the class from data request to data awareness and success.",
+      "words": []
+    },
+    {
+      "start": 4.48,
+      "end": 11.200000000000001,
+      "text": "I will be hosting this presentation together with Jan Bonen from Autodesk, he's a technical",
+      "words": []
+    },
+    {
+      "start": 11.200000000000001,
+      "end": 17.92,
+      "text": "specialist. I myself, I am Kevin Amaschalk, I'm acting as a bid manager for the company SBE.",
+      "words": []
+    },
+    {
+      "start": 19.12,
+      "end": 24.32,
+      "text": "The agenda for today, first of all, we will give you some insights on who are we and who are we",
+      "words": []
+    },
+    {
+      "start": 24.32,
+      "end": 30.8,
+      "text": "representing to give you some background. Then we will start the class with what is OTR.",
+      "words": []
+    },
+    {
+      "start": 30.8,
+      "end": 35.28,
+      "text": "This was the start of our journey, so it's quite important that you understand what the basic",
+      "words": []
+    },
+    {
+      "start": 35.28,
+      "end": 44.0,
+      "text": "components are in that fact. Then we will hop over to our approach that we have done to reach",
+      "words": []
+    },
+    {
+      "start": 44.0,
+      "end": 49.92,
+      "text": "the result and that's our tool that covers how to handle data and how to fill data and those things,",
+      "words": []
+    },
+    {
+      "start": 49.92,
+      "end": 56.96,
+      "text": "so we will give a short demo at the end of that one. Then Jan will hop in, so he will cover",
+      "words": []
+    },
+    {
+      "start": 56.96,
+      "end": 62.160000000000004,
+      "text": "what's next and the steps you will undertake in the upcoming months and year.",
+      "words": []
+    },
+    {
+      "start": 63.120000000000005,
+      "end": 68.88,
+      "text": "So first of all, who are we? Well, I am Kevin Amaschalk, as said before, I am born and raised in",
+      "words": []
+    },
+    {
+      "start": 68.88,
+      "end": 75.2,
+      "text": "Lokeren. I have a mechanical background and after that when I left high school, I started working",
+      "words": []
+    },
+    {
+      "start": 75.2,
+      "end": 82.8,
+      "text": "at SBE. In 2007, I really started as a cat designer. I was modeling steel constructions,",
+      "words": []
+    },
+    {
+      "start": 83.44,
+      "end": 90.72,
+      "text": "especially in Bokot and also in Tekla. In 2013, management wanted to install a mechanical",
+      "words": []
+    },
+    {
+      "start": 90.72,
+      "end": 96.08,
+      "text": "department within the company and I took the role to lead that implementation in SBE.",
+      "words": []
+    },
+    {
+      "start": 96.80000000000001,
+      "end": 104.64,
+      "text": "Then, 2017, I think somewhere in that year, management decided to follow the BIMTrain that was",
+      "words": []
+    },
+    {
+      "start": 104.64,
+      "end": 109.84,
+      "text": "passing by and now as a scientist in the company to see what the advantages of BIMT could be for",
+      "words": []
+    },
+    {
+      "start": 109.84,
+      "end": 115.52,
+      "text": "our organization but also for our projects and since then I was really busy with implementing BIMT",
+      "words": []
+    },
+    {
+      "start": 115.52,
+      "end": 121.52,
+      "text": "in projects within the company and following some trainings and since 2021, I am acting as a",
+      "words": []
+    },
+    {
+      "start": 121.52,
+      "end": 131.2,
+      "text": "BIMT manager in the company. Then over to Jan. Thank you, Kevin. Nice to meet you all, Jan Bonner,",
+      "words": []
+    },
+    {
+      "start": 131.83999999999997,
+      "end": 138.72,
+      "text": "technical specialist at Autodesk now for more and no just for two years and starting my career as",
+      "words": []
+    },
+    {
+      "start": 138.72,
+      "end": 146.0,
+      "text": "cat designer in the past where I did some stuff in AutoCATS as well in Revit. Later on, I did some BIMT",
+      "words": []
+    },
+    {
+      "start": 146.0,
+      "end": 156.23999999999998,
+      "text": "consultancy via Geonius and there was also the first interaction with SBE in 2017. Where after I go",
+      "words": []
+    },
+    {
+      "start": 156.32000000000002,
+      "end": 164.32000000000002,
+      "text": "to a TIG group in engineering firm and now focus on the site of Autodesk, top of different",
+      "words": []
+    },
+    {
+      "start": 164.32000000000002,
+      "end": 170.8,
+      "text": "infrastructure, cloud solutions and broader portfolio over to Kevin again.",
+      "words": []
+    },
+    {
+      "start": 172.64000000000001,
+      "end": 178.64000000000001,
+      "text": "So yeah, which company am I representing? I'm representing SBE. We're an independent",
+      "words": []
+    },
+    {
+      "start": 178.64000000000001,
+      "end": 185.36,
+      "text": "engineering design consultancy company. We are based in Cineclass in Lokeren, that's our headquarters,",
+      "words": []
+    },
+    {
+      "start": 185.36,
+      "end": 192.0,
+      "text": "but we also have offices in Naman, Rotterdam and Valencia to serve the clients in Belgium,",
+      "words": []
+    },
+    {
+      "start": 192.0,
+      "end": 198.08,
+      "text": "the Netherlands and in the northern piece of France. We have 35 years of experience at the moment",
+      "words": []
+    },
+    {
+      "start": 198.08,
+      "end": 204.0,
+      "text": "and I have around 300 colleagues and the goal of SBE really is to gather with the client to build",
+      "words": []
+    },
+    {
+      "start": 204.0,
+      "end": 211.76000000000002,
+      "text": "two marvellous worlds in a sustainable way. And as is last slide about SBE in which areas are",
+      "words": []
+    },
+    {
+      "start": 211.92,
+      "end": 217.35999999999999,
+      "text": "reactive so that you can place the tool that you're building and also the OOTL in which areas are",
+      "words": []
+    },
+    {
+      "start": 217.35999999999999,
+      "end": 222.79999999999998,
+      "text": "they popping up. So first of all civil engineering and infrastructure, so road design,",
+      "words": []
+    },
+    {
+      "start": 222.79999999999998,
+      "end": 228.79999999999998,
+      "text": "together with everything, sewage, also the tunnels and bridges that belong to civil engineering and",
+      "words": []
+    },
+    {
+      "start": 228.79999999999998,
+      "end": 236.0,
+      "text": "infrastructure. A second area that we're really focusing in is Pratt, Port, River and Hydraulic",
+      "words": []
+    },
+    {
+      "start": 236.0,
+      "end": 242.4,
+      "text": "Engineering, so especially logs, gables, dams, together with all mechanical equipment and steel",
+      "words": []
+    },
+    {
+      "start": 242.4,
+      "end": 248.56,
+      "text": "constructions that belong with it. And we also have a team that is covering urbanism and design",
+      "words": []
+    },
+    {
+      "start": 248.56,
+      "end": 256.96,
+      "text": "that is involved in the early design phases of a project. So now you know who we are and the",
+      "words": []
+    },
+    {
+      "start": 256.96,
+      "end": 262.8,
+      "text": "company that we're representing and the areas that we have a focus in. So the next step is what",
+      "words": []
+    },
+    {
+      "start": 262.8,
+      "end": 269.6,
+      "text": "was the question we received from Agenskapiegen Everkir and that was to deliver OOTL compliance.",
+      "words": []
+    },
+    {
+      "start": 269.6,
+      "end": 276.56,
+      "text": "So first of all OOTL, it's an object type library it is made by Agenskapiegen Everkir and actually",
+      "words": []
+    },
+    {
+      "start": 276.56,
+      "end": 281.68,
+      "text": "it is an inventory of all the assets that they own and that they need to maintain through the",
+      "words": []
+    },
+    {
+      "start": 281.68,
+      "end": 288.8,
+      "text": "complete lifecycle. And so main components that are really important are especially three. So",
+      "words": []
+    },
+    {
+      "start": 288.88,
+      "end": 296.16,
+      "text": "first of all the physical elements that you can see in a real world, like floor slab, a wall,",
+      "words": []
+    },
+    {
+      "start": 296.16,
+      "end": 301.76,
+      "text": "a lightning post and those things, those are called underdailing and further in the presentation",
+      "words": []
+    },
+    {
+      "start": 301.76,
+      "end": 309.68,
+      "text": "also mentioned as object types or classes. Then of course to be capable of doing asset management",
+      "words": []
+    },
+    {
+      "start": 309.68,
+      "end": 316.72,
+      "text": "in a good way, you need information, a set of properties that belong to a class and those properties",
+      "words": []
+    },
+    {
+      "start": 316.72,
+      "end": 324.64000000000004,
+      "text": "are called attributes or attributant by Agenskapiegen Everkir and then one key component is also",
+      "words": []
+    },
+    {
+      "start": 324.64000000000004,
+      "end": 330.64000000000004,
+      "text": "that they have relations, relases. The most important relation for SBE is that belong to",
+      "words": []
+    },
+    {
+      "start": 330.64000000000004,
+      "end": 339.04,
+      "text": "relationship or relation and actually that relation is grouping object types or classes to an",
+      "words": []
+    },
+    {
+      "start": 339.04,
+      "end": 344.48,
+      "text": "installation and I will give an example later on. Important to mention as well is that OOTL is",
+      "words": []
+    },
+    {
+      "start": 344.48,
+      "end": 352.48,
+      "text": "constantly improving and also that and by improving I mean it's doubled in size if you look at it",
+      "words": []
+    },
+    {
+      "start": 352.48,
+      "end": 360.32,
+      "text": "in 2022 and if you look at it at 2025. And the mandatory data in the native models is really limited.",
+      "words": []
+    },
+    {
+      "start": 361.12,
+      "end": 366.88,
+      "text": "You need to have the typeory or the class in your native models and also an asset ID identificator",
+      "words": []
+    },
+    {
+      "start": 367.68,
+      "end": 371.36,
+      "text": "and that is actually a GUIT, a global unique identifier.",
+      "words": []
+    },
+    {
+      "start": 375.04,
+      "end": 380.32,
+      "text": "An example of an installation it's a it's a bridge so the main installation the top level is a bridge.",
+      "words": []
+    },
+    {
+      "start": 380.32,
+      "end": 386.32,
+      "text": "It consists out of sub-installations it can be a bridge deck and a button and pillars and you can",
+      "words": []
+    },
+    {
+      "start": 386.32,
+      "end": 392.71999999999997,
+      "text": "divide them even in more sub-installations until you reach the bottom level the light gray boxes",
+      "words": []
+    },
+    {
+      "start": 392.72,
+      "end": 398.40000000000003,
+      "text": "actually that are the underdelen or the type duties and within the company we're modeling on",
+      "words": []
+    },
+    {
+      "start": 398.40000000000003,
+      "end": 405.6,
+      "text": "the level of the typeuries and we need to find a way to support the belongs to relation to group",
+      "words": []
+    },
+    {
+      "start": 405.6,
+      "end": 413.04,
+      "text": "those parts typeuries into installations and sub-installations. Also a visible example here of an",
+      "words": []
+    },
+    {
+      "start": 413.04,
+      "end": 418.96000000000004,
+      "text": "abutment can be found so we're really modeling the foundation slabs the walls the wing walls",
+      "words": []
+    },
+    {
+      "start": 418.96,
+      "end": 426.0,
+      "text": "consoles and then we need to be capable of grouping those elements into an installation or a sub-installation",
+      "words": []
+    },
+    {
+      "start": 426.0,
+      "end": 434.64,
+      "text": "in this case an abutment. So now at least we have the basics of the OTL and now we can go further",
+      "words": []
+    },
+    {
+      "start": 434.64,
+      "end": 440.79999999999995,
+      "text": "on how did we approach this question and yeah it all started in 2022 in the beginning we were",
+      "words": []
+    },
+    {
+      "start": 440.79999999999995,
+      "end": 446.79999999999995,
+      "text": "just following the the setup of OTL what was it containing how it was it how was it set up is",
+      "words": []
+    },
+    {
+      "start": 446.8,
+      "end": 452.48,
+      "text": "it following some standards or not and at some points projects were coming in that we needed to",
+      "words": []
+    },
+    {
+      "start": 452.48,
+      "end": 459.2,
+      "text": "deliver OTL compliance so from that moment on we were actively making some proof of concepts",
+      "words": []
+    },
+    {
+      "start": 459.76,
+      "end": 466.08000000000004,
+      "text": "and based on the proof of concepts we selected one and in 2023 we really started the development of",
+      "words": []
+    },
+    {
+      "start": 466.08000000000004,
+      "end": 473.52,
+      "text": "the tool we have today and that's the tool we're still maintaining and upgrading every year.",
+      "words": []
+    },
+    {
+      "start": 474.15999999999997,
+      "end": 480.88,
+      "text": "So the first step was actually the inventory it was analyzing data because yeah that is key",
+      "words": []
+    },
+    {
+      "start": 480.88,
+      "end": 487.44,
+      "text": "and a data is key in the complete OTL so we were comparing the data that we had in our models",
+      "words": []
+    },
+    {
+      "start": 487.44,
+      "end": 494.71999999999997,
+      "text": "with the data that was asked for by OTL and the first thing we saw was okay data was present in our",
+      "words": []
+    },
+    {
+      "start": 495.84,
+      "end": 502.15999999999997,
+      "text": "models at the moment as well as the fact that we already had naming conventions or we agreed upon",
+      "words": []
+    },
+    {
+      "start": 502.16,
+      "end": 508.16,
+      "text": "naming regarding the name of the properties or the attributes and the values of it so that were",
+      "words": []
+    },
+    {
+      "start": 508.16,
+      "end": 516.1600000000001,
+      "text": "already two key things key takeaways ways and then the third thing was that we also had a",
+      "words": []
+    },
+    {
+      "start": 516.1600000000001,
+      "end": 523.0400000000001,
+      "text": "property in our models that was the standard specifications standard bestec and that specification had",
+      "words": []
+    },
+    {
+      "start": 523.0400000000001,
+      "end": 530.1600000000001,
+      "text": "a relation a mapping with the OTL so also that was already an added value had or an advantage we had",
+      "words": []
+    },
+    {
+      "start": 530.8,
+      "end": 537.04,
+      "text": "but then if we were comparing the data that was asked in OTL with the data that we had in our models",
+      "words": []
+    },
+    {
+      "start": 537.04,
+      "end": 543.76,
+      "text": "we saw immediately that the data that we had was two general we had length we had area we had",
+      "words": []
+    },
+    {
+      "start": 544.3199999999999,
+      "end": 551.6,
+      "text": "volume and sometimes await but it was really generic over all the items we had in our models but",
+      "words": []
+    },
+    {
+      "start": 552.16,
+      "end": 557.28,
+      "text": "at that moment we realized that we needed to make a shift in how we were yeah",
+      "words": []
+    },
+    {
+      "start": 557.4399999999999,
+      "end": 563.6,
+      "text": "talking about data within the company we needed to make this shift to relevant object driven data",
+      "words": []
+    },
+    {
+      "start": 565.12,
+      "end": 572.56,
+      "text": "and after a while we decided to place relevant design data at the core of our enterprise",
+      "words": []
+    },
+    {
+      "start": 573.6,
+      "end": 581.12,
+      "text": "and that that data should be key in delivering all of our products models drawings and so",
+      "words": []
+    },
+    {
+      "start": 581.6,
+      "end": 588.24,
+      "text": "but also that that relevant design data is the key to start and design already with the digital",
+      "words": []
+    },
+    {
+      "start": 588.24,
+      "end": 595.84,
+      "text": "twins so actually with relevant design data we can already make a good start and design phases to",
+      "words": []
+    },
+    {
+      "start": 595.84,
+      "end": 602.64,
+      "text": "in the end deliver a digital twin so that was really the shift that we made from general data to",
+      "words": []
+    },
+    {
+      "start": 603.6,
+      "end": 607.6800000000001,
+      "text": "relevant design data to support a digital twin early on in the process",
+      "words": []
+    },
+    {
+      "start": 607.92,
+      "end": 614.9599999999999,
+      "text": "an example of that one is a foundation pile so in the beginning we had maybe some length and we had",
+      "words": []
+    },
+    {
+      "start": 614.9599999999999,
+      "end": 622.16,
+      "text": "a diameter and probably await but if you look at those families now we also have top level of",
+      "words": []
+    },
+    {
+      "start": 622.16,
+      "end": 627.4399999999999,
+      "text": "installation bottom of level bottom level of installation we have angles so we have way more",
+      "words": []
+    },
+    {
+      "start": 628.2399999999999,
+      "end": 634.24,
+      "text": "data in our models and also we took it one step further we were checking the complete",
+      "words": []
+    },
+    {
+      "start": 634.64,
+      "end": 639.2,
+      "text": "product that we needed to deliver in the end and also in our drawings we were showing",
+      "words": []
+    },
+    {
+      "start": 640.24,
+      "end": 645.28,
+      "text": "text fields but now those text fields are connected to properties within our model so everything",
+      "words": []
+    },
+    {
+      "start": 645.28,
+      "end": 652.24,
+      "text": "that we show and that we derive from the model starts from a property that is in our model so",
+      "words": []
+    },
+    {
+      "start": 652.24,
+      "end": 657.12,
+      "text": "the tables the tags everything is derived from data that is filled in our models",
+      "words": []
+    },
+    {
+      "start": 657.92,
+      "end": 666.48,
+      "text": "then once we did that we were checking the capabilities of the software packages we had in house",
+      "words": []
+    },
+    {
+      "start": 666.48,
+      "end": 672.32,
+      "text": "we have civil 3d we have rabbit inventor we have navisworks we have tecla and we were checking",
+      "words": []
+    },
+    {
+      "start": 672.32,
+      "end": 678.24,
+      "text": "how they were dealing with data first of all are they supporting a GUIT yes or no can they",
+      "words": []
+    },
+    {
+      "start": 678.24,
+      "end": 684.24,
+      "text": "support different property sets can they map attributes can you work with default values drop",
+      "words": []
+    },
+    {
+      "start": 684.24,
+      "end": 689.92,
+      "text": "downless all those those kind of things that is what we have checked for the different packages we",
+      "words": []
+    },
+    {
+      "start": 689.92,
+      "end": 696.4,
+      "text": "had in house but then we realized if we were developing on those software packages we needed to",
+      "words": []
+    },
+    {
+      "start": 696.4,
+      "end": 702.5600000000001,
+      "text": "do the implementation multiple times so we already had a common data environment present in our",
+      "words": []
+    },
+    {
+      "start": 702.5600000000001,
+      "end": 709.44,
+      "text": "company Autodesk forma or Autodesk construction cloud and then the next thing was let's check the",
+      "words": []
+    },
+    {
+      "start": 709.44,
+      "end": 715.2800000000001,
+      "text": "capabilities of Autodesk construction cloud together with Autodesk platform services of course",
+      "words": []
+    },
+    {
+      "start": 715.2800000000001,
+      "end": 720.96,
+      "text": "and we saw there that we could read model data immediately and that it was supporting different",
+      "words": []
+    },
+    {
+      "start": 720.96,
+      "end": 729.6800000000001,
+      "text": "data types as well as drop downless and default values and you can already guess this is the part",
+      "words": []
+    },
+    {
+      "start": 729.6800000000001,
+      "end": 737.44,
+      "text": "we took to go third in development and why did we do the development on our own because we had",
+      "words": []
+    },
+    {
+      "start": 737.44,
+      "end": 743.0400000000001,
+      "text": "already experienced in previous tooling we have an in house IT department that is really good in",
+      "words": []
+    },
+    {
+      "start": 743.0400000000001,
+      "end": 748.8000000000001,
+      "text": "databases and programming and we got support of management so we had time and budget",
+      "words": []
+    },
+    {
+      "start": 750.6400000000001,
+      "end": 757.44,
+      "text": "and the first step is yeah you receive an SQLite database that contains the definition of the",
+      "words": []
+    },
+    {
+      "start": 757.44,
+      "end": 765.6,
+      "text": "OOTL but it's just flat rough data and we need to visualize the data and how it's structured in models",
+      "words": []
+    },
+    {
+      "start": 765.6800000000001,
+      "end": 771.84,
+      "text": "in a way and that's why we built an installation parser to show the installations that we have",
+      "words": []
+    },
+    {
+      "start": 771.84,
+      "end": 781.0400000000001,
+      "text": "until you see the underdeal level or the type duties so that's the first check so really take flat data",
+      "words": []
+    },
+    {
+      "start": 781.0400000000001,
+      "end": 787.2,
+      "text": "and show it in another way so that we can understand it in a good way so that is the installation",
+      "words": []
+    },
+    {
+      "start": 787.2,
+      "end": 794.4,
+      "text": "parser that's the first thing we built then we had clear inputs we had structured design data",
+      "words": []
+    },
+    {
+      "start": 795.04,
+      "end": 801.12,
+      "text": "we have the typeory and asset idea that are present in our native models and our models were",
+      "words": []
+    },
+    {
+      "start": 801.12,
+      "end": 807.1999999999999,
+      "text": "located on Autodesk format then what did we want to do we want to be capable of",
+      "words": []
+    },
+    {
+      "start": 807.1999999999999,
+      "end": 814.24,
+      "text": "configurating which properties to read to set up a database a second step is we want to be",
+      "words": []
+    },
+    {
+      "start": 814.24,
+      "end": 820.0799999999999,
+      "text": "capable of loading mapping files that help us filling the other data fields automatically",
+      "words": []
+    },
+    {
+      "start": 820.08,
+      "end": 826.24,
+      "text": "and per project we needed to be capable of loading an OOTL definition so that are the setup",
+      "words": []
+    },
+    {
+      "start": 827.0400000000001,
+      "end": 832.8000000000001,
+      "text": "that we wanted to do and step by step we came until the process that is shown underneath so in the",
+      "words": []
+    },
+    {
+      "start": 832.8000000000001,
+      "end": 839.36,
+      "text": "center our SBE tool is there and our tool is first of all reading the models using APS that are",
+      "words": []
+    },
+    {
+      "start": 839.36,
+      "end": 848.6400000000001,
+      "text": "stored on Autodesk format based on the typeory our tool will read the SQLite database and it will",
+      "words": []
+    },
+    {
+      "start": 848.64,
+      "end": 854.16,
+      "text": "know which properties that to create the link between the model and the database is the asset",
+      "words": []
+    },
+    {
+      "start": 854.16,
+      "end": 861.76,
+      "text": "ID identifier the GUIT and in the next step by the use of the mapping files and the typeory",
+      "words": []
+    },
+    {
+      "start": 861.76,
+      "end": 869.04,
+      "text": "our tool knows where to find data in the models and where to fill it in the database as an end",
+      "words": []
+    },
+    {
+      "start": 869.04,
+      "end": 876.0,
+      "text": "deliverable to the client we can export the database to an xalasix or a csv file that we need to",
+      "words": []
+    },
+    {
+      "start": 876.0,
+      "end": 886.08,
+      "text": "deliver on a certain tool that against HOPVG in Everkir has made for us to show this a bit more",
+      "words": []
+    },
+    {
+      "start": 886.08,
+      "end": 893.44,
+      "text": "in depth so we receive an OOTL definition flat data second step is we have models located on",
+      "words": []
+    },
+    {
+      "start": 893.44,
+      "end": 901.12,
+      "text": "Autodesk format that contain relevant design data as well as the asset ID and the typeory based",
+      "words": []
+    },
+    {
+      "start": 901.12,
+      "end": 907.92,
+      "text": "on those things a database is created and in the end the database will be filled automatically",
+      "words": []
+    },
+    {
+      "start": 907.92,
+      "end": 916.16,
+      "text": "with model data by the use of the mapping files and then it will end up in our tool looking like this",
+      "words": []
+    },
+    {
+      "start": 916.16,
+      "end": 921.92,
+      "text": "so you have a viewer we can select objects on the left side you still see the model data that is",
+      "words": []
+    },
+    {
+      "start": 921.92,
+      "end": 929.92,
+      "text": "present and on the right side you see the data that is present in the database now the result",
+      "words": []
+    },
+    {
+      "start": 931.04,
+      "end": 938.9599999999999,
+      "text": "so first of all we need structured data and that is what we can show easily using Autodesk",
+      "words": []
+    },
+    {
+      "start": 938.9599999999999,
+      "end": 943.5999999999999,
+      "text": "format and model coordination and here we're visualizing the typeurities that are present",
+      "words": []
+    },
+    {
+      "start": 944.16,
+      "end": 948.16,
+      "text": "in our models so that we can check them so that's the first thing we do",
+      "words": []
+    },
+    {
+      "start": 948.88,
+      "end": 954.88,
+      "text": "second thing we can do is check if the relevant data is present in our models and that's also what",
+      "words": []
+    },
+    {
+      "start": 954.88,
+      "end": 961.68,
+      "text": "you can do with the table that is shown we can group our elements by the typeurity and then we can",
+      "words": []
+    },
+    {
+      "start": 961.68,
+      "end": 967.28,
+      "text": "also configure eight the properties or the attributes that we want to see we will zoom in on",
+      "words": []
+    },
+    {
+      "start": 967.28,
+      "end": 973.04,
+      "text": "the same foundation pile as before and there you will see that besides the diameter we also have",
+      "words": []
+    },
+    {
+      "start": 973.04,
+      "end": 979.68,
+      "text": "the top level the bottom level the standard stack code also material exposure clause and all",
+      "words": []
+    },
+    {
+      "start": 979.68,
+      "end": 988.64,
+      "text": "of those things so that is step number one then our tool the logging in and the permissions are",
+      "words": []
+    },
+    {
+      "start": 988.64,
+      "end": 996.56,
+      "text": "used from Autodesk format and APS by doing this we have the same authorizing process that people",
+      "words": []
+    },
+    {
+      "start": 996.56,
+      "end": 1001.8399999999999,
+      "text": "already know and also by the permissions you can all only see the projects that you have access to",
+      "words": []
+    },
+    {
+      "start": 1001.9200000000001,
+      "end": 1007.2,
+      "text": "and the models that you have access to that's yeah that's really a good thing so that you only",
+      "words": []
+    },
+    {
+      "start": 1007.2,
+      "end": 1015.6800000000001,
+      "text": "can work in the models that you need to work in or you may work in then you can hover over the hubs",
+      "words": []
+    },
+    {
+      "start": 1015.6800000000001,
+      "end": 1021.6800000000001,
+      "text": "and the folders and then you can see the models per model you can see the current version in ACC",
+      "words": []
+    },
+    {
+      "start": 1021.6800000000001,
+      "end": 1028.0,
+      "text": "the last modified version in the tool and you can configure it the properties that you want to use",
+      "words": []
+    },
+    {
+      "start": 1028.0,
+      "end": 1034.8,
+      "text": "as a typeurity and as an asset ID that is what you can configure it you can also attach an OCL",
+      "words": []
+    },
+    {
+      "start": 1034.8,
+      "end": 1041.44,
+      "text": "version to a model and you can also set a mapping file from the moment you open up a model now",
+      "words": []
+    },
+    {
+      "start": 1044.16,
+      "end": 1051.12,
+      "text": "you will see the viewer you can select elements and if you select an element immediately on the",
+      "words": []
+    },
+    {
+      "start": 1051.12,
+      "end": 1056.56,
+      "text": "right side now you see the database it's coming back a bit later but you can start with also",
+      "words": []
+    },
+    {
+      "start": 1056.56,
+      "end": 1062.72,
+      "text": "checking the model data that is present and beside the general data that we had in the past",
+      "words": []
+    },
+    {
+      "start": 1062.72,
+      "end": 1068.1599999999999,
+      "text": "so volume area and those things it's still present we also added the asset ID and the",
+      "words": []
+    },
+    {
+      "start": 1069.6799999999998,
+      "end": 1075.36,
+      "text": "the typeurity and also all the other relevant design data like Anzad Pale, Afka Pale",
+      "words": []
+    },
+    {
+      "start": 1076.1599999999999,
+      "end": 1082.08,
+      "text": "and then some forces and so on and so on so that is really you can check model data and",
+      "words": []
+    },
+    {
+      "start": 1082.1599999999999,
+      "end": 1086.1599999999999,
+      "text": "this and then the data that is present in the database at the same time here you see the",
+      "words": []
+    },
+    {
+      "start": 1087.12,
+      "end": 1093.76,
+      "text": "asset ID and the typeurity and now we will go over to the data that is visible reading or coming",
+      "words": []
+    },
+    {
+      "start": 1093.76,
+      "end": 1100.32,
+      "text": "from our database and there you see that already a lot of data is pre-filled by using the mapping",
+      "words": []
+    },
+    {
+      "start": 1100.32,
+      "end": 1106.0,
+      "text": "file and reading relevant design data and filling it in the right attributes so also the type",
+      "words": []
+    },
+    {
+      "start": 1106.08,
+      "end": 1115.76,
+      "text": "of the asset ID is present and all of those things so to conclude or to summarize the verification",
+      "words": []
+    },
+    {
+      "start": 1115.76,
+      "end": 1121.52,
+      "text": "and the permissions are reused from Autodesk Forma we can check which version is the last one on",
+      "words": []
+    },
+    {
+      "start": 1121.52,
+      "end": 1127.28,
+      "text": "Forma and compare it with the version that our tool head run we can set mapping and yeah that",
+      "words": []
+    },
+    {
+      "start": 1127.28,
+      "end": 1132.56,
+      "text": "are the main things we wanted to show then of course filling data is one thing but you need to",
+      "words": []
+    },
+    {
+      "start": 1132.56,
+      "end": 1137.84,
+      "text": "maintain data and other project phases as well and that is of course the next step.",
+      "words": []
+    },
+    {
+      "start": 1138.8799999999999,
+      "end": 1148.0,
+      "text": "Here you can see that we can check data based on the typeurities that are present and that we",
+      "words": []
+    },
+    {
+      "start": 1148.0,
+      "end": 1154.6399999999999,
+      "text": "can build tables as we want we can configure it tables as we want and show the attributes that we",
+      "words": []
+    },
+    {
+      "start": 1154.6399999999999,
+      "end": 1160.8,
+      "text": "want. Here we are again looking at foundation pile we can set the columns that we want to see",
+      "words": []
+    },
+    {
+      "start": 1160.8799999999999,
+      "end": 1166.6399999999999,
+      "text": "or that we want to change or that we want to check or fill. In this exercise we will just fill in",
+      "words": []
+    },
+    {
+      "start": 1166.6399999999999,
+      "end": 1171.6,
+      "text": "the date that the element has been built and you can see that once we have filled it for one",
+      "words": []
+    },
+    {
+      "start": 1171.6,
+      "end": 1178.3999999999999,
+      "text": "element it can be pushed to all elements that are visible in this table and that is what is",
+      "words": []
+    },
+    {
+      "start": 1178.3999999999999,
+      "end": 1184.0,
+      "text": "happening at the moment so you see the same properties that I mentioned before in the presentation",
+      "words": []
+    },
+    {
+      "start": 1184.0,
+      "end": 1189.84,
+      "text": "but now we are setting a date and that date will be pushed all over the elements that are visible",
+      "words": []
+    },
+    {
+      "start": 1189.9199999999998,
+      "end": 1197.6799999999998,
+      "text": "in this table so that is how you can maintain and fill data in bulk or for more than one element",
+      "words": []
+    },
+    {
+      "start": 1197.6799999999998,
+      "end": 1205.28,
+      "text": "at the same time and then yeah now we can see that the data the date is filled for the complete",
+      "words": []
+    },
+    {
+      "start": 1205.28,
+      "end": 1211.76,
+      "text": "list of elements. If you go back to the model we can also visualize the installations so the",
+      "words": []
+    },
+    {
+      "start": 1211.76,
+      "end": 1217.9199999999998,
+      "text": "grouping of the elements and also for those installations we can fill data in the same way so now we",
+      "words": []
+    },
+    {
+      "start": 1217.92,
+      "end": 1223.76,
+      "text": "see installation of a abutment one we see the sub installation of abutment two and we see the",
+      "words": []
+    },
+    {
+      "start": 1223.76,
+      "end": 1231.2,
+      "text": "installation of the bridge deck and now we see the complete installation bridge. As a last thing we",
+      "words": []
+    },
+    {
+      "start": 1231.2,
+      "end": 1238.5600000000002,
+      "text": "can also fill and maintain data for elements separately and it's just by showing the properties",
+      "words": []
+    },
+    {
+      "start": 1238.56,
+      "end": 1248.24,
+      "text": "or the attributes filling it in and saving it. So to conclude on the previous movie we can",
+      "words": []
+    },
+    {
+      "start": 1248.24,
+      "end": 1255.36,
+      "text": "visualize data in tables we can filter on typeuries we can configure those and that's about it.",
+      "words": []
+    },
+    {
+      "start": 1256.8799999999999,
+      "end": 1263.2,
+      "text": "Then to conclude on the tooling on my part what are the consequences of the choices we made so now",
+      "words": []
+    },
+    {
+      "start": 1263.2,
+      "end": 1268.88,
+      "text": "we have relevant and better data we can take decisions faster and earlier in the design and the",
+      "words": []
+    },
+    {
+      "start": 1268.88,
+      "end": 1278.48,
+      "text": "results are way more reliable. The data is at the core of our enterprise and it's derived and used",
+      "words": []
+    },
+    {
+      "start": 1278.48,
+      "end": 1284.48,
+      "text": "in all other workflows but that's really the center so we can now trace everything back and we",
+      "words": []
+    },
+    {
+      "start": 1284.48,
+      "end": 1290.88,
+      "text": "can reduce our risks. By the fact that we have standardized a lot of things we can automate",
+      "words": []
+    },
+    {
+      "start": 1290.96,
+      "end": 1300.4,
+      "text": "now things and we are ready to use a start using AI and by getting to know APIs we see more and more",
+      "words": []
+    },
+    {
+      "start": 1300.4,
+      "end": 1308.3200000000002,
+      "text": "capabilities for the future and by the fact that our department is really setting some standards",
+      "words": []
+    },
+    {
+      "start": 1308.3200000000002,
+      "end": 1313.68,
+      "text": "also other teams within the company now see some possibilities of working further on that one.",
+      "words": []
+    },
+    {
+      "start": 1314.3200000000002,
+      "end": 1321.44,
+      "text": "And now I would really like Jan to take the stage to tell us a bit more about the steps that you",
+      "words": []
+    },
+    {
+      "start": 1321.44,
+      "end": 1330.8,
+      "text": "are going to take in the upcoming months and years. So the what's next for SBA and also out of",
+      "words": []
+    },
+    {
+      "start": 1330.8,
+      "end": 1336.4,
+      "text": "the disk of course. If you look to the what's next we speak about platform vision which is a shared",
+      "words": []
+    },
+    {
+      "start": 1336.4,
+      "end": 1341.92,
+      "text": "vision between SBA and out of the disk. What we see on the left side of the project project",
+      "words": []
+    },
+    {
+      "start": 1341.92,
+      "end": 1347.3600000000001,
+      "text": "the pie chain is going from concept design to handover. We speak about validated data,",
+      "words": []
+    },
+    {
+      "start": 1347.3600000000001,
+      "end": 1353.52,
+      "text": "accurate model and always keeping control which also mentioned by Kevin earlier in the presentation.",
+      "words": []
+    },
+    {
+      "start": 1353.52,
+      "end": 1360.4,
+      "text": "We spoke already a lot about object type library from AWV and it's always about structures and",
+      "words": []
+    },
+    {
+      "start": 1360.4,
+      "end": 1367.92,
+      "text": "classified data as it's information requirements and data enrichment. On the right side of the screen",
+      "words": []
+    },
+    {
+      "start": 1367.92,
+      "end": 1374.0,
+      "text": "we see the operations part. At the middle of the screen we see the data data layer.",
+      "words": []
+    },
+    {
+      "start": 1374.72,
+      "end": 1380.5600000000002,
+      "text": "On the right side we see operations with different systems where profiles for example",
+      "words": []
+    },
+    {
+      "start": 1380.5600000000002,
+      "end": 1388.0,
+      "text": "nest manager will view the data from their preferred digital twin application or other profiles",
+      "words": []
+    },
+    {
+      "start": 1388.0,
+      "end": 1396.4,
+      "text": "with other applications. If we go once the forward we see okay good data layer in",
+      "words": []
+    },
+    {
+      "start": 1396.4,
+      "end": 1402.8000000000002,
+      "text": "and data can go from the concept design until the operations and maintenance phase with at the",
+      "words": []
+    },
+    {
+      "start": 1402.8000000000002,
+      "end": 1410.4,
+      "text": "front end format. How we see it again as out of the disk and SBA we believe in the flow from",
+      "words": []
+    },
+    {
+      "start": 1411.0400000000002,
+      "end": 1417.6000000000001,
+      "text": "into the operations phase starting from the concept design phase. We demonstrated here today with",
+      "words": []
+    },
+    {
+      "start": 1417.6000000000001,
+      "end": 1423.92,
+      "text": "a few examples. So we have the enriched engineering data starting again there from the concept",
+      "words": []
+    },
+    {
+      "start": 1424.3200000000002,
+      "end": 1433.04,
+      "text": "design phase. We have for complex infrastructure projects for the for infrastructure and we have",
+      "words": []
+    },
+    {
+      "start": 1433.04,
+      "end": 1438.5600000000002,
+      "text": "the infrastructure digital twin starting from the design phase where SBA did already some",
+      "words": []
+    },
+    {
+      "start": 1438.5600000000002,
+      "end": 1447.28,
+      "text": "box before this presentation and we take you to in this presentation to the what's next phase.",
+      "words": []
+    },
+    {
+      "start": 1447.6,
+      "end": 1456.16,
+      "text": "But first in depth the landscape the technology landscape where we see at point one the classification",
+      "words": []
+    },
+    {
+      "start": 1456.8,
+      "end": 1463.92,
+      "text": "standards. The data data class library brings us structures to otherwise chaotic design processes.",
+      "words": []
+    },
+    {
+      "start": 1463.92,
+      "end": 1470.0,
+      "text": "It's more than only unique laws we saw already today also the object type library. Then the second",
+      "words": []
+    },
+    {
+      "start": 1470.0,
+      "end": 1475.68,
+      "text": "one is the classification standards visibly in outtering environments so the interaction with",
+      "words": []
+    },
+    {
+      "start": 1475.68,
+      "end": 1482.48,
+      "text": "design tools. If we then look to take them use of course a ps format data management integration",
+      "words": []
+    },
+    {
+      "start": 1482.48,
+      "end": 1490.24,
+      "text": "to visualize a graphical model data associated with non graphical asset data. And of course we are",
+      "words": []
+    },
+    {
+      "start": 1490.24,
+      "end": 1495.8400000000001,
+      "text": "an open platform in an auto desk where we have some interaction with third party applications as well",
+      "words": []
+    },
+    {
+      "start": 1495.8400000000001,
+      "end": 1501.6000000000001,
+      "text": "so we can integrate with our link and reference to many third party data sources as well.",
+      "words": []
+    },
+    {
+      "start": 1502.1599999999999,
+      "end": 1506.8799999999999,
+      "text": "It's all about improved data audits and enforce classification standards of course and",
+      "words": []
+    },
+    {
+      "start": 1506.8799999999999,
+      "end": 1514.3999999999999,
+      "text": "report internally about the projects but also externally about the projects. If we then look a little",
+      "words": []
+    },
+    {
+      "start": 1514.3999999999999,
+      "end": 1519.28,
+      "text": "bit further to a typical workhorse of a connected data platform you see it here all on the screen.",
+      "words": []
+    },
+    {
+      "start": 1519.28,
+      "end": 1525.9199999999998,
+      "text": "It's all about specify create validate deliver and consume. We show it with a specific examples",
+      "words": []
+    },
+    {
+      "start": 1525.92,
+      "end": 1533.1200000000001,
+      "text": "which we mentioned earlier here in the presentation. If we look to the enrich engineering data via the",
+      "words": []
+    },
+    {
+      "start": 1533.1200000000001,
+      "end": 1540.5600000000002,
+      "text": "I say data model we have a small video here where we start inside civil treaty. This is a",
+      "words": []
+    },
+    {
+      "start": 1540.5600000000002,
+      "end": 1548.16,
+      "text": "data set coming from AWV where we see okay goods we have an object and object information of course",
+      "words": []
+    },
+    {
+      "start": 1548.16,
+      "end": 1555.04,
+      "text": "all ready in civility we have there the parameters where we can put it in civility but we can",
+      "words": []
+    },
+    {
+      "start": 1555.04,
+      "end": 1561.52,
+      "text": "put it also via extra parameters or directly to the parameters from civil treaty some extra data",
+      "words": []
+    },
+    {
+      "start": 1561.52,
+      "end": 1567.84,
+      "text": "in model coordination earlier also showed by Kevin because they are already busy with it inside",
+      "words": []
+    },
+    {
+      "start": 1567.84,
+      "end": 1576.32,
+      "text": "SB. We see again their demand hall coverage have the parameter data there and add some extra",
+      "words": []
+    },
+    {
+      "start": 1576.32,
+      "end": 1583.04,
+      "text": "parameters there as well. You can check the data which we also already saw also in civil treaty",
+      "words": []
+    },
+    {
+      "start": 1583.68,
+      "end": 1592.8,
+      "text": "add some extra parameters you have there the p is data installed and the ps status objects",
+      "words": []
+    },
+    {
+      "start": 1593.52,
+      "end": 1599.84,
+      "text": "where we have also of course the integrated viewers where we can check it for the whole project via",
+      "words": []
+    },
+    {
+      "start": 1599.84,
+      "end": 1606.8799999999999,
+      "text": "color coding where we have the red one the orange one and the green one because then you have",
+      "words": []
+    },
+    {
+      "start": 1606.88,
+      "end": 1615.44,
+      "text": "of course an overview directly in one field. Check okay goods this one is already complete so we",
+      "words": []
+    },
+    {
+      "start": 1615.44,
+      "end": 1625.8400000000001,
+      "text": "have it in green and of course we can export also this data or link it to a data layer which is",
+      "words": []
+    },
+    {
+      "start": 1627.6000000000001,
+      "end": 1633.6000000000001,
+      "text": "datum if we stop the second here in this case is a cake with we have here of course the check",
+      "words": []
+    },
+    {
+      "start": 1633.6,
+      "end": 1639.6799999999998,
+      "text": "from the attribute data coming out of the model civil treaty model but also out of model",
+      "words": []
+    },
+    {
+      "start": 1639.6799999999998,
+      "end": 1646.9599999999998,
+      "text": "cardination and the check that we do here in datum is the check with the class library",
+      "words": []
+    },
+    {
+      "start": 1646.9599999999998,
+      "end": 1653.1999999999998,
+      "text": "they are coming from a wv of course that's what we see later on where we see have also the change",
+      "words": []
+    },
+    {
+      "start": 1653.1999999999998,
+      "end": 1659.28,
+      "text": "lock of course data is coming from civil treaty data is coming from model coordination and it's",
+      "words": []
+    },
+    {
+      "start": 1659.52,
+      "end": 1671.04,
+      "text": "directional of course if we then go to the specific view inside datum so it was before pim360",
+      "words": []
+    },
+    {
+      "start": 1671.04,
+      "end": 1677.92,
+      "text": "we see it here on the left side the active tech counts is the of course the number of critical",
+      "words": []
+    },
+    {
+      "start": 1677.92,
+      "end": 1683.92,
+      "text": "assets that we will follow during this specific project and then we see the populated attributes so",
+      "words": []
+    },
+    {
+      "start": 1684.0,
+      "end": 1691.3600000000001,
+      "text": "that's the asset data which is already complete so the attribute data which is already complete",
+      "words": []
+    },
+    {
+      "start": 1691.3600000000001,
+      "end": 1697.3600000000001,
+      "text": "and then the requested attributes so when that total of the populated attributes and the required",
+      "words": []
+    },
+    {
+      "start": 1697.3600000000001,
+      "end": 1704.72,
+      "text": "attributes is the same we have every needed information for the project at the bottom of the",
+      "words": []
+    },
+    {
+      "start": 1704.72,
+      "end": 1709.52,
+      "text": "screen we see here this discipline progress by stage where we see your cake goods we have there",
+      "words": []
+    },
+    {
+      "start": 1709.6,
+      "end": 1715.36,
+      "text": "the tech names so the the critical assets and see the completeness of all the information in the",
+      "words": []
+    },
+    {
+      "start": 1716.0,
+      "end": 1724.08,
+      "text": "different stages from the project so we see it in a percentage here on the screen and of course",
+      "words": []
+    },
+    {
+      "start": 1724.08,
+      "end": 1732.08,
+      "text": "we have also some dashboarding at the top where we can make our own dashboards in this case it's",
+      "words": []
+    },
+    {
+      "start": 1732.08,
+      "end": 1741.12,
+      "text": "displayed by stage again and as contacter you will know which information was already complete",
+      "words": []
+    },
+    {
+      "start": 1741.12,
+      "end": 1748.72,
+      "text": "in which phase of course so this is an overview that you have inside a datum if we then look to the",
+      "words": []
+    },
+    {
+      "start": 1749.28,
+      "end": 1755.84,
+      "text": "second example for the future we created already a box together with sba for",
+      "words": []
+    },
+    {
+      "start": 1756.8,
+      "end": 1764.08,
+      "text": "yeah for the for infrastructure to control I have control over complex projects of course but",
+      "words": []
+    },
+    {
+      "start": 1764.08,
+      "end": 1768.8799999999999,
+      "text": "you see here on the screen is on the left side the cake which we have the the planning so the",
+      "words": []
+    },
+    {
+      "start": 1768.8799999999999,
+      "end": 1775.84,
+      "text": "schedule coming from MS project we see it directly in in forma and then on the right side we see a",
+      "words": []
+    },
+    {
+      "start": 1775.84,
+      "end": 1783.1999999999998,
+      "text": "screen of yeah the assets with the assets color as well you see the orange one the green ones and",
+      "words": []
+    },
+    {
+      "start": 1783.2,
+      "end": 1789.28,
+      "text": "all that kind of stuff and of course also the relationship between the schedule and the specific",
+      "words": []
+    },
+    {
+      "start": 1789.28,
+      "end": 1798.32,
+      "text": "assets and other references we can link as well of course but if we then go a little bit further",
+      "words": []
+    },
+    {
+      "start": 1799.1200000000001,
+      "end": 1805.1200000000001,
+      "text": "which is very handy also for project managers it's just have an overview and a power BI dashboard",
+      "words": []
+    },
+    {
+      "start": 1805.1200000000001,
+      "end": 1810.4,
+      "text": "that's also what we see here the data is coming from out this format where you see at the",
+      "words": []
+    },
+    {
+      "start": 1810.4,
+      "end": 1817.44,
+      "text": "button of this screen the planning coming from the schedule out of MS project out of the schedule",
+      "words": []
+    },
+    {
+      "start": 1817.44,
+      "end": 1824.4,
+      "text": "module in from our build what we see more as a cake we have a focus on the bridge tech as well",
+      "words": []
+    },
+    {
+      "start": 1824.96,
+      "end": 1831.76,
+      "text": "where we see also highlighted here in the viewer specific bridge tech and highlighted it is of",
+      "words": []
+    },
+    {
+      "start": 1831.76,
+      "end": 1837.3600000000001,
+      "text": "course the planning rule that we see here and also here we see the link with the specific assets",
+      "words": []
+    },
+    {
+      "start": 1837.52,
+      "end": 1843.28,
+      "text": "with the information coming from a desert it can be photos it can be something else but the project",
+      "words": []
+    },
+    {
+      "start": 1843.28,
+      "end": 1850.4799999999998,
+      "text": "managers can see it in one view you can also integrate this power BI dashboard directly in forma of",
+      "words": []
+    },
+    {
+      "start": 1850.4799999999998,
+      "end": 1857.84,
+      "text": "course if we then go a little bit further is a key goods to digital twin story is already started at",
+      "words": []
+    },
+    {
+      "start": 1857.84,
+      "end": 1865.36,
+      "text": "SBA and this case we show another book starting for digital twin where we can start with the digital",
+      "words": []
+    },
+    {
+      "start": 1865.36,
+      "end": 1872.08,
+      "text": "twin already from the design phase so we use the design data and the models of course where we show",
+      "words": []
+    },
+    {
+      "start": 1872.08,
+      "end": 1878.24,
+      "text": "a light later on here in the presentation in the next slides an example with IoT connections",
+      "words": []
+    },
+    {
+      "start": 1879.4399999999998,
+      "end": 1886.7199999999998,
+      "text": "we can have of course a link directly with forma so we can link tandem again they're also with",
+      "words": []
+    },
+    {
+      "start": 1886.72,
+      "end": 1894.48,
+      "text": "forma and make some specific dashboards so then we can yeah after that we can hand over all the",
+      "words": []
+    },
+    {
+      "start": 1894.48,
+      "end": 1903.28,
+      "text": "needed information of course to the own if we start down the small video here so it's about SBA",
+      "words": []
+    },
+    {
+      "start": 1903.28,
+      "end": 1909.28,
+      "text": "and out of this data driven of course if we then see okay good we start here directly in out of",
+      "words": []
+    },
+    {
+      "start": 1909.28,
+      "end": 1915.2,
+      "text": "this build where we see okay good the specific assets with all the references in this case a",
+      "words": []
+    },
+    {
+      "start": 1915.2,
+      "end": 1922.0800000000002,
+      "text": "relationship with the schedule then we have always access to the latest project data also for",
+      "words": []
+    },
+    {
+      "start": 1922.0800000000002,
+      "end": 1928.4,
+      "text": "the project managers in dashboards and this is the part about IoT connections where we make a",
+      "words": []
+    },
+    {
+      "start": 1928.4,
+      "end": 1936.88,
+      "text": "connection via API from yeah some weathered data coming from an external party link it to a sensor",
+      "words": []
+    },
+    {
+      "start": 1936.88,
+      "end": 1942.32,
+      "text": "data where we see it the sensor data on the right side with some values also about temperature",
+      "words": []
+    },
+    {
+      "start": 1943.04,
+      "end": 1948.48,
+      "text": "the stuff that you see there on the right side and you have also incomes and rows and of course",
+      "words": []
+    },
+    {
+      "start": 1948.48,
+      "end": 1955.6799999999998,
+      "text": "some charts as well if we then click a little bit further also you have of course their complete",
+      "words": []
+    },
+    {
+      "start": 1955.6799999999998,
+      "end": 1963.84,
+      "text": "the dashboards where you can link then them also with the data layer date then and overback to Kevin",
+      "words": []
+    },
+    {
+      "start": 1964.3999999999999,
+      "end": 1970.8,
+      "text": "thank you Jan yeah so to conclude and to finalize this class I think yeah we try to come up with a",
+      "words": []
+    },
+    {
+      "start": 1970.8,
+      "end": 1977.04,
+      "text": "quote and I think this was really cutting the essence of what we did during the journey at SBE",
+      "words": []
+    },
+    {
+      "start": 1978.08,
+      "end": 1982.72,
+      "text": "but yeah only having data is not enough but it's really yeah I need to have a certain mindset of it",
+      "words": []
+    },
+    {
+      "start": 1982.72,
+      "end": 1988.8799999999999,
+      "text": "and if you have a good mindset about data then relevant design data can we really a foundation",
+      "words": []
+    },
+    {
+      "start": 1988.8799999999999,
+      "end": 1993.68,
+      "text": "for a successful project we really believe in that and we see a project by project that at that",
+      "words": []
+    },
+    {
+      "start": 1994.4,
+      "end": 2001.68,
+      "text": "that we are growing into that one and that's really a key essence for us so thanks for following and",
+      "words": []
+    },
+    {
+      "start": 2004.16,
+      "end": 2006.16,
+      "text": "that was our class",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:33:57.701709+00:00"
+}

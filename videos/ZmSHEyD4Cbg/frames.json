@@ -1,0 +1,295 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\ZmSHEyD4Cbg\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "This slide discusses becoming a 'superhero' on the construction site with MCP, presented by Autodesk DevCon.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "Become a superhero on the construction site with MCP"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\ZmSHEyD4Cbg\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide with a reference to Autodesk DevCon, featuring a split screen of a person presenting and a holographic interface demo from a fictional setting.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Create a project",
+        "Manage access rights"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\ZmSHEyD4Cbg\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows an augmented reality interface with options for project creation, design editing, and visualization alongside a car model.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Create a project",
+        "Manage access rights",
+        "Edit the design",
+        "Explore design options",
+        "Augmented reality visualization",
+        "Voice interface"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\ZmSHEyD4Cbg\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "The video frame shows a presentation slide featuring a person and imagery from a superhero film. The event seems to be related to Autodesk DevCon.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\ZmSHEyD4Cbg\\frames\\frame_000005.jpg",
+      "timestamp_seconds": 120.0,
+      "frame_index": 5,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide from Autodesk DevCon showing a mix of a superhero image with various project management options.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Create a project",
+        "Manage access rights",
+        "Edit the design",
+        "Explore design options",
+        "Augmented reality visualization",
+        "Voice interface",
+        "Custom business logic"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\ZmSHEyD4Cbg\\frames\\frame_000006.jpg",
+      "timestamp_seconds": 150.0,
+      "frame_index": 6,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide promotes becoming a superhero on the construction site, featuring Piotr Kruczkowski and Dustin Bolte from Autodesk and Heijmans respectively.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Become a superhero on the construction site"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\ZmSHEyD4Cbg\\frames\\frame_000008.jpg",
+      "timestamp_seconds": 210.0,
+      "frame_index": 8,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide discussing 'Building Autonomous Software' with points on Iron Man suits, automation sliders, and new user experiences.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Iron Man Suits",
+        "Automation Slider",
+        "New User Experience"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\ZmSHEyD4Cbg\\frames\\frame_000014.jpg",
+      "timestamp_seconds": 390.0,
+      "frame_index": 14,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing details about the JARVIS Mark 1 project with components like Microsoft Copilot Studio and Custom MCP Servers, discussed at Autodesk DevCon.",
+      "products_visible": [
+        "Autodesk Platform Services",
+        "Microsoft Teams",
+        "Microsoft Copilot Studio",
+        "Azure Container Apps"
+      ],
+      "ui_elements": [
+        "Agent Orchestrator",
+        "Admin Agent",
+        "Issues Agent",
+        "Forms Agent",
+        "Custom MCP Servers",
+        "Admin MCP Server",
+        "Issues MCP Server",
+        "Forms MCP Server",
+        "Assets MCP Server"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\ZmSHEyD4Cbg\\frames\\frame_000018.jpg",
+      "timestamp_seconds": 510.0,
+      "frame_index": 18,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide from Autodesk DevCon titled 'The traditional way of automating' showing a comic strip about automation.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\ZmSHEyD4Cbg\\frames\\frame_000021.jpg",
+      "timestamp_seconds": 600.0,
+      "frame_index": 21,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide from Autodesk DevCon featuring a comic strip about using tools for automation, ending with 'Great Success!'.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\ZmSHEyD4Cbg\\frames\\frame_000022.jpg",
+      "timestamp_seconds": 630.0,
+      "frame_index": 22,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses task-oriented MCP servers with a comic-style illustration and text explaining the use of these servers.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Task-oriented MCP Servers",
+        "Great Success!",
+        "All Forms are created"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\ZmSHEyD4Cbg\\frames\\frame_000023.jpg",
+      "timestamp_seconds": 660.0,
+      "frame_index": 23,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses workflow-oriented MCP Servers, featuring graphics and a comic-style illustration.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "M.C.P. Server",
+        "Workflow-oriented MCP Servers",
+        "Great Succes!",
+        "All Forms are created"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\ZmSHEyD4Cbg\\frames\\frame_000025.jpg",
+      "timestamp_seconds": 720.0,
+      "frame_index": 25,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon discussing bringing technology to domain experts, featuring a cartoon graphic and a note about speeding up form creation.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "M.C.P. SERVER",
+        "Great Success!",
+        "5 Minutes",
+        "x200 Speed Up"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\ZmSHEyD4Cbg\\frames\\frame_000026.jpg",
+      "timestamp_seconds": 750.0,
+      "frame_index": 26,
+      "category": "ui",
+      "keep": true,
+      "description": "A user interface screen from Autodesk is shown, focusing on form management with various options in the sidebar.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Formulieren",
+        "Templates",
+        "Formulier maken",
+        "Startpagina",
+        "Bouwtekeningen",
+        "Bestand"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\ZmSHEyD4Cbg\\frames\\frame_000028.jpg",
+      "timestamp_seconds": 810.0,
+      "frame_index": 28,
+      "category": "demo",
+      "keep": true,
+      "description": "A speaker is presenting a data table from a spreadsheet at an Autodesk DevCon event.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Project_Id",
+        "Asset_Id",
+        "Asset_Name",
+        "Asset_Category",
+        "Asset_Status",
+        "Template_Id",
+        "Label_Name",
+        "Form_Name"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\ZmSHEyD4Cbg\\frames\\frame_000042.jpg",
+      "timestamp_seconds": 1230.0,
+      "frame_index": 42,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide shows a 'Value Enabling Technology Stack' diagram with various layers of technology infrastructure.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Value",
+        "Workflows and Processes",
+        "Applications and AI Agents",
+        "APIs and MCPs",
+        "Enterprise Data"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\ZmSHEyD4Cbg\\frames\\frame_000056.jpg",
+      "timestamp_seconds": 1650.0,
+      "frame_index": 56,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'Upskilling on Agentic AI DevOps' discusses new capabilities in Agentic AI DevOps, including planning, design, and optimization.",
+      "products_visible": [
+        "AUTODESK",
+        "Agentic AI DevOps"
+      ],
+      "ui_elements": [
+        "Engagement Evolution",
+        "Heijmans Enablement",
+        "Agentic AI DevOps"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:38:29.863616+00:00"
+}

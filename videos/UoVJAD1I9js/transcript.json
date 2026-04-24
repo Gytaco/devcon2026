@@ -1,0 +1,1381 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 9.040000000000001,
+      "text": "Hi everyone. Welcome to our presentation about how to get from plans and point clouds to",
+      "words": []
+    },
+    {
+      "start": 9.040000000000001,
+      "end": 14.48,
+      "text": "have already reached wins with APS and ACC.",
+      "words": []
+    },
+    {
+      "start": 16.96,
+      "end": 23.04,
+      "text": "Here is our team. This is our program.",
+      "words": []
+    },
+    {
+      "start": 23.04,
+      "end": 29.48,
+      "text": "And let's start with introduction. My name is Martin. I'm founder and managing director",
+      "words": []
+    },
+    {
+      "start": 29.48,
+      "end": 37.4,
+      "text": "at IOLabs. I'm expert in digital planning and implementation of complex projects and customer",
+      "words": []
+    },
+    {
+      "start": 37.4,
+      "end": 42.6,
+      "text": "requirements. I'm also teaching as a doctor at Hoxheul, Zeren in Switzerland.",
+      "words": []
+    },
+    {
+      "start": 47.56,
+      "end": 56.84,
+      "text": "We are a team of 15 specialists on the 2018 and we focus on custom software for architecture",
+      "words": []
+    },
+    {
+      "start": 56.84,
+      "end": 64.76,
+      "text": "engineering and construction and programmatic data management. Everything we do based on our",
+      "words": []
+    },
+    {
+      "start": 64.76,
+      "end": 73.32000000000001,
+      "text": "proprietary IOL framework called IOL framework and we have also one another proprietary solution",
+      "words": []
+    },
+    {
+      "start": 73.32000000000001,
+      "end": 80.68,
+      "text": "called IO-Sync which works perfectly for data management programmatic data management operations.",
+      "words": []
+    },
+    {
+      "start": 81.08000000000001,
+      "end": 91.72000000000001,
+      "text": "We are certified Autodesk forage or APS partners since many years. I think it was 2018 already.",
+      "words": []
+    },
+    {
+      "start": 91.72000000000001,
+      "end": 96.2,
+      "text": "We are as certified system integrator and of course Siemens partner.",
+      "words": []
+    },
+    {
+      "start": 96.84,
+      "end": 111.4,
+      "text": "As I said, our three main fields of our activities are custom software development for architecture",
+      "words": []
+    },
+    {
+      "start": 111.4,
+      "end": 119.24000000000001,
+      "text": "engineering and construction. We work closely in GIS, BIM and digital twin field and we focus on",
+      "words": []
+    },
+    {
+      "start": 119.24000000000001,
+      "end": 125.24000000000001,
+      "text": "programmatic data management with IOLsync. Hello. My name is Aros Laptaini\u010dek. I'm chief",
+      "words": []
+    },
+    {
+      "start": 125.24,
+      "end": 134.84,
+      "text": "production officer at ILOPS AG and I'm in charge of delivering the IOM product. I also",
+      "words": []
+    },
+    {
+      "start": 134.84,
+      "end": 145.07999999999998,
+      "text": "actively participate on its development and I work in ILOPS since 2020 and I'm also working with",
+      "words": []
+    },
+    {
+      "start": 145.08,
+      "end": 154.60000000000002,
+      "text": "the Autodesk APS since 2016. I'm just taking that word. Hello. Sven Eichshapka speaking here.",
+      "words": []
+    },
+    {
+      "start": 154.60000000000002,
+      "end": 164.04000000000002,
+      "text": "I'm from the Oksalja Westcom group and Autodesk Platinum partner. Over 25 years in the BIM space,",
+      "words": []
+    },
+    {
+      "start": 164.04000000000002,
+      "end": 171.64000000000001,
+      "text": "over 10 years in research looking at early AI applications, process engineering and also BIM",
+      "words": []
+    },
+    {
+      "start": 171.72,
+      "end": 179.16,
+      "text": "obviously and then working for Think Project and Lock Lab as part of Hexagon Group for over 10 years.",
+      "words": []
+    },
+    {
+      "start": 179.16,
+      "end": 185.23999999999998,
+      "text": "In software development, business development all around the digitization in our AC space.",
+      "words": []
+    },
+    {
+      "start": 186.44,
+      "end": 192.83999999999997,
+      "text": "Throughout the years, I've been also quite actively being in standardization at ISO 19650,",
+      "words": []
+    },
+    {
+      "start": 192.83999999999997,
+      "end": 198.83999999999997,
+      "text": "the multi model container and stuff like that that I did in the past. So I've been around for quite",
+      "words": []
+    },
+    {
+      "start": 198.84,
+      "end": 208.04,
+      "text": "a while and I have the privilege to start off with a few slides to introduce the collaboration we",
+      "words": []
+    },
+    {
+      "start": 208.04,
+      "end": 216.44,
+      "text": "have with ILOPS and the IOM product and the headlines for this one is the minimal BIM approach for us.",
+      "words": []
+    },
+    {
+      "start": 217.48000000000002,
+      "end": 223.0,
+      "text": "And not surprisingly, if we look at the space of asset and facility management,",
+      "words": []
+    },
+    {
+      "start": 223.56,
+      "end": 231.24,
+      "text": "as in all industries and areas, obviously we have a rising demand. Operational and maintenance costs",
+      "words": []
+    },
+    {
+      "start": 231.24,
+      "end": 239.4,
+      "text": "are quite a factor, have become a factor. Outsourcing is not the solution anymore. We have a lot of",
+      "words": []
+    },
+    {
+      "start": 240.12,
+      "end": 247.96,
+      "text": "increase in reporting for ESG. We have high demands for our resilience in the operations. And at the",
+      "words": []
+    },
+    {
+      "start": 247.96,
+      "end": 254.52,
+      "text": "same time, we have shortage of people and expertise. Our data systems are quite distributed. So we",
+      "words": []
+    },
+    {
+      "start": 254.52,
+      "end": 260.2,
+      "text": "have silos of data. The data in them is even if it's in one system, quite often,",
+      "words": []
+    },
+    {
+      "start": 260.2,
+      "end": 265.96000000000004,
+      "text": "interconnected, incomplete. It's missing the spatial context. And at the same time, obviously,",
+      "words": []
+    },
+    {
+      "start": 265.96000000000004,
+      "end": 271.48,
+      "text": "we have quite a lot of technical advances. We have new AI solutions. We have automations",
+      "words": []
+    },
+    {
+      "start": 271.96000000000004,
+      "end": 280.6,
+      "text": "that kind of gives us the feeling that we can solve all these problems integrating that data,",
+      "words": []
+    },
+    {
+      "start": 280.6,
+      "end": 288.84000000000003,
+      "text": "advancing the data. However, the main challenge that both Martin experiences with all his customers",
+      "words": []
+    },
+    {
+      "start": 288.84000000000003,
+      "end": 297.64000000000004,
+      "text": "that we experience with our customer is the lack of data or foundation that we have. In any project,",
+      "words": []
+    },
+    {
+      "start": 297.8,
+      "end": 306.76,
+      "text": "we have all three sources. It's either old analog plans. It's maybe advanced BIM models or it's",
+      "words": []
+    },
+    {
+      "start": 306.76,
+      "end": 313.15999999999997,
+      "text": "scans and point clouds. But all each of these sources bring their problems. Obviously,",
+      "words": []
+    },
+    {
+      "start": 313.8,
+      "end": 319.4,
+      "text": "plans are incomplete. We need to analyze them. We have to put them into context. We have to",
+      "words": []
+    },
+    {
+      "start": 319.96,
+      "end": 326.12,
+      "text": "collect the data into a link it. BIM models are quite often advanced, but they're expensive.",
+      "words": []
+    },
+    {
+      "start": 326.12,
+      "end": 331.72,
+      "text": "They have a lot of information that we may not need for the operations pace. And at the same time,",
+      "words": []
+    },
+    {
+      "start": 331.72,
+      "end": 339.24,
+      "text": "then we have wonderful point clouds, large data sets. But obviously, there is semantically,",
+      "words": []
+    },
+    {
+      "start": 339.24,
+      "end": 344.68,
+      "text": "not that rich. They're quite poor, actually. And we need to bring it all together.",
+      "words": []
+    },
+    {
+      "start": 345.8,
+      "end": 353.32,
+      "text": "And while over the years, we have looked at particularly BIM to FM approaches, which work for",
+      "words": []
+    },
+    {
+      "start": 353.32,
+      "end": 361.71999999999997,
+      "text": "quite fine. But in the end, in the acid and facility management model, what we need is roughly 10%",
+      "words": []
+    },
+    {
+      "start": 361.71999999999997,
+      "end": 371.24,
+      "text": "of the data we had in the BIM space. So what we are looking at this is why try to invent the",
+      "words": []
+    },
+    {
+      "start": 371.24,
+      "end": 377.96,
+      "text": "real and make the big solution. Let's keep it really simple. Let's start with a spatial model.",
+      "words": []
+    },
+    {
+      "start": 378.03999999999996,
+      "end": 383.56,
+      "text": "That is fast, that is cost effective, that can be automatically generated from drawings,",
+      "words": []
+    },
+    {
+      "start": 383.56,
+      "end": 389.56,
+      "text": "that can be automatically generated from point clouds and other scans. And the good thing,",
+      "words": []
+    },
+    {
+      "start": 389.56,
+      "end": 397.24,
+      "text": "it is at the same time scalable. So there is no need to stay on spatial systems. We can always",
+      "words": []
+    },
+    {
+      "start": 398.12,
+      "end": 406.12,
+      "text": "uplift these models and generate more detail, advance them, add data to these spatial models.",
+      "words": []
+    },
+    {
+      "start": 406.92,
+      "end": 413.48,
+      "text": "So looking at these minimal BIM approach, we recognize that in the start of a lot of new projects,",
+      "words": []
+    },
+    {
+      "start": 414.2,
+      "end": 420.44,
+      "text": "it's easy to start. We're getting a lot of traction and we're getting the systems into the business.",
+      "words": []
+    },
+    {
+      "start": 421.88,
+      "end": 426.68,
+      "text": "The good thing is, and obviously why I'm talking about this minimal BIM approach is,",
+      "words": []
+    },
+    {
+      "start": 427.56,
+      "end": 437.32,
+      "text": "ION apps has created a wonderful suite of solutions with IORM, that takes all these different data",
+      "words": []
+    },
+    {
+      "start": 437.32,
+      "end": 447.72,
+      "text": "inputs, provides services, automated services for hybrid modeling, using automated technology, AI",
+      "words": []
+    },
+    {
+      "start": 447.72,
+      "end": 454.12,
+      "text": "technology, whatever is there and whatever needs to be done to produce these central models,",
+      "words": []
+    },
+    {
+      "start": 454.12,
+      "end": 461.16,
+      "text": "and from very simple minimal models, then we are integrating, we're providing IORM with a lot",
+      "words": []
+    },
+    {
+      "start": 461.16,
+      "end": 467.32,
+      "text": "of building and applications, that we will show you in quite a minute, a lot of geometry, simple",
+      "words": []
+    },
+    {
+      "start": 467.32,
+      "end": 474.28000000000003,
+      "text": "geometry, but all the needed attributes and open APIs to integrate these models and applications",
+      "words": []
+    },
+    {
+      "start": 474.28000000000003,
+      "end": 483.32,
+      "text": "with any of your operational systems that you have. So now let's take a look at how this IORM model",
+      "words": []
+    },
+    {
+      "start": 483.32,
+      "end": 491.0,
+      "text": "actually has been created. It's very simple. Our customers can actually upload us any files they",
+      "words": []
+    },
+    {
+      "start": 491.0,
+      "end": 499.0,
+      "text": "have, it can be floor plans and or point clouds. There are of course fewer requirements.",
+      "words": []
+    },
+    {
+      "start": 500.03999999999996,
+      "end": 507.88,
+      "text": "If there is a stamp, it has to be reliable. The point cloud has to be consistent, but besides",
+      "words": []
+    },
+    {
+      "start": 507.96,
+      "end": 517.24,
+      "text": "of that, which is logical, we can work with basically anything. After the client drops the data,",
+      "words": []
+    },
+    {
+      "start": 518.04,
+      "end": 526.04,
+      "text": "we can analyze it with our scripts and our experts create and quote for the client and after the",
+      "words": []
+    },
+    {
+      "start": 526.04,
+      "end": 534.52,
+      "text": "client accepts it, he gets a model. He can either be happy just with the model and use it for",
+      "words": []
+    },
+    {
+      "start": 535.3199999999999,
+      "end": 540.68,
+      "text": "his workflows or he can take the model and use it in our app, which gives him a lot of additional",
+      "words": []
+    },
+    {
+      "start": 540.68,
+      "end": 550.04,
+      "text": "features. Now let's take a look at it, how it works in detail. So the key effect is how the model is",
+      "words": []
+    },
+    {
+      "start": 550.04,
+      "end": 559.48,
+      "text": "created. So we have several aspects. We have the point cloud information, which gives us information",
+      "words": []
+    },
+    {
+      "start": 559.5600000000001,
+      "end": 565.08,
+      "text": "how the model actually looks like. We have the floor plans, which gives us the information how the",
+      "words": []
+    },
+    {
+      "start": 565.08,
+      "end": 575.0,
+      "text": "room was planned. And we have the exact geometry, which gives us the information about areas.",
+      "words": []
+    },
+    {
+      "start": 575.5600000000001,
+      "end": 582.2,
+      "text": "How big is my room? Which is the most important part for facility management. And those rooms",
+      "words": []
+    },
+    {
+      "start": 582.2800000000001,
+      "end": 589.96,
+      "text": "have also information. They have a room code and they know to which floor they belong to",
+      "words": []
+    },
+    {
+      "start": 589.96,
+      "end": 597.48,
+      "text": "which building, to which site and to which project. And knowing that, we have a like solid base",
+      "words": []
+    },
+    {
+      "start": 597.48,
+      "end": 606.76,
+      "text": "for structured data and reached with point cloud, yet like also very cheap, like compute wise",
+      "words": []
+    },
+    {
+      "start": 606.84,
+      "end": 615.24,
+      "text": "context. And we can start working with it. We can simply create issues if something is broken or",
+      "words": []
+    },
+    {
+      "start": 615.24,
+      "end": 621.8,
+      "text": "assets, if something is worth tracking. And this is basically the core of our iLIFM solution.",
+      "words": []
+    },
+    {
+      "start": 623.3199999999999,
+      "end": 631.0,
+      "text": "Some of the key features are space management. So we can basically give our customers exact",
+      "words": []
+    },
+    {
+      "start": 631.8,
+      "end": 637.96,
+      "text": "overview of their portfolio. For me, it was quite shocking when I figured out that especially",
+      "words": []
+    },
+    {
+      "start": 637.96,
+      "end": 646.52,
+      "text": "large customers from the public sector doesn't actually know what they have, what they are responsible for.",
+      "words": []
+    },
+    {
+      "start": 647.8,
+      "end": 655.0,
+      "text": "But when I got deeper into it, I understood the problem. They have often very old, even",
+      "words": []
+    },
+    {
+      "start": 655.08,
+      "end": 663.24,
+      "text": "land-grown plants. They have from some projects, DWGs and some projects are being reconstructed.",
+      "words": []
+    },
+    {
+      "start": 663.24,
+      "end": 669.56,
+      "text": "And nobody knows where is actually the last version of the documentation. And it creates a perfect",
+      "words": []
+    },
+    {
+      "start": 669.56,
+      "end": 679.88,
+      "text": "chaos. So we help with that. And as I said, if we have the model, we can even erase it. We can",
+      "words": []
+    },
+    {
+      "start": 679.88,
+      "end": 688.36,
+      "text": "create objects or identify objects which are worth tracking those call assets. We can create them,",
+      "words": []
+    },
+    {
+      "start": 688.36,
+      "end": 695.72,
+      "text": "place them, manage and work with them, which is basically the core of the facility management",
+      "words": []
+    },
+    {
+      "start": 695.72,
+      "end": 703.32,
+      "text": "together with the space management. The next important thing is issue reporting. So if something",
+      "words": []
+    },
+    {
+      "start": 703.32,
+      "end": 711.1600000000001,
+      "text": "is broken, we can report it or the user can report it and we have a system which creates a",
+      "words": []
+    },
+    {
+      "start": 711.1600000000001,
+      "end": 718.9200000000001,
+      "text": "single source of truth. And our iLIFM app can streamline it into different subsystems.",
+      "words": []
+    },
+    {
+      "start": 720.6800000000001,
+      "end": 727.8000000000001,
+      "text": "What is really cool and one of the newest features is that we have created the MCP server for our",
+      "words": []
+    },
+    {
+      "start": 727.8,
+      "end": 737.4799999999999,
+      "text": "iLIFM solution and it gives us a perfect connection of opportunities. So basically the user can",
+      "words": []
+    },
+    {
+      "start": 737.4799999999999,
+      "end": 743.8,
+      "text": "even report in some other software that he was something that broke. And for example,",
+      "words": []
+    },
+    {
+      "start": 745.88,
+      "end": 752.4399999999999,
+      "text": "chair has one broken leg. He can say it. The MCP server gets the information and he creates",
+      "words": []
+    },
+    {
+      "start": 752.44,
+      "end": 756.7600000000001,
+      "text": "issue for the user in iLIFM which is accessible through the whole system.",
+      "words": []
+    },
+    {
+      "start": 759.6400000000001,
+      "end": 766.6800000000001,
+      "text": "The second but maybe the most important thing is the sensor indication. So if we have those",
+      "words": []
+    },
+    {
+      "start": 766.6800000000001,
+      "end": 775.6400000000001,
+      "text": "simply created models, we can also streamline the sensor data which gives our customers perfect",
+      "words": []
+    },
+    {
+      "start": 775.64,
+      "end": 784.4399999999999,
+      "text": "base for ESG and environmental social governance. And this is one of the crucial points in the project",
+      "words": []
+    },
+    {
+      "start": 784.4399999999999,
+      "end": 793.4,
+      "text": "because if our users can track their building, they can also prove that the measures they are doing",
+      "words": []
+    },
+    {
+      "start": 793.4,
+      "end": 796.92,
+      "text": "contribute to better performance which to clients want.",
+      "words": []
+    },
+    {
+      "start": 797.3199999999999,
+      "end": 809.9599999999999,
+      "text": "So the use cases which iLIFM is bringing is virtual walkthrough which is actually one of the",
+      "words": []
+    },
+    {
+      "start": 809.9599999999999,
+      "end": 816.76,
+      "text": "points would really save costs because if somebody wants to plan a repair, technicians can take a",
+      "words": []
+    },
+    {
+      "start": 816.76,
+      "end": 823.56,
+      "text": "look in the room before they go inside and they can prepare the tools for the reparation.",
+      "words": []
+    },
+    {
+      "start": 824.1999999999999,
+      "end": 831.3199999999999,
+      "text": "Besides of many other use cases, I think this is super helpful for the users.",
+      "words": []
+    },
+    {
+      "start": 833.4,
+      "end": 841.7199999999999,
+      "text": "We provide as build versus as designed comparatively. So if we compare the three ESG ends with",
+      "words": []
+    },
+    {
+      "start": 841.7199999999999,
+      "end": 849.88,
+      "text": "actually floor plans, we can see the differences. And this gives us our plans also the opportunity to",
+      "words": []
+    },
+    {
+      "start": 849.88,
+      "end": 861.4,
+      "text": "see how the building actually was built in compared to what was planned. The ESG is really important",
+      "words": []
+    },
+    {
+      "start": 861.4,
+      "end": 869.56,
+      "text": "and it will be more important in the future. We are actually focusing on the like a medium-sized",
+      "words": []
+    },
+    {
+      "start": 869.56,
+      "end": 880.8399999999999,
+      "text": "clients, let's say a company with one or let's say few factories or property manager with let's say",
+      "words": []
+    },
+    {
+      "start": 882.68,
+      "end": 894.04,
+      "text": "from 20 to let's say 60 apartments like a average medium user. And we aim for them to give them",
+      "words": []
+    },
+    {
+      "start": 895.0,
+      "end": 904.28,
+      "text": "very accessible and super useful digital points. What is also very important for us are integrations",
+      "words": []
+    },
+    {
+      "start": 904.28,
+      "end": 914.36,
+      "text": "in other systems. So we have integration in EARP, namely as APU in the very and Microsoft Dynamics",
+      "words": []
+    },
+    {
+      "start": 914.36,
+      "end": 923.4,
+      "text": "in the very advanced stages. And our open API enables broad range of integrations. And as I said",
+      "words": []
+    },
+    {
+      "start": 923.4,
+      "end": 934.84,
+      "text": "before, our IAFM provides also an MCP server. So and now take a look, let's take a look at that",
+      "words": []
+    },
+    {
+      "start": 934.84,
+      "end": 942.52,
+      "text": "application and to represent it from your sluff. So we have started development of IAFM class",
+      "words": []
+    },
+    {
+      "start": 942.52,
+      "end": 953.0799999999999,
+      "text": "all time. What you can see here now is the dashboard. It's nothing fancy but you can maintain the",
+      "words": []
+    },
+    {
+      "start": 953.0799999999999,
+      "end": 961.48,
+      "text": "basic overview of all of your project. You can see them on azirimuth. Each of those project is",
+      "words": []
+    },
+    {
+      "start": 961.48,
+      "end": 970.68,
+      "text": "geolocated and you can also see which projects are currently being modeled. And from this from this",
+      "words": []
+    },
+    {
+      "start": 970.68,
+      "end": 978.1999999999999,
+      "text": "point, you can navigate further. So everything starts with creating a project and here we have to",
+      "words": []
+    },
+    {
+      "start": 978.1999999999999,
+      "end": 985.0,
+      "text": "tackle multiple things. First one is the schemes. You can see on the screenshot that we have",
+      "words": []
+    },
+    {
+      "start": 985.0,
+      "end": 992.04,
+      "text": "location schemes, issue schemes, asset schemes, element schemes. And these basically serve as a",
+      "words": []
+    },
+    {
+      "start": 992.04,
+      "end": 1000.68,
+      "text": "templates for how you want your projects to function. It also determines the higher, for instance,",
+      "words": []
+    },
+    {
+      "start": 1000.68,
+      "end": 1009.0799999999999,
+      "text": "of locations. You can define everything within the IAFM. And using this, you can ensure that all",
+      "words": []
+    },
+    {
+      "start": 1009.0799999999999,
+      "end": 1015.7199999999999,
+      "text": "of your projects will behave the same way. It's almost the similar as ACC project templates.",
+      "words": []
+    },
+    {
+      "start": 1016.44,
+      "end": 1028.3600000000001,
+      "text": "So here we can see the model of project Montessori, Schuhl. And here we see the",
+      "words": []
+    },
+    {
+      "start": 1030.84,
+      "end": 1034.84,
+      "text": "combined view of an Autodesk viewer with the rumor list.",
+      "words": []
+    },
+    {
+      "start": 1035.1599999999999,
+      "end": 1044.12,
+      "text": "User can define his own custom attributes here and edit the values. Of course the IFC",
+      "words": []
+    },
+    {
+      "start": 1044.84,
+      "end": 1056.52,
+      "text": "originally imported values are not editable. You can also see the column code SIA 416, which we can",
+      "words": []
+    },
+    {
+      "start": 1056.6,
+      "end": 1067.96,
+      "text": "use to visually color all the rooms. So you can get some semantic coloring and seeing the",
+      "words": []
+    },
+    {
+      "start": 1067.96,
+      "end": 1077.6399999999999,
+      "text": "buildings in a different context. And as well, if you change those values, you can export the IFC",
+      "words": []
+    },
+    {
+      "start": 1077.6399999999999,
+      "end": 1085.96,
+      "text": "back with all of your changed information. Here we can see that inside the model, we can also enable",
+      "words": []
+    },
+    {
+      "start": 1085.96,
+      "end": 1096.2,
+      "text": "a mesh layer from a FBX file. And for that we are using those three buttons on each row of the room.",
+      "words": []
+    },
+    {
+      "start": 1097.16,
+      "end": 1105.24,
+      "text": "So we can on demand, like load a basically a room view and using a button we can switch",
+      "words": []
+    },
+    {
+      "start": 1105.96,
+      "end": 1114.2,
+      "text": "to a view from inside the room. We don't have a screenshot for that in here, but trust me on that.",
+      "words": []
+    },
+    {
+      "start": 1114.8400000000001,
+      "end": 1127.8,
+      "text": "And as well, here we can see the room coloring and the tooltits, which can be really helpful to",
+      "words": []
+    },
+    {
+      "start": 1129.16,
+      "end": 1138.44,
+      "text": "navigate between different parts of the building to see them in the specialised disciplines that",
+      "words": []
+    },
+    {
+      "start": 1138.44,
+      "end": 1145.8,
+      "text": "you can also define on your own. You can define the special types of attributes that could",
+      "words": []
+    },
+    {
+      "start": 1145.8,
+      "end": 1155.4,
+      "text": "color your model in your own way as you need for classifying, for instance, based on which",
+      "words": []
+    },
+    {
+      "start": 1155.4,
+      "end": 1167.88,
+      "text": "company owns which offices, etc. On this screen we can see the Assets view, which is again",
+      "words": []
+    },
+    {
+      "start": 1167.88,
+      "end": 1177.96,
+      "text": "the split view. So you can visualize how your assets are located across your building. And on the",
+      "words": []
+    },
+    {
+      "start": 1177.96,
+      "end": 1187.8,
+      "text": "next slide we can see the detail of an asset which exactly uses this FBX layer, the mesh view from",
+      "words": []
+    },
+    {
+      "start": 1187.8,
+      "end": 1195.64,
+      "text": "inside the room. And then the asset is placed exactly on the chair. Basically the chair is the asset.",
+      "words": []
+    },
+    {
+      "start": 1196.52,
+      "end": 1204.52,
+      "text": "You can, it's very similar to ACC, but with that difference that we can use the push pins here,",
+      "words": []
+    },
+    {
+      "start": 1204.6,
+      "end": 1211.96,
+      "text": "that something that ACC doesn't have. And as well we can switch different types of view on the",
+      "words": []
+    },
+    {
+      "start": 1211.96,
+      "end": 1219.48,
+      "text": "viewer to see exactly in a way how we want to see it. The same we have as well for the issues,",
+      "words": []
+    },
+    {
+      "start": 1219.48,
+      "end": 1228.92,
+      "text": "various similar things, but different usage. The push pins are the same as the ACC, but",
+      "words": []
+    },
+    {
+      "start": 1229.64,
+      "end": 1242.2,
+      "text": "the FBX layer gives some extra advantage to see the exact spatial reality that comes from the",
+      "words": []
+    },
+    {
+      "start": 1243.72,
+      "end": 1252.2,
+      "text": "mesh, mesh layer. Another feature is the art piece integration, so you can put your buildings to",
+      "words": []
+    },
+    {
+      "start": 1252.28,
+      "end": 1262.68,
+      "text": "context of a city. And that can be also helpful to, if you plan some extensions of your building to",
+      "words": []
+    },
+    {
+      "start": 1262.68,
+      "end": 1274.04,
+      "text": "see how they will fit to the surroundings. And now it's it's time to give my word back to Martin.",
+      "words": []
+    },
+    {
+      "start": 1275.96,
+      "end": 1281.4,
+      "text": "In Kiereslove and now we are going to take a look how I will have some actually works in practice.",
+      "words": []
+    },
+    {
+      "start": 1282.68,
+      "end": 1286.8400000000001,
+      "text": "So first of our use cases is a digitalization project for Armassuys",
+      "words": []
+    },
+    {
+      "start": 1288.2,
+      "end": 1294.3600000000001,
+      "text": "Immobilien, which is let's say state agency which takes care of all our",
+      "words": []
+    },
+    {
+      "start": 1294.3600000000001,
+      "end": 1304.44,
+      "text": "buildings in Switzerland. And this project is Kidbrook. It consists of 16 buildings and each",
+      "words": []
+    },
+    {
+      "start": 1304.44,
+      "end": 1312.52,
+      "text": "building has different types of plants. So we have DWG plants for some buildings which are",
+      "words": []
+    },
+    {
+      "start": 1312.52,
+      "end": 1321.8,
+      "text": "in German. And we have also for some older buildings, hand-drawn plants in French, which is quite a",
+      "words": []
+    },
+    {
+      "start": 1321.8,
+      "end": 1329.88,
+      "text": "mess. And it's very difficult to actually know what's inside and it's very difficult to work with",
+      "words": []
+    },
+    {
+      "start": 1330.68,
+      "end": 1336.92,
+      "text": "and Armassuys approached us if we can help them and we actually could. So we got their plants and",
+      "words": []
+    },
+    {
+      "start": 1336.92,
+      "end": 1349.88,
+      "text": "we created a IOM model with it. The IOM model contains 16 buildings. You can download it as IFCU",
+      "words": []
+    },
+    {
+      "start": 1349.88,
+      "end": 1357.0,
+      "text": "and you can take the IFC file and seamlessly import it in GIS, which is the absolute favorite feature",
+      "words": []
+    },
+    {
+      "start": 1357.08,
+      "end": 1363.96,
+      "text": "of the Armassuys because they have many proprietary GIS layers for their military purposes.",
+      "words": []
+    },
+    {
+      "start": 1365.48,
+      "end": 1371.32,
+      "text": "It consists also of the data set with the information which can be also downloaded and every",
+      "words": []
+    },
+    {
+      "start": 1371.32,
+      "end": 1377.72,
+      "text": "single room has C-416 colorization which describes the type of the surface.",
+      "words": []
+    },
+    {
+      "start": 1378.28,
+      "end": 1390.76,
+      "text": "So they have a really nice model which was actually very affordable and we are working with them to",
+      "words": []
+    },
+    {
+      "start": 1390.76,
+      "end": 1398.84,
+      "text": "create farther buildings. I recommend you to take a look at the video. We don't have time for",
+      "words": []
+    },
+    {
+      "start": 1398.9199999999998,
+      "end": 1408.36,
+      "text": "it to do it now but it's on our web page. And here's one quotation from Giuseppe Aciadim,",
+      "words": []
+    },
+    {
+      "start": 1409.8,
+      "end": 1417.8799999999999,
+      "text": "which was so kind and gave us the permission to present it. So thanks to IOM, we consolidated",
+      "words": []
+    },
+    {
+      "start": 1417.8799999999999,
+      "end": 1424.12,
+      "text": "diversed documentation into one data set. No survey needed and no specialized software or",
+      "words": []
+    },
+    {
+      "start": 1424.12,
+      "end": 1430.6,
+      "text": "equipment was required. So he just sent us the materials they got and he received the perfect",
+      "words": []
+    },
+    {
+      "start": 1430.6,
+      "end": 1438.12,
+      "text": "model which they can use for under and it's what they need. Another example is the Montessori",
+      "words": []
+    },
+    {
+      "start": 1438.12,
+      "end": 1448.12,
+      "text": "School in Herzoginnauerach in Bayern. And this is the example of model which was created",
+      "words": []
+    },
+    {
+      "start": 1448.1999999999998,
+      "end": 1456.12,
+      "text": "both from floor plans and point cloud. If we have both sources, we prefer point clouds for the",
+      "words": []
+    },
+    {
+      "start": 1456.12,
+      "end": 1465.7199999999998,
+      "text": "model creation because it's more exact and probably more up to date. So from the point cloud and",
+      "words": []
+    },
+    {
+      "start": 1465.7199999999998,
+      "end": 1471.32,
+      "text": "floor plans we created a room model like that and this is the way how it looks from inside.",
+      "words": []
+    },
+    {
+      "start": 1471.6399999999999,
+      "end": 1481.96,
+      "text": "So we have created one digital model in IOM. Of course we provide a super clean IFC file which",
+      "words": []
+    },
+    {
+      "start": 1481.96,
+      "end": 1491.1599999999999,
+      "text": "is built up based on the building smart standards. It's integrated the 3D scans for the",
+      "words": []
+    },
+    {
+      "start": 1491.16,
+      "end": 1499.3200000000002,
+      "text": "virtual room tour and it contains the whole data set with default and last-term attributes.",
+      "words": []
+    },
+    {
+      "start": 1499.3200000000002,
+      "end": 1509.16,
+      "text": "Again the coloring was done by based on Cia 416 but it can be also created with DIM 277",
+      "words": []
+    },
+    {
+      "start": 1510.2,
+      "end": 1518.0400000000002,
+      "text": "as an international standard. Again this is how it looks like. So you can see the app, you can see",
+      "words": []
+    },
+    {
+      "start": 1518.12,
+      "end": 1525.6399999999999,
+      "text": "the rooms and the relations between the digital twin and the method. Again we have a nice video",
+      "words": []
+    },
+    {
+      "start": 1525.6399999999999,
+      "end": 1533.72,
+      "text": "and I recommend you to check it out online on our webpage. Now there is not you want to tell us",
+      "words": []
+    },
+    {
+      "start": 1533.72,
+      "end": 1540.84,
+      "text": "a little bit more about the technical highlights. Thank you Martin. So I will describe one of the",
+      "words": []
+    },
+    {
+      "start": 1540.84,
+      "end": 1547.24,
+      "text": "technical highlights as well the key challenges that we face during the development and one of them",
+      "words": []
+    },
+    {
+      "start": 1547.24,
+      "end": 1553.56,
+      "text": "is the schemes that we had to change many times before we got them right. They are responsible for",
+      "words": []
+    },
+    {
+      "start": 1554.04,
+      "end": 1560.6,
+      "text": "model extraction and model extraction is quite complicated process during which we have to establish",
+      "words": []
+    },
+    {
+      "start": 1561.56,
+      "end": 1568.92,
+      "text": "what levels are how the building higher he works because it can be completely dynamic.",
+      "words": []
+    },
+    {
+      "start": 1569.72,
+      "end": 1579.72,
+      "text": "And the user can define his own schemes that will match to his workflow the best but of course for",
+      "words": []
+    },
+    {
+      "start": 1579.72,
+      "end": 1586.6000000000001,
+      "text": "the default ones that we ship with our software is the one that matches the standard IFC",
+      "words": []
+    },
+    {
+      "start": 1587.64,
+      "end": 1595.16,
+      "text": "clean architecture which as you can see on the right is the IFC project, IFC site, IFC building",
+      "words": []
+    },
+    {
+      "start": 1595.96,
+      "end": 1605.72,
+      "text": "the levels and the spaces. The dynamic mapping allows us to use any kind of IFC files that",
+      "words": []
+    },
+    {
+      "start": 1605.72,
+      "end": 1614.2,
+      "text": "doesn't respect this exact hierarchy and still be able to import them into IOM. The next thing is",
+      "words": []
+    },
+    {
+      "start": 1615.16,
+      "end": 1621.88,
+      "text": "the mesh layers the FBX files which allows us to give some additional",
+      "words": []
+    },
+    {
+      "start": 1624.92,
+      "end": 1634.68,
+      "text": "objective reality that would not be possible to see on the very simplified geometry models and",
+      "words": []
+    },
+    {
+      "start": 1634.68,
+      "end": 1641.16,
+      "text": "when defining the assets and you need to like let's say put the pushpin on exact",
+      "words": []
+    },
+    {
+      "start": 1641.5600000000002,
+      "end": 1650.68,
+      "text": "what are pie or I don't know extend wisher you can easily use the FBX layer to",
+      "words": []
+    },
+    {
+      "start": 1652.3600000000001,
+      "end": 1661.72,
+      "text": "pinpoint the exact location in the room. Another possibility is as well the DVG files",
+      "words": []
+    },
+    {
+      "start": 1662.76,
+      "end": 1668.1200000000001,
+      "text": "which allows you to use some measuring if you need to get the exact",
+      "words": []
+    },
+    {
+      "start": 1668.9199999999998,
+      "end": 1675.8,
+      "text": "dimensions of a specific room or thing about let's say merging two rooms together you can use this",
+      "words": []
+    },
+    {
+      "start": 1677.0,
+      "end": 1686.9199999999998,
+      "text": "layer of a DVG files that serves as a floor plans for any purpose really and as well this is not",
+      "words": []
+    },
+    {
+      "start": 1686.9199999999998,
+      "end": 1697.56,
+      "text": "exactly related to IOM only all our products runs on our own internal IOM framework and with this",
+      "words": []
+    },
+    {
+      "start": 1698.4399999999998,
+      "end": 1705.8,
+      "text": "software we started the CRUD approach so all our APIs now are using this",
+      "words": []
+    },
+    {
+      "start": 1707.1599999999999,
+      "end": 1715.32,
+      "text": "approach and it owes off a very rapid development so we can spawn new endpoints very quickly",
+      "words": []
+    },
+    {
+      "start": 1715.32,
+      "end": 1722.36,
+      "text": "and as well because all of those endpoints are following the very same patterns it's very good",
+      "words": []
+    },
+    {
+      "start": 1722.4399999999998,
+      "end": 1734.28,
+      "text": "for MCP servers and for first part the product because it's easy to understand how it works.",
+      "words": []
+    },
+    {
+      "start": 1737.8799999999999,
+      "end": 1747.56,
+      "text": "The technical challenges I already highlighted some of them before but to be more technical and",
+      "words": []
+    },
+    {
+      "start": 1747.56,
+      "end": 1760.84,
+      "text": "more specific the technical challenge in terms of working with ACC was getting the derivative",
+      "words": []
+    },
+    {
+      "start": 1760.84,
+      "end": 1770.44,
+      "text": "model metadata because we often got the translation job to be stuck it took over two hours to get",
+      "words": []
+    },
+    {
+      "start": 1771.4,
+      "end": 1777.88,
+      "text": "the derivative model properties so we finally had to come with the workaround and the workaround was",
+      "words": []
+    },
+    {
+      "start": 1777.88,
+      "end": 1789.3200000000002,
+      "text": "to find a manifest for the SQL database and normally directly read it and get the properties",
+      "words": []
+    },
+    {
+      "start": 1789.3200000000002,
+      "end": 1797.3200000000002,
+      "text": "zoomier than two hours. The next challenge was the model stacking because as you saw on the screenshots",
+      "words": []
+    },
+    {
+      "start": 1797.72,
+      "end": 1808.4399999999998,
+      "text": "we are putting multiple models into one we were and it came with the problems like how to fit",
+      "words": []
+    },
+    {
+      "start": 1808.4399999999998,
+      "end": 1813.96,
+      "text": "model onto each other when each of them can be in different scale and different coordinate system",
+      "words": []
+    },
+    {
+      "start": 1815.1599999999999,
+      "end": 1821.48,
+      "text": "and lastly the dynamic configurable metadata extraction and the schemes which I already mentioned.",
+      "words": []
+    },
+    {
+      "start": 1821.8,
+      "end": 1827.56,
+      "text": "So what's next for IFM?",
+      "words": []
+    },
+    {
+      "start": 1829.72,
+      "end": 1835.24,
+      "text": "We've quickly finished the issues and currently we are starting with the sensors.",
+      "words": []
+    },
+    {
+      "start": 1837.48,
+      "end": 1845.24,
+      "text": "In plan there is the Gaussian split because the FBX layer currently looks quite a bit like melted",
+      "words": []
+    },
+    {
+      "start": 1845.24,
+      "end": 1857.64,
+      "text": "it melted after some like nuclear bomb or I don't know how to describe it it simply doesn't",
+      "words": []
+    },
+    {
+      "start": 1857.64,
+      "end": 1865.64,
+      "text": "look that great so the Gaussian split is our new technology that we are trying that could solve",
+      "words": []
+    },
+    {
+      "start": 1865.64,
+      "end": 1874.84,
+      "text": "the issue that it doesn't look exactly great and of course after that in July we would like to",
+      "words": []
+    },
+    {
+      "start": 1874.84,
+      "end": 1882.6799999999998,
+      "text": "start with the scheduled task on revisions which would enable you to plan certain maintenance task",
+      "words": []
+    },
+    {
+      "start": 1882.6799999999998,
+      "end": 1892.6799999999998,
+      "text": "around the building. And now I'm giving my word back to Martin. Thank you, Ursula. So guys if you are",
+      "words": []
+    },
+    {
+      "start": 1892.6799999999998,
+      "end": 1901.9599999999998,
+      "text": "interested in IFM you can find it already in the outer step store. We have IFM website which",
+      "words": []
+    },
+    {
+      "start": 1901.96,
+      "end": 1908.2,
+      "text": "describes the product and we have also the product website where the production actually runs.",
+      "words": []
+    },
+    {
+      "start": 1909.48,
+      "end": 1915.16,
+      "text": "Everything is nicely documented and we have also video tutorials so if you want to take a look at it",
+      "words": []
+    },
+    {
+      "start": 1915.16,
+      "end": 1924.2,
+      "text": "and understand it more deeply just don't hesitate and check it out. And yeah I think that's the end",
+      "words": []
+    },
+    {
+      "start": 1924.2,
+      "end": 1932.04,
+      "text": "of our presentation and if you want to know something more don't hesitate to contact either",
+      "words": []
+    },
+    {
+      "start": 1932.04,
+      "end": 1943.72,
+      "text": "Eric from Auxalia or me directly. Thank you guys for your attention and yeah I'm looking forward",
+      "words": []
+    },
+    {
+      "start": 1943.72,
+      "end": 1945.72,
+      "text": "to see you personally on the phone.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:32:47.040825+00:00"
+}

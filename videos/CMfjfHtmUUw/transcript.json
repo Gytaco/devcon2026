@@ -1,0 +1,2527 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.3200000000000003,
+      "text": "Hello. Welcome to my presentation,",
+      "words": []
+    },
+    {
+      "start": 3.3200000000000003,
+      "end": 7.16,
+      "text": "navigating through the new Autodesk Platform Services business model,",
+      "words": []
+    },
+    {
+      "start": 7.16,
+      "end": 10.6,
+      "text": "and the best practices to manage your APS usage.",
+      "words": []
+    },
+    {
+      "start": 10.6,
+      "end": 12.280000000000001,
+      "text": "My name is Dwarnal Matha.",
+      "words": []
+    },
+    {
+      "start": 12.280000000000001,
+      "end": 14.92,
+      "text": "I'm a product manager working at Autodesk",
+      "words": []
+    },
+    {
+      "start": 14.92,
+      "end": 17.84,
+      "text": "on the Autodesk Platform Services Experience,",
+      "words": []
+    },
+    {
+      "start": 17.84,
+      "end": 23.68,
+      "text": "with a focus on the new APS business model and develop experiences.",
+      "words": []
+    },
+    {
+      "start": 23.68,
+      "end": 27.6,
+      "text": "Before I get started, I just want to quickly mention",
+      "words": []
+    },
+    {
+      "start": 27.6,
+      "end": 30.32,
+      "text": "our confidentiality statement,",
+      "words": []
+    },
+    {
+      "start": 30.32,
+      "end": 32.92,
+      "text": "making basically saying that any statements",
+      "words": []
+    },
+    {
+      "start": 32.92,
+      "end": 36.2,
+      "text": "I make in today's presentation are forward-looking statements",
+      "words": []
+    },
+    {
+      "start": 36.2,
+      "end": 39.04,
+      "text": "and are subject to changes moving forward.",
+      "words": []
+    },
+    {
+      "start": 41.28,
+      "end": 46.0,
+      "text": "Okay, so the Autodesk Platform Services offering.",
+      "words": []
+    },
+    {
+      "start": 46.0,
+      "end": 49.8,
+      "text": "At this point, I don't expect this to be new news,",
+      "words": []
+    },
+    {
+      "start": 49.8,
+      "end": 52.400000000000006,
+      "text": "because a lot of few customers have on boarded",
+      "words": []
+    },
+    {
+      "start": 52.400000000000006,
+      "end": 56.24,
+      "text": "to the new pricing model since the launch on December.",
+      "words": []
+    },
+    {
+      "start": 56.52,
+      "end": 59.6,
+      "text": "And the main reason we had a world-up pricing model",
+      "words": []
+    },
+    {
+      "start": 59.6,
+      "end": 61.84,
+      "text": "is to better support you as a customer,",
+      "words": []
+    },
+    {
+      "start": 61.84,
+      "end": 66.84,
+      "text": "as you scale using our APIs to support future innovation",
+      "words": []
+    },
+    {
+      "start": 67.04,
+      "end": 70.24000000000001,
+      "text": "in this agentic AI and MCP era.",
+      "words": []
+    },
+    {
+      "start": 71.24000000000001,
+      "end": 75.36,
+      "text": "And we wanted you to get the value and flexibility",
+      "words": []
+    },
+    {
+      "start": 75.36,
+      "end": 78.28,
+      "text": "our platform provides while using these APIs.",
+      "words": []
+    },
+    {
+      "start": 78.28,
+      "end": 81.64,
+      "text": "And that's one of the main reasons we revamped our offering.",
+      "words": []
+    },
+    {
+      "start": 81.64,
+      "end": 84.88,
+      "text": "So you as a customer might be someone being on a free tier,",
+      "words": []
+    },
+    {
+      "start": 85.56,
+      "end": 86.56,
+      "text": "you've already on boarded,",
+      "words": []
+    },
+    {
+      "start": 86.56,
+      "end": 88.24,
+      "text": "you've created the developer hub,",
+      "words": []
+    },
+    {
+      "start": 88.24,
+      "end": 90.6,
+      "text": "and you are using our APIs for free.",
+      "words": []
+    },
+    {
+      "start": 90.6,
+      "end": 92.16,
+      "text": "Or you're someone with a paid tier",
+      "words": []
+    },
+    {
+      "start": 92.16,
+      "end": 95.24,
+      "text": "who are using our APIs beyond a certain limit,",
+      "words": []
+    },
+    {
+      "start": 95.24,
+      "end": 98.0,
+      "text": "and you might be under the pre-pay model with tokens,",
+      "words": []
+    },
+    {
+      "start": 98.0,
+      "end": 99.52,
+      "text": "or you might on board the pay,",
+      "words": []
+    },
+    {
+      "start": 99.52,
+      "end": 103.24,
+      "text": "as you go model, which allows you a lot of usage",
+      "words": []
+    },
+    {
+      "start": 103.24,
+      "end": 104.75999999999999,
+      "text": "throughout the month,",
+      "words": []
+    },
+    {
+      "start": 104.75999999999999,
+      "end": 108.88,
+      "text": "and then you are built at the end of the month based on your usage.",
+      "words": []
+    },
+    {
+      "start": 108.88,
+      "end": 111.28,
+      "text": "So regardless of which customer you are,",
+      "words": []
+    },
+    {
+      "start": 111.28,
+      "end": 115.16,
+      "text": "you have on boarded to one of these three options.",
+      "words": []
+    },
+    {
+      "start": 115.16,
+      "end": 120.16,
+      "text": "So when we introduced this new business model at APS,",
+      "words": []
+    },
+    {
+      "start": 120.84,
+      "end": 124.8,
+      "text": "we thought that one thing which becomes very important",
+      "words": []
+    },
+    {
+      "start": 124.8,
+      "end": 127.08,
+      "text": "for you as a customer to resolve,",
+      "words": []
+    },
+    {
+      "start": 127.08,
+      "end": 130.48,
+      "text": "when you start on boarding to this business model,",
+      "words": []
+    },
+    {
+      "start": 130.48,
+      "end": 135.48,
+      "text": "is how do I better manage my APS subscription?",
+      "words": []
+    },
+    {
+      "start": 135.68,
+      "end": 138.32,
+      "text": "Because this was a very big change for us,",
+      "words": []
+    },
+    {
+      "start": 138.32,
+      "end": 140.28,
+      "text": "as well as you for a customer,",
+      "words": []
+    },
+    {
+      "start": 140.28,
+      "end": 142.92,
+      "text": "when you have on boarded to a business model",
+      "words": []
+    },
+    {
+      "start": 142.92,
+      "end": 144.6,
+      "text": "which did not exist before.",
+      "words": []
+    },
+    {
+      "start": 144.6,
+      "end": 147.08,
+      "text": "And we at APS wanted to make sure",
+      "words": []
+    },
+    {
+      "start": 147.08,
+      "end": 149.6,
+      "text": "you have all the necessary features,",
+      "words": []
+    },
+    {
+      "start": 149.6,
+      "end": 152.68,
+      "text": "the necessary support for you to on board to",
+      "words": []
+    },
+    {
+      "start": 152.68,
+      "end": 155.72,
+      "text": "and manage your APS subscription well.",
+      "words": []
+    },
+    {
+      "start": 155.72,
+      "end": 158.44,
+      "text": "And that is why you'll be seeing that",
+      "words": []
+    },
+    {
+      "start": 158.44,
+      "end": 161.08,
+      "text": "a lot of the features which we are releasing for you",
+      "words": []
+    },
+    {
+      "start": 161.08,
+      "end": 164.04,
+      "text": "as a customer, focus on two main things,",
+      "words": []
+    },
+    {
+      "start": 164.04,
+      "end": 168.48,
+      "text": "visibility into and control over your API usage.",
+      "words": []
+    },
+    {
+      "start": 168.56,
+      "end": 172.56,
+      "text": "And this is very important because when you are paying",
+      "words": []
+    },
+    {
+      "start": 172.56,
+      "end": 176.28,
+      "text": "for APIs or when you have on boarded to a new pricing model,",
+      "words": []
+    },
+    {
+      "start": 176.28,
+      "end": 178.67999999999998,
+      "text": "it becomes very important that you get visibility",
+      "words": []
+    },
+    {
+      "start": 178.67999999999998,
+      "end": 180.56,
+      "text": "and control over your usage.",
+      "words": []
+    },
+    {
+      "start": 180.56,
+      "end": 183.67999999999998,
+      "text": "So you can make better cost management decisions",
+      "words": []
+    },
+    {
+      "start": 183.67999999999998,
+      "end": 187.48,
+      "text": "within your business, within your development and more.",
+      "words": []
+    },
+    {
+      "start": 188.35999999999999,
+      "end": 191.44,
+      "text": "So let's first pick about control",
+      "words": []
+    },
+    {
+      "start": 191.44,
+      "end": 193.79999999999998,
+      "text": "and some of the features we already launched",
+      "words": []
+    },
+    {
+      "start": 193.79999999999998,
+      "end": 195.6,
+      "text": "for you to get supported,",
+      "words": []
+    },
+    {
+      "start": 195.6,
+      "end": 198.16,
+      "text": "to get better control over your APS usage.",
+      "words": []
+    },
+    {
+      "start": 198.88,
+      "end": 200.64,
+      "text": "The APS developer hub.",
+      "words": []
+    },
+    {
+      "start": 200.64,
+      "end": 202.92,
+      "text": "Firstly, I wanted the opportunity to thank you",
+      "words": []
+    },
+    {
+      "start": 202.92,
+      "end": 205.56,
+      "text": "as a customer for going through all the efforts",
+      "words": []
+    },
+    {
+      "start": 205.56,
+      "end": 208.64,
+      "text": "to migrate to the developer hub since December",
+      "words": []
+    },
+    {
+      "start": 208.64,
+      "end": 211.39999999999998,
+      "text": "because we made a mandatory for every customer",
+      "words": []
+    },
+    {
+      "start": 211.39999999999998,
+      "end": 213.48,
+      "text": "to use an APS developer hub.",
+      "words": []
+    },
+    {
+      "start": 213.48,
+      "end": 215.92,
+      "text": "And again, I've already mentioned this before,",
+      "words": []
+    },
+    {
+      "start": 215.92,
+      "end": 217.72,
+      "text": "but an APS developer hub is nothing",
+      "words": []
+    },
+    {
+      "start": 217.72,
+      "end": 220.39999999999998,
+      "text": "but a container which consists of your client IDs",
+      "words": []
+    },
+    {
+      "start": 220.39999999999998,
+      "end": 222.32,
+      "text": "and your entire engineering team.",
+      "words": []
+    },
+    {
+      "start": 222.32,
+      "end": 225.35999999999999,
+      "text": "So as an organization or all your client IDs",
+      "words": []
+    },
+    {
+      "start": 225.35999999999999,
+      "end": 228.07999999999998,
+      "text": "sitting in one place, making it very easy",
+      "words": []
+    },
+    {
+      "start": 228.08,
+      "end": 229.92000000000002,
+      "text": "for you to control the client IDs,",
+      "words": []
+    },
+    {
+      "start": 229.92000000000002,
+      "end": 232.12,
+      "text": "which are calling APS APIs",
+      "words": []
+    },
+    {
+      "start": 232.12,
+      "end": 234.72000000000003,
+      "text": "and also making it very easy to say,",
+      "words": []
+    },
+    {
+      "start": 234.72000000000003,
+      "end": 237.24,
+      "text": "go on your team, owns which applications",
+      "words": []
+    },
+    {
+      "start": 237.24,
+      "end": 240.16000000000003,
+      "text": "or who on your team are working on which applications.",
+      "words": []
+    },
+    {
+      "start": 240.16000000000003,
+      "end": 243.84,
+      "text": "Thus making it very easy for you to control APS usage.",
+      "words": []
+    },
+    {
+      "start": 243.84,
+      "end": 246.32000000000002,
+      "text": "And secondly, as a hub admin,",
+      "words": []
+    },
+    {
+      "start": 246.32000000000002,
+      "end": 251.0,
+      "text": "which we introduced as a new persona within the APS ecosystem,",
+      "words": []
+    },
+    {
+      "start": 251.0,
+      "end": 252.76000000000002,
+      "text": "we are really targeting features",
+      "words": []
+    },
+    {
+      "start": 252.76000000000002,
+      "end": 257.2,
+      "text": "for the hub admin slash tech admin slash developer admin persona",
+      "words": []
+    },
+    {
+      "start": 257.2,
+      "end": 260.47999999999996,
+      "text": "to make it really easy for the engineering manager",
+      "words": []
+    },
+    {
+      "start": 260.47999999999996,
+      "end": 263.96,
+      "text": "or the tech admin to better manage their APS costs",
+      "words": []
+    },
+    {
+      "start": 263.96,
+      "end": 266.15999999999997,
+      "text": "surrounding their development team.",
+      "words": []
+    },
+    {
+      "start": 266.15999999999997,
+      "end": 269.36,
+      "text": "So this is pretty much what a developer hub is.",
+      "words": []
+    },
+    {
+      "start": 269.36,
+      "end": 271.03999999999996,
+      "text": "And as you might already know,",
+      "words": []
+    },
+    {
+      "start": 271.03999999999996,
+      "end": 272.52,
+      "text": "you are already onboarded to this",
+      "words": []
+    },
+    {
+      "start": 272.52,
+      "end": 274.68,
+      "text": "because you made a mandatory since December.",
+      "words": []
+    },
+    {
+      "start": 276.96,
+      "end": 278.68,
+      "text": "With respect to the developer hub,",
+      "words": []
+    },
+    {
+      "start": 278.68,
+      "end": 283.68,
+      "text": "we introduced two new features in the last two weeks",
+      "words": []
+    },
+    {
+      "start": 284.08,
+      "end": 287.64,
+      "text": "focusing on making it easy for you as a customer",
+      "words": []
+    },
+    {
+      "start": 287.64,
+      "end": 289.44,
+      "text": "to use the developer hub.",
+      "words": []
+    },
+    {
+      "start": 289.44,
+      "end": 292.44,
+      "text": "And they're very simple features but very effective.",
+      "words": []
+    },
+    {
+      "start": 292.44,
+      "end": 294.48,
+      "text": "First one is bulk ad members.",
+      "words": []
+    },
+    {
+      "start": 294.48,
+      "end": 297.0,
+      "text": "We got several complaints from customers",
+      "words": []
+    },
+    {
+      "start": 297.0,
+      "end": 300.64,
+      "text": "that inviting one team member at a time",
+      "words": []
+    },
+    {
+      "start": 300.64,
+      "end": 302.04,
+      "text": "is taking too much of time",
+      "words": []
+    },
+    {
+      "start": 302.04,
+      "end": 305.16,
+      "text": "and that is not very scalable moving forward.",
+      "words": []
+    },
+    {
+      "start": 305.16,
+      "end": 307.32,
+      "text": "And that is why we introduced bulk ad members,",
+      "words": []
+    },
+    {
+      "start": 307.32,
+      "end": 309.64,
+      "text": "a very simple feature where you can invite",
+      "words": []
+    },
+    {
+      "start": 309.64,
+      "end": 311.2,
+      "text": "several people together.",
+      "words": []
+    },
+    {
+      "start": 311.2,
+      "end": 313.52,
+      "text": "And just making it very easy for your team",
+      "words": []
+    },
+    {
+      "start": 313.52,
+      "end": 316.15999999999997,
+      "text": "to onboard to the developer hub.",
+      "words": []
+    },
+    {
+      "start": 316.15999999999997,
+      "end": 319.84,
+      "text": "And secondly, we also introduced bulk app actions",
+      "words": []
+    },
+    {
+      "start": 319.84,
+      "end": 323.91999999999996,
+      "text": "because again, moving one app from one up to another",
+      "words": []
+    },
+    {
+      "start": 323.91999999999996,
+      "end": 327.35999999999996,
+      "text": "or deleting one app at a time is taking time",
+      "words": []
+    },
+    {
+      "start": 327.35999999999996,
+      "end": 329.0,
+      "text": "and it is not scalable.",
+      "words": []
+    },
+    {
+      "start": 329.0,
+      "end": 331.76,
+      "text": "And that is why bulk app actions allows you",
+      "words": []
+    },
+    {
+      "start": 331.76,
+      "end": 334.4,
+      "text": "to do app level management at scale,",
+      "words": []
+    },
+    {
+      "start": 334.4,
+      "end": 337.03999999999996,
+      "text": "making it very easy for you to do simple tasks",
+      "words": []
+    },
+    {
+      "start": 337.03999999999996,
+      "end": 338.4,
+      "text": "in the quickest amount of time.",
+      "words": []
+    },
+    {
+      "start": 339.91999999999996,
+      "end": 342.03999999999996,
+      "text": "Next up, which was a game changer",
+      "words": []
+    },
+    {
+      "start": 342.04,
+      "end": 344.0,
+      "text": "which we recently launched and that is",
+      "words": []
+    },
+    {
+      "start": 344.0,
+      "end": 346.48,
+      "text": "multiple developer hubs under one team.",
+      "words": []
+    },
+    {
+      "start": 346.48,
+      "end": 348.92,
+      "text": "When we launched the pricing model back in December,",
+      "words": []
+    },
+    {
+      "start": 348.92,
+      "end": 351.56,
+      "text": "we made a decision that one Autodesk team",
+      "words": []
+    },
+    {
+      "start": 351.56,
+      "end": 353.8,
+      "text": "can only have one developer hub.",
+      "words": []
+    },
+    {
+      "start": 353.8,
+      "end": 357.16,
+      "text": "And as you might already know, when I say Autodesk team,",
+      "words": []
+    },
+    {
+      "start": 357.16,
+      "end": 361.08000000000004,
+      "text": "I mean the team construct on manage.autodesk.com",
+      "words": []
+    },
+    {
+      "start": 361.08000000000004,
+      "end": 364.48,
+      "text": "or the accounts portal where you manage",
+      "words": []
+    },
+    {
+      "start": 364.48,
+      "end": 366.48,
+      "text": "your organizational subscriptions,",
+      "words": []
+    },
+    {
+      "start": 366.48,
+      "end": 368.92,
+      "text": "you manage your billing and more.",
+      "words": []
+    },
+    {
+      "start": 368.92,
+      "end": 373.76,
+      "text": "And with one APS subscription tied to one Autodesk team,",
+      "words": []
+    },
+    {
+      "start": 373.76,
+      "end": 376.32,
+      "text": "we were allowing only one developer hub.",
+      "words": []
+    },
+    {
+      "start": 376.32,
+      "end": 378.76,
+      "text": "And that turned out to be a big pain point",
+      "words": []
+    },
+    {
+      "start": 378.76,
+      "end": 381.32,
+      "text": "because different organizations are structured",
+      "words": []
+    },
+    {
+      "start": 381.32,
+      "end": 383.8,
+      "text": "different internally or globally.",
+      "words": []
+    },
+    {
+      "start": 383.8,
+      "end": 386.8,
+      "text": "And just having one developer hub is not scalable",
+      "words": []
+    },
+    {
+      "start": 386.8,
+      "end": 389.68,
+      "text": "because let's say within one organization,",
+      "words": []
+    },
+    {
+      "start": 389.68,
+      "end": 393.04,
+      "text": "there are two different teams across the organization",
+      "words": []
+    },
+    {
+      "start": 393.04,
+      "end": 396.52000000000004,
+      "text": "using APS, having client IDs and the same hub",
+      "words": []
+    },
+    {
+      "start": 396.52,
+      "end": 398.71999999999997,
+      "text": "mainly to security concerns,",
+      "words": []
+    },
+    {
+      "start": 398.71999999999997,
+      "end": 401.71999999999997,
+      "text": "mainly to privacy concerns and may also be confusing",
+      "words": []
+    },
+    {
+      "start": 401.71999999999997,
+      "end": 404.56,
+      "text": "as to because why would my team want to see",
+      "words": []
+    },
+    {
+      "start": 404.56,
+      "end": 406.84,
+      "text": "and other teams client IDs?",
+      "words": []
+    },
+    {
+      "start": 406.84,
+      "end": 409.35999999999996,
+      "text": "And that is why we now have the ability",
+      "words": []
+    },
+    {
+      "start": 409.35999999999996,
+      "end": 413.76,
+      "text": "to have up to five hubs every Autodesk team.",
+      "words": []
+    },
+    {
+      "start": 413.76,
+      "end": 415.96,
+      "text": "So if you are a company with a different",
+      "words": []
+    },
+    {
+      "start": 415.96,
+      "end": 417.79999999999995,
+      "text": "internal organizational structure,",
+      "words": []
+    },
+    {
+      "start": 417.79999999999995,
+      "end": 421.56,
+      "text": "if you have multiple locations across the globe",
+      "words": []
+    },
+    {
+      "start": 421.56,
+      "end": 424.96,
+      "text": "or if you have multiple cost centers at your company,",
+      "words": []
+    },
+    {
+      "start": 424.96,
+      "end": 429.35999999999996,
+      "text": "you can now have multiple hubs at under one team.",
+      "words": []
+    },
+    {
+      "start": 429.35999999999996,
+      "end": 432.88,
+      "text": "And you can have one specific hub for a specific use case,",
+      "words": []
+    },
+    {
+      "start": 432.88,
+      "end": 437.08,
+      "text": "for a specific location, for a specific cost center, et cetera.",
+      "words": []
+    },
+    {
+      "start": 438.08,
+      "end": 441.91999999999996,
+      "text": "Just making it very easy for you to use the APS subscription.",
+      "words": []
+    },
+    {
+      "start": 441.91999999999996,
+      "end": 443.24,
+      "text": "Nothing else changes.",
+      "words": []
+    },
+    {
+      "start": 443.24,
+      "end": 446.24,
+      "text": "All these five hubs still consume capacity",
+      "words": []
+    },
+    {
+      "start": 446.24,
+      "end": 450.24,
+      "text": "and use your APS subscription on the Autodesk team.",
+      "words": []
+    },
+    {
+      "start": 450.24,
+      "end": 452.64,
+      "text": "It's just more about you,",
+      "words": []
+    },
+    {
+      "start": 452.64,
+      "end": 454.68,
+      "text": "for you to better organize your applications",
+      "words": []
+    },
+    {
+      "start": 454.68,
+      "end": 457.44,
+      "text": "based on your use case.",
+      "words": []
+    },
+    {
+      "start": 457.44,
+      "end": 458.8,
+      "text": "So these are the current features",
+      "words": []
+    },
+    {
+      "start": 458.8,
+      "end": 461.4,
+      "text": "which we have for the control aspect.",
+      "words": []
+    },
+    {
+      "start": 461.4,
+      "end": 463.44,
+      "text": "And I will speak more about the upcoming features",
+      "words": []
+    },
+    {
+      "start": 463.44,
+      "end": 465.32,
+      "text": "in an upcoming slide.",
+      "words": []
+    },
+    {
+      "start": 465.32,
+      "end": 467.84,
+      "text": "Okay, moving on to visibility.",
+      "words": []
+    },
+    {
+      "start": 467.84,
+      "end": 472.03999999999996,
+      "text": "So visibility into APS usage is extremely important",
+      "words": []
+    },
+    {
+      "start": 472.03999999999996,
+      "end": 476.03999999999996,
+      "text": "and we have made sure we invested to providing you",
+      "words": []
+    },
+    {
+      "start": 476.03999999999996,
+      "end": 479.88,
+      "text": "a great experience when you are using our APIs.",
+      "words": []
+    },
+    {
+      "start": 479.88,
+      "end": 483.48,
+      "text": "And visibility into API usage is nothing",
+      "words": []
+    },
+    {
+      "start": 483.48,
+      "end": 487.64,
+      "text": "but your APS usage reporting features",
+      "words": []
+    },
+    {
+      "start": 487.64,
+      "end": 490.6,
+      "text": "across both portals, the accounts portal",
+      "words": []
+    },
+    {
+      "start": 490.6,
+      "end": 492.52,
+      "text": "and the developer portal.",
+      "words": []
+    },
+    {
+      "start": 492.52,
+      "end": 494.96,
+      "text": "So in the accounts portal,",
+      "words": []
+    },
+    {
+      "start": 494.96,
+      "end": 496.8,
+      "text": "if you are someone using flex tokens,",
+      "words": []
+    },
+    {
+      "start": 496.8,
+      "end": 498.8,
+      "text": "you're able to see your token balance.",
+      "words": []
+    },
+    {
+      "start": 498.8,
+      "end": 501.64,
+      "text": "You're able to see when your tokens are going to run out,",
+      "words": []
+    },
+    {
+      "start": 501.64,
+      "end": 504.56,
+      "text": "you will be able to see how many tokens you have consumed.",
+      "words": []
+    },
+    {
+      "start": 504.56,
+      "end": 507.12,
+      "text": "If you are someone with a free tier,",
+      "words": []
+    },
+    {
+      "start": 507.12,
+      "end": 509.68,
+      "text": "you're able to see the balance of the APIs,",
+      "words": []
+    },
+    {
+      "start": 509.68,
+      "end": 511.6,
+      "text": "you have included in that free tier,",
+      "words": []
+    },
+    {
+      "start": 511.6,
+      "end": 515.48,
+      "text": "making it very easy for you to manage your free subscription.",
+      "words": []
+    },
+    {
+      "start": 515.48,
+      "end": 518.12,
+      "text": "As a team admin, you're able to see the usage",
+      "words": []
+    },
+    {
+      "start": 518.12,
+      "end": 521.28,
+      "text": "for the entire team in one single place.",
+      "words": []
+    },
+    {
+      "start": 521.28,
+      "end": 523.16,
+      "text": "And we're also providing you the ability",
+      "words": []
+    },
+    {
+      "start": 523.16,
+      "end": 526.48,
+      "text": "to get granular hub level and app level reporting",
+      "words": []
+    },
+    {
+      "start": 526.48,
+      "end": 528.32,
+      "text": "in the accounts portal.",
+      "words": []
+    },
+    {
+      "start": 528.32,
+      "end": 531.24,
+      "text": "Now for the developer admin persona,",
+      "words": []
+    },
+    {
+      "start": 531.24,
+      "end": 534.6800000000001,
+      "text": "the developer admin persona is able to see the usage",
+      "words": []
+    },
+    {
+      "start": 534.6800000000001,
+      "end": 537.4,
+      "text": "of the applications inside their hub",
+      "words": []
+    },
+    {
+      "start": 537.4,
+      "end": 541.56,
+      "text": "or they're also able to see the hub level usage reporting",
+      "words": []
+    },
+    {
+      "start": 541.56,
+      "end": 543.6,
+      "text": "for their specific hub,",
+      "words": []
+    },
+    {
+      "start": 543.6,
+      "end": 546.0799999999999,
+      "text": "thus making sure they're able to track usage",
+      "words": []
+    },
+    {
+      "start": 546.0799999999999,
+      "end": 550.3199999999999,
+      "text": "for the entire team to make better decisions.",
+      "words": []
+    },
+    {
+      "start": 550.3199999999999,
+      "end": 552.24,
+      "text": "Now, as you can see,",
+      "words": []
+    },
+    {
+      "start": 552.24,
+      "end": 554.76,
+      "text": "one common theme across all these portals",
+      "words": []
+    },
+    {
+      "start": 554.76,
+      "end": 557.4399999999999,
+      "text": "is that we have made sure",
+      "words": []
+    },
+    {
+      "start": 557.4399999999999,
+      "end": 561.48,
+      "text": "that every potential persona is getting access to reporting.",
+      "words": []
+    },
+    {
+      "start": 561.48,
+      "end": 564.56,
+      "text": "So the team admin who's mainly making",
+      "words": []
+    },
+    {
+      "start": 564.56,
+      "end": 566.6,
+      "text": "the purchasing decisions are able to see",
+      "words": []
+    },
+    {
+      "start": 566.6,
+      "end": 568.84,
+      "text": "all the token amounts, the dollar amounts,",
+      "words": []
+    },
+    {
+      "start": 568.84,
+      "end": 572.9200000000001,
+      "text": "the currency amounts, the API usage for the entire team",
+      "words": []
+    },
+    {
+      "start": 572.9200000000001,
+      "end": 576.36,
+      "text": "on the team level, for them to make better decisions.",
+      "words": []
+    },
+    {
+      "start": 577.36,
+      "end": 579.5600000000001,
+      "text": "And they are also providing granularity",
+      "words": []
+    },
+    {
+      "start": 579.5600000000001,
+      "end": 581.6800000000001,
+      "text": "in that reporting to see the broken down usage",
+      "words": []
+    },
+    {
+      "start": 581.6800000000001,
+      "end": 584.4,
+      "text": "for a hub or an app for the team admin.",
+      "words": []
+    },
+    {
+      "start": 584.4,
+      "end": 585.84,
+      "text": "Then for the hub admin person,",
+      "words": []
+    },
+    {
+      "start": 585.84,
+      "end": 588.8000000000001,
+      "text": "the hub admin is also able to see the usage reporting",
+      "words": []
+    },
+    {
+      "start": 588.8000000000001,
+      "end": 590.6,
+      "text": "for their specific hub",
+      "words": []
+    },
+    {
+      "start": 590.6,
+      "end": 593.1600000000001,
+      "text": "and the developer is also able to see the usage reporting",
+      "words": []
+    },
+    {
+      "start": 593.1600000000001,
+      "end": 595.1600000000001,
+      "text": "for their specific application.",
+      "words": []
+    },
+    {
+      "start": 595.16,
+      "end": 596.0,
+      "text": "So as you can see,",
+      "words": []
+    },
+    {
+      "start": 596.0,
+      "end": 598.48,
+      "text": "we are really making sure every single persona",
+      "words": []
+    },
+    {
+      "start": 598.48,
+      "end": 600.12,
+      "text": "is getting some level of reporting",
+      "words": []
+    },
+    {
+      "start": 600.12,
+      "end": 601.8399999999999,
+      "text": "to make better decisions,",
+      "words": []
+    },
+    {
+      "start": 601.8399999999999,
+      "end": 603.4399999999999,
+      "text": "be it technical decisions,",
+      "words": []
+    },
+    {
+      "start": 603.4399999999999,
+      "end": 605.1999999999999,
+      "text": "if they're seeing any spikes,",
+      "words": []
+    },
+    {
+      "start": 605.1999999999999,
+      "end": 606.52,
+      "text": "being it purchasing decisions,",
+      "words": []
+    },
+    {
+      "start": 606.52,
+      "end": 610.0,
+      "text": "if they want to upgrade a tier and more.",
+      "words": []
+    },
+    {
+      "start": 610.0,
+      "end": 612.76,
+      "text": "So what are some best practices",
+      "words": []
+    },
+    {
+      "start": 612.76,
+      "end": 615.56,
+      "text": "while using our usage reporting features?",
+      "words": []
+    },
+    {
+      "start": 615.56,
+      "end": 617.12,
+      "text": "So if you're somewhere with a free tier,",
+      "words": []
+    },
+    {
+      "start": 617.12,
+      "end": 619.12,
+      "text": "get tracking which APIs your app is using",
+      "words": []
+    },
+    {
+      "start": 619.12,
+      "end": 621.48,
+      "text": "because you're just getting started with APS.",
+      "words": []
+    },
+    {
+      "start": 621.48,
+      "end": 623.76,
+      "text": "So you want to see what your baseline usage is",
+      "words": []
+    },
+    {
+      "start": 624.72,
+      "end": 628.88,
+      "text": "or should you potentially move to another tier",
+      "words": []
+    },
+    {
+      "start": 628.88,
+      "end": 630.68,
+      "text": "if you're consuming certain APIs",
+      "words": []
+    },
+    {
+      "start": 630.68,
+      "end": 632.92,
+      "text": "beyond a certain threshold?",
+      "words": []
+    },
+    {
+      "start": 632.92,
+      "end": 635.04,
+      "text": "If you are using a flex, a T flex,",
+      "words": []
+    },
+    {
+      "start": 635.04,
+      "end": 635.92,
+      "text": "when a pay as you go,",
+      "words": []
+    },
+    {
+      "start": 635.92,
+      "end": 638.24,
+      "text": "you're already building production level applications.",
+      "words": []
+    },
+    {
+      "start": 638.24,
+      "end": 641.2,
+      "text": "So you just want to see what the token amounts are,",
+      "words": []
+    },
+    {
+      "start": 641.2,
+      "end": 643.08,
+      "text": "what the currency amounts are.",
+      "words": []
+    },
+    {
+      "start": 643.08,
+      "end": 645.48,
+      "text": "You should identify high usage workflows",
+      "words": []
+    },
+    {
+      "start": 645.48,
+      "end": 647.3199999999999,
+      "text": "and monitor growth trends.",
+      "words": []
+    },
+    {
+      "start": 647.3199999999999,
+      "end": 650.0,
+      "text": "Because let's say if you are someone with a flex",
+      "words": []
+    },
+    {
+      "start": 650.0,
+      "end": 652.56,
+      "text": "and you're running out of flex tokens very quickly,",
+      "words": []
+    },
+    {
+      "start": 652.56,
+      "end": 654.56,
+      "text": "then pay as you go was an option for you",
+      "words": []
+    },
+    {
+      "start": 654.56,
+      "end": 656.68,
+      "text": "because then you can scale dynamically.",
+      "words": []
+    },
+    {
+      "start": 656.68,
+      "end": 658.7199999999999,
+      "text": "And then you, and at the end of the month,",
+      "words": []
+    },
+    {
+      "start": 658.7199999999999,
+      "end": 662.68,
+      "text": "you can just be charged based on all the usage you already did.",
+      "words": []
+    },
+    {
+      "start": 662.68,
+      "end": 664.8,
+      "text": "And then finally, if you're scaling across multiple",
+      "words": []
+    },
+    {
+      "start": 664.8,
+      "end": 666.88,
+      "text": "internal teams in our organization,",
+      "words": []
+    },
+    {
+      "start": 666.88,
+      "end": 668.8399999999999,
+      "text": "we recommend using pay as you go",
+      "words": []
+    },
+    {
+      "start": 668.8399999999999,
+      "end": 671.04,
+      "text": "because then you get unlimited usage",
+      "words": []
+    },
+    {
+      "start": 671.04,
+      "end": 673.0799999999999,
+      "text": "and then you get charged at the end of the month,",
+      "words": []
+    },
+    {
+      "start": 673.0799999999999,
+      "end": 675.92,
+      "text": "just making it very easy for you to scale",
+      "words": []
+    },
+    {
+      "start": 675.92,
+      "end": 677.92,
+      "text": "across your organization or two.",
+      "words": []
+    },
+    {
+      "start": 678.88,
+      "end": 681.04,
+      "text": "Okay, now that I've given some information",
+      "words": []
+    },
+    {
+      "start": 681.04,
+      "end": 683.8399999999999,
+      "text": "as to what we are already, what we've already launched,",
+      "words": []
+    },
+    {
+      "start": 683.8399999999999,
+      "end": 686.48,
+      "text": "let's speak more about what's coming.",
+      "words": []
+    },
+    {
+      "start": 686.48,
+      "end": 690.04,
+      "text": "So two months ago, we introduced that",
+      "words": []
+    },
+    {
+      "start": 690.04,
+      "end": 692.16,
+      "text": "and we announced that we will be introducing something",
+      "words": []
+    },
+    {
+      "start": 692.16,
+      "end": 694.24,
+      "text": "called as included usage.",
+      "words": []
+    },
+    {
+      "start": 694.24,
+      "end": 696.16,
+      "text": "So what is included usage?",
+      "words": []
+    },
+    {
+      "start": 696.16,
+      "end": 698.48,
+      "text": "So certain product subscriptions,",
+      "words": []
+    },
+    {
+      "start": 698.48,
+      "end": 701.1999999999999,
+      "text": "like let's say, form a build, for example,",
+      "words": []
+    },
+    {
+      "start": 701.1999999999999,
+      "end": 706.1999999999999,
+      "text": "will now have included API capacity with that subscription.",
+      "words": []
+    },
+    {
+      "start": 706.68,
+      "end": 710.92,
+      "text": "So more likely, you don't have to go and acquire",
+      "words": []
+    },
+    {
+      "start": 710.92,
+      "end": 712.4,
+      "text": "another APS offering.",
+      "words": []
+    },
+    {
+      "start": 712.4,
+      "end": 713.92,
+      "text": "Your current product subscription",
+      "words": []
+    },
+    {
+      "start": 713.92,
+      "end": 716.64,
+      "text": "will come with API capacity included with it.",
+      "words": []
+    },
+    {
+      "start": 717.8399999999999,
+      "end": 719.92,
+      "text": "And you can scan this QR code,",
+      "words": []
+    },
+    {
+      "start": 719.92,
+      "end": 722.4799999999999,
+      "text": "which will take you to the blog, which has more information.",
+      "words": []
+    },
+    {
+      "start": 722.4799999999999,
+      "end": 725.3199999999999,
+      "text": "But in general, these subscriptions",
+      "words": []
+    },
+    {
+      "start": 725.3199999999999,
+      "end": 727.4399999999999,
+      "text": "will just have some API capacity.",
+      "words": []
+    },
+    {
+      "start": 727.4399999999999,
+      "end": 730.1999999999999,
+      "text": "And for the may launch, we will be introducing",
+      "words": []
+    },
+    {
+      "start": 730.1999999999999,
+      "end": 732.64,
+      "text": "included capacity for the AC data model",
+      "words": []
+    },
+    {
+      "start": 732.64,
+      "end": 735.12,
+      "text": "and the manufacturing data model APIs,",
+      "words": []
+    },
+    {
+      "start": 735.12,
+      "end": 737.92,
+      "text": "which is again a new step towards our business model",
+      "words": []
+    },
+    {
+      "start": 737.92,
+      "end": 739.88,
+      "text": "because this is the first time we will be having",
+      "words": []
+    },
+    {
+      "start": 739.96,
+      "end": 743.56,
+      "text": "included API usage formally within a subscription,",
+      "words": []
+    },
+    {
+      "start": 743.56,
+      "end": 746.96,
+      "text": "also having the ability to track this",
+      "words": []
+    },
+    {
+      "start": 746.96,
+      "end": 748.96,
+      "text": "across both your portals too.",
+      "words": []
+    },
+    {
+      "start": 749.88,
+      "end": 752.6,
+      "text": "So now that we're introducing included usage,",
+      "words": []
+    },
+    {
+      "start": 752.6,
+      "end": 753.96,
+      "text": "I just wanna quickly give a highlight",
+      "words": []
+    },
+    {
+      "start": 753.96,
+      "end": 755.4399999999999,
+      "text": "as to what this will look like.",
+      "words": []
+    },
+    {
+      "start": 755.4399999999999,
+      "end": 756.96,
+      "text": "So let's say you have a team.",
+      "words": []
+    },
+    {
+      "start": 756.96,
+      "end": 760.8,
+      "text": "That team has five Mb of APS free",
+      "words": []
+    },
+    {
+      "start": 760.8,
+      "end": 763.48,
+      "text": "and almost 40 Mb of included",
+      "words": []
+    },
+    {
+      "start": 763.48,
+      "end": 767.04,
+      "text": "subscriber capacity across three different subscriptions.",
+      "words": []
+    },
+    {
+      "start": 767.04,
+      "end": 772.04,
+      "text": "You will see that all this capacity gets pulled together.",
+      "words": []
+    },
+    {
+      "start": 772.7199999999999,
+      "end": 775.04,
+      "text": "So what you're going to see is you're going to see",
+      "words": []
+    },
+    {
+      "start": 775.04,
+      "end": 779.8399999999999,
+      "text": "five plus 40, you'll see 45 Mb of API capacity",
+      "words": []
+    },
+    {
+      "start": 779.8399999999999,
+      "end": 782.3199999999999,
+      "text": "included within your Autodesk team.",
+      "words": []
+    },
+    {
+      "start": 783.28,
+      "end": 788.28,
+      "text": "And this is mainly to make sure that you get enough usage",
+      "words": []
+    },
+    {
+      "start": 789.12,
+      "end": 790.92,
+      "text": "above through the capacity you have",
+      "words": []
+    },
+    {
+      "start": 790.92,
+      "end": 793.7199999999999,
+      "text": "because let's say you have several subscriptions.",
+      "words": []
+    },
+    {
+      "start": 793.7199999999999,
+      "end": 794.8399999999999,
+      "text": "We just don't want you to get",
+      "words": []
+    },
+    {
+      "start": 794.84,
+      "end": 796.88,
+      "text": "included capacity for one subscription.",
+      "words": []
+    },
+    {
+      "start": 796.88,
+      "end": 799.96,
+      "text": "You should have the ability to use it across all subscriptions",
+      "words": []
+    },
+    {
+      "start": 799.96,
+      "end": 802.6,
+      "text": "and that's why it gets pulled together.",
+      "words": []
+    },
+    {
+      "start": 802.6,
+      "end": 805.64,
+      "text": "So it's a very simple way of understanding",
+      "words": []
+    },
+    {
+      "start": 805.64,
+      "end": 807.32,
+      "text": "as to how your capacity will work",
+      "words": []
+    },
+    {
+      "start": 807.32,
+      "end": 810.64,
+      "text": "and this will happen sometimes starting May 2026.",
+      "words": []
+    },
+    {
+      "start": 811.5600000000001,
+      "end": 815.44,
+      "text": "Okay, next up we are introducing a new feature",
+      "words": []
+    },
+    {
+      "start": 815.44,
+      "end": 816.64,
+      "text": "called notifications.",
+      "words": []
+    },
+    {
+      "start": 816.64,
+      "end": 820.84,
+      "text": "So notifications is at a point where it supports both.",
+      "words": []
+    },
+    {
+      "start": 820.84,
+      "end": 822.08,
+      "text": "It supports visibility",
+      "words": []
+    },
+    {
+      "start": 822.08,
+      "end": 825.44,
+      "text": "and it also supports control over your APS usage.",
+      "words": []
+    },
+    {
+      "start": 825.44,
+      "end": 829.24,
+      "text": "So as a team admin, you will be able to set up alerts",
+      "words": []
+    },
+    {
+      "start": 829.24,
+      "end": 833.0400000000001,
+      "text": "whenever your APIs are running out of capacity",
+      "words": []
+    },
+    {
+      "start": 833.0400000000001,
+      "end": 836.2,
+      "text": "or you're having a low balance for specific APIs.",
+      "words": []
+    },
+    {
+      "start": 836.2,
+      "end": 838.2,
+      "text": "So again, we're making it opt-in opt-out.",
+      "words": []
+    },
+    {
+      "start": 838.2,
+      "end": 839.72,
+      "text": "We're not making it completely opt-in",
+      "words": []
+    },
+    {
+      "start": 839.72,
+      "end": 841.32,
+      "text": "because if you don't want a notification,",
+      "words": []
+    },
+    {
+      "start": 841.32,
+      "end": 842.64,
+      "text": "you don't want a notification.",
+      "words": []
+    },
+    {
+      "start": 842.64,
+      "end": 844.8000000000001,
+      "text": "So we're giving you all the potential options",
+      "words": []
+    },
+    {
+      "start": 845.8000000000001,
+      "end": 849.24,
+      "text": "and these alerts will be for a specific API",
+      "words": []
+    },
+    {
+      "start": 849.24,
+      "end": 851.0,
+      "text": "and an engine under that API.",
+      "words": []
+    },
+    {
+      "start": 851.12,
+      "end": 852.92,
+      "text": "So let's say if you have automation,",
+      "words": []
+    },
+    {
+      "start": 852.92,
+      "end": 855.0,
+      "text": "then you have sub-five engines.",
+      "words": []
+    },
+    {
+      "start": 855.0,
+      "end": 856.68,
+      "text": "You can set it up at an engine level",
+      "words": []
+    },
+    {
+      "start": 856.68,
+      "end": 858.64,
+      "text": "at the most granular level.",
+      "words": []
+    },
+    {
+      "start": 858.64,
+      "end": 861.64,
+      "text": "And again, just making it very easy for the team admin",
+      "words": []
+    },
+    {
+      "start": 861.64,
+      "end": 864.28,
+      "text": "to get notified when they have a low balance",
+      "words": []
+    },
+    {
+      "start": 864.28,
+      "end": 866.04,
+      "text": "or when they are out of balance",
+      "words": []
+    },
+    {
+      "start": 866.04,
+      "end": 868.64,
+      "text": "because either in both those cases,",
+      "words": []
+    },
+    {
+      "start": 868.64,
+      "end": 871.24,
+      "text": "you might have to make a purchasing decision",
+      "words": []
+    },
+    {
+      "start": 871.24,
+      "end": 873.48,
+      "text": "because let's say if you've ran out of capacity,",
+      "words": []
+    },
+    {
+      "start": 873.48,
+      "end": 876.12,
+      "text": "you will have to refill tokens",
+      "words": []
+    },
+    {
+      "start": 876.12,
+      "end": 879.36,
+      "text": "or you'll have to check when is the next replenishment date",
+      "words": []
+    },
+    {
+      "start": 879.36,
+      "end": 883.48,
+      "text": "for your free tier or for your included with usage, et cetera.",
+      "words": []
+    },
+    {
+      "start": 883.48,
+      "end": 887.36,
+      "text": "So we are just making sure that you are getting notifications",
+      "words": []
+    },
+    {
+      "start": 887.36,
+      "end": 889.32,
+      "text": "whenever you run out of balances.",
+      "words": []
+    },
+    {
+      "start": 889.32,
+      "end": 891.16,
+      "text": "And with respect to this,",
+      "words": []
+    },
+    {
+      "start": 892.28,
+      "end": 895.16,
+      "text": "you will be able to select who gets notifications.",
+      "words": []
+    },
+    {
+      "start": 895.16,
+      "end": 897.72,
+      "text": "So again, the notifications will be via a banner",
+      "words": []
+    },
+    {
+      "start": 897.72,
+      "end": 899.48,
+      "text": "on the UI as well as emails.",
+      "words": []
+    },
+    {
+      "start": 899.48,
+      "end": 901.64,
+      "text": "Again, and we are making it opt-in opt-out",
+      "words": []
+    },
+    {
+      "start": 901.64,
+      "end": 904.24,
+      "text": "just to make sure you do not get any email fatigue",
+      "words": []
+    },
+    {
+      "start": 904.24,
+      "end": 905.48,
+      "text": "through this feature.",
+      "words": []
+    },
+    {
+      "start": 906.0,
+      "end": 910.48,
+      "text": "We are also launching a similar concept of notifications",
+      "words": []
+    },
+    {
+      "start": 910.48,
+      "end": 911.76,
+      "text": "for the developer hub,",
+      "words": []
+    },
+    {
+      "start": 911.76,
+      "end": 915.52,
+      "text": "mainly targeting the hub admin and the developer persona",
+      "words": []
+    },
+    {
+      "start": 915.52,
+      "end": 917.84,
+      "text": "because the hub admin will also want to see",
+      "words": []
+    },
+    {
+      "start": 917.84,
+      "end": 921.16,
+      "text": "which applications and their hub are going to be affected",
+      "words": []
+    },
+    {
+      "start": 921.16,
+      "end": 924.96,
+      "text": "if the team which owns that hub is running out of capacity",
+      "words": []
+    },
+    {
+      "start": 924.96,
+      "end": 929.08,
+      "text": "for a specific API or a sub API under that API.",
+      "words": []
+    },
+    {
+      "start": 929.08,
+      "end": 931.4,
+      "text": "And that is why we are introducing this feature",
+      "words": []
+    },
+    {
+      "start": 931.4,
+      "end": 933.8000000000001,
+      "text": "for the hub admin persona",
+      "words": []
+    },
+    {
+      "start": 933.8399999999999,
+      "end": 936.68,
+      "text": "to get low balance and zero balance notifications",
+      "words": []
+    },
+    {
+      "start": 936.68,
+      "end": 939.12,
+      "text": "whenever the team which owns that hub",
+      "words": []
+    },
+    {
+      "start": 939.12,
+      "end": 940.8399999999999,
+      "text": "is running out of capacity.",
+      "words": []
+    },
+    {
+      "start": 940.8399999999999,
+      "end": 944.4399999999999,
+      "text": "And again, this is also an opt-in opt-out feature",
+      "words": []
+    },
+    {
+      "start": 944.4399999999999,
+      "end": 947.76,
+      "text": "where you can opt-in or opt-out of having these notifications",
+      "words": []
+    },
+    {
+      "start": 947.76,
+      "end": 949.92,
+      "text": "sent to the hub admin or the app owner",
+      "words": []
+    },
+    {
+      "start": 949.92,
+      "end": 953.12,
+      "text": "depending on what fits you the best.",
+      "words": []
+    },
+    {
+      "start": 953.12,
+      "end": 955.5999999999999,
+      "text": "So this is a high level of notifications",
+      "words": []
+    },
+    {
+      "start": 955.5999999999999,
+      "end": 957.4799999999999,
+      "text": "which will be launched sometime in May",
+      "words": []
+    },
+    {
+      "start": 957.4799999999999,
+      "end": 959.88,
+      "text": "when we launch included usage too.",
+      "words": []
+    },
+    {
+      "start": 961.0799999999999,
+      "end": 961.92,
+      "text": "Okay.",
+      "words": []
+    },
+    {
+      "start": 962.76,
+      "end": 965.7199999999999,
+      "text": "And finally today's concept which I want to really",
+      "words": []
+    },
+    {
+      "start": 965.7199999999999,
+      "end": 967.64,
+      "text": "give a very quick overview on which you will hear",
+      "words": []
+    },
+    {
+      "start": 967.64,
+      "end": 971.36,
+      "text": "about moving forward is what is happening today",
+      "words": []
+    },
+    {
+      "start": 971.36,
+      "end": 973.88,
+      "text": "with respect to managing APS usage.",
+      "words": []
+    },
+    {
+      "start": 973.88,
+      "end": 977.92,
+      "text": "Today we have ISVs who are building applications",
+      "words": []
+    },
+    {
+      "start": 977.92,
+      "end": 982.88,
+      "text": "and they are paying for APS usage through their account",
+      "words": []
+    },
+    {
+      "start": 982.88,
+      "end": 987.88,
+      "text": "and their customers who are using the third party application",
+      "words": []
+    },
+    {
+      "start": 988.92,
+      "end": 991.48,
+      "text": "are paying the ISVs directly.",
+      "words": []
+    },
+    {
+      "start": 991.48,
+      "end": 994.96,
+      "text": "Or what is happening is that customers are sharing",
+      "words": []
+    },
+    {
+      "start": 994.96,
+      "end": 997.52,
+      "text": "their client ID to the ISV",
+      "words": []
+    },
+    {
+      "start": 997.52,
+      "end": 1000.12,
+      "text": "and the ISV is using those credentials",
+      "words": []
+    },
+    {
+      "start": 1000.12,
+      "end": 1001.4,
+      "text": "to make API calls.",
+      "words": []
+    },
+    {
+      "start": 1001.4,
+      "end": 1003.8000000000001,
+      "text": "So yes, the customer is getting charged",
+      "words": []
+    },
+    {
+      "start": 1003.8000000000001,
+      "end": 1005.32,
+      "text": "but then there is a security concern",
+      "words": []
+    },
+    {
+      "start": 1005.32,
+      "end": 1009.08,
+      "text": "because sharing client ID is like this with partners",
+      "words": []
+    },
+    {
+      "start": 1009.08,
+      "end": 1012.0,
+      "text": "or with ISVs is not the most efficient",
+      "words": []
+    },
+    {
+      "start": 1012.0,
+      "end": 1015.32,
+      "text": "and most secure way of managing APS usage.",
+      "words": []
+    },
+    {
+      "start": 1015.32,
+      "end": 1017.72,
+      "text": "And looking at these two features",
+      "words": []
+    },
+    {
+      "start": 1017.72,
+      "end": 1020.24,
+      "text": "and these two current scenarios we realized",
+      "words": []
+    },
+    {
+      "start": 1020.24,
+      "end": 1023.6,
+      "text": "we have to build a feature which makes it very easy",
+      "words": []
+    },
+    {
+      "start": 1023.6,
+      "end": 1027.92,
+      "text": "for customers to use their API capacity",
+      "words": []
+    },
+    {
+      "start": 1027.92,
+      "end": 1030.56,
+      "text": "for a third party application.",
+      "words": []
+    },
+    {
+      "start": 1030.56,
+      "end": 1033.28,
+      "text": "And that is why we are going to be working on something",
+      "words": []
+    },
+    {
+      "start": 1033.28,
+      "end": 1035.92,
+      "text": "called as pass through usage.",
+      "words": []
+    },
+    {
+      "start": 1035.92,
+      "end": 1039.76,
+      "text": "Pass through usage is basically the ability for customers",
+      "words": []
+    },
+    {
+      "start": 1039.76,
+      "end": 1044.76,
+      "text": "to use their API capacity for a third party application.",
+      "words": []
+    },
+    {
+      "start": 1047.4,
+      "end": 1048.96,
+      "text": "So what does that mean?",
+      "words": []
+    },
+    {
+      "start": 1048.96,
+      "end": 1050.52,
+      "text": "Think of it that you have flex tokens",
+      "words": []
+    },
+    {
+      "start": 1050.52,
+      "end": 1054.68,
+      "text": "or you have included capacity with a former build subscription.",
+      "words": []
+    },
+    {
+      "start": 1054.68,
+      "end": 1056.64,
+      "text": "Your first option is, okay,",
+      "words": []
+    },
+    {
+      "start": 1056.64,
+      "end": 1059.3600000000001,
+      "text": "create a developer hub, create a client ID",
+      "words": []
+    },
+    {
+      "start": 1059.3600000000001,
+      "end": 1062.0,
+      "text": "and use a client ID to make API calls",
+      "words": []
+    },
+    {
+      "start": 1062.0,
+      "end": 1064.52,
+      "text": "and you're building your own application.",
+      "words": []
+    },
+    {
+      "start": 1064.52,
+      "end": 1068.08,
+      "text": "But you might also not want to build your own application.",
+      "words": []
+    },
+    {
+      "start": 1068.08,
+      "end": 1070.24,
+      "text": "You are already, you've downloaded an application",
+      "words": []
+    },
+    {
+      "start": 1070.24,
+      "end": 1072.4,
+      "text": "from the app store or your basically",
+      "words": []
+    },
+    {
+      "start": 1072.4,
+      "end": 1074.6000000000001,
+      "text": "just using a third party application.",
+      "words": []
+    },
+    {
+      "start": 1074.6000000000001,
+      "end": 1078.08,
+      "text": "So what do we do in that scenario?",
+      "words": []
+    },
+    {
+      "start": 1078.12,
+      "end": 1081.04,
+      "text": "And that's exactly what pass through is all about.",
+      "words": []
+    },
+    {
+      "start": 1081.04,
+      "end": 1085.04,
+      "text": "Because you've already, you already have all this API capacity",
+      "words": []
+    },
+    {
+      "start": 1085.04,
+      "end": 1088.28,
+      "text": "and these API balances and you want to consume that.",
+      "words": []
+    },
+    {
+      "start": 1088.28,
+      "end": 1090.56,
+      "text": "Now if you're not going to create your own application,",
+      "words": []
+    },
+    {
+      "start": 1090.56,
+      "end": 1092.72,
+      "text": "you want to consume that API capacity",
+      "words": []
+    },
+    {
+      "start": 1092.72,
+      "end": 1094.6799999999998,
+      "text": "through a third party application.",
+      "words": []
+    },
+    {
+      "start": 1094.6799999999998,
+      "end": 1096.96,
+      "text": "And that is exactly the definition of pass through.",
+      "words": []
+    },
+    {
+      "start": 1096.96,
+      "end": 1100.1999999999998,
+      "text": "It is the ability to use the API capacity",
+      "words": []
+    },
+    {
+      "start": 1100.1999999999998,
+      "end": 1103.04,
+      "text": "you own through a third party application.",
+      "words": []
+    },
+    {
+      "start": 1103.04,
+      "end": 1105.52,
+      "text": "Making it very easy for you as a customer",
+      "words": []
+    },
+    {
+      "start": 1105.52,
+      "end": 1107.08,
+      "text": "to use API capacity",
+      "words": []
+    },
+    {
+      "start": 1107.08,
+      "end": 1109.28,
+      "text": "and also making it very easy for an ISV",
+      "words": []
+    },
+    {
+      "start": 1109.28,
+      "end": 1111.12,
+      "text": "to manage their business model",
+      "words": []
+    },
+    {
+      "start": 1111.12,
+      "end": 1114.76,
+      "text": "and manage their apps, et cetera.",
+      "words": []
+    },
+    {
+      "start": 1114.76,
+      "end": 1117.28,
+      "text": "And this is something which we will be working on",
+      "words": []
+    },
+    {
+      "start": 1117.28,
+      "end": 1120.08,
+      "text": "in the next few months.",
+      "words": []
+    },
+    {
+      "start": 1120.08,
+      "end": 1124.12,
+      "text": "And we are also going to be starting a feature sponsorship program",
+      "words": []
+    },
+    {
+      "start": 1124.12,
+      "end": 1126.0,
+      "text": "which basically means that we are going to be working",
+      "words": []
+    },
+    {
+      "start": 1126.0,
+      "end": 1128.84,
+      "text": "with a close set of customers to see",
+      "words": []
+    },
+    {
+      "start": 1128.84,
+      "end": 1130.6,
+      "text": "and define this pass through feature",
+      "words": []
+    },
+    {
+      "start": 1130.6,
+      "end": 1133.84,
+      "text": "whenever we launch it in the next year or so.",
+      "words": []
+    },
+    {
+      "start": 1134.8799999999999,
+      "end": 1135.8799999999999,
+      "text": "And as you can see,",
+      "words": []
+    },
+    {
+      "start": 1135.88,
+      "end": 1139.3600000000001,
+      "text": "the main reason I wanted to speak to you about pass through",
+      "words": []
+    },
+    {
+      "start": 1139.3600000000001,
+      "end": 1142.72,
+      "text": "is that it has tremendous value",
+      "words": []
+    },
+    {
+      "start": 1142.72,
+      "end": 1145.64,
+      "text": "and we are really investing in visibility and control",
+      "words": []
+    },
+    {
+      "start": 1145.64,
+      "end": 1147.0400000000002,
+      "text": "because as you can see,",
+      "words": []
+    },
+    {
+      "start": 1147.0400000000002,
+      "end": 1150.2,
+      "text": "we are making it very easy for you as a customer",
+      "words": []
+    },
+    {
+      "start": 1150.2,
+      "end": 1152.0800000000002,
+      "text": "to consume your API capacity.",
+      "words": []
+    },
+    {
+      "start": 1152.0800000000002,
+      "end": 1154.92,
+      "text": "We're making it very easy for you as a customer",
+      "words": []
+    },
+    {
+      "start": 1154.92,
+      "end": 1157.5200000000002,
+      "text": "to leverage multiple opportunities",
+      "words": []
+    },
+    {
+      "start": 1157.5200000000002,
+      "end": 1159.0,
+      "text": "to consume API capacity",
+      "words": []
+    },
+    {
+      "start": 1159.0,
+      "end": 1160.44,
+      "text": "when it's going to be included",
+      "words": []
+    },
+    {
+      "start": 1160.44,
+      "end": 1162.68,
+      "text": "with certain of your product subscriptions",
+      "words": []
+    },
+    {
+      "start": 1162.68,
+      "end": 1166.8400000000001,
+      "text": "making you scale dynamically across the ABS platform.",
+      "words": []
+    },
+    {
+      "start": 1169.0800000000002,
+      "end": 1170.44,
+      "text": "And that's it from my side.",
+      "words": []
+    },
+    {
+      "start": 1170.44,
+      "end": 1171.28,
+      "text": "Thank you.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:14:03.884048+00:00"
+}

@@ -1,0 +1,799 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.0,
+      "text": "Hi everyone, welcome. Today we'll share a BAMS journey in digital strategy and scalable innovation",
+      "words": []
+    },
+    {
+      "start": 6.72,
+      "end": 12.96,
+      "text": "using our work at Skipple as a reference case. So Skipple is a major contract with many",
+      "words": []
+    },
+    {
+      "start": 12.96,
+      "end": 20.240000000000002,
+      "text": "stakeholders, type constraints and constant change. We'll bring this story in a three-park story",
+      "words": []
+    },
+    {
+      "start": 20.240000000000002,
+      "end": 26.88,
+      "text": "from strategy and architecture to practical automations and integrations to what's coming next",
+      "words": []
+    },
+    {
+      "start": 26.88,
+      "end": 31.919999999999998,
+      "text": "on the all-to-deaf platform. We'll show you how we're shaping an architecture where the",
+      "words": []
+    },
+    {
+      "start": 31.919999999999998,
+      "end": 38.48,
+      "text": "common data environment evolves into an integrated automated data center platform and why that matters",
+      "words": []
+    },
+    {
+      "start": 38.48,
+      "end": 49.84,
+      "text": "in our industry. I would like to start with introducing ourselves. I'm Jorun Gaudela, digital",
+      "words": []
+    },
+    {
+      "start": 49.84,
+      "end": 56.64,
+      "text": "enthusiast by nature, an enterprise architect by trade. At BAM I work on the target architecture",
+      "words": []
+    },
+    {
+      "start": 56.64,
+      "end": 61.760000000000005,
+      "text": "for digital construction, making sure technology fits the work and not the other way around.",
+      "words": []
+    },
+    {
+      "start": 62.720000000000006,
+      "end": 68.32000000000001,
+      "text": "My core belief is simple when we understand what technology is good at and put that to use in the",
+      "words": []
+    },
+    {
+      "start": 68.32000000000001,
+      "end": 74.56,
+      "text": "right process we are able to unlock better outcomes. And today I would like to share my insights",
+      "words": []
+    },
+    {
+      "start": 74.56,
+      "end": 81.12,
+      "text": "on applying IT strategy in a rapidly evolving industry. From my here self to RAD.",
+      "words": []
+    },
+    {
+      "start": 82.56,
+      "end": 88.16,
+      "text": "Hello everyone, my name is Ryan Futterd and I'm a BIM engineer at BAM consultancy and engineering.",
+      "words": []
+    },
+    {
+      "start": 88.16,
+      "end": 93.52000000000001,
+      "text": "Together with our team we build digital solutions that support and improve business processes across",
+      "words": []
+    },
+    {
+      "start": 93.52000000000001,
+      "end": 100.80000000000001,
+      "text": "BAM. We develop revenue that is for our modeling teams and also leverage out-of-desk platform services",
+      "words": []
+    },
+    {
+      "start": 100.8,
+      "end": 108.56,
+      "text": "to enable scalable data-driven workflows. Moving on, let's get into our story with a brief",
+      "words": []
+    },
+    {
+      "start": 108.56,
+      "end": 115.12,
+      "text": "introduction of BAM. We're a leading construction and engineering group in our own markets,",
+      "words": []
+    },
+    {
+      "start": 115.12,
+      "end": 121.92,
+      "text": "the Netherlands, UK and Ireland and Belgium. And with approximately 7 billion in revenue in around",
+      "words": []
+    },
+    {
+      "start": 121.92,
+      "end": 127.84,
+      "text": "14,000 people employed, we play a major role in our local supply chain, delivering complex",
+      "words": []
+    },
+    {
+      "start": 127.84,
+      "end": 133.20000000000002,
+      "text": "projects and maintaining critical assets across the built environment. We're here today to show",
+      "words": []
+    },
+    {
+      "start": 133.20000000000002,
+      "end": 138.88,
+      "text": "you how we're modernising our way of working, applying technology and innovation to improve safety,",
+      "words": []
+    },
+    {
+      "start": 138.88,
+      "end": 143.92000000000002,
+      "text": "boost efficiency, good carbon and raise quality for our clients.",
+      "words": []
+    },
+    {
+      "start": 145.28,
+      "end": 151.68,
+      "text": "Okay, to wrap up our introduction of BAM, we have included a short movie. It brings back",
+      "words": []
+    },
+    {
+      "start": 151.68,
+      "end": 155.36,
+      "text": "what we do, how we work and the difference we aim to make.",
+      "words": []
+    },
+    {
+      "start": 181.68,
+      "end": 185.36,
+      "text": "We're ready for the future. The can with data.",
+      "words": []
+    },
+    {
+      "start": 186.64000000000001,
+      "end": 190.56,
+      "text": "We build greenery, slimmer and faster.",
+      "words": []
+    },
+    {
+      "start": 191.28,
+      "end": 198.24,
+      "text": "For the complex, we're ready for our best. We extend the lifetime time, use materials and",
+      "words": []
+    },
+    {
+      "start": 198.24,
+      "end": 204.88,
+      "text": "slow down a bridge than a door. We quickly process with digital tools and slimmer",
+      "words": []
+    },
+    {
+      "start": 204.88,
+      "end": 210.0,
+      "text": "tools to build a better generation Today.",
+      "words": []
+    },
+    {
+      "start": 229.68,
+      "end": 232.88,
+      "text": "Go twice missed.",
+      "words": []
+    },
+    {
+      "start": 232.88,
+      "end": 238.64,
+      "text": "ensed in the fields we visit with poor quality bank care.",
+      "words": []
+    },
+    {
+      "start": 238.79999999999998,
+      "end": 242.29999999999998,
+      "text": "Ups and 1 to 1 alumni work in projects to avoid windfall",
+      "words": []
+    },
+    {
+      "start": 242.29999999999998,
+      "end": 245.74,
+      "text": "from the conscious door around us from the important time.",
+      "words": []
+    },
+    {
+      "start": 245.98,
+      "end": 248.54,
+      "text": "New Mexico federal government Manchester Security 71",
+      "words": []
+    },
+    {
+      "start": 248.84,
+      "end": 257.86,
+      "text": "vehicles are tied to the\u7532\u5bf8 Iniesta",
+      "words": []
+    },
+    {
+      "start": 257.86,
+      "end": 261.86,
+      "text": "Onto our strategic partnership with Autodesk.",
+      "words": []
+    },
+    {
+      "start": 261.86,
+      "end": 269.86,
+      "text": "Part of the reason we're here today, we already depend on a significant number of Autodesk applications as key enables across our workflow.",
+      "words": []
+    },
+    {
+      "start": 269.86,
+      "end": 276.86,
+      "text": "The strategic shift we're making now is moving from a tool landscape to a platform strategy.",
+      "words": []
+    },
+    {
+      "start": 276.86,
+      "end": 287.86,
+      "text": "All the disk formats, one of the core platform in our target architecture, helping us connect early stage design to construction delivery, creating a consistent digital threat along the way.",
+      "words": []
+    },
+    {
+      "start": 287.86,
+      "end": 291.86,
+      "text": "What we get is standardization and skill.",
+      "words": []
+    },
+    {
+      "start": 291.86,
+      "end": 299.86,
+      "text": "Last track, limitations, smoother integrations and a stronger foundation for automation analytics and repeatable delivery across all of our projects.",
+      "words": []
+    },
+    {
+      "start": 299.86,
+      "end": 309.86,
+      "text": "Following the platform strategy, we're actually evolving our digital state.",
+      "words": []
+    },
+    {
+      "start": 309.86,
+      "end": 317.86,
+      "text": "So all the stuff we have in IT from an application centric toolbox to a truly data centric architecture.",
+      "words": []
+    },
+    {
+      "start": 317.86,
+      "end": 326.86,
+      "text": "Historically, we've optimized workflows around tools which resulted in fragmented information across projects, teams and systems.",
+      "words": []
+    },
+    {
+      "start": 326.86,
+      "end": 335.86,
+      "text": "Our ambition is to flip that to make information the main product and using applications simply as a user interface to that information.",
+      "words": []
+    },
+    {
+      "start": 335.86,
+      "end": 347.86,
+      "text": "In practice, we're using the Autodesk platform as a core backbone for engineering and delivery data, connecting it to complimentary platforms that are best in class in their domain.",
+      "words": []
+    },
+    {
+      "start": 347.86,
+      "end": 358.86,
+      "text": "So for example, Microsoft for identity, user access and document management and SRI for geospatial context and GIS driven workflows.",
+      "words": []
+    },
+    {
+      "start": 358.86,
+      "end": 369.86,
+      "text": "By integrating these capabilities into one core here in the architecture, we create a consistent digital threat, cover data, shared semantics and automation across processes.",
+      "words": []
+    },
+    {
+      "start": 369.86,
+      "end": 376.86,
+      "text": "So from early design to execution and finally to hand over.",
+      "words": []
+    },
+    {
+      "start": 377.86,
+      "end": 384.86,
+      "text": "And that brings us to the final element of our strategy, interoperability in an end to end in an end to end process.",
+      "words": []
+    },
+    {
+      "start": 384.86,
+      "end": 391.86,
+      "text": "So for us, innovation is not really about adding more tools. It's about removing complexity.",
+      "words": []
+    },
+    {
+      "start": 391.86,
+      "end": 401.86,
+      "text": "So if you look at construction, it's still full of handovers. So one system or application to another, one team to another or even one face to another.",
+      "words": []
+    },
+    {
+      "start": 401.86,
+      "end": 406.86,
+      "text": "Every endover might lead to delays, we work and lots of information.",
+      "words": []
+    },
+    {
+      "start": 406.86,
+      "end": 414.86,
+      "text": "What we do is we design interoperability around these moments that matter, our focus is the process and the people that run that process.",
+      "words": []
+    },
+    {
+      "start": 414.86,
+      "end": 419.86,
+      "text": "So technology should support that flow instead of interrupting it.",
+      "words": []
+    },
+    {
+      "start": 419.86,
+      "end": 427.86,
+      "text": "Practically, that means consistent data structures, clear integration patterns and automation where it resides, where it reduces admin.",
+      "words": []
+    },
+    {
+      "start": 427.86,
+      "end": 434.86,
+      "text": "So eventually teams can trust the information, stay in their context and collaborate without translation.",
+      "words": []
+    },
+    {
+      "start": 434.86,
+      "end": 439.86,
+      "text": "In short, fewer handovers, less translation and more trust.",
+      "words": []
+    },
+    {
+      "start": 439.86,
+      "end": 444.86,
+      "text": "An end to end process where technology adds value for the people doing the work.",
+      "words": []
+    },
+    {
+      "start": 445.86,
+      "end": 457.86,
+      "text": "Now, and to ground our story in a real world context, we want to use Skipple and our Skipple contract as a reference case.",
+      "words": []
+    },
+    {
+      "start": 457.86,
+      "end": 461.86,
+      "text": "That is where construction truly meets operation.",
+      "words": []
+    },
+    {
+      "start": 461.86,
+      "end": 466.86,
+      "text": "This is not a green field project with a clean start and clean finish.",
+      "words": []
+    },
+    {
+      "start": 466.86,
+      "end": 473.86,
+      "text": "It's a very complex operational environment where our work must integrate with the idea of port operations.",
+      "words": []
+    },
+    {
+      "start": 473.86,
+      "end": 478.86,
+      "text": "We have a strict coordination and continuous change.",
+      "words": []
+    },
+    {
+      "start": 478.86,
+      "end": 481.86,
+      "text": "The challenges in this contract are significant.",
+      "words": []
+    },
+    {
+      "start": 481.86,
+      "end": 487.86,
+      "text": "So we manage more than 30 all to desk environments for a mile ACC.",
+      "words": []
+    },
+    {
+      "start": 487.86,
+      "end": 496.86,
+      "text": "We manage them in parallel and we actively maintain around 200 to 250 B models, kind of spread across these environments.",
+      "words": []
+    },
+    {
+      "start": 496.86,
+      "end": 502.86,
+      "text": "On top of that baseline, more than 100 projects are actually initiated every year.",
+      "words": []
+    },
+    {
+      "start": 502.86,
+      "end": 513.86,
+      "text": "So constant change, moving at different speeds, all with different stakeholders and constraints, and significant impact on the existing situation.",
+      "words": []
+    },
+    {
+      "start": 513.86,
+      "end": 525.86,
+      "text": "And finally, we need to provide monthly updates to Skipple to keep their resident information up to date, meaning all the information must be consistent, traceable and ready for decision making.",
+      "words": []
+    },
+    {
+      "start": 526.86,
+      "end": 532.86,
+      "text": "That level of throughput is what drove us to build the automations and integrations we'll show today.",
+      "words": []
+    },
+    {
+      "start": 532.86,
+      "end": 538.86,
+      "text": "To reduce complexity, prevent rework and make the right information available in each process.",
+      "words": []
+    },
+    {
+      "start": 538.86,
+      "end": 546.86,
+      "text": "And that's where I would like to hand over to Ryan to take us on that journey and tell us more about all of these components.",
+      "words": []
+    },
+    {
+      "start": 546.86,
+      "end": 548.86,
+      "text": "All right, thank you.",
+      "words": []
+    },
+    {
+      "start": 549.86,
+      "end": 554.86,
+      "text": "As you just mentioned, this is the skill at which we operate within ballman's hip hole.",
+      "words": []
+    },
+    {
+      "start": 554.86,
+      "end": 563.86,
+      "text": "And at that skill, managing permissions, exports and project data quickly becomes less of a design challenge and more of a workflow and governance challenge.",
+      "words": []
+    },
+    {
+      "start": 563.86,
+      "end": 571.86,
+      "text": "Still, many of our data processes are actually repetitive and manual work that we have across multiple projects.",
+      "words": []
+    },
+    {
+      "start": 572.86,
+      "end": 579.86,
+      "text": "So instead of solving all these challenges, project and project, we actually developed the format toolbox on top of how to test platform services.",
+      "words": []
+    },
+    {
+      "start": 579.86,
+      "end": 591.86,
+      "text": "The toolbox is around is built around a web based architecture using reactant typescript in the front end and yet as you're hosted serverless backend, built in C sharp end of net.",
+      "words": []
+    },
+    {
+      "start": 591.86,
+      "end": 600.86,
+      "text": "Then we have the cloud storage to manage our project related data and this setup allows us to centrally manage functionality while deploying reusable tools across all of the data.",
+      "words": []
+    },
+    {
+      "start": 600.86,
+      "end": 610.86,
+      "text": "Of across all our former environments using this platform, we've built several solutions and today I'd like to walk you through three of them.",
+      "words": []
+    },
+    {
+      "start": 613.86,
+      "end": 624.86,
+      "text": "The first solution I want to talk about today is also one of the first projects we built on top of it, other than platform services and is focused on user management and provisioning.",
+      "words": []
+    },
+    {
+      "start": 624.86,
+      "end": 638.86,
+      "text": "It allows us to centrally manage users across multiple projects and environments in a scalable and reusable way prior to our solution, managing user access at this skill at triple at quite some difficulties.",
+      "words": []
+    },
+    {
+      "start": 638.86,
+      "end": 645.86,
+      "text": "For triple, we're dealing with the height turnover in subcontractors across a growing number of projects.",
+      "words": []
+    },
+    {
+      "start": 645.86,
+      "end": 665.86,
+      "text": "At the same time, it becomes increasingly difficult to efficiently add or update multiple users across multiple project and environments and with over 100 new projects like your own set starting at triple each year maintaining control all of for all the ACC users becomes quite a headache.",
+      "words": []
+    },
+    {
+      "start": 666.86,
+      "end": 672.86,
+      "text": "The interface shown here is part of our provisioning solutions we developed to address exactly that.",
+      "words": []
+    },
+    {
+      "start": 675.86,
+      "end": 692.86,
+      "text": "To address these challenges, we've developed a provisioning workflow that connects a web interface to our data from ACC project teams can retrieve project data roles and permission rules directly from the platform.",
+      "words": []
+    },
+    {
+      "start": 693.86,
+      "end": 705.86,
+      "text": "Our engineers love their excels so the user standardized excel template to define which users need to be added or updated between plan to reuse this logic within our CDE provisioning development.",
+      "words": []
+    },
+    {
+      "start": 706.86,
+      "end": 717.86,
+      "text": "Once uploaded through our format toolbox, the file is then processed by our Azure functions and automatically synchronized with ACC to update project access and roles.",
+      "words": []
+    },
+    {
+      "start": 718.86,
+      "end": 726.86,
+      "text": "Our next solution focuses on governance and access control across our ACC environments.",
+      "words": []
+    },
+    {
+      "start": 726.86,
+      "end": 733.86,
+      "text": "At triple, operating across numerous projects, it's essential to understand who has access to what.",
+      "words": []
+    },
+    {
+      "start": 733.86,
+      "end": 741.86,
+      "text": "This solution gives the centralized insights into user permissions, helping us improve governance across our project landscape.",
+      "words": []
+    },
+    {
+      "start": 742.86,
+      "end": 746.86,
+      "text": "With gaining these levels of insights also comes with its own set of challenges.",
+      "words": []
+    },
+    {
+      "start": 748.86,
+      "end": 753.86,
+      "text": "At triple, we're dealing again with the high turnover of subcontractors like I just said,",
+      "words": []
+    },
+    {
+      "start": 753.86,
+      "end": 761.86,
+      "text": "while strict confidentiality requires accurate management of folders and folder structures and access rights.",
+      "words": []
+    },
+    {
+      "start": 762.86,
+      "end": 770.86,
+      "text": "Without centralized governance, permissions are often tracked manually, costing project administrators up to one hour per project per month.",
+      "words": []
+    },
+    {
+      "start": 772.86,
+      "end": 777.86,
+      "text": "The interface shown here is part of the solution we've developed to improve visibility and control.",
+      "words": []
+    },
+    {
+      "start": 781.86,
+      "end": 789.86,
+      "text": "So to address these challenges, we've developed an permission fewer that retrieves and structures access data directly from ACC.",
+      "words": []
+    },
+    {
+      "start": 790.86,
+      "end": 796.86,
+      "text": "On a scheduled basis, our Azure functions retrieve project permissions and folder structures through the ACC APIs.",
+      "words": []
+    },
+    {
+      "start": 797.86,
+      "end": 801.86,
+      "text": "This information is then processed and stored as structured data.",
+      "words": []
+    },
+    {
+      "start": 803.86,
+      "end": 807.86,
+      "text": "Allowing us to analyze access rights across projects and environments.",
+      "words": []
+    },
+    {
+      "start": 807.86,
+      "end": 811.86,
+      "text": "This way, we don't have to repeatedly query live ACC environments.",
+      "words": []
+    },
+    {
+      "start": 812.86,
+      "end": 819.86,
+      "text": "By storing these structures, centrally, we're able to overcome API rate limitations when retrieving permissions and folder information.",
+      "words": []
+    },
+    {
+      "start": 820.86,
+      "end": 823.86,
+      "text": "This data is then exposed through a web interface.",
+      "words": []
+    },
+    {
+      "start": 823.86,
+      "end": 829.86,
+      "text": "Allowing project teams to quickly visualize who has access to what across their environments.",
+      "words": []
+    },
+    {
+      "start": 831.86,
+      "end": 839.86,
+      "text": "In the future, we plan to extend this workflow using web-cook-based updates from Autodesk to further automate permissions tracking for consistent data.",
+      "words": []
+    },
+    {
+      "start": 843.86,
+      "end": 847.86,
+      "text": "Our third solution focuses on automating high-speed delivery across our projects.",
+      "words": []
+    },
+    {
+      "start": 847.86,
+      "end": 855.86,
+      "text": "Stakeholder such as HIPPLE require up-to-date IFC exports on a regular basis, which traditionally involves manual and repetitive work.",
+      "words": []
+    },
+    {
+      "start": 856.86,
+      "end": 864.86,
+      "text": "This solution enables us a fully automated workflow to generate and deliver IFC models in a scalable and reusable way.",
+      "words": []
+    },
+    {
+      "start": 865.86,
+      "end": 871.86,
+      "text": "With automating these IFC deliveries also has their own challenges.",
+      "words": []
+    },
+    {
+      "start": 871.86,
+      "end": 878.86,
+      "text": "Manual IFC exports often result in inefficiencies and inconsistent outputs across projects.",
+      "words": []
+    },
+    {
+      "start": 879.86,
+      "end": 886.86,
+      "text": "These export tasks also consume valuable time and system capacity, especially when we are occurring updates are required.",
+      "words": []
+    },
+    {
+      "start": 887.86,
+      "end": 898.86,
+      "text": "And with around 15 active projects per month, requiring weekly IFC exports, the lack of automation quickly becomes a scalability issue.",
+      "words": []
+    },
+    {
+      "start": 898.86,
+      "end": 901.86,
+      "text": "Across our red-ed-based workflows.",
+      "words": []
+    },
+    {
+      "start": 903.86,
+      "end": 910.86,
+      "text": "The interface shown here is part of the solution we've developed to standardize and automate this delivery process.",
+      "words": []
+    },
+    {
+      "start": 916.86,
+      "end": 924.86,
+      "text": "So to address these challenges, we've developed an automated IFC export workflow that integrates directly with both refit and ACC.",
+      "words": []
+    },
+    {
+      "start": 924.86,
+      "end": 939.86,
+      "text": "All IFC export configurations are centrally managed through a single settings location in our format toolbox, allowing project standards and client-specific best practices to be reused across all our projects.",
+      "words": []
+    },
+    {
+      "start": 940.86,
+      "end": 949.86,
+      "text": "Any changes made to these configurations will immediately apply to all automated exports, ensuring consistent outputs across environments.",
+      "words": []
+    },
+    {
+      "start": 949.86,
+      "end": 964.86,
+      "text": "Both BIM coordinators and modellers can request automated exports directly from written refit, where the model context such as FUIDs and works of selections provide additional export parameters.",
+      "words": []
+    },
+    {
+      "start": 965.86,
+      "end": 976.86,
+      "text": "IFC exports can then be triggered either manually through the ACC through the format toolbox or automatically through our automation workflow,",
+      "words": []
+    },
+    {
+      "start": 976.86,
+      "end": 983.86,
+      "text": "after which the generated IFCs are directly delivered to the appointed ACC project environment.",
+      "words": []
+    },
+    {
+      "start": 984.86,
+      "end": 991.86,
+      "text": "This allows us to scale IFC delivery while ensuring that all exports adopt the required project standards.",
+      "words": []
+    },
+    {
+      "start": 996.86,
+      "end": 1005.86,
+      "text": "While the solutions we've shown today already support a wide range of operational workflows, this is only the beginning of how we plan to scale our platform capabilities.",
+      "words": []
+    },
+    {
+      "start": 1006.86,
+      "end": 1014.86,
+      "text": "Going forward, we aim to continuously expand our existing tools to better align with real workflows used by our project teams.",
+      "words": []
+    },
+    {
+      "start": 1015.86,
+      "end": 1028.8600000000001,
+      "text": "We also see opportunities to grow by building more data-driven solutions using the ACC data model API and enabling insights beyond individual models and into a broader sustainability and project performance metrics.",
+      "words": []
+    },
+    {
+      "start": 1029.86,
+      "end": 1039.86,
+      "text": "And most importantly, we continue to learn from real world projects usage to further refine governance permissions and platform adoptions across our environments.",
+      "words": []
+    },
+    {
+      "start": 1041.86,
+      "end": 1043.86,
+      "text": "Let me close out with our key takeaway.",
+      "words": []
+    },
+    {
+      "start": 1045.86,
+      "end": 1056.86,
+      "text": "We use Kibble to show a reality where construction meets operation, constant change, many stakeholders and high need for trusted, consistent information.",
+      "words": []
+    },
+    {
+      "start": 1057.86,
+      "end": 1063.86,
+      "text": "Our response is a data-centric architecture and practical automations that make delivery repeatable at-skill.",
+      "words": []
+    },
+    {
+      "start": 1064.86,
+      "end": 1077.86,
+      "text": "And that's captured in this one quote where we are quite sure that with all the desk platform services, we are able to turn complexity into actual control across projects, teams, business units and stakeholders.",
+      "words": []
+    },
+    {
+      "start": 1078.86,
+      "end": 1083.86,
+      "text": "And as you've seen our approach to what we've built, it's the perfect time to look ahead.",
+      "words": []
+    },
+    {
+      "start": 1086.86,
+      "end": 1089.86,
+      "text": "You",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-23T00:10:27.610163+00:00"
+}

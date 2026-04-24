@@ -1,0 +1,34 @@
+{
+  "video_id": "05JCRsYL_Zk",
+  "demo_timestamps": [],
+  "themes": [
+    "Data management in AI systems",
+    "Data quality for AI in AC industry",
+    "Data pipeline processes"
+  ],
+  "client_mentions": [],
+  "autodesk_products": [
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 239.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "AI agents",
+      "category": "agent",
+      "context": "Building intelligent AI agents for the AC industry",
+      "timestamp": 12.0
+    },
+    {
+      "name": "NLP",
+      "category": "llm",
+      "context": "Natural language processing needed to interpret text data",
+      "timestamp": 138.0
+    }
+  ],
+  "summary": "The video is part of the MCP Workshop series focused on understanding and managing data for building intelligent AI agents in the AC industry. It emphasizes the importance of data quality, describing it as foundational for AI, and outlines the six main data types and the challenges they present. It also introduces the AC data pipeline, a five-stage process essential for preparing data for AI models.",
+  "_complete": true,
+  "_saved_at": "2026-04-23T00:09:06.728671+00:00"
+}

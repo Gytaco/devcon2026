@@ -1,0 +1,49 @@
+{
+  "video_id": "LSmmc98bpyo",
+  "demo_timestamps": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "description": "implementation of APS security measures and SSA, APS API filtering"
+    }
+  ],
+  "themes": [
+    "Securing APIs in Enterprise Automation"
+  ],
+  "client_mentions": [
+    {
+      "name": "Arcade",
+      "context": "use of APS API for secure access and cross-project analytics",
+      "timestamp": 186.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "APS",
+      "is_api": false,
+      "timestamp": 6.0
+    },
+    {
+      "name": "SSA, APS API",
+      "is_api": true,
+      "timestamp": 344.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "Azure AI Foundry",
+      "category": "ml",
+      "context": "used with SSA, APS API to limit project access",
+      "timestamp": 426.0
+    },
+    {
+      "name": "Microsoft Copilot Studio",
+      "category": "other",
+      "context": "used for integration of SEC features within Autodesk Assistant",
+      "timestamp": 505.0
+    }
+  ],
+  "summary": "The video discusses securing Autodesk's APS Hubs by implementing API filtering to avoid using insecure 2LO access methods. It highlights the importance of using SSA, APS API for cross-project data access in a more secure and filtered manner. Azure AI Foundry and Microsoft Copilot Studio are mentioned as tools integrated into this security framework.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:47:26.170333+00:00"
+}

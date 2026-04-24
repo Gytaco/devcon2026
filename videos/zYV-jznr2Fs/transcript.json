@@ -1,0 +1,1069 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.28,
+      "text": "Hello, everyone. Welcome to this session where we are talking about",
+      "words": []
+    },
+    {
+      "start": 5.28,
+      "end": 9.36,
+      "text": "latest features of the AEC data model API.",
+      "words": []
+    },
+    {
+      "start": 9.36,
+      "end": 15.200000000000001,
+      "text": "My name is Chinkit Rwedi and I'm a Senior Product Manager with Autodesk Platform Services.",
+      "words": []
+    },
+    {
+      "start": 15.200000000000001,
+      "end": 21.28,
+      "text": "My focus area is granular data solutions for the AECO industry.",
+      "words": []
+    },
+    {
+      "start": 21.28,
+      "end": 27.12,
+      "text": "I have been in the industry for about 15 years initially as a software development manager,",
+      "words": []
+    },
+    {
+      "start": 27.28,
+      "end": 32.72,
+      "text": "and then as a product manager and I'm super excited to see where the industry is headed in terms",
+      "words": []
+    },
+    {
+      "start": 32.72,
+      "end": 40.160000000000004,
+      "text": "of its data needs. Before we jump right into the session, a quick note about our safe hardware",
+      "words": []
+    },
+    {
+      "start": 40.160000000000004,
+      "end": 48.56,
+      "text": "statement. I will be talking about certain features which are in beta or are going to be launched",
+      "words": []
+    },
+    {
+      "start": 48.56,
+      "end": 54.64,
+      "text": "in short order. So again, this is stating that please do not make any purchase in decisions",
+      "words": []
+    },
+    {
+      "start": 54.64,
+      "end": 62.32,
+      "text": "based on what you're here in this presentation. So jump right in. We have 15 minutes. So I will",
+      "words": []
+    },
+    {
+      "start": 62.32,
+      "end": 69.68,
+      "text": "keep it super short and very focused. I will go through a high level of Autodesk's data vision.",
+      "words": []
+    },
+    {
+      "start": 69.68,
+      "end": 76.32,
+      "text": "We would have a very high level overview of what is a AEC data model and then dig into the new",
+      "words": []
+    },
+    {
+      "start": 76.32,
+      "end": 82.72,
+      "text": "feature updates which is where I will be spending most of my time. Towards the end, I will wrap up",
+      "words": []
+    },
+    {
+      "start": 82.8,
+      "end": 88.4,
+      "text": "with an overview of the roadmap and give everyone an idea of where we are headed in terms of the",
+      "words": []
+    },
+    {
+      "start": 88.4,
+      "end": 96.56,
+      "text": "feature set. So jumping right in, Autodesk's data vision at a high level Autodesk aims to",
+      "words": []
+    },
+    {
+      "start": 96.56,
+      "end": 102.48,
+      "text": "deliver an open and extensible data platform that connects AECO teams and their tools of choice.",
+      "words": []
+    },
+    {
+      "start": 104.0,
+      "end": 109.84,
+      "text": "This is a pretty big statement and to unpack it. A lot of the focus is on liberating data from the",
+      "words": []
+    },
+    {
+      "start": 109.84,
+      "end": 118.24000000000001,
+      "text": "current data silos and making it accessible, trusted and connected. So what we are talking about in",
+      "words": []
+    },
+    {
+      "start": 118.24000000000001,
+      "end": 124.32000000000001,
+      "text": "this session is the AEC data model which sits at the base layer of the image you see here.",
+      "words": []
+    },
+    {
+      "start": 125.76,
+      "end": 132.32,
+      "text": "The ultimate goal being to make the data available, being able to answer the question,",
+      "words": []
+    },
+    {
+      "start": 132.32,
+      "end": 138.24,
+      "text": "where is my data? That's the accessibility part. Then layering on the structure and data enforcement",
+      "words": []
+    },
+    {
+      "start": 138.24,
+      "end": 144.16,
+      "text": "standards which makes the data trusted and then making sure that the granular and trusted data",
+      "words": []
+    },
+    {
+      "start": 144.16,
+      "end": 150.4,
+      "text": "is available in the right place at the right time so that those data points can be connected to",
+      "words": []
+    },
+    {
+      "start": 150.4,
+      "end": 157.28,
+      "text": "improve more outcomes. So as I mentioned, AEC data models, it's at the foundation of this strategy",
+      "words": []
+    },
+    {
+      "start": 158.24,
+      "end": 163.68,
+      "text": "and we would be talking a lot more about that in this session. So I said there were AEC data",
+      "words": []
+    },
+    {
+      "start": 163.76000000000002,
+      "end": 171.28,
+      "text": "model a few times so let's just dig into it. What is AEC data model? I'm assuming most people",
+      "words": []
+    },
+    {
+      "start": 171.28,
+      "end": 177.20000000000002,
+      "text": "looking at this presentation or listening to this will have a general idea but if not, let's just",
+      "words": []
+    },
+    {
+      "start": 177.20000000000002,
+      "end": 185.12,
+      "text": "take a quick look. So taking a step back, AEC data has been trapped in models and files which is",
+      "words": []
+    },
+    {
+      "start": 185.12,
+      "end": 191.04000000000002,
+      "text": "making it difficult to access and share. So imagine a Revit, an architect operating a Revit,",
+      "words": []
+    },
+    {
+      "start": 191.04,
+      "end": 196.79999999999998,
+      "text": "wanting to share certain parts of the Revit model with a prefabricator but the only way to do",
+      "words": []
+    },
+    {
+      "start": 196.79999999999998,
+      "end": 202.07999999999998,
+      "text": "that is to share an entire Revit file. The prefabricator wants to add a few different bits of",
+      "words": []
+    },
+    {
+      "start": 202.07999999999998,
+      "end": 209.44,
+      "text": "information but the only way to do that is to open Revit, add those data points inside the file",
+      "words": []
+    },
+    {
+      "start": 209.44,
+      "end": 215.28,
+      "text": "and then ship the file back to the architect. This is extremely inefficient and creates",
+      "words": []
+    },
+    {
+      "start": 216.08,
+      "end": 219.6,
+      "text": "a lot of churn as far as the data transition and transfer is concerned.",
+      "words": []
+    },
+    {
+      "start": 221.68,
+      "end": 229.04,
+      "text": "So imagine taking those files and picking apart all of the objects within that files along with",
+      "words": []
+    },
+    {
+      "start": 229.04,
+      "end": 235.52,
+      "text": "its relationships and having all of that data stored in a formation, in a data formation.",
+      "words": []
+    },
+    {
+      "start": 236.8,
+      "end": 243.84,
+      "text": "And that's what AEC data model is. So looking at this picture, imagine a Revit file or an IFC",
+      "words": []
+    },
+    {
+      "start": 243.84,
+      "end": 250.0,
+      "text": "file being extracted out along with all of its objects and its relationships and being stored",
+      "words": []
+    },
+    {
+      "start": 250.0,
+      "end": 255.92000000000002,
+      "text": "in a common data environment which in this in Autodesk's case is Autodata format data management.",
+      "words": []
+    },
+    {
+      "start": 257.84000000000003,
+      "end": 263.68,
+      "text": "Once all of that granular data is available in a standard and centralized common data environment.",
+      "words": []
+    },
+    {
+      "start": 265.76,
+      "end": 273.36,
+      "text": "This the AEC data model API allows access to all of that information through its Graph Q&A API.",
+      "words": []
+    },
+    {
+      "start": 274.4,
+      "end": 280.15999999999997,
+      "text": "So imagine being able to pick and choose specific aspects of a Revit file, say doors or windows",
+      "words": []
+    },
+    {
+      "start": 281.11999999999995,
+      "end": 284.0,
+      "text": "without needing to actually ship the entire Revit file around.",
+      "words": []
+    },
+    {
+      "start": 285.52,
+      "end": 291.12,
+      "text": "So through the rest of this session we will be focused on this top right part here which is where",
+      "words": []
+    },
+    {
+      "start": 291.12,
+      "end": 299.12,
+      "text": "the API is coming to play. These APIs allow granular database access where you can actually pick and",
+      "words": []
+    },
+    {
+      "start": 299.12,
+      "end": 306.56,
+      "text": "choose the type of information you want to extract. It helps reduce file load by being able to",
+      "words": []
+    },
+    {
+      "start": 306.56,
+      "end": 312.24,
+      "text": "add your own custom properties directly through the API. And I will talk about that in a lot more",
+      "words": []
+    },
+    {
+      "start": 312.24,
+      "end": 320.8,
+      "text": "detail throughout this session. And the last bit is the API allows driving interoperability",
+      "words": []
+    },
+    {
+      "start": 320.8,
+      "end": 324.48,
+      "text": "and connectivity between different tools that already exist in your tool gen.",
+      "words": []
+    },
+    {
+      "start": 324.8,
+      "end": 334.16,
+      "text": "So saying that let's just jump right in. What are the new features that we are going to be talking",
+      "words": []
+    },
+    {
+      "start": 334.16,
+      "end": 340.0,
+      "text": "about today? So the first one I want to talk about is Revit sync data in AEC data model.",
+      "words": []
+    },
+    {
+      "start": 340.96000000000004,
+      "end": 348.48,
+      "text": "For folks who are familiar currently you need to execute a publish action in Revit for all of",
+      "words": []
+    },
+    {
+      "start": 348.48,
+      "end": 352.64000000000004,
+      "text": "that data to be extracted into the data model and being available through the API.",
+      "words": []
+    },
+    {
+      "start": 353.52,
+      "end": 358.71999999999997,
+      "text": "While that is great the publish action is typically associated with milestones and",
+      "words": []
+    },
+    {
+      "start": 360.08,
+      "end": 366.47999999999996,
+      "text": "you need a lot more information about work as things are progressing. And what this feature allows",
+      "words": []
+    },
+    {
+      "start": 366.47999999999996,
+      "end": 372.8,
+      "text": "you to do is now get access to work in progress data through the into the AEC data model and",
+      "words": []
+    },
+    {
+      "start": 372.8,
+      "end": 380.56,
+      "text": "out through the graph QL API. So every sync to central in Revit now saves to AEC data model.",
+      "words": []
+    },
+    {
+      "start": 382.8,
+      "end": 388.96,
+      "text": "The AEC data model API allows you to differentiate between work in progress and published versions",
+      "words": []
+    },
+    {
+      "start": 389.59999999999997,
+      "end": 395.28,
+      "text": "which allows which unlocks a lot more different workflows where you want to actually see",
+      "words": []
+    },
+    {
+      "start": 395.91999999999996,
+      "end": 399.68,
+      "text": "how many published versions exist and how many sync to versions exist.",
+      "words": []
+    },
+    {
+      "start": 401.44,
+      "end": 406.8,
+      "text": "And we are also excited to introduce the Delta queries. These Delta queries allow",
+      "words": []
+    },
+    {
+      "start": 407.52000000000004,
+      "end": 415.12,
+      "text": "to change tracking and progress tracking and change management. So imagine being able to find out",
+      "words": []
+    },
+    {
+      "start": 415.12,
+      "end": 422.0,
+      "text": "what change between the last time something was sync to the model up to now. Also imagine",
+      "words": []
+    },
+    {
+      "start": 422.0,
+      "end": 428.32,
+      "text": "wanting to understand what actually has been changed since the last time we published the model.",
+      "words": []
+    },
+    {
+      "start": 429.6,
+      "end": 434.8,
+      "text": "Imagine being in a meeting with the rest of the project team reviewing the published version.",
+      "words": []
+    },
+    {
+      "start": 434.96000000000004,
+      "end": 441.04,
+      "text": "And only to find out that with all the recent changes that have happened a lot of the model is out of sync.",
+      "words": []
+    },
+    {
+      "start": 442.16,
+      "end": 448.24,
+      "text": "This feature allows you to make sure that you are up to date on all of the changes that have happened",
+      "words": []
+    },
+    {
+      "start": 448.24,
+      "end": 454.72,
+      "text": "since. So some other questions what this can help answer, what change since the last time this model",
+      "words": []
+    },
+    {
+      "start": 454.72,
+      "end": 462.32,
+      "text": "was published and how well is the design progressing. This is extremely important as it allows you to",
+      "words": []
+    },
+    {
+      "start": 462.32,
+      "end": 469.04,
+      "text": "start doing progress tracking on the design side. So let's take a look at this in action.",
+      "words": []
+    },
+    {
+      "start": 469.92,
+      "end": 476.0,
+      "text": "So on the right here you see the AEC data model API. While on the left you see the",
+      "words": []
+    },
+    {
+      "start": 476.0,
+      "end": 481.68,
+      "text": "rabbit interface which is I'm sure very familiar to everyone. So one thing I will point out as you",
+      "words": []
+    },
+    {
+      "start": 481.68,
+      "end": 489.03999999999996,
+      "text": "can see on the right we now have the two version numbers the whip version number which is a work in",
+      "words": []
+    },
+    {
+      "start": 489.04,
+      "end": 495.92,
+      "text": "progress version number that indicates the sync to central version and the version number which",
+      "words": []
+    },
+    {
+      "start": 495.92,
+      "end": 503.44,
+      "text": "already existed which gives you the published version of the rabbit model. So as you can see on the",
+      "words": []
+    },
+    {
+      "start": 503.44,
+      "end": 510.56,
+      "text": "left a user goes into this particular door and updates the hardware property and then syncs to",
+      "words": []
+    },
+    {
+      "start": 510.56,
+      "end": 519.84,
+      "text": "central. On the API side you know now because you have a new work in progress version number you",
+      "words": []
+    },
+    {
+      "start": 519.84,
+      "end": 526.72,
+      "text": "see that version number updated. Now what you can see here is we are actually taking a look to see",
+      "words": []
+    },
+    {
+      "start": 527.44,
+      "end": 535.92,
+      "text": "what was the the value of the hardware property for the door in the last version six and it was",
+      "words": []
+    },
+    {
+      "start": 535.92,
+      "end": 542.56,
+      "text": "B2 as you can see here. Now remember with the latest version sync you know the most",
+      "words": []
+    },
+    {
+      "start": 542.56,
+      "end": 546.88,
+      "text": "latest latest version for work in progress is number seven and that's what you see here",
+      "words": []
+    },
+    {
+      "start": 547.92,
+      "end": 555.1999999999999,
+      "text": "and this query allows you to request the API and ask okay since version six give me all the",
+      "words": []
+    },
+    {
+      "start": 555.1999999999999,
+      "end": 561.12,
+      "text": "modifications that have happened on the model and as you can see you know we can actually find",
+      "words": []
+    },
+    {
+      "start": 561.2,
+      "end": 567.76,
+      "text": "the exact element and that was changed in rabbit. This is to demonstrate that yeah we do see an old",
+      "words": []
+    },
+    {
+      "start": 567.76,
+      "end": 575.36,
+      "text": "value and a new value here where we it went from B2 to C1. So again extremely powerful if you",
+      "words": []
+    },
+    {
+      "start": 575.36,
+      "end": 584.72,
+      "text": "are wanting to find out what actually changed. The next feature I want to talk about is extension",
+      "words": []
+    },
+    {
+      "start": 584.72,
+      "end": 594.72,
+      "text": "properties. Now we have we launched a beta in fall where users could add their own custom properties",
+      "words": []
+    },
+    {
+      "start": 594.72,
+      "end": 601.12,
+      "text": "into the AEC data model through the API. However that did not connect to any other applications.",
+      "words": []
+    },
+    {
+      "start": 602.08,
+      "end": 606.48,
+      "text": "Now we are pleased to inform you that you know with most recent changes you know we have reached",
+      "words": []
+    },
+    {
+      "start": 606.48,
+      "end": 612.32,
+      "text": "that gap. So imagine a scenario where an architect wants to understand the fabrication schedule but",
+      "words": []
+    },
+    {
+      "start": 612.32,
+      "end": 620.0,
+      "text": "has no desire to leave rabbit. You have a fabricator who uses model coordination in ACC to augment",
+      "words": []
+    },
+    {
+      "start": 620.0,
+      "end": 624.4000000000001,
+      "text": "the model but does not find the rabbit to come back from to use it does not want to use it.",
+      "words": []
+    },
+    {
+      "start": 625.9200000000001,
+      "end": 630.0,
+      "text": "There has to be a hand out between both of these different people but currently there is no",
+      "words": []
+    },
+    {
+      "start": 630.0,
+      "end": 633.12,
+      "text": "easy way to do it without shipping the rabbit files like I talked about.",
+      "words": []
+    },
+    {
+      "start": 635.12,
+      "end": 639.9200000000001,
+      "text": "And if you think about it you also have business systems that are existing in every organization",
+      "words": []
+    },
+    {
+      "start": 639.92,
+      "end": 643.76,
+      "text": "that need up to date data for progress tracking and all kinds of reporting.",
+      "words": []
+    },
+    {
+      "start": 645.04,
+      "end": 650.24,
+      "text": "Now with the current AEC data model API you have the connection between",
+      "words": []
+    },
+    {
+      "start": 650.24,
+      "end": 655.8399999999999,
+      "text": "a rabbit and the business systems but then again the business systems are not connected to ACC",
+      "words": []
+    },
+    {
+      "start": 657.12,
+      "end": 663.76,
+      "text": "and you can see where the entire flow is broken. So with the most recent update we have the",
+      "words": []
+    },
+    {
+      "start": 663.76,
+      "end": 670.4,
+      "text": "AEC data model sitting at the center of these entire workflows. And now imagine a fabricator",
+      "words": []
+    },
+    {
+      "start": 670.4,
+      "end": 676.24,
+      "text": "you know can create and add extended properties to model elements these get stored into the AEC",
+      "words": []
+    },
+    {
+      "start": 676.24,
+      "end": 682.64,
+      "text": "data model and are available to the architect inside a rabbit. These properties can then be",
+      "words": []
+    },
+    {
+      "start": 682.64,
+      "end": 688.72,
+      "text": "read back into rabbit and added to schedules as needed. At the same time these properties are",
+      "words": []
+    },
+    {
+      "start": 688.72,
+      "end": 694.0,
+      "text": "also available through the GraphQL API so that any other business systems who need access to",
+      "words": []
+    },
+    {
+      "start": 694.0,
+      "end": 701.76,
+      "text": "those properties can be kept in sync. So let's take a quick look at this in action. So what you see",
+      "words": []
+    },
+    {
+      "start": 701.76,
+      "end": 709.28,
+      "text": "here is a user going into model coordination adding a new extension property. This again is",
+      "words": []
+    },
+    {
+      "start": 709.9200000000001,
+      "end": 717.44,
+      "text": "a way to augment the model. So in this scenario this is a fabricator adding the installed batch",
+      "words": []
+    },
+    {
+      "start": 717.44,
+      "end": 724.32,
+      "text": "and fab ID as two separate extended properties. This action creates a dataset in",
+      "words": []
+    },
+    {
+      "start": 725.0400000000001,
+      "end": 728.96,
+      "text": "former data management which acts as a container for all of these different properties.",
+      "words": []
+    },
+    {
+      "start": 729.9200000000001,
+      "end": 735.5200000000001,
+      "text": "Now the rest of the process shows you know how a user can go ahead and apply those two custom",
+      "words": []
+    },
+    {
+      "start": 735.5200000000001,
+      "end": 742.1600000000001,
+      "text": "properties or extended properties to a bunch of different elements. Now jumping over into rabbit",
+      "words": []
+    },
+    {
+      "start": 742.24,
+      "end": 748.64,
+      "text": "the architect then can then load up the same extension properties from the dataset and see these",
+      "words": []
+    },
+    {
+      "start": 748.64,
+      "end": 754.88,
+      "text": "two properties show up. These properties can then be included in a schedule so that when this",
+      "words": []
+    },
+    {
+      "start": 754.88,
+      "end": 760.0799999999999,
+      "text": "schedule is published these properties are also available for anyone else to look at.",
+      "words": []
+    },
+    {
+      "start": 762.0799999999999,
+      "end": 767.4399999999999,
+      "text": "On the flip side you know the same thing that was created from model coordination the dataset",
+      "words": []
+    },
+    {
+      "start": 767.44,
+      "end": 776.0,
+      "text": "shows up in the API where the information within the dataset can be retrieved as well. So here",
+      "words": []
+    },
+    {
+      "start": 776.0,
+      "end": 782.1600000000001,
+      "text": "as you can see the fab ID and install batch properties are available and we can identify which",
+      "words": []
+    },
+    {
+      "start": 782.1600000000001,
+      "end": 788.72,
+      "text": "elements are actually having assigned these properties. So again extremely powerful where you",
+      "words": []
+    },
+    {
+      "start": 788.72,
+      "end": 792.96,
+      "text": "don't really have to share files but can share granular data instead.",
+      "words": []
+    },
+    {
+      "start": 793.84,
+      "end": 800.88,
+      "text": "Now the question I'm sure all of you have is yeah we can go from model coordination to",
+      "words": []
+    },
+    {
+      "start": 800.88,
+      "end": 805.84,
+      "text": "a rabbit and a rough queue or how about the other way around. The good news is yes that is also",
+      "words": []
+    },
+    {
+      "start": 805.84,
+      "end": 814.32,
+      "text": "supported. So in this scenario you know you have certain extension properties that are created",
+      "words": []
+    },
+    {
+      "start": 814.32,
+      "end": 820.8000000000001,
+      "text": "from business systems maybe it's something that you classification that is recorded in your ERP",
+      "words": []
+    },
+    {
+      "start": 820.88,
+      "end": 826.4799999999999,
+      "text": "or supply information that scenario ERP that you want available to both model coordination and",
+      "words": []
+    },
+    {
+      "start": 826.4799999999999,
+      "end": 834.64,
+      "text": "travel. So now you can create external properties through the GraphQL API and those that same data",
+      "words": []
+    },
+    {
+      "start": 834.64,
+      "end": 841.8399999999999,
+      "text": "is available to load within rabbit. You can also update properties that were created using",
+      "words": []
+    },
+    {
+      "start": 841.8399999999999,
+      "end": 847.1999999999999,
+      "text": "in model coordination from the first from the previous step. You can use the API to actually",
+      "words": []
+    },
+    {
+      "start": 847.2800000000001,
+      "end": 853.5200000000001,
+      "text": "update that same property which means the most updated values are available to everyone who's",
+      "words": []
+    },
+    {
+      "start": 853.5200000000001,
+      "end": 863.2,
+      "text": "in the ecosystem. So let's take a quick look at what that looks like in action. So again imagine you",
+      "words": []
+    },
+    {
+      "start": 863.2,
+      "end": 869.9200000000001,
+      "text": "are in this is the first step where you are creating an extension property using the GraphQL API.",
+      "words": []
+    },
+    {
+      "start": 870.5600000000001,
+      "end": 875.2,
+      "text": "So the first step is to create the container that's going to hold these extension properties.",
+      "words": []
+    },
+    {
+      "start": 875.2,
+      "end": 881.76,
+      "text": "This will be the data set that will show up in former data management. The next piece is to create",
+      "words": []
+    },
+    {
+      "start": 881.76,
+      "end": 887.5200000000001,
+      "text": "a property definition which essentially tells the system what's the type of property you want to",
+      "words": []
+    },
+    {
+      "start": 887.5200000000001,
+      "end": 892.88,
+      "text": "create. Is it a string? Is it a text? Is it a number? This is the mechanics of just defining",
+      "words": []
+    },
+    {
+      "start": 894.8000000000001,
+      "end": 900.32,
+      "text": "you know what properties you want. This uses the parameters service under the hood for the folks",
+      "words": []
+    },
+    {
+      "start": 900.32,
+      "end": 907.5200000000001,
+      "text": "who are familiar with it. Once the properties are created the newly created property is then added",
+      "words": []
+    },
+    {
+      "start": 907.5200000000001,
+      "end": 913.5200000000001,
+      "text": "into the container and also associated to specific elements. So in this case I'm associating this",
+      "words": []
+    },
+    {
+      "start": 913.5200000000001,
+      "end": 921.6,
+      "text": "property to a particular window. Again coming into rabbit the same data set can be loaded into",
+      "words": []
+    },
+    {
+      "start": 921.6,
+      "end": 926.48,
+      "text": "rabbit and you can see this property show up in rabbit for that particular element.",
+      "words": []
+    },
+    {
+      "start": 927.04,
+      "end": 933.28,
+      "text": "Now this part of the video shows the update that I was talking about where you have a property",
+      "words": []
+    },
+    {
+      "start": 933.28,
+      "end": 940.96,
+      "text": "added into model coordination. So through the API we can actually load that data set again",
+      "words": []
+    },
+    {
+      "start": 941.84,
+      "end": 948.0,
+      "text": "query for the extended property that's within the data set and then update that property.",
+      "words": []
+    },
+    {
+      "start": 948.88,
+      "end": 953.28,
+      "text": "So this process shows you the mechanics of you know finding the right IDs to get",
+      "words": []
+    },
+    {
+      "start": 953.28,
+      "end": 962.0799999999999,
+      "text": "the actual extension property information and then adding it to the right element.",
+      "words": []
+    },
+    {
+      "start": 963.92,
+      "end": 970.64,
+      "text": "So yeah again this shows getting the data set ID and then updating the extension group.",
+      "words": []
+    },
+    {
+      "start": 975.4399999999999,
+      "end": 978.48,
+      "text": "So yeah this last step is essentially getting the parameter definitions.",
+      "words": []
+    },
+    {
+      "start": 978.48,
+      "end": 987.6,
+      "text": "As you can see the value here is being updated to you know API update B2 and when we actually go",
+      "words": []
+    },
+    {
+      "start": 987.6,
+      "end": 993.04,
+      "text": "and refresh model coordination we will actually see that same property show up.",
+      "words": []
+    },
+    {
+      "start": 995.76,
+      "end": 1002.64,
+      "text": "So moving along to the final section of what are we looking at in future? What is the future of",
+      "words": []
+    },
+    {
+      "start": 1002.64,
+      "end": 1009.52,
+      "text": "all for AC data model API? So a quick glance at the roadmap the key bits I want to point out",
+      "words": []
+    },
+    {
+      "start": 1009.52,
+      "end": 1016.4,
+      "text": "right now multi-region support and extensibility API are available. The different the change API",
+      "words": []
+    },
+    {
+      "start": 1016.4,
+      "end": 1022.0,
+      "text": "as the delta queries I mentioned are in beta along with plant 3D you know that was recently",
+      "words": []
+    },
+    {
+      "start": 1023.28,
+      "end": 1029.28,
+      "text": "you know it was in it has been in private beta. Rabbit geometries are available through the AC",
+      "words": []
+    },
+    {
+      "start": 1029.28,
+      "end": 1037.2,
+      "text": "data model as well as IFC geometries derivative. The public beta for this was launched",
+      "words": []
+    },
+    {
+      "start": 1037.2,
+      "end": 1043.04,
+      "text": "during last fall during a U time frame. We have made some updates to the beta so and I'll have",
+      "words": []
+    },
+    {
+      "start": 1043.04,
+      "end": 1049.12,
+      "text": "a QR code later in this session where anyone to scan and sign up to get the latest update.",
+      "words": []
+    },
+    {
+      "start": 1050.6399999999999,
+      "end": 1056.56,
+      "text": "So what's coming up next? The couple of things optimizations on the API side where you can get",
+      "words": []
+    },
+    {
+      "start": 1056.56,
+      "end": 1062.96,
+      "text": "element and model relationships and you can also get notified for certain events that happen.",
+      "words": []
+    },
+    {
+      "start": 1062.96,
+      "end": 1067.6,
+      "text": "This has been a request from a lot of people where you know constant polling for information",
+      "words": []
+    },
+    {
+      "start": 1067.6,
+      "end": 1074.0,
+      "text": "becomes really cumbersome and inefficient and we want to change that. The support for",
+      "words": []
+    },
+    {
+      "start": 1074.0,
+      "end": 1081.28,
+      "text": "Rabbit Central model plant 3D you know we will be working on refining those feature sets and",
+      "words": []
+    },
+    {
+      "start": 1081.28,
+      "end": 1089.52,
+      "text": "so more upgrades to come on that front. So as always the data model roadmap is available",
+      "words": []
+    },
+    {
+      "start": 1089.52,
+      "end": 1096.48,
+      "text": "publicly so feel free to scan the QR code and this is where you can actually up for the features",
+      "words": []
+    },
+    {
+      "start": 1096.48,
+      "end": 1102.56,
+      "text": "that we are we as a team will be working on in the coming year. So if you haven't already",
+      "words": []
+    },
+    {
+      "start": 1103.28,
+      "end": 1107.44,
+      "text": "everyone to go take a look at this and I'm for the features that are most relevant to you.",
+      "words": []
+    },
+    {
+      "start": 1111.6,
+      "end": 1119.44,
+      "text": "In addition to a lot of beta's you know we are also soliciting interest from the group here",
+      "words": []
+    },
+    {
+      "start": 1120.48,
+      "end": 1126.56,
+      "text": "or about two different projects. The first one is being able to import iFCs into AEC data model",
+      "words": []
+    },
+    {
+      "start": 1127.44,
+      "end": 1136.1599999999999,
+      "text": "and the second one is MCP focused use cases so the question is if you had an MCAEC data model MCP",
+      "words": []
+    },
+    {
+      "start": 1136.1599999999999,
+      "end": 1142.96,
+      "text": "you've got some of the use cases you would you have in mind for it. So please scan the",
+      "words": []
+    },
+    {
+      "start": 1142.96,
+      "end": 1150.08,
+      "text": "QR code if you are interested and sign up our team will feature out once the feature set is in a",
+      "words": []
+    },
+    {
+      "start": 1150.08,
+      "end": 1156.32,
+      "text": "shape where public private beta's can be launched. So this is an exciting opportunity to get involved",
+      "words": []
+    },
+    {
+      "start": 1156.32,
+      "end": 1164.3999999999999,
+      "text": "in shaping how some of these features are developed. I will leave everyone with the QR code like",
+      "words": []
+    },
+    {
+      "start": 1164.3999999999999,
+      "end": 1171.04,
+      "text": "I promised the Revit geometry is still in public beta but there are some exciting updates where we",
+      "words": []
+    },
+    {
+      "start": 1171.04,
+      "end": 1178.72,
+      "text": "now have OriginPoint and AccessBased filtering through the API and the interoperability SDK now",
+      "words": []
+    },
+    {
+      "start": 1178.8,
+      "end": 1182.96,
+      "text": "includes support for extended properties as well as it has pretty fine properties.",
+      "words": []
+    },
+    {
+      "start": 1184.88,
+      "end": 1190.4,
+      "text": "So if you haven't checked it out already please scan this QR code and go download the latest.",
+      "words": []
+    },
+    {
+      "start": 1192.72,
+      "end": 1198.88,
+      "text": "With that I will pause right here and thank you all for listening.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:52:42.986641+00:00"
+}

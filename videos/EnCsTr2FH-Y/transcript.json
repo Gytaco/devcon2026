@@ -1,0 +1,1117 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.2,
+      "text": "Hello, everyone. My name is Peter Pras. I'm a developer advocate at Autodesk.",
+      "words": []
+    },
+    {
+      "start": 6.2,
+      "end": 11.84,
+      "text": "In this lightning talk, I want to do a quick overview and introduction into recommended",
+      "words": []
+    },
+    {
+      "start": 11.84,
+      "end": 19.240000000000002,
+      "text": "auth patterns for custom MCP servers that want to integrate with Autodesk platform services.",
+      "words": []
+    },
+    {
+      "start": 19.240000000000002,
+      "end": 28.6,
+      "text": "Now, there are many different ways in which MCP servers are deployed, hosted, and used.",
+      "words": []
+    },
+    {
+      "start": 28.6,
+      "end": 36.4,
+      "text": "In our research, we focused on the following narrow scope. We are looking at third party",
+      "words": []
+    },
+    {
+      "start": 36.4,
+      "end": 43.24,
+      "text": "MCP servers developed by our developer community that want to integrate with different APIs",
+      "words": []
+    },
+    {
+      "start": 43.24,
+      "end": 48.88,
+      "text": "in our platform, Autodesk platform services. We're looking at servers, MCP servers that are",
+      "words": []
+    },
+    {
+      "start": 48.88,
+      "end": 55.96,
+      "text": "deployed to the cloud and use the streamable HTTP transport. So no standard IO, no locally",
+      "words": []
+    },
+    {
+      "start": 55.96,
+      "end": 65.72,
+      "text": "running MCP servers covered here. In this talk, we give a quick refresher and terminology",
+      "words": []
+    },
+    {
+      "start": 65.72,
+      "end": 73.4,
+      "text": "update for OAuth and MCP specifications as these are crucial to the rest of the content.",
+      "words": []
+    },
+    {
+      "start": 73.4,
+      "end": 81.72,
+      "text": "Then we present three recommended auth patterns for different types of access scenarios.",
+      "words": []
+    },
+    {
+      "start": 81.72,
+      "end": 87.72,
+      "text": "And we wrap up with a quick summary and comparison of these methods.",
+      "words": []
+    },
+    {
+      "start": 87.72,
+      "end": 97.96000000000001,
+      "text": "OAuth is a popular auth standard used by many different web services and cloud providers,",
+      "words": []
+    },
+    {
+      "start": 97.96000000000001,
+      "end": 103.32,
+      "text": "including Autodesk platform services. And what's important for our lightning talk today",
+      "words": []
+    },
+    {
+      "start": 103.32,
+      "end": 112.36,
+      "text": "is the terminology. Let's start with roles. And the OAuth standard defines a role of a client.",
+      "words": []
+    },
+    {
+      "start": 112.36,
+      "end": 119.63999999999999,
+      "text": "A client is an application that wants to access protected resource on behalf of a specific resource",
+      "words": []
+    },
+    {
+      "start": 119.63999999999999,
+      "end": 126.44,
+      "text": "owner. In the context of APS, a client could be your web application or desktop application",
+      "words": []
+    },
+    {
+      "start": 126.44,
+      "end": 130.6,
+      "text": "with its own client ID or client secret that you create on the developer board.",
+      "words": []
+    },
+    {
+      "start": 130.84,
+      "end": 137.96,
+      "text": "The other role resource owner is an entity that is capable of granting access to a protected",
+      "words": []
+    },
+    {
+      "start": 137.96,
+      "end": 144.35999999999999,
+      "text": "resource. In context of APS, this would be the end user logging into your APS application,",
+      "words": []
+    },
+    {
+      "start": 145.32,
+      "end": 151.72,
+      "text": "having access to their existing design data in Autodesk Forma or Fusion Teams, for example.",
+      "words": []
+    },
+    {
+      "start": 152.12,
+      "end": 158.44,
+      "text": "Authorization server is an entity, a role that is capable of",
+      "words": []
+    },
+    {
+      "start": 160.04,
+      "end": 166.84,
+      "text": "validating, authenticating users and generating access tokens that then provide access to",
+      "words": []
+    },
+    {
+      "start": 167.4,
+      "end": 173.8,
+      "text": "different types of resources on behalf of the users. In case of Autodesk platform services,",
+      "words": []
+    },
+    {
+      "start": 173.8,
+      "end": 180.44,
+      "text": "this would be our authentication server and the authentication API. And finally, the role of",
+      "words": []
+    },
+    {
+      "start": 180.6,
+      "end": 188.28,
+      "text": "a resource server, this is the entity that posts the protected data that OAuth clients can",
+      "words": []
+    },
+    {
+      "start": 188.28,
+      "end": 195.8,
+      "text": "access with the proper access tokens. In case of APS, this would be the model derivative API.",
+      "words": []
+    },
+    {
+      "start": 195.8,
+      "end": 201.72,
+      "text": "For example, that you can access with an access token that's been either generated for your",
+      "words": []
+    },
+    {
+      "start": 201.72,
+      "end": 209.16,
+      "text": "application or for your user level identity. And another important part are the OAuth blows.",
+      "words": []
+    },
+    {
+      "start": 210.44,
+      "end": 215.07999999999998,
+      "text": "In our platform, we recognize mainly the following two, the client credentials flow,",
+      "words": []
+    },
+    {
+      "start": 215.07999999999998,
+      "end": 221.64,
+      "text": "also called two-legged OAuth flow. This is where the trust is established between your application,",
+      "words": []
+    },
+    {
+      "start": 221.64,
+      "end": 227.88,
+      "text": "the OAuth clients, and the authorization server. This is the so-called app-level identity.",
+      "words": []
+    },
+    {
+      "start": 228.84,
+      "end": 234.76,
+      "text": "The other one called authorization code flow, also known as three-legged OAuth flow,",
+      "words": []
+    },
+    {
+      "start": 234.76,
+      "end": 240.84,
+      "text": "is where there is a third party also involved in this process of establishing trust. And that is",
+      "words": []
+    },
+    {
+      "start": 240.84,
+      "end": 249.07999999999998,
+      "text": "your user. So in this case, when using the authorization code flow, your application receives",
+      "words": []
+    },
+    {
+      "start": 249.07999999999998,
+      "end": 255.23999999999998,
+      "text": "access tokens that actually represent a specific user. And these access tokens can then be used to",
+      "words": []
+    },
+    {
+      "start": 255.23999999999998,
+      "end": 263.24,
+      "text": "access three-legged APIs in our platform. Now moving on to the MCP specification, focusing just on",
+      "words": []
+    },
+    {
+      "start": 263.24,
+      "end": 269.88,
+      "text": "the auth part. The authentication in MCP is based on the OAuth standard version 2.1.",
+      "words": []
+    },
+    {
+      "start": 271.0,
+      "end": 277.96000000000004,
+      "text": "What's important here is that an MCP server is considered an OAuth resource server. So going",
+      "words": []
+    },
+    {
+      "start": 277.96000000000004,
+      "end": 285.64,
+      "text": "back to the left side, that would be equal to model derivative API, for example. And an MCP",
+      "words": []
+    },
+    {
+      "start": 285.71999999999997,
+      "end": 292.59999999999997,
+      "text": "client, which could be cloud, chat, GPT, or VS Code GitHub co-pilot, in this case, according to",
+      "words": []
+    },
+    {
+      "start": 292.59999999999997,
+      "end": 300.2,
+      "text": "the MCP specification, is considered an OAuth client. So that would be similar to your web application,",
+      "words": []
+    },
+    {
+      "start": 300.2,
+      "end": 306.03999999999996,
+      "text": "or any kind of application that you create on the Autodesk platform services developer portal.",
+      "words": []
+    },
+    {
+      "start": 307.24,
+      "end": 311.32,
+      "text": "What's also important to mention is that the authorization, according to the MCP spec,",
+      "words": []
+    },
+    {
+      "start": 311.32,
+      "end": 318.12,
+      "text": "is optional. But when it's used for HTTP-based transport, such as the streamable HTTP,",
+      "words": []
+    },
+    {
+      "start": 318.84,
+      "end": 325.4,
+      "text": "it should, the implementation should conform to the spec. And on the other side, when using",
+      "words": []
+    },
+    {
+      "start": 326.2,
+      "end": 332.03999999999996,
+      "text": "standard IOT transport and locally running MCP servers, the authorization, the implementation",
+      "words": []
+    },
+    {
+      "start": 332.03999999999996,
+      "end": 339.88,
+      "text": "should not follow the auth spec. And instead, it should just get whatever auth credentials from",
+      "words": []
+    },
+    {
+      "start": 339.96,
+      "end": 347.8,
+      "text": "the environment in which the local MCP server is running. Now, the reason we say this is that",
+      "words": []
+    },
+    {
+      "start": 348.76,
+      "end": 353.88,
+      "text": "the combination of the situation on the OAuth side and the requirements from the MCP spec",
+      "words": []
+    },
+    {
+      "start": 353.88,
+      "end": 361.48,
+      "text": "introduce an important challenge. We call it a two-layer auth challenge. Looking back on the OAuth",
+      "words": []
+    },
+    {
+      "start": 361.48,
+      "end": 368.36,
+      "text": "side, when you think about this, the custom MCP server that you're building has two roles. It needs to",
+      "words": []
+    },
+    {
+      "start": 368.36,
+      "end": 377.32,
+      "text": "act as a resource server to the MCP clients. So when somebody like Claude or Chid GPD wants to",
+      "words": []
+    },
+    {
+      "start": 377.32,
+      "end": 385.32,
+      "text": "connect to your MCP server, that client first needs to ask the user to grant access to log in with",
+      "words": []
+    },
+    {
+      "start": 385.32,
+      "end": 391.72,
+      "text": "a specific auth server and grant access to some resources. And only then with access tokens,",
+      "words": []
+    },
+    {
+      "start": 391.72,
+      "end": 397.16,
+      "text": "they should be talking to your custom MCP server. So in this case, the layer one, your server acts as",
+      "words": []
+    },
+    {
+      "start": 397.16,
+      "end": 404.68,
+      "text": "an OAuth resource server, again, like model derivative API. But then, if your custom server also",
+      "words": []
+    },
+    {
+      "start": 404.68,
+      "end": 412.20000000000005,
+      "text": "wants to call Autodesk platform services and access our APIs, the same MCP server also needs to act",
+      "words": []
+    },
+    {
+      "start": 412.20000000000005,
+      "end": 419.32000000000005,
+      "text": "as an OAuth client accessing resource servers such as the model derivative API or Autodesk",
+      "words": []
+    },
+    {
+      "start": 420.04,
+      "end": 428.59999999999997,
+      "text": "API. That's an important challenge to keep in mind. And what makes things even worse in a way is that",
+      "words": []
+    },
+    {
+      "start": 428.59999999999997,
+      "end": 437.32,
+      "text": "according to the MCP specification, it is explicitly forbidden to pass access tokens that your",
+      "words": []
+    },
+    {
+      "start": 437.32,
+      "end": 445.32,
+      "text": "server receives from the clients, such as Claude or Chid GPD, and reuse the same tokens to call",
+      "words": []
+    },
+    {
+      "start": 445.32,
+      "end": 452.04,
+      "text": "upstream APIs, such as model derivative for Autodesk for my APIs. This is strictly forbidden by",
+      "words": []
+    },
+    {
+      "start": 452.04,
+      "end": 460.04,
+      "text": "the MCP spec as it can introduce vulnerability, such as confused deputy security vulnerability that",
+      "words": []
+    },
+    {
+      "start": 460.04,
+      "end": 470.6,
+      "text": "you can read more about in the linked sections of the MCP spec here. So with that said, what options do",
+      "words": []
+    },
+    {
+      "start": 470.68,
+      "end": 478.12,
+      "text": "we have? As I said, we are covering three, we're recommending auth patterns for three very common",
+      "words": []
+    },
+    {
+      "start": 478.68,
+      "end": 487.32000000000005,
+      "text": "use cases and usage scenarios. First one is what we call the 2LO, the 2-legged OAuth pattern.",
+      "words": []
+    },
+    {
+      "start": 487.32000000000005,
+      "end": 493.96000000000004,
+      "text": "This is where you're building an MCP server that really only needs to access two-legged APIs in",
+      "words": []
+    },
+    {
+      "start": 493.96,
+      "end": 501.4,
+      "text": "our platform, such as the object, storage service, model derivative for maybe design automation API.",
+      "words": []
+    },
+    {
+      "start": 502.12,
+      "end": 509.56,
+      "text": "In this case, your MCP server doesn't really have to require authentication from the client.",
+      "words": []
+    },
+    {
+      "start": 510.35999999999996,
+      "end": 516.12,
+      "text": "In this case, although it is recommended that you still do provide an additional auth layer",
+      "words": []
+    },
+    {
+      "start": 516.12,
+      "end": 523.72,
+      "text": "between the MCP client and your MCP server. But then looking at our sequence diagram here,",
+      "words": []
+    },
+    {
+      "start": 524.52,
+      "end": 532.36,
+      "text": "again, whether or not you establish some auth boundaries between the MCP client and your server",
+      "words": []
+    },
+    {
+      "start": 532.36,
+      "end": 540.2800000000001,
+      "text": "is up to you. But then when your server wants to call our 2-legged APIs, you can simply ask our",
+      "words": []
+    },
+    {
+      "start": 540.2800000000001,
+      "end": 548.12,
+      "text": "auth server for a 2-legged token and use the token to call APIs directly. This is a simple approach.",
+      "words": []
+    },
+    {
+      "start": 549.08,
+      "end": 554.6,
+      "text": "Again, useful for when you're running backgrounds, maybe when you're developing MCP servers that",
+      "words": []
+    },
+    {
+      "start": 554.6,
+      "end": 559.24,
+      "text": "want to be accessed in the background without any user being involved. The implementation is",
+      "words": []
+    },
+    {
+      "start": 559.24,
+      "end": 564.92,
+      "text": "very simple. No user interaction is needed. Now, the limitation, of course, as I said, is that",
+      "words": []
+    },
+    {
+      "start": 564.92,
+      "end": 570.92,
+      "text": "this approach only works for auth platform services APIs that support 2-legged tokens, such as",
+      "words": []
+    },
+    {
+      "start": 570.92,
+      "end": 578.28,
+      "text": "modularivative or automation API. Also, it's important to mention that 2-legged authentication",
+      "words": []
+    },
+    {
+      "start": 578.28,
+      "end": 584.8399999999999,
+      "text": "is not recommended for new integrations as these are considered less secure in general. So,",
+      "words": []
+    },
+    {
+      "start": 584.8399999999999,
+      "end": 591.8,
+      "text": "in the future, we may be looking at replacing or enhancing the 2-legged auth with more secure options.",
+      "words": []
+    },
+    {
+      "start": 593.4,
+      "end": 599.24,
+      "text": "Also, one note I wanted to add to this slide right before the recording is there has been some",
+      "words": []
+    },
+    {
+      "start": 599.24,
+      "end": 605.8,
+      "text": "news in the MCP spec where there are now some official extensions to the MCP specification.",
+      "words": []
+    },
+    {
+      "start": 605.8,
+      "end": 613.5600000000001,
+      "text": "And one of them is actually focused on authentication. And the MCP extension now supports clan",
+      "words": []
+    },
+    {
+      "start": 613.5600000000001,
+      "end": 621.0,
+      "text": "credentials flow, the 2-legged, as we call it, natively as part of the spec. So, if this is",
+      "words": []
+    },
+    {
+      "start": 621.0,
+      "end": 626.44,
+      "text": "something you would be interested in, I definitely recommend that you take a look at the new MCP auth",
+      "words": []
+    },
+    {
+      "start": 626.44,
+      "end": 633.72,
+      "text": "extensions. The second pattern, what we call the SSA pattern, is similar to 2-legged,",
+      "words": []
+    },
+    {
+      "start": 633.72,
+      "end": 641.0,
+      "text": "but in this case, it's using secure service account API. So, if you're not familiar, secure service",
+      "words": []
+    },
+    {
+      "start": 641.0,
+      "end": 647.72,
+      "text": "accounts are a relatively new feature in our platform that lets you access relegged APIs",
+      "words": []
+    },
+    {
+      "start": 649.1600000000001,
+      "end": 655.24,
+      "text": "in a background automated type of way with no user presence. So, you can create a sort of a robot",
+      "words": []
+    },
+    {
+      "start": 655.24,
+      "end": 663.8,
+      "text": "account which acts as an actual physical user. You can generate, and your MCP server can then generate",
+      "words": []
+    },
+    {
+      "start": 663.8,
+      "end": 670.36,
+      "text": "access tokens relegged, representing that specific robot user and call three-legged APIs in our",
+      "words": []
+    },
+    {
+      "start": 670.36,
+      "end": 675.08,
+      "text": "platform. And then, of course, for that, you will need to invite this robot user with its own",
+      "words": []
+    },
+    {
+      "start": 675.8,
+      "end": 681.4,
+      "text": "automatically generated email address into your project in Autodesk 4-mile or Fusion teams,",
+      "words": []
+    },
+    {
+      "start": 681.48,
+      "end": 687.8,
+      "text": "as needed. So, it gives you more granular access control as well. Now, for MCP servers, this is",
+      "words": []
+    },
+    {
+      "start": 687.8,
+      "end": 692.84,
+      "text": "something we have some examples for this as well, where, again, for the authentication between MCP",
+      "words": []
+    },
+    {
+      "start": 692.84,
+      "end": 698.84,
+      "text": "clients and your server, you can either skip the auth completely or you can introduce a third-party",
+      "words": []
+    },
+    {
+      "start": 698.84,
+      "end": 706.6,
+      "text": "auth indication using other identity providers if needed. And after that, what happens is",
+      "words": []
+    },
+    {
+      "start": 706.76,
+      "end": 715.08,
+      "text": "when a client, an MCP client calls a tool in your MCP server, you, again, without any user involved,",
+      "words": []
+    },
+    {
+      "start": 715.08,
+      "end": 721.4,
+      "text": "you can simply talk to our authentication server, generate an assertion, which is based on a",
+      "words": []
+    },
+    {
+      "start": 721.4,
+      "end": 726.44,
+      "text": "private key that we generate for your robot account, the secure service account. You can exchange",
+      "words": []
+    },
+    {
+      "start": 726.44,
+      "end": 733.32,
+      "text": "that for a three-legged access token which captures the identity of that robot account. And you can",
+      "words": []
+    },
+    {
+      "start": 733.4000000000001,
+      "end": 741.5600000000001,
+      "text": "then use that token to call APIs in our platform that require user context, such as",
+      "words": []
+    },
+    {
+      "start": 741.5600000000001,
+      "end": 747.24,
+      "text": "AEC data model API. So, again, very simple, very similar to the tool-legged, but in this case,",
+      "words": []
+    },
+    {
+      "start": 748.0400000000001,
+      "end": 752.6,
+      "text": "also giving you access to more APIs that do require a user context.",
+      "words": []
+    },
+    {
+      "start": 754.5200000000001,
+      "end": 760.36,
+      "text": "All right. Now, also, one downside to mention here is you need to be very careful. This depends on",
+      "words": []
+    },
+    {
+      "start": 761.0,
+      "end": 766.04,
+      "text": "the type of how you would deploy this kind of MCP server, but one thing to keep in mind is that",
+      "words": []
+    },
+    {
+      "start": 766.04,
+      "end": 774.2,
+      "text": "if your MCP server uses a single robot account to access three-legged APIs, any end user that",
+      "words": []
+    },
+    {
+      "start": 774.2,
+      "end": 782.04,
+      "text": "connects to your MCP server will get access to the same data, right? End users will not be able to",
+      "words": []
+    },
+    {
+      "start": 782.04,
+      "end": 789.24,
+      "text": "use the MCP server to access their own Autodesk format or fusion team designs, but only those that",
+      "words": []
+    },
+    {
+      "start": 790.04,
+      "end": 795.88,
+      "text": "are accessible to this one single configured robot account, the secure service account.",
+      "words": []
+    },
+    {
+      "start": 798.36,
+      "end": 803.64,
+      "text": "And finally, the three-legged pattern. This is the one that we recommend for most use cases,",
+      "words": []
+    },
+    {
+      "start": 803.64,
+      "end": 812.44,
+      "text": "as we believe it's going to be the one that's most widely used and useful. Plus, it's also",
+      "words": []
+    },
+    {
+      "start": 813.0,
+      "end": 821.32,
+      "text": "following the requirements of the MCP spec to the letter. And so this is the three-legged pattern",
+      "words": []
+    },
+    {
+      "start": 821.32,
+      "end": 831.24,
+      "text": "based on something that's called URL elicitation in the MCP spec. So the MCP spec talks about a feature",
+      "words": []
+    },
+    {
+      "start": 831.24,
+      "end": 838.6800000000001,
+      "text": "called URL elicitation, which is basically a way for an MCP server to ask a user to open a link.",
+      "words": []
+    },
+    {
+      "start": 839.0,
+      "end": 845.7199999999999,
+      "text": "And in that part of the specification, you can actually read more details there and find out",
+      "words": []
+    },
+    {
+      "start": 845.7199999999999,
+      "end": 852.5999999999999,
+      "text": "that the MCP spec recommends this URL elicitation for third-party logins.",
+      "words": []
+    },
+    {
+      "start": 854.12,
+      "end": 858.8399999999999,
+      "text": "Let me take you through the sequence diagram and explain how this works.",
+      "words": []
+    },
+    {
+      "start": 860.52,
+      "end": 867.7199999999999,
+      "text": "So in this case, an end user may open Cloud or Chat GPT and connect to your MCP server and say,",
+      "words": []
+    },
+    {
+      "start": 868.52,
+      "end": 872.9200000000001,
+      "text": "I want to list my projects in Autodesk format. And this case, what you can do is,",
+      "words": []
+    },
+    {
+      "start": 873.5600000000001,
+      "end": 879.96,
+      "text": "on your MCP server site, you can check if you already have some credentials, some access token",
+      "words": []
+    },
+    {
+      "start": 879.96,
+      "end": 888.36,
+      "text": "available for a specific user. And if you don't, you can immediately respond from your MCP server saying,",
+      "words": []
+    },
+    {
+      "start": 889.4,
+      "end": 895.24,
+      "text": "before doing this, before viewing your projects, you need to log in first. Please follow this link.",
+      "words": []
+    },
+    {
+      "start": 895.24,
+      "end": 900.6800000000001,
+      "text": "This is where your MCP server can act, just like any regular APS web application.",
+      "words": []
+    },
+    {
+      "start": 901.48,
+      "end": 907.32,
+      "text": "That's asking users to log in. So you provide an authorization URL in the response from the tool call.",
+      "words": []
+    },
+    {
+      "start": 907.96,
+      "end": 913.8,
+      "text": "And then this link will be presented directly to the user. The user can open the link",
+      "words": []
+    },
+    {
+      "start": 913.8,
+      "end": 920.76,
+      "text": "in the browser and go through, again, the exact same login process as if your MCP server was just a",
+      "words": []
+    },
+    {
+      "start": 920.76,
+      "end": 926.28,
+      "text": "regular web application. They're presented with a login form. After that, they're presented with",
+      "words": []
+    },
+    {
+      "start": 926.28,
+      "end": 934.12,
+      "text": "the consent form where they can grant access to their data based on your scopes. And after that,",
+      "words": []
+    },
+    {
+      "start": 934.76,
+      "end": 941.3199999999999,
+      "text": "your MCP server receives a temporary code and can exchange it for an actual access token and",
+      "words": []
+    },
+    {
+      "start": 941.3199999999999,
+      "end": 947.48,
+      "text": "refresh token. Now, the important part is that, in this case, it is the responsibility of your MCP",
+      "words": []
+    },
+    {
+      "start": 947.48,
+      "end": 956.9200000000001,
+      "text": "server to cache and manage these credentials per user session. Now, luckily, when MCP clients connect",
+      "words": []
+    },
+    {
+      "start": 956.9200000000001,
+      "end": 963.96,
+      "text": "to your server, your server can create something called an MCP session ID. And that could be a way",
+      "words": []
+    },
+    {
+      "start": 963.96,
+      "end": 972.04,
+      "text": "for your MCP server to actually cache, save and manage and cache access tokens for individual",
+      "words": []
+    },
+    {
+      "start": 972.12,
+      "end": 980.28,
+      "text": "user sessions. So after that, when the user has logged in, they can retry the tool call,",
+      "words": []
+    },
+    {
+      "start": 980.28,
+      "end": 986.76,
+      "text": "let's say, to receive their list of projects from Bormar Fusion. And in that case, your MCP server,",
+      "words": []
+    },
+    {
+      "start": 987.56,
+      "end": 995.48,
+      "text": "based on their session ID already finds an access token and can use it to call APIs on our side",
+      "words": []
+    },
+    {
+      "start": 995.5600000000001,
+      "end": 1005.5600000000001,
+      "text": "in our platform such as Forma or AEC data model. Okay. This is the process for the three-legged",
+      "words": []
+    },
+    {
+      "start": 1006.52,
+      "end": 1013.72,
+      "text": "the three-legged API access. So now, again, the benefits of this approach is this is completely",
+      "words": []
+    },
+    {
+      "start": 1013.72,
+      "end": 1020.12,
+      "text": "valid and it satisfies the restrictions imposed by the MCP specification. And it does not require",
+      "words": []
+    },
+    {
+      "start": 1020.12,
+      "end": 1027.72,
+      "text": "any special capabilities on the MCP client side. However, on the other hand, it's important to",
+      "words": []
+    },
+    {
+      "start": 1027.72,
+      "end": 1036.44,
+      "text": "keep in mind that it requires your MCP server to be stateful. In that case, your MCP server needs to",
+      "words": []
+    },
+    {
+      "start": 1036.44,
+      "end": 1043.64,
+      "text": "manage the credentials of individual users that are connected to it through different MCP clients",
+      "words": []
+    },
+    {
+      "start": 1044.2,
+      "end": 1054.5200000000002,
+      "text": "and cache them and manage them over its lifecycle. And also, what's important to mention here is that",
+      "words": []
+    },
+    {
+      "start": 1055.8000000000002,
+      "end": 1062.1200000000001,
+      "text": "of course, since your MCP server is now cache and credentials based on some kind of an MCP session ID,",
+      "words": []
+    },
+    {
+      "start": 1063.64,
+      "end": 1072.2,
+      "text": "this could potentially be a security concern as some bad actors could try and guess session IDs",
+      "words": []
+    },
+    {
+      "start": 1073.0,
+      "end": 1080.44,
+      "text": "and try and act as different users by guessing their MCP session ID. This, however, can be mitigated",
+      "words": []
+    },
+    {
+      "start": 1080.44,
+      "end": 1083.96,
+      "text": "in different ways as well. And we will have some additional resources coming up",
+      "words": []
+    },
+    {
+      "start": 1085.24,
+      "end": 1091.72,
+      "text": "expanding on this. We also are planning an AU class that will go into more detail on how you can",
+      "words": []
+    },
+    {
+      "start": 1091.72,
+      "end": 1097.96,
+      "text": "actually mitigate this one minor security concern. You could do this by, for example, rotating,",
+      "words": []
+    },
+    {
+      "start": 1098.8400000000001,
+      "end": 1108.2,
+      "text": "rotating the session IDs on your MCP server or use other cryptographic methods to actually generate",
+      "words": []
+    },
+    {
+      "start": 1108.2,
+      "end": 1118.68,
+      "text": "IDs that would be harder to guess by bad actors. All right, so a quick summary. So for the",
+      "words": []
+    },
+    {
+      "start": 1118.68,
+      "end": 1124.44,
+      "text": "authentication between MCP clients and your server for the first two-legged pattern and the SSA,",
+      "words": []
+    },
+    {
+      "start": 1124.44,
+      "end": 1129.8,
+      "text": "secure service, a competitor, it is really up to you. You can either skip that auth completely",
+      "words": []
+    },
+    {
+      "start": 1130.3600000000001,
+      "end": 1135.72,
+      "text": "or you can use a third party, for example, your own enterprise login if you need to.",
+      "words": []
+    },
+    {
+      "start": 1137.56,
+      "end": 1145.16,
+      "text": "For the three-legged, you could also skip the auth between client and server here, but we still",
+      "words": []
+    },
+    {
+      "start": 1145.16,
+      "end": 1151.8,
+      "text": "recommend that you introduce and at least maybe a simple API key or a simple protection for",
+      "words": []
+    },
+    {
+      "start": 1151.8,
+      "end": 1158.28,
+      "text": "the first layer of this architecture. For the auth between your server and on-desperate from",
+      "words": []
+    },
+    {
+      "start": 1158.28,
+      "end": 1163.6399999999999,
+      "text": "services, you can either use the client credentials, the tool-legged, or secure service accounts if you",
+      "words": []
+    },
+    {
+      "start": 1163.6399999999999,
+      "end": 1171.32,
+      "text": "need access to our APIs that do require a user context. And in case of the last pattern, this",
+      "words": []
+    },
+    {
+      "start": 1171.32,
+      "end": 1177.8,
+      "text": "would be the typical, just like a regular APS web application workflow, the login dance where",
+      "words": []
+    },
+    {
+      "start": 1177.96,
+      "end": 1184.12,
+      "text": "you open your ask a user to click a link that will take them to the Autodesk login, where they can",
+      "words": []
+    },
+    {
+      "start": 1184.84,
+      "end": 1192.04,
+      "text": "grant access to their data and generate a temporary code for your MCP server, which will then",
+      "words": []
+    },
+    {
+      "start": 1192.04,
+      "end": 1198.6,
+      "text": "exchange it for a regular access token. Now, whose data are you actually accessing with these",
+      "words": []
+    },
+    {
+      "start": 1198.6,
+      "end": 1204.28,
+      "text": "patterns or the two-legged, this is the app level identity, right? So there is no user per say.",
+      "words": []
+    },
+    {
+      "start": 1204.28,
+      "end": 1209.72,
+      "text": "Whatever data that MCP server would have access to would be the data that your application itself,",
+      "words": []
+    },
+    {
+      "start": 1209.72,
+      "end": 1215.72,
+      "text": "the client ID, has access to. For the SSA pattern, that would be the service account, the robot account,",
+      "words": []
+    },
+    {
+      "start": 1215.72,
+      "end": 1223.0,
+      "text": "so whatever content you give the robot access, the robot account access to in Autodesk Formar",
+      "words": []
+    },
+    {
+      "start": 1223.0,
+      "end": 1229.48,
+      "text": "Fusion teams, that's what the MCP server would have access to. And in case of the three-legged,",
+      "words": []
+    },
+    {
+      "start": 1229.48,
+      "end": 1233.6399999999999,
+      "text": "of course, this is the ideal what we believe that most of our customers will be looking for.",
+      "words": []
+    },
+    {
+      "start": 1234.52,
+      "end": 1241.24,
+      "text": "This is where users who use your MCP server in Clawed or CHGPD will actually be able to see their",
+      "words": []
+    },
+    {
+      "start": 1241.24,
+      "end": 1248.6,
+      "text": "own data. All of these patterns are available and supported today. And as we mentioned, again,",
+      "words": []
+    },
+    {
+      "start": 1248.6,
+      "end": 1255.16,
+      "text": "the two-legged would be most useful for accessing two-legged APIs such as OSS, automation,",
+      "words": []
+    },
+    {
+      "start": 1255.16,
+      "end": 1261.96,
+      "text": "or model derivative API. The SSA pattern would be useful for when building MCP servers that will be",
+      "words": []
+    },
+    {
+      "start": 1262.92,
+      "end": 1269.08,
+      "text": "by agents without any user actually sitting in front of the browser. So for automated backgrounds,",
+      "words": []
+    },
+    {
+      "start": 1269.08,
+      "end": 1276.28,
+      "text": "workflows. And finally, again, the three-legged pattern would be most useful for MCP servers that",
+      "words": []
+    },
+    {
+      "start": 1276.28,
+      "end": 1282.68,
+      "text": "would be actively used by agents with end-user sitting in front of an application like Clawed or",
+      "words": []
+    },
+    {
+      "start": 1282.68,
+      "end": 1292.3600000000001,
+      "text": "CHGPD trying to access their data. So with user present. And finally, we also have a simple code sample",
+      "words": []
+    },
+    {
+      "start": 1292.3600000000001,
+      "end": 1298.92,
+      "text": "on our official GitHub org implemented in Python where you can find all these three patterns",
+      "words": []
+    },
+    {
+      "start": 1298.92,
+      "end": 1305.64,
+      "text": "implemented for your reference. And we also have a Wiki page on that same GitHub repo that goes",
+      "words": []
+    },
+    {
+      "start": 1305.64,
+      "end": 1312.92,
+      "text": "into more detail of the pros and the downsize and some mitigations of potential security concerns",
+      "words": []
+    },
+    {
+      "start": 1313.72,
+      "end": 1322.6000000000001,
+      "text": "for the last three-legged pattern. And with that, that's all from my side. Thank you for your",
+      "words": []
+    },
+    {
+      "start": 1322.6000000000001,
+      "end": 1326.6000000000001,
+      "text": "attention and good luck with building your MCP servers.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:56:12.397219+00:00"
+}

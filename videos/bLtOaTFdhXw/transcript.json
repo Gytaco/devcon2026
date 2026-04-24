@@ -1,0 +1,235 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.0,
+      "text": "Hi, everyone, and thank you for joining us at Autodesk Defcon 2026 here in the Netherlands.",
+      "words": []
+    },
+    {
+      "start": 6.0,
+      "end": 14.5,
+      "text": "Today we will be sharing how we are leveraging the power of AI directly inside Revit to transform the QA processes.",
+      "words": []
+    },
+    {
+      "start": 14.5,
+      "end": 18.0,
+      "text": "This is through an AI-driven QA chatbot.",
+      "words": []
+    },
+    {
+      "start": 18.0,
+      "end": 20.0,
+      "text": "The focus of this session is simple.",
+      "words": []
+    },
+    {
+      "start": 20.0,
+      "end": 29.5,
+      "text": "How AI can help design teams move faster, reduce manual effort, and improve confidence in submission-ready models and drawings.",
+      "words": []
+    },
+    {
+      "start": 29.5,
+      "end": 44.0,
+      "text": "My name is Pujar Astogi and I am the Divasional General Manager and I am joined with my colleague, Kuber, who is a principal digital engineer from Global Digital Ventures.",
+      "words": []
+    },
+    {
+      "start": 44.0,
+      "end": 46.0,
+      "text": "That's the name of our division in Montfag Donald.",
+      "words": []
+    },
+    {
+      "start": 46.0,
+      "end": 58.0,
+      "text": "Together we work closely with our design teams to identify where digital innovation and in particular AI can create meaningful scalable value in our day-to-day delivery.",
+      "words": []
+    },
+    {
+      "start": 58.0,
+      "end": 62.0,
+      "text": "So let's start with the question.",
+      "words": []
+    },
+    {
+      "start": 62.0,
+      "end": 64.0,
+      "text": "Do these challenges sound familiar?",
+      "words": []
+    },
+    {
+      "start": 64.0,
+      "end": 67.0,
+      "text": "Design teams often struggle to complete QA on time.",
+      "words": []
+    },
+    {
+      "start": 67.0,
+      "end": 71.0,
+      "text": "There's a lack of confidence that drawings are truly submission-ready.",
+      "words": []
+    },
+    {
+      "start": 71.0,
+      "end": 75.0,
+      "text": "QA tends to happen very late in the program, often just before delivery.",
+      "words": []
+    },
+    {
+      "start": 75.0,
+      "end": 79.5,
+      "text": "Most importantly, teams spend more time finding issues than fixing them.",
+      "words": []
+    },
+    {
+      "start": 79.5,
+      "end": 84.0,
+      "text": "And much of its this effort relies heavily on manual checks.",
+      "words": []
+    },
+    {
+      "start": 84.5,
+      "end": 87.0,
+      "text": "These challenges are due to lack of expertise.",
+      "words": []
+    },
+    {
+      "start": 87.0,
+      "end": 93.0,
+      "text": "They are result of time pressure, increasing model complexity, and traditional document-based QA workflows.",
+      "words": []
+    },
+    {
+      "start": 95.0,
+      "end": 99.0,
+      "text": "So let's compare a traditional QA process with an AI-assisted one.",
+      "words": []
+    },
+    {
+      "start": 99.0,
+      "end": 111.0,
+      "text": "In a manual workflow, teams typically fix the model, print PDFs, manual checks, drawings, go through SME reviews, and then loop back again to fix errors.",
+      "words": []
+    },
+    {
+      "start": 111.0,
+      "end": 114.0,
+      "text": "With AI assistance, the flow changes.",
+      "words": []
+    },
+    {
+      "start": 114.0,
+      "end": 122.0,
+      "text": "Designers select relevant QA checks, receive instant reports directly from the model, and fix issues earlier before they propagate.",
+      "words": []
+    },
+    {
+      "start": 122.0,
+      "end": 124.0,
+      "text": "The result is clear.",
+      "words": []
+    },
+    {
+      "start": 124.0,
+      "end": 132.0,
+      "text": "Less reputative checking, faster turnaround, and SME effort focused on higher value decision rather than routine validation.",
+      "words": []
+    },
+    {
+      "start": 132.0,
+      "end": 139.0,
+      "text": "So with AI-assisted QA, the agents will trigger the logical automations within Revit, developed as a separate function.",
+      "words": []
+    },
+    {
+      "start": 139.0,
+      "end": 142.0,
+      "text": "That cater specialist takes.",
+      "words": []
+    },
+    {
+      "start": 142.0,
+      "end": 145.0,
+      "text": "See how it works in the next slide.",
+      "words": []
+    },
+    {
+      "start": 169.0,
+      "end": 172.0,
+      "text": "Thanks for watching.",
+      "words": []
+    },
+    {
+      "start": 199.0,
+      "end": 202.0,
+      "text": "Thanks for watching.",
+      "words": []
+    },
+    {
+      "start": 229.0,
+      "end": 232.0,
+      "text": "Thanks for watching.",
+      "words": []
+    },
+    {
+      "start": 259.0,
+      "end": 262.0,
+      "text": "Thanks for watching.",
+      "words": []
+    },
+    {
+      "start": 289.0,
+      "end": 292.0,
+      "text": "So what did this enable?",
+      "words": []
+    },
+    {
+      "start": 292.0,
+      "end": 297.0,
+      "text": "AI-assisted QA significantly reduces manual checking effort.",
+      "words": []
+    },
+    {
+      "start": 297.0,
+      "end": 302.0,
+      "text": "It delivers a measurable time saving and frees up the specialist reviewers.",
+      "words": []
+    },
+    {
+      "start": 302.0,
+      "end": 312.0,
+      "text": "And most importantly, it is shifting QA from a reactive document-based activity to a proactive model-based validation process.",
+      "words": []
+    },
+    {
+      "start": 312.0,
+      "end": 321.0,
+      "text": "The outcome is a better design quality, faster delivery, and a QA approach that can scale consistently across projects and disciplines.",
+      "words": []
+    },
+    {
+      "start": 327.0,
+      "end": 336.0,
+      "text": "To close, we believe the future of QA in AEC lies in combining human expertise with AI acceleration.",
+      "words": []
+    },
+    {
+      "start": 336.0,
+      "end": 347.0,
+      "text": "When AI handles the deputative and time-consuming checks, engineers and designers can focus on what they do best, which is judgment, creativity, and problem solving.",
+      "words": []
+    },
+    {
+      "start": 347.0,
+      "end": 355.0,
+      "text": "Thank you for your time, and we hope this session has given you a practical view of how AI can reimagine QA in Revit.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:55:41.045317+00:00"
+}

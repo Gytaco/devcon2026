@@ -1,0 +1,841 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.6000000000000005,
+      "text": "Welcome to this Autodesk DevCon session towards bringing human experience to design using APS.",
+      "words": []
+    },
+    {
+      "start": 6.6000000000000005,
+      "end": 13.200000000000001,
+      "text": "So my name's Keon Womzli. I'm here with my friend and Autodesk research colleague Thomas Le Herrera",
+      "words": []
+    },
+    {
+      "start": 13.200000000000001,
+      "end": 16.4,
+      "text": "and we'll be talking to you for the next 20 or so minutes.",
+      "words": []
+    },
+    {
+      "start": 16.4,
+      "end": 20.6,
+      "text": "Okay, so here's the agenda. For today we're going to do a quick introduction,",
+      "words": []
+    },
+    {
+      "start": 20.6,
+      "end": 23.2,
+      "text": "talking a little bit about our area of research.",
+      "words": []
+    },
+    {
+      "start": 23.2,
+      "end": 28.8,
+      "text": "And then look at two types of experiential walkthroughs that we've run inside research.",
+      "words": []
+    },
+    {
+      "start": 28.8,
+      "end": 34.4,
+      "text": "One is physical, one is virtual and then we'll spend a little bit of time talking about what's next for us.",
+      "words": []
+    },
+    {
+      "start": 39.6,
+      "end": 48.8,
+      "text": "So Thomas and I work in a research area called in live and design and our tagline really is about our goal is to bring designs to life",
+      "words": []
+    },
+    {
+      "start": 48.8,
+      "end": 52.8,
+      "text": "by simulating the human experience of design using AI.",
+      "words": []
+    },
+    {
+      "start": 52.8,
+      "end": 69.0,
+      "text": "And so a lot of this is around simulation, but clearly a big piece of this is having data about real world experience in order to fuel that simulation and have it grounded in in real experience experience experiential data.",
+      "words": []
+    },
+    {
+      "start": 69.0,
+      "end": 72.4,
+      "text": "So today we're going to talk about our efforts to capture that data.",
+      "words": []
+    },
+    {
+      "start": 72.80000000000001,
+      "end": 79.0,
+      "text": "So firstly we'll talk about physical experiential walkthroughs.",
+      "words": []
+    },
+    {
+      "start": 79.0,
+      "end": 85.4,
+      "text": "So this is a really largely around a project that we did with the bentway in Toronto.",
+      "words": []
+    },
+    {
+      "start": 85.4,
+      "end": 94.80000000000001,
+      "text": "So this was the culmination of our efforts with the bentway was a presentation was sorry an exhibition that was held at their offices in the city.",
+      "words": []
+    },
+    {
+      "start": 95.2,
+      "end": 107.8,
+      "text": "And we had a set up where we had six large screens and then a smaller touch screen where people could interact with the data and explore it and we'll explain the data that was that we effectively collected next.",
+      "words": []
+    },
+    {
+      "start": 109.0,
+      "end": 124.6,
+      "text": "So in terms of our collaboration with the bendway so this was an opportunity for us to sort of build a nascent technology platform that could process and store multi modal experiential data with the ultimate goal of surfacing insights.",
+      "words": []
+    },
+    {
+      "start": 125.39999999999999,
+      "end": 127.39999999999999,
+      "text": "They could feed back into the design process.",
+      "words": []
+    },
+    {
+      "start": 128.4,
+      "end": 137.2,
+      "text": "So we went to the the bentway and we had a number of people come and experience it and capture their experience of the of the environment.",
+      "words": []
+    },
+    {
+      "start": 137.2,
+      "end": 147.4,
+      "text": "The bendway is a community space that's beneath the gardener expressway in downtown Toronto. You can see where it runs in the bottom map here in the top left.",
+      "words": []
+    },
+    {
+      "start": 147.4,
+      "end": 155.8,
+      "text": "You can understand why it's called the bentway because each of these concrete sections that hold up the highway is called a bent.",
+      "words": []
+    },
+    {
+      "start": 156.20000000000002,
+      "end": 157.6,
+      "text": "So it's called the bendway.",
+      "words": []
+    },
+    {
+      "start": 161.8,
+      "end": 175.6,
+      "text": "All right, so we captured a data from 15 participants who signed up to be part of this this experiment or this study and they came along and they wore these these hard construction helmets that had",
+      "words": []
+    },
+    {
+      "start": 176.6,
+      "end": 192.2,
+      "text": "a 360 degree camera as a GoPro on top. There was a boom assembly where there was a Raspberry Pi zero and a camera that was effectively capturing their their facial response during during the walkthroughs.",
+      "words": []
+    },
+    {
+      "start": 192.2,
+      "end": 197.2,
+      "text": "We had environmental sensors capturing data around temperature humidity, etc.",
+      "words": []
+    },
+    {
+      "start": 197.2,
+      "end": 207.0,
+      "text": "And then there was GPS location that was captured. So this is all the quantitative very easily quantifiable data that we captured per participant.",
+      "words": []
+    },
+    {
+      "start": 207.0,
+      "end": 211.2,
+      "text": "But there was also data that we captured on the qualitative side.",
+      "words": []
+    },
+    {
+      "start": 212.2,
+      "end": 223.2,
+      "text": "So we had intermittent part, you know, participant states we asked for data from the the participants virus smartphone app.",
+      "words": []
+    },
+    {
+      "start": 223.2,
+      "end": 230.39999999999998,
+      "text": "We provided them tasks in order to get them to find a good place to read a book in the space, for example.",
+      "words": []
+    },
+    {
+      "start": 230.39999999999998,
+      "end": 240.6,
+      "text": "We also ran surveys throughout and then had an interview as well in terms of capturing this data around how people felt so much more qualitative.",
+      "words": []
+    },
+    {
+      "start": 242.6,
+      "end": 249.6,
+      "text": "In terms of the data, so here we have just some of them this multimodal input that we captured for people.",
+      "words": []
+    },
+    {
+      "start": 249.6,
+      "end": 262.6,
+      "text": "So in the top left we have the 360 video footage there we processed it as well to sort of blur out people to make sure there was no so you know we didn't have issues with with privacy.",
+      "words": []
+    },
+    {
+      "start": 262.6,
+      "end": 270.6,
+      "text": "We segmented the data so run it through some algorithms that the basically performed computer vision and could pull out different types of objects.",
+      "words": []
+    },
+    {
+      "start": 270.6,
+      "end": 278.6,
+      "text": "So there you have different color schemes for different. So you have the sky you have buildings you have the ground you have cars you have people, etc. etc.",
+      "words": []
+    },
+    {
+      "start": 278.6,
+      "end": 286.6,
+      "text": "And then all of these relate to each other these different types of objects. So you know the the building is on the ground.",
+      "words": []
+    },
+    {
+      "start": 286.6,
+      "end": 295.6,
+      "text": "The car is next to the building, etc. So we had this we could build out this rich scene graph relationship graph explaining how everything connects.",
+      "words": []
+    },
+    {
+      "start": 295.6,
+      "end": 309.6,
+      "text": "We also processed the facial expression data so from we from the selfie cameras we could extract a frame by frame facial expressions and basically track people's emotions at least to some degree as they were expressed.",
+      "words": []
+    },
+    {
+      "start": 309.6,
+      "end": 321.6,
+      "text": "You know, facially. And of course we had the GPS data so all of this data was was connected to locations throughout their specific walkthroughs.",
+      "words": []
+    },
+    {
+      "start": 322.6,
+      "end": 333.6,
+      "text": "And this is again a visualization of the data that as you would have seen on those six big screens at the on that first slide with the touch screen at the bottom.",
+      "words": []
+    },
+    {
+      "start": 333.6,
+      "end": 343.6,
+      "text": "We have multi you know it's multi model data that's different modes of display. You can just show the video you can show the scene graph you can show the segmentation.",
+      "words": []
+    },
+    {
+      "start": 343.6,
+      "end": 350.6,
+      "text": "The qualitative data is more on the left of the screen. The more quantitative data is shown on the right.",
+      "words": []
+    },
+    {
+      "start": 350.6,
+      "end": 362.6,
+      "text": "You could do things like scrub forward to a point in the walkthrough where you could see lots of trees or lots of cars to understand what what the surroundings were like at particular point.",
+      "words": []
+    },
+    {
+      "start": 362.6,
+      "end": 367.6,
+      "text": "So it's a really interesting interactive way to explore this kind of rich data set.",
+      "words": []
+    },
+    {
+      "start": 368.6,
+      "end": 375.6,
+      "text": "There were some challenges around this however so you know physical data capture is tricky.",
+      "words": []
+    },
+    {
+      "start": 375.6,
+      "end": 384.6,
+      "text": "You know we had the setup of the devices is quite flaky to have to deal with these these complex rigs to reset them to make sure everything was working.",
+      "words": []
+    },
+    {
+      "start": 384.6,
+      "end": 387.6,
+      "text": "We we had issues around data transfer.",
+      "words": []
+    },
+    {
+      "start": 387.6,
+      "end": 400.6,
+      "text": "500 gigabytes of data that we that we captured just for 15 participants and storing that actually there was an interesting work because it was a project that was with a Canadian partner.",
+      "words": []
+    },
+    {
+      "start": 400.6,
+      "end": 408.6,
+      "text": "We had to make sure that the data stayed in Canada. So that was another interesting challenge as well. Luckily we have an office in Toronto.",
+      "words": []
+    },
+    {
+      "start": 408.6,
+      "end": 416.6,
+      "text": "Obviously privacy compliance you know making sure that we anonymized the data sufficiently to comply with regulations.",
+      "words": []
+    },
+    {
+      "start": 416.6,
+      "end": 428.6,
+      "text": "So there was a lot that had to be done in terms of the environment it may seem like a great idea to do experiments in the real world but part of the issue with the physical environment is you can't control it.",
+      "words": []
+    },
+    {
+      "start": 428.6,
+      "end": 444.6,
+      "text": "So it's difficult to disambiguate whether somebody's having an emotional response to a bird flying over or a car honking its horn or whatever this it's difficult to understand what the reasons were for a response.",
+      "words": []
+    },
+    {
+      "start": 444.6,
+      "end": 454.6,
+      "text": "It's much more easy to control that in a virtual space for example, which is why so many neuroscience experiments use use virtual reality.",
+      "words": []
+    },
+    {
+      "start": 454.6,
+      "end": 463.6,
+      "text": "It's also difficult to scale this kind of physical data capture. So we managed to do this for 15 people and it was a lot of effort and a lot of manpower from our side.",
+      "words": []
+    },
+    {
+      "start": 463.6,
+      "end": 472.6,
+      "text": "But doing the same thing for hundreds or thousands of people at the same location would have been very complicated of course over multiple days different weather conditions.",
+      "words": []
+    },
+    {
+      "start": 472.6,
+      "end": 482.6,
+      "text": "Everything gets very much more complicated and scaling to multiple environments also is complicated means different travel concerns.",
+      "words": []
+    },
+    {
+      "start": 482.6,
+      "end": 491.6,
+      "text": "You know moving people around or inviting a different set of participants per location it just becomes really unmanageable.",
+      "words": []
+    },
+    {
+      "start": 491.6,
+      "end": 498.6,
+      "text": "It was a good experience but we we obviously saw the limits on that front.",
+      "words": []
+    },
+    {
+      "start": 498.6,
+      "end": 526.6,
+      "text": "So we decided to pivot to focus our attention on the virtual to explore the potential for using virtual reality tools in particular one Autodesk tool the workshop XR which was not a tool designed for stakeholder engagement or experience and capture and analysis is very much more for design team collaboration and having people get together and analyze projects together.",
+      "words": []
+    },
+    {
+      "start": 526.6,
+      "end": 539.6,
+      "text": "So we wanted to explore whether we could use this technology in a way that allowed us to capture the human experience of the built environment and that's what Thomas will talk about next.",
+      "words": []
+    },
+    {
+      "start": 539.6,
+      "end": 552.6,
+      "text": "Thanks again so while we learned and not from physical water during the bandway exercise our focus has then shift to explore for the potential for virtual reality based water which despite some mischievous about the physical to virtual experience cap.",
+      "words": []
+    },
+    {
+      "start": 552.6,
+      "end": 575.6,
+      "text": "All of us to control more of the various that affect human experience. We partnered as can mention with the workshop XR team to create a version of the tool that locks all the information about where people navigate to be this in their workshops as well as what they say what doing so in order to analyze the you know the to analyze the data and surface emotional responses to the environment.",
+      "words": []
+    },
+    {
+      "start": 576.6,
+      "end": 586.6,
+      "text": "The bedway collaboration allowed us to build a technology platform that could process a multi storm multi model exponential data with the ultimate goal of surface in insights that could fit back into the design process.",
+      "words": []
+    },
+    {
+      "start": 586.6,
+      "end": 599.6,
+      "text": "Moving to the virtual world we can leverage many of these components in this new scenario. This adds to the advantages of running this type of experience experiencing virtual environments where we can for example fully control the environment.",
+      "words": []
+    },
+    {
+      "start": 599.6,
+      "end": 610.6,
+      "text": "Opposed to the open or physical spaces now we can modify colors, materials of the scene or even change the geometry or layout of the virtual space to measure how the same individuals react to different visuals.",
+      "words": []
+    },
+    {
+      "start": 610.6,
+      "end": 617.6,
+      "text": "Fischer's or use or on the other hand, fixed the environment to says how different individuals react exactly the same.",
+      "words": []
+    },
+    {
+      "start": 618.6,
+      "end": 631.6,
+      "text": "Geometry features in all advantage come released to scalability a quest three from meta costs around 500 euros and that device and a connection to the internet is the only thing we need to perform an exponential water.",
+      "words": []
+    },
+    {
+      "start": 631.6,
+      "end": 646.6,
+      "text": "We don't need to be called OK yet or wait for the proper time or weather on in the day. No matter where you are to put the fear Google's own and enter the space and we experience is last year was supervising what was participants joining from San Diego while we were here in Bongemoly.",
+      "words": []
+    },
+    {
+      "start": 647.6,
+      "end": 662.6,
+      "text": "And finally we are completing on in-house development making extensive use of APS capabilities to develop and deploy the infrastructure that supports a workflow that connects worship extra with APS data management and concurrent editing and finalize the APS you are but more on that later.",
+      "words": []
+    },
+    {
+      "start": 664.6,
+      "end": 671.6,
+      "text": "Before we jump into the internals of the virtual experience what truth let us briefly introduce worship extra to those unfamiliar with it.",
+      "words": []
+    },
+    {
+      "start": 672.6,
+      "end": 681.6,
+      "text": "worship extra is a relative new addition to authors product palette offering users in the AC space with an immersive world space to review 3D models and associated data in virtual reality.",
+      "words": []
+    },
+    {
+      "start": 681.6,
+      "end": 688.6,
+      "text": "The later enabling this is to the teams to collaborate in real time to identify design issues before they are built.",
+      "words": []
+    },
+    {
+      "start": 688.6,
+      "end": 699.6,
+      "text": "Among the interesting features of worship extra we can mention the native collection connection to auto-discontrosion cloud now called for more connective client and the support for APS viewers sessions for non-via stakeholders.",
+      "words": []
+    },
+    {
+      "start": 699.6,
+      "end": 708.6,
+      "text": "worship extra is an entire part of our workflow since our experience of what was our performance as worship extra sessions or like the one to call it.",
+      "words": []
+    },
+    {
+      "start": 711.6,
+      "end": 728.6,
+      "text": "This light shows another view of the exponential data capture of the virtual environments after setting up the VR device in our case meta quest 3 in developer mode with the pro version of the worship extra that allows us to broadcast the position of orientation of the participants as well as the voice feedback all the time.",
+      "words": []
+    },
+    {
+      "start": 728.6,
+      "end": 738.6,
+      "text": "Both data streams are connected in our water recorder of from the application that manages the recording of our water participants.",
+      "words": []
+    },
+    {
+      "start": 738.6,
+      "end": 747.6,
+      "text": "The recorder then sends the audio feedback to the speech emotional recognition service and AI driven component that recognizes the dominant emotions present in an audio clip.",
+      "words": []
+    },
+    {
+      "start": 748.6,
+      "end": 763.6,
+      "text": "After processing the audio data the recorder stores the raw recordings audio plus path in S3 while the water beta data that covers participants and worship IDs as well as the extracted emotion among other bits of information are stored in the experiential graph.",
+      "words": []
+    },
+    {
+      "start": 763.6,
+      "end": 773.6,
+      "text": "The experiential graph is a known as graph with the schema defined by the experiential on tullary that enables the management and supports the inside extractions from the water data.",
+      "words": []
+    },
+    {
+      "start": 774.6,
+      "end": 783.6,
+      "text": "This whole information can be query and visualized in the water browser, affront and front end tool that relies on APS viewer and its API to visualize the waters.",
+      "words": []
+    },
+    {
+      "start": 783.6,
+      "end": 791.6,
+      "text": "The whole world process automated and cloud based meaning that waters can be reviewed within minutes with minimal to no human intervention.",
+      "words": []
+    },
+    {
+      "start": 793.6,
+      "end": 800.6,
+      "text": "Let's go a little bit into the details of how we extract both audio and post from the water participants from the VR device.",
+      "words": []
+    },
+    {
+      "start": 801.6,
+      "end": 819.6,
+      "text": "As mentioned already we rely on an enhanced version of worship exile for our experiments that's used that enables us to connect to a concurrent to concurrent editing, an APS service that relies on fluid framework and open source library developing Microsoft without the support to enable real-time collaboration by distributed entities on a common data source.",
+      "words": []
+    },
+    {
+      "start": 820.6,
+      "end": 826.6,
+      "text": "In our case we create a fluid container that manages all positions of the from the multiple water participants.",
+      "words": []
+    },
+    {
+      "start": 826.6,
+      "end": 836.6,
+      "text": "The water recorder which is also connected to the container received a very notification from of signals regarding the data positions from water participants defined by the IDs.",
+      "words": []
+    },
+    {
+      "start": 836.6,
+      "end": 840.6,
+      "text": "This then pulls the new positions and stored them in a simple sequential list.",
+      "words": []
+    },
+    {
+      "start": 840.6,
+      "end": 853.6,
+      "text": "The decision to go with APS concurrent editing and fluid framework based on worship is based on worship exile usage of the technology and the fact that we can also leverage the shared container to bring information to the water participants although we are not there yet.",
+      "words": []
+    },
+    {
+      "start": 854.6,
+      "end": 864.6,
+      "text": "Among the bits of information sent to Fritflinware to the recorder there is also the Agora, shall I create it by worship exile for the participants session in Agora.",
+      "words": []
+    },
+    {
+      "start": 864.6,
+      "end": 870.6,
+      "text": "Agora is a platform for real-time audio processing used by worship exile to share audio feedback through the users.",
+      "words": []
+    },
+    {
+      "start": 870.6,
+      "end": 875.6,
+      "text": "We simply connect to each user's channel and so we can record each participant's voice.",
+      "words": []
+    },
+    {
+      "start": 875.6,
+      "end": 879.6,
+      "text": "How they record the message of this information we already explained that in the previous slide.",
+      "words": []
+    },
+    {
+      "start": 882.6,
+      "end": 890.6,
+      "text": "Let's talk now a little bit about sentiments and emotions since they are the param, they are paramount for the kind of assessment we perform on the return water.",
+      "words": []
+    },
+    {
+      "start": 890.6,
+      "end": 897.6,
+      "text": "Sentiment lie in the negative to positive spectrum and thus can be expressed as a single dimension continuum in the BN-1 to 1 interval.",
+      "words": []
+    },
+    {
+      "start": 897.6,
+      "end": 905.6,
+      "text": "While it's relative easy to compute either from text or from audio sentiment alone doesn't provide too much information other than a certain kind of mood.",
+      "words": []
+    },
+    {
+      "start": 905.6,
+      "end": 910.6,
+      "text": "Emotions on the other hand are way more expressive way to describe an experience.",
+      "words": []
+    },
+    {
+      "start": 910.6,
+      "end": 917.6,
+      "text": "Emotion analysis is an active feeling of research in psychology, cognitive and behavioral science and there are multiple frames with two categories,",
+      "words": []
+    },
+    {
+      "start": 917.6,
+      "end": 921.6,
+      "text": "such as the triggers and the subsequent sequence actions.",
+      "words": []
+    },
+    {
+      "start": 921.6,
+      "end": 929.6,
+      "text": "Among the most popular frames for emotional rights if you can find the blue chick with soft emotion or Paul Eksman's universal emotions.",
+      "words": []
+    },
+    {
+      "start": 929.6,
+      "end": 937.6,
+      "text": "In our workflow we rely on the latter mode that focuses on five main emotions, sadness, fear, disgust, anger and joy.",
+      "words": []
+    },
+    {
+      "start": 937.6,
+      "end": 943.6,
+      "text": "Eksman's model also describes the triggers for emotions, provides a qualitative intensity scales for them,",
+      "words": []
+    },
+    {
+      "start": 943.6,
+      "end": 953.6,
+      "text": "joy for instance, goes from sensory pleasure at the lowest intensity to ecstasy, you see at the highest intensity, as well as all the actions humans perform as a reaction.",
+      "words": []
+    },
+    {
+      "start": 953.6,
+      "end": 963.6,
+      "text": "Eksman's model was taken by reference as reference by Pixar for the movie Inside Out, which many of you may know, to characterise the characters living in the protagonist's mind.",
+      "words": []
+    },
+    {
+      "start": 964.6,
+      "end": 969.6,
+      "text": "We try multiple approaches to analyse the audio data from the participants.",
+      "words": []
+    },
+    {
+      "start": 969.6,
+      "end": 977.6,
+      "text": "In a pilot test we process data from participants in the design dinner, in the event that we organise in Boston and San Francisco,",
+      "words": []
+    },
+    {
+      "start": 977.6,
+      "end": 980.6,
+      "text": "you can see on the left column and the right column on the slide.",
+      "words": []
+    },
+    {
+      "start": 980.6,
+      "end": 987.6,
+      "text": "For each event you can see the tracks of the individual speakers and the three roles show the results of the three libraries we tested.",
+      "words": []
+    },
+    {
+      "start": 988.6,
+      "end": 999.6,
+      "text": "In theory, with speech emotional recognition you can detect the emotions more effectively with the model that pays attention to how people are speaking in addition to what people are saying.",
+      "words": []
+    },
+    {
+      "start": 999.6,
+      "end": 1002.6,
+      "text": "Our first effort was the model called Emotion to Vec.",
+      "words": []
+    },
+    {
+      "start": 1002.6,
+      "end": 1009.6,
+      "text": "And for whatever reason, and I suspected the issue was having a two small training data set, everyone was too sad.",
+      "words": []
+    },
+    {
+      "start": 1009.6,
+      "end": 1017.6,
+      "text": "Next, we tried another model harnessing open AI's whisper, but the results were end here, and ended up being far too emotional exaggerated.",
+      "words": []
+    },
+    {
+      "start": 1017.6,
+      "end": 1021.6,
+      "text": "The conversation was actually lively, but this approach felt too much.",
+      "words": []
+    },
+    {
+      "start": 1021.6,
+      "end": 1031.6,
+      "text": "In the end we found that a two-faced approach used a whisper for transcription, and then an LLM from Facebook AI called Robert, that the process detects, geared the best results.",
+      "words": []
+    },
+    {
+      "start": 1031.6,
+      "end": 1042.6,
+      "text": "It is a result in a more emotional and neutral output with occasional peak, much more representative of a number of discussions, this first just right, so we decided to leverage this to step approach for our experiments.",
+      "words": []
+    },
+    {
+      "start": 1042.6,
+      "end": 1050.6,
+      "text": "Once the voice data from the Waterparticipants is processed, the whole water metadata is stored in the Experention Knowledge Graph.",
+      "words": []
+    },
+    {
+      "start": 1050.6,
+      "end": 1056.6,
+      "text": "As mentioned earlier, the graphs to follow is driven by a simple and tolling that describes the different entities playing a role in the water.",
+      "words": []
+    },
+    {
+      "start": 1057.6,
+      "end": 1063.6,
+      "text": "The composite of the water sits at the center, linking a participant with a workshop that has been more associated.",
+      "words": []
+    },
+    {
+      "start": 1063.6,
+      "end": 1069.6,
+      "text": "The water is performed by a participant and the voice feedback are characterized as artifacts in the Knowledge Graph.",
+      "words": []
+    },
+    {
+      "start": 1069.6,
+      "end": 1076.6,
+      "text": "The emotions recognized by the Emotion Recognition Capability are reflected as impressions in the graph.",
+      "words": []
+    },
+    {
+      "start": 1076.6,
+      "end": 1080.6,
+      "text": "Link to one of the pre-defined emotional categories, plus the neutral one.",
+      "words": []
+    },
+    {
+      "start": 1081.6,
+      "end": 1091.6,
+      "text": "All water events have a timestamp associated for temporary queries and the water, the water and the artifact notes, they have also a URN that reference the raw data stored in a street.",
+      "words": []
+    },
+    {
+      "start": 1093.6,
+      "end": 1099.6,
+      "text": "And here we have some slices of the Experention Graph, provided an insightful view of the capture data.",
+      "words": []
+    },
+    {
+      "start": 1099.6,
+      "end": 1107.6,
+      "text": "Since we made the Emotions a Flex Class Citizen in the graph, we can query it by Emotions even adding a temporafy its feet if needed.",
+      "words": []
+    },
+    {
+      "start": 1107.6,
+      "end": 1120.6,
+      "text": "The blue notes reflect the represent the Emotions, the pre-defined ones. The yellow notes are the impressions extracted from the artifacts and the red ones are artifacts, except from the voice feedback from the participants.",
+      "words": []
+    },
+    {
+      "start": 1120.6,
+      "end": 1131.6,
+      "text": "As you can see, joyful and neutral emotions are the numbers of the emotions in some data set, which is something we were actually expecting, especially considering the combination of Roweta and Whisper.",
+      "words": []
+    },
+    {
+      "start": 1131.6,
+      "end": 1145.6,
+      "text": "And here you can see a via session of their underwrite, captured by one of the participants in the third person view of the movement through space in the left.",
+      "words": []
+    },
+    {
+      "start": 1145.6,
+      "end": 1151.6,
+      "text": "We take the outer data, process it through a back-end pipeline and populate a sentiment map in our knowledge graph.",
+      "words": []
+    },
+    {
+      "start": 1151.6,
+      "end": 1159.6,
+      "text": "Backend that can be explored after the fact, we aggregate multiple water, through various participants and explore.",
+      "words": []
+    },
+    {
+      "start": 1159.6,
+      "end": 1169.6,
+      "text": "The impressions they captured about the space. This is particularly important when you come across some in need to this sentiment that has been captured and you want to understand why.",
+      "words": []
+    },
+    {
+      "start": 1169.6,
+      "end": 1176.6,
+      "text": "The user can then select a title, a title in the sentiment map, bring it up the related water and play back the relevant sections.",
+      "words": []
+    },
+    {
+      "start": 1176.6,
+      "end": 1182.6,
+      "text": "And you can see an example here of me evaluating a probably feedback about one of the sections.",
+      "words": []
+    },
+    {
+      "start": 1189.6,
+      "end": 1212.6,
+      "text": "And then there is another person we can extract from the graph. I mean, you can see how we can use a knowledge graph that allows us to query the data using the cipher query language.",
+      "words": []
+    },
+    {
+      "start": 1212.6,
+      "end": 1224.6,
+      "text": "And then we can explore the potential of exposing to an NCP server for the experience data. In this simple example you see here, we ask the MCP server to tell us where the people experience a particular emotion in a specified model.",
+      "words": []
+    },
+    {
+      "start": 1224.6,
+      "end": 1233.6,
+      "text": "And because the knowledge graph also references the raw water data, we can assess the exact location where participants express a particular emotion.",
+      "words": []
+    },
+    {
+      "start": 1233.6,
+      "end": 1241.6,
+      "text": "And you can hopefully imagine quite easily how this might be integrated into future agenteic offers. And I will hand it over to Keen for a wrap-up.",
+      "words": []
+    },
+    {
+      "start": 1242.6,
+      "end": 1249.6,
+      "text": "Thank you, Thomas. So just to wrap up, we thought we'd talk a little bit about what we're working on at the moment and where we're hoping to go with it.",
+      "words": []
+    },
+    {
+      "start": 1249.6,
+      "end": 1258.6,
+      "text": "So as I mentioned at the beginning, our focus is really around simulating the human experience of design, and in particular the built environment.",
+      "words": []
+    },
+    {
+      "start": 1258.6,
+      "end": 1273.6,
+      "text": "So right now we're looking at multi-agent simulation technologies where we can effectively have embodied agents experiencing space and actually having a realistic response to it.",
+      "words": []
+    },
+    {
+      "start": 1273.6,
+      "end": 1287.6,
+      "text": "And part of that is building out what we're calling a human cognitive digital twin, which can effectively take in various inputs such as the environment, such as the persona of the particular agent that we're simulating and the goals that they have.",
+      "words": []
+    },
+    {
+      "start": 1287.6,
+      "end": 1309.6,
+      "text": "And because your experience of space is very much dictated or influenced by the task that you have in mind. So whether you want to sit down and have a coffee with friends, or if you want to have a quiet place to work or read a book, you're going to look at space in a different way and have different needs and different, you know, your experience will be different.",
+      "words": []
+    },
+    {
+      "start": 1309.6,
+      "end": 1338.6,
+      "text": "And effectively part of our effort around capturing data is relating to this, we're also partnering with institutions, academic institutions who are capturing data in a similar way in order to scale this up so that we can get a really nuanced view of how humanity and all its subjectivity and diversity is going to experience space when going through their day to day work and life.",
+      "words": []
+    },
+    {
+      "start": 1338.6,
+      "end": 1350.6,
+      "text": "And with that, just like to thank you very much for attending this presentation. We hope you found it useful. And if you'd like to hear more about what we're doing, then please do reach out. Thank you very much.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:19:24.289996+00:00"
+}

@@ -1,0 +1,85 @@
+{
+  "video_id": "g-JcUJkz6eU",
+  "demo_timestamps": [
+    {
+      "start": 1189.0,
+      "end": 1314.0,
+      "description": "Demonstration of a workflow solution using Revit, JSON files, and custom AI tools to compare design variants and calculate carbon emissions."
+    },
+    {
+      "start": 1335.0,
+      "end": 1506.0,
+      "description": "Demonstrating the process of importing carbon data into Revit, using the Viewer SDK to visualize and interact with the carbon data."
+    }
+  ],
+  "themes": [
+    "BIM Carbon Analysis",
+    "AI-assisted Design Optimization",
+    "Sustainable Infrastructure",
+    "APS Workflows",
+    "BIM and Carbon Analysis Integration",
+    "Automation and Workflow Efficiency",
+    "Challenges in Software Development and Data Quality"
+  ],
+  "client_mentions": [
+    {
+      "name": "Swiss",
+      "context": "Greg Wachelschel and Lawrence Glutte are part of Swiss BIM team presenting their project.",
+      "timestamp": 12.0
+    },
+    {
+      "name": "Suez",
+      "context": "Development and hosting of the custom GPT tool internally.",
+      "timestamp": 2895.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 944.0
+    },
+    {
+      "name": "APS",
+      "is_api": false,
+      "timestamp": 42.0
+    },
+    {
+      "name": "Model Derivative API",
+      "is_api": true,
+      "timestamp": 3189.0
+    },
+    {
+      "name": "Viewer SDK",
+      "is_api": true,
+      "timestamp": 1034.0
+    },
+    {
+      "name": "Automation API",
+      "is_api": true,
+      "timestamp": 3162.0
+    },
+    {
+      "name": "ACC",
+      "is_api": false,
+      "timestamp": 1686.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "GPT",
+      "category": "llm",
+      "context": "Decarbon Exo-GPT used to process JSON files and automate carbon data extraction and structuring.",
+      "timestamp": 3122.0
+    },
+    {
+      "name": "QSAMGPTs",
+      "category": "llm",
+      "context": "Used for supporting low-coding approaches in software development.",
+      "timestamp": 1569.0
+    }
+  ],
+  "summary": "The video showcases a project by a Swiss BIM team that develops a carbon scenario comparison workflow utilizing Autodesk's APS and APIs to automate and optimize carbon emissions analysis in design scenarios. It highlights the integration of carbon data into BIM models using Autodesk Revit and the Viewer SDK, addressing challenges like data quality and software limitations while planning to enhance automation and improve the carbon calculator. The project aims to make carbon impacts visible and actionable, fostering sustainable infrastructure design and improving workflow efficiency and scalability.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:41:44.038872+00:00"
+}

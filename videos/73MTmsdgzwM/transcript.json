@@ -1,0 +1,1123 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.0,
+      "text": "Hi everyone, today I will be talking about cloud-based beam data access using",
+      "words": []
+    },
+    {
+      "start": 5.0,
+      "end": 9.0,
+      "text": "a Victorie with Autodesk AEC data model APIs.",
+      "words": []
+    },
+    {
+      "start": 12.0,
+      "end": 15.0,
+      "text": "So like all the, I mean Autodesk content is proprietary,",
+      "words": []
+    },
+    {
+      "start": 15.0,
+      "end": 19.0,
+      "text": "please do not copy, post or distribute without authorization.",
+      "words": []
+    },
+    {
+      "start": 21.0,
+      "end": 23.0,
+      "text": "Okay, so I'll be talking about myself actually.",
+      "words": []
+    },
+    {
+      "start": 23.0,
+      "end": 28.0,
+      "text": "Let me introduce my name is Vijaya Adi Gopula and I am associate director",
+      "words": []
+    },
+    {
+      "start": 28.0,
+      "end": 31.0,
+      "text": "for digital engineering and technology from WSP India.",
+      "words": []
+    },
+    {
+      "start": 32.0,
+      "end": 34.0,
+      "text": "My role and responsibilities basically like I am leading,",
+      "words": []
+    },
+    {
+      "start": 34.0,
+      "end": 38.0,
+      "text": "heading digital automation group like sustainability, carbon,",
+      "words": []
+    },
+    {
+      "start": 39.0,
+      "end": 44.0,
+      "text": "distilled wind, I mean, AECC, APS Autodesk platform services,",
+      "words": []
+    },
+    {
+      "start": 44.0,
+      "end": 49.0,
+      "text": "I mean, and wherever repetitive time consuming error-crowned tasks like we have been automating our group,",
+      "words": []
+    },
+    {
+      "start": 49.0,
+      "end": 55.0,
+      "text": "our team has been automating like design workflows and helping the business",
+      "words": []
+    },
+    {
+      "start": 55.0,
+      "end": 60.0,
+      "text": "by developing plugins, ribbons, inside CAD and beam applications basically.",
+      "words": []
+    },
+    {
+      "start": 60.0,
+      "end": 65.0,
+      "text": "So if you look into my core expertise like I have experience on Autodesk APS,",
+      "words": []
+    },
+    {
+      "start": 65.0,
+      "end": 72.0,
+      "text": "I mean, AEC data model APS Autodesk platform services like Autodesk Tandem, Pharma,",
+      "words": []
+    },
+    {
+      "start": 74.0,
+      "end": 77.0,
+      "text": "like AEC data model, model service design automation.",
+      "words": []
+    },
+    {
+      "start": 77.0,
+      "end": 81.0,
+      "text": "So these are my primary skill set and along with that I have, I mean,",
+      "words": []
+    },
+    {
+      "start": 81.0,
+      "end": 86.0,
+      "text": "Azure OpenAI, like a GPT, I mean, like AI services, generative AI,",
+      "words": []
+    },
+    {
+      "start": 86.0,
+      "end": 91.0,
+      "text": "Hinti-K, MCT, and also I have experience on like programming side,",
+      "words": []
+    },
+    {
+      "start": 91.0,
+      "end": 94.0,
+      "text": "C-sharp, and revet automation, civil 3D Navis works,",
+      "words": []
+    },
+    {
+      "start": 94.0,
+      "end": 98.0,
+      "text": "and Bentley related applications, I mean, like Micro Station, OPD, WARD,",
+      "words": []
+    },
+    {
+      "start": 98.0,
+      "end": 100.0,
+      "text": "and other applications.",
+      "words": []
+    },
+    {
+      "start": 100.0,
+      "end": 103.0,
+      "text": "And if you look into on the right hand side my achievements, I mean,",
+      "words": []
+    },
+    {
+      "start": 103.0,
+      "end": 109.0,
+      "text": "AU 2024, I had presented on Autodesk Tandem for facilities management",
+      "words": []
+    },
+    {
+      "start": 109.0,
+      "end": 111.0,
+      "text": "using IoT distalements.",
+      "words": []
+    },
+    {
+      "start": 111.0,
+      "end": 119.0,
+      "text": "And in AU 2025, I mean, naturally went last year, I had presented on Pharma Sustainable Urban Planning.",
+      "words": []
+    },
+    {
+      "start": 119.0,
+      "end": 126.0,
+      "text": "In August, I mean, sorry, April 15th and 16th, I will be presenting on two topics.",
+      "words": []
+    },
+    {
+      "start": 126.0,
+      "end": 129.0,
+      "text": "One is on Autodesk Pharma, I mean, sustainable urban planning,",
+      "words": []
+    },
+    {
+      "start": 129.0,
+      "end": 133.0,
+      "text": "and the second one is like a today's topic like 1032,",
+      "words": []
+    },
+    {
+      "start": 133.0,
+      "end": 136.0,
+      "text": "like I will be speaking on AEC data model.",
+      "words": []
+    },
+    {
+      "start": 136.0,
+      "end": 140.0,
+      "text": "How we can integrate with the withdrawal app actually.",
+      "words": []
+    },
+    {
+      "start": 140.0,
+      "end": 145.0,
+      "text": "So we are talking about 1032 today.",
+      "words": []
+    },
+    {
+      "start": 145.0,
+      "end": 148.0,
+      "text": "And I mean, last year I got, I mean, from Bentley side, I mean,",
+      "words": []
+    },
+    {
+      "start": 148.0,
+      "end": 153.0,
+      "text": "I had to certificate of excellence, I mean, for Bentley, I-2, and AECC",
+      "words": []
+    },
+    {
+      "start": 153.0,
+      "end": 155.0,
+      "text": "to project waste automation.",
+      "words": []
+    },
+    {
+      "start": 155.0,
+      "end": 163.0,
+      "text": "And then last one, actually, like this month, April 23rd, I will be presenting on Bentley,",
+      "words": []
+    },
+    {
+      "start": 163.0,
+      "end": 167.0,
+      "text": "I-2 in an entry and lifecycle from design construct and operate.",
+      "words": []
+    },
+    {
+      "start": 167.0,
+      "end": 172.0,
+      "text": "How the I-2 in will be useful for the business, basically.",
+      "words": []
+    },
+    {
+      "start": 172.0,
+      "end": 174.0,
+      "text": "Okay, let's move on to agenda.",
+      "words": []
+    },
+    {
+      "start": 174.0,
+      "end": 182.0,
+      "text": "So today, I will be talking about like, we actually, we are planning to build one consolidated,",
+      "words": []
+    },
+    {
+      "start": 182.0,
+      "end": 185.0,
+      "text": "I mean, unified platform on cloud.",
+      "words": []
+    },
+    {
+      "start": 185.0,
+      "end": 191.0,
+      "text": "How we can connect the AECC beam data and extract the data from the element groups,",
+      "words": []
+    },
+    {
+      "start": 191.0,
+      "end": 194.0,
+      "text": "from the rivet or civil 3D whatever, but we have, I mean,",
+      "words": []
+    },
+    {
+      "start": 194.0,
+      "end": 197.0,
+      "text": "primarily focusing on the rivet side actually for the building model.",
+      "words": []
+    },
+    {
+      "start": 197.0,
+      "end": 200.0,
+      "text": "How we can extract the data.",
+      "words": []
+    },
+    {
+      "start": 200.0,
+      "end": 204.0,
+      "text": "And we are planning to build seven modules, basically, like related to complaints,",
+      "words": []
+    },
+    {
+      "start": 204.0,
+      "end": 210.0,
+      "text": "share quality, carbon cost schedule, like visualization as well, like 3D, 4D, 5D, 60.",
+      "words": []
+    },
+    {
+      "start": 210.0,
+      "end": 215.0,
+      "text": "And also like carbon footprint and schedule for my current rivet model.",
+      "words": []
+    },
+    {
+      "start": 215.0,
+      "end": 220.0,
+      "text": "So I want to extract all the data, I mean, how we can use the AEC data model queries.",
+      "words": []
+    },
+    {
+      "start": 220.0,
+      "end": 224.0,
+      "text": "And what are the current challenges and how we can work along with the AEC data model.",
+      "words": []
+    },
+    {
+      "start": 224.0,
+      "end": 226.0,
+      "text": "So I will be talking about all those.",
+      "words": []
+    },
+    {
+      "start": 226.0,
+      "end": 229.0,
+      "text": "And I will be talking about with the victrap actually.",
+      "words": []
+    },
+    {
+      "start": 229.0,
+      "end": 232.0,
+      "text": "Victor app is a thought for a company like they are working on like a low code,",
+      "words": []
+    },
+    {
+      "start": 232.0,
+      "end": 234.0,
+      "text": "no code and pro code based application platform.",
+      "words": []
+    },
+    {
+      "start": 234.0,
+      "end": 236.0,
+      "text": "So I'll be talking about victrap.",
+      "words": []
+    },
+    {
+      "start": 236.0,
+      "end": 240.0,
+      "text": "And then I will be talking about architecture and then go to live demo.",
+      "words": []
+    },
+    {
+      "start": 240.0,
+      "end": 244.0,
+      "text": "Actually, like I will walk through one live demo actually.",
+      "words": []
+    },
+    {
+      "start": 244.0,
+      "end": 249.0,
+      "text": "And then I will walk through like some authentication and a key APA is related to B.",
+      "words": []
+    },
+    {
+      "start": 249.0,
+      "end": 252.0,
+      "text": "AEC data model as well as the Victor platform.",
+      "words": []
+    },
+    {
+      "start": 252.0,
+      "end": 262.0,
+      "text": "And then finally, finally, we'll be talking about the return off investment and key take away from the AEC data model and Victor app.",
+      "words": []
+    },
+    {
+      "start": 262.0,
+      "end": 266.0,
+      "text": "Okay, let's go to the traditional B.",
+      "words": []
+    },
+    {
+      "start": 266.0,
+      "end": 273.0,
+      "text": "Access data, like how we can traditionally like extracting the data from the AEC environment.",
+      "words": []
+    },
+    {
+      "start": 273.0,
+      "end": 278.0,
+      "text": "So before AEC data model and now actually like water the differences and how are we going to like,",
+      "words": []
+    },
+    {
+      "start": 278.0,
+      "end": 283.0,
+      "text": "like a work I'm actually like a so that traditional way is suppose I have a modeling revert.",
+      "words": []
+    },
+    {
+      "start": 283.0,
+      "end": 289.0,
+      "text": "Well, suppose one of the design team, they have published them in architectural modeling to ACC.",
+      "words": []
+    },
+    {
+      "start": 289.0,
+      "end": 292.0,
+      "text": "So if I want to extract the data earlier, what we used to do.",
+      "words": []
+    },
+    {
+      "start": 292.0,
+      "end": 299.0,
+      "text": "We have to use the model derivative APA to translate the revert model into lightweight format.",
+      "words": []
+    },
+    {
+      "start": 299.0,
+      "end": 302.0,
+      "text": "That is called a simple vector format S V F2.",
+      "words": []
+    },
+    {
+      "start": 302.0,
+      "end": 307.0,
+      "text": "And then use like multiple endpoints, HTTP endpoints to extract the data like a element groups.",
+      "words": []
+    },
+    {
+      "start": 307.0,
+      "end": 312.0,
+      "text": "Element groups elements, I mean connect to her project and elements, I mean element group.",
+      "words": []
+    },
+    {
+      "start": 312.0,
+      "end": 316.0,
+      "text": "And we have like almost 9 to 10 endpoints basically.",
+      "words": []
+    },
+    {
+      "start": 316.0,
+      "end": 319.0,
+      "text": "So we have to perform like translation, it will take time.",
+      "words": []
+    },
+    {
+      "start": 319.0,
+      "end": 324.0,
+      "text": "And again, we have to extract the data using multiple endpoints basically.",
+      "words": []
+    },
+    {
+      "start": 324.0,
+      "end": 331.0,
+      "text": "So it's like a tedious job actually like at the end of the day, you will be getting GS and data with entire hierarchy and with all the information.",
+      "words": []
+    },
+    {
+      "start": 331.0,
+      "end": 338.0,
+      "text": "So again, if you want to query some information related to like one of my floor, like one of the room actually floor in one of the room.",
+      "words": []
+    },
+    {
+      "start": 338.0,
+      "end": 344.0,
+      "text": "I want to fetch some like HVAC system warranty or any information related has certain information.",
+      "words": []
+    },
+    {
+      "start": 344.0,
+      "end": 349.0,
+      "text": "So how to iterate entire JSON file generated by model derivative APA actually.",
+      "words": []
+    },
+    {
+      "start": 349.0,
+      "end": 358.0,
+      "text": "It's like a nightmare actually like I trading JSON file huge data. I mean, so that was the challenge earlier with the traditional way of extracting the data from ACC.",
+      "words": []
+    },
+    {
+      "start": 358.0,
+      "end": 365.0,
+      "text": "So what is the advantage of using AAC data model with AAC data model with one query.",
+      "words": []
+    },
+    {
+      "start": 365.0,
+      "end": 370.0,
+      "text": "We can get everything that is called graph query language built on property graph on the back end.",
+      "words": []
+    },
+    {
+      "start": 370.0,
+      "end": 375.0,
+      "text": "It's a ground based database on the backend. They have beat recently in APS platform.",
+      "words": []
+    },
+    {
+      "start": 375.0,
+      "end": 380.0,
+      "text": "So we can access them in AAC data model and connect to your AAC.",
+      "words": []
+    },
+    {
+      "start": 380.0,
+      "end": 384.0,
+      "text": "I mean get a hub level project level element groups and elements.",
+      "words": []
+    },
+    {
+      "start": 384.0,
+      "end": 387.0,
+      "text": "I mean element group's months you will be having multiple red files.",
+      "words": []
+    },
+    {
+      "start": 387.0,
+      "end": 393.0,
+      "text": "You can iterate individual element group and query elements like properties metadata hierarchy.",
+      "words": []
+    },
+    {
+      "start": 393.0,
+      "end": 399.0,
+      "text": "I mean the relations like association aggregation composition all the information with one query.",
+      "words": []
+    },
+    {
+      "start": 399.0,
+      "end": 406.0,
+      "text": "You can get the information graph query and you can extract the information that is the beauty of AAC data model.",
+      "words": []
+    },
+    {
+      "start": 406.0,
+      "end": 409.0,
+      "text": "So that's where like now we are I mean again model derivative.",
+      "words": []
+    },
+    {
+      "start": 409.0,
+      "end": 414.0,
+      "text": "Actually, if you look into lot last line actually like model derivatives paid actually flex tokens.",
+      "words": []
+    },
+    {
+      "start": 414.0,
+      "end": 420.0,
+      "text": "Since December 20, 25 it's very expensive like downloading JSON heavy data, iterating filtering.",
+      "words": []
+    },
+    {
+      "start": 420.0,
+      "end": 425.0,
+      "text": "If you want to get one wall information I have to iterate entire JSON file actually.",
+      "words": []
+    },
+    {
+      "start": 425.0,
+      "end": 429.0,
+      "text": "There is no like a direct query to get the wall information.",
+      "words": []
+    },
+    {
+      "start": 429.0,
+      "end": 432.0,
+      "text": "So that's where we came up with the AAC data model.",
+      "words": []
+    },
+    {
+      "start": 432.0,
+      "end": 436.0,
+      "text": "So yeah, you can see that the rest of your workflow.",
+      "words": []
+    },
+    {
+      "start": 436.0,
+      "end": 442.0,
+      "text": "I mean earlier we used to the traditional way how we are going to extract the data from AAC or a red file.",
+      "words": []
+    },
+    {
+      "start": 442.0,
+      "end": 448.0,
+      "text": "Now ACC red file like you have to use these many endpoints to get the properties metadata hierarchy.",
+      "words": []
+    },
+    {
+      "start": 448.0,
+      "end": 456.0,
+      "text": "And other things basically so on the right hand side you can see the AAC data model with one graph query AAC graph kill.",
+      "words": []
+    },
+    {
+      "start": 456.0,
+      "end": 462.0,
+      "text": "With the I mean this is the way actually how you can query like you can suppose example I want to get the wall information.",
+      "words": []
+    },
+    {
+      "start": 462.0,
+      "end": 468.0,
+      "text": "Just provide category equal to walls and results I mean get the properties and give the name actually any specific if you want to query.",
+      "words": []
+    },
+    {
+      "start": 468.0,
+      "end": 483.0,
+      "text": "It will generate everything actually the JSON will give the entire information related to wall and then you can perform any kind of like extraction once you got you can get any actionable insights and you can whatever you want you can perform with the data.",
+      "words": []
+    },
+    {
+      "start": 483.0,
+      "end": 493.0,
+      "text": "Okay, so now what is easy like I said it's a cloud native a rivet property is a bit on graph DB.",
+      "words": []
+    },
+    {
+      "start": 493.0,
+      "end": 507.0,
+      "text": "Graph structure actually like it's called property graph so it has like five constructs like I said like hub level first you have to get the hub and then project element groups element group is having multiple red files and each",
+      "words": []
+    },
+    {
+      "start": 507.0,
+      "end": 514.0,
+      "text": "will be having elements actually like go revert each revert file and iterate elements actually like each element will be having properties and query.",
+      "words": []
+    },
+    {
+      "start": 514.0,
+      "end": 526.0,
+      "text": "So this is the like a simple workflow like and everything happening in the server side basically like I said earlier slide actually like a filter category like walls I mean property information.",
+      "words": []
+    },
+    {
+      "start": 526.0,
+      "end": 531.0,
+      "text": "So with the relations I mean we can easily get I mean node edges and properties basically this is the.",
+      "words": []
+    },
+    {
+      "start": 531.0,
+      "end": 551.0,
+      "text": "They work on the back end property graph actually so no flex tokens no more derivative cost actually if you go with the model derivative I said like it's a cost actually include incurred actually like so this is the beauty of women a easy data model we can go with.",
+      "words": []
+    },
+    {
+      "start": 551.0,
+      "end": 576.0,
+      "text": "So this is the workflow like I said I mean five construct I mean we have to start with hub level and project and project is having element groups revert model and each revert element group is having element information like categories wall and door wall floor I mean if you go with the mep mechanical structural I mean we have a different categories it category family type instances so you can get very kind of information and properties you can see like.",
+      "words": []
+    },
+    {
+      "start": 576.0,
+      "end": 605.0,
+      "text": "Yeah so you can see like more carry volume any kind of property like related to category you can get it actually so element group is like example hospital or virtual version 3 rvd so very can see that element information like door and you can see the properties like mark with level reference any kind of custom attributes metadata like file information hierarchy that is the very important thing actually to get the information and the reference.",
+      "words": []
+    },
+    {
+      "start": 605.0,
+      "end": 610.0,
+      "text": "Information and the reference and association aggregation and composition related information.",
+      "words": []
+    },
+    {
+      "start": 612.0,
+      "end": 632.0,
+      "text": "Okay now come to a victor actually what is victor so victor I said like it's a third party platform actually like a built them in on low code no code and pro code actually low code means I mean it's like a a base actually user prompt any query automatically.",
+      "words": []
+    },
+    {
+      "start": 632.0,
+      "end": 661.0,
+      "text": "Victor will build a a for you using Python interface and it's a low code no code actually so it's a low code no code platform and Victor will build a interface for you like so you can focus only on engineering logic Victor handles high t headache basically so no front end coding so Victor will generate a UI for you and connects to like multiple I will show you in few minutes like you can connect to multiple.",
+      "words": []
+    },
+    {
+      "start": 662.0,
+      "end": 688.0,
+      "text": "Workers like they have a revert worker excel worker rhino grasshopper I mean take all work they have they have CV 3D Bentley I mean so many workers I mean you have to download that worker and we have to do the integration like connect with your worker and download and I mean your app should connect to your worker and perform the high end I mean workload actually in the server side basically so we have to use that.",
+      "words": []
+    },
+    {
+      "start": 688.0,
+      "end": 717.0,
+      "text": "Worker download and integrate with your app and then perform the heavy lifting job on the server side basically so I will show you few examples as well so zero infrastructure like no front end code no service no DevOps so in the traditional way what we have to do like code build test them in dark or deploy I mean monitor maintain we have to do all the steps basically in Victor with using Victor just code it and publishing to their portal everything that manage",
+      "words": []
+    },
+    {
+      "start": 717.0,
+      "end": 746.0,
+      "text": "cloud infrastructure devy manage everything so no it handling I mean from it headache from nothing is there actually like everything we will be taking care of it Victor and built in integrations suppose if I am working on easy data model or design automation in like APS services basically so the authentication part they will be taking care of so no need to provide like client aid and secret we create like authentication in the server side.",
+      "words": []
+    },
+    {
+      "start": 747.0,
+      "end": 776.0,
+      "text": "The app is there is an option I will show you to in few minutes so that we can take care of so you know need to write a HTML CSS for visualization all the things like so everything will be taking care and it take care of like refresh token everything basically so the embed APS we are like four years like integrated with the Victor already that AP I just one line of code so no need to write CSS or HTML anything and file browser like connect to your hub level project level and select.",
+      "words": []
+    },
+    {
+      "start": 777.0,
+      "end": 806.0,
+      "text": "Everything they have built already in built with very few lines of code no need to write any JavaScript or nothing CSS or HTML code for that all pre built component inside Victor so the everything headache related to front end like all these CSS nothing to worry everything we take care of actually so the integration with the ACC already they have built them in the connections like we're visualization APS I mean file browser with ACC they already they have built.",
+      "words": []
+    },
+    {
+      "start": 807.0,
+      "end": 823.0,
+      "text": "So enterprise ready so version control taking care for them there and actually audit trails role based them in it's a one second I'll move this yeah production from day one actually like it's a production ready code.",
+      "words": []
+    },
+    {
+      "start": 823.0,
+      "end": 846.0,
+      "text": "So how that Victor application works actually like a Victor app I mean I said like it's a cloud based platform like you can see that web interface controller everything is managed by cloud and I said like we have multiple workers I mean you can see at the bottom these are all like workers I mean it's available in the portal Victor portal.",
+      "words": []
+    },
+    {
+      "start": 846.0,
+      "end": 853.0,
+      "text": "I am working on revert automation like I want to like perform heavy lifting job on the server side. I mean local machine with the victor app actually, so",
+      "words": []
+    },
+    {
+      "start": 854.0,
+      "end": 865.0,
+      "text": "victor app will create automatically that inter I mean interface. I mean no need to like build any app development and just prompt and create an app and you can deploy in",
+      "words": []
+    },
+    {
+      "start": 865.0,
+      "end": 893.0,
+      "text": "a cloud platform and based on that input options like if you suppose I want to perform house keeping tools. So you if you can browse I mean like a folder actually like where the your source folder and target folder path if you give that one and once you click start button, it will automatically the create a job and send job to worker and worker will receive the job and it will perform like heavy lifting job using pi Qt.",
+      "words": []
+    },
+    {
+      "start": 893.0,
+      "end": 917.0,
+      "text": "So there is a plugin available for pi Qt. I mean using Python you can trigger automatically so each file it will open and you perform like all the house keeping activities for your vet file cleaning up of activities like purging whatever like if you have like 20 action items like quality check, compliance check anything you can do on the revert file actually so using this victor app you can perform everything in one stretch and it will generate a Jason and that Jason will be published in front and actually like the",
+      "words": []
+    },
+    {
+      "start": 917.0,
+      "end": 946.0,
+      "text": "so very nice visualization dashboard will get it in the front and I mean how the I mean how many files have been cleaned up I mean what are the action is successful failure I mean everything we can get it in dashboard. So the advantage very quickly I mean like a production code I mean very quickly using your revert I mean auto scuplications like revert civil treaty.",
+      "words": []
+    },
+    {
+      "start": 947.0,
+      "end": 967.0,
+      "text": "We are a C C easy data model whatever we can easily integrate seamless integration with the Victor platform and we can perform the tasks very quickly like it's like a reduced cost as well as less time you can finish the your requirement basically so there is the thing.",
+      "words": []
+    },
+    {
+      "start": 967.0,
+      "end": 996.0,
+      "text": "So here is the like a high level architecture how it works actually so I said like UI you are feeding them in once Victor generates a I mean you will be feeding the information input parameters and it will be generating a Jason that config that 2 XML file it will be generating so that file will be positive work work actually worker I means we have to download from I said like I have to download from Victor portal so it will read that Jason XML file and it will be a lot of things.",
+      "words": []
+    },
+    {
+      "start": 997.0,
+      "end": 1016.0,
+      "text": "It will invoke immediately the revert application like it will perform the job open any revert file, compliance check whatever I said like anything like auditing room number something updating parameters like family renaming whatever any action item I mean the design workflows basically like so it will perform housekeeping whatever.",
+      "words": []
+    },
+    {
+      "start": 1016.0,
+      "end": 1029.0,
+      "text": "So it will automatically perform and save the file and then output Jason file will be sent it to that output Jason file sent it to you and you can visualize the actionable insights and output actually like.",
+      "words": []
+    },
+    {
+      "start": 1029.0,
+      "end": 1058.0,
+      "text": "Yeah now if you look into why Victor in the building without I mean this like with Victor and without Victor I said like model we are already in the just two lanes of code VKT dot auto does result I mean if you call this AP call it will take care of that visualization and what authentication it will take care of that I'm no need to pass like a client ID secret all the information like you can configure with the connector and it will take care of like refresh tokens everything actually.",
+      "words": []
+    },
+    {
+      "start": 1059.0,
+      "end": 1071.0,
+      "text": "Like so just it will ask for the authentication just if just a low and it will connect to your hubband project and get the file information basically.",
+      "words": []
+    },
+    {
+      "start": 1071.0,
+      "end": 1088.0,
+      "text": "So it's like a Python basically like hosting and deployment with Victor CLI Victor CL is a command actually with that command I will show you well giving the live demo actually I will show you like what is Victor CLI and how we can execute and how we can publish your app actually whatever you have built.",
+      "words": []
+    },
+    {
+      "start": 1088.0,
+      "end": 1116.0,
+      "text": "And you can see that comparison is two lanes of code here with the without Victor you have to write 300 plus lanes of code actually so you have to create custom tokens manager refresh rate or can you have to build your logic and so you have to build them in web UI forms tabs I mean like browsing the hub project all the things you have to build them in react or angular using that one so all the things taken care by Victor actually like no need to build all this so time saving huge time saving and cost actually.",
+      "words": []
+    },
+    {
+      "start": 1116.0,
+      "end": 1145.0,
+      "text": "So these hosting and deployment everything we had to like work with dark cloud in for CACD 5 plans everything nothing to do with here actually just one button just press one button your code we would applied happy we deployed in Victor clout storage they will be maintaining from their end so authentication everything so even front end zero coding here you have to write HTML CSS JavaScript so do object no here you have to use darker Kubernetes CACD so here you can see like one Python file with just the same thing.",
+      "words": []
+    },
+    {
+      "start": 1145.0,
+      "end": 1174.72,
+      "text": "So I have done file with just a 671 lines I mean for seven modules I said like compliance check I mean schedule 3D visualization cost estimation carbon footprint extracting quantities I mean schedule all I mean just with 670 lines I have completed actually with the Python file here you have to write like multiple CSS HTML multiple JavaScript file so it's like a headache I mean so one Python engineer here we need to try Python plus front end DevOps engineer like see all this if you come",
+      "words": []
+    },
+    {
+      "start": 1174.72,
+      "end": 1188.72,
+      "text": "to the origin how advantage I mean using Victor with auto disk services basically like so time to apply here days I mean here is like required months actually like so that's advantage I mean using Victor app.",
+      "words": []
+    },
+    {
+      "start": 1188.72,
+      "end": 1204.68,
+      "text": "Okay now I said like one platform three services and zero front end code I said like authentication part the connector mean you can't figure actually it will take care of authentication part and refresh tokens and AC data model like I said hub project element groups element properties and",
+      "words": []
+    },
+    {
+      "start": 1204.68,
+      "end": 1219.68,
+      "text": "hierarchy everything we can get it from easy data model. Right now the geometry component is missing in easy data model that is in progress and very soon you will be getting it's in beta stage actually like next version maybe probably like end of this year we'll be seeing even geometry as well.",
+      "words": []
+    },
+    {
+      "start": 1219.68,
+      "end": 1248.68,
+      "text": "Suppose if I want to get a geometry related information from the revert model using AC data model it's not possible so you can get only properties metadata and hierarchy like relations association aggregation with respect to element groups and elements basically if you want to get the geometry there is a one more option like that is called a easy data exchange there there are two APS one is like graph query language again the same schema on the back end I mean we're going to do it.",
+      "words": []
+    },
+    {
+      "start": 1248.68,
+      "end": 1277.68,
+      "text": "The same schema on the back end I mean it works like similar way data exchange slash graph kill that is the end point we have to use but again you will be getting properties and metadata and hierarchy but if you want to get the geometry there is a C sharp dot net recently they have added actually into that so using that C sharp dot net you can read the data exchange fell so if you go to ACC if you select any revert file right click and create a data exchange the it will create one exchange file in ACC environment.",
+      "words": []
+    },
+    {
+      "start": 1278.68,
+      "end": 1288.68,
+      "text": "If you want to read that exchange information there are two APS auto does has provided first one is graph kill and second one is.",
+      "words": []
+    },
+    {
+      "start": 1288.68,
+      "end": 1317.68,
+      "text": "Dot net is decay I said like using C sharp dot net so the C sharp dot net will extract not only the metadata properties and hierarchy it also extract the geometrical information like it's a step format it's like a beer geometry actual beer geometry you will be having so so you have to understand what is the difference between the AC data model what is data exchange and what is model derivative so you have to understand I mean model derivative and the.",
+      "words": []
+    },
+    {
+      "start": 1318.68,
+      "end": 1347.68,
+      "text": "Data exchange I mean model derivative works on 4G I mean APS I mean you are converting your modeling to lightweight simple vector format and using 3.js you are extracting so you will not be having real geometry like beer geometry boundary representation if you go with AC data model and the said like it is having a step geometry inside so you will be having real solid geometry you can extract with the SDK but with model that.",
+      "words": []
+    },
+    {
+      "start": 1348.68,
+      "end": 1377.68,
+      "text": "So you will not be getting solid geometry that is again drawback for model derivative so lot of advantages with the data exchange API and again I'm giving just comparison like when should based on your requirement you have to choose when should I use model to when should I use AC data model when should you use data exchange data exchange is having a I'm comparing AC data model with data exchange because it is having additional capability of geometry as well so using dot net is decay you can extract geometry.",
+      "words": []
+    },
+    {
+      "start": 1378.68,
+      "end": 1407.68,
+      "text": "And you can distribute your subsets I mean from the element groups and element into like power be a tecla whatever like if you want to translate you can build your own connector any I mean use that you can build multiple connectors I mean like if you want to integrate with SAP ERP application so you can build your own connector using extract all the data along with geometry like key information related to manufacturing all those things so geometry level information is required.",
+      "words": []
+    },
+    {
+      "start": 1407.68,
+      "end": 1436.68,
+      "text": "So at that moment you can extract I mean using SDK and you can send it to other applications basically ERP whatever like a CAD or BIM applications and one more actually like if you want to extract like geometry related so we have to first understand all these in model derivative AC data model and data exchange then you will get complete picture and on the right hand side you can see that APS year they have already integrated I mean.",
+      "words": []
+    },
+    {
+      "start": 1437.68,
+      "end": 1447.68,
+      "text": "So at the bottom you can see like Victor cloud already have that capabilities like ACC and AC side like what authentication graph.",
+      "words": []
+    },
+    {
+      "start": 1447.68,
+      "end": 1452.68,
+      "text": "GraphQL AC data model APA element properties I mean business and dash production.",
+      "words": []
+    },
+    {
+      "start": 1452.68,
+      "end": 1466.68,
+      "text": "Okay next go to our business requirement like I said now my requirement is like I want to build a consolidated unified platform so I want to visualize everything in one thing connect to I model just connect to my.",
+      "words": []
+    },
+    {
+      "start": 1466.68,
+      "end": 1480.68,
+      "text": "Revet model in one platform like I can browse I can browse the herb I can browse my project I can get the red file and I can I want to perform everything in one platform no need to like depending on if I want to perform.",
+      "words": []
+    },
+    {
+      "start": 1480.68,
+      "end": 1509.68,
+      "text": "I have to rely on different application I want to perform like a class direction like coordination model coordination we want to like depending on other application basically so like my requirement here is like I want to like get my carbon footprint I want to see my compliance check like all my model properties are like with respect to standards or like I want to extract them in quantities below quantities I mean I want to see like extraction and also I want to see my schedule I mean so these kind of information.",
+      "words": []
+    },
+    {
+      "start": 1509.68,
+      "end": 1515.68,
+      "text": "Basically if you want to build actually so this is the right tool I mean with the.",
+      "words": []
+    },
+    {
+      "start": 1515.68,
+      "end": 1527.68,
+      "text": "Yeah you can see that Victor app is the right tool I'm just showing the screen shot but I will do the live demo as well so where you can see that visualization see I have selected here.",
+      "words": []
+    },
+    {
+      "start": 1527.68,
+      "end": 1538.68,
+      "text": "Browse them in hub level project level and selected a file actually you know from one of my project and you can see the visualization so 3D is integrated here and I can browse the my ACC file.",
+      "words": []
+    },
+    {
+      "start": 1538.68,
+      "end": 1565.68,
+      "text": "And you can see that I have built a compliance check I did carbon analysis I did them in the cost and schedule multiple tabs I have created and I'm in query elements statistics cost and everything in one platform so that's what we want right every day like I want to perform analytics on my like without opening any revet or any kind of application I want to see everything as a big manager like a project owner actually want to see that.",
+      "words": []
+    },
+    {
+      "start": 1565.68,
+      "end": 1572.68,
+      "text": "Get insights I mean for my revet model so this is the best platform to use victory a easy data model.",
+      "words": []
+    },
+    {
+      "start": 1572.68,
+      "end": 1594.68,
+      "text": "Okay one query performs a powers everything I said like the graph query will be have we have only one endpoint if you look into other some in like model derivative you have to go with almost 8 to 10 and points to very this information basically so you can query category area volume level mark any properties except.",
+      "words": []
+    },
+    {
+      "start": 1594.68,
+      "end": 1599.68,
+      "text": "Jamitry can do everything I are key everything we can get it actually like so that is the beauty.",
+      "words": []
+    },
+    {
+      "start": 1599.68,
+      "end": 1623.68,
+      "text": "And example I said like compliance check I mean anyway I will be showing the real demo but you can see that carbon equal to volume multiple by emission factor so you can feed the information like material related like concrete steel glass timber whatever feed the information and if you just click on one button update it will automatically calculate this thing and left hand ready can see the compliance check.",
+      "words": []
+    },
+    {
+      "start": 1623.68,
+      "end": 1648.68,
+      "text": "Suppose my door name is like DR hyphen 0 0 1 so using rejects API like a mission Python rejects API you can easily validate your properties I mean related to wall or slab door whatever everything I mean categories you can perform the quality check and give that how many possible now many value or how many errors actually like so you can see the conference will.",
+      "words": []
+    },
+    {
+      "start": 1648.68,
+      "end": 1663.68,
+      "text": "And also like I said quantity take off I mean extracting area volume and 5D cost estimation like area multiple be you can create whatever like contingence and 4D schedule like like how much.",
+      "words": []
+    },
+    {
+      "start": 1663.68,
+      "end": 1683.68,
+      "text": "And like cost and as well as when it we built all the information like schedule related information or what is my civil to carbon footprint I mean that kind of information does it meet the standards like the compliance check I mean whatever all these features we can do.",
+      "words": []
+    },
+    {
+      "start": 1683.68,
+      "end": 1701.68,
+      "text": "And with Victor without Victor actually like you can see that with Victor so I said like model here we have to write 300 lanes of code here you can see Victor to lane support identification again custom token management you have to build them and refresh tokens everything actually you have no need to write anything Victor conflict at week some will you take care of everything.",
+      "words": []
+    },
+    {
+      "start": 1701.68,
+      "end": 1730.68,
+      "text": "We be a I mean like browser like browsing hub level project level file level selecting all those fields I mean you had no need to write here I mean complex code that Victor we take care of everything actually otherwise you have right full reactor angular with our JSA actually hosting your application no need to write CACD cloud in for a dog or nothing just publish it and that's one button authentication whatever like so here you can see total 671 lines here you have to write almost 3000 to 5000 lines of what here actually like.",
+      "words": []
+    },
+    {
+      "start": 1731.68,
+      "end": 1749.68,
+      "text": "It's a low code basically yeah so development efforts is like a lines of code it's very less and one Python file for unturned I mean you can see that the top and below actually like a graph key link point one endpoint actually like development very less actually development effort.",
+      "words": []
+    },
+    {
+      "start": 1750.68,
+      "end": 1760.68,
+      "text": "So I said like a easy data model what they're working on at the moment so I said like right now it supports only properties element hierarchy and in.",
+      "words": []
+    },
+    {
+      "start": 1760.68,
+      "end": 1775.68,
+      "text": "Metadata whatever related to the element groups and group I mean so but in future we'll be seeing geometry as well it like I said it's in beta but once you get I mean you'll be having a lot of information and even you can perform.",
+      "words": []
+    },
+    {
+      "start": 1775.68,
+      "end": 1801.68,
+      "text": "Grandler level of information basically like multi model queries I mean I call link it files I mean at the moment we cannot like connect with the link it files I mean federated models across the elements that is not there and maybe you'll be seeing in feature and web hooks for your AC data model change direction all those things I mean it's an process actually ongoing development so all these are like very good features I mean for AC data model.",
+      "words": []
+    },
+    {
+      "start": 1801.68,
+      "end": 1830.68,
+      "text": "And so I said like beyond data exchange I mean already have spoken about these things actually just giving heads up like if you want to build a connector extract the data related to like subsets of information like hub level project level when element groups element properties hierarchy and then if you want to get the geometry level as well use them in exchange API said like dot net SDK use that one and extract the information and build your own connector and.",
+      "words": []
+    },
+    {
+      "start": 1831.68,
+      "end": 1860.68,
+      "text": "Send it to tech law or be I know IFC whatever actually we can feed into so the AC data model and exchange both having like a graph back and actually engine property graph on the back end so we had use graph queries I mean endpoints are different same technology same schema kind of thing but endpoints are different so make sure that understand very careful on three things model derivative data exchange and more like AC data model very very important.",
+      "words": []
+    },
+    {
+      "start": 1860.68,
+      "end": 1887.68,
+      "text": "So if you're working on any kind of use case first you have to understand the requirement so easy data model with the dot net SDK only gives the beer geometry if you go with the model derivative I mean it you only like a cloud based format right like model that translating your right modeling to lightweight vector format so you not be having like real geometry like a beer boundary representation will be having only mis geometry.",
+      "words": []
+    },
+    {
+      "start": 1887.68,
+      "end": 1909.68,
+      "text": "So if you want to work on like a real mean into importing to tech law or a guy in a grasshopper or some other application if you want to build your own connector or build connected with SAP ERP application you have to build your own connector using dot net SDK from data exchange actually like so understand the similarities both are having a graph key that back end.",
+      "words": []
+    },
+    {
+      "start": 1909.68,
+      "end": 1937.68,
+      "text": "Okay key take it is I mean so AC data model replaces a plus rest APS I mean I told you like one graph and point we take care of everything 10 rivet properties I mean like a seven different business use cases like I said compliance check carbon cost estimation schedule everything in one platform unified platform so with the limits printing development so one prompt it will auto generate some in your front end and complete web application.",
+      "words": []
+    },
+    {
+      "start": 1937.68,
+      "end": 1957.68,
+      "text": "So same AP data feeds into data exchange per cross platform and probability I said like you can build your own connector to connect with the tech club or way right now whatever like our use existing plugins connector actually so dim intelligence agent ads natural language access on top of same data model yeah action will insights you can build your around agents actually.",
+      "words": []
+    },
+    {
+      "start": 1957.68,
+      "end": 1967.68,
+      "text": "Okay so these are the links actually like the documentation related AC data model I mean graph per a man with platform integration gate and platform services.",
+      "words": []
+    },
+    {
+      "start": 1968.68,
+      "end": 1982.68,
+      "text": "This deck is available in portal actually like you can get time yeah if you have any information so now I will run the real demo actually like show how it works actually.",
+      "words": []
+    },
+    {
+      "start": 1982.68,
+      "end": 2009.68,
+      "text": "So now I am showing like the real I mean this already have spoken about the challenges with the traditional way of working on without easy data model on the left hand to the frequency with the many easy data model I mean we have built I mean model we are in a browse easy sequence compliance all those things whatever I spoke about all those things.",
+      "words": []
+    },
+    {
+      "start": 2009.68,
+      "end": 2020.68,
+      "text": "And it's a very basic and now you can see the platform see here you can select the hub in from how we have selected the project and you can select.",
+      "words": []
+    },
+    {
+      "start": 2021.68,
+      "end": 2038.68,
+      "text": "I have selected one model actually here and you can see that visualization see how that visualization and now I go to browse ACC folder and have given up by the and I'm creating up by the and post pasted up by the and I can get the project information so the project ID had posted pasted here.",
+      "words": []
+    },
+    {
+      "start": 2039.68,
+      "end": 2064.6800000000003,
+      "text": "And then I'm browsing the models you can see these many red models actually if you want to like I will take one of the red model and I'm querying the elements like how many water the type of categories elements exist in the war I mean example walls actually you can see that information least actually it's running and you can see that all the information and also you can see the statistics so everything in one platform I'm seeing multiple browser tabs actually now I am running compliance check.",
+      "words": []
+    },
+    {
+      "start": 2064.68,
+      "end": 2072.68,
+      "text": "See now we can see like properties validating properties and generating the report here actually like.",
+      "words": []
+    },
+    {
+      "start": 2075.68,
+      "end": 2090.68,
+      "text": "So you saw that when ACC I mean 3D visualization browse ACC select your file query elements now you are doing compliance see how many past fail everything that compliance it's generated and now go to carbon footprint and I can provide that information.",
+      "words": []
+    },
+    {
+      "start": 2090.68,
+      "end": 2100.68,
+      "text": "Now the material like concrete steel whatever and then if you run this one automatically see it's called calculating carbon footprint for your right model actually.",
+      "words": []
+    },
+    {
+      "start": 2103.68,
+      "end": 2105.68,
+      "text": "And you can see the summary category.",
+      "words": []
+    },
+    {
+      "start": 2108.68,
+      "end": 2119.68,
+      "text": "Now go to quantity take up and cost actually so you can provide all the information so it will extract the quantities below quantities and performing the cost estimation and you can see all those and.",
+      "words": []
+    },
+    {
+      "start": 2120.68,
+      "end": 2142.68,
+      "text": "It's running actually just at the below there is a update button so you can see all the information and last one is schedule for your right model actually like when it will be built I want to see detailed information for your right model just run it and you can see that start date and date total days and total weeks level say information.",
+      "words": []
+    },
+    {
+      "start": 2143.68,
+      "end": 2157.68,
+      "text": "See that just a few lines of code I mean 300 lines of code built everything like 3D 4D 5D 6D 70 when when unified platform with victory a plus auto ski AC platform IPS platform using easy data model.",
+      "words": []
+    },
+    {
+      "start": 2158.68,
+      "end": 2166.68,
+      "text": "Any questions kindly reach out to me I have probably my email ready which are dot at goplac at Wsp.com thank you all have a nice day.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:12:30.855207+00:00"
+}

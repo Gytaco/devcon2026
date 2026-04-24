@@ -1,0 +1,589 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 9.0,
+      "text": "Hi, everyone. Welcome to this overview of the manufacturing data model API with some recent updates and the fusion data roadmap.",
+      "words": []
+    },
+    {
+      "start": 9.0,
+      "end": 28.0,
+      "text": "I'm Bunkem Cheruganker. I'm Director of Product Management for Fusion primarily responsible for the data and collaboration platform alongside me is Patrick Wainsbury, who's a product manager for everything to do with our APIs and MCPs going forward.",
+      "words": []
+    },
+    {
+      "start": 28.0,
+      "end": 40.0,
+      "text": "If you've been to any one of our sessions before, you know that a lot of our development is organized around three industry verticals for our distribution, or a reforma and auto desk flow.",
+      "words": []
+    },
+    {
+      "start": 40.0,
+      "end": 51.0,
+      "text": "And these industry verticals are connected to the autogas platform through what we call the data models. So the data models are where the granular rate data lives.",
+      "words": []
+    },
+    {
+      "start": 51.0,
+      "end": 62.0,
+      "text": "And that's how our core portfolio products as well as all of your partner ecosystem applications are connected into our ecosystems.",
+      "words": []
+    },
+    {
+      "start": 62.0,
+      "end": 69.0,
+      "text": "Today we are double clicking into the fusion part of the stack with the auto manufacturing data model.",
+      "words": []
+    },
+    {
+      "start": 69.0,
+      "end": 90.0,
+      "text": "So for the last year and a half, a big focus for the fusion data has been enabling concurrent collaboration for teams with the bill of material at the center that really enables this collaboration because we see this heavy need where we have engineering departments doing work with infusion.",
+      "words": []
+    },
+    {
+      "start": 90.0,
+      "end": 106.0,
+      "text": "But then the work that is done by engineering is consumed by many different people in the company, typically through PDM and PLM systems, but really with the ball or the bill of material as the common concur currency.",
+      "words": []
+    },
+    {
+      "start": 106.0,
+      "end": 126.0,
+      "text": "And along with this, we are building this fully integrated PDM and PLM model, meaning not only we're not building two different systems where you have a PDM system for engineering data and then there is some awkward sync that pushes data into a PLM system for the rest of the company to use.",
+      "words": []
+    },
+    {
+      "start": 126.0,
+      "end": 137.0,
+      "text": "And also, we're building both of them together right on top of the manufacturing data model, which provides the common digital thread or the data backbone for all of the PDM PLM workflows.",
+      "words": []
+    },
+    {
+      "start": 137.0,
+      "end": 153.0,
+      "text": "And along the way we've also been focused on making it easier for teams to onboard diffusion and start working as a team, rather than working in your own individual house, which really creates some silos of data.",
+      "words": []
+    },
+    {
+      "start": 153.0,
+      "end": 166.0,
+      "text": "And we're going to look at some of the things we've been working on because these have made really large changes in the fusion ecosystem and you building applications on top of this ecosystem really need to be aware of these changes.",
+      "words": []
+    },
+    {
+      "start": 166.0,
+      "end": 172.0,
+      "text": "So there has been a ton on this slide and on the next slide, but I'll just try to call out some of the highlights right.",
+      "words": []
+    },
+    {
+      "start": 172.0,
+      "end": 185.0,
+      "text": "So we have added 20 new parameters in the ecosystem that allow every component now to have a much richer description, much richer set of data that shows up in the bill of material.",
+      "words": []
+    },
+    {
+      "start": 185.0,
+      "end": 198.0,
+      "text": "But as soon as you have that additional data, you want to be able to search using that metadata. So the search in the home tab has been greatly upgraded to support all kinds of granular parameters.",
+      "words": []
+    },
+    {
+      "start": 198.0,
+      "end": 208.0,
+      "text": "We have improved a lot of the user management with things like permissioning for folders all the way down to the leaf level.",
+      "words": []
+    },
+    {
+      "start": 208.0,
+      "end": 215.0,
+      "text": "We support groups now that can be created and manage in folders in projects and at the hub level.",
+      "words": []
+    },
+    {
+      "start": 215.0,
+      "end": 219.0,
+      "text": "We support configurable numbering schemes for items.",
+      "words": []
+    },
+    {
+      "start": 219.0,
+      "end": 237.0,
+      "text": "We can do a search on classification. We've improved the security for sharing. We've made it straightforward for people within a company to join a given environment, but still required min permissions for people outside the company who've been invited to a project to join.",
+      "words": []
+    },
+    {
+      "start": 237.0,
+      "end": 249.0,
+      "text": "So I've been a lot of experience improvements in navigation. And as I mentioned before, a lot of work has gone into the editable engineering bill of material.",
+      "words": []
+    },
+    {
+      "start": 249.0,
+      "end": 266.0,
+      "text": "I can maybe double click into some of those details here, right. So I already touched on search and ability to have granular search on a number of new things like metadata navigation has been greatly improved with home tab and the data panel for data management.",
+      "words": []
+    },
+    {
+      "start": 266.0,
+      "end": 272.0,
+      "text": "We have a new folder level permissions. We have more groups. We have new roles available.",
+      "words": []
+    },
+    {
+      "start": 272.0,
+      "end": 280.0,
+      "text": "And we've just worked a lot on the consistent deal across desktop and UI on the bill and material. We have 20 new properties.",
+      "words": []
+    },
+    {
+      "start": 280.0,
+      "end": 294.0,
+      "text": "Third party apps have had the ability to create custom properties for a while. But what is new now is the ability for an administrator of a hub to create new custom properties that are specific to their hub as well.",
+      "words": []
+    },
+    {
+      "start": 294.0,
+      "end": 312.0,
+      "text": "And we the bomb can be shared with a shareable link just like designs. The same bomb capability shows up in desktop and web clients. So, you know, everything that your engineer can do infusion and engineering manager can review and make similar edits to the bomb using the web interface as well.",
+      "words": []
+    },
+    {
+      "start": 312.0,
+      "end": 328.0,
+      "text": "The bomb also has mass properties and roll ups parts only views for parts list. And you're also able to compare as the bomb evolves. You can compare the design state or the pad bomb versus the engineering bomb as it is being changed.",
+      "words": []
+    },
+    {
+      "start": 328.0,
+      "end": 344.0,
+      "text": "There's a number of improvements to manage, but I'll touch on them in a minute. And on the data model side really a lot of it has been changing in the API to support these kind of concurrent collaboration activities on properties and the bill of material.",
+      "words": []
+    },
+    {
+      "start": 344.0,
+      "end": 351.0,
+      "text": "The Patrick is actually going to talk a lot about this. So I'll hold that to the second half of this presentation.",
+      "words": []
+    },
+    {
+      "start": 351.0,
+      "end": 362.0,
+      "text": "So let's take a look at what that really means, right. So for any component infusion now when you look at the properties, you'll see the few that you're familiar with our number name and description.",
+      "words": []
+    },
+    {
+      "start": 362.0,
+      "end": 376.0,
+      "text": "However, we also have a lot of new properties now for the components, the project information, summary information, etc. So these 20 new base properties are available on all components.",
+      "words": []
+    },
+    {
+      "start": 376.0,
+      "end": 382.0,
+      "text": "And they show up in every touch point we have for properties in the fusion ecosystem.",
+      "words": []
+    },
+    {
+      "start": 382.0,
+      "end": 391.0,
+      "text": "So the really nice thing about these properties is that the little blue carrot that you see popping up as soon as one of these fields is edited.",
+      "words": []
+    },
+    {
+      "start": 391.0,
+      "end": 405.0,
+      "text": "It's just showing that these property changes have been committed to cloud, right. Think of this similar to Microsoft Excel with teams or a table like experience where any changes that you're making to the bill of material and properties.",
+      "words": []
+    },
+    {
+      "start": 405.0,
+      "end": 415.0,
+      "text": "Is now lives saying to everybody else who might be working in this design. So here I changed the the manufacturer of this assembly.",
+      "words": []
+    },
+    {
+      "start": 415.0,
+      "end": 426.0,
+      "text": "And I can see in my other UI that this updated automatically. This is still me looking at the bill of material and the properties UI.",
+      "words": []
+    },
+    {
+      "start": 426.0,
+      "end": 434.0,
+      "text": "But if I had a second person, which will show in a second, also looking at this bill of material through a different web interface.",
+      "words": []
+    },
+    {
+      "start": 434.0,
+      "end": 444.0,
+      "text": "They would be seeing these changes happen live and of course vice versa, all the changes that they're making on their side are visible to me live as well.",
+      "words": []
+    },
+    {
+      "start": 444.0,
+      "end": 461.0,
+      "text": "So this is a big change for fusion and we really think that it opens up the door for larger teams to be working together and collaborating on bringing these products to market.",
+      "words": []
+    },
+    {
+      "start": 461.0,
+      "end": 478.0,
+      "text": "There is a big key difference here now as we move from what used to be very file bound save bottles in fusion to having the ability to edit properties and bill of materials live and across the board.",
+      "words": []
+    },
+    {
+      "start": 478.0,
+      "end": 499.0,
+      "text": "What you see on the top half of the scene screen is how fusion used to work, which is that all of my design data, my cam data, sim data, properties, bill of material, everything was in the fusion design file, which meant that in order to change anything, even if I change one property of vendor a to vendor B.",
+      "words": []
+    },
+    {
+      "start": 499.0,
+      "end": 512.0,
+      "text": "My entire design has to be versioned that means every assembly above it, every drawing about it has to be updated to consume that change that just got made in order to make sure that those properties show up on the right drawing, etc.",
+      "words": []
+    },
+    {
+      "start": 512.0,
+      "end": 521.0,
+      "text": "That is changing significantly now because if you look at the second half of this slide is shows the new model, which is what we call time based history.",
+      "words": []
+    },
+    {
+      "start": 521.0,
+      "end": 530.0,
+      "text": "So the data has actually been separated into multiple streams, we still see all the design and cam changes here in these orange blocks.",
+      "words": []
+    },
+    {
+      "start": 530.0,
+      "end": 547.0,
+      "text": "So you still have your save paradigm that allows you to capture those changes, but as you make property changes and bill of material changes, those are being committed to the cloud in real time and other team members are looking at that data are able to see those changes live.",
+      "words": []
+    },
+    {
+      "start": 547.0,
+      "end": 575.0,
+      "text": "What that means is I can no longer just look at the this version of the design and see all of these properties with it because this version of the design was saved at this point in time and these changes have occurred later in time right so we have introduced a new concept called a version that allows us to wrap all of these together into one snapshot of data that packages these things based on time.",
+      "words": []
+    },
+    {
+      "start": 575.0,
+      "end": 594.0,
+      "text": "So even after I have this save I could create a version here that captures these two property changes or I can create a version here that actually captures all four of these changes along with this design change and we'll touch on this more and what this means today, PI coming up in the second half.",
+      "words": []
+    },
+    {
+      "start": 595.0,
+      "end": 618.0,
+      "text": "The second big enhancement has been the development of integrated PLM right so we've had fusion manage extension for fusion users before what the manage extension allowed us to do was assign items in PLM and then be able to manage change on those items with engineering change orders and quick releases etc.",
+      "words": []
+    },
+    {
+      "start": 618.0,
+      "end": 647.0,
+      "text": "But it did not allow you to use the rest of the capabilities of fusion manage all the different workschains that are available for quality management for supply chain collaboration new product introduction etc and with some of the changes we've made recently now when you subscribe to fusion manage alongside fusion you're able to use all of the capabilities of manage alongside fusion right so fusion manage is already built for integration.",
+      "words": []
+    },
+    {
+      "start": 647.0,
+      "end": 663.0,
+      "text": "This is how a lot of companies connect to their ERP MRP systems etc so fusion manage has its own rest API today but looking at the big picture coming back to the overall surface we were showing before for the industry vertical.",
+      "words": []
+    },
+    {
+      "start": 663.0,
+      "end": 687.0,
+      "text": "The fusion manage API sits alongside the manufacturing data model API today so that one of the changes we're making this year is to really have all of these capabilities act as one consistent part of the platform so manages API is will also now become graph QL API is later in the year and just be available through the manufacturing data model.",
+      "words": []
+    },
+    {
+      "start": 688.0,
+      "end": 691.0,
+      "text": "With this I think we'll cut over to Patrick.",
+      "words": []
+    },
+    {
+      "start": 691.0,
+      "end": 706.0,
+      "text": "Okay thanks bunk them all right now I'm going to talk about how a lot of these changes in the fusion data model and overall fusion user experience are affected by the API because the API is undergone a lot of changes to support this.",
+      "words": []
+    },
+    {
+      "start": 707.0,
+      "end": 716.0,
+      "text": "We call this kind of all this set right collaborative editing is kind of the term we used to talk about all of these big changes in the data system.",
+      "words": []
+    },
+    {
+      "start": 716.0,
+      "end": 736.0,
+      "text": "And this as bunking was showing with the timeline this means we have to be able to evaluate things not just at specific versions but at any possible time stamp in that line to see what properties have changed what geometry has changed etc so we have this new concept of traversing by time.",
+      "words": []
+    },
+    {
+      "start": 736.0,
+      "end": 754.0,
+      "text": "We also have no longer these like component versus component version objects so there's kind of like a fewer types to give more consistency and I just want to really caveat that this does require new collaborative editing hubs so we're in the process of migrating existing hubs right now most commercial will be done soon.",
+      "words": []
+    },
+    {
+      "start": 754.0,
+      "end": 760.0,
+      "text": "But just to be able to use this V3 API you do have to be on a collaborative editing hub.",
+      "words": []
+    },
+    {
+      "start": 761.0,
+      "end": 773.0,
+      "text": "So some of the really big highlights in this new version is this new unified object model where before you had component and then component version where the specific values of properties where is it out just a component.",
+      "words": []
+    },
+    {
+      "start": 773.0,
+      "end": 784.0,
+      "text": "We've also separated the concept of a component from model which we get into a little bit more in a minute but it's basically separating the bomb data and the metadata from the actual CAD data.",
+      "words": []
+    },
+    {
+      "start": 785.0,
+      "end": 798.0,
+      "text": "And again like with the no more versions we have now this time based concept of traversal and then we also see the difference between a bomb relationship and a CAD relationship which also get into a little bit more detail.",
+      "words": []
+    },
+    {
+      "start": 798.0,
+      "end": 809.0,
+      "text": "So some of the other kind of high notes are this ability to do a very comprehensive hub wide search it's based on a very fast index so you can search on all different properties across all different object types.",
+      "words": []
+    },
+    {
+      "start": 810.0,
+      "end": 818.0,
+      "text": "We also have the ability to do bulk query so if you want to make you have a set list of components and you want to change the vendor for all of them you can just do it.",
+      "words": []
+    },
+    {
+      "start": 818.0,
+      "end": 827.0,
+      "text": "And then we also have the ability to subscribe to real time notifications with pubnub to so if you want to have like a real time display in a table or something.",
+      "words": []
+    },
+    {
+      "start": 828.0,
+      "end": 844.0,
+      "text": "So this concept of no more versions so we used to say I have a component which is the kind of the container for all versions of the component but then on a specific component version you would have a property and that really corresponded to a user's save.",
+      "words": []
+    },
+    {
+      "start": 845.0,
+      "end": 857.0,
+      "text": "Now we're saying that these property edits bond that it's can happen sort of in between the files. So we just have the single component container and then that will have a time stamp.",
+      "words": []
+    },
+    {
+      "start": 858.0,
+      "end": 863.0,
+      "text": "I'll show that in a second and then the same thing holds true for design items and drawing items.",
+      "words": []
+    },
+    {
+      "start": 864.0,
+      "end": 867.0,
+      "text": "And we'll look at the model as well.",
+      "words": []
+    },
+    {
+      "start": 868.0,
+      "end": 888.0,
+      "text": "So if you look at this now this is not a query I would recommend running right this is going all the way from the hub down into a specific component this would be an explosive grab cool query but just to kind of see the difference in the structure so before you would go from a hub to a project to an item and then from the item you get that tip root component version which would basically be the root component at the last save.",
+      "words": []
+    },
+    {
+      "start": 889.0,
+      "end": 912.0,
+      "text": "Whereas now we would say I want to go down through the same structure but then when I get to the design item I'm going to go to the root model because again the model is the cad data essentially and from there I can get to the component and this is also where you would get something like the time stamp so in this case the tip is going to tell me what the time stamp of the tip is and that might be ahead of the last file save.",
+      "words": []
+    },
+    {
+      "start": 913.0,
+      "end": 930.0,
+      "text": "So the model object now is new so what was once the component is now split between component and model and model is what is referencing things that are directly associated to the CAD data so this is where you'll find material thumbnail.",
+      "words": []
+    },
+    {
+      "start": 930.0,
+      "end": 956.0,
+      "text": "Physical properties and the other things that are associated with the CAD data and then from this model object you get to the assembly relationship so you can see an example of a model query here I just want to make a quick note that these slides have a lot of detail on them I kind of built this as something that you could go back and reference later I'm obviously not going to go through every in and everything on each of these slides but I wanted to kind of have this one.",
+      "words": []
+    },
+    {
+      "start": 956.0,
+      "end": 961.0,
+      "text": "Art of fact that you guys can take away that has a lot of this data on it.",
+      "words": []
+    },
+    {
+      "start": 961.0,
+      "end": 983.0,
+      "text": "So like I said the from the model we go to assembly relations and this is in the fee to this was occurrences and assembly relations is going to be the exact structure of the data as it is in the CAD tool right so your assembly tree that you see in CAD is what you see through assembly relations and then a second we'll talk about the difference between bomb relationships.",
+      "words": []
+    },
+    {
+      "start": 983.0,
+      "end": 1012.0,
+      "text": "But so this is still similar to what occurrences were there was the two model the from model previously that was the two component from component etc and you can just see kind of the difference here before we would get from a from a component version you would get the occurrences from an occurrence you get the component version now we just do the same thing except its model to assembly relations and the key thing here is again there's i'm not going to don't have time to get into the details of composition but this is basically saying is that the word.",
+      "words": []
+    },
+    {
+      "start": 1012.0,
+      "end": 1028.0,
+      "text": "It's basically saying is that the working version is at the release version and then also within the structure you're still looking at it from a time perspective so the exact relationships might be different in the release version versus the current tip working everything as latest version.",
+      "words": []
+    },
+    {
+      "start": 1029.0,
+      "end": 1051.0,
+      "text": "So then we have the component object and so the component object you can really think is this is bomb right this is a row in the bill of materials and the data that's on the component is things like you know might be vendor author manufacturing part number the actual part number the description all the things that are really kind of that more meta level.",
+      "words": []
+    },
+    {
+      "start": 1051.0,
+      "end": 1071.0,
+      "text": "The granular data is what we have on the component object and the component object is really what is represented in the bill materials and it's all driven from a part number so uniqueness of part number guarantees uniqueness of component and that is how components are kind of identified in the system.",
+      "words": []
+    },
+    {
+      "start": 1071.0,
+      "end": 1083.0,
+      "text": "Of course they have their own unique ID but they also are primarily driven by the part number associated with them and again you can see kind of example of a couple of these part number mutations here.",
+      "words": []
+    },
+    {
+      "start": 1084.0,
+      "end": 1097.0,
+      "text": "So from a component we have bond relations so again model assembly relationships component bond relationships in a model assembly relationships if you had seven bolts you'd have seven relationships in a bomb.",
+      "words": []
+    },
+    {
+      "start": 1097.0,
+      "end": 1120.0,
+      "text": "For seven bolts you'd have one bond relationship quantity seven right that's like one of the big differences and also over time you see that these bond relationships can be manipulated we might be able to do things like hide or reorder and things like that in the future so the bomb kind of becomes this more abstract representation from what's actually in the CAD system.",
+      "words": []
+    },
+    {
+      "start": 1120.0,
+      "end": 1141.0,
+      "text": "Bunk of touch on this a little bit this concept of versions we used to have this thing called a milestone and that was when you wanted to sort of say this specific version of the file is important now there is we don't just want versions of the file that are important we want specific points in time that are important because they might also represent property edits that happened after the last save.",
+      "words": []
+    },
+    {
+      "start": 1141.0,
+      "end": 1161.0,
+      "text": "So now this formal version object is like what you would have seen with milestones before but now it is really just a point in time that we have designated as significant and this is really where you start tying into PLM like you would release a version and that represents the entire chain of the assembly.",
+      "words": []
+    },
+    {
+      "start": 1162.0,
+      "end": 1164.0,
+      "text": "That's important.",
+      "words": []
+    },
+    {
+      "start": 1164.0,
+      "end": 1193.0,
+      "text": "So again with time now you don't before you to traverse history you would basically just say show me all the versions of the file that was essentially what you're doing now we're saying I want to see all of the changes that have happened say since the beginning or in a specific window and then you see that there's lots of different types of changes that could have happened a version could have been created the model could have been written meaning the CAD was changed you could have made a bomb edit property edit part number change it so that's what you're doing.",
+      "words": []
+    },
+    {
+      "start": 1194.0,
+      "end": 1212.0,
+      "text": "So now when you look at the history it's more of a stream of events rather than just user hit file save right and then this is an example of a query that would let you kind of traverse that history and see depending on the type of history event you know these are all using.",
+      "words": []
+    },
+    {
+      "start": 1213.0,
+      "end": 1226.0,
+      "text": "Like you on the name does matter but basically you'd be able to see given the specific type of history event you'd be able to see those extra properties that are associated with say a version created event.",
+      "words": []
+    },
+    {
+      "start": 1228.0,
+      "end": 1241.0,
+      "text": "Hub wide search this is probably one of the most exciting things is that there's actually a whole backend system that's powering this like a really powerful indexing system so search is now extremely fast and extremely fast.",
+      "words": []
+    },
+    {
+      "start": 1242.0,
+      "end": 1264.0,
+      "text": "It's extremely flexible you can do free text or you can do search based on specific fields you can search for components models files or folders and then you can do all kinds of kind of combinations of those things and you can get the searchable properties so if you want to get the specific properties that can be searched on you can get that and it looks something like this.",
+      "words": []
+    },
+    {
+      "start": 1264.0,
+      "end": 1285.0,
+      "text": "So in the left you see an example of a free kind of a free text search finally anything that has the word bracket in it that are components or models and then on the right you would be saying I want to search for a specific value of a specific property so you can see here we have this like searchable property and then here I'm just showing property def ID but in this case that would be like say.",
+      "words": []
+    },
+    {
+      "start": 1285.0,
+      "end": 1297.0,
+      "text": "The property definition ID of the material property so you would have gotten the searchable properties got the ID of the material property and they'd say I want to search for components that have that steel or aluminum value.",
+      "words": []
+    },
+    {
+      "start": 1297.0,
+      "end": 1318.0,
+      "text": "Bolt queries is really nice if you are in the case where say you have already fetch some kind of a structure so now you have a whole bunch of component IDs but then you want to get say all the physical properties or all the materials or all the vendors for a whole bunch of objects you don't have to.",
+      "words": []
+    },
+    {
+      "start": 1318.0,
+      "end": 1335.0,
+      "text": "You don't have to rely on redoing the graph traversal which is a little slower you can just say here's 50 component objects IDs and then get back to whatever the properties are you want for that specific model or component in one shot this is also really powerful when you're using it.",
+      "words": []
+    },
+    {
+      "start": 1335.0,
+      "end": 1349.0,
+      "text": "Say even from like the desktop API integration that we have where you want to get like all of the properties for all the models that are currently loaded on the screen you can just quickly get all the IDs get all the properties for those objects return it.",
+      "words": []
+    },
+    {
+      "start": 1351.0,
+      "end": 1364.0,
+      "text": "Event listeners this is something else that's a new so it's based on pub nubs so you know if you're familiar with a pub nub type subscriptions this is going to be basically how you set up a listener so you would say I want to subscribe to this component and maybe what you have is you have.",
+      "words": []
+    },
+    {
+      "start": 1365.0,
+      "end": 1389.0,
+      "text": "A table and you're looking for that kind of Google sheets experience where all of the cells are going to update if other people are making changes simultaneously you can subscribe to all the components and that are you have currently displayed in your table and then whenever changes happen relative to those components you're going to be getting that event stream that you can use to refresh your UI or whatever you want to do.",
+      "words": []
+    },
+    {
+      "start": 1390.0,
+      "end": 1409.0,
+      "text": "So it's just a quick reference again this table i'm not going to go through this table line by line this is just an I thought this was a pretty nice reference just to kind of go again refresh the concepts like where did I get this in v2 where do I get in v3 things like physical properties on a component version is now on model part number is on component and things like that.",
+      "words": []
+    },
+    {
+      "start": 1409.0,
+      "end": 1438.0,
+      "text": "And with that I just want to leave this again kind of a nice little takeaway but this is just a whole bunch of useful links we've got the documentation we have a migration guide that we build the samples and tutorials and again I just want to reemphasize that to use the new API you need a collaborative editing hub if your personal hub is not migrated yet and you want to experiment with this in the very near term and you just want to do that.",
+      "words": []
+    },
+    {
+      "start": 1439.0,
+      "end": 1459.0,
+      "text": "So we just need a development sandbox we can set up kind of a temporary hub for you that's in this new environment and I put the link here hopefully again just get it from the presentation and have to write this down and but know that over time all hubs will be migrated and with that I think we're good thank you guys very much.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:16:31.367163+00:00"
+}

@@ -1,0 +1,74 @@
+{
+  "video_id": "ro4wW2GUspo",
+  "demo_timestamps": [
+    {
+      "start": 1376.0,
+      "end": 1417.0,
+      "description": "Demo of Autodesk Revit file onboarding and semantic extraction using APS Viewer"
+    },
+    {
+      "start": 1343.0,
+      "end": 1480.0,
+      "description": "Visualization of a simplified equipment connection diagram akin to a metro map, showing HVAC unit relationships and real-time data visualization for diagnostics."
+    }
+  ],
+  "themes": [
+    "Building Digital Twins",
+    "Strategic Partnership",
+    "Intelligent Operations",
+    "Building Onboarding and Digital Services",
+    "Visualization and Simplification",
+    "Building Technologies"
+  ],
+  "client_mentions": [
+    {
+      "name": "Bosch",
+      "context": "Strategic partnership and collaborative projects with Autodesk",
+      "timestamp": 54.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "APS",
+      "is_api": true,
+      "timestamp": 136.0
+    },
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 884.0
+    },
+    {
+      "name": "ACC Docs",
+      "is_api": false,
+      "timestamp": 998.0
+    },
+    {
+      "name": "Viewer",
+      "is_api": true,
+      "timestamp": 1276.0
+    },
+    {
+      "name": "AEC DM",
+      "is_api": false,
+      "timestamp": 0.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "agentic systems",
+      "category": "agent",
+      "context": "Used for building onboarding and ontology binding",
+      "timestamp": 518.0
+    },
+    {
+      "name": "onboarding co-pilot",
+      "category": "agent",
+      "context": "Automates tasks for bringing buildings into digital connectivity",
+      "timestamp": 656.0
+    }
+  ],
+  "summary": "The video highlights Bosch's collaboration with Autodesk to enhance intelligent operations in building technologies through digital twins and advanced visualization tools. It demonstrates the use of Autodesk products for efficient data management and introduces a metro-style map for real-time monitoring, emphasizing the strategic partnership and future integrations aimed at improving building operations.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:44:06.103954+00:00"
+}

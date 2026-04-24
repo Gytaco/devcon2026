@@ -1,0 +1,95 @@
+{
+  "video_id": "Xboi5UU5_vQ",
+  "demo_timestamps": [
+    {
+      "start": 0.06,
+      "end": 2.2,
+      "description": "Introduction to GeoBIM Challenge and connection between Autodesk and Esri"
+    },
+    {
+      "start": 5.05,
+      "end": 5.43,
+      "description": "Demo of Autodesk Forma site design tool using ArcGIS plugin"
+    },
+    {
+      "start": 6.2,
+      "end": 7.34,
+      "description": "ArcGIS GeoBIM demo application showing environmental impact analysis"
+    },
+    {
+      "start": 8.02,
+      "end": 10.0,
+      "description": "Discussion on cloud-to-cloud integration solution ArcGIS GeoBIM"
+    },
+    {
+      "start": 11.29,
+      "end": 12.9,
+      "description": "Workflow demonstration in ArcGIS GeoBIM"
+    },
+    {
+      "start": 16.32,
+      "end": 18.4,
+      "description": "Explanation of how 3D models are georeferenced in ArcGIS GeoBIM"
+    },
+    {
+      "start": 19.14,
+      "end": 19.3,
+      "description": "Discussion on developer platforms and APIs like Viewer SDK"
+    }
+  ],
+  "themes": [
+    "Integration of GIS and BIM data",
+    "Collaboration between Autodesk and Esri",
+    "GeoBIM workflows"
+  ],
+  "client_mentions": [
+    {
+      "name": "Esri",
+      "context": "Mentioned as a partner providing GeoBIM solutions",
+      "timestamp": 0.57
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 5.43
+    },
+    {
+      "name": "Autodesk Platform Services",
+      "is_api": false,
+      "timestamp": 19.23
+    },
+    {
+      "name": "Acc",
+      "is_api": false,
+      "timestamp": 10.02
+    },
+    {
+      "name": "Viewer SDK",
+      "is_api": true,
+      "timestamp": 19.59
+    },
+    {
+      "name": "Automation API",
+      "is_api": true,
+      "timestamp": 16.57
+    },
+    {
+      "name": "Data Management API",
+      "is_api": true,
+      "timestamp": 18.42
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "CoPilot",
+      "category": "other",
+      "context": "AI assistance in coding with viewer SDK",
+      "timestamp": 21.12
+    }
+  ],
+  "summary": "The video discusses the integration of GIS and BIM using Autodesk and Esri technologies, focusing on the GeoBIM Challenge and solutions like ArcGIS GeoBIM and Autodesk Forma. It covers APIs and SDKs for developers to bridge GIS and BIM data, providing various demos on how these integrations facilitate seamless project management and data visualization.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:06:12.996324+00:00"
+}

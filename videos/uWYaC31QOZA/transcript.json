@@ -1,0 +1,1495 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.8000000000000003,
+      "text": "All right, let's jump in.",
+      "words": []
+    },
+    {
+      "start": 2.8000000000000003,
+      "end": 3.92,
+      "text": "Hi, everybody.",
+      "words": []
+    },
+    {
+      "start": 3.92,
+      "end": 5.96,
+      "text": "My name is Vanessa Sigurdson.",
+      "words": []
+    },
+    {
+      "start": 5.96,
+      "end": 8.24,
+      "text": "I'm a strategic partnerships manager with",
+      "words": []
+    },
+    {
+      "start": 8.24,
+      "end": 12.56,
+      "text": "Autodesk responsible for the Fusion Technology Partner Program.",
+      "words": []
+    },
+    {
+      "start": 12.56,
+      "end": 16.52,
+      "text": "I build technology partner ecosystems in design and",
+      "words": []
+    },
+    {
+      "start": 16.52,
+      "end": 20.400000000000002,
+      "text": "manufacturing that help to expand product capability,",
+      "words": []
+    },
+    {
+      "start": 20.400000000000002,
+      "end": 24.560000000000002,
+      "text": "digitize workflows, and unlock new ways of working.",
+      "words": []
+    },
+    {
+      "start": 24.560000000000002,
+      "end": 27.36,
+      "text": "I'm going to talk to you today about what is",
+      "words": []
+    },
+    {
+      "start": 27.36,
+      "end": 30.8,
+      "text": "changing in manufacturing workflows and what's actually",
+      "words": []
+    },
+    {
+      "start": 30.8,
+      "end": 33.48,
+      "text": "unlocking that change.",
+      "words": []
+    },
+    {
+      "start": 33.48,
+      "end": 36.76,
+      "text": "It's not technology, but how things come together to create",
+      "words": []
+    },
+    {
+      "start": 36.76,
+      "end": 40.879999999999995,
+      "text": "better outcomes for our customers.",
+      "words": []
+    },
+    {
+      "start": 40.879999999999995,
+      "end": 43.96,
+      "text": "So here's the reality.",
+      "words": []
+    },
+    {
+      "start": 43.96,
+      "end": 47.120000000000005,
+      "text": "Manufacturers aren't really struggling with tools.",
+      "words": []
+    },
+    {
+      "start": 47.120000000000005,
+      "end": 49.68,
+      "text": "They're struggling with siloed workflows.",
+      "words": []
+    },
+    {
+      "start": 49.68,
+      "end": 52.28,
+      "text": "Across quoting, design, engineering,",
+      "words": []
+    },
+    {
+      "start": 52.28,
+      "end": 55.16,
+      "text": "manufacturing, and the supply chain, work is",
+      "words": []
+    },
+    {
+      "start": 55.16,
+      "end": 58.12,
+      "text": "constantly being handed off between systems.",
+      "words": []
+    },
+    {
+      "start": 58.12,
+      "end": 62.199999999999996,
+      "text": "And every time that happens, things slow down.",
+      "words": []
+    },
+    {
+      "start": 62.199999999999996,
+      "end": 66.12,
+      "text": "Data gets reentered, errors creep in, decisions get made",
+      "words": []
+    },
+    {
+      "start": 66.12,
+      "end": 67.96,
+      "text": "without the full picture.",
+      "words": []
+    },
+    {
+      "start": 67.96,
+      "end": 70.16,
+      "text": "So if you're coming from architecture, engineering, and",
+      "words": []
+    },
+    {
+      "start": 70.16,
+      "end": 73.64,
+      "text": "construction, this probably feels pretty familiar.",
+      "words": []
+    },
+    {
+      "start": 73.64,
+      "end": 78.36,
+      "text": "It's different tools, different teams, but really the same issue.",
+      "words": []
+    },
+    {
+      "start": 78.36,
+      "end": 80.75999999999999,
+      "text": "So the problem isn't capability.",
+      "words": []
+    },
+    {
+      "start": 80.75999999999999,
+      "end": 84.52,
+      "text": "It's the flow from one solution to the next.",
+      "words": []
+    },
+    {
+      "start": 84.6,
+      "end": 89.03999999999999,
+      "text": "And that shows up in real ways, longer lead times, more",
+      "words": []
+    },
+    {
+      "start": 89.03999999999999,
+      "end": 93.52,
+      "text": "rework, and missed opportunities.",
+      "words": []
+    },
+    {
+      "start": 93.52,
+      "end": 97.28,
+      "text": "At the same time, a lot is changing.",
+      "words": []
+    },
+    {
+      "start": 97.28,
+      "end": 100.44,
+      "text": "Today, we're at a real inflection point.",
+      "words": []
+    },
+    {
+      "start": 100.44,
+      "end": 103.56,
+      "text": "AI is getting better at supporting decisions.",
+      "words": []
+    },
+    {
+      "start": 103.56,
+      "end": 106.32,
+      "text": "Automation is taking out repetitive work.",
+      "words": []
+    },
+    {
+      "start": 106.32,
+      "end": 111.0,
+      "text": "And data is finally becoming more accessible across systems.",
+      "words": []
+    },
+    {
+      "start": 111.0,
+      "end": 113.32,
+      "text": "And that isn't theoretical.",
+      "words": []
+    },
+    {
+      "start": 113.32,
+      "end": 118.83999999999999,
+      "text": "Nearly 70% of our customers today are already using AI.",
+      "words": []
+    },
+    {
+      "start": 118.83999999999999,
+      "end": 121.24,
+      "text": "On their own, each of these developments",
+      "words": []
+    },
+    {
+      "start": 121.24,
+      "end": 123.67999999999999,
+      "text": "brings incremental improvement.",
+      "words": []
+    },
+    {
+      "start": 123.67999999999999,
+      "end": 125.8,
+      "text": "But when they come together, that's",
+      "words": []
+    },
+    {
+      "start": 125.8,
+      "end": 128.32,
+      "text": "where things really start to change.",
+      "words": []
+    },
+    {
+      "start": 128.32,
+      "end": 131.95999999999998,
+      "text": "Because no single solution solves the full end-to-end",
+      "words": []
+    },
+    {
+      "start": 131.95999999999998,
+      "end": 133.56,
+      "text": "workflow.",
+      "words": []
+    },
+    {
+      "start": 133.56,
+      "end": 135.84,
+      "text": "So that's where we're seeing a big shift,",
+      "words": []
+    },
+    {
+      "start": 135.84,
+      "end": 138.72,
+      "text": "from using tools to connecting them.",
+      "words": []
+    },
+    {
+      "start": 138.72,
+      "end": 142.04,
+      "text": "And even adding one connection into a workflow",
+      "words": []
+    },
+    {
+      "start": 142.04,
+      "end": 144.56,
+      "text": "can make a real big difference.",
+      "words": []
+    },
+    {
+      "start": 144.56,
+      "end": 149.95999999999998,
+      "text": "Less manual work, better accuracy, faster execution,",
+      "words": []
+    },
+    {
+      "start": 149.95999999999998,
+      "end": 153.76,
+      "text": "and then, as you build from there, that value starts to scale.",
+      "words": []
+    },
+    {
+      "start": 157.04,
+      "end": 160.6,
+      "text": "So the next question is, where do you connect?",
+      "words": []
+    },
+    {
+      "start": 160.6,
+      "end": 164.23999999999998,
+      "text": "Autodesk Fusion is where things come together.",
+      "words": []
+    },
+    {
+      "start": 164.23999999999998,
+      "end": 168.35999999999999,
+      "text": "Fusion is Autodesk's solution for a connected design",
+      "words": []
+    },
+    {
+      "start": 168.35999999999999,
+      "end": 170.48,
+      "text": "and manufacturing workflow.",
+      "words": []
+    },
+    {
+      "start": 170.48,
+      "end": 174.0,
+      "text": "It brings together computer-aided design, engineering,",
+      "words": []
+    },
+    {
+      "start": 174.0,
+      "end": 178.51999999999998,
+      "text": "electronics, and manufacturing in one modern environment.",
+      "words": []
+    },
+    {
+      "start": 178.51999999999998,
+      "end": 181.83999999999997,
+      "text": "That alone removes a lot of friction for our customers.",
+      "words": []
+    },
+    {
+      "start": 181.83999999999997,
+      "end": 183.79999999999998,
+      "text": "And it's a big reason why Fusion has",
+      "words": []
+    },
+    {
+      "start": 183.79999999999998,
+      "end": 187.32,
+      "text": "grown so quickly over the last decade.",
+      "words": []
+    },
+    {
+      "start": 187.32,
+      "end": 189.48,
+      "text": "Now, here's the important point.",
+      "words": []
+    },
+    {
+      "start": 189.48,
+      "end": 191.92,
+      "text": "Fusion isn't just where the work happens.",
+      "words": []
+    },
+    {
+      "start": 191.92,
+      "end": 195.48,
+      "text": "It's also where workflows can be extended.",
+      "words": []
+    },
+    {
+      "start": 195.48,
+      "end": 198.16,
+      "text": "When you connect your solution to Fusion,",
+      "words": []
+    },
+    {
+      "start": 198.16,
+      "end": 200.6,
+      "text": "you're not plugging into an empty system.",
+      "words": []
+    },
+    {
+      "start": 200.6,
+      "end": 203.16,
+      "text": "You're plugging into context.",
+      "words": []
+    },
+    {
+      "start": 203.16,
+      "end": 207.32,
+      "text": "Design data, manufacturing intent, real workflows",
+      "words": []
+    },
+    {
+      "start": 207.32,
+      "end": 209.56,
+      "text": "that are already in motion.",
+      "words": []
+    },
+    {
+      "start": 209.56,
+      "end": 214.07999999999998,
+      "text": "And that context is what makes integrations more useful.",
+      "words": []
+    },
+    {
+      "start": 214.07999999999998,
+      "end": 216.64,
+      "text": "Even one connection can remove a bottleneck",
+      "words": []
+    },
+    {
+      "start": 216.64,
+      "end": 218.8,
+      "text": "or improve a key decision.",
+      "words": []
+    },
+    {
+      "start": 218.8,
+      "end": 223.48,
+      "text": "And more of these connections build on each other.",
+      "words": []
+    },
+    {
+      "start": 223.48,
+      "end": 225.32,
+      "text": "At that point, that's where you start",
+      "words": []
+    },
+    {
+      "start": 225.32,
+      "end": 227.2,
+      "text": "to see compounding value emerge.",
+      "words": []
+    },
+    {
+      "start": 230.0,
+      "end": 232.07999999999998,
+      "text": "So what does this look like?",
+      "words": []
+    },
+    {
+      "start": 232.07999999999998,
+      "end": 234.79999999999998,
+      "text": "Think about a simple workflow from quoting",
+      "words": []
+    },
+    {
+      "start": 234.79999999999998,
+      "end": 237.07999999999998,
+      "text": "to design and engineering to manufacturing",
+      "words": []
+    },
+    {
+      "start": 237.07999999999998,
+      "end": 238.79999999999998,
+      "text": "and then the supply chain.",
+      "words": []
+    },
+    {
+      "start": 238.79999999999998,
+      "end": 241.56,
+      "text": "Today, these are barely connected.",
+      "words": []
+    },
+    {
+      "start": 241.56,
+      "end": 245.2,
+      "text": "And as a result, work stops and starts at each boundary.",
+      "words": []
+    },
+    {
+      "start": 245.2,
+      "end": 248.35999999999999,
+      "text": "And data doesn't flow cleanly.",
+      "words": []
+    },
+    {
+      "start": 248.35999999999999,
+      "end": 251.56,
+      "text": "But when you connect them, you remove those walls.",
+      "words": []
+    },
+    {
+      "start": 251.56,
+      "end": 254.6,
+      "text": "And instead of steps, you get flow.",
+      "words": []
+    },
+    {
+      "start": 254.6,
+      "end": 257.04,
+      "text": "And that lines up with what we're seeing.",
+      "words": []
+    },
+    {
+      "start": 257.04,
+      "end": 259.4,
+      "text": "Today, most of our customers are already",
+      "words": []
+    },
+    {
+      "start": 259.4,
+      "end": 262.68,
+      "text": "using two to three tools within a single workflow.",
+      "words": []
+    },
+    {
+      "start": 262.68,
+      "end": 267.4,
+      "text": "That's where customers really start to see the difference.",
+      "words": []
+    },
+    {
+      "start": 267.4,
+      "end": 270.48,
+      "text": "So let's make this real.",
+      "words": []
+    },
+    {
+      "start": 270.48,
+      "end": 272.44,
+      "text": "Let me show you how some of our partners",
+      "words": []
+    },
+    {
+      "start": 272.44,
+      "end": 275.8,
+      "text": "are already adding value across these stages,",
+      "words": []
+    },
+    {
+      "start": 275.8,
+      "end": 278.15999999999997,
+      "text": "starting with quoting.",
+      "words": []
+    },
+    {
+      "start": 278.15999999999997,
+      "end": 280.64,
+      "text": "We have paperless parts.",
+      "words": []
+    },
+    {
+      "start": 280.64,
+      "end": 283.84,
+      "text": "Paperless parts is a quoting and collaboration platform",
+      "words": []
+    },
+    {
+      "start": 283.84,
+      "end": 288.47999999999996,
+      "text": "that centralizes requests for quotes, pricing, and communication.",
+      "words": []
+    },
+    {
+      "start": 288.47999999999996,
+      "end": 291.56,
+      "text": "It connects design, quoting, and manufacturing processes",
+      "words": []
+    },
+    {
+      "start": 291.56,
+      "end": 295.0,
+      "text": "together, ultimately making it easier for designers",
+      "words": []
+    },
+    {
+      "start": 295.0,
+      "end": 299.44,
+      "text": "and manufacturers to collaborate across their supply chain.",
+      "words": []
+    },
+    {
+      "start": 299.44,
+      "end": 301.59999999999997,
+      "text": "Now moving into design and engineering",
+      "words": []
+    },
+    {
+      "start": 301.59999999999997,
+      "end": 303.76,
+      "text": "is a company called Szenera.",
+      "words": []
+    },
+    {
+      "start": 303.76,
+      "end": 306.23999999999995,
+      "text": "This is a no-code automation platform",
+      "words": []
+    },
+    {
+      "start": 306.23999999999995,
+      "end": 308.28,
+      "text": "for engineering workflows.",
+      "words": []
+    },
+    {
+      "start": 308.28,
+      "end": 310.84,
+      "text": "It connects design tools and lets teams",
+      "words": []
+    },
+    {
+      "start": 310.84,
+      "end": 312.79999999999995,
+      "text": "automate design logic.",
+      "words": []
+    },
+    {
+      "start": 312.8,
+      "end": 315.48,
+      "text": "So instead of repeating the same tasks,",
+      "words": []
+    },
+    {
+      "start": 315.48,
+      "end": 318.2,
+      "text": "engineers can move faster, iterate more,",
+      "words": []
+    },
+    {
+      "start": 318.2,
+      "end": 321.32,
+      "text": "and make better decisions.",
+      "words": []
+    },
+    {
+      "start": 321.32,
+      "end": 325.44,
+      "text": "Now shifting into manufacturing, Cloud NC.",
+      "words": []
+    },
+    {
+      "start": 325.44,
+      "end": 330.40000000000003,
+      "text": "Cloud NC's cam assist uses AI to generate optimized CNC",
+      "words": []
+    },
+    {
+      "start": 330.40000000000003,
+      "end": 332.44,
+      "text": "tool paths for machining.",
+      "words": []
+    },
+    {
+      "start": 332.44,
+      "end": 335.44,
+      "text": "It reduces the need for deep programming expertise",
+      "words": []
+    },
+    {
+      "start": 335.44,
+      "end": 338.0,
+      "text": "and speeds up time to production.",
+      "words": []
+    },
+    {
+      "start": 338.0,
+      "end": 340.64,
+      "text": "And then finally, supply chain.",
+      "words": []
+    },
+    {
+      "start": 340.64,
+      "end": 343.28,
+      "text": "AvNet is one of the largest global distributors",
+      "words": []
+    },
+    {
+      "start": 343.28,
+      "end": 345.32,
+      "text": "of electronic components.",
+      "words": []
+    },
+    {
+      "start": 345.32,
+      "end": 348.56,
+      "text": "Their integration brings real-time electronics component",
+      "words": []
+    },
+    {
+      "start": 348.56,
+      "end": 353.71999999999997,
+      "text": "data, availability, and pricing into the eCAD design process.",
+      "words": []
+    },
+    {
+      "start": 353.71999999999997,
+      "end": 356.36,
+      "text": "So instead of discovering issues late,",
+      "words": []
+    },
+    {
+      "start": 356.36,
+      "end": 359.12,
+      "text": "customers can make better decisions even earlier.",
+      "words": []
+    },
+    {
+      "start": 362.03999999999996,
+      "end": 366.47999999999996,
+      "text": "Now, today most customers aren't using all of these solutions",
+      "words": []
+    },
+    {
+      "start": 366.47999999999996,
+      "end": 367.68,
+      "text": "all at once.",
+      "words": []
+    },
+    {
+      "start": 367.68,
+      "end": 370.92,
+      "text": "They're starting with one, maybe two integrations.",
+      "words": []
+    },
+    {
+      "start": 370.92,
+      "end": 375.0,
+      "text": "And even that already reduces friction, improves accuracy,",
+      "words": []
+    },
+    {
+      "start": 375.0,
+      "end": 376.72,
+      "text": "and saves time.",
+      "words": []
+    },
+    {
+      "start": 376.72,
+      "end": 379.88,
+      "text": "And as they start layering in more niche solutions",
+      "words": []
+    },
+    {
+      "start": 379.88,
+      "end": 381.96000000000004,
+      "text": "that are tailored to their workflow,",
+      "words": []
+    },
+    {
+      "start": 381.96000000000004,
+      "end": 385.88,
+      "text": "the overall experience improves exponentially.",
+      "words": []
+    },
+    {
+      "start": 385.88,
+      "end": 390.24,
+      "text": "Because for customers, it's not just about any one tool.",
+      "words": []
+    },
+    {
+      "start": 390.24,
+      "end": 392.72,
+      "text": "It's about how the workflow comes together.",
+      "words": []
+    },
+    {
+      "start": 393.72,
+      "end": 397.72,
+      "text": "So if you look at that workflow, what this really enables",
+      "words": []
+    },
+    {
+      "start": 397.72,
+      "end": 400.72,
+      "text": "is more than just connecting of tools.",
+      "words": []
+    },
+    {
+      "start": 400.72,
+      "end": 402.72,
+      "text": "It allows data to move faster.",
+      "words": []
+    },
+    {
+      "start": 402.72,
+      "end": 404.72,
+      "text": "It allows decisions to get better,",
+      "words": []
+    },
+    {
+      "start": 404.72,
+      "end": 406.72,
+      "text": "and it helps errors go down.",
+      "words": []
+    },
+    {
+      "start": 406.72,
+      "end": 410.72,
+      "text": "That's what makes better outcomes for our customers.",
+      "words": []
+    },
+    {
+      "start": 410.72,
+      "end": 413.72,
+      "text": "But that flow doesn't happen on its own.",
+      "words": []
+    },
+    {
+      "start": 413.72,
+      "end": 415.72,
+      "text": "It's driven by three things.",
+      "words": []
+    },
+    {
+      "start": 415.72,
+      "end": 418.72,
+      "text": "Automation, which removes repetitive work,",
+      "words": []
+    },
+    {
+      "start": 418.72,
+      "end": 421.72,
+      "text": "connected data, so decisions are not used to it.",
+      "words": []
+    },
+    {
+      "start": 421.72,
+      "end": 424.72,
+      "text": "So decisions are made with full context",
+      "words": []
+    },
+    {
+      "start": 424.72,
+      "end": 427.72,
+      "text": "and the platform that brings systems together",
+      "words": []
+    },
+    {
+      "start": 427.72,
+      "end": 430.72,
+      "text": "so they can actually work as one.",
+      "words": []
+    },
+    {
+      "start": 430.72,
+      "end": 433.72,
+      "text": "And this is important because there are,",
+      "words": []
+    },
+    {
+      "start": 433.72,
+      "end": 435.72,
+      "text": "because these are the same three forces",
+      "words": []
+    },
+    {
+      "start": 435.72,
+      "end": 437.72,
+      "text": "that we talked about earlier.",
+      "words": []
+    },
+    {
+      "start": 437.72,
+      "end": 440.72,
+      "text": "Now you can see how they show up in real-life workflows.",
+      "words": []
+    },
+    {
+      "start": 440.72,
+      "end": 443.72,
+      "text": "And that is what's making the shift real.",
+      "words": []
+    },
+    {
+      "start": 446.72,
+      "end": 449.72,
+      "text": "So how do these integrations actually get built?",
+      "words": []
+    },
+    {
+      "start": 449.72,
+      "end": 452.72,
+      "text": "This is where the platform comes in.",
+      "words": []
+    },
+    {
+      "start": 452.72,
+      "end": 454.72,
+      "text": "Our Autodesk design and make platform",
+      "words": []
+    },
+    {
+      "start": 454.72,
+      "end": 458.72,
+      "text": "exposes a broad set of APIs across design,",
+      "words": []
+    },
+    {
+      "start": 458.72,
+      "end": 461.72,
+      "text": "manufacturing, and operations.",
+      "words": []
+    },
+    {
+      "start": 461.72,
+      "end": 465.72,
+      "text": "Everything from automating tasks to accessing models and data",
+      "words": []
+    },
+    {
+      "start": 465.72,
+      "end": 470.72,
+      "text": "to integrating with systems like ERP, PLM, and MES.",
+      "words": []
+    },
+    {
+      "start": 470.72,
+      "end": 473.72,
+      "text": "What you're seeing here is just a snapshot",
+      "words": []
+    },
+    {
+      "start": 473.72,
+      "end": 475.72,
+      "text": "of what's available today.",
+      "words": []
+    },
+    {
+      "start": 475.72,
+      "end": 478.72,
+      "text": "This is what allows partners to plug directly into workflows.",
+      "words": []
+    },
+    {
+      "start": 478.72,
+      "end": 482.72,
+      "text": "It's the technical foundation that makes these connections possible.",
+      "words": []
+    },
+    {
+      "start": 482.72,
+      "end": 487.72,
+      "text": "But APIs alone aren't enough for where things are going.",
+      "words": []
+    },
+    {
+      "start": 487.72,
+      "end": 494.72,
+      "text": "You'll be hearing a lot this week about model context protocol or MCP.",
+      "words": []
+    },
+    {
+      "start": 494.72,
+      "end": 498.72,
+      "text": "This is what will be supercharging the next wave",
+      "words": []
+    },
+    {
+      "start": 498.72,
+      "end": 500.72,
+      "text": "of manufacturing software.",
+      "words": []
+    },
+    {
+      "start": 500.72,
+      "end": 504.72,
+      "text": "APIs connect systems and MCPs enable execution.",
+      "words": []
+    },
+    {
+      "start": 505.72,
+      "end": 509.72,
+      "text": "MCPs act as an execution layer for workflows",
+      "words": []
+    },
+    {
+      "start": 509.72,
+      "end": 511.72,
+      "text": "so that AI doesn't just access data.",
+      "words": []
+    },
+    {
+      "start": 511.72,
+      "end": 515.72,
+      "text": "It can actually take action inside a real workflows.",
+      "words": []
+    },
+    {
+      "start": 515.72,
+      "end": 517.72,
+      "text": "Instead of point-to-point integrations,",
+      "words": []
+    },
+    {
+      "start": 517.72,
+      "end": 522.72,
+      "text": "you get a more dynamic context-aware set of interactions.",
+      "words": []
+    },
+    {
+      "start": 522.72,
+      "end": 526.72,
+      "text": "Tools can share data, trigger actions, and coordinate in real-time.",
+      "words": []
+    },
+    {
+      "start": 526.72,
+      "end": 530.72,
+      "text": "And this is where things connect back to a GenTik AI.",
+      "words": []
+    },
+    {
+      "start": 531.72,
+      "end": 534.72,
+      "text": "A GenTik AI doesn't just need data, it needs access,",
+      "words": []
+    },
+    {
+      "start": 534.72,
+      "end": 536.72,
+      "text": "and the ability to act.",
+      "words": []
+    },
+    {
+      "start": 536.72,
+      "end": 539.72,
+      "text": "MCP is what makes that possible.",
+      "words": []
+    },
+    {
+      "start": 539.72,
+      "end": 542.72,
+      "text": "So over time, workflows don't just become connected.",
+      "words": []
+    },
+    {
+      "start": 542.72,
+      "end": 545.72,
+      "text": "They become more intelligent and more autonomous.",
+      "words": []
+    },
+    {
+      "start": 545.72,
+      "end": 549.72,
+      "text": "And that makes one more thing extremely important,",
+      "words": []
+    },
+    {
+      "start": 549.72,
+      "end": 552.72,
+      "text": "choosing where to build.",
+      "words": []
+    },
+    {
+      "start": 552.72,
+      "end": 555.72,
+      "text": "Because as these capabilities evolve,",
+      "words": []
+    },
+    {
+      "start": 555.72,
+      "end": 559.72,
+      "text": "the value doesn't come from just any one tool on its own.",
+      "words": []
+    },
+    {
+      "start": 560.72,
+      "end": 563.72,
+      "text": "It comes from how these solutions work together.",
+      "words": []
+    },
+    {
+      "start": 563.72,
+      "end": 567.72,
+      "text": "And as more solutions connect, the value doesn't just add up.",
+      "words": []
+    },
+    {
+      "start": 567.72,
+      "end": 568.72,
+      "text": "It compounds.",
+      "words": []
+    },
+    {
+      "start": 568.72,
+      "end": 572.72,
+      "text": "And the ecosystem your solution is part of directly impacts",
+      "words": []
+    },
+    {
+      "start": 572.72,
+      "end": 577.72,
+      "text": "the value that you can deliver to your customers.",
+      "words": []
+    },
+    {
+      "start": 577.72,
+      "end": 581.72,
+      "text": "So how do you plug into the right ecosystem",
+      "words": []
+    },
+    {
+      "start": 581.72,
+      "end": 583.72,
+      "text": "and deliver that value?",
+      "words": []
+    },
+    {
+      "start": 583.72,
+      "end": 586.72,
+      "text": "Well, many of you already know the building the solution",
+      "words": []
+    },
+    {
+      "start": 586.72,
+      "end": 588.72,
+      "text": "is only part of the equation.",
+      "words": []
+    },
+    {
+      "start": 588.72,
+      "end": 592.72,
+      "text": "The hardest part is growing awareness and driving adoption.",
+      "words": []
+    },
+    {
+      "start": 592.72,
+      "end": 595.72,
+      "text": "And that's where strategic partnerships become real.",
+      "words": []
+    },
+    {
+      "start": 595.72,
+      "end": 598.72,
+      "text": "Partnerships with Autodesk help you build better,",
+      "words": []
+    },
+    {
+      "start": 598.72,
+      "end": 602.72,
+      "text": "expand your reach, and scale more effectively.",
+      "words": []
+    },
+    {
+      "start": 602.72,
+      "end": 604.72,
+      "text": "We see this as a journey.",
+      "words": []
+    },
+    {
+      "start": 604.72,
+      "end": 606.72,
+      "text": "It starts with building,",
+      "words": []
+    },
+    {
+      "start": 606.72,
+      "end": 609.72,
+      "text": "which is aligning your solution to our product roadmap",
+      "words": []
+    },
+    {
+      "start": 609.72,
+      "end": 612.72,
+      "text": "and helping integrating with the right tools.",
+      "words": []
+    },
+    {
+      "start": 612.72,
+      "end": 614.72,
+      "text": "Then comes activation.",
+      "words": []
+    },
+    {
+      "start": 614.72,
+      "end": 617.72,
+      "text": "This is where we help you take advantage of our go-to-market",
+      "words": []
+    },
+    {
+      "start": 617.72,
+      "end": 621.72,
+      "text": "engine and enable the teams working hard to grow Autodesk's",
+      "words": []
+    },
+    {
+      "start": 621.72,
+      "end": 626.72,
+      "text": "business to surface your solution alongside our own.",
+      "words": []
+    },
+    {
+      "start": 626.72,
+      "end": 629.72,
+      "text": "And ultimately, it's about scaling.",
+      "words": []
+    },
+    {
+      "start": 629.72,
+      "end": 632.72,
+      "text": "Driving adoption and growing your business through",
+      "words": []
+    },
+    {
+      "start": 632.72,
+      "end": 635.72,
+      "text": "co-marketing in-person events and other revenue generating",
+      "words": []
+    },
+    {
+      "start": 635.72,
+      "end": 636.72,
+      "text": "opportunities.",
+      "words": []
+    },
+    {
+      "start": 636.72,
+      "end": 638.72,
+      "text": "There's progression.",
+      "words": []
+    },
+    {
+      "start": 638.72,
+      "end": 642.72,
+      "text": "From building something valuable to getting it in motion,",
+      "words": []
+    },
+    {
+      "start": 642.72,
+      "end": 646.72,
+      "text": "to turning it into something that actually scales.",
+      "words": []
+    },
+    {
+      "start": 646.72,
+      "end": 651.72,
+      "text": "And here is where I invite you to consider joining",
+      "words": []
+    },
+    {
+      "start": 651.72,
+      "end": 654.72,
+      "text": "the Fusion Technology Partner Program.",
+      "words": []
+    },
+    {
+      "start": 654.72,
+      "end": 657.72,
+      "text": "Our mission is to help you move along that partner journey",
+      "words": []
+    },
+    {
+      "start": 657.72,
+      "end": 659.72,
+      "text": "as easily as possible.",
+      "words": []
+    },
+    {
+      "start": 659.72,
+      "end": 662.72,
+      "text": "From building an integration to actually building a business",
+      "words": []
+    },
+    {
+      "start": 662.72,
+      "end": 664.72,
+      "text": "around it.",
+      "words": []
+    },
+    {
+      "start": 664.72,
+      "end": 667.72,
+      "text": "Because we've seen it, just connecting to the platform",
+      "words": []
+    },
+    {
+      "start": 667.72,
+      "end": 669.72,
+      "text": "isn't enough on its own.",
+      "words": []
+    },
+    {
+      "start": 669.72,
+      "end": 673.72,
+      "text": "To support you, the program focuses on three things.",
+      "words": []
+    },
+    {
+      "start": 673.72,
+      "end": 677.72,
+      "text": "First, we provide formal technology partner status.",
+      "words": []
+    },
+    {
+      "start": 677.72,
+      "end": 679.72,
+      "text": "This isn't just a badge.",
+      "words": []
+    },
+    {
+      "start": 679.72,
+      "end": 682.72,
+      "text": "It's a trust signal backed by Autodesk.",
+      "words": []
+    },
+    {
+      "start": 682.72,
+      "end": 685.72,
+      "text": "It gives customers confidence that your solution is recognized",
+      "words": []
+    },
+    {
+      "start": 685.72,
+      "end": 689.72,
+      "text": "and adds value within the ecosystem.",
+      "words": []
+    },
+    {
+      "start": 689.72,
+      "end": 693.72,
+      "text": "Second, we provide access to Autodesk's go-to-market engine.",
+      "words": []
+    },
+    {
+      "start": 693.72,
+      "end": 697.72,
+      "text": "We make sure the right teams inside Autodesk know what you've built",
+      "words": []
+    },
+    {
+      "start": 697.72,
+      "end": 701.72,
+      "text": "and we help include your solution in our go-to-market activities.",
+      "words": []
+    },
+    {
+      "start": 701.72,
+      "end": 704.72,
+      "text": "Through campaigns, demand generation, and events",
+      "words": []
+    },
+    {
+      "start": 704.72,
+      "end": 706.72,
+      "text": "so you can expand your reach.",
+      "words": []
+    },
+    {
+      "start": 706.72,
+      "end": 711.72,
+      "text": "And lastly, we provide structured guidance to help you scale.",
+      "words": []
+    },
+    {
+      "start": 711.72,
+      "end": 715.72,
+      "text": "With us, you're not navigating Autodesk on your own.",
+      "words": []
+    },
+    {
+      "start": 715.72,
+      "end": 718.72,
+      "text": "We connect you to the right teams and help you understand",
+      "words": []
+    },
+    {
+      "start": 718.72,
+      "end": 721.72,
+      "text": "how to work with them and where your solution fits",
+      "words": []
+    },
+    {
+      "start": 721.72,
+      "end": 724.72,
+      "text": "in our platform and products.",
+      "words": []
+    },
+    {
+      "start": 724.72,
+      "end": 727.72,
+      "text": "The goal is simple, to help you move from integration",
+      "words": []
+    },
+    {
+      "start": 727.72,
+      "end": 733.72,
+      "text": "to adoption to something that actually scales.",
+      "words": []
+    },
+    {
+      "start": 733.72,
+      "end": 736.72,
+      "text": "Now, I'll leave you with this.",
+      "words": []
+    },
+    {
+      "start": 736.72,
+      "end": 738.72,
+      "text": "Rethink how you build.",
+      "words": []
+    },
+    {
+      "start": 738.72,
+      "end": 740.72,
+      "text": "Don't optimize individual steps.",
+      "words": []
+    },
+    {
+      "start": 740.72,
+      "end": 742.72,
+      "text": "Optimize the workflow.",
+      "words": []
+    },
+    {
+      "start": 742.72,
+      "end": 744.72,
+      "text": "Don't just look for features.",
+      "words": []
+    },
+    {
+      "start": 744.72,
+      "end": 746.72,
+      "text": "Look for how systems connect.",
+      "words": []
+    },
+    {
+      "start": 746.72,
+      "end": 749.72,
+      "text": "And if you're building today, especially in AEC,",
+      "words": []
+    },
+    {
+      "start": 749.72,
+      "end": 752.72,
+      "text": "consider where else your solutions could apply.",
+      "words": []
+    },
+    {
+      "start": 752.72,
+      "end": 756.72,
+      "text": "Because many of the same challenges exist in manufacturing.",
+      "words": []
+    },
+    {
+      "start": 756.72,
+      "end": 760.72,
+      "text": "And there's a real opportunity to extend what you've already built",
+      "words": []
+    },
+    {
+      "start": 760.72,
+      "end": 763.72,
+      "text": "into new workflows and adjacent markets.",
+      "words": []
+    },
+    {
+      "start": 763.72,
+      "end": 765.72,
+      "text": "And if that's something you're thinking about,",
+      "words": []
+    },
+    {
+      "start": 765.72,
+      "end": 769.72,
+      "text": "we'd love to work with you in the Fusion Technology Partner Program.",
+      "words": []
+    },
+    {
+      "start": 769.72,
+      "end": 772.72,
+      "text": "At the end of the day, this is really about delivering",
+      "words": []
+    },
+    {
+      "start": 772.72,
+      "end": 776.72,
+      "text": "better outcomes for our customers.",
+      "words": []
+    },
+    {
+      "start": 776.72,
+      "end": 779.72,
+      "text": "So what I've said today resonates with you.",
+      "words": []
+    },
+    {
+      "start": 779.72,
+      "end": 782.72,
+      "text": "I invite you to learn more about our program.",
+      "words": []
+    },
+    {
+      "start": 782.72,
+      "end": 788.72,
+      "text": "You can scan the QR code here to go visit our website.",
+      "words": []
+    },
+    {
+      "start": 788.72,
+      "end": 789.72,
+      "text": "Thank you.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:57:03.766052+00:00"
+}

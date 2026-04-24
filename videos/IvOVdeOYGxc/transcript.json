@@ -1,0 +1,1627 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.44,
+      "text": "Welcome everybody to this lecture about building MCP servers for the AEC,",
+      "words": []
+    },
+    {
+      "start": 5.44,
+      "end": 10.64,
+      "text": "the by-coding approach to creating custom Autodesk API integrations.",
+      "words": []
+    },
+    {
+      "start": 12.32,
+      "end": 15.48,
+      "text": "We are Enrique and Kurai from Avonlib,",
+      "words": []
+    },
+    {
+      "start": 15.48,
+      "end": 19.32,
+      "text": "and we build AI and automation tools for AEC teams.",
+      "words": []
+    },
+    {
+      "start": 19.32,
+      "end": 23.44,
+      "text": "We spent a lot of time watching brilliant architects and engineers",
+      "words": []
+    },
+    {
+      "start": 23.44,
+      "end": 27.48,
+      "text": "wait for automation that already exists in their own heads.",
+      "words": []
+    },
+    {
+      "start": 27.88,
+      "end": 30.28,
+      "text": "That's what we're here to talk about today.",
+      "words": []
+    },
+    {
+      "start": 32.92,
+      "end": 35.64,
+      "text": "The queue never gets shorter.",
+      "words": []
+    },
+    {
+      "start": 35.64,
+      "end": 39.24,
+      "text": "Most firms have two or three developers,",
+      "words": []
+    },
+    {
+      "start": 39.24,
+      "end": 42.44,
+      "text": "and the requesters on the backlog are more than 30.",
+      "words": []
+    },
+    {
+      "start": 44.2,
+      "end": 49.88,
+      "text": "I know right now you may be wondering whether AI can actually land on your firms' workflow,",
+      "words": []
+    },
+    {
+      "start": 49.88,
+      "end": 53.8,
+      "text": "or whether it will just become another item on the backlog.",
+      "words": []
+    },
+    {
+      "start": 53.8,
+      "end": 57.48,
+      "text": "You probably had a workflow idea that was clear in your mind,",
+      "words": []
+    },
+    {
+      "start": 57.48,
+      "end": 61.559999999999995,
+      "text": "easy to describe, and it still took six weeks to show up in any form.",
+      "words": []
+    },
+    {
+      "start": 62.519999999999996,
+      "end": 64.2,
+      "text": "What if the bottleneck is enthallent?",
+      "words": []
+    },
+    {
+      "start": 65.08,
+      "end": 69.0,
+      "text": "What if it's just the distance between describing a workflow and building one?",
+      "words": []
+    },
+    {
+      "start": 71.16,
+      "end": 73.24,
+      "text": "The bottleneck is a knowledge.",
+      "words": []
+    },
+    {
+      "start": 73.24,
+      "end": 76.2,
+      "text": "It's access and by-coding changes that.",
+      "words": []
+    },
+    {
+      "start": 76.36,
+      "end": 80.52000000000001,
+      "text": "Here's how the session is structured.",
+      "words": []
+    },
+    {
+      "start": 80.52000000000001,
+      "end": 82.84,
+      "text": "We'll spend first time on the problem,",
+      "words": []
+    },
+    {
+      "start": 82.84,
+      "end": 85.8,
+      "text": "the structural reason automation lacks behind the man,",
+      "words": []
+    },
+    {
+      "start": 85.8,
+      "end": 88.76,
+      "text": "then we talk through the bytecoding pattern,",
+      "words": []
+    },
+    {
+      "start": 88.76,
+      "end": 92.92,
+      "text": "describe, generate, validate, and deploy.",
+      "words": []
+    },
+    {
+      "start": 92.92,
+      "end": 94.92,
+      "text": "The next section is validation,",
+      "words": []
+    },
+    {
+      "start": 94.92,
+      "end": 96.92,
+      "text": "because generating code is easy,",
+      "words": []
+    },
+    {
+      "start": 96.92,
+      "end": 100.92,
+      "text": "and knowing whether it's safe to ship it is not.",
+      "words": []
+    },
+    {
+      "start": 100.92,
+      "end": 102.92,
+      "text": "We then will build three different types of code,",
+      "words": []
+    },
+    {
+      "start": 103.16,
+      "end": 103.64,
+      "text": "is not.",
+      "words": []
+    },
+    {
+      "start": 105.0,
+      "end": 107.48,
+      "text": "We then will build three real MCP servers.",
+      "words": []
+    },
+    {
+      "start": 108.6,
+      "end": 110.84,
+      "text": "We see how those examples work,",
+      "words": []
+    },
+    {
+      "start": 110.84,
+      "end": 112.52,
+      "text": "and then we will go to a live demo.",
+      "words": []
+    },
+    {
+      "start": 113.4,
+      "end": 115.56,
+      "text": "And we will close with deployment and notes",
+      "words": []
+    },
+    {
+      "start": 117.08,
+      "end": 119.88,
+      "text": "of what a real firm rollout looks like.",
+      "words": []
+    },
+    {
+      "start": 125.08,
+      "end": 130.76,
+      "text": "So I'm Craig, and I want to start talking the fundamental problem we face.",
+      "words": []
+    },
+    {
+      "start": 131.48,
+      "end": 134.2,
+      "text": "Why the demand for automation keep alternating,",
+      "words": []
+    },
+    {
+      "start": 134.92,
+      "end": 136.6,
+      "text": "our ability to deliver it?",
+      "words": []
+    },
+    {
+      "start": 139.72,
+      "end": 144.2,
+      "text": "Because the best workflow ideas always emerge closes the project team,",
+      "words": []
+    },
+    {
+      "start": 145.0,
+      "end": 148.04,
+      "text": "but instead of becoming the reusable services,",
+      "words": []
+    },
+    {
+      "start": 148.84,
+      "end": 151.88,
+      "text": "those requests arise as one-time asks.",
+      "words": []
+    },
+    {
+      "start": 152.51999999999998,
+      "end": 155.72,
+      "text": "A small technical group ends up becoming the",
+      "words": []
+    },
+    {
+      "start": 156.68,
+      "end": 161.48,
+      "text": "true-put gate, and simple requests are forced to wait",
+      "words": []
+    },
+    {
+      "start": 161.48,
+      "end": 163.64,
+      "text": "beside the strategic engineering work.",
+      "words": []
+    },
+    {
+      "start": 166.84,
+      "end": 170.68,
+      "text": "In theory, the domain expert described the need",
+      "words": []
+    },
+    {
+      "start": 170.68,
+      "end": 171.88,
+      "text": "and we built the tools.",
+      "words": []
+    },
+    {
+      "start": 172.6,
+      "end": 174.36,
+      "text": "But what actually happens is,",
+      "words": []
+    },
+    {
+      "start": 175.0,
+      "end": 179.07999999999998,
+      "text": "a developer has to reconstruct the entire intent",
+      "words": []
+    },
+    {
+      "start": 179.07999999999998,
+      "end": 180.6,
+      "text": "before writing anything.",
+      "words": []
+    },
+    {
+      "start": 181.24,
+      "end": 183.72,
+      "text": "It's an informal, messy process.",
+      "words": []
+    },
+    {
+      "start": 186.44,
+      "end": 189.08,
+      "text": "What a different model looks like",
+      "words": []
+    },
+    {
+      "start": 189.08,
+      "end": 193.16,
+      "text": "is trading the domain expert as a core creator.",
+      "words": []
+    },
+    {
+      "start": 193.16,
+      "end": 197.88,
+      "text": "The person who actually knows the workflow describes it,",
+      "words": []
+    },
+    {
+      "start": 197.88,
+      "end": 201.96,
+      "text": "and AI feel the fill in the implementation.",
+      "words": []
+    },
+    {
+      "start": 201.96,
+      "end": 208.12,
+      "text": "We developers validate the on the guard rails.",
+      "words": []
+    },
+    {
+      "start": 208.12,
+      "end": 211.8,
+      "text": "This means more people can create the automations,",
+      "words": []
+    },
+    {
+      "start": 211.8,
+      "end": 215.24,
+      "text": "but our technical overships stay intact.",
+      "words": []
+    },
+    {
+      "start": 216.12,
+      "end": 220.92000000000002,
+      "text": "So, we redefined the roles.",
+      "words": []
+    },
+    {
+      "start": 220.92000000000002,
+      "end": 223.8,
+      "text": "The expert explained the workflow intent,",
+      "words": []
+    },
+    {
+      "start": 225.0,
+      "end": 228.04000000000002,
+      "text": "and the AI accelerate the implementation,",
+      "words": []
+    },
+    {
+      "start": 228.76000000000002,
+      "end": 232.52,
+      "text": "and we apply the quality gates to this site",
+      "words": []
+    },
+    {
+      "start": 232.52,
+      "end": 234.36,
+      "text": "if it can ship or not.",
+      "words": []
+    },
+    {
+      "start": 237.0,
+      "end": 238.60000000000002,
+      "text": "I'm going to follow with the pattern.",
+      "words": []
+    },
+    {
+      "start": 238.60000000000002,
+      "end": 241.48000000000002,
+      "text": "So the pattern we're using goes with describe,",
+      "words": []
+    },
+    {
+      "start": 241.48000000000002,
+      "end": 243.8,
+      "text": "generate, validate, and deploy.",
+      "words": []
+    },
+    {
+      "start": 246.20000000000002,
+      "end": 249.56,
+      "text": "So, let's start with the meaning of bifcoding.",
+      "words": []
+    },
+    {
+      "start": 249.56,
+      "end": 253.56,
+      "text": "When we say bifcoding, we mean one specific thing.",
+      "words": []
+    },
+    {
+      "start": 253.56,
+      "end": 257.16,
+      "text": "To describe the workflow, you need it in plain English.",
+      "words": []
+    },
+    {
+      "start": 257.16,
+      "end": 259.64,
+      "text": "AI generates the first implementation,",
+      "words": []
+    },
+    {
+      "start": 259.64,
+      "end": 260.92,
+      "text": "you review, and validate.",
+      "words": []
+    },
+    {
+      "start": 261.72,
+      "end": 265.16,
+      "text": "The value is in faster interaction, not blind trust.",
+      "words": []
+    },
+    {
+      "start": 266.36,
+      "end": 269.08,
+      "text": "The metal narrows the gap between intent",
+      "words": []
+    },
+    {
+      "start": 269.08,
+      "end": 272.36,
+      "text": "and first implementation, and that's what it claims to do.",
+      "words": []
+    },
+    {
+      "start": 273.16,
+      "end": 276.76,
+      "text": "Why MCP fits AC workflows?",
+      "words": []
+    },
+    {
+      "start": 276.76,
+      "end": 280.52000000000004,
+      "text": "Well, for a start, it's a narrow scope and a clear contract.",
+      "words": []
+    },
+    {
+      "start": 280.52000000000004,
+      "end": 283.64,
+      "text": "AC requests are workflow specific,",
+      "words": []
+    },
+    {
+      "start": 283.64,
+      "end": 287.40000000000003,
+      "text": "and MCP servers are small enough to map the real workflows",
+      "words": []
+    },
+    {
+      "start": 287.40000000000003,
+      "end": 291.16,
+      "text": "and structure enough to be discoverable by AI agents.",
+      "words": []
+    },
+    {
+      "start": 291.16,
+      "end": 293.24,
+      "text": "AI clients.",
+      "words": []
+    },
+    {
+      "start": 293.24,
+      "end": 298.84000000000003,
+      "text": "The MCP servers are composable, replaceable, and reviewable.",
+      "words": []
+    },
+    {
+      "start": 299.15999999999997,
+      "end": 302.11999999999995,
+      "text": "A workflow server is easier to own, to replace,",
+      "words": []
+    },
+    {
+      "start": 302.11999999999995,
+      "end": 305.08,
+      "text": "to benchmark with a giant internal app,",
+      "words": []
+    },
+    {
+      "start": 305.08,
+      "end": 308.91999999999996,
+      "text": "and one team can build it, another one can validate it, and so on.",
+      "words": []
+    },
+    {
+      "start": 311.64,
+      "end": 315.64,
+      "text": "The four stages are described as the domain expert job.",
+      "words": []
+    },
+    {
+      "start": 316.76,
+      "end": 320.12,
+      "text": "Then we have generate, which is the first thing run by AI,",
+      "words": []
+    },
+    {
+      "start": 321.15999999999997,
+      "end": 325.32,
+      "text": "validate where there are six gates on the server to be created,",
+      "words": []
+    },
+    {
+      "start": 325.96,
+      "end": 330.36,
+      "text": "and deploy where it gets a structure and repeatable",
+      "words": []
+    },
+    {
+      "start": 330.36,
+      "end": 332.04,
+      "text": "so that then the team can use it.",
+      "words": []
+    },
+    {
+      "start": 332.04,
+      "end": 334.68,
+      "text": "Notice that these patterns are not equal in weight.",
+      "words": []
+    },
+    {
+      "start": 335.32,
+      "end": 337.64,
+      "text": "Anyone can generate a server in seconds,",
+      "words": []
+    },
+    {
+      "start": 337.64,
+      "end": 342.2,
+      "text": "but deciding whether it is safe to ship it takes deliberate review.",
+      "words": []
+    },
+    {
+      "start": 345.08,
+      "end": 349.24,
+      "text": "Now, the architecture of this type of MVP is in four parts.",
+      "words": []
+    },
+    {
+      "start": 349.24,
+      "end": 353.32,
+      "text": "The first one is the front end using a React and BT UI,",
+      "words": []
+    },
+    {
+      "start": 353.4,
+      "end": 355.71999999999997,
+      "text": "so that you can see the interactions you are following,",
+      "words": []
+    },
+    {
+      "start": 355.71999999999997,
+      "end": 358.68,
+      "text": "then a backend orchestration with no ideas and express,",
+      "words": []
+    },
+    {
+      "start": 359.32,
+      "end": 363.4,
+      "text": "then the generation assets that is the change of language templates and prompt",
+      "words": []
+    },
+    {
+      "start": 363.4,
+      "end": 366.6,
+      "text": "scaffolds, and lastly the outputs that are reviewed.",
+      "words": []
+    },
+    {
+      "start": 366.6,
+      "end": 370.76,
+      "text": "The architecture matters because it makes generation repeatable.",
+      "words": []
+    },
+    {
+      "start": 370.76,
+      "end": 373.8,
+      "text": "The server is not a one-shot answer from a chatbot,",
+      "words": []
+    },
+    {
+      "start": 373.8,
+      "end": 377.71999999999997,
+      "text": "is the product of templates, prompts, and validation rules.",
+      "words": []
+    },
+    {
+      "start": 377.71999999999997,
+      "end": 381.4,
+      "text": "The same description run tries produces a consistent artifact.",
+      "words": []
+    },
+    {
+      "start": 381.96,
+      "end": 386.12,
+      "text": "Now, from prompt to a deployed server,",
+      "words": []
+    },
+    {
+      "start": 386.12,
+      "end": 389.64,
+      "text": "you need to open the app, then write the workflow in plain English,",
+      "words": []
+    },
+    {
+      "start": 390.28,
+      "end": 394.44,
+      "text": "pick the target language, so if you are working C-sharp Python or Node.js,",
+      "words": []
+    },
+    {
+      "start": 395.23999999999995,
+      "end": 400.03999999999996,
+      "text": "then generate the server activity fact, run the six validation gates,",
+      "words": []
+    },
+    {
+      "start": 400.03999999999996,
+      "end": 401.88,
+      "text": "review warnings and documentation,",
+      "words": []
+    },
+    {
+      "start": 402.44,
+      "end": 407.08,
+      "text": "build a test, build a test locally, and then connect it to your client or to cloud desktop.",
+      "words": []
+    },
+    {
+      "start": 407.32,
+      "end": 413.88,
+      "text": "This shift enables more contribution and intact carriers.",
+      "words": []
+    },
+    {
+      "start": 413.88,
+      "end": 417.64,
+      "text": "Remember the main point, the bottleneck is in knowledge, it's access.",
+      "words": []
+    },
+    {
+      "start": 418.59999999999997,
+      "end": 421.15999999999997,
+      "text": "This is what looks like when it changes.",
+      "words": []
+    },
+    {
+      "start": 421.15999999999997,
+      "end": 424.91999999999996,
+      "text": "More people contributing automation, faster break response,",
+      "words": []
+    },
+    {
+      "start": 424.91999999999996,
+      "end": 426.91999999999996,
+      "text": "reduce specialist dependency.",
+      "words": []
+    },
+    {
+      "start": 431.64,
+      "end": 433.96,
+      "text": "So here we are with the validation.",
+      "words": []
+    },
+    {
+      "start": 434.91999999999996,
+      "end": 442.35999999999996,
+      "text": "Generation is only useful if a team can inspect the result and trust what survivors.",
+      "words": []
+    },
+    {
+      "start": 446.35999999999996,
+      "end": 449.79999999999995,
+      "text": "So the AI generated the code, are we done?",
+      "words": []
+    },
+    {
+      "start": 450.35999999999996,
+      "end": 456.52,
+      "text": "Absolutely not. A generated server can still fail in very ordinary way,",
+      "words": []
+    },
+    {
+      "start": 457.15999999999997,
+      "end": 460.52,
+      "text": "just because it complies, it doesn't mean it's 3D.",
+      "words": []
+    },
+    {
+      "start": 461.4,
+      "end": 465.56,
+      "text": "It might call Autodesk services with bright, outhand link,",
+      "words": []
+    },
+    {
+      "start": 465.56,
+      "end": 469.96,
+      "text": "or have absolutely no error paths, no trials or no useful logs.",
+      "words": []
+    },
+    {
+      "start": 473.56,
+      "end": 480.68,
+      "text": "To counter this, we built six specific validation gates that every piece of generated code must pass through.",
+      "words": []
+    },
+    {
+      "start": 484.35999999999996,
+      "end": 489.47999999999996,
+      "text": "Gate 1 and Gate 2 are foundation, syntax and MCP compilings.",
+      "words": []
+    },
+    {
+      "start": 490.28000000000003,
+      "end": 492.6,
+      "text": "Does the generated code actually compile?",
+      "words": []
+    },
+    {
+      "start": 493.24,
+      "end": 495.88,
+      "text": "And does it compile with the MCP protocol?",
+      "words": []
+    },
+    {
+      "start": 495.88,
+      "end": 500.6,
+      "text": "So the client can accurate the reason about its capabilities.",
+      "words": []
+    },
+    {
+      "start": 503.64000000000004,
+      "end": 508.12,
+      "text": "And Gate 3 and Gate 4 tests under pressure.",
+      "words": []
+    },
+    {
+      "start": 509.0,
+      "end": 511.56,
+      "text": "The error handling and authentication.",
+      "words": []
+    },
+    {
+      "start": 512.12,
+      "end": 515.24,
+      "text": "What happens when the happy pack breaks?",
+      "words": []
+    },
+    {
+      "start": 516.2,
+      "end": 523.5600000000001,
+      "text": "And is there any hard-coded street secrets inside the code?",
+      "words": []
+    },
+    {
+      "start": 524.04,
+      "end": 526.44,
+      "text": "Or is the credential path safe?",
+      "words": []
+    },
+    {
+      "start": 530.76,
+      "end": 533.64,
+      "text": "Finally, Gate 5 and Gate 6.",
+      "words": []
+    },
+    {
+      "start": 534.2,
+      "end": 536.76,
+      "text": "Documentation and prediction readiness.",
+      "words": []
+    },
+    {
+      "start": 538.76,
+      "end": 542.12,
+      "text": "Is the application can survive a handoff?",
+      "words": []
+    },
+    {
+      "start": 542.84,
+      "end": 545.32,
+      "text": "Could another engineer run this server tomorrow?",
+      "words": []
+    },
+    {
+      "start": 546.44,
+      "end": 550.6,
+      "text": "Does the output look something a team could actually own in prediction?",
+      "words": []
+    },
+    {
+      "start": 551.24,
+      "end": 552.84,
+      "text": "That's the question here.",
+      "words": []
+    },
+    {
+      "start": 555.16,
+      "end": 561.96,
+      "text": "And the generated code becomes useful only after that passes the dose 3 gate,",
+      "words": []
+    },
+    {
+      "start": 561.96,
+      "end": 564.2,
+      "text": "dose 6 gates and review.",
+      "words": []
+    },
+    {
+      "start": 565.08,
+      "end": 571.8,
+      "text": "The AI generation is fast, but our non-natured discipline is exactly what makes our server",
+      "words": []
+    },
+    {
+      "start": 572.28,
+      "end": 574.92,
+      "text": "harder, better, faster and stronger.",
+      "words": []
+    },
+    {
+      "start": 575.5600000000001,
+      "end": 577.5600000000001,
+      "text": "We don't compromise of that.",
+      "words": []
+    },
+    {
+      "start": 579.48,
+      "end": 583.5600000000001,
+      "text": "Let's look at how it applies to some real-world examples.",
+      "words": []
+    },
+    {
+      "start": 585.96,
+      "end": 587.4,
+      "text": "So let me start with the first one.",
+      "words": []
+    },
+    {
+      "start": 587.4,
+      "end": 590.44,
+      "text": "This is an automation API batch orchestrator.",
+      "words": []
+    },
+    {
+      "start": 591.08,
+      "end": 595.48,
+      "text": "So the problem we use for this one within the application is I need to process 20",
+      "words": []
+    },
+    {
+      "start": 595.48,
+      "end": 601.48,
+      "text": "rivet files through our standard clean of job and bring back all the results, even if a few files fail.",
+      "words": []
+    },
+    {
+      "start": 602.76,
+      "end": 606.2,
+      "text": "The sentence process 20 rivet files is the entire prompt.",
+      "words": []
+    },
+    {
+      "start": 607.0,
+      "end": 609.24,
+      "text": "This is what the domain expert types.",
+      "words": []
+    },
+    {
+      "start": 609.24,
+      "end": 616.52,
+      "text": "What comes back is a C-sharp MCP server with four tools, error handling, APS, ALT and a readme file.",
+      "words": []
+    },
+    {
+      "start": 617.32,
+      "end": 618.84,
+      "text": "Let's look what that means.",
+      "words": []
+    },
+    {
+      "start": 618.84,
+      "end": 624.84,
+      "text": "And in this case, we're showing just the general visibility of how the tool is getting those",
+      "words": []
+    },
+    {
+      "start": 624.84,
+      "end": 629.64,
+      "text": "files being run, being checked and know which ones fail and how those get that one work.",
+      "words": []
+    },
+    {
+      "start": 631.32,
+      "end": 633.08,
+      "text": "So the tools and flow.",
+      "words": []
+    },
+    {
+      "start": 633.08,
+      "end": 638.44,
+      "text": "It has a batch of loads type of tools, create work items, monitor progress and download results.",
+      "words": []
+    },
+    {
+      "start": 639.8000000000001,
+      "end": 645.08,
+      "text": "This for these four tools, each one those one job, the flow is linear and observable.",
+      "words": []
+    },
+    {
+      "start": 645.08,
+      "end": 650.76,
+      "text": "The AI client can track exactly where it was at every step and nobody's the design.",
+      "words": []
+    },
+    {
+      "start": 650.84,
+      "end": 657.0,
+      "text": "Monitor progress returns statuses and options that are useful to the AI client,",
+      "words": []
+    },
+    {
+      "start": 657.0,
+      "end": 659.0,
+      "text": "not just to a human reading on a log.",
+      "words": []
+    },
+    {
+      "start": 661.72,
+      "end": 666.68,
+      "text": "Where validation matters in this case, it's for simple questions like those the back size",
+      "words": []
+    },
+    {
+      "start": 666.68,
+      "end": 669.4,
+      "text": "over one may be I or local bandwidth assumptions.",
+      "words": []
+    },
+    {
+      "start": 670.2,
+      "end": 673.88,
+      "text": "Can the server distinguish a block failure from work item failure?",
+      "words": []
+    },
+    {
+      "start": 674.52,
+      "end": 678.92,
+      "text": "Our progress response is useful to an AI client, not just to a human.",
+      "words": []
+    },
+    {
+      "start": 678.92,
+      "end": 682.04,
+      "text": "And can the outputs be partially retrieved when some jobs fail?",
+      "words": []
+    },
+    {
+      "start": 682.68,
+      "end": 687.3199999999999,
+      "text": "None of them are on the original prompt and all of them matter in production.",
+      "words": []
+    },
+    {
+      "start": 687.88,
+      "end": 689.9599999999999,
+      "text": "Gate three catches silent failures.",
+      "words": []
+    },
+    {
+      "start": 690.92,
+      "end": 697.4799999999999,
+      "text": "And eight six catches assumptions that the 20 files will always behave the same as the two.",
+      "words": []
+    },
+    {
+      "start": 699.3199999999999,
+      "end": 702.92,
+      "text": "Second sample we're following here is dynamo workplace standard server.",
+      "words": []
+    },
+    {
+      "start": 702.92,
+      "end": 709.3199999999999,
+      "text": "So we the prompt we're using is make a were 50 standard dynamo scripts available to AI agents",
+      "words": []
+    },
+    {
+      "start": 709.3199999999999,
+      "end": 712.5999999999999,
+      "text": "so that they can be discovered, validated, executed consistently.",
+      "words": []
+    },
+    {
+      "start": 713.56,
+      "end": 716.36,
+      "text": "Most firms have a library of standard dynamo scripts.",
+      "words": []
+    },
+    {
+      "start": 716.36,
+      "end": 720.68,
+      "text": "They're usually in a sure folder and nobody knows which ones are correct.",
+      "words": []
+    },
+    {
+      "start": 720.68,
+      "end": 722.76,
+      "text": "Nobody knows what inputs they need.",
+      "words": []
+    },
+    {
+      "start": 722.76,
+      "end": 727.16,
+      "text": "And in this case, this server turns that folder into a governed catalog.",
+      "words": []
+    },
+    {
+      "start": 727.16,
+      "end": 729.56,
+      "text": "Discoverable, Calable and auditable.",
+      "words": []
+    },
+    {
+      "start": 730.52,
+      "end": 734.28,
+      "text": "Within that sample, what happens is that reading from that local storage,",
+      "words": []
+    },
+    {
+      "start": 735.0,
+      "end": 737.88,
+      "text": "getting the dynamo scripts on different categories,",
+      "words": []
+    },
+    {
+      "start": 737.88,
+      "end": 742.3599999999999,
+      "text": "getting it so that they can be running on multiple files and enable the user",
+      "words": []
+    },
+    {
+      "start": 742.3599999999999,
+      "end": 744.5999999999999,
+      "text": "to have that access power very quickly.",
+      "words": []
+    },
+    {
+      "start": 747.2399999999999,
+      "end": 748.52,
+      "text": "How does these two works?",
+      "words": []
+    },
+    {
+      "start": 748.52,
+      "end": 750.1999999999999,
+      "text": "It has four tools as well.",
+      "words": []
+    },
+    {
+      "start": 750.1999999999999,
+      "end": 755.16,
+      "text": "List the scripts exposing the catalog and metadata, validate the graphs, checks the file that",
+      "words": []
+    },
+    {
+      "start": 755.16,
+      "end": 760.52,
+      "text": "it runs, it's a hell type of report, then execute the workflow running the approved graphs",
+      "words": []
+    },
+    {
+      "start": 760.52,
+      "end": 764.8399999999999,
+      "text": "with the inputs and finally to export the script, a package to share the graph.",
+      "words": []
+    },
+    {
+      "start": 764.8399999999999,
+      "end": 769.0,
+      "text": "So validate graph runs before execution and this is intentional.",
+      "words": []
+    },
+    {
+      "start": 769.0,
+      "end": 774.4399999999999,
+      "text": "You don't want an AI agent running on a script that has missing package references on a production",
+      "words": []
+    },
+    {
+      "start": 774.4399999999999,
+      "end": 778.8399999999999,
+      "text": "model. The gate is built into the tool contract, not bolted after it.",
+      "words": []
+    },
+    {
+      "start": 779.64,
+      "end": 786.44,
+      "text": "Quarivalitation matters in this case, which graphs are allowed to run and under what conditions,",
+      "words": []
+    },
+    {
+      "start": 786.44,
+      "end": 792.12,
+      "text": "how our inputs type so that the client can call them safely, what happens when a graph is missing",
+      "words": []
+    },
+    {
+      "start": 792.12,
+      "end": 796.84,
+      "text": "package references, how is the script provenance tracked across versions.",
+      "words": []
+    },
+    {
+      "start": 797.64,
+      "end": 801.08,
+      "text": "The governance questions is the hard one, who decides which scripts are approved,",
+      "words": []
+    },
+    {
+      "start": 801.8000000000001,
+      "end": 804.6800000000001,
+      "text": "that's a firm policy decision, not a technical one.",
+      "words": []
+    },
+    {
+      "start": 805.3199999999999,
+      "end": 809.56,
+      "text": "The server can enforce it, but someone has to define it.",
+      "words": []
+    },
+    {
+      "start": 809.56,
+      "end": 812.28,
+      "text": "Gate 6 forces that conversations before deployment.",
+      "words": []
+    },
+    {
+      "start": 812.92,
+      "end": 816.1999999999999,
+      "text": "And the last sample we're presenting is the Revit parameter query server.",
+      "words": []
+    },
+    {
+      "start": 817.3199999999999,
+      "end": 822.92,
+      "text": "The prompt use is update all walls that do not meet our two hour fire rating standard",
+      "words": []
+    },
+    {
+      "start": 822.92,
+      "end": 825.0799999999999,
+      "text": "and return a compliance summary.",
+      "words": []
+    },
+    {
+      "start": 825.0799999999999,
+      "end": 829.88,
+      "text": "That sentence is a business rule, it's easy to say, it's painful to do it manually across",
+      "words": []
+    },
+    {
+      "start": 829.88,
+      "end": 836.52,
+      "text": "100 walls and it's exactly the kind of task where an AI agent with a well designed server can",
+      "words": []
+    },
+    {
+      "start": 836.52,
+      "end": 844.68,
+      "text": "do the work and return a human readable compliance summary. This is how this one looks as well.",
+      "words": []
+    },
+    {
+      "start": 844.68,
+      "end": 849.56,
+      "text": "And as you can see, the user interface is consistent on the creation of the MCP servers",
+      "words": []
+    },
+    {
+      "start": 849.56,
+      "end": 853.32,
+      "text": "so that we see the tools going on the top and then the elements running around.",
+      "words": []
+    },
+    {
+      "start": 854.2800000000001,
+      "end": 856.44,
+      "text": "So how does this tool works?",
+      "words": []
+    },
+    {
+      "start": 857.32,
+      "end": 859.6400000000001,
+      "text": "Has it still four sample parameters?",
+      "words": []
+    },
+    {
+      "start": 859.6400000000001,
+      "end": 864.44,
+      "text": "It's get parameters, validate parameters, bulk update them and then set the parameters.",
+      "words": []
+    },
+    {
+      "start": 865.4000000000001,
+      "end": 869.08,
+      "text": "Notice that the bulk update and then it goes into the set parameters.",
+      "words": []
+    },
+    {
+      "start": 870.12,
+      "end": 872.9200000000001,
+      "text": "You see what will change before you commit it.",
+      "words": []
+    },
+    {
+      "start": 873.72,
+      "end": 879.24,
+      "text": "The previous step is what makes an AI agent safe to use in production on a Revit model.",
+      "words": []
+    },
+    {
+      "start": 879.32,
+      "end": 883.16,
+      "text": "You are not running Blanbright. You're reviewing a Blan first.",
+      "words": []
+    },
+    {
+      "start": 884.6,
+      "end": 891.0,
+      "text": "One of the validation requirements on this case, how safe are bulk rights because they can have",
+      "words": []
+    },
+    {
+      "start": 891.0,
+      "end": 895.8,
+      "text": "a lot of information pushing it and that can change the Revit model. Is there a rollback path?",
+      "words": []
+    },
+    {
+      "start": 896.52,
+      "end": 901.32,
+      "text": "Can the server separate query, validation, preview and commit?",
+      "words": []
+    },
+    {
+      "start": 901.32,
+      "end": 904.52,
+      "text": "Does the result explain what change in human terms?",
+      "words": []
+    },
+    {
+      "start": 905.48,
+      "end": 908.92,
+      "text": "Can the standard evolve without regretting the entire server?",
+      "words": []
+    },
+    {
+      "start": 909.72,
+      "end": 913.24,
+      "text": "bulk rights are where things can go wrong at scale.",
+      "words": []
+    },
+    {
+      "start": 913.24,
+      "end": 918.36,
+      "text": "Gay 3 for this server is crucial. We want a failed validation to return a useful report",
+      "words": []
+    },
+    {
+      "start": 918.36,
+      "end": 925.3199999999999,
+      "text": "not across. And Gay 6 asks if the vibrating rule changes from two hours to three hours,",
+      "words": []
+    },
+    {
+      "start": 925.3199999999999,
+      "end": 929.16,
+      "text": "can the standard be updated in a config file rather than in code?",
+      "words": []
+    },
+    {
+      "start": 929.16,
+      "end": 932.76,
+      "text": "That's the difference between a tool and maintenance burden.",
+      "words": []
+    },
+    {
+      "start": 934.76,
+      "end": 942.92,
+      "text": "So now let's step away from the theory and it's time for the live demo.",
+      "words": []
+    },
+    {
+      "start": 943.88,
+      "end": 952.12,
+      "text": "I want you all to scan the QR code or type the URL on the screen and try it with us real time.",
+      "words": []
+    },
+    {
+      "start": 952.68,
+      "end": 957.48,
+      "text": "Use your phone to describe the AAC automation workflow in a plain English",
+      "words": []
+    },
+    {
+      "start": 958.1999999999999,
+      "end": 964.36,
+      "text": "and watch how you get evaluated deployment 3D MCP servers in just minutes.",
+      "words": []
+    },
+    {
+      "start": 964.6,
+      "end": 977.0,
+      "text": "So in that case, it's selecting a prompt running from the",
+      "words": []
+    },
+    {
+      "start": 977.0,
+      "end": 983.24,
+      "text": "general AACMCP server, selecting a language to create the type of contents.",
+      "words": []
+    },
+    {
+      "start": 983.5600000000001,
+      "end": 997.96,
+      "text": "And then it gets into the gates, creating different files so that they can be then deployed,",
+      "words": []
+    },
+    {
+      "start": 997.96,
+      "end": 999.08,
+      "text": "compiled and run.",
+      "words": []
+    },
+    {
+      "start": 1003.16,
+      "end": 1007.96,
+      "text": "On the validation test, you see how the errors are appearing and then you can download it so",
+      "words": []
+    },
+    {
+      "start": 1007.96,
+      "end": 1011.32,
+      "text": "that you can use it or you can start doing the deployment.",
+      "words": []
+    },
+    {
+      "start": 1014.2,
+      "end": 1027.16,
+      "text": "Now here's the interaction sample. We go in this order and deliver it deliberately",
+      "words": []
+    },
+    {
+      "start": 1027.16,
+      "end": 1030.92,
+      "text": "because if the validation pass is not a breaking the action, it's the point.",
+      "words": []
+    },
+    {
+      "start": 1031.56,
+      "end": 1035.4,
+      "text": "You will see what a gate failure looks like and you know what to do with it.",
+      "words": []
+    },
+    {
+      "start": 1035.4,
+      "end": 1039.16,
+      "text": "So you have a frame the bottleneck, generate a sample, run validation gates,",
+      "words": []
+    },
+    {
+      "start": 1039.48,
+      "end": 1045.88,
+      "text": "then you can do another validation, another two more samples to be created with shorter prompts.",
+      "words": []
+    },
+    {
+      "start": 1045.88,
+      "end": 1050.3600000000001,
+      "text": "And then at the end you get a deployment path, a final recap and then from that one you can use it.",
+      "words": []
+    },
+    {
+      "start": 1051.8000000000002,
+      "end": 1057.24,
+      "text": "What would you get when the application is running? You get a set of files on folders called",
+      "words": []
+    },
+    {
+      "start": 1057.24,
+      "end": 1060.92,
+      "text": "frontend backend validation framework, generate a test and templates.",
+      "words": []
+    },
+    {
+      "start": 1060.92,
+      "end": 1066.28,
+      "text": "So everything it's in one repository, the frame, the frontend is where the domain experts work,",
+      "words": []
+    },
+    {
+      "start": 1066.28,
+      "end": 1071.3999999999999,
+      "text": "the backend orchestration generation, the validation framework is not a separate tool,",
+      "words": []
+    },
+    {
+      "start": 1071.3999999999999,
+      "end": 1076.36,
+      "text": "it's built into the artifact pipeline. Then plates make the generation repeatable.",
+      "words": []
+    },
+    {
+      "start": 1079.32,
+      "end": 1084.6,
+      "text": "So steps for the working parties configure the environment, build the server,",
+      "words": []
+    },
+    {
+      "start": 1084.6,
+      "end": 1089.8,
+      "text": "test locally, then integrate a client so that it's running your MCP server and then do a team roll",
+      "words": []
+    },
+    {
+      "start": 1089.8,
+      "end": 1092.68,
+      "text": "out so that you document ownership, versioning and support.",
+      "words": []
+    },
+    {
+      "start": 1093.16,
+      "end": 1098.1200000000001,
+      "text": "There are five steps and step four is the moment everything connects.",
+      "words": []
+    },
+    {
+      "start": 1098.1200000000001,
+      "end": 1103.3200000000002,
+      "text": "You register your server in the MCP client and your AI agent now can call it.",
+      "words": []
+    },
+    {
+      "start": 1103.3200000000002,
+      "end": 1110.68,
+      "text": "A step five is the human step who owns it, how is it version and how do you call it when it breaks?",
+      "words": []
+    },
+    {
+      "start": 1114.68,
+      "end": 1120.76,
+      "text": "You've seen how it works but as an engineer I need to be transparent about what this approach",
+      "words": []
+    },
+    {
+      "start": 1120.76,
+      "end": 1127.0,
+      "text": "is good for and what it does not replace. This system is great for creating workflow specific",
+      "words": []
+    },
+    {
+      "start": 1127.0,
+      "end": 1133.32,
+      "text": "wrappers around existing APIs, fast prototyping and building reusable servers.",
+      "words": []
+    },
+    {
+      "start": 1133.96,
+      "end": 1140.92,
+      "text": "But what does it not replace? It does not replace the code review and architecture ownership.",
+      "words": []
+    },
+    {
+      "start": 1141.64,
+      "end": 1149.0,
+      "text": "It absolutely does not replace security reviews and secret management and most importantly",
+      "words": []
+    },
+    {
+      "start": 1149.0,
+      "end": 1153.56,
+      "text": "it does not replace business rule validation by domain owners.",
+      "words": []
+    },
+    {
+      "start": 1154.76,
+      "end": 1162.52,
+      "text": "So when it is used right this is the most powerful way to shrink that request backlocking.",
+      "words": []
+    },
+    {
+      "start": 1165.32,
+      "end": 1170.12,
+      "text": "So how to start adoption? Use four faces, start narrow.",
+      "words": []
+    },
+    {
+      "start": 1170.12,
+      "end": 1174.92,
+      "text": "Pick three workflows with obvious paint killer with paint and clear owners,",
+      "words": []
+    },
+    {
+      "start": 1175.0,
+      "end": 1181.0800000000002,
+      "text": "then make it repeatable, generate from templates from validation gates, then name an owner to",
+      "words": []
+    },
+    {
+      "start": 1181.0800000000002,
+      "end": 1187.88,
+      "text": "assign code owners, document the deployment checklist and lastly track outcomes, make sure time to",
+      "words": []
+    },
+    {
+      "start": 1187.88,
+      "end": 1195.3200000000002,
+      "text": "first tool reuse rate and queue reduction. Take a quiz from this presentation is that we have",
+      "words": []
+    },
+    {
+      "start": 1195.3200000000002,
+      "end": 1200.68,
+      "text": "already worked through a repeatable pattern. We go describe generate validate and deploy",
+      "words": []
+    },
+    {
+      "start": 1200.76,
+      "end": 1207.0800000000002,
+      "text": "which works for any AC workflow. Then we have seen three concrete cases for MVP running the",
+      "words": []
+    },
+    {
+      "start": 1207.0800000000002,
+      "end": 1212.68,
+      "text": "creation of SAP servers that it does back orchestration, dynamo standards and parameter compliance",
+      "words": []
+    },
+    {
+      "start": 1212.68,
+      "end": 1219.0,
+      "text": "within rabbit files. Then a validation mindset to think that every time generate codes it becomes",
+      "words": []
+    },
+    {
+      "start": 1219.0,
+      "end": 1226.76,
+      "text": "useful only after gates and review the check of the code is crucial in these cases because it's",
+      "words": []
+    },
+    {
+      "start": 1226.76,
+      "end": 1233.32,
+      "text": "ownership is diligence and discernment and an organizational model more contributors create",
+      "words": []
+    },
+    {
+      "start": 1233.32,
+      "end": 1242.68,
+      "text": "automation developer still owns the garbage. So automation can begin with both clarity,",
+      "words": []
+    },
+    {
+      "start": 1242.68,
+      "end": 1249.64,
+      "text": "coding remains essential but it not longer has to be the only place creation starts. Imagine a firm",
+      "words": []
+    },
+    {
+      "start": 1249.64,
+      "end": 1254.76,
+      "text": "with a big coordinator of the scripts I complied and check on Monday and by Wednesday hurting runs",
+      "words": []
+    },
+    {
+      "start": 1255.32,
+      "end": 1260.44,
+      "text": "wrong seed on every project not because she learned the code but because she had access to it",
+      "words": []
+    },
+    {
+      "start": 1261.16,
+      "end": 1264.6,
+      "text": "and that's what we're building toward and the tools to start are ready here.",
+      "words": []
+    },
+    {
+      "start": 1269.96,
+      "end": 1275.56,
+      "text": "So feel free to contact us there are the links around it so if you have any questions so you want",
+      "words": []
+    },
+    {
+      "start": 1275.56,
+      "end": 1278.52,
+      "text": "to make this deployment faster and as well like",
+      "words": []
+    },
+    {
+      "start": 1278.68,
+      "end": 1288.68,
+      "text": "yeah and still I think we mean not in this case but there's going to be space for questions",
+      "words": []
+    },
+    {
+      "start": 1290.6,
+      "end": 1295.8799999999999,
+      "text": "you can send it and as well more than happy to collaborate and we both hope that you have enjoyed",
+      "words": []
+    },
+    {
+      "start": 1295.8799999999999,
+      "end": 1302.6,
+      "text": "this presentation so that it states so thank you.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:08:17.783720+00:00"
+}

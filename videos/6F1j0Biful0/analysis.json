@@ -1,0 +1,56 @@
+{
+  "video_id": "6F1j0Biful0",
+  "demo_timestamps": [
+    {
+      "start": 108.0,
+      "end": 135.0,
+      "description": "Automated quality control using computer vision in AEC."
+    },
+    {
+      "start": 239.0,
+      "end": 290.0,
+      "description": "Automated prefabrication and assembly using robotics in AEC."
+    },
+    {
+      "start": 372.0,
+      "end": 411.0,
+      "description": "Automated specification matching using RAG in BIM requirements."
+    }
+  ],
+  "themes": [
+    "AI capabilities in AEC",
+    "Comparison of algorithms and AI",
+    "Application of AI technologies based on human capabilities"
+  ],
+  "client_mentions": [],
+  "autodesk_products": [
+    {
+      "name": "BIM 360",
+      "is_api": false,
+      "timestamp": 480.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "Computer Vision",
+      "category": "ml",
+      "context": "Computer vision for automated quality control and object recognition in AEC.",
+      "timestamp": 58.0
+    },
+    {
+      "name": "NLP",
+      "category": "llm",
+      "context": "NLP for automated compliance checking and issue tracking.",
+      "timestamp": 191.0
+    },
+    {
+      "name": "RAG",
+      "category": "rag",
+      "context": "RAG for automated specification matching in BIM requirements.",
+      "timestamp": 375.0
+    }
+  ],
+  "summary": "The video discusses the role of AI in the AEC industry, mapping human capabilities to AI technologies such as computer vision, NLP, and RAG systems. It highlights specific applications like quality control, compliance checking, and specification matching, emphasizing the power of data-driven AI tools. It also differentiates algorithms from AI, framing AI as adaptable and learning from data.",
+  "_complete": true,
+  "_saved_at": "2026-04-23T00:07:21.984202+00:00"
+}

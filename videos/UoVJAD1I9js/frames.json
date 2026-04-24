@@ -1,0 +1,244 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UoVJAD1I9js\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation titled 'From plans and point clouds to FM-ready digital twins with APS and ACC'.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "15.04.2026",
+        "From plans and point clouds to FM-ready digital twins with APS and ACC"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UoVJAD1I9js\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide presenting information about Martin Loucka, founder and managing director at ioLabs AG with expertise in digital planning.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "Martin Loucka",
+        "Founder and managing director",
+        "ioLabs AG",
+        "HSLU in Lucerne"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UoVJAD1I9js\\frames\\frame_000006.jpg",
+      "timestamp_seconds": 150.0,
+      "frame_index": 6,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide from an Autodesk DevCon presentation featuring information about Sven-Eric Schapke, including his role and affiliations.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Sven-Eric Schapke",
+        "auxalia WESTCAM Group",
+        "First 'BIM' model in 2000",
+        "Technical University of Dresden",
+        "Thinkproject",
+        "LocLab part of Hexagon",
+        "Active in standardization"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UoVJAD1I9js\\frames\\frame_000008.jpg",
+      "timestamp_seconds": 210.0,
+      "frame_index": 8,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide presentation discussing challenges in facility management with topics on demands, data gaps, and AI analytics.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Challenges & Chances in Facility Management"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UoVJAD1I9js\\frames\\frame_000011.jpg",
+      "timestamp_seconds": 300.0,
+      "frame_index": 11,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide discussing challenges and opportunities in Facility Management, featuring analog and digital data issues.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Challenges & Chances in Facility Management"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UoVJAD1I9js\\frames\\frame_000016.jpg",
+      "timestamp_seconds": 450.0,
+      "frame_index": 16,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide explaining the Minimal BIM Approach with ioFM, including input data, models, and applications.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Input Data",
+        "Models in ioFM",
+        "Applications & Data Exports"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UoVJAD1I9js\\frames\\frame_000019.jpg",
+      "timestamp_seconds": 540.0,
+      "frame_index": 19,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide showing an interior view in ioFM, with various assets and issues marked in a digital model.",
+      "products_visible": [
+        "Autodesk",
+        "ioFM"
+      ],
+      "ui_elements": [
+        "Assets",
+        "Issues",
+        "Facility management"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UoVJAD1I9js\\frames\\frame_000033.jpg",
+      "timestamp_seconds": 960.0,
+      "frame_index": 33,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a demonstration of the ioFM Web Application's project management interface.",
+      "products_visible": [
+        "ioFM",
+        "Autodesk DevCon"
+      ],
+      "ui_elements": [
+        "Facility management",
+        "Projects",
+        "Create project",
+        "Fill in project details",
+        "Add sites",
+        "Add buildings",
+        "Upload files",
+        "Submit modeling request",
+        "Next Steps"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UoVJAD1I9js\\frames\\frame_000038.jpg",
+      "timestamp_seconds": 1110.0,
+      "frame_index": 38,
+      "category": "demo",
+      "keep": true,
+      "description": "The video frame shows a demonstration of the ioFM Web Application, specifically focusing on room management features.",
+      "products_visible": [
+        "Autodesk",
+        "ioFM"
+      ],
+      "ui_elements": [
+        "Room management",
+        "Projects",
+        "Facility management",
+        "ioFM Web Application",
+        "Export"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UoVJAD1I9js\\frames\\frame_000040.jpg",
+      "timestamp_seconds": 1170.0,
+      "frame_index": 40,
+      "category": "demo",
+      "keep": true,
+      "description": "The video frame shows a demo of the ioFM Web Application focused on assets, with asset details and a 3D view of a room.",
+      "products_visible": [
+        "Autodesk",
+        "ioFM Web Application"
+      ],
+      "ui_elements": [
+        "Assets",
+        "Facility management",
+        "Asset details: Chair"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UoVJAD1I9js\\frames\\frame_000045.jpg",
+      "timestamp_seconds": 1320.0,
+      "frame_index": 45,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide about the digitization of an armasuisse campus showing floor plan inputs and a 3D model, presented at Autodesk DevCon.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Digitization of an armasuisse campus",
+        "Input",
+        "Client"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UoVJAD1I9js\\frames\\frame_000049.jpg",
+      "timestamp_seconds": 1440.0,
+      "frame_index": 49,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses a Montessori School project involving floor plans and point clouds as inputs, with images of a 3D model and interior.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UoVJAD1I9js\\frames\\frame_000051.jpg",
+      "timestamp_seconds": 1500.0,
+      "frame_index": 51,
+      "category": "demo",
+      "keep": true,
+      "description": "A demonstration of a facility management tool showcasing a 3D model of a Montesori school, with room management and export options.",
+      "products_visible": [
+        "Autodesk DevCon",
+        "ioFM"
+      ],
+      "ui_elements": [
+        "Facility management",
+        "Room management",
+        "Export models",
+        "View",
+        "Show all rooms",
+        "IFC model",
+        "Export"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\UoVJAD1I9js\\frames\\frame_000057.jpg",
+      "timestamp_seconds": 1680.0,
+      "frame_index": 57,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide highlights the technical aspects of CRUD API development with over 700 endpoints, emphasizing integration with third-party products and MCP servers.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Technical highlights",
+        "CRUD API"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:33:32.858259+00:00"
+}

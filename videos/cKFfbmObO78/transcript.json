@@ -1,0 +1,517 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.5,
+      "text": "Hello everyone, I'm Pedro Nadal, a developer advocate at Autodesk,",
+      "words": []
+    },
+    {
+      "start": 5.5,
+      "end": 8.32,
+      "text": "working with Autodesk Platform Services.",
+      "words": []
+    },
+    {
+      "start": 8.32,
+      "end": 13.280000000000001,
+      "text": "But before joining Autodesk, I worked in architecture and engineering projects.",
+      "words": []
+    },
+    {
+      "start": 13.280000000000001,
+      "end": 15.38,
+      "text": "I was developing RevitAdins,",
+      "words": []
+    },
+    {
+      "start": 15.38,
+      "end": 17.38,
+      "text": "Automating Repetitive Tasks,",
+      "words": []
+    },
+    {
+      "start": 17.38,
+      "end": 20.28,
+      "text": "Supporting Beam Managers and Coordinators.",
+      "words": []
+    },
+    {
+      "start": 20.28,
+      "end": 23.2,
+      "text": "So what I'm sharing today is in theory.",
+      "words": []
+    },
+    {
+      "start": 23.2,
+      "end": 28.16,
+      "text": "It's coming straight from my hands-on experience as an architect.",
+      "words": []
+    },
+    {
+      "start": 29.16,
+      "end": 34.76,
+      "text": "Today, I want to hold you through what I see as the evolution of Beam Project setup.",
+      "words": []
+    },
+    {
+      "start": 34.76,
+      "end": 39.76,
+      "text": "We started with Manual Setup, you know, Enlist Checklist.",
+      "words": []
+    },
+    {
+      "start": 39.76,
+      "end": 46.760000000000005,
+      "text": "Then we build desktop automation, think of Dynamo Scripts and C-Sharp Addings.",
+      "words": []
+    },
+    {
+      "start": 46.760000000000005,
+      "end": 51.260000000000005,
+      "text": "Recently, we got Cloud Automation.",
+      "words": []
+    },
+    {
+      "start": 51.260000000000005,
+      "end": 56.260000000000005,
+      "text": "And we are starting to see our Phanomous orchestration.",
+      "words": []
+    },
+    {
+      "start": 56.66,
+      "end": 60.559999999999995,
+      "text": "Imagine the system thinking ahead for you.",
+      "words": []
+    },
+    {
+      "start": 60.559999999999995,
+      "end": 66.86,
+      "text": "I want to show you these evolutions through a problem I face myself many times.",
+      "words": []
+    },
+    {
+      "start": 66.86,
+      "end": 70.56,
+      "text": "I call it the Monday Morning Problem.",
+      "words": []
+    },
+    {
+      "start": 70.56,
+      "end": 72.86,
+      "text": "Okay, it's Monday Morning.",
+      "words": []
+    },
+    {
+      "start": 72.86,
+      "end": 75.16,
+      "text": "The Project Manager walks in and says,",
+      "words": []
+    },
+    {
+      "start": 75.16,
+      "end": 80.66,
+      "text": "Congratulations, we want three new projects, we start next week.",
+      "words": []
+    },
+    {
+      "start": 80.66,
+      "end": 84.66,
+      "text": "And Beam Managers know exactly what that means.",
+      "words": []
+    },
+    {
+      "start": 84.75999999999999,
+      "end": 87.16,
+      "text": "Before design even starts,",
+      "words": []
+    },
+    {
+      "start": 87.16,
+      "end": 94.75999999999999,
+      "text": "Project Setup, folder structure, discipline models, templates, sheets, links,",
+      "words": []
+    },
+    {
+      "start": 94.75999999999999,
+      "end": 96.66,
+      "text": "this is in Design Work.",
+      "words": []
+    },
+    {
+      "start": 96.66,
+      "end": 99.16,
+      "text": "It's operational overhead.",
+      "words": []
+    },
+    {
+      "start": 99.16,
+      "end": 104.75999999999999,
+      "text": "And it happens again and again and again.",
+      "words": []
+    },
+    {
+      "start": 104.75999999999999,
+      "end": 106.96,
+      "text": "We automated it right.",
+      "words": []
+    },
+    {
+      "start": 106.96,
+      "end": 113.25999999999999,
+      "text": "We have Repetadins, Dynamo Scripts, Excel Macros, batch processes.",
+      "words": []
+    },
+    {
+      "start": 113.36,
+      "end": 116.56,
+      "text": "But what still opens?",
+      "words": []
+    },
+    {
+      "start": 116.56,
+      "end": 119.56,
+      "text": "Rabbit.",
+      "words": []
+    },
+    {
+      "start": 119.56,
+      "end": 125.26,
+      "text": "Which means a machine runs it, a user triggers it, it depends on a UI,",
+      "words": []
+    },
+    {
+      "start": 125.26,
+      "end": 127.36,
+      "text": "it depends on a session.",
+      "words": []
+    },
+    {
+      "start": 127.36,
+      "end": 129.66,
+      "text": "It's automated, yes.",
+      "words": []
+    },
+    {
+      "start": 129.66,
+      "end": 132.06,
+      "text": "But it's not scalable.",
+      "words": []
+    },
+    {
+      "start": 132.06,
+      "end": 139.76,
+      "text": "What if instead of three new projects, the Project Manager says you want ten projects?",
+      "words": []
+    },
+    {
+      "start": 139.76,
+      "end": 142.66,
+      "text": "Now let me ask you another question.",
+      "words": []
+    },
+    {
+      "start": 142.76,
+      "end": 148.46,
+      "text": "What if you've Revit was a part of the setup workflow at all?",
+      "words": []
+    },
+    {
+      "start": 148.46,
+      "end": 151.76,
+      "text": "What if the control plane moved to the platform?",
+      "words": []
+    },
+    {
+      "start": 151.76,
+      "end": 160.26,
+      "text": "No UI, no desktop dependency, no someone clicking link model, just APIs?",
+      "words": []
+    },
+    {
+      "start": 160.26,
+      "end": 164.16,
+      "text": "That's where Autodesk Platform Services changes the game.",
+      "words": []
+    },
+    {
+      "start": 164.16,
+      "end": 169.76,
+      "text": "Revit remains the authoring tool, but provisioning becomes a cloud operation.",
+      "words": []
+    },
+    {
+      "start": 169.85999999999999,
+      "end": 174.85999999999999,
+      "text": "And once a provisioning leaves in the cloud, it becomes scalable.",
+      "words": []
+    },
+    {
+      "start": 177.56,
+      "end": 180.35999999999999,
+      "text": "Now I want to show you a real demo.",
+      "words": []
+    },
+    {
+      "start": 180.35999999999999,
+      "end": 186.66,
+      "text": "This is a small web application I built using .NET and APS.",
+      "words": []
+    },
+    {
+      "start": 186.66,
+      "end": 192.16,
+      "text": "In this example, the user selects target folder, a rapid template,",
+      "words": []
+    },
+    {
+      "start": 192.16,
+      "end": 199.06,
+      "text": "and can name the new models feeling a form with the name in the starters related to the folder.",
+      "words": []
+    },
+    {
+      "start": 199.16,
+      "end": 202.16,
+      "text": "And when they click create models,",
+      "words": []
+    },
+    {
+      "start": 202.16,
+      "end": 210.16,
+      "text": "it will run automation API behind the scenes and create a work item for each model.",
+      "words": []
+    },
+    {
+      "start": 210.16,
+      "end": 212.16,
+      "text": "Running in parallel.",
+      "words": []
+    },
+    {
+      "start": 217.46,
+      "end": 222.46,
+      "text": "Then after creating the models, we can see them in a links matrix.",
+      "words": []
+    },
+    {
+      "start": 222.46,
+      "end": 228.26,
+      "text": "And we can link them each other using a web browser even from a phone.",
+      "words": []
+    },
+    {
+      "start": 228.35999999999999,
+      "end": 233.56,
+      "text": "No Revit UI, no desktop session, everything runs in the cloud.",
+      "words": []
+    },
+    {
+      "start": 233.56,
+      "end": 236.06,
+      "text": "The Beam Manager doesn't open a file.",
+      "words": []
+    },
+    {
+      "start": 236.06,
+      "end": 238.35999999999999,
+      "text": "They provision infrastructure.",
+      "words": []
+    },
+    {
+      "start": 242.85999999999999,
+      "end": 245.56,
+      "text": "Once this setup becomes API-driven,",
+      "words": []
+    },
+    {
+      "start": 245.56,
+      "end": 254.66,
+      "text": "it becomes repeatable, scalable, version, even driven, and agent-ready.",
+      "words": []
+    },
+    {
+      "start": 254.76,
+      "end": 258.26,
+      "text": "Opening the door for orchestration and AI.",
+      "words": []
+    },
+    {
+      "start": 259.26,
+      "end": 261.26,
+      "text": "Let me show you another demo.",
+      "words": []
+    },
+    {
+      "start": 263.36,
+      "end": 265.76,
+      "text": "Once your automations are cloud-ready,",
+      "words": []
+    },
+    {
+      "start": 265.76,
+      "end": 271.76,
+      "text": "you can go one step forward and convert them into MCP tools and skills.",
+      "words": []
+    },
+    {
+      "start": 271.76,
+      "end": 277.36,
+      "text": "That AI agents can use to orchestrate autonomous operations.",
+      "words": []
+    },
+    {
+      "start": 277.36,
+      "end": 282.96,
+      "text": "Here you can see how an AI agent links two rapid models from simple instructions.",
+      "words": []
+    },
+    {
+      "start": 285.06,
+      "end": 291.96000000000004,
+      "text": "Now that you can talk to an agent to do things on your behalf,",
+      "words": []
+    },
+    {
+      "start": 291.96000000000004,
+      "end": 296.96000000000004,
+      "text": "you can go one another step forward and enter the agentic ecosystems.",
+      "words": []
+    },
+    {
+      "start": 296.96000000000004,
+      "end": 300.96000000000004,
+      "text": "Having the software engineering sector as a reference,",
+      "words": []
+    },
+    {
+      "start": 300.96000000000004,
+      "end": 306.96000000000004,
+      "text": "we see that you can create a space-like agents to perform tasks within their own responsibilities.",
+      "words": []
+    },
+    {
+      "start": 308.26000000000005,
+      "end": 311.76000000000005,
+      "text": "Then looking to our sector, we could do the same.",
+      "words": []
+    },
+    {
+      "start": 311.86,
+      "end": 316.56,
+      "text": "And create a space-like agent based on the roles of an AC project.",
+      "words": []
+    },
+    {
+      "start": 316.56,
+      "end": 322.06,
+      "text": "A project manager agent, a Beam Manager agent, a Beam Coordinator agent.",
+      "words": []
+    },
+    {
+      "start": 325.06,
+      "end": 330.56,
+      "text": "We also see how software development productivity has increased with these types of patterns.",
+      "words": []
+    },
+    {
+      "start": 330.56,
+      "end": 335.76,
+      "text": "Where a software engineer can review the work of an entire team of coding agents",
+      "words": []
+    },
+    {
+      "start": 335.76,
+      "end": 338.76,
+      "text": "without writing a single line of code.",
+      "words": []
+    },
+    {
+      "start": 339.76,
+      "end": 343.56,
+      "text": "What if we bring these patterns into AC?",
+      "words": []
+    },
+    {
+      "start": 343.56,
+      "end": 349.06,
+      "text": "A Beam Manager could review the work of a team of Beam Coordinator agents.",
+      "words": []
+    },
+    {
+      "start": 351.56,
+      "end": 355.06,
+      "text": "Once the entire agentic ecosystem is set up,",
+      "words": []
+    },
+    {
+      "start": 355.06,
+      "end": 359.06,
+      "text": "you can chain all these processes into agent workflows.",
+      "words": []
+    },
+    {
+      "start": 359.06,
+      "end": 362.56,
+      "text": "Imagine a new project is added to your ERP.",
+      "words": []
+    },
+    {
+      "start": 363.56,
+      "end": 369.16,
+      "text": "It triggers a PM agent and starts collecting the necessary information.",
+      "words": []
+    },
+    {
+      "start": 370.16,
+      "end": 375.16,
+      "text": "Then it talks to the Beam Manager agent and shares the project details.",
+      "words": []
+    },
+    {
+      "start": 376.16,
+      "end": 383.36,
+      "text": "The Beam Manager agents create the project informa and adds the users, manage permissions, etc.",
+      "words": []
+    },
+    {
+      "start": 385.36,
+      "end": 392.36,
+      "text": "Then the Beam Coordinator agent to their part, create the models, links disciplines, publish models,",
+      "words": []
+    },
+    {
+      "start": 393.36,
+      "end": 397.96000000000004,
+      "text": "and you can add as many agents as necessary to the workflow.",
+      "words": []
+    },
+    {
+      "start": 398.96000000000004,
+      "end": 404.96000000000004,
+      "text": "Autodesk Platform Services enables you to remove desktop and UI dependencies.",
+      "words": []
+    },
+    {
+      "start": 404.96000000000004,
+      "end": 407.96000000000004,
+      "text": "Provision project life infrastructure",
+      "words": []
+    },
+    {
+      "start": 408.96000000000004,
+      "end": 412.96000000000004,
+      "text": "and open the door for orchestration and AI.",
+      "words": []
+    },
+    {
+      "start": 412.96000000000004,
+      "end": 413.96000000000004,
+      "text": "Thank you.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T21:59:30.849930+00:00"
+}

@@ -1,0 +1,691 @@
+{
+  "language": "pt",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.0200000000000005,
+      "text": "good morning everyone, today a presentation will focus when digital twins in",
+      "words": []
+    },
+    {
+      "start": 7.0200000000000005,
+      "end": 12.42,
+      "text": "them monitoring my name is Alberto Souza and I work as planning manager at",
+      "words": []
+    },
+    {
+      "start": 12.42,
+      "end": 19.84,
+      "text": "Valley join me is my colleague on a periera a being special this engineer",
+      "words": []
+    },
+    {
+      "start": 19.84,
+      "end": 25.52,
+      "text": "in two days agenda we will cover context and motivation being in them projects",
+      "words": []
+    },
+    {
+      "start": 25.52,
+      "end": 32.84,
+      "text": "flowing key technologies the digital twin the action impact and results",
+      "words": []
+    },
+    {
+      "start": 33.56,
+      "end": 41.08,
+      "text": "and to begin we will discuss them projects and our proposed ensuring safety",
+      "words": []
+    },
+    {
+      "start": 43.4,
+      "end": 48.879999999999995,
+      "text": "in brazil we currently have 30 structures made for decaritalization",
+      "words": []
+    },
+    {
+      "start": 48.88,
+      "end": 54.56,
+      "text": "do ito de upstream raised methodes is the program began in 2019",
+      "words": []
+    },
+    {
+      "start": 54.56,
+      "end": 60.84,
+      "text": "19 of these structures have already been eliminated as show on them on these maps",
+      "words": []
+    },
+    {
+      "start": 65.84,
+      "end": 73.84,
+      "text": "why digital twins in the monitoring we have three main motivations safety is",
+      "words": []
+    },
+    {
+      "start": 74.8,
+      "end": 79.2,
+      "text": "de monitoring the regulatory requirement essential for insurance",
+      "words": []
+    },
+    {
+      "start": 79.2,
+      "end": 86.80000000000001,
+      "text": "structural safety legal compliance in overall operation efficiency integration a digital twin",
+      "words": []
+    },
+    {
+      "start": 86.80000000000001,
+      "end": 93.12,
+      "text": "environment ensures that our waters of the project work is in sync providing reliable data",
+      "words": []
+    },
+    {
+      "start": 93.12,
+      "end": 100.08000000000001,
+      "text": "and enable faster and more informed decision making productivity and acts of human",
+      "words": []
+    },
+    {
+      "start": 100.56,
+      "end": 106.4,
+      "text": "multipliers transform in disappeared data in a create real-time information and replace in",
+      "words": []
+    },
+    {
+      "start": 106.4,
+      "end": 111.2,
+      "text": "these intelligence of the center of planning as a cushion in operational process",
+      "words": []
+    },
+    {
+      "start": 115.75999999999999,
+      "end": 122.08,
+      "text": "an instrumentation monitoring automated alerts automated system auto-foster",
+      "words": []
+    },
+    {
+      "start": 122.8,
+      "end": 128.88,
+      "text": "faster responses and more effective cross-checking when anomalies occur reducing the time",
+      "words": []
+    },
+    {
+      "start": 128.88,
+      "end": 134.72,
+      "text": "between the detection and decision making the digital twins is a virtual representation of",
+      "words": []
+    },
+    {
+      "start": 134.72,
+      "end": 142.48,
+      "text": "real structure that displays the data information about these components promotion access and",
+      "words": []
+    },
+    {
+      "start": 142.48,
+      "end": 149.6,
+      "text": "safety digital twins promotes roads democratic access information and environment and community safety",
+      "words": []
+    },
+    {
+      "start": 149.68,
+      "end": 161.2,
+      "text": "good morning my name is Hanne and I am the manager and I worked for done projects for five years",
+      "words": []
+    },
+    {
+      "start": 161.2,
+      "end": 167.28,
+      "text": "and I work at a better social leadership and I represent some technical details",
+      "words": []
+    },
+    {
+      "start": 169.12,
+      "end": 173.68,
+      "text": "let's talk about the built-in for Mature modeling the DNA of digital twin",
+      "words": []
+    },
+    {
+      "start": 173.68,
+      "end": 179.8,
+      "text": "E a primeira coisa que temos de fazer \u00e9 modelar o projeto de corrup\u00e7\u00e3o,",
+      "words": []
+    },
+    {
+      "start": 179.8,
+      "end": 185.28,
+      "text": "usando autoresco v3d, e temos um lote de challenges aqui.",
+      "words": []
+    },
+    {
+      "start": 185.28,
+      "end": 194.16,
+      "text": "E o mais challenging \u00e9 pensar em como podemos extractar solu\u00e7\u00f5es para a hidr\u00f4mitria.",
+      "words": []
+    },
+    {
+      "start": 194.16,
+      "end": 200.08,
+      "text": "E n\u00f3s vamos ver com o meu instale de usar autoresco autom\u00e1tico,",
+      "words": []
+    },
+    {
+      "start": 200.24,
+      "end": 203.0,
+      "text": "o din\u00e2mov e a autor conduzem.",
+      "words": []
+    },
+    {
+      "start": 204.02,
+      "end": 222.98000000000002,
+      "text": "E ent\u00e3o, n\u00f3s",
+      "words": []
+    },
+    {
+      "start": 222.98,
+      "end": 225.98,
+      "text": "e, como voc\u00ea pode ver em v\u00eddeo,",
+      "words": []
+    },
+    {
+      "start": 225.98,
+      "end": 227.98,
+      "text": "temos constru\u00e7\u00f5es de scatter,",
+      "words": []
+    },
+    {
+      "start": 227.98,
+      "end": 231.98,
+      "text": "spatial coordination, log\u00edstica em simulation",
+      "words": []
+    },
+    {
+      "start": 231.98,
+      "end": 234.98,
+      "text": "e tecnologia em pet control.",
+      "words": []
+    },
+    {
+      "start": 234.98,
+      "end": 237.98,
+      "text": "E usamos o AutoDesk tools",
+      "words": []
+    },
+    {
+      "start": 237.98,
+      "end": 242.98,
+      "text": "como o Power BI Connector e o Exchanger.",
+      "words": []
+    },
+    {
+      "start": 246.98,
+      "end": 248.98,
+      "text": "Log\u00edstica em simulation,",
+      "words": []
+    },
+    {
+      "start": 248.98,
+      "end": 250.98,
+      "text": "usamos o AutoDesk TV,",
+      "words": []
+    },
+    {
+      "start": 250.98,
+      "end": 254.98,
+      "text": "de plug-in e o vehicle tracking.",
+      "words": []
+    },
+    {
+      "start": 255.98,
+      "end": 259.98,
+      "text": "E os tecnologistas do clube.",
+      "words": []
+    },
+    {
+      "start": 260.98,
+      "end": 263.98,
+      "text": "E podemos ver o apresenta\u00e7\u00e3o,",
+      "words": []
+    },
+    {
+      "start": 263.98,
+      "end": 265.98,
+      "text": "o microflui simples.",
+      "words": []
+    },
+    {
+      "start": 265.98,
+      "end": 268.98,
+      "text": "E, ao primeiro, vamos come\u00e7ar",
+      "words": []
+    },
+    {
+      "start": 268.98,
+      "end": 272.98,
+      "text": "a expliqueir a moda\u00e7\u00e3o do projeto",
+      "words": []
+    },
+    {
+      "start": 272.98,
+      "end": 275.98,
+      "text": "e postar tudo em AutoDesk,",
+      "words": []
+    },
+    {
+      "start": 275.98,
+      "end": 278.88,
+      "text": "o design do Amazon e temos o",
+      "words": []
+    },
+    {
+      "start": 278.88,
+      "end": 280.98,
+      "text": "facilidade de criar o AutoDesk",
+      "words": []
+    },
+    {
+      "start": 280.98,
+      "end": 283.98,
+      "text": "e o segundo step.",
+      "words": []
+    },
+    {
+      "start": 283.98,
+      "end": 286.98,
+      "text": "O data coletivo para a IoT",
+      "words": []
+    },
+    {
+      "start": 286.98,
+      "end": 289.98,
+      "text": "instrumenta\u00e7\u00e3o e senta o gateway",
+      "words": []
+    },
+    {
+      "start": 289.98,
+      "end": 291.98,
+      "text": "e o pr\u00f3ximo step.",
+      "words": []
+    },
+    {
+      "start": 291.98,
+      "end": 294.98,
+      "text": "O processo de data transforma",
+      "words": []
+    },
+    {
+      "start": 294.98,
+      "end": 296.98,
+      "text": "e o seu sistema de facilidade",
+      "words": []
+    },
+    {
+      "start": 296.98,
+      "end": 298.98,
+      "text": "por que os payloads",
+      "words": []
+    },
+    {
+      "start": 298.98,
+      "end": 300.98,
+      "text": "e, no final,",
+      "words": []
+    },
+    {
+      "start": 300.98,
+      "end": 303.98,
+      "text": "temos o sistema de facilidade",
+      "words": []
+    },
+    {
+      "start": 303.98,
+      "end": 305.98,
+      "text": "e o sistema de facilidade",
+      "words": []
+    },
+    {
+      "start": 305.98,
+      "end": 307.98,
+      "text": "para o Microsoft",
+      "words": []
+    },
+    {
+      "start": 307.98,
+      "end": 309.98,
+      "text": "e o sistema de facilidade",
+      "words": []
+    },
+    {
+      "start": 309.98,
+      "end": 311.98,
+      "text": "e o sistema de facilidade",
+      "words": []
+    },
+    {
+      "start": 311.98,
+      "end": 313.98,
+      "text": "e o seu sistema de facilidade",
+      "words": []
+    },
+    {
+      "start": 313.98,
+      "end": 315.98,
+      "text": "por que os payloads",
+      "words": []
+    },
+    {
+      "start": 315.98,
+      "end": 317.98,
+      "text": "e o AutoDesk",
+      "words": []
+    },
+    {
+      "start": 317.98,
+      "end": 321.98,
+      "text": "e sobre os tecnologistas",
+      "words": []
+    },
+    {
+      "start": 321.98,
+      "end": 325.98,
+      "text": "separando tr\u00eas pilos aqui",
+      "words": []
+    },
+    {
+      "start": 325.98,
+      "end": 327.98,
+      "text": "e tentando conectar",
+      "words": []
+    },
+    {
+      "start": 327.98,
+      "end": 330.98,
+      "text": "para o processo de data transforma",
+      "words": []
+    },
+    {
+      "start": 330.98,
+      "end": 332.98,
+      "text": "e continuando a libera\u00e7\u00e3o",
+      "words": []
+    },
+    {
+      "start": 332.98,
+      "end": 334.98,
+      "text": "de autodesk tendo",
+      "words": []
+    },
+    {
+      "start": 334.98,
+      "end": 338.98,
+      "text": "e o seu autom\u00e1tico",
+      "words": []
+    },
+    {
+      "start": 338.98,
+      "end": 340.98,
+      "text": "para continuar a data captural",
+      "words": []
+    },
+    {
+      "start": 340.98,
+      "end": 342.98,
+      "text": "para tr\u00eas figuras",
+      "words": []
+    },
+    {
+      "start": 342.98,
+      "end": 343.98,
+      "text": "e a libera\u00e7\u00e3o",
+      "words": []
+    },
+    {
+      "start": 343.98,
+      "end": 345.98,
+      "text": "para a corporeche de cada dia.",
+      "words": []
+    },
+    {
+      "start": 345.98,
+      "end": 347.98,
+      "text": "E o AutoDesk tendo",
+      "words": []
+    },
+    {
+      "start": 347.98,
+      "end": 349.98,
+      "text": "para visualizar",
+      "words": []
+    },
+    {
+      "start": 349.98,
+      "end": 351.98,
+      "text": "o seu time em condi\u00e7\u00e3o",
+      "words": []
+    },
+    {
+      "start": 351.98,
+      "end": 353.98,
+      "text": "com tr\u00eas modulos e",
+      "words": []
+    },
+    {
+      "start": 353.98,
+      "end": 354.98,
+      "text": "tr\u00eas problemas de trabalho",
+      "words": []
+    },
+    {
+      "start": 354.98,
+      "end": 358.98,
+      "text": "sobre a facilidade.",
+      "words": []
+    },
+    {
+      "start": 358.98,
+      "end": 361.98,
+      "text": "E aqui temos o digital",
+      "words": []
+    },
+    {
+      "start": 361.98,
+      "end": 363.98,
+      "text": "em acci\u00f3n",
+      "words": []
+    },
+    {
+      "start": 363.98,
+      "end": 365.98,
+      "text": "como podemos ver o ideal",
+      "words": []
+    },
+    {
+      "start": 365.98,
+      "end": 368.58000000000004,
+      "text": "o AutoDesk tendo",
+      "words": []
+    },
+    {
+      "start": 368.58000000000004,
+      "end": 369.94,
+      "text": "em condi\u00e7\u00f5es e",
+      "words": []
+    },
+    {
+      "start": 369.94,
+      "end": 371.98,
+      "text": "o seu time em data",
+      "words": []
+    },
+    {
+      "start": 371.98,
+      "end": 373.98,
+      "text": "para o seu sistema de payloads",
+      "words": []
+    },
+    {
+      "start": 373.98,
+      "end": 376.98,
+      "text": "e temos tr\u00eas modulos",
+      "words": []
+    },
+    {
+      "start": 376.98,
+      "end": 378.98,
+      "text": "da instrumenta\u00e7\u00e3o",
+      "words": []
+    },
+    {
+      "start": 378.98,
+      "end": 380.98,
+      "text": "e o seu autom\u00e1tico",
+      "words": []
+    },
+    {
+      "start": 380.98,
+      "end": 382.98,
+      "text": "conectado em um lugar",
+      "words": []
+    },
+    {
+      "start": 382.98,
+      "end": 384.98,
+      "text": "com os resultados autom\u00e1ticos",
+      "words": []
+    },
+    {
+      "start": 384.98,
+      "end": 386.98,
+      "text": "e os agentes de tomas",
+      "words": []
+    },
+    {
+      "start": 386.98,
+      "end": 390.98,
+      "text": "e n\u00f3s podemos predictar",
+      "words": []
+    },
+    {
+      "start": 390.98,
+      "end": 392.98,
+      "text": "os problemas ap PayPal",
+      "words": []
+    },
+    {
+      "start": 392.98,
+      "end": 394.98,
+      "text": "e n\u00f3s estamos \u00e0 stalk",
+      "words": []
+    },
+    {
+      "start": 394.98,
+      "end": 396.98,
+      "text": "do seu essential che's",
+      "words": []
+    },
+    {
+      "start": 396.98,
+      "end": 399.66,
+      "text": "e hum, nasavoir",
+      "words": []
+    },
+    {
+      "start": 399.66,
+      "end": 401.26,
+      "text": "e n\u00f3s podemos predictar",
+      "words": []
+    },
+    {
+      "start": 401.26,
+      "end": 403.26,
+      "text": "o\ud5a5.",
+      "words": []
+    },
+    {
+      "start": 408.94,
+      "end": 412.94,
+      "text": "Ent\u00e3o impact Wetals",
+      "words": []
+    },
+    {
+      "start": 412.94,
+      "end": 414.98,
+      "text": "e os mesmos",
+      "words": []
+    },
+    {
+      "start": 415.98,
+      "end": 417.92,
+      "text": "cometem os documentos com",
+      "words": []
+    },
+    {
+      "start": 417.92,
+      "end": 423.04,
+      "text": "o tipo de encrypted comemora awkward...",
+      "words": []
+    },
+    {
+      "start": 424.14000000000004,
+      "end": 441.02000000000004,
+      "text": "Pubita simulations de control dotic",
+      "words": []
+    },
+    {
+      "start": 441.02,
+      "end": 447.28,
+      "text": "na \u060c eu re veux um pouco mais de experiences passando para mais 20 anos em",
+      "words": []
+    },
+    {
+      "start": 447.28,
+      "end": 452.02,
+      "text": "productivity e o projeto faz, para essa przevem\u00e7\u00e3o ocorritaam",
+      "words": []
+    },
+    {
+      "start": 452.02,
+      "end": 455.82,
+      "text": "o que consegue para o sistema.",
+      "words": []
+    },
+    {
+      "start": 455.82,
+      "end": 463.2,
+      "text": "Ac enamore, crida no sistema de explodimento e o",
+      "words": []
+    },
+    {
+      "start": 463.2,
+      "end": 468.9,
+      "text": "Unternehmen de enquanto v\u00e3o fazer processos e yr Steam seu",
+      "words": []
+    },
+    {
+      "start": 468.9,
+      "end": 473.17999999999995,
+      "text": "e para eu tirar animais ou\u00eemos na\u044b\u0432\u0430\u0442\u044c,",
+      "words": []
+    },
+    {
+      "start": 473.17999999999995,
+      "end": 476.96,
+      "text": "e deixar o qual que olhem\u03b9 aos projetos e annar Se palms.",
+      "words": []
+    },
+    {
+      "start": 478.96,
+      "end": 482.96,
+      "text": "Ent\u00e3o, em apresenta\u00e7\u00e3o a Thomasading,",
+      "words": []
+    },
+    {
+      "start": 482.96,
+      "end": 490.21999999999997,
+      "text": "no evento, n\u00e3o tenho ilhas, tenho apenas 1.000\u5728athon ingleses cabe write e idiotamente me contemplares,",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:27:22.824889+00:00"
+}

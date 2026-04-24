@@ -1,0 +1,175 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\LSmmc98bpyo\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "Introduction slide showing the speaker names, their roles, and affiliations at Autodesk DevCon.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Speaker Introduction",
+        "Josha van Reij",
+        "Ionut-Adrian Birsan"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\LSmmc98bpyo\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide features a quote about building AI agents on Autodesk Platform Services, emphasizing the importance of API security.",
+      "products_visible": [
+        "Autodesk Platform Services"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "quote"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\LSmmc98bpyo\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing the APIs used for agents at Arcadis, with a focus on scaling automation without risk.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "APIs use for agents at Arcadis",
+        "Traditional APS API",
+        "PKCE APS API",
+        "SSA APS API",
+        "MCP Auth for APS API"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\LSmmc98bpyo\\frames\\frame_000005.jpg",
+      "timestamp_seconds": 120.0,
+      "frame_index": 5,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation discussing APIs used for agents at Arcadis, focusing on automation and risk management.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Traditional APS API",
+        "PKCE APS API",
+        "SSA APS API",
+        "MCP Auth for APS API"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\LSmmc98bpyo\\frames\\frame_000008.jpg",
+      "timestamp_seconds": 210.0,
+      "frame_index": 8,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing privileged users, the use of 2LO in APIs, and cross-project financial and risk analytics.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "What we use today",
+        "Traditional APS API",
+        "2LO",
+        "Cross-project financial and risk analytics for management"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\LSmmc98bpyo\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing privileged users and 2LO access to data in Autodesk's API, with a diagram and a UI screenshot of a project control tool.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "What we use today",
+        "2LO",
+        "Traditional APS API",
+        "PROJECT CONTROL TOOL"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\LSmmc98bpyo\\frames\\frame_000018.jpg",
+      "timestamp_seconds": 510.0,
+      "frame_index": 18,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon presenting current implementations, including 2-legged tokens and an SSA-based system.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "2-legged token for users",
+        "SSA-based insights",
+        "MCP integrated in Autodesk assistant"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\LSmmc98bpyo\\frames\\frame_000020.jpg",
+      "timestamp_seconds": 570.0,
+      "frame_index": 20,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses the impact of expanding access from limited to company-wide, transitioning from stand-alone agents to interconnected agents, and gaining cross-project insights, with a 55% user-base increase.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Impact",
+        "Autonomous Agents",
+        "Unified Data",
+        "55%"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\LSmmc98bpyo\\frames\\frame_000021.jpg",
+      "timestamp_seconds": 600.0,
+      "frame_index": 21,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing the Arcadis next steps timeline from 2026 with key dates and technology integrations.",
+      "products_visible": [
+        "Autodesk",
+        "Arcadis",
+        "Autodesk Forma Assistant",
+        "Autodesk Revit Assistant"
+      ],
+      "ui_elements": [
+        "Arcadis next steps timeline",
+        "We are here",
+        "May 2026",
+        "July 2026",
+        "September 2026",
+        "November 2026",
+        "Next steps for Arcadis"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\LSmmc98bpyo\\frames\\frame_000022.jpg",
+      "timestamp_seconds": 630.0,
+      "frame_index": 22,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:47:21.977429+00:00"
+}

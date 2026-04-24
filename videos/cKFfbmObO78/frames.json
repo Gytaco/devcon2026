@@ -1,0 +1,131 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\cKFfbmObO78\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\cKFfbmObO78\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing the evolution of BIM project setup from manual setup to desktop automation.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Evolution of BIM Project Setup",
+        "Manual Setup",
+        "Desktop Automation"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\cKFfbmObO78\\frames\\frame_000005.jpg",
+      "timestamp_seconds": 120.0,
+      "frame_index": 5,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide discussing automation in Revit, mentioning various automated tools but highlighting scalability issues.",
+      "products_visible": [
+        "Autodesk",
+        "Revit"
+      ],
+      "ui_elements": [
+        "Revit Add-ins",
+        "Dynamo scripts",
+        "Excel macros",
+        "Batch processes"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\cKFfbmObO78\\frames\\frame_000007.jpg",
+      "timestamp_seconds": 180.0,
+      "frame_index": 7,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a demonstration of creating Revit cloud models with Autodesk APS, highlighting APIs used.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Data Management API",
+        "Naming Standards API",
+        "Automation API",
+        "Revit API",
+        "Generate Model Names"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\cKFfbmObO78\\frames\\frame_000010.jpg",
+      "timestamp_seconds": 270.0,
+      "frame_index": 10,
+      "category": "demo",
+      "keep": true,
+      "description": "This frame shows a demonstration involving the Revit API commands and the MCP Server for Automation API at Autodesk DevCon.",
+      "products_visible": [
+        "Autodesk",
+        "Revit",
+        "MCP Server"
+      ],
+      "ui_elements": [
+        "Automation API",
+        "Describe your Revit API commands as MCP Tools"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\cKFfbmObO78\\frames\\frame_000011.jpg",
+      "timestamp_seconds": 300.0,
+      "frame_index": 11,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing 'Agentic Ecosystems' with a list of agents under Software Engineering and AEC categories.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Agentic Ecosystems",
+        "Software Engineering",
+        "AEC",
+        "Coding Agent",
+        "Cloud Architect Agent",
+        "UX/UI Agent",
+        "QA Agent",
+        "DevOps Agent",
+        "PM Agent",
+        "BIM Manager Agent",
+        "BIM Coordinator Agent",
+        "Design Manager Agent",
+        "Architect Agent",
+        "Mechanical Engineer Agent",
+        "Structural Engineer Agent"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\cKFfbmObO78\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon showing the concept of agentic ecosystems in software engineering and AEC, with coding and BIM coordinator agents.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Agentic Ecosystems",
+        "(Real) Software Engineer",
+        "Coding Agent",
+        "(Real) BIM Manager",
+        "BIM Coordinator Agent"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T21:59:49.666391+00:00"
+}

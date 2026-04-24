@@ -1,0 +1,286 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CMfjfHtmUUw\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "The video frame displays a slide introducing best practices for managing Autodesk Platform Services usage within the Autodesk DevCon event.",
+      "products_visible": [
+        "Autodesk Platform Services"
+      ],
+      "ui_elements": [
+        "Navigating through the new Autodesk Platform Services business model",
+        "Best practices to manage your APS usage"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CMfjfHtmUUw\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide detailing the Autodesk Platform Services offering, including Free and Paid Tiers with payment options.",
+      "products_visible": [
+        "Autodesk Platform Services"
+      ],
+      "ui_elements": [
+        "Free Tier",
+        "Paid Tier",
+        "Prepay",
+        "Pay As You Go",
+        "QR Code"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CMfjfHtmUUw\\frames\\frame_000005.jpg",
+      "timestamp_seconds": 120.0,
+      "frame_index": 5,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "DevCon",
+        "How do I better manage my Autodesk Platform Services subscription?"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CMfjfHtmUUw\\frames\\frame_000006.jpg",
+      "timestamp_seconds": 150.0,
+      "frame_index": 6,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses the importance of visibility and control in managing API usage, emphasizing the concept that 'you can\u2019t manage what you can\u2019t see.'",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "DevCon",
+        "You can\u2019t manage what you can\u2019t see!",
+        "Visibility",
+        "API Usage",
+        "Control"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CMfjfHtmUUw\\frames\\frame_000007.jpg",
+      "timestamp_seconds": 180.0,
+      "frame_index": 7,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'Control' is visible, possibly part of an Autodesk presentation.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Control"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CMfjfHtmUUw\\frames\\frame_000008.jpg",
+      "timestamp_seconds": 210.0,
+      "frame_index": 8,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide shows the APS Developer hub with a focus on adding a member through a user interface pop-up.",
+      "products_visible": [
+        "Autodesk Platform Services"
+      ],
+      "ui_elements": [
+        "Add member",
+        "Add someone to the hub",
+        "Email",
+        "Access level",
+        "Add",
+        "Cancel"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CMfjfHtmUUw\\frames\\frame_000009.jpg",
+      "timestamp_seconds": 240.0,
+      "frame_index": 9,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon showing the APS Developer Hub interface with a list of applications.",
+      "products_visible": [
+        "Autodesk Platform Services"
+      ],
+      "ui_elements": [
+        "Applications",
+        "Create application",
+        "Demo 2",
+        "Developer hubs"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CMfjfHtmUUw\\frames\\frame_000010.jpg",
+      "timestamp_seconds": 270.0,
+      "frame_index": 10,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents bulk action features for quick processes, including bulk adding members and app actions.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Hub members",
+        "Applications",
+        "Invite members to hub",
+        "Bulk add members",
+        "Bulk app actions"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CMfjfHtmUUw\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon showing multiple developer hubs under one team and reasons to organize apps by certain criteria.",
+      "products_visible": [
+        "Autodesk",
+        "APS Developer Hub"
+      ],
+      "ui_elements": [
+        "Products and services",
+        "Hub Name",
+        "Team",
+        "Use when you need to organize apps by"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CMfjfHtmUUw\\frames\\frame_000017.jpg",
+      "timestamp_seconds": 480.0,
+      "frame_index": 17,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide from Autodesk DevCon featuring APS usage reporting with details on token balance.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "APS usage reporting",
+        "Balances and Forecasts",
+        "Today's token balance",
+        "View usage details"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CMfjfHtmUUw\\frames\\frame_000021.jpg",
+      "timestamp_seconds": 600.0,
+      "frame_index": 21,
+      "category": "slides",
+      "keep": true,
+      "description": "This slide from a presentation at Autodesk DevCon outlines best practices for using usage reporting.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Best practices while using usage reporting",
+        "Use Free Tier",
+        "Using Flex / T-Flex / Pay as you go",
+        "Use Pay as you go"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CMfjfHtmUUw\\frames\\frame_000024.jpg",
+      "timestamp_seconds": 690.0,
+      "frame_index": 24,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide introduces 'Included Usage' for product subscriptions, detailing API usage capacity and payment options.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Included Usage",
+        "Pre-paid (Tokens)",
+        "Pay as You Go",
+        "Included with Product Subscriptions",
+        "APS Free"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CMfjfHtmUUw\\frames\\frame_000026.jpg",
+      "timestamp_seconds": 750.0,
+      "frame_index": 26,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide details Autodesk's FY27 productivity offerings, highlighting API capacity changes and product subscription pooling.",
+      "products_visible": [
+        "Autodesk",
+        "API X"
+      ],
+      "ui_elements": [
+        "Company A",
+        "TEAM A",
+        "DEV HUB A",
+        "APS FREE",
+        "API X CAPACITY"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CMfjfHtmUUw\\frames\\frame_000028.jpg",
+      "timestamp_seconds": 810.0,
+      "frame_index": 28,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide from an Autodesk DevCon presentation about notifications and accounts, including details on setting alerts.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Notifications",
+        "Accounts",
+        "Resource and API Usage",
+        "Create alert",
+        "Settings",
+        "Resource and API alerts",
+        "Scheduled exports"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CMfjfHtmUUw\\frames\\frame_000031.jpg",
+      "timestamp_seconds": 900.0,
+      "frame_index": 31,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide discussing notifications in the Dev Hub with screenshots of applications and hub settings related to API balances.",
+      "products_visible": [
+        "Autodesk",
+        "Dev Hub"
+      ],
+      "ui_elements": [
+        "Applications",
+        "Hub settings",
+        "Notifications & Alerts",
+        "API balance"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\CMfjfHtmUUw\\frames\\frame_000033.jpg",
+      "timestamp_seconds": 960.0,
+      "frame_index": 33,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing the current behavior of ISVs regarding API usage, describing two scenarios involving app and customer interactions.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Current ISVs behavior",
+        "App",
+        "API",
+        "Customers",
+        "ClientID",
+        "APS Developer Hub"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:14:46.621279+00:00"
+}

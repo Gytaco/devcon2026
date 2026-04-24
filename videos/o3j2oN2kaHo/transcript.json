@@ -1,0 +1,745 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.8000000000000003,
+      "text": "Good morning everyone and thank you for being here.",
+      "words": []
+    },
+    {
+      "start": 3.8000000000000003,
+      "end": 10.24,
+      "text": "My name is Savario Savillo, I'm an Italian solution architect at Autodesk and today we'll",
+      "words": []
+    },
+    {
+      "start": 10.24,
+      "end": 17.0,
+      "text": "be talking about how by leveraging digital twins NAI we can have decision intelligence",
+      "words": []
+    },
+    {
+      "start": 17.0,
+      "end": 24.2,
+      "text": "as a tool that can be used to enhance our operational decisions and drive return of investment",
+      "words": []
+    },
+    {
+      "start": 24.2,
+      "end": 27.52,
+      "text": "in maintenance operations.",
+      "words": []
+    },
+    {
+      "start": 27.52,
+      "end": 32.72,
+      "text": "Did you know the industrial companies lose billions of dollars every year because machines",
+      "words": []
+    },
+    {
+      "start": 32.72,
+      "end": 34.72,
+      "text": "stop unexpectedly?",
+      "words": []
+    },
+    {
+      "start": 34.72,
+      "end": 40.92,
+      "text": "Well it turns out that real problem is not in data or the machines, but rather in the",
+      "words": []
+    },
+    {
+      "start": 40.92,
+      "end": 43.519999999999996,
+      "text": "decisions made around them.",
+      "words": []
+    },
+    {
+      "start": 43.519999999999996,
+      "end": 50.32,
+      "text": "Today I want to show how digital twins can evolve from monitoring systems into decisions",
+      "words": []
+    },
+    {
+      "start": 50.32,
+      "end": 51.92,
+      "text": "and intelligence engines.",
+      "words": []
+    },
+    {
+      "start": 51.92,
+      "end": 59.32,
+      "text": "In particular we look at how operational context from Autodesk tandem and enterprise data",
+      "words": []
+    },
+    {
+      "start": 59.32,
+      "end": 66.88,
+      "text": "can be combined with agentic AI reasoning to support better operational decisions.",
+      "words": []
+    },
+    {
+      "start": 66.88,
+      "end": 74.6,
+      "text": "We look how by combining AI driven decisions value gets compounded to prevent failure or",
+      "words": []
+    },
+    {
+      "start": 74.6,
+      "end": 80.12,
+      "text": "downtime costs, increasing the return of investments.",
+      "words": []
+    },
+    {
+      "start": 80.12,
+      "end": 86.80000000000001,
+      "text": "In the manufacturing industry and plant failure represents a massive economic impact.",
+      "words": []
+    },
+    {
+      "start": 86.80000000000001,
+      "end": 94.12,
+      "text": "Studies estimate that more than 50 billion dollars are lost every year due to unexpected",
+      "words": []
+    },
+    {
+      "start": 94.12,
+      "end": 95.12,
+      "text": "downtime.",
+      "words": []
+    },
+    {
+      "start": 95.12,
+      "end": 105.04,
+      "text": "At the same time poor maintenance practices can reduce productive capacity by 5 to 20%.",
+      "words": []
+    },
+    {
+      "start": 105.04,
+      "end": 111.32000000000001,
+      "text": "Let's say what's interesting is the opportunity that can be disclosed from this.",
+      "words": []
+    },
+    {
+      "start": 111.32000000000001,
+      "end": 118.88000000000001,
+      "text": "Research shows that improving maintenance strategies can reduce maintenance costs by 17 to 20%.",
+      "words": []
+    },
+    {
+      "start": 118.88000000000001,
+      "end": 127.76,
+      "text": "And productive maintenance with AI can reduce downtime by 20 to 40%.",
+      "words": []
+    },
+    {
+      "start": 127.76,
+      "end": 134.04000000000002,
+      "text": "So the question is not whether maintenance optimization matters, but rather how can we",
+      "words": []
+    },
+    {
+      "start": 134.04,
+      "end": 139.67999999999998,
+      "text": "make better operational decisions leveraging AI?",
+      "words": []
+    },
+    {
+      "start": 139.67999999999998,
+      "end": 143.64,
+      "text": "To make things more concrete let's consider as scenario.",
+      "words": []
+    },
+    {
+      "start": 143.64,
+      "end": 150.76,
+      "text": "In a production line a machine maintenance is postponed because it still seems to be working.",
+      "words": []
+    },
+    {
+      "start": 150.76,
+      "end": 157.28,
+      "text": "At some point the asset fails and the line stops so the maintenance team has to intervene",
+      "words": []
+    },
+    {
+      "start": 157.28,
+      "end": 159.04,
+      "text": "urgently.",
+      "words": []
+    },
+    {
+      "start": 159.04,
+      "end": 164.4,
+      "text": "Now we have downtime costs plus emergency repair costs.",
+      "words": []
+    },
+    {
+      "start": 164.4,
+      "end": 169.32,
+      "text": "This is actually a very common situation in industrial environments.",
+      "words": []
+    },
+    {
+      "start": 169.32,
+      "end": 175.72,
+      "text": "Reactive decisions lead to failures, failures lead to emergency maintenance and value is lost",
+      "words": []
+    },
+    {
+      "start": 175.72,
+      "end": 177.44,
+      "text": "along the way.",
+      "words": []
+    },
+    {
+      "start": 177.44,
+      "end": 179.92,
+      "text": "Therefore a question rises.",
+      "words": []
+    },
+    {
+      "start": 179.92,
+      "end": 187.07999999999998,
+      "text": "What if digital twins could help us reason about these decisions earlier?",
+      "words": []
+    },
+    {
+      "start": 187.08,
+      "end": 192.60000000000002,
+      "text": "What twins are very good at providing insights that can show us performance indicators, but",
+      "words": []
+    },
+    {
+      "start": 192.60000000000002,
+      "end": 197.48000000000002,
+      "text": "having insights is not the same as making decisions.",
+      "words": []
+    },
+    {
+      "start": 197.48000000000002,
+      "end": 203.96,
+      "text": "Operational teams still have to answer questions like should we intervene now?",
+      "words": []
+    },
+    {
+      "start": 203.96,
+      "end": 206.04000000000002,
+      "text": "Can we defer maintenance?",
+      "words": []
+    },
+    {
+      "start": 206.04000000000002,
+      "end": 209.08,
+      "text": "What level of risk is acceptable?",
+      "words": []
+    },
+    {
+      "start": 209.08,
+      "end": 215.44,
+      "text": "If digital twins could support this reasoning process the value could be significant.",
+      "words": []
+    },
+    {
+      "start": 215.44,
+      "end": 223.16,
+      "text": "Or could it reduce downtime, avoid unnecessary maintenance, optimize interventions and ultimately",
+      "words": []
+    },
+    {
+      "start": 223.16,
+      "end": 227.4,
+      "text": "preserve operational margins?",
+      "words": []
+    },
+    {
+      "start": 227.4,
+      "end": 235.28,
+      "text": "To enable this kind of reasoning context is essential and this is where auto-desktan them",
+      "words": []
+    },
+    {
+      "start": 235.28,
+      "end": 238.12,
+      "text": "plays an important role.",
+      "words": []
+    },
+    {
+      "start": 238.12,
+      "end": 244.64,
+      "text": "Digital twins consolidate information about assets, their relationships, their location",
+      "words": []
+    },
+    {
+      "start": 244.64,
+      "end": 247.88,
+      "text": "and their operational context.",
+      "words": []
+    },
+    {
+      "start": 247.88,
+      "end": 254.44,
+      "text": "They integrate with systems, connect with device data and provide dashboards with operational",
+      "words": []
+    },
+    {
+      "start": 254.44,
+      "end": 256.24,
+      "text": "metrics.",
+      "words": []
+    },
+    {
+      "start": 256.24,
+      "end": 263.08,
+      "text": "All this information forms a structured operational context and this is exactly what a decision",
+      "words": []
+    },
+    {
+      "start": 263.08,
+      "end": 267.36,
+      "text": "engine needs in order to reason effectively.",
+      "words": []
+    },
+    {
+      "start": 267.36,
+      "end": 275.12,
+      "text": "So the digital twin becomes the data foundation for operational intelligence.",
+      "words": []
+    },
+    {
+      "start": 275.12,
+      "end": 283.32,
+      "text": "If we add a reasoning layer on top of this context, digital twins can start acting as decisions",
+      "words": []
+    },
+    {
+      "start": 283.32,
+      "end": 284.84000000000003,
+      "text": "engines.",
+      "words": []
+    },
+    {
+      "start": 284.84000000000003,
+      "end": 290.52000000000004,
+      "text": "In this model a user expresses an operational intention like should we maintain this asset",
+      "words": []
+    },
+    {
+      "start": 290.52000000000004,
+      "end": 292.32,
+      "text": "now?",
+      "words": []
+    },
+    {
+      "start": 292.32,
+      "end": 298.2,
+      "text": "This can then reason above the problem a dim boke different tools.",
+      "words": []
+    },
+    {
+      "start": 298.2,
+      "end": 304.8,
+      "text": "Those tools retrieve enterprise context like asset data, maintenance history or operational",
+      "words": []
+    },
+    {
+      "start": 304.8,
+      "end": 306.28,
+      "text": "metrics.",
+      "words": []
+    },
+    {
+      "start": 306.28,
+      "end": 313.2,
+      "text": "The system combines these inputs and returns a context and way recommendation by reasoning",
+      "words": []
+    },
+    {
+      "start": 313.2,
+      "end": 317.68,
+      "text": "on enterprise rules.",
+      "words": []
+    },
+    {
+      "start": 317.68,
+      "end": 321.0,
+      "text": "Let's see how such a system can be structured.",
+      "words": []
+    },
+    {
+      "start": 321.0,
+      "end": 329.32,
+      "text": "On the left we have enterprise context data coming from auto-deskt forma, tandem, documents,",
+      "words": []
+    },
+    {
+      "start": 329.32,
+      "end": 333.68,
+      "text": "external systems, devices and databases.",
+      "words": []
+    },
+    {
+      "start": 333.68,
+      "end": 342.24,
+      "text": "All context data is exposed to agent-collable tools using modern protocols as MCP.",
+      "words": []
+    },
+    {
+      "start": 342.24,
+      "end": 348.44,
+      "text": "In the middle an agentechalcastation layer coordinates multiple agents, the reason above",
+      "words": []
+    },
+    {
+      "start": 348.44,
+      "end": 354.2,
+      "text": "the problem provided by the user and interact with these tools.",
+      "words": []
+    },
+    {
+      "start": 354.2,
+      "end": 360.32,
+      "text": "On the right we add the decision components like failure probability estimation, maintenance",
+      "words": []
+    },
+    {
+      "start": 360.32,
+      "end": 364.88,
+      "text": "simulations and value at risk calculations.",
+      "words": []
+    },
+    {
+      "start": 364.88,
+      "end": 370.88,
+      "text": "These are the components the reasoning operational recommendations to the user interface.",
+      "words": []
+    },
+    {
+      "start": 371.88,
+      "end": 378.44,
+      "text": "Let me show now how I should a short proof of concept of our approach with these decisions",
+      "words": []
+    },
+    {
+      "start": 378.44,
+      "end": 380.24,
+      "text": "engines.",
+      "words": []
+    },
+    {
+      "start": 380.24,
+      "end": 386.64,
+      "text": "Let's look how decision intelligence can be applied once the data context and custom",
+      "words": []
+    },
+    {
+      "start": 386.64,
+      "end": 389.52,
+      "text": "KPIs are set up.",
+      "words": []
+    },
+    {
+      "start": 389.52,
+      "end": 396.6,
+      "text": "Asset managers can look at high-level indicators to have an overview of all asset conditions,",
+      "words": []
+    },
+    {
+      "start": 396.6,
+      "end": 402.72,
+      "text": "understand the health level and how many operations have been done in a period.",
+      "words": []
+    },
+    {
+      "start": 402.72,
+      "end": 408.08000000000004,
+      "text": "By asking the operation assistant, assets can be ranked based on their remaining useful",
+      "words": []
+    },
+    {
+      "start": 408.08000000000004,
+      "end": 414.96000000000004,
+      "text": "life or number operations pending, so that more critical assets in terms of usage and",
+      "words": []
+    },
+    {
+      "start": 414.96000000000004,
+      "end": 418.56,
+      "text": "operations pending can be found rapidly.",
+      "words": []
+    },
+    {
+      "start": 418.56,
+      "end": 424.64000000000004,
+      "text": "By meeting custom economic indicators, assets can be ranked based on their repair or deliverance",
+      "words": []
+    },
+    {
+      "start": 424.64000000000004,
+      "end": 426.40000000000003,
+      "text": "and cost.",
+      "words": []
+    },
+    {
+      "start": 426.4,
+      "end": 432.56,
+      "text": "Advanced KPIs can be built to define the assets value at risk or risk score.",
+      "words": []
+    },
+    {
+      "start": 432.56,
+      "end": 438.35999999999996,
+      "text": "By asking the operational assistant, assets can then be ranked based on their risk score,",
+      "words": []
+    },
+    {
+      "start": 438.35999999999996,
+      "end": 444.71999999999997,
+      "text": "so that the user can decide if it's the case of investigating a particular assets conditions.",
+      "words": []
+    },
+    {
+      "start": 444.71999999999997,
+      "end": 452.0,
+      "text": "By looking at specific assets values like failure probability or value at risk, the user",
+      "words": []
+    },
+    {
+      "start": 452.0,
+      "end": 459.36,
+      "text": "can decide if it's the case to execute a maintenance strategy or defer and set up monitoring",
+      "words": []
+    },
+    {
+      "start": 459.36,
+      "end": 460.36,
+      "text": "conditions.",
+      "words": []
+    },
+    {
+      "start": 460.36,
+      "end": 466.2,
+      "text": "The operational assistant can provide a recommendation by looking at the assets parameters based on their",
+      "words": []
+    },
+    {
+      "start": 466.2,
+      "end": 470.16,
+      "text": "values and benchmarking with past decisions.",
+      "words": []
+    },
+    {
+      "start": 470.16,
+      "end": 475.76,
+      "text": "When a maintenance decision is to be made, alternatives can be chosen by looking at late",
+      "words": []
+    },
+    {
+      "start": 475.76,
+      "end": 478.03999999999996,
+      "text": "or forecasted tasks.",
+      "words": []
+    },
+    {
+      "start": 478.03999999999996,
+      "end": 483.59999999999997,
+      "text": "Each task has a cost and a failure probability reduction rate so that net savings and",
+      "words": []
+    },
+    {
+      "start": 483.59999999999997,
+      "end": 486.44,
+      "text": "return of investment can be simulated.",
+      "words": []
+    },
+    {
+      "start": 486.44,
+      "end": 491.88,
+      "text": "The operational assistant can compare each strategy to find the one with the highest ROI",
+      "words": []
+    },
+    {
+      "start": 491.88,
+      "end": 495.44,
+      "text": "giving a final recommendation to the user.",
+      "words": []
+    },
+    {
+      "start": 495.44,
+      "end": 502.64,
+      "text": "As the maintenance strategy is chosen, a maintenance ticket can be created by\u2026",
+      "words": []
+    },
+    {
+      "start": 502.64,
+      "end": 508.56,
+      "text": "As operational strategies are done over time, the user can check on their actual effectiveness",
+      "words": []
+    },
+    {
+      "start": 508.56,
+      "end": 514.24,
+      "text": "by comparing the expected results with their actual value.",
+      "words": []
+    },
+    {
+      "start": 514.24,
+      "end": 520.28,
+      "text": "That way, strategies can be adjusted so that the operational assistant can improve its",
+      "words": []
+    },
+    {
+      "start": 520.28,
+      "end": 529.76,
+      "text": "performance over time.",
+      "words": []
+    },
+    {
+      "start": 529.76,
+      "end": 536.48,
+      "text": "Also, we've seen how by transforming digital twins into decisions and genes, we unlock",
+      "words": []
+    },
+    {
+      "start": 536.48,
+      "end": 542.24,
+      "text": "additional capabilities to create more value in our operations.",
+      "words": []
+    },
+    {
+      "start": 542.24,
+      "end": 548.24,
+      "text": "Digital twins and deathlords are great for visibility as they show the current state of assets",
+      "words": []
+    },
+    {
+      "start": 548.24,
+      "end": 554.92,
+      "text": "and systems, but the interpretation of that information is still left to humans to estimate",
+      "words": []
+    },
+    {
+      "start": 554.92,
+      "end": 558.2,
+      "text": "risks and decide trade-offs.",
+      "words": []
+    },
+    {
+      "start": 558.2,
+      "end": 564.4000000000001,
+      "text": "Agentic reasoning adds another layer as it can evaluate context, simulate economic",
+      "words": []
+    },
+    {
+      "start": 564.4000000000001,
+      "end": 568.48,
+      "text": "impact and apply decision guardrails.",
+      "words": []
+    },
+    {
+      "start": 568.48,
+      "end": 575.6800000000001,
+      "text": "This leads to better quality decisions whose value compounds over time as a maintenance",
+      "words": []
+    },
+    {
+      "start": 575.6800000000001,
+      "end": 582.84,
+      "text": "decisions made today influences costs, risk and performance tomorrow.",
+      "words": []
+    },
+    {
+      "start": 582.84,
+      "end": 588.84,
+      "text": "Therefore, Agentic reasoning can help in raising the return of investment by improving",
+      "words": []
+    },
+    {
+      "start": 588.84,
+      "end": 595.52,
+      "text": "the quality and consistency of decisions every day.",
+      "words": []
+    },
+    {
+      "start": 595.52,
+      "end": 601.52,
+      "text": "So in conclusion, we've seen how this kind of system can generate recommendations that",
+      "words": []
+    },
+    {
+      "start": 601.52,
+      "end": 608.76,
+      "text": "improve decisions quality over time and drive better operational return of investment.",
+      "words": []
+    },
+    {
+      "start": 608.76,
+      "end": 615.0,
+      "text": "Digital twins with Autodesk tandem already provide something extremely valuable, a clearly",
+      "words": []
+    },
+    {
+      "start": 615.0,
+      "end": 621.8,
+      "text": "understanding of our assets and operations have been prevented value loss from fails and",
+      "words": []
+    },
+    {
+      "start": 621.8,
+      "end": 623.4,
+      "text": "downtime.",
+      "words": []
+    },
+    {
+      "start": 623.4,
+      "end": 630.4399999999999,
+      "text": "The next step is to build on that foundation enabling digital twins to reason over-enter",
+      "words": []
+    },
+    {
+      "start": 630.4399999999999,
+      "end": 634.04,
+      "text": "price data and support better decisions.",
+      "words": []
+    },
+    {
+      "start": 634.04,
+      "end": 641.24,
+      "text": "This means helping teams act earlier, reduce downtime and continue improve how maintenance",
+      "words": []
+    },
+    {
+      "start": 641.24,
+      "end": 643.36,
+      "text": "is performed.",
+      "words": []
+    },
+    {
+      "start": 643.36,
+      "end": 649.3199999999999,
+      "text": "And this is exactly where we can start working together applying this approach to your specific",
+      "words": []
+    },
+    {
+      "start": 649.3199999999999,
+      "end": 650.7199999999999,
+      "text": "operations.",
+      "words": []
+    },
+    {
+      "start": 650.7199999999999,
+      "end": 656.5999999999999,
+      "text": "So let's evolve together from monitoring operations to operational intelligence.",
+      "words": []
+    },
+    {
+      "start": 656.5999999999999,
+      "end": 657.0799999999999,
+      "text": "Thank you.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:45:07.409078+00:00"
+}

@@ -1,0 +1,367 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\75Sy5bvgCyQ\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide titled 'Building an AI-Ready BIM Data Backbone with APS' from Autodesk DevCon 2026.",
+      "products_visible": [
+        "Autodesk",
+        "APS"
+      ],
+      "ui_elements": [
+        "Autodesk DevCon",
+        "Building an AI-Ready BIM Data Backbone with APS"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\75Sy5bvgCyQ\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing speakers at Autodesk DevCon with their names, roles, and organizations.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Speakers",
+        "Moritz Mombour",
+        "Valeriia Vlasenko",
+        "H\u00e5vard Vasshaug"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\75Sy5bvgCyQ\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "This frame shows an agenda slide from an Autodesk DevCon presentation with topics like Challenge and Mindset.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Agenda",
+        "Challenge",
+        "Mindset",
+        "Approach",
+        "Solution",
+        "Takeaway"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\75Sy5bvgCyQ\\frames\\frame_000006.jpg",
+      "timestamp_seconds": 150.0,
+      "frame_index": 6,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide featuring a 'NO TRUST' graphic with symbols indicating a challenge related to data security or trust.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Challenge"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\75Sy5bvgCyQ\\frames\\frame_000009.jpg",
+      "timestamp_seconds": 240.0,
+      "frame_index": 9,
+      "category": "slides",
+      "keep": true,
+      "description": "A DevCon presentation slide discussing AnkerDB, including statements about automation and features.",
+      "products_visible": [
+        "AnkerDB",
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Statements",
+        "H\u00e5vard Vasshaug"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\75Sy5bvgCyQ\\frames\\frame_000011.jpg",
+      "timestamp_seconds": 300.0,
+      "frame_index": 11,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide featuring a discussion about data management and AnkerDB, from Autodesk DevCon 2025.",
+      "products_visible": [
+        "Autodesk",
+        "AnkerDB"
+      ],
+      "ui_elements": [
+        "DevCon 2025",
+        "Fragmented data brought us here.",
+        "What if our data actually lived in one place?",
+        "Meeting AnkerDB set the direction."
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\75Sy5bvgCyQ\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents AnkerDB with features like tables, validation, population, and estimation, highlighting its cloud and value aspects.",
+      "products_visible": [
+        "Autodesk",
+        "AnkerDB"
+      ],
+      "ui_elements": [
+        "TABLES",
+        "VALIDATE",
+        "POPULATE",
+        "ESTIMATE"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\75Sy5bvgCyQ\\frames\\frame_000016.jpg",
+      "timestamp_seconds": 450.0,
+      "frame_index": 16,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing a timeline for a project, indicating phases like onboarding, PoC, and evaluation leading up to DevCon 2026.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Timeline",
+        "DevCon 2025",
+        "DevCon 2026"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\75Sy5bvgCyQ\\frames\\frame_000020.jpg",
+      "timestamp_seconds": 570.0,
+      "frame_index": 20,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon presentation displaying the concept of 'automation at scale' within a framework of ownership, integrity, and trust.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Scope",
+        "ownership",
+        "integrity",
+        "trust",
+        "automation @ scale",
+        "usecases",
+        "backbone"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\75Sy5bvgCyQ\\frames\\frame_000021.jpg",
+      "timestamp_seconds": 600.0,
+      "frame_index": 21,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide about the 'Status Quo' showing a process flow from design to output with delayed feedback in an Autodesk DevCon setting.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Status Quo",
+        "design",
+        "coordinate",
+        "process",
+        "output",
+        "authoring app",
+        "interface",
+        "delayed feedback"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\75Sy5bvgCyQ\\frames\\frame_000026.jpg",
+      "timestamp_seconds": 750.0,
+      "frame_index": 26,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses strategies on how to make an impact with aspects like pre-rollout parts, evaluating automation potential, and linking data value to design fees.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "How to make it count",
+        "pre rollout parts",
+        "evaluate automation potential",
+        "evaluate prioritized use cases",
+        "link data value to design fee"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\75Sy5bvgCyQ\\frames\\frame_000033.jpg",
+      "timestamp_seconds": 960.0,
+      "frame_index": 33,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents an automation framework with components Forma and Anker DB and APIs listed at the bottom.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Automation Framework",
+        "Anker",
+        "Forma",
+        "Anker DB",
+        "APIs"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\75Sy5bvgCyQ\\frames\\frame_000035.jpg",
+      "timestamp_seconds": 1020.0,
+      "frame_index": 35,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide showing a use case for structural systems in concrete, detailing input, logic, and output stages.",
+      "products_visible": [
+        "AUTODESK",
+        "DevCon"
+      ],
+      "ui_elements": [
+        "input",
+        "logic",
+        "output"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\75Sy5bvgCyQ\\frames\\frame_000038.jpg",
+      "timestamp_seconds": 1110.0,
+      "frame_index": 38,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing an example of 'Decide' population with a 3D model and exposure class labels.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Example of 'Decide' Population",
+        "Exposure Class",
+        "carbonatation, wet : XC2",
+        "carbonatation, dry: XC1",
+        "carbonatation, chlorides, frost: XC4, XD3, XF4"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\75Sy5bvgCyQ\\frames\\frame_000040.jpg",
+      "timestamp_seconds": 1170.0,
+      "frame_index": 40,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide showing configuration logic and rules for assigning exposure classes with a focus on safe populations and filters.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Configuration",
+        "populate",
+        "logic",
+        "filters",
+        "zones",
+        "setting"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\75Sy5bvgCyQ\\frames\\frame_000041.jpg",
+      "timestamp_seconds": 1200.0,
+      "frame_index": 41,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses human validation in a design process, indicating that automatically set values must be approved by a human.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "validate",
+        "Human Validation",
+        "must be approved by"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\75Sy5bvgCyQ\\frames\\frame_000042.jpg",
+      "timestamp_seconds": 1230.0,
+      "frame_index": 42,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide showing a software interface with a 3D model and a table of data labeled 'Population Result'.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Population Result",
+        "tables",
+        "0% empty"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\75Sy5bvgCyQ\\frames\\frame_000046.jpg",
+      "timestamp_seconds": 1350.0,
+      "frame_index": 46,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide titled 'Configuration' detailing a one-population setup with visible configuration lists and population parameters.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "One-population setup",
+        "classification",
+        "data structure of cost calculation tool",
+        "cost & LCA groups"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\75Sy5bvgCyQ\\frames\\frame_000048.jpg",
+      "timestamp_seconds": 1410.0,
+      "frame_index": 48,
+      "category": "slides",
+      "keep": true,
+      "description": "Comparison of cost estimation tools featuring RIBITWO and AnkerDB in a schematic design context.",
+      "products_visible": [
+        "Autodesk",
+        "RIBITWO",
+        "AnkerDB"
+      ],
+      "ui_elements": [
+        "Cost Estimate Comparison",
+        "Schematic Design"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\75Sy5bvgCyQ\\frames\\frame_000049.jpg",
+      "timestamp_seconds": 1440.0,
+      "frame_index": 49,
+      "category": "demo",
+      "keep": true,
+      "description": "A video frame showing a live demonstration featuring Autodesk DevCon with an LCA Result display of CO2 estimates and a 3D model.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "LCA Result",
+        "tables",
+        "CO2 estimate"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\75Sy5bvgCyQ\\frames\\frame_000056.jpg",
+      "timestamp_seconds": 1650.0,
+      "frame_index": 56,
+      "category": "transition",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Make Anything"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T11:59:05.830689+00:00"
+}

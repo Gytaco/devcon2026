@@ -1,0 +1,63 @@
+{
+  "video_id": "wSKBoRWZcEI",
+  "demo_timestamps": [],
+  "themes": [
+    "business models",
+    "pricing strategies",
+    "product market fit",
+    "software distribution",
+    "pricing models",
+    "Autodesk APS developments",
+    "SaaS Pricing Models",
+    "APS API Usage and Payment Models",
+    "Customer and ISV Options for Usage Payment"
+  ],
+  "client_mentions": [
+    {
+      "name": "Autodesk",
+      "context": "Autodesk's Design and Make Marketplace as a distribution option",
+      "timestamp": 379.0
+    },
+    {
+      "name": "ISV",
+      "context": "Discussing the choice between ISVs or customers paying for APS usage.",
+      "timestamp": 1158.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 473.0
+    },
+    {
+      "name": "AutoCAD",
+      "is_api": false,
+      "timestamp": 473.0
+    },
+    {
+      "name": "Inventor",
+      "is_api": false,
+      "timestamp": 473.0
+    },
+    {
+      "name": "APS",
+      "is_api": true,
+      "timestamp": 907.0
+    },
+    {
+      "name": "AEC data model",
+      "is_api": true,
+      "timestamp": 1096.0
+    },
+    {
+      "name": "Manufacturing data model",
+      "is_api": true,
+      "timestamp": 1096.0
+    }
+  ],
+  "ai_technologies": [],
+  "summary": "The video explores SaaS pricing strategies and business models, focusing on product market fit, delivery methods, and recent updates to Autodesk APS APIs, such as a new free tier and enhanced subscription-based features. It delves into managing APS API usage payments, including the choice between ISVs and customers paying, and introduces a 'pass through' capability, while encouraging feedback through Autodesk's developer programs.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:55:10.727818+00:00"
+}

@@ -1,0 +1,865 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.04,
+      "text": "Hello, everyone. My name is Fanos and I am one of the co-founders of a company called",
+      "words": []
+    },
+    {
+      "start": 6.04,
+      "end": 9.28,
+      "text": "2050 Materials. We're really excited and happy to be here.",
+      "words": []
+    },
+    {
+      "start": 9.28,
+      "end": 14.92,
+      "text": "2050 Materials, as you'll see through our presentation, is a data company that focuses",
+      "words": []
+    },
+    {
+      "start": 14.92,
+      "end": 20.52,
+      "text": "on sustainability data that can be embedded within design workflows. Today we're going",
+      "words": []
+    },
+    {
+      "start": 20.52,
+      "end": 26.52,
+      "text": "to walk you through an AGS integration of a sustainability agent that does a bunch of",
+      "words": []
+    },
+    {
+      "start": 26.52,
+      "end": 30.8,
+      "text": "things that we think are really useful. But before I do that, I'll pass to my colleague,",
+      "words": []
+    },
+    {
+      "start": 30.8,
+      "end": 33.6,
+      "text": "Nicodemus, to do an introduction before I continue.",
+      "words": []
+    },
+    {
+      "start": 33.6,
+      "end": 42.4,
+      "text": "Sure, thank you, Fanos. Hi, everyone. Nicodemus, the head of data and technology at 2050 Materials.",
+      "words": []
+    },
+    {
+      "start": 42.4,
+      "end": 47.6,
+      "text": "And in this talk, I'll take you through the more technical sites of our presentation. Thank",
+      "words": []
+    },
+    {
+      "start": 47.6,
+      "end": 48.6,
+      "text": "you.",
+      "words": []
+    },
+    {
+      "start": 48.6,
+      "end": 55.8,
+      "text": "Super. So what we do at 2050 Materials is we gather a lot of sustainability data and",
+      "words": []
+    },
+    {
+      "start": 55.8,
+      "end": 62.8,
+      "text": "our typical customer or user of this data is mostly specialists. But what we are really",
+      "words": []
+    },
+    {
+      "start": 62.8,
+      "end": 68.56,
+      "text": "passionate about is finding ways to get this data accessible and usable by non-specialists.",
+      "words": []
+    },
+    {
+      "start": 68.56,
+      "end": 74.47999999999999,
+      "text": "And this demo exactly talks about that. So we think that designers should just continue",
+      "words": []
+    },
+    {
+      "start": 74.47999999999999,
+      "end": 79.47999999999999,
+      "text": "designing. They don't need to learn another tool or another workflow. And unfortunately,",
+      "words": []
+    },
+    {
+      "start": 79.47999999999999,
+      "end": 84.88,
+      "text": "when we talk about carbon analysis, there's a lot of specific maths that you need to know",
+      "words": []
+    },
+    {
+      "start": 84.88,
+      "end": 89.88,
+      "text": "or specific conventions that you need to follow. So our goal is not to change how designers",
+      "words": []
+    },
+    {
+      "start": 89.88,
+      "end": 96.88,
+      "text": "work. It's more to embed this sort of sustainability intelligence in their workflow.",
+      "words": []
+    },
+    {
+      "start": 96.88,
+      "end": 100.88,
+      "text": "Now I'm going to do the first thing of jumping right into the demo because I think that's",
+      "words": []
+    },
+    {
+      "start": 100.88,
+      "end": 105.6,
+      "text": "really the most interesting part. Before I go into the demo, just so that you understand",
+      "words": []
+    },
+    {
+      "start": 105.6,
+      "end": 112.19999999999999,
+      "text": "what we're trying to do, this is a chat interface as you see. So similar to something like",
+      "words": []
+    },
+    {
+      "start": 112.2,
+      "end": 117.84,
+      "text": "a chat GPT that a lot of you might be used to using by now. But the idea is not that",
+      "words": []
+    },
+    {
+      "start": 117.84,
+      "end": 122.84,
+      "text": "it needs to be a separate application. You could imagine this being, for example, a chat",
+      "words": []
+    },
+    {
+      "start": 122.84,
+      "end": 132.48000000000002,
+      "text": "within your Revit work flow. If I just switch to the demo, as you see, it says, hi, I'm",
+      "words": []
+    },
+    {
+      "start": 132.48000000000002,
+      "end": 137.16,
+      "text": "your 2050 Material agent. You can upload an IFC file. You can also upload a Revit file.",
+      "words": []
+    },
+    {
+      "start": 137.16,
+      "end": 144.0,
+      "text": "It doesn't really matter. I will select one of the files that we have. Now what you see",
+      "words": []
+    },
+    {
+      "start": 144.0,
+      "end": 152.64,
+      "text": "here is we load up the 3D design. So I see a little super simple model has 44 items here.",
+      "words": []
+    },
+    {
+      "start": 152.64,
+      "end": 158.0,
+      "text": "There's a few things I can do. So we have this command called slash help, which allows you",
+      "words": []
+    },
+    {
+      "start": 158.0,
+      "end": 163.2,
+      "text": "to understand what kind of topics you can work on. And what we really like is this slash",
+      "words": []
+    },
+    {
+      "start": 163.28,
+      "end": 169.04,
+      "text": "command called match. So this essentially goes through the elements of the 3D design. And it",
+      "words": []
+    },
+    {
+      "start": 169.04,
+      "end": 174.51999999999998,
+      "text": "tries to identify the best carbon emission factor for each element. So it does essentially",
+      "words": []
+    },
+    {
+      "start": 174.51999999999998,
+      "end": 178.72,
+      "text": "all of the intelligence that the sustainability consultant would do for you. So let's just run",
+      "words": []
+    },
+    {
+      "start": 178.72,
+      "end": 190.64,
+      "text": "it, see how that works. So the result here is 44 or 43 out of 44 items that have been matched.",
+      "words": []
+    },
+    {
+      "start": 191.44,
+      "end": 198.07999999999998,
+      "text": "You can see examples like a wall assembly that's within the design is matched to an item on",
+      "words": []
+    },
+    {
+      "start": 198.07999999999998,
+      "end": 202.88,
+      "text": "our database that's called meeting weight concrete masonry units. And each of these has a",
+      "words": []
+    },
+    {
+      "start": 202.88,
+      "end": 208.0,
+      "text": "carbon emission factor. So this is great. We know we've matched every single thing that typically",
+      "words": []
+    },
+    {
+      "start": 208.79999999999998,
+      "end": 214.79999999999998,
+      "text": "takes quite a long time. So anything from a few hours to a few days. And then what it gets",
+      "words": []
+    },
+    {
+      "start": 214.8,
+      "end": 222.24,
+      "text": "really interesting is you can do slash report, which gives you the embodied carbon assessment of",
+      "words": []
+    },
+    {
+      "start": 222.24,
+      "end": 228.24,
+      "text": "the project. So you can really see, you know, which parts contribute the highest to the project.",
+      "words": []
+    },
+    {
+      "start": 228.24,
+      "end": 234.8,
+      "text": "You can see specific recommendations, the highest, the highest components that would be a good",
+      "words": []
+    },
+    {
+      "start": 234.8,
+      "end": 241.36,
+      "text": "leverage to work on and things like that. So this again is the whole idea is I'm working on my",
+      "words": []
+    },
+    {
+      "start": 241.36,
+      "end": 246.48000000000002,
+      "text": "project. I can continue working on the 3D model. And as I expand the information, I can just go",
+      "words": []
+    },
+    {
+      "start": 246.48000000000002,
+      "end": 251.68,
+      "text": "back into this chatbot, throw it in, run the slash commands, and then get the updates of my report.",
+      "words": []
+    },
+    {
+      "start": 252.88000000000002,
+      "end": 260.16,
+      "text": "And another final command I want to show, which I think is really nice, is I can generate template",
+      "words": []
+    },
+    {
+      "start": 260.16,
+      "end": 266.16,
+      "text": "emails for my team, which take into account the carbon calculation that has happened and then",
+      "words": []
+    },
+    {
+      "start": 266.16,
+      "end": 272.40000000000003,
+      "text": "turn them into something I can send my team as a recommendation on what to work on. So this",
+      "words": []
+    },
+    {
+      "start": 272.40000000000003,
+      "end": 281.28000000000003,
+      "text": "uses AI to draft an email to my team that says, hi, we've done the analysis for this IFC file.",
+      "words": []
+    },
+    {
+      "start": 281.28000000000003,
+      "end": 286.88,
+      "text": "The total carbon emissions are this much. And here's the three spots that we should be working on",
+      "words": []
+    },
+    {
+      "start": 286.88,
+      "end": 294.32000000000005,
+      "text": "if we want to reduce them. And again, this is what we're trying to avoid here is me as a designer.",
+      "words": []
+    },
+    {
+      "start": 294.32,
+      "end": 301.84,
+      "text": "If I have no sustainability knowledge specifically, I don't want to have to go back to the consultant,",
+      "words": []
+    },
+    {
+      "start": 302.15999999999997,
+      "end": 307.36,
+      "text": "get their input and then go back to my customer. So it sort of frees me out to continue doing my",
+      "words": []
+    },
+    {
+      "start": 307.36,
+      "end": 311.68,
+      "text": "design work and ideally end up with something that's really more impactful.",
+      "words": []
+    },
+    {
+      "start": 313.92,
+      "end": 319.44,
+      "text": "I will now go back to the presentation and I'll let Nikodin speak a little bit about how this all",
+      "words": []
+    },
+    {
+      "start": 319.44,
+      "end": 326.88,
+      "text": "works on the food. Thank you, Fanos. So Fanos showed you the agent in action. Let me walk you",
+      "words": []
+    },
+    {
+      "start": 326.88,
+      "end": 334.24,
+      "text": "through what's happening under the hood. So there are six stages fully automated. What used to",
+      "words": []
+    },
+    {
+      "start": 334.24,
+      "end": 341.68,
+      "text": "take on Salzan weeks now, around in minutes. The first part is suggestion. We accept beam files like",
+      "words": []
+    },
+    {
+      "start": 341.68,
+      "end": 348.64,
+      "text": "the IFC you just saw in the demo, but also excel based bill of quantities and soon PDFs, whatever the",
+      "words": []
+    },
+    {
+      "start": 348.64,
+      "end": 356.24,
+      "text": "project team has. The second step is preprocessing. This is where the real challenge starts. Every model",
+      "words": []
+    },
+    {
+      "start": 356.24,
+      "end": 362.0,
+      "text": "is structured differently. So we need to extract the components and their context before anything else",
+      "words": []
+    },
+    {
+      "start": 362.0,
+      "end": 369.68,
+      "text": "can happen. The third step is extraction. An LLM classifies every component into product type,",
+      "words": []
+    },
+    {
+      "start": 369.68,
+      "end": 377.44,
+      "text": "material type, building application with a confidence score. After that step, we have matching where we",
+      "words": []
+    },
+    {
+      "start": 377.52,
+      "end": 385.6,
+      "text": "use text similarity statistical methods to search across the database for candidates. Finally,",
+      "words": []
+    },
+    {
+      "start": 385.6,
+      "end": 393.04,
+      "text": "we have the boosting which is the key component because now we feedback the classification",
+      "words": []
+    },
+    {
+      "start": 393.04,
+      "end": 398.8,
+      "text": "from the extraction part. It does the intelligence layers. And the last thing is a report now that we",
+      "words": []
+    },
+    {
+      "start": 398.8,
+      "end": 404.32,
+      "text": "have the the matches we can create the carbon assessment and the benchmarks. Fanos will walk you",
+      "words": []
+    },
+    {
+      "start": 404.32,
+      "end": 415.04,
+      "text": "through this later. Let's go to the next slide. One of the most important aspects of how this",
+      "words": []
+    },
+    {
+      "start": 415.04,
+      "end": 422.64,
+      "text": "works is the agent file processing. The problem here is quite complex. You just saw Fanos uploaded",
+      "words": []
+    },
+    {
+      "start": 422.64,
+      "end": 430.32,
+      "text": "a beam model with a few components, but it could be 1000. You can't just throw that into an LLM.",
+      "words": []
+    },
+    {
+      "start": 430.32,
+      "end": 437.12,
+      "text": "It's too slow, too expensive. You'd lose all the structure and context. And in reality,",
+      "words": []
+    },
+    {
+      "start": 437.12,
+      "end": 444.88,
+      "text": "we have built use with 10,000 roads, 30 sheets. So and every firm builds that differently.",
+      "words": []
+    },
+    {
+      "start": 445.84,
+      "end": 451.52,
+      "text": "We build a deterministic extraction pipeline using pattern matching, positional heuristics,",
+      "words": []
+    },
+    {
+      "start": 452.0,
+      "end": 459.52,
+      "text": "and only fall back to LLMs if that's needed. And we can process, you know, long files in under a",
+      "words": []
+    },
+    {
+      "start": 459.52,
+      "end": 467.52,
+      "text": "second. So on the left, we handle multiple input types. Pin files, element extraction,",
+      "words": []
+    },
+    {
+      "start": 467.52,
+      "end": 476.32,
+      "text": "properties, et cetera, be a use. So the system detects the structure. Then we have the three stages.",
+      "words": []
+    },
+    {
+      "start": 476.32,
+      "end": 484.15999999999997,
+      "text": "First, extract the elements and identify what's what. Then map the context, which section,",
+      "words": []
+    },
+    {
+      "start": 484.16,
+      "end": 488.32000000000005,
+      "text": "which floor, which building system does each component belong to. And finally,",
+      "words": []
+    },
+    {
+      "start": 488.32000000000005,
+      "end": 495.36,
+      "text": "an assemble, clean structure items with flexibility. On the right, what comes out is something",
+      "words": []
+    },
+    {
+      "start": 495.36,
+      "end": 501.04,
+      "text": "the LLM can actually work with. A normalized description with quantity and full context.",
+      "words": []
+    },
+    {
+      "start": 501.6,
+      "end": 509.12,
+      "text": "Like this concrete slab, we know it's 250 square meters. And it sits in the upper floor structure.",
+      "words": []
+    },
+    {
+      "start": 510.08,
+      "end": 518.16,
+      "text": "At the bottom, cart, and this is one shot process, the agent valid this is an one shot process.",
+      "words": []
+    },
+    {
+      "start": 518.16,
+      "end": 524.96,
+      "text": "The agent validates the output adjusts when something looks off and refines it. So this process,",
+      "words": []
+    },
+    {
+      "start": 524.96,
+      "end": 528.16,
+      "text": "it's iterative. And that's why it's a genetic.",
+      "words": []
+    },
+    {
+      "start": 530.5600000000001,
+      "end": 538.24,
+      "text": "Okay, so let's move to the next slide. So let's talk a little bit about material intelligence.",
+      "words": []
+    },
+    {
+      "start": 538.24,
+      "end": 542.8,
+      "text": "This is the core intelligence loop. Let me walk you through it with a real example.",
+      "words": []
+    },
+    {
+      "start": 543.76,
+      "end": 550.64,
+      "text": "So let's take, let's say we start with the raw description from a beam file, saying 150 millimeter",
+      "words": []
+    },
+    {
+      "start": 550.64,
+      "end": 561.76,
+      "text": "C, reinforcement, concrete, floor slab, C3037. The LLM does three things. First, it cleans up the name",
+      "words": []
+    },
+    {
+      "start": 561.76,
+      "end": 566.8,
+      "text": "and generates an optimized search query. That's what actually gets sent to the matching engine.",
+      "words": []
+    },
+    {
+      "start": 568.0,
+      "end": 576.16,
+      "text": "Then the second, it classifies into product type concrete slab with 0.85 confidence, materials",
+      "words": []
+    },
+    {
+      "start": 576.16,
+      "end": 583.28,
+      "text": "concrete with 95 95 percent confidence building application is floors. These are independent",
+      "words": []
+    },
+    {
+      "start": 583.28,
+      "end": 587.68,
+      "text": "probabilities. The model can be confident about the material, but uncertain about the product type,",
+      "words": []
+    },
+    {
+      "start": 587.68,
+      "end": 593.8399999999999,
+      "text": "for example. Third, it extracts and explicit technical specs, for example, the thickness,",
+      "words": []
+    },
+    {
+      "start": 593.8399999999999,
+      "end": 602.56,
+      "text": "the strength class, and this is as far as pros. Finally, the matchbox. The search query goes",
+      "words": []
+    },
+    {
+      "start": 602.56,
+      "end": 610.2399999999999,
+      "text": "to the text similarity matching across our full database and gets a raw score. In this case, 0.72.",
+      "words": []
+    },
+    {
+      "start": 611.2,
+      "end": 621.84,
+      "text": "Now, we combine the match score with the classification using boosting. Here, all the classification",
+      "words": []
+    },
+    {
+      "start": 621.84,
+      "end": 627.2,
+      "text": "metadata fits back into the boosting step. If the building application matches, if the material",
+      "words": []
+    },
+    {
+      "start": 627.2,
+      "end": 635.44,
+      "text": "type aligns, each one leaves the score so that from 0.72 it goes to 0.94. So we are very confident",
+      "words": []
+    },
+    {
+      "start": 635.5200000000001,
+      "end": 646.08,
+      "text": "that this is the proper match. You can see the bottom with the bars, the effect of the boosting,",
+      "words": []
+    },
+    {
+      "start": 646.08,
+      "end": 651.0400000000001,
+      "text": "the biggest lifts are when the description is vague, but the classification code text is strong.",
+      "words": []
+    },
+    {
+      "start": 652.8000000000001,
+      "end": 663.36,
+      "text": "Let's move to the last slide. Why are you in the work flows? Why not the single pass matching?",
+      "words": []
+    },
+    {
+      "start": 663.36,
+      "end": 671.04,
+      "text": "Why doesn't that work? For simple components, for example, if it's concrete, C-30,",
+      "words": []
+    },
+    {
+      "start": 671.04,
+      "end": 678.8000000000001,
+      "text": "37, you can look straight to the database and done. But then we have more complex cases. We have",
+      "words": []
+    },
+    {
+      "start": 679.44,
+      "end": 687.04,
+      "text": "items that are composites. A wall is not a material. There is metal stats plus",
+      "words": []
+    },
+    {
+      "start": 687.76,
+      "end": 692.7199999999999,
+      "text": "plus the board plus insulation. You have to decompose it into three separate matches.",
+      "words": []
+    },
+    {
+      "start": 694.88,
+      "end": 700.9599999999999,
+      "text": "Context dependent. The same insulation means completely different products depending on whether",
+      "words": []
+    },
+    {
+      "start": 700.9599999999999,
+      "end": 708.3199999999999,
+      "text": "it's an external wall or an internal wall. So the context is vital here.",
+      "words": []
+    },
+    {
+      "start": 710.56,
+      "end": 716.16,
+      "text": "So closing, we're building this because the problem demands it. Construction data is generally",
+      "words": []
+    },
+    {
+      "start": 716.16,
+      "end": 723.04,
+      "text": "very messy. So every component needs a different approach. And without a hand back to Thanos,",
+      "words": []
+    },
+    {
+      "start": 723.04,
+      "end": 725.52,
+      "text": "to show you what happens with the carbon numbers.",
+      "words": []
+    },
+    {
+      "start": 727.12,
+      "end": 736.7199999999999,
+      "text": "Super. Thank you. So again, when we talk about carbon assessments, the current process is not what",
+      "words": []
+    },
+    {
+      "start": 736.7199999999999,
+      "end": 742.56,
+      "text": "we think needs to happen long-term. Hence the work that we're doing around the genetic workflows,",
+      "words": []
+    },
+    {
+      "start": 742.56,
+      "end": 749.1199999999999,
+      "text": "hence also the explanation of this demo and all of the stuff that Nicol was presented.",
+      "words": []
+    },
+    {
+      "start": 749.1199999999999,
+      "end": 758.0799999999999,
+      "text": "So the whole theory behind this whole presentation as well as the demo that we showed is that we want",
+      "words": []
+    },
+    {
+      "start": 758.0799999999999,
+      "end": 764.16,
+      "text": "to move away from the old narrative where we have a sustainability consultant that needs to be",
+      "words": []
+    },
+    {
+      "start": 764.16,
+      "end": 771.28,
+      "text": "trained in a very specific tool where they receive project information. They go into a room. They",
+      "words": []
+    },
+    {
+      "start": 771.28,
+      "end": 777.6,
+      "text": "spend a couple of weeks and come back with a report to something where this process of processing",
+      "words": []
+    },
+    {
+      "start": 777.6,
+      "end": 784.3199999999999,
+      "text": "data, and mapping it to the relevant data points, and then interpreting that information happens",
+      "words": []
+    },
+    {
+      "start": 784.3199999999999,
+      "end": 790.0799999999999,
+      "text": "on the fly during the design process. Now besides dropping consultant costs, which probably all",
+      "words": []
+    },
+    {
+      "start": 790.0799999999999,
+      "end": 797.52,
+      "text": "projects could benefit from, what this does long-term is something much bigger. So it allows us to make",
+      "words": []
+    },
+    {
+      "start": 797.52,
+      "end": 803.92,
+      "text": "decisions that lead to better carbon emissions on our projects without actually having to",
+      "words": []
+    },
+    {
+      "start": 804.48,
+      "end": 809.76,
+      "text": "wait too long. Because often what happens with the consultants is the fact that we've waited a",
+      "words": []
+    },
+    {
+      "start": 809.76,
+      "end": 814.56,
+      "text": "couple of weeks for this report and assessment essentially means that the project has moved on.",
+      "words": []
+    },
+    {
+      "start": 814.56,
+      "end": 820.0,
+      "text": "So a lot of decisions have already been locked in, and even if we know what we need to do to reduce",
+      "words": []
+    },
+    {
+      "start": 820.0,
+      "end": 825.04,
+      "text": "emissions, we might not be able to do them anymore. Whereas if you integrate this intelligence within",
+      "words": []
+    },
+    {
+      "start": 825.04,
+      "end": 829.4399999999999,
+      "text": "the design workflow, then there's a much higher chance of being able to move faster and make",
+      "words": []
+    },
+    {
+      "start": 829.4399999999999,
+      "end": 837.92,
+      "text": "decisions that actually lead to better outcomes. Now what we are today, Nikodin was presented briefly",
+      "words": []
+    },
+    {
+      "start": 837.92,
+      "end": 843.4399999999999,
+      "text": "where we are. So we have an IFC upload and a 3D viewer. We normalize and we have these agents that",
+      "words": []
+    },
+    {
+      "start": 843.4399999999999,
+      "end": 853.36,
+      "text": "do matching based on the large datasets that we provide. We also do carbon calculations. What",
+      "words": []
+    },
+    {
+      "start": 853.36,
+      "end": 857.52,
+      "text": "you've shown here is in the early stages or in the manufacturing stages of emissions, but we",
+      "words": []
+    },
+    {
+      "start": 857.52,
+      "end": 863.84,
+      "text": "actually are able to do carbon emission calculations across all life cycle stages. And then we have some",
+      "words": []
+    },
+    {
+      "start": 863.84,
+      "end": 871.04,
+      "text": "interactive charts, an AI chat that you can talk to in some PDF reports. What we're working on next,",
+      "words": []
+    },
+    {
+      "start": 871.04,
+      "end": 876.4,
+      "text": "and this is very relevant also to the sustainability data API, is we really want to integrate",
+      "words": []
+    },
+    {
+      "start": 877.28,
+      "end": 884.64,
+      "text": "APIs of the APS environment so that you can very easily build these sort of solutions within APS.",
+      "words": []
+    },
+    {
+      "start": 885.28,
+      "end": 889.92,
+      "text": "We want to have comparison of design options next to each other so you can track the process",
+      "words": []
+    },
+    {
+      "start": 890.56,
+      "end": 896.72,
+      "text": "and the progress of the project. And then we want to also improve the process of having the",
+      "words": []
+    },
+    {
+      "start": 896.72,
+      "end": 902.0,
+      "text": "human in the loop. So we do not think that computers will fully do this process and we should",
+      "words": []
+    },
+    {
+      "start": 902.8,
+      "end": 909.6,
+      "text": "be completely uninvolved. So we are working on finding ways of figuring out where as humans we need",
+      "words": []
+    },
+    {
+      "start": 909.6,
+      "end": 916.96,
+      "text": "to be involved in the process to really understand and be helped basically to make better decisions here.",
+      "words": []
+    },
+    {
+      "start": 919.76,
+      "end": 924.72,
+      "text": "Yeah, the closing statement I would do is our goal as I said in the beginning is every designer",
+      "words": []
+    },
+    {
+      "start": 924.72,
+      "end": 929.12,
+      "text": "that's working on Autodesk solutions or even elsewhere for that matter should be able to",
+      "words": []
+    },
+    {
+      "start": 929.12,
+      "end": 933.76,
+      "text": "deliver low-carbon projects. We think they should be able to do that without being a sustainability",
+      "words": []
+    },
+    {
+      "start": 933.76,
+      "end": 938.96,
+      "text": "specialist without necessarily having a team of consultants on the side. And we are super bullish",
+      "words": []
+    },
+    {
+      "start": 938.96,
+      "end": 944.72,
+      "text": "on using AI and structured data to make it possible. I hope this demo was kind of an example of that.",
+      "words": []
+    },
+    {
+      "start": 946.8,
+      "end": 953.28,
+      "text": "Thank you very much. Yeah, really happy to take any questions and thanks again for having us.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T05:26:10.212772+00:00"
+}

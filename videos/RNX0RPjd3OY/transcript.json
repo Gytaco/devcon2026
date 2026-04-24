@@ -1,0 +1,853 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 11.0,
+      "text": "Hi everyone, this is Massa McAfry and today I'm going to present on behalf of our team together with my colleague, Aryan Hordike.",
+      "words": []
+    },
+    {
+      "start": 11.0,
+      "end": 24.0,
+      "text": "That's presentation will be of operational intelligence, how we connected the pro-score IT platform to other than stand them for the speed and advanced building.",
+      "words": []
+    },
+    {
+      "start": 24.0,
+      "end": 33.0,
+      "text": "I'm going to throw a short introduction and show you how we broke those signals in different data sources.",
+      "words": []
+    },
+    {
+      "start": 33.0,
+      "end": 48.0,
+      "text": "Then I will show you how we connected the tunnel to the pro-score and in the end we will discuss what the perspective of our customers is about digital twins and this integration.",
+      "words": []
+    },
+    {
+      "start": 49.0,
+      "end": 58.0,
+      "text": "To start the presentation I would like to draw your attention to a question that was a question that led us to this planet.",
+      "words": []
+    },
+    {
+      "start": 58.0,
+      "end": 73.0,
+      "text": "Imagine that you are responsible for a building and a critical sensor is tripping on how many platforms do you have to open to find the physical location of this sensor.",
+      "words": []
+    },
+    {
+      "start": 74.0,
+      "end": 75.0,
+      "text": "Thank you for this.",
+      "words": []
+    },
+    {
+      "start": 75.0,
+      "end": 83.0,
+      "text": "I will get to the answer by the end.",
+      "words": []
+    },
+    {
+      "start": 83.0,
+      "end": 85.0,
+      "text": "I introduce myself with Aryan.",
+      "words": []
+    },
+    {
+      "start": 85.0,
+      "end": 94.0,
+      "text": "I'm full specialist, spate, evidence and Aryan is at the application specialist.",
+      "words": []
+    },
+    {
+      "start": 94.0,
+      "end": 109.0,
+      "text": "The first step is the north is most technical service provider in the Netherlands and the strong presence of different shields and buildings, industry and infrastructure.",
+      "words": []
+    },
+    {
+      "start": 109.0,
+      "end": 114.0,
+      "text": "And recently it has a strong investment digitization.",
+      "words": []
+    },
+    {
+      "start": 114.0,
+      "end": 129.0,
+      "text": "We are working on the pro-score platform which is different data sources such as maintenance data and IT data and connects to various big management systems.",
+      "words": []
+    },
+    {
+      "start": 129.0,
+      "end": 138.0,
+      "text": "And for this we have connected once more than 1000 buildings across R&D facilities, health, air, and backwards.",
+      "words": []
+    },
+    {
+      "start": 139.0,
+      "end": 155.0,
+      "text": "To break the signals between the data sources of our present and speed, we used a data stand up in speed.",
+      "words": []
+    },
+    {
+      "start": 156.0,
+      "end": 160.0,
+      "text": "We have IT data and maintenance data that we gather in full score.",
+      "words": []
+    },
+    {
+      "start": 160.0,
+      "end": 168.0,
+      "text": "But the bin models are kept in the space, the department in different software and one of them is this rabbit.",
+      "words": []
+    },
+    {
+      "start": 168.0,
+      "end": 178.0,
+      "text": "So we thought through a partnership with Autosist we can connect these two in this tunnel.",
+      "words": []
+    },
+    {
+      "start": 178.0,
+      "end": 184.0,
+      "text": "For this pilot we used the speed building solutions building in I-T open.",
+      "words": []
+    },
+    {
+      "start": 184.0,
+      "end": 190.0,
+      "text": "The IT data consists of energy meters, comfort sensors and people's concerts.",
+      "words": []
+    },
+    {
+      "start": 190.0,
+      "end": 197.0,
+      "text": "The bin model is in different layers, the building, the electrical system and the mechanical system.",
+      "words": []
+    },
+    {
+      "start": 197.0,
+      "end": 207.0,
+      "text": "And the maintenance data consists of insulation, the data, the module, the wind factor, and much work.",
+      "words": []
+    },
+    {
+      "start": 208.0,
+      "end": 215.0,
+      "text": "The integration of the bin model happens through Autodesk construction cloud.",
+      "words": []
+    },
+    {
+      "start": 215.0,
+      "end": 228.0,
+      "text": "And the post-core platform in two ways. One is the post-core API and the other way is through the tunnel connect which is an atom on Autodesk tandem.",
+      "words": []
+    },
+    {
+      "start": 228.0,
+      "end": 233.0,
+      "text": "My colleague, Kart-Iam will show you how we did this in the past.",
+      "words": []
+    },
+    {
+      "start": 234.0,
+      "end": 236.0,
+      "text": "Thank you, Mosa.",
+      "words": []
+    },
+    {
+      "start": 236.0,
+      "end": 240.0,
+      "text": "In order to achieve this, we took two approaches.",
+      "words": []
+    },
+    {
+      "start": 240.0,
+      "end": 252.0,
+      "text": "The first approach was connecting our post-core API data using the tandem connect workflow and the other approach was using Autodesk telemetry platform services.",
+      "words": []
+    },
+    {
+      "start": 253.0,
+      "end": 259.0,
+      "text": "Mosa already told me we have more than a thousand buildings and a lot of customers with all the data.",
+      "words": []
+    },
+    {
+      "start": 259.0,
+      "end": 266.0,
+      "text": "So all the data stored in our post-core API can be reached by a post-core API.",
+      "words": []
+    },
+    {
+      "start": 266.0,
+      "end": 276.0,
+      "text": "So the first step was using tandem connect workflow and getting the data into tandem connect.",
+      "words": []
+    },
+    {
+      "start": 277.0,
+      "end": 279.0,
+      "text": "So I missed up this one.",
+      "words": []
+    },
+    {
+      "start": 279.0,
+      "end": 285.0,
+      "text": "To get the data into tandem, into our bin model.",
+      "words": []
+    },
+    {
+      "start": 285.0,
+      "end": 294.0,
+      "text": "I will show you a first demonstration of how we achieved the workflow.",
+      "words": []
+    },
+    {
+      "start": 295.0,
+      "end": 299.0,
+      "text": "As you can see, this is the workflow.",
+      "words": []
+    },
+    {
+      "start": 299.0,
+      "end": 301.0,
+      "text": "We started a little demo.",
+      "words": []
+    },
+    {
+      "start": 301.0,
+      "end": 305.0,
+      "text": "You can ignore the top flow.",
+      "words": []
+    },
+    {
+      "start": 305.0,
+      "end": 307.0,
+      "text": "In the bottom flow.",
+      "words": []
+    },
+    {
+      "start": 307.0,
+      "end": 312.0,
+      "text": "And in the top you will see as a schedule, every 15 minutes the workflow has started.",
+      "words": []
+    },
+    {
+      "start": 312.0,
+      "end": 317.0,
+      "text": "And the data is retrieved from our post-core API.",
+      "words": []
+    },
+    {
+      "start": 318.0,
+      "end": 327.0,
+      "text": "But the first thing you need to do is we need to read the date of the current and previous execution and store them to query the data points always later on from our post-core API.",
+      "words": []
+    },
+    {
+      "start": 327.0,
+      "end": 334.0,
+      "text": "As you can see in here, a little snippet of data is used.",
+      "words": []
+    },
+    {
+      "start": 334.0,
+      "end": 345.0,
+      "text": "Next step is retrieving post-core API or the tickation token in order to connect to our API and that's over there getting the building breakdown.",
+      "words": []
+    },
+    {
+      "start": 346.0,
+      "end": 353.0,
+      "text": "So getting all the equipments and sensors needed to query later on to get the point data.",
+      "words": []
+    },
+    {
+      "start": 353.0,
+      "end": 360.0,
+      "text": "Using the data, we create an array of all point items.",
+      "words": []
+    },
+    {
+      "start": 360.0,
+      "end": 369.0,
+      "text": "And with those items, we are able to request each point by point from our post-core API.",
+      "words": []
+    },
+    {
+      "start": 369.0,
+      "end": 374.0,
+      "text": "So we have to do a little bit of the API mapping.",
+      "words": []
+    },
+    {
+      "start": 376.0,
+      "end": 379.0,
+      "text": "So next step is getting the point data.",
+      "words": []
+    },
+    {
+      "start": 379.0,
+      "end": 382.0,
+      "text": "The next step is any data.",
+      "words": []
+    },
+    {
+      "start": 382.0,
+      "end": 385.0,
+      "text": "In the next step, we prepare the data for tandem.",
+      "words": []
+    },
+    {
+      "start": 385.0,
+      "end": 390.0,
+      "text": "So we do our mapping into the format of the tandem stream.",
+      "words": []
+    },
+    {
+      "start": 390.0,
+      "end": 394.0,
+      "text": "A little bit out of prune, but yeah, this was also in the beginning.",
+      "words": []
+    },
+    {
+      "start": 394.0,
+      "end": 398.0,
+      "text": "And there was a lot of mapping to be done.",
+      "words": []
+    },
+    {
+      "start": 398.0,
+      "end": 401.0,
+      "text": "Then we thought of the inputs and we said it to tandem.",
+      "words": []
+    },
+    {
+      "start": 402.0,
+      "end": 410.0,
+      "text": "So there was a first step taken and there were also challenges as well because we have a lot of buildings.",
+      "words": []
+    },
+    {
+      "start": 410.0,
+      "end": 415.0,
+      "text": "So yeah, if we should build a workflow for each building, that's a lot of work.",
+      "words": []
+    },
+    {
+      "start": 415.0,
+      "end": 418.0,
+      "text": "But as you can see, there are also a lot of plugins.",
+      "words": []
+    },
+    {
+      "start": 418.0,
+      "end": 420.0,
+      "text": "So yeah, it's easy to start.",
+      "words": []
+    },
+    {
+      "start": 420.0,
+      "end": 424.0,
+      "text": "So if you have a local environment, this will fit you.",
+      "words": []
+    },
+    {
+      "start": 424.0,
+      "end": 432.0,
+      "text": "Next was using Autodesk platform system.",
+      "words": []
+    },
+    {
+      "start": 432.0,
+      "end": 438.0,
+      "text": "In this case, we replaced the tandem connect workflow with Azure Function.",
+      "words": []
+    },
+    {
+      "start": 438.0,
+      "end": 442.0,
+      "text": "And the workflow now is hosted in the Azure Function.",
+      "words": []
+    },
+    {
+      "start": 442.0,
+      "end": 448.0,
+      "text": "And this for us is easy to incorporate because it's within our existing development environment.",
+      "words": []
+    },
+    {
+      "start": 448.0,
+      "end": 453.0,
+      "text": "And yeah, we don't have to need to learn new tools for languages.",
+      "words": []
+    },
+    {
+      "start": 453.0,
+      "end": 458.0,
+      "text": "It's still a challenge because you have a stream under one hand and you'll be reminded of it.",
+      "words": []
+    },
+    {
+      "start": 458.0,
+      "end": 461.0,
+      "text": "So there's a stream identifier over there.",
+      "words": []
+    },
+    {
+      "start": 461.0,
+      "end": 463.0,
+      "text": "And you have a point in your sensor data.",
+      "words": []
+    },
+    {
+      "start": 463.0,
+      "end": 466.0,
+      "text": "You need to keep those things in sync automatically.",
+      "words": []
+    },
+    {
+      "start": 466.0,
+      "end": 468.0,
+      "text": "That would be the best thing to do.",
+      "words": []
+    },
+    {
+      "start": 468.0,
+      "end": 470.0,
+      "text": "But yeah, that's still a challenge for us.",
+      "words": []
+    },
+    {
+      "start": 470.0,
+      "end": 472.0,
+      "text": "We created the Azure Function.",
+      "words": []
+    },
+    {
+      "start": 472.0,
+      "end": 474.0,
+      "text": "Of course, there's a project and there's code.",
+      "words": []
+    },
+    {
+      "start": 474.0,
+      "end": 480.0,
+      "text": "All the sample code can be looked at and downloaded from the GitHub link.",
+      "words": []
+    },
+    {
+      "start": 480.0,
+      "end": 482.0,
+      "text": "So use that.",
+      "words": []
+    },
+    {
+      "start": 482.0,
+      "end": 495.0,
+      "text": "I will show you demonstration on how we connect our Azure Function to our BIM model.",
+      "words": []
+    },
+    {
+      "start": 495.0,
+      "end": 500.0,
+      "text": "First, you need to go to your developer, create an application.",
+      "words": []
+    },
+    {
+      "start": 500.0,
+      "end": 509.0,
+      "text": "This application is used to connect your Azure Function in this case with the client ID and the client secret.",
+      "words": []
+    },
+    {
+      "start": 509.0,
+      "end": 515.0,
+      "text": "To your BIM model, you create a traditional web app and this in here already created.",
+      "words": []
+    },
+    {
+      "start": 515.0,
+      "end": 527.0,
+      "text": "Yeah, use your client ID client secrets and say where you use the web books API in order to send time series data from the Azure Function into your BIM model.",
+      "words": []
+    },
+    {
+      "start": 527.0,
+      "end": 534.0,
+      "text": "So copy paste your client ID from the upset things and go to your BIM model into the Autodesk.",
+      "words": []
+    },
+    {
+      "start": 534.0,
+      "end": 541.0,
+      "text": "Turn them and add the application as a user over here.",
+      "words": []
+    },
+    {
+      "start": 541.0,
+      "end": 553.0,
+      "text": "Paste the client ID as an API key and now the application in this case, the Azure Function has access to your facility in your 10 environment.",
+      "words": []
+    },
+    {
+      "start": 553.0,
+      "end": 559.0,
+      "text": "Next, you go to your connections because you need to send data to a specific connection.",
+      "words": []
+    },
+    {
+      "start": 559.0,
+      "end": 562.0,
+      "text": "You can manage them over here.",
+      "words": []
+    },
+    {
+      "start": 562.0,
+      "end": 567.0,
+      "text": "As you can see, I need to map your connection in this case for go to the pump.",
+      "words": []
+    },
+    {
+      "start": 567.0,
+      "end": 575.0,
+      "text": "You see the JSON payload sent to this connection to a specific parameter to which the Azure disconnected to.",
+      "words": []
+    },
+    {
+      "start": 575.0,
+      "end": 584.0,
+      "text": "And over there, you see that the status is mapped on an off-alien and of course the time series time stamp is also mapped to that parameter.",
+      "words": []
+    },
+    {
+      "start": 584.0,
+      "end": 593.0,
+      "text": "You need to stream it in the file in order to send the data from the Azure Function into your BIM model.",
+      "words": []
+    },
+    {
+      "start": 593.0,
+      "end": 604.0,
+      "text": "You can get a link from this copy link and you have your total your right to connect to the over connection.",
+      "words": []
+    },
+    {
+      "start": 604.0,
+      "end": 608.0,
+      "text": "You have your facility ID, your modality and one that's variable.",
+      "words": []
+    },
+    {
+      "start": 608.0,
+      "end": 613.0,
+      "text": "You stream identify for each specific stream.",
+      "words": []
+    },
+    {
+      "start": 613.0,
+      "end": 617.0,
+      "text": "For which the Azure Function can send the data to.",
+      "words": []
+    },
+    {
+      "start": 617.0,
+      "end": 622.0,
+      "text": "Here's the Azure Function, a little bit of code.",
+      "words": []
+    },
+    {
+      "start": 622.0,
+      "end": 630.0,
+      "text": "That's more method in this case, you know, the post-stream the data, basically the same as the workflow from Autodesk.",
+      "words": []
+    },
+    {
+      "start": 630.0,
+      "end": 635.0,
+      "text": "The standard connect workflow, but this case we have code in the Azure Function.",
+      "words": []
+    },
+    {
+      "start": 635.0,
+      "end": 643.0,
+      "text": "We have a date time time spent and we first need to map the data.",
+      "words": []
+    },
+    {
+      "start": 643.0,
+      "end": 648.0,
+      "text": "The point I time to fire to stream identify this done in a little bit of a CSV file.",
+      "words": []
+    },
+    {
+      "start": 648.0,
+      "end": 655.0,
+      "text": "And then we group all our streams and get the data from the post score API.",
+      "words": []
+    },
+    {
+      "start": 655.0,
+      "end": 661.0,
+      "text": "We have the data, we send the data to a specific stream.",
+      "words": []
+    },
+    {
+      "start": 661.0,
+      "end": 663.0,
+      "text": "And then the data will become available.",
+      "words": []
+    },
+    {
+      "start": 663.0,
+      "end": 666.0,
+      "text": "Again, this complete project is available on GitHub.",
+      "words": []
+    },
+    {
+      "start": 666.0,
+      "end": 673.0,
+      "text": "So take a look at that for the specifics and yeah, use it yourself.",
+      "words": []
+    },
+    {
+      "start": 673.0,
+      "end": 677.0,
+      "text": "That's it for me back to Massa.",
+      "words": []
+    },
+    {
+      "start": 677.0,
+      "end": 679.0,
+      "text": "Thank you, Arjen.",
+      "words": []
+    },
+    {
+      "start": 679.0,
+      "end": 683.0,
+      "text": "Now, we want to show you also demo about the project.",
+      "words": []
+    },
+    {
+      "start": 683.0,
+      "end": 692.0,
+      "text": "This is the post score platform and if you navigate to the performance center and select the bad performing comfort sensors.",
+      "words": []
+    },
+    {
+      "start": 692.0,
+      "end": 694.0,
+      "text": "You can see the rooms that have a problem.",
+      "words": []
+    },
+    {
+      "start": 694.0,
+      "end": 698.0,
+      "text": "In this case, we choose room 4.28.",
+      "words": []
+    },
+    {
+      "start": 698.0,
+      "end": 707.0,
+      "text": "And if we navigate into it.",
+      "words": []
+    },
+    {
+      "start": 707.0,
+      "end": 719.0,
+      "text": "I just stop here because the video is not going for.",
+      "words": []
+    },
+    {
+      "start": 719.0,
+      "end": 724.0,
+      "text": "Yes, if we navigate into a catch room, we can see different visuals.",
+      "words": []
+    },
+    {
+      "start": 724.0,
+      "end": 729.0,
+      "text": "Regarding that comfort sensor and we see that about five March.",
+      "words": []
+    },
+    {
+      "start": 729.0,
+      "end": 733.0,
+      "text": "The performance is no about 30%.",
+      "words": []
+    },
+    {
+      "start": 733.0,
+      "end": 741.0,
+      "text": "And now if you go to Autotus Continental project, you can see the BEM model and the stream section.",
+      "words": []
+    },
+    {
+      "start": 741.0,
+      "end": 749.0,
+      "text": "If we select the room that we're talking about, all the information regarding that room comes up.",
+      "words": []
+    },
+    {
+      "start": 749.0,
+      "end": 756.0,
+      "text": "That's the different sensors that we can access to at temperature as see to at the ability.",
+      "words": []
+    },
+    {
+      "start": 756.0,
+      "end": 762.0,
+      "text": "And you can see the ranges on five March.",
+      "words": []
+    },
+    {
+      "start": 762.0,
+      "end": 769.0,
+      "text": "Now, Tondom has the strength that it can show visuals 3D and 2D level.",
+      "words": []
+    },
+    {
+      "start": 769.0,
+      "end": 773.0,
+      "text": "And if we look at the plan, we can see the different rooms.",
+      "words": []
+    },
+    {
+      "start": 773.0,
+      "end": 779.0,
+      "text": "And we can play also the change of the data in a specific vote.",
+      "words": []
+    },
+    {
+      "start": 779.0,
+      "end": 788.0,
+      "text": "So here if you play five March and select the temperature, we can see how the temperature in that floor plan is changing.",
+      "words": []
+    },
+    {
+      "start": 788.0,
+      "end": 796.0,
+      "text": "Now, the room that we were talking about, we can see that it becomes red in the here.",
+      "words": []
+    },
+    {
+      "start": 796.0,
+      "end": 802.0,
+      "text": "So very easy thing with this visual, you can find the room that has a problem.",
+      "words": []
+    },
+    {
+      "start": 802.0,
+      "end": 810.0,
+      "text": "And you can also find the location of the problem and where the sensor is.",
+      "words": []
+    },
+    {
+      "start": 810.0,
+      "end": 817.0,
+      "text": "So that's the strength of the digital twin, which we later showed to our customers.",
+      "words": []
+    },
+    {
+      "start": 817.0,
+      "end": 825.0,
+      "text": "Yes, when we presented our project to our customers, we asked them several questions.",
+      "words": []
+    },
+    {
+      "start": 825.0,
+      "end": 834.0,
+      "text": "And one of those questions was if they consider it valuable to integrate a bin model into their digital twin.",
+      "words": []
+    },
+    {
+      "start": 834.0,
+      "end": 838.0,
+      "text": "And we saw a strong interest to do this.",
+      "words": []
+    },
+    {
+      "start": 838.0,
+      "end": 849.0,
+      "text": "But when we asked if in our opinion, those benefits outweigh the extra management and maintenance cost of a bin model, the answers were negative.",
+      "words": []
+    },
+    {
+      "start": 849.0,
+      "end": 856.0,
+      "text": "And some of us who have said that based on their experience, those maintenance costs are high.",
+      "words": []
+    },
+    {
+      "start": 856.0,
+      "end": 859.0,
+      "text": "And does not benefit them.",
+      "words": []
+    },
+    {
+      "start": 859.0,
+      "end": 865.0,
+      "text": "We also have some other customers.",
+      "words": []
+    },
+    {
+      "start": 865.0,
+      "end": 878.0,
+      "text": "This was well beneficial and it depended on how big their facility was and how fine it is for them to locate the sensor or an asset.",
+      "words": []
+    },
+    {
+      "start": 878.0,
+      "end": 891.0,
+      "text": "If you want to wrap up the presentation, first of all, I've just talked about with platforms like Pulse Corps and therefore is a good tool for our customers to use.",
+      "words": []
+    },
+    {
+      "start": 891.0,
+      "end": 900.0,
+      "text": "Content connect to the local environment that are your show in enables asset presentation for teams that don't have to buy the person.",
+      "words": []
+    },
+    {
+      "start": 900.0,
+      "end": 907.0,
+      "text": "But if the team has the manufacturers, then the back is also a good way.",
+      "words": []
+    },
+    {
+      "start": 907.0,
+      "end": 915.0,
+      "text": "And that was a good integration with large data sets and multi building portfolios.",
+      "words": []
+    },
+    {
+      "start": 915.0,
+      "end": 922.0,
+      "text": "Still, the main maintenance costs in Africa to raise the main barrier to as often digital twins for our customers.",
+      "words": []
+    },
+    {
+      "start": 922.0,
+      "end": 935.0,
+      "text": "And also when asset tracking is costly, on the other hand, the digital twin becomes operationally essential and beneficial to them.",
+      "words": []
+    },
+    {
+      "start": 935.0,
+      "end": 949.0,
+      "text": "So coming back to the question we started with, if a critical sensor trips right now in the building that you are managing with a digital twin, your SMD find dislocation and the context.",
+      "words": []
+    },
+    {
+      "start": 949.0,
+      "end": 959.0,
+      "text": "Thank you for your attention.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:18:24.329394+00:00"
+}

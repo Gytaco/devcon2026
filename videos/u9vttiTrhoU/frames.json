@@ -1,0 +1,327 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\u9vttiTrhoU\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents a session on 'Breaking Down Silos' focusing on modernizing interoperability with Autodesk products like AutoCAD, Inventor, and Revit.",
+      "products_visible": [
+        "AutoCAD",
+        "Inventor",
+        "Revit"
+      ],
+      "ui_elements": [
+        "Autodesk DevCon",
+        "Autodesk EFCO"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\u9vttiTrhoU\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation agenda slide with topics related to data exchange, including transitions between Autodesk products.",
+      "products_visible": [
+        "AutoCAD",
+        "Inventor",
+        "Revit",
+        "Forma"
+      ],
+      "ui_elements": [
+        "Agenda",
+        "Introduction to Data Exchange",
+        "Transition from AutoCAD to Revit",
+        "Sharing Data from Inventor to AutoCAD",
+        "Using Data Exchange: Simple Geometry",
+        "Using Data Exchange: Complex Geometry",
+        "Forma Industry Benefits",
+        "When to Use Data Exchange",
+        "Benefits of Using Data Exchange",
+        "Areas of Improvement",
+        "Data Exchange Roadmap"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\u9vttiTrhoU\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses 'Data Exchange as part of the Autodesk Data Vision' with a diagram showing various Autodesk products connected to a cloud.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Connected Ecosystem",
+        "Gated Workflows",
+        "Work Packages"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\u9vttiTrhoU\\frames\\frame_000006.jpg",
+      "timestamp_seconds": 150.0,
+      "frame_index": 6,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing 'Data Exchange - Connectors' with a focus on cloud connectors available through Autodesk Docs.",
+      "products_visible": [
+        "Autodesk Revit",
+        "IFC Connector",
+        "Microsoft PowerAutomate"
+      ],
+      "ui_elements": [
+        "Data Exchange - Connectors",
+        "Autodesk Revit",
+        "IFC Connector",
+        "Microsoft PowerAutomate"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\u9vttiTrhoU\\frames\\frame_000007.jpg",
+      "timestamp_seconds": 180.0,
+      "frame_index": 7,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents information about Data Exchange Connectors, including cloud and generally available connectors.",
+      "products_visible": [
+        "Autodesk Revit",
+        "IFC Connector",
+        "Microsoft PowerAutomate",
+        "Microsoft PowerBI",
+        "Autodesk Inventor",
+        "McNeel Rhino",
+        "Trimble Tekla",
+        "Autodesk Navisworks",
+        "Autodesk AutoCAD",
+        "Autodesk Civil 3D",
+        "Dynamo",
+        "McNeel Grasshopper",
+        "Dassault Solidworks"
+      ],
+      "ui_elements": [
+        "Cloud Connectors",
+        "GA (Generally Available)",
+        "In Public Beta"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\u9vttiTrhoU\\frames\\frame_000008.jpg",
+      "timestamp_seconds": 210.0,
+      "frame_index": 8,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide showing EFCO's background with images of construction projects and key information about the company.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "EFCO Background",
+        "Form Marks",
+        "Project Focus"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\u9vttiTrhoU\\frames\\frame_000010.jpg",
+      "timestamp_seconds": 270.0,
+      "frame_index": 10,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide detailing the process of moving from Inventor to AutoCAD, including steps like exporting as .DWG and editing files in AutoCAD.",
+      "products_visible": [
+        "Inventor",
+        "AutoCAD"
+      ],
+      "ui_elements": [
+        "Export as .DWG file",
+        "Edit file in AutoCAD"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\u9vttiTrhoU\\frames\\frame_000011.jpg",
+      "timestamp_seconds": 300.0,
+      "frame_index": 11,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a comparison of modeling in AutoCAD and Inventor within a presentation slide.",
+      "products_visible": [
+        "AutoCAD",
+        "Inventor",
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Modeling: AutoCAD & Inventor"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\u9vttiTrhoU\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a live demo of a software interface, possibly Autodesk, with a speaker on the left and a drawing file being selected on the right.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Open",
+        "Save as"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\u9vttiTrhoU\\frames\\frame_000013.jpg",
+      "timestamp_seconds": 360.0,
+      "frame_index": 13,
+      "category": "demo",
+      "keep": true,
+      "description": "A demonstration of Autodesk AutoCAD 2023 with technical interface elements visible.",
+      "products_visible": [
+        "AUTODESK",
+        "AutoCAD 2023"
+      ],
+      "ui_elements": [
+        "Blocks",
+        "Current Tool",
+        "Catalogue",
+        "Layers"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\u9vttiTrhoU\\frames\\frame_000014.jpg",
+      "timestamp_seconds": 390.0,
+      "frame_index": 14,
+      "category": "demo",
+      "keep": true,
+      "description": "A software demonstration featuring an Autodesk application with a user interface showing 3D design tools.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Quick Select",
+        "Operator",
+        "Select"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\u9vttiTrhoU\\frames\\frame_000015.jpg",
+      "timestamp_seconds": 420.0,
+      "frame_index": 15,
+      "category": "demo",
+      "keep": true,
+      "description": "A presentation showing a software demonstration with a user interface for design or drafting.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Layers",
+        "Properties",
+        "Save"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\u9vttiTrhoU\\frames\\frame_000019.jpg",
+      "timestamp_seconds": 540.0,
+      "frame_index": 19,
+      "category": "demo",
+      "keep": true,
+      "description": "A video frame showing a demonstration of Autodesk software with a split screen of a speaker and a software UI showcasing data exchange options.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Data Exchange",
+        "Select a Folder",
+        "Shared",
+        "Next"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\u9vttiTrhoU\\frames\\frame_000021.jpg",
+      "timestamp_seconds": 600.0,
+      "frame_index": 21,
+      "category": "demo",
+      "keep": true,
+      "description": "A live demonstration of Autodesk software showcasing a 3D model of a structure.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Data Exchange",
+        "3D Model"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\u9vttiTrhoU\\frames\\frame_000028.jpg",
+      "timestamp_seconds": 810.0,
+      "frame_index": 28,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a CAD software interface with a section on data exchange creation, likely demonstrating a feature in Autodesk software.",
+      "products_visible": [
+        "Autodesk",
+        "Autodesk Inventor Professional 2025"
+      ],
+      "ui_elements": [
+        "Data Exchange",
+        "Create exchange",
+        "Pick a Folder",
+        "Create exchange"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\u9vttiTrhoU\\frames\\frame_000029.jpg",
+      "timestamp_seconds": 840.0,
+      "frame_index": 29,
+      "category": "ui",
+      "keep": true,
+      "description": "The frame shows a demonstration of the Autodesk Revit 2023 interface with focus on the Data Exchange feature.",
+      "products_visible": [
+        "Autodesk Revit"
+      ],
+      "ui_elements": [
+        "Data Exchange",
+        "Load exchange",
+        "Create exchange"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\u9vttiTrhoU\\frames\\frame_000036.jpg",
+      "timestamp_seconds": 1050.0,
+      "frame_index": 36,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents the benefits of the Forma Industry Cloud, highlighting features such as Single Model, Version History, External Share, and Transfer Between Software Releases.",
+      "products_visible": [
+        "AUTODESK",
+        "Forma Industry Cloud"
+      ],
+      "ui_elements": [
+        "Single Model",
+        "Version History",
+        "External Share",
+        "Transfer Between Software Releases"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\u9vttiTrhoU\\frames\\frame_000046.jpg",
+      "timestamp_seconds": 1350.0,
+      "frame_index": 46,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide shows a Data Exchange roadmap with sections for Connected Ecosystem, Cloud Capabilities, Data Experiences, and Platform Solutions.",
+      "products_visible": [
+        "AUTODesk"
+      ],
+      "ui_elements": [
+        "CONNECTED ECOSYSTEM",
+        "CLOUD CAPABILITIES",
+        "DATA EXPERIENCES",
+        "PLATFORM SOLUTIONS"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:21:11.386235+00:00"
+}

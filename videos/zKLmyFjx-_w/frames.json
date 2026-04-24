@@ -1,0 +1,245 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zKLmyFjx-_w\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide titled 'The Most Expensive Connector' discussing secure, scalable, AI-ready APS integration.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "The Most Expensive Connector",
+        "Modern Enterprise Architecture for Secure, Scalable, AI-Ready APS Integration"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zKLmyFjx-_w\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents two team speakers with their names and designations mentioned.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "DevCon",
+        "Team speakers, 2 person",
+        "Varun, Bhartiya",
+        "CEO at nCircle Tech",
+        "Mayank, Mridul",
+        "Senior Software Engineer at Autodesk"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zKLmyFjx-_w\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide with an agenda for an Autodesk DevCon presentation, listing topics related to DX Power BI Connector.",
+      "products_visible": [
+        "Autodesk",
+        "DX Power BI Connector"
+      ],
+      "ui_elements": [
+        "Agenda",
+        "The DX Power BI Connector story",
+        "What customers pushed us to rethink",
+        "From thick client to thin connector",
+        "SSA \u2014 A New Tool for Your Connectors",
+        "What the new architecture unlocks",
+        "Demo",
+        "Takeaways for developers & end users",
+        "Build it once \u2014 what this enables"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zKLmyFjx-_w\\frames\\frame_000005.jpg",
+      "timestamp_seconds": 120.0,
+      "frame_index": 5,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide with a quote about building for Big Data and AI, and moving away from API calls.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zKLmyFjx-_w\\frames\\frame_000009.jpg",
+      "timestamp_seconds": 240.0,
+      "frame_index": 9,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation discussing the DX Power BI Connector, including its platform and customer adoption information.",
+      "products_visible": [
+        "Autodesk",
+        "Power BI"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "The DX Power BI Connector \u2014 Where We Started",
+        "Data Exchange Platform",
+        "Model Derivative API",
+        "BIM data analysis"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zKLmyFjx-_w\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing what customers pushed Autodesk to rethink with points on data and scalability.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "What Customers Pushed Us To Rethink"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zKLmyFjx-_w\\frames\\frame_000015.jpg",
+      "timestamp_seconds": 420.0,
+      "frame_index": 15,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'The Architecture Shift' presented at Autodesk DevCon, featuring a speaker next to the slide.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "The Architecture Shift"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zKLmyFjx-_w\\frames\\frame_000017.jpg",
+      "timestamp_seconds": 480.0,
+      "frame_index": 17,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing the change from a thick client to a thin connector with Power BI and APS APIs.",
+      "products_visible": [
+        "Autodesk",
+        "Power BI",
+        "APS APIs"
+      ],
+      "ui_elements": [
+        "Before",
+        "After",
+        "Thick Connector",
+        "Thin Connector",
+        "Smart Backend"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zKLmyFjx-_w\\frames\\frame_000025.jpg",
+      "timestamp_seconds": 720.0,
+      "frame_index": 25,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing 'Inside the Smart Backend' with a flowchart and key technical decisions listed.",
+      "products_visible": [
+        "AUTODESK DevCon"
+      ],
+      "ui_elements": [
+        "Inside the Smart Backend",
+        "Key technical decisions"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zKLmyFjx-_w\\frames\\frame_000029.jpg",
+      "timestamp_seconds": 840.0,
+      "frame_index": 29,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon discussing features such as fast performance, real-time data, and AI readiness with benefits like parallel API fetches and integration with Microsoft Fabric.",
+      "products_visible": [
+        "Autodesk",
+        "Microsoft Fabric"
+      ],
+      "ui_elements": [
+        "Fast Performance",
+        "Real Time Data",
+        "AI & Fabric Ready",
+        "Parallel API fetches",
+        "Streaming \u2014 no memory limits",
+        "Connector streams live data",
+        "Parquet output feeds ML pipelines"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zKLmyFjx-_w\\frames\\frame_000033.jpg",
+      "timestamp_seconds": 960.0,
+      "frame_index": 33,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide showing the use of a PowerBI Connector in action, with a 3D model view loaded into Forma.",
+      "products_visible": [
+        "PowerBI",
+        "Forma"
+      ],
+      "ui_elements": [
+        "Model Browser"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zKLmyFjx-_w\\frames\\frame_000037.jpg",
+      "timestamp_seconds": 1080.0,
+      "frame_index": 37,
+      "category": "demo",
+      "keep": true,
+      "description": "This frame shows a demo of the PowerBI Connector with the action to upload the initial version of the model.",
+      "products_visible": [
+        "PowerBI"
+      ],
+      "ui_elements": [
+        "Upload Initial Version of the Model"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zKLmyFjx-_w\\frames\\frame_000040.jpg",
+      "timestamp_seconds": 1170.0,
+      "frame_index": 40,
+      "category": "demo",
+      "keep": true,
+      "description": "A demonstration of the PowerBI Connector in action, showing a file upload process in a software interface.",
+      "products_visible": [
+        "PowerBI",
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Demo 2: PowerBI Connector in Action",
+        "Scheduled Data Refresh",
+        "upload.bim",
+        "Upload"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\zKLmyFjx-_w\\frames\\frame_000044.jpg",
+      "timestamp_seconds": 1290.0,
+      "frame_index": 44,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide with developer guidelines on building efficient applications, shown alongside a talking head.",
+      "products_visible": [
+        "AUTODESK",
+        "APS"
+      ],
+      "ui_elements": [
+        "If You're a Developer",
+        "Keep your connector thin",
+        "Invest in a smart backend",
+        "Design for streaming",
+        "Use the latest APS tech as it ships"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:17:05.815119+00:00"
+}

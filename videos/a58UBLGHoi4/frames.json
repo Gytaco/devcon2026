@@ -1,0 +1,258 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\a58UBLGHoi4\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon about building secure AI pipelines with MCP, presented by Nabil Sadeg.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "1211 - Building Secure AI Pipelines with MCP",
+        "From Fragmented Data to Controlled Integration"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\a58UBLGHoi4\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide displaying the introduction of a person named Nabil Sadeg, CTO at Nacorm, detailing their expertise in software development, AI, and data processing.",
+      "products_visible": [
+        "Autodesk",
+        "nacorm"
+      ],
+      "ui_elements": [
+        "About me",
+        "Nabil SADEG",
+        "CTO",
+        "Experience",
+        "Nacorm"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\a58UBLGHoi4\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing AI, featuring the text 'Identify AI applications' and a diagram of a brain with circuit lines.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Data",
+        "AI"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\a58UBLGHoi4\\frames\\frame_000005.jpg",
+      "timestamp_seconds": 120.0,
+      "frame_index": 5,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide explains why data is the foundation of AI, mentioning data quality and challenges with AEC data.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Why data is the foundation of AI",
+        "AI is entirely dependent on Data",
+        "Data quality = AI Quality",
+        "AEC data often incomplete, heterogeneous"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\a58UBLGHoi4\\frames\\frame_000007.jpg",
+      "timestamp_seconds": 180.0,
+      "frame_index": 7,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents six main data types: Numeric, Text, Audio, Visual (2D), Video, and Geometric (3D).",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "6 main data types",
+        "Numeric",
+        "Text",
+        "Audio",
+        "Visual (2D)",
+        "Video",
+        "Geometric (3D)"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\a58UBLGHoi4\\frames\\frame_000008.jpg",
+      "timestamp_seconds": 210.0,
+      "frame_index": 8,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide lists six main data types: Numeric, Text, Visual (2D), Video, Audio, and Geometric (3D).",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "6 main data types",
+        "Numeric",
+        "Text",
+        "Visual (2D)",
+        "Video",
+        "Audio",
+        "Geometric (3D)"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\a58UBLGHoi4\\frames\\frame_000009.jpg",
+      "timestamp_seconds": 240.0,
+      "frame_index": 9,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide is shown listing six main data types: Numeric, Text, Audio, Visual (2D), Video, and Geometric (3D), with 'Video' highlighted.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "6 main data types",
+        "Numeric",
+        "Text",
+        "Audio",
+        "Visual (2D)",
+        "Video",
+        "Geometric (3D)"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\a58UBLGHoi4\\frames\\frame_000010.jpg",
+      "timestamp_seconds": 270.0,
+      "frame_index": 10,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents six main data types: Numeric, Text, Audio, Visual (2D), Video, and Geometric (3D).",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "6 main data types",
+        "Numeric",
+        "Text",
+        "Audio",
+        "Visual (2D)",
+        "Video",
+        "Geometric (3D)"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\a58UBLGHoi4\\frames\\frame_000015.jpg",
+      "timestamp_seconds": 420.0,
+      "frame_index": 15,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing data factors such as internal vs. external quality, structured vs. unstructured data, data quantity, and noise, alongside a speaker.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Internal vs. external quality",
+        "Structured vs. Unstructured Data",
+        "Data Quantity",
+        "Noise"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\a58UBLGHoi4\\frames\\frame_000018.jpg",
+      "timestamp_seconds": 510.0,
+      "frame_index": 18,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing the AEC Data Pipeline with stages including Collection, Evaluation, Structuring, Cleaning, and Enrichment.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "AEC Data Pipeline",
+        "Collection",
+        "Evaluation",
+        "Structuring",
+        "Cleaning",
+        "Enrichment"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\a58UBLGHoi4\\frames\\frame_000021.jpg",
+      "timestamp_seconds": 600.0,
+      "frame_index": 21,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide presenting the 'Human Abilities Framework' which includes abilities like 'See', 'Hear and Speak', 'Understand Language', 'Act', 'Learn', 'Find', and 'Reason'.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Human Abilities Framework",
+        "See",
+        "Hear and Speak",
+        "Understand Language",
+        "Act",
+        "Learn",
+        "Find",
+        "Reason"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\a58UBLGHoi4\\frames\\frame_000022.jpg",
+      "timestamp_seconds": 630.0,
+      "frame_index": 22,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing 'Speech To Text & Text To Speech' technology with definitions, goals, and use cases.",
+      "products_visible": [
+        "AUTODESK",
+        "KLAI"
+      ],
+      "ui_elements": [
+        "Hear & Speak",
+        "Speech To Text & Text To Speech",
+        "Use Cases"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\a58UBLGHoi4\\frames\\frame_000029.jpg",
+      "timestamp_seconds": 840.0,
+      "frame_index": 29,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide explains what an API (Application Programming Interface) is and lists key characteristics such as defined endpoints and authentication.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "What is an API?",
+        "Defined endpoints (URLs) for specific operations",
+        "Authentication via API keys or tokens",
+        "Structured request/response format (usually JSON)",
+        "Documented and versioned"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\a58UBLGHoi4\\frames\\frame_000031.jpg",
+      "timestamp_seconds": 900.0,
+      "frame_index": 31,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide discussing the challenge of integrating multiple AI models with various tools, illustrating the N\u00d7M problem of requiring many custom adapters.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Weakness - The N\u00d7M problem"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T21:55:44.832435+00:00"
+}

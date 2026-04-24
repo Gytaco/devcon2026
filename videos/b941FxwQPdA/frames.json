@@ -1,0 +1,287 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\b941FxwQPdA\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk presentation titled 'From Fragmented CDEs to a Single Asset Truth' featuring a cityscape image.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "FROM FRAGMENTED CDEs TO A SINGLE ASSET TRUTH",
+        "SCALING LIFECYCLE DATA WITH APS",
+        "AUTODESK DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\b941FxwQPdA\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide outlines a professional journey related to BIM and information management across different years with associated roles.",
+      "products_visible": [
+        "Autodesk",
+        "BESIX",
+        "Esri"
+      ],
+      "ui_elements": [
+        "Autodesk DevCon",
+        "Setting the Scene",
+        "BIM coordination",
+        "Architecture, Engineering & Construction Collection"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\b941FxwQPdA\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation introducing Michiel Bienens, detailing his professional and academic background.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "SETTING THE SCENE",
+        "ABOUT ME: WHY I CARE ABOUT INFORMATION",
+        "Michiel Bienens",
+        "BIM MANAGER BESIX NL",
+        "PROFESSIONAL EXPERIENCE",
+        "ACADEMIC RECORD",
+        "SIDE HUSTLE"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\b941FxwQPdA\\frames\\frame_000006.jpg",
+      "timestamp_seconds": 150.0,
+      "frame_index": 6,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide showcasing key facts and figures about BESIX, including revenue, employee count, and countries of operation.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "DevCon",
+        "No1 Belgium",
+        "Top 250 international contractors",
+        "115+ years",
+        "+10,000 employees",
+        "+25 Countries",
+        "4 Business Lines",
+        "EUR 3.5 billion Revenue",
+        "EUR 42 billion Net Income",
+        "EUR 8.2 billion Order book",
+        "Stable shareholding"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\b941FxwQPdA\\frames\\frame_000007.jpg",
+      "timestamp_seconds": 180.0,
+      "frame_index": 7,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide featuring the Kangaroo Point Bridge in Brisbane, Australia, with a speaker in the corner.",
+      "products_visible": [
+        "AUTODESK DevCon"
+      ],
+      "ui_elements": [
+        "Kangaroo Point Bridge",
+        "BESIX Group"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\b941FxwQPdA\\frames\\frame_000010.jpg",
+      "timestamp_seconds": 270.0,
+      "frame_index": 10,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide is shown with a quote about having data everywhere but information nowhere, alongside an image of a landscape.",
+      "products_visible": [
+        "AUTODESK DevCon"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\b941FxwQPdA\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide shows a graph demonstrating a growth of 712,328 with an 80% increase over 12 months, under the BESIX Forma Universe project.",
+      "products_visible": [
+        "AUTODESK DevCon",
+        "BESIX",
+        "The Forma Universe"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\b941FxwQPdA\\frames\\frame_000022.jpg",
+      "timestamp_seconds": 630.0,
+      "frame_index": 22,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing the organization of information using a structure involving system engineering and work packages.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "How We Organise Everything",
+        "SYSTEM ENGINEERING",
+        "ONE STRUCTURE TO UNITE ALL INFORMATION",
+        "WORKPACKAGES",
+        "MAIN & SUBPROCESS",
+        "TEAM",
+        "OBJECT",
+        "GEOGRAPHY",
+        "TYPE ACTIVITY"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\b941FxwQPdA\\frames\\frame_000034.jpg",
+      "timestamp_seconds": 990.0,
+      "frame_index": 34,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation showing information flow regarding asset management with roles like Asset owner and Contractor.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "What information do I need about my asset to achieve my outcomes?"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\b941FxwQPdA\\frames\\frame_000035.jpg",
+      "timestamp_seconds": 1020.0,
+      "frame_index": 35,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide about supporting a full asset lifecycle management process in AEC, featuring a circular diagram with sectors like buildings and transportation.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "DevCon",
+        "In AEC, our mission",
+        "Planning",
+        "Design",
+        "Construction",
+        "Operations"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\b941FxwQPdA\\frames\\frame_000036.jpg",
+      "timestamp_seconds": 1050.0,
+      "frame_index": 36,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing the technology landscape for major projects with a focus on Autodesk tools and data integration.",
+      "products_visible": [
+        "Autodesk",
+        "APS Docs",
+        "Revit",
+        "AutoCAD Plant 3D",
+        "Civil 3D",
+        "AutoCAD"
+      ],
+      "ui_elements": [
+        "Classification standards",
+        "Enterprise data landscape",
+        "Output",
+        "CDE"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\b941FxwQPdA\\frames\\frame_000040.jpg",
+      "timestamp_seconds": 1170.0,
+      "frame_index": 40,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide showing Autodesk Datum and Model Coordination with a software interface screenshot.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "AEC Data model",
+        "engineering data"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\b941FxwQPdA\\frames\\frame_000043.jpg",
+      "timestamp_seconds": 1260.0,
+      "frame_index": 43,
+      "category": "demo",
+      "keep": true,
+      "description": "The video frame shows a live demonstration of Autodesk's software, featuring a model configuration tool with various UI elements visible on the screen.",
+      "products_visible": [
+        "Autodesk Medial Composer"
+      ],
+      "ui_elements": [
+        "Object Colors",
+        "Handle",
+        "Collate",
+        "Display modes"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\b941FxwQPdA\\frames\\frame_000046.jpg",
+      "timestamp_seconds": 1350.0,
+      "frame_index": 46,
+      "category": "ui",
+      "keep": true,
+      "description": "The frame shows a split-screen view with a person on the left and a UI related to 'Assets' and 'Structural Concrete Checklist' on the right.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Assets",
+        "Structural Concrete Checklist",
+        "Use camera",
+        "Add",
+        "Scan",
+        "Submit"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\b941FxwQPdA\\frames\\frame_000051.jpg",
+      "timestamp_seconds": 1500.0,
+      "frame_index": 51,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'Digital Transformation' discussing the 'Shinkansen Paradox' with images and text describing static and dynamic perspectives.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "DevCon",
+        "STATIC PERSPECTIVE",
+        "DYNAMIC PERSPECTIVE"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\b941FxwQPdA\\frames\\frame_000054.jpg",
+      "timestamp_seconds": 1590.0,
+      "frame_index": 54,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide from Autodesk DevCon showing a quote about the future, with images of two speakers.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "The FUTURE is bright...",
+        "Michiel BIENENS | Jan BOONEN",
+        "DevCon 2026",
+        "Amsterdam, April 16 2026"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:12:24.255106+00:00"
+}

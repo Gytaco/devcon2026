@@ -1,0 +1,63 @@
+{
+  "video_id": "3H0mE03YCPQ",
+  "demo_timestamps": [
+    {
+      "start": 270.0,
+      "end": 370.0,
+      "description": "Creating an issue in Autodesk Forma and sending a WhatsApp message from the application"
+    },
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "description": "Sending messages to WhatsApp using templates and handling phone number fallbacks"
+    }
+  ],
+  "themes": [
+    "Real-time Safety Notifications",
+    "Integration of Autodesk Format with WhatsApp",
+    "Real-Time Notifications",
+    "AI Agent Tuning",
+    "WhatsApp Messaging Integration"
+  ],
+  "client_mentions": [
+    {
+      "name": "EBS",
+      "context": "EBS is a construction company specializing in healthcare, schools, and hospitals.",
+      "timestamp": 12.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "ACC",
+      "is_api": false,
+      "timestamp": 335.0
+    },
+    {
+      "name": "APS",
+      "is_api": false,
+      "timestamp": 22.0
+    },
+    {
+      "name": "Forma",
+      "is_api": false,
+      "timestamp": 295.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "AI agent",
+      "category": "agent",
+      "context": "Used to create human and personalized WhatsApp messages from issue data",
+      "timestamp": 616.0
+    },
+    {
+      "name": "AI agents",
+      "category": "agent",
+      "context": "Further tuning AI agents for message standards",
+      "timestamp": 1159.0
+    }
+  ],
+  "summary": "The video explores an application created by EBS that enhances construction site safety notifications by integrating Autodesk Construction Cloud (ACC) and Autodesk Forma with WhatsApp, enabling real-time, personalized alerts using AI agents. It also addresses challenges in AI tuning, managing phone numbers, and WhatsApp's message template categorization, ensuring accurate communication and feedback loops back into Forma.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:29:46.850235+00:00"
+}

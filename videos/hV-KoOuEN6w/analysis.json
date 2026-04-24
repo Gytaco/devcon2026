@@ -1,0 +1,52 @@
+{
+  "video_id": "hV-KoOuEN6w",
+  "demo_timestamps": [
+    {
+      "start": 390.0,
+      "end": 490.0,
+      "description": "Demonstration of ERP integration with Fusion using bike frame demo"
+    },
+    {
+      "start": 600.0,
+      "end": 720.0,
+      "description": "Explanation of integration under the hood using Fusion add-in and web application"
+    }
+  ],
+  "themes": [
+    "Automation of CAD to ERP integration",
+    "Efficiency in engineering data management"
+  ],
+  "client_mentions": [
+    {
+      "name": "IQTech",
+      "context": "Power electronics startup facing challenges with manual data entry and syncing CAD and ERP data",
+      "timestamp": 69.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "Fusion",
+      "is_api": false,
+      "timestamp": 126.0
+    },
+    {
+      "name": "Fusion Manage Extension",
+      "is_api": false,
+      "timestamp": 126.0
+    },
+    {
+      "name": "Manufacturing Data API",
+      "is_api": true,
+      "timestamp": 422.0
+    },
+    {
+      "name": "APS authentication API",
+      "is_api": true,
+      "timestamp": 623.0
+    }
+  ],
+  "ai_technologies": [],
+  "summary": "The video discusses the integration of Autodesk Fusion with Microsoft Business Central to automate the transfer of engineering data from CAD to ERP systems, significantly reducing manual data entry time. The solution involves a Fusion add-in and API use, allowing IQTech to improve data consistency and efficiency in their engineering processes.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:51:13.272632+00:00"
+}

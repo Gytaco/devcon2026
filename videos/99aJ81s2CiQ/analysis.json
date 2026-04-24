@@ -1,0 +1,70 @@
+{
+  "video_id": "99aJ81s2CiQ",
+  "demo_timestamps": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "description": "Sveko GPT integrating with ACC, demonstrating data retrieval and AI systems querying model data for sustainability insights"
+    },
+    {
+      "start": 0.06,
+      "end": 0.1,
+      "description": "Demonstration of APS data management API to retrieve and query model data in a test environment"
+    },
+    {
+      "start": 0.1,
+      "end": 0.12,
+      "description": "Live demonstration of extracting material quantities and sustainability adjustments from a Revit model"
+    },
+    {
+      "start": 0.12,
+      "end": 0.14,
+      "description": "Querying and visualizing data with AI systems; exploring sustainability alternatives for construction materials"
+    }
+  ],
+  "themes": [
+    "AI integration in BIM solutions",
+    "Sustainability in construction",
+    "Data management and interoperability"
+  ],
+  "client_mentions": [
+    {
+      "name": "Sveko",
+      "context": "Client using AI and ACC for BIM solutions",
+      "timestamp": 0.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "ACC",
+      "is_api": false,
+      "timestamp": 0.06
+    },
+    {
+      "name": "APS",
+      "is_api": false,
+      "timestamp": 0.06
+    },
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 0.06
+    },
+    {
+      "name": "Model Derivative API",
+      "is_api": true,
+      "timestamp": 0.06
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "Sveko GPT",
+      "category": "llm",
+      "context": "An AI chat system used to interface with Sveko's data and provide insights",
+      "timestamp": 0.0
+    }
+  ],
+  "summary": "The video showcases Sveko's integration of AI and Autodesk Construction Cloud (ACC) for enhancing BIM solutions. Sveko GPT is used to query data from Revit models to provide sustainability insights and suggestions for material use. The demonstration covers the use of Autodesk's APIs for data management, emphasizing the importance of human decision-making supported by technology.",
+  "_complete": true,
+  "_saved_at": "2026-04-23T00:01:42.170350+00:00"
+}

@@ -1,0 +1,961 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "text": "Welcome everybody to the presentation which covers workflows and apps on other disk with using Victor.",
+      "words": []
+    },
+    {
+      "start": 8.0,
+      "end": 15.0,
+      "text": "Together with Luca Ovalien, the CEO of Swaco, I'll be presenting.",
+      "words": []
+    },
+    {
+      "start": 15.0,
+      "end": 20.0,
+      "text": "I'm Peter Matliner, the CEO of Victor.",
+      "words": []
+    },
+    {
+      "start": 20.0,
+      "end": 26.0,
+      "text": "We will be presenting multiple things in this presentation, but take about 30 minutes.",
+      "words": []
+    },
+    {
+      "start": 26.0,
+      "end": 31.0,
+      "text": "You will learn how to turn an engineer logic into reusable apps in minutes instead of weeks,",
+      "words": []
+    },
+    {
+      "start": 31.0,
+      "end": 36.0,
+      "text": "how to connect out-to-description clouds and other tools into a single automation workflow,",
+      "words": []
+    },
+    {
+      "start": 36.0,
+      "end": 47.0,
+      "text": "and you will learn how AI agents can orchestrate engineering processes not just automate individual tasks.",
+      "words": []
+    },
+    {
+      "start": 47.0,
+      "end": 55.0,
+      "text": "Before we introduce Victor, let's talk about the challenges that we have in the engineering industry.",
+      "words": []
+    },
+    {
+      "start": 55.0,
+      "end": 62.0,
+      "text": "We have a housing shortage, we have aging infrastructure, we have engineering transition,",
+      "words": []
+    },
+    {
+      "start": 62.0,
+      "end": 65.0,
+      "text": "we have challenges regarding climate.",
+      "words": []
+    },
+    {
+      "start": 65.0,
+      "end": 73.0,
+      "text": "This is by the way a very interesting topic that Luca will also be presenting the things that they are building in this domain.",
+      "words": []
+    },
+    {
+      "start": 73.0,
+      "end": 78.0,
+      "text": "But there is another challenge, we have a housing shortage, etc.",
+      "words": []
+    },
+    {
+      "start": 78.0,
+      "end": 84.0,
+      "text": "We have the challenge of the engineer in the context that the engineer is working.",
+      "words": []
+    },
+    {
+      "start": 84.0,
+      "end": 92.0,
+      "text": "There is a budget pressure, there is time shortage, and there is a shortage in talent.",
+      "words": []
+    },
+    {
+      "start": 92.0,
+      "end": 96.0,
+      "text": "Other industries are already heavily automating their work,",
+      "words": []
+    },
+    {
+      "start": 96.0,
+      "end": 104.0,
+      "text": "and the automation is of course an opportunity to help the engineer to solve those challenges that the industry has.",
+      "words": []
+    },
+    {
+      "start": 104.0,
+      "end": 113.0,
+      "text": "Looking at different industries like media, finance, utilities, healthcare, they are way ahead regarding automation,",
+      "words": []
+    },
+    {
+      "start": 113.0,
+      "end": 117.0,
+      "text": "and engineering is staying behind.",
+      "words": []
+    },
+    {
+      "start": 117.0,
+      "end": 121.0,
+      "text": "But this is changing, and that's why we also are presenting about this.",
+      "words": []
+    },
+    {
+      "start": 121.0,
+      "end": 127.0,
+      "text": "AI is a real strong enabler for engineers to start automating.",
+      "words": []
+    },
+    {
+      "start": 127.0,
+      "end": 133.0,
+      "text": "But at the moment, this is a chart that is being made by anthropocon recently published,",
+      "words": []
+    },
+    {
+      "start": 133.0,
+      "end": 139.0,
+      "text": "there is a huge potential for engineers and automation for AI.",
+      "words": []
+    },
+    {
+      "start": 139.0,
+      "end": 145.0,
+      "text": "It's a very little adopted industry, technology in the industry.",
+      "words": []
+    },
+    {
+      "start": 145.0,
+      "end": 153.0,
+      "text": "So what enables AI for the engineer, it enables the democratization or software creation.",
+      "words": []
+    },
+    {
+      "start": 153.0,
+      "end": 159.0,
+      "text": "So everybody, by means of AI, everybody can start making automation tools.",
+      "words": []
+    },
+    {
+      "start": 159.0,
+      "end": 166.0,
+      "text": "And it's really important for the industry, engineering companies, construction companies to implement this technology,",
+      "words": []
+    },
+    {
+      "start": 166.0,
+      "end": 178.0,
+      "text": "because if you don't do so, you will fall behind, and that will be a disadvantage when it comes down to competitiveness.",
+      "words": []
+    },
+    {
+      "start": 179.0,
+      "end": 187.0,
+      "text": "So looking at our customers, what are the main challenges in automation currently?",
+      "words": []
+    },
+    {
+      "start": 187.0,
+      "end": 190.0,
+      "text": "So we have five challenges.",
+      "words": []
+    },
+    {
+      "start": 190.0,
+      "end": 197.0,
+      "text": "So the engineers' in coding skills, automation by itself takes too much time.",
+      "words": []
+    },
+    {
+      "start": 197.0,
+      "end": 201.0,
+      "text": "It's a fragmented data software landscape.",
+      "words": []
+    },
+    {
+      "start": 201.0,
+      "end": 209.0,
+      "text": "So the engineers are very different, and there's always a very high quality standard required.",
+      "words": []
+    },
+    {
+      "start": 209.0,
+      "end": 213.0,
+      "text": "So where do we help with Victor and these?",
+      "words": []
+    },
+    {
+      "start": 213.0,
+      "end": 218.0,
+      "text": "So we make sure any engineer can build apps by means of AI.",
+      "words": []
+    },
+    {
+      "start": 218.0,
+      "end": 226.0,
+      "text": "We make sure that the engineers can build those apps super fast, such that it fits in their way of working.",
+      "words": []
+    },
+    {
+      "start": 226.0,
+      "end": 237.0,
+      "text": "So we then they're existing landscape that you make apps that are being verified, that you know that the quality is of the highest standard.",
+      "words": []
+    },
+    {
+      "start": 237.0,
+      "end": 241.0,
+      "text": "And eventually you can share those verified apps with your colleagues.",
+      "words": []
+    },
+    {
+      "start": 241.0,
+      "end": 245.0,
+      "text": "And how we categorize this is build, connect and share.",
+      "words": []
+    },
+    {
+      "start": 245.0,
+      "end": 251.0,
+      "text": "And these are also the pillars that we have within Victor.",
+      "words": []
+    },
+    {
+      "start": 251.0,
+      "end": 256.0,
+      "text": "Okay, so that was briefly about Victor in introduction.",
+      "words": []
+    },
+    {
+      "start": 256.0,
+      "end": 264.0,
+      "text": "I will be giving a live demo on how we are using these elements to connect different applications and orchestrate workflows.",
+      "words": []
+    },
+    {
+      "start": 264.0,
+      "end": 269.0,
+      "text": "But before doing so, I want to play the floor to Luca.",
+      "words": []
+    },
+    {
+      "start": 269.0,
+      "end": 271.0,
+      "text": "Thank you, Peter.",
+      "words": []
+    },
+    {
+      "start": 271.0,
+      "end": 278.0,
+      "text": "So to start with, I will shortly introduce this record.",
+      "words": []
+    },
+    {
+      "start": 278.0,
+      "end": 293.0,
+      "text": "We have 22,000 people and offices in 15 countries, and we are providing different services in our landscape from the building and urban areas, industry, infrastructure, and texture, but also sustainability and resilience.",
+      "words": []
+    },
+    {
+      "start": 293.0,
+      "end": 301.0,
+      "text": "So we have a very big true digital strategy that is based on these five digital pillars.",
+      "words": []
+    },
+    {
+      "start": 301.0,
+      "end": 312.0,
+      "text": "One of the most important part of our work is of course to provide those services and we want to provide those services with most efficient and qualitative way possible.",
+      "words": []
+    },
+    {
+      "start": 312.0,
+      "end": 320.0,
+      "text": "We also want to transform the cloud experience that using digital tools and technologies to really provide additional values in our projects.",
+      "words": []
+    },
+    {
+      "start": 320.0,
+      "end": 324.0,
+      "text": "Also, we want to start unloading new business and new business models.",
+      "words": []
+    },
+    {
+      "start": 324.0,
+      "end": 328.0,
+      "text": "We want to fill the gap on the market that we are seeing daily.",
+      "words": []
+    },
+    {
+      "start": 328.0,
+      "end": 337.0,
+      "text": "And also then two fundamental pillars that we want to build continue building our digital ag capabilities also are innovative mindset.",
+      "words": []
+    },
+    {
+      "start": 337.0,
+      "end": 344.0,
+      "text": "And then the last is of course digitalizing the back office so that we keep improving our existing operational processes.",
+      "words": []
+    },
+    {
+      "start": 344.0,
+      "end": 357.0,
+      "text": "If you go to the next slide, we will see that these three top pillars is also something that we are seeing the use cases for Victor and the tools from that from them.",
+      "words": []
+    },
+    {
+      "start": 357.0,
+      "end": 365.0,
+      "text": "You can see that the digital is the core we are using the Victor platform to really enable the citizen development, what was mentioned by Peter a few moments ago.",
+      "words": []
+    },
+    {
+      "start": 365.0,
+      "end": 375.0,
+      "text": "If you really improve and build more internal automations that we start building the small and shared applications across the teams across the units and across divisions.",
+      "words": []
+    },
+    {
+      "start": 375.0,
+      "end": 379.0,
+      "text": "You can see here on also the middle pillar that transform the client experience.",
+      "words": []
+    },
+    {
+      "start": 379.0,
+      "end": 386.0,
+      "text": "We want to use the victory I to build applications as part of the project that we're delivering to our customers to the market.",
+      "words": []
+    },
+    {
+      "start": 386.0,
+      "end": 392.0,
+      "text": "We want to provide them with options to fill the forms to have some directed dashboards.",
+      "words": []
+    },
+    {
+      "start": 392.0,
+      "end": 398.0,
+      "text": "And that all is coming then to also the third pillar to unlock new opportunities.",
+      "words": []
+    },
+    {
+      "start": 398.0,
+      "end": 405.0,
+      "text": "We see that that gap the need on the market and by using the victory I we can speed up the development of these applications.",
+      "words": []
+    },
+    {
+      "start": 405.0,
+      "end": 416.0,
+      "text": "We can also speed up delivery of these applications to the end users that can actually start using those and get some efficiencies and some value on their side.",
+      "words": []
+    },
+    {
+      "start": 416.0,
+      "end": 436.0,
+      "text": "And now I will present you in the next slide the short demo how we can how we using the application builder in victory I platform I am using just very small use case very simple application to calculate hill heat pump savings.",
+      "words": []
+    },
+    {
+      "start": 436.0,
+      "end": 462.0,
+      "text": "So input for this application is really the excel sheet with certain parameters and then I asked application that can he build the tool that will take this input do this calculations and then present me the this key PIs and also give me opportunity to download this export or this kind of payback forecasting.",
+      "words": []
+    },
+    {
+      "start": 462.0,
+      "end": 488.0,
+      "text": "You can see here that this tool the AI now build application for me and now I'm trying to put the first the input parameters and the first in the application owner and what I like about the mixer and the AI application builder that it's automatically identifying what the issue is and automatically trying to provide the solution for it.",
+      "words": []
+    },
+    {
+      "start": 488.0,
+      "end": 509.0,
+      "text": "And this is what is happening now application recognize that there is an issue with the input file that is not matching what the application was expecting and now he adjusted that and rebuild application and now the second try you can see that it works that it's providing this key PIs what they ask the application to provide.",
+      "words": []
+    },
+    {
+      "start": 509.0,
+      "end": 522.0,
+      "text": "And also if you go once you go to the next step there is the feature that provides you the export this table is self sheet you can see here here is the one that out.",
+      "words": []
+    },
+    {
+      "start": 522.0,
+      "end": 543.0,
+      "text": "So this is the really something that enable us to build this kind of applications much faster and this is just the foundation of course this you can continue building with using the builder or you can even start building the more complex applications yourself and really provide value to our developers and also the users of those applications.",
+      "words": []
+    },
+    {
+      "start": 544.0,
+      "end": 549.0,
+      "text": "The next slide I will show you another example from.",
+      "words": []
+    },
+    {
+      "start": 549.0,
+      "end": 572.0,
+      "text": "Speko and one application that we build for our customer and the application is about really the street application that it's for the responsibilities there is a map of responsibilities that you can zoom in and select one street and get the cross section of that street.",
+      "words": []
+    },
+    {
+      "start": 572.0,
+      "end": 579.0,
+      "text": "And then you can as a user of application you can drag and drop different components of that street you will see that in a moment.",
+      "words": []
+    },
+    {
+      "start": 579.0,
+      "end": 595.0,
+      "text": "You can drag and drop for example the trees you can drag and drop the sidewalk or the street where the cars or the trucks needs to drive and you can see an adjust certain parameters of that layout.",
+      "words": []
+    },
+    {
+      "start": 595.0,
+      "end": 623.0,
+      "text": "What application will do in the background it will also compare it with a certain standards and it will warn you if there needs to be some adjustments to the display out you can see how very interactive this tool is and the value that can provide this is those responsibilities and the end goal was to really provide this as the public application that any citizen can access it and play with it can create these layouts for the streets in their neighborhood.",
+      "words": []
+    },
+    {
+      "start": 623.0,
+      "end": 638.0,
+      "text": "And then the download the certain reports this is the example you can see that how these reports looks like with certain like performance of these layouts also the cost how much is to realize it.",
+      "words": []
+    },
+    {
+      "start": 638.0,
+      "end": 649.0,
+      "text": "But also what is certain environmental impact you know keep the ice that it's important maybe to judge the layout and compare it with some other configurations.",
+      "words": []
+    },
+    {
+      "start": 649.0,
+      "end": 663.0,
+      "text": "And the users can then download these reports as a PDF share it in their communities or maybe engage with municipalities and try to suggest certain improvements and maybe some projects that municipalities can start.",
+      "words": []
+    },
+    {
+      "start": 663.0,
+      "end": 678.0,
+      "text": "So you can see here the real value of victory I it enables us to build this application so very quickly very easily it provides us that this nice interface but also provides us the way how we can publish and enable also the.",
+      "words": []
+    },
+    {
+      "start": 678.0,
+      "end": 686.0,
+      "text": "Any user of or any citizen of that most abilities to get access to this application and get value out of it.",
+      "words": []
+    },
+    {
+      "start": 686.0,
+      "end": 691.0,
+      "text": "And that's it from my side picture this to demos.",
+      "words": []
+    },
+    {
+      "start": 691.0,
+      "end": 701.0,
+      "text": "So thank you Luca for showing your presentation I really like the example of this app in particular because.",
+      "words": []
+    },
+    {
+      "start": 701.0,
+      "end": 713.0,
+      "text": "Yes, being asked quite often is that can you use Victor for internal automations or can you also use Victor for making client facing tools.",
+      "words": []
+    },
+    {
+      "start": 713.0,
+      "end": 726.0,
+      "text": "This is a perfect example of what you build a bit in Swaco to achieve something like that and I also believe that this is also the future of how engineering companies could also operate.",
+      "words": []
+    },
+    {
+      "start": 726.0,
+      "end": 734.0,
+      "text": "Making client facing tools to provide more value to clients so that's a great development.",
+      "words": []
+    },
+    {
+      "start": 734.0,
+      "end": 747.0,
+      "text": "So now I'll go to my part on the demo but before I'm going to show it in the live building part I have to explain a bit about what we are going to build.",
+      "words": []
+    },
+    {
+      "start": 747.0,
+      "end": 755.0,
+      "text": "So Luca gave an example of that he's prompting and making an app or you really has an app.",
+      "words": []
+    },
+    {
+      "start": 755.0,
+      "end": 772.0,
+      "text": "So before you of course going to use this app you want to have the right governance in place which we provide so you want to collaborate on making this app so maybe you're a domain expert but maybe you also want to check some let somebody else check your app on.",
+      "words": []
+    },
+    {
+      "start": 772.0,
+      "end": 778.0,
+      "text": "Is it being written in the right way so you can just add people or colleagues to building your app.",
+      "words": []
+    },
+    {
+      "start": 778.0,
+      "end": 796.0,
+      "text": "And you want to test your app in a smaller group when it's being tested you have a verified app and the last phase of having this verified app is that you want to share it with a bigger group within your organization or even what Luca showed is that you can even share it outside your organization.",
+      "words": []
+    },
+    {
+      "start": 796.0,
+      "end": 800.0,
+      "text": "But this is a particularly app that we are talking about.",
+      "words": []
+    },
+    {
+      "start": 800.0,
+      "end": 819.0,
+      "text": "The thing that we developed throughout all those years is that you have an app store within Victor and you can connect those apps so you can have a design app you can have a calculation app you can have a validation app and all those together you can combine those.",
+      "words": []
+    },
+    {
+      "start": 819.0,
+      "end": 839.0,
+      "text": "Which is presented here so building the workflow is something that I will demo here and after this slide and and of course you can also add an agent on top of a workflow which eventually optimizes your full workflow.",
+      "words": []
+    },
+    {
+      "start": 839.0,
+      "end": 855.0,
+      "text": "Yeah so I presented the workflow I'm going to build so before explaining the actual workflow I am going to load predefined prompt which helps me a bit in time.",
+      "words": []
+    },
+    {
+      "start": 855.0,
+      "end": 867.0,
+      "text": "So what will be happening here on the background is in this demo I will be connecting to a C C out of construction cloud.",
+      "words": []
+    },
+    {
+      "start": 867.0,
+      "end": 883.0,
+      "text": "Within out of this construction cloud there is a structural model I will convert this eventually to an analytical model and this analytical model will be converted to a finite element model.",
+      "words": []
+    },
+    {
+      "start": 883.0,
+      "end": 892.0,
+      "text": "So we have ACC in the cloud environment then I will be running on my local machine the structural analysis.",
+      "words": []
+    },
+    {
+      "start": 892.0,
+      "end": 916.0,
+      "text": "So as you can see here in this prompting window it's explaining what kind of steps it's executing so as you can see here the workflow has been built with all kinds of components and this is for instance an app which will be retrieving the reaction loads which I will be looking into.",
+      "words": []
+    },
+    {
+      "start": 916.0,
+      "end": 928.0,
+      "text": "Okay before explaining more I'm already going to again going to load a prompt because saving time so there we go.",
+      "words": []
+    },
+    {
+      "start": 928.0,
+      "end": 942.0,
+      "text": "So I built the workflow so this was being shown here to operate this workflow I have to so now it's already connected to ACC.",
+      "words": []
+    },
+    {
+      "start": 942.0,
+      "end": 967.0,
+      "text": "So now I'm going to add a structural model so I made an additional folder which contains the Victor building refit file so what I now want to do I want to retrieve the data from the ACC environment into the actual Victor app which will be presented here.",
+      "words": []
+    },
+    {
+      "start": 968.0,
+      "end": 995.0,
+      "text": "So maybe explain a bit about Victor what you're seeing here so this is the environment that you are using app but you can have it's a platform where you can have multiple apps in the app store you can work in projects etc. Okay so there we are so now I can load the actual file so this is the file that I'm using.",
+      "words": []
+    },
+    {
+      "start": 995.0,
+      "end": 1004.0,
+      "text": "So the Victor refit building so I'm going to continue with another prompt.",
+      "words": []
+    },
+    {
+      "start": 1005.0,
+      "end": 1022.0,
+      "text": "So what now I want to do I have the geometry of this shape but now I want to convert this into a in a logical model which is the foundation eventually to do the actual structural analysis.",
+      "words": []
+    },
+    {
+      "start": 1022.0,
+      "end": 1037.0,
+      "text": "So we have to wait a bit and as you can see here multiple steps are being executed by different agents on the background of Victor.",
+      "words": []
+    },
+    {
+      "start": 1037.0,
+      "end": 1066.0,
+      "text": "Yeah so in the meantime I want to show what has been done here but I'm going to execute the following step so what I'm going to do here is I retrieve the model from ACC I made in a logical model now I'm going to use it in a logical model to do the actual structural analysis with different load cases so that's something that I'm going to start right here so I'm going to split my screen.",
+      "words": []
+    },
+    {
+      "start": 1068.0,
+      "end": 1085.0,
+      "text": "So on the right side so I just split the screen subject that you can see what's happening on the background so this is my sub 2000 finite element package and this of course running locally.",
+      "words": []
+    },
+    {
+      "start": 1085.0,
+      "end": 1103.0,
+      "text": "So and maybe to go back to the so in the meantime that we are rating for the sub model to be implemented build and eventually analyze I'm just going to show you what has been done on the structural model side so we have the.",
+      "words": []
+    },
+    {
+      "start": 1104.0,
+      "end": 1110.0,
+      "text": "The viewer and as you can see here I can.",
+      "words": []
+    },
+    {
+      "start": 1112.0,
+      "end": 1119.0,
+      "text": "This is let's say the analytical model that I'm using so I have the beam elements and I have the.",
+      "words": []
+    },
+    {
+      "start": 1121.0,
+      "end": 1126.0,
+      "text": "The plane elements and within the the sub analysis.",
+      "words": []
+    },
+    {
+      "start": 1126.0,
+      "end": 1133.0,
+      "text": "The structure the analytical members will be built will be used.",
+      "words": []
+    },
+    {
+      "start": 1134.0,
+      "end": 1141.0,
+      "text": "Okay so let's see how this is progressing as you can see on the right side.",
+      "words": []
+    },
+    {
+      "start": 1141.0,
+      "end": 1143.0,
+      "text": "The right side.",
+      "words": []
+    },
+    {
+      "start": 1143.0,
+      "end": 1154.0,
+      "text": "The picture is building the actual model so you can see the line elements of the analytical model being implemented.",
+      "words": []
+    },
+    {
+      "start": 1154.0,
+      "end": 1159.0,
+      "text": "We have the different load cases that are being implemented.",
+      "words": []
+    },
+    {
+      "start": 1159.0,
+      "end": 1168.0,
+      "text": "As you can see here the supporting conditions are being defined by Victor within the finite element model.",
+      "words": []
+    },
+    {
+      "start": 1168.0,
+      "end": 1177.0,
+      "text": "And eventually the actual analysis is being done for multiple load cases.",
+      "words": []
+    },
+    {
+      "start": 1177.0,
+      "end": 1183.0,
+      "text": "So we have to wait a bit that this is being executed.",
+      "words": []
+    },
+    {
+      "start": 1183.0,
+      "end": 1189.0,
+      "text": "Okay there we are.",
+      "words": []
+    },
+    {
+      "start": 1189.0,
+      "end": 1199.0,
+      "text": "So let's just open this one so what you see here is that it retrieved the different load cases.",
+      "words": []
+    },
+    {
+      "start": 1199.0,
+      "end": 1207.0,
+      "text": "So in the meantime because of course I want to show you how am I going to check if this information is correct.",
+      "words": []
+    },
+    {
+      "start": 1207.0,
+      "end": 1215.0,
+      "text": "So we have the different forces reaction forces being retrieved into the Victor environment and at the same time.",
+      "words": []
+    },
+    {
+      "start": 1215.0,
+      "end": 1226.0,
+      "text": "I want to design I'm going to design the the pal foundation in an optimized way.",
+      "words": []
+    },
+    {
+      "start": 1226.0,
+      "end": 1230.0,
+      "text": "So but in the meantime that we are waiting for the following prompt to be executed.",
+      "words": []
+    },
+    {
+      "start": 1230.0,
+      "end": 1235.0,
+      "text": "I just want to check something like how I'm a spiritual engineer myself as well.",
+      "words": []
+    },
+    {
+      "start": 1235.0,
+      "end": 1240.0,
+      "text": "So I'm just doing a sample test of course.",
+      "words": []
+    },
+    {
+      "start": 1240.0,
+      "end": 1243.0,
+      "text": "So I want to check the reaction forces.",
+      "words": []
+    },
+    {
+      "start": 1243.0,
+      "end": 1246.0,
+      "text": "So here we are.",
+      "words": []
+    },
+    {
+      "start": 1246.0,
+      "end": 1252.0,
+      "text": "So I was selected load case I would just check note number 37.",
+      "words": []
+    },
+    {
+      "start": 1252.0,
+      "end": 1258.0,
+      "text": "For particular load case so dl plus LL so that's something that I will check.",
+      "words": []
+    },
+    {
+      "start": 1258.0,
+      "end": 1263.0,
+      "text": "So here I was selected and.",
+      "words": []
+    },
+    {
+      "start": 1263.0,
+      "end": 1272.0,
+      "text": "Here we have the actual load case so the load case being defined in Victor is of course also implemented in the sub 2000 package.",
+      "words": []
+    },
+    {
+      "start": 1272.0,
+      "end": 1278.0,
+      "text": "And now we have the table results.",
+      "words": []
+    },
+    {
+      "start": 1278.0,
+      "end": 1286.0,
+      "text": "So as you can see here so we have the the note or the joints being here defined and then we have the.",
+      "words": []
+    },
+    {
+      "start": 1286.0,
+      "end": 1290.0,
+      "text": "Vector F3.",
+      "words": []
+    },
+    {
+      "start": 1290.0,
+      "end": 1298.0,
+      "text": "173 89 and it's similar number here but then of course for the different.",
+      "words": []
+    },
+    {
+      "start": 1298.0,
+      "end": 1303.0,
+      "text": "Round rounding off number.",
+      "words": []
+    },
+    {
+      "start": 1303.0,
+      "end": 1309.0,
+      "text": "Okay so that's that's that so we did the analysis we also checked so you could see that.",
+      "words": []
+    },
+    {
+      "start": 1309.0,
+      "end": 1317.0,
+      "text": "We run the local model now the information is back into the Victor model.",
+      "words": []
+    },
+    {
+      "start": 1317.0,
+      "end": 1325.0,
+      "text": "So now we also executed the optimal design part.",
+      "words": []
+    },
+    {
+      "start": 1325.0,
+      "end": 1331.0,
+      "text": "So the last step that I want to show is.",
+      "words": []
+    },
+    {
+      "start": 1331.0,
+      "end": 1338.0,
+      "text": "I want to upload the model back into ACC.",
+      "words": []
+    },
+    {
+      "start": 1338.0,
+      "end": 1347.0,
+      "text": "Because we started with this geometry didn't contain any geometry about the pulse.",
+      "words": []
+    },
+    {
+      "start": 1347.0,
+      "end": 1355.0,
+      "text": "So that's something of course that we designed on the background with the latest prompt.",
+      "words": []
+    },
+    {
+      "start": 1355.0,
+      "end": 1362.0,
+      "text": "So this is the actual file location in ACC.",
+      "words": []
+    },
+    {
+      "start": 1362.0,
+      "end": 1373.0,
+      "text": "And as you can see here I'm updating the so this is the analytical model which I created a few minutes ago.",
+      "words": []
+    },
+    {
+      "start": 1373.0,
+      "end": 1379.0,
+      "text": "And now I'm adding the new geometry the 3D geometry.",
+      "words": []
+    },
+    {
+      "start": 1379.0,
+      "end": 1388.0,
+      "text": "So that will be the last step in this demo showing the actual results the new uploaded geometry.",
+      "words": []
+    },
+    {
+      "start": 1388.0,
+      "end": 1395.0,
+      "text": "So just this will again take some time because of the limited bandwidth.",
+      "words": []
+    },
+    {
+      "start": 1395.0,
+      "end": 1405.0,
+      "text": "So we have to wait a bit and that will be the last part of the demo.",
+      "words": []
+    },
+    {
+      "start": 1405.0,
+      "end": 1414.0,
+      "text": "So now I'm loading the model and yeah as you can see here we finalize the full circle.",
+      "words": []
+    },
+    {
+      "start": 1414.0,
+      "end": 1419.0,
+      "text": "So we started with the building model.",
+      "words": []
+    },
+    {
+      "start": 1419.0,
+      "end": 1422.0,
+      "text": "We pulled it into the Victor environment.",
+      "words": []
+    },
+    {
+      "start": 1422.0,
+      "end": 1431.0,
+      "text": "We retrieved the analytical model converted the analytical model to find element model which being analyzed on my local machine within sub 2000.",
+      "words": []
+    },
+    {
+      "start": 1431.0,
+      "end": 1446.0,
+      "text": "Use the results of the analytical model to optimize the the pulse the foundation and eventually convert this new geometry back into the ACC environment which has been shown here.",
+      "words": []
+    },
+    {
+      "start": 1447.0,
+      "end": 1451.0,
+      "text": "So thank you for attending this presentation.",
+      "words": []
+    },
+    {
+      "start": 1451.0,
+      "end": 1456.0,
+      "text": "We really enjoyed it. We really enjoyed the live building part.",
+      "words": []
+    },
+    {
+      "start": 1456.0,
+      "end": 1461.0,
+      "text": "If you are interested in trying Victor yourself as well.",
+      "words": []
+    },
+    {
+      "start": 1461.0,
+      "end": 1469.0,
+      "text": "Yeah please go to our website or use the QR code and you can directly start building within our free version.",
+      "words": []
+    },
+    {
+      "start": 1469.0,
+      "end": 1478.0,
+      "text": "And if you are interested in learning more about the digital transformation topics that are happening within Swaco you can also reach out to Luca.",
+      "words": []
+    },
+    {
+      "start": 1478.0,
+      "end": 1481.0,
+      "text": "Thank you for attending.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:14:01.021444+00:00"
+}

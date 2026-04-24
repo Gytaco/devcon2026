@@ -1,0 +1,508 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents individuals associated with a design technology event, introducing Emiliano Lupo and Abdellah Choufani with their roles.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Emiliano Lupo",
+        "Abdellah Choufani"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "audience",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presenter with several interior architectural designs on a slide, accompanied by the Autodesk DevCon branding.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide with a presentation titled 'Automate First' including sections like The Gap and Strategy.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "The Gap",
+        "The Strategy",
+        "Implementation",
+        "Demo",
+        "Next Steps"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000005.jpg",
+      "timestamp_seconds": 120.0,
+      "frame_index": 5,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide shows an 'Early Phase Context Model' with a visual representation of an urban layout.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Early Phase Context Model"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000007.jpg",
+      "timestamp_seconds": 180.0,
+      "frame_index": 7,
+      "category": "diagram",
+      "keep": true,
+      "description": "The frame shows a diagram illustrating a feedback loop and bottleneck in a design process with phases such as call, design, and bid.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Feedback Loop",
+        "Bottleneck",
+        "Call",
+        "Design",
+        "Bid",
+        "Coordinate"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000009.jpg",
+      "timestamp_seconds": 240.0,
+      "frame_index": 9,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'THE GAP' discussing the need for collaboration and context in design spaces, with supporting icons and text.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "THE GAP",
+        "Need for Collaboration",
+        "Need for Context"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000010.jpg",
+      "timestamp_seconds": 270.0,
+      "frame_index": 10,
+      "category": "slides",
+      "keep": true,
+      "description": "This slide depicts 'The Strategy: The Collaborative Angle' focusing on bottlenecks, accessibility, and SSoT.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Bottlenecks",
+        "Accessibility",
+        "SSoT"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon showing a tensile structure diagram by Frei Otto alongside a presenter.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Implementation"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000015.jpg",
+      "timestamp_seconds": 420.0,
+      "frame_index": 15,
+      "category": "slides",
+      "keep": true,
+      "description": "A video frame featuring a QR code and a URL for accessing an extension, presented during an Autodesk DevCon session.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "QR code",
+        "Access to Extension & How to",
+        "https://bit.ly/formatrees"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000017.jpg",
+      "timestamp_seconds": 480.0,
+      "frame_index": 17,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide shows a user interface for Forma Tree Detection with project info and satellite imagery.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Fetching Project Info & Satellite Image",
+        "Forma Tree Detection",
+        "Get Project Info"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000018.jpg",
+      "timestamp_seconds": 510.0,
+      "frame_index": 18,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide showing tree detection and tuning settings, including HSV color range and detection preview.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "HSV Color Range (Tree Detection)",
+        "Detection Preview",
+        "Satellite Opacity"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000019.jpg",
+      "timestamp_seconds": 540.0,
+      "frame_index": 19,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a presentation on 'Tree Placement in Forma' with a map interface for tree detection.",
+      "products_visible": [
+        "Autodesk",
+        "Forma"
+      ],
+      "ui_elements": [
+        "Forma Tree Detection",
+        "Tree Selection",
+        "Detection Preview"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000020.jpg",
+      "timestamp_seconds": 570.0,
+      "frame_index": 20,
+      "category": "slides",
+      "keep": true,
+      "description": "The video frame shows a presentation slide about 'Project History & Tracking' with a demonstration of a tool named 'Forma Tree Detection'.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Project Tile",
+        "Extend Project",
+        "Tree Detection",
+        "Get Project Info",
+        "Fetch Mapbox Tile",
+        "Copy Mapbox JSON",
+        "Download Tile Image"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000021.jpg",
+      "timestamp_seconds": 600.0,
+      "frame_index": 21,
+      "category": "demo",
+      "keep": true,
+      "description": "A speaker at Autodesk DevCon presents a 3D site model with trees and buildings.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000022.jpg",
+      "timestamp_seconds": 630.0,
+      "frame_index": 22,
+      "category": "demo",
+      "keep": true,
+      "description": "This video frame shows a presentation slide with an architectural rendering and a speaker on the left. It appears to be part of an Autodesk DevCon event.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000023.jpg",
+      "timestamp_seconds": 660.0,
+      "frame_index": 23,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide showing 'The Dev Setup' with details on IDE, AI model, Dev Method, and Help for development.",
+      "products_visible": [
+        "Autodesk",
+        "VScode",
+        "GitHub Copilot",
+        "Anthropic's Claude",
+        "Opus",
+        "Forma SDK"
+      ],
+      "ui_elements": [
+        "The Dev Setup",
+        "IDE",
+        "AI model",
+        "Dev Method",
+        "Help"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000025.jpg",
+      "timestamp_seconds": 720.0,
+      "frame_index": 25,
+      "category": "slides",
+      "keep": true,
+      "description": "This slide presents the system architecture for the Forma Tree Detection Extension, detailing components like React Frontend, Express Backend, and Python FastAPI.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "React Frontend",
+        "Express Backend",
+        "Python FastAPI",
+        "OBJ Download"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000026.jpg",
+      "timestamp_seconds": 750.0,
+      "frame_index": 26,
+      "category": "slides",
+      "keep": true,
+      "description": "This slide discusses SDKs and APIs related to the 'forma-embedded-view-sdk', mentioning how to install and use the package.",
+      "products_visible": [
+        "Autodesk",
+        "forma-embedded-view-sdk"
+      ],
+      "ui_elements": [
+        "SDK & APIs",
+        "Settings",
+        "NPM install"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000028.jpg",
+      "timestamp_seconds": 810.0,
+      "frame_index": 28,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents the Autodesk Dev Forum with examples of application interfaces and discussion forums.",
+      "products_visible": [
+        "Autodesk Forma"
+      ],
+      "ui_elements": [
+        "Get help with Forma",
+        "Ask the community",
+        "Learn essential workflows",
+        "Ask a question",
+        "Help",
+        "Activity feed"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000029.jpg",
+      "timestamp_seconds": 840.0,
+      "frame_index": 29,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide about data overlay issues between Mapbox and Site Design is shown, discussing projection discrepancies.",
+      "products_visible": [
+        "AUTODESK",
+        "Mapbox"
+      ],
+      "ui_elements": [
+        "Getting the Data",
+        "Mapbox vs. Site Design"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000030.jpg",
+      "timestamp_seconds": 870.0,
+      "frame_index": 30,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses a solution involving linear homography with images showing calibration of images using known coordinate points.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Solution",
+        "Linear Homography",
+        "Calibrating the image"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000031.jpg",
+      "timestamp_seconds": 900.0,
+      "frame_index": 31,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide on homography transformation involving Web Mercator and UTM, with accompanying code snippets.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "DevCon",
+        "Homography : Web Mercator \u2192 UTM",
+        "Corner Mapping",
+        "Build DLT Matrix A",
+        "Solve ATA \u00b7 h = b",
+        "Apply H\u207b\u00b9 per pixel"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000032.jpg",
+      "timestamp_seconds": 930.0,
+      "frame_index": 32,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide shows a computer vision pipeline process including steps such as Warp, HSV Mask, Contours, and Centroids, with images outlining the process results.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Computer Vision Pipeline",
+        "Warp",
+        "HSV Mask",
+        "Contours",
+        "Centroids"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000033.jpg",
+      "timestamp_seconds": 960.0,
+      "frame_index": 33,
+      "category": "diagram",
+      "keep": true,
+      "description": "The frame shows a computer vision pipeline diagram detailing steps for tree detection using OpenCV and FastAPI.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Computer Vision Pipeline",
+        "Receive Image + Params",
+        "BGR \u2192 HSV",
+        "HSV Threshold \u2192 Mask",
+        "Find Contours",
+        "Filter by Min Area",
+        "Extract Centroids",
+        "Estimate Diameter",
+        "Tree vs Cluster",
+        "Populate Clusters",
+        "Return to Frontend",
+        "FORMA Placement",
+        "OBJ Export"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000036.jpg",
+      "timestamp_seconds": 1050.0,
+      "frame_index": 36,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide explaining 'The Extend Feature' with a map and model visualization interface.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Extend East",
+        "Extend South",
+        "Extend West",
+        "Extend North",
+        "Fetch Extended Tile"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000040.jpg",
+      "timestamp_seconds": 1170.0,
+      "frame_index": 40,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation titled 'Breaking the Limit: Full GLB Export' that discusses using GLB export to visualize datasets including detected trees in applications like Rhino or Revit.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Visualize Everything",
+        "GLB"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000042.jpg",
+      "timestamp_seconds": 1230.0,
+      "frame_index": 42,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents a future roadmap for context expansion in three phases, involving vegetation alignment, AI/ML integration, and adding dynamic contexts.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Future Roadmap: Context Expansion",
+        "Phase 1 (Current)",
+        "Phase 2 (Next)",
+        "Phase 3 (Future)"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000044.jpg",
+      "timestamp_seconds": 1290.0,
+      "frame_index": 44,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon highlighting the key takeaways of a tool, focusing on collaborative design and data access.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Key Takeaways",
+        "Pick a low-hanging fruit.",
+        "Extend the designers\u00b4 stay in a shared collaborative space.",
+        "Improved access to Close-to-Reality data -> better understanding of the site.",
+        "A first step towards fully automated, context-aware urban design."
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\uMnqx__s9qo\\frames\\frame_000045.jpg",
+      "timestamp_seconds": 1320.0,
+      "frame_index": 45,
+      "category": "transition",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T21:58:49.261140+00:00"
+}

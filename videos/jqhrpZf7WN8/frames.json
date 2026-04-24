@@ -1,0 +1,275 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\jqhrpZf7WN8\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\jqhrpZf7WN8\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide showing a 3D diagram of Autodesk's core portfolio and its interaction with customers, partners, and third parties.",
+      "products_visible": [
+        "Autodesk",
+        "Forge"
+      ],
+      "ui_elements": [
+        "Core Portfolio",
+        "Customer",
+        "Partner",
+        "Third Party"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\jqhrpZf7WN8\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide focuses on Fusion's data capabilities, highlighting concurrent collaboration, integrated PDM & PLM, and easier onboarding.",
+      "products_visible": [
+        "Fusion"
+      ],
+      "ui_elements": [
+        "Mechanical Engineer",
+        "Engineering Manager",
+        "Marketing Manager",
+        "Client",
+        "Manufacturing Engineer",
+        "Procurement Analyst"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\jqhrpZf7WN8\\frames\\frame_000006.jpg",
+      "timestamp_seconds": 150.0,
+      "frame_index": 6,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses updates to Fusion Data over the last year with features such as deep search, enhanced roles, and improved navigation.",
+      "products_visible": [
+        "Autodesk",
+        "Fusion"
+      ],
+      "ui_elements": [
+        "Deep search",
+        "Enhanced roles and permissions",
+        "Editable Engineering BOM",
+        "Improved nav",
+        "Classification search"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\jqhrpZf7WN8\\frames\\frame_000009.jpg",
+      "timestamp_seconds": 240.0,
+      "frame_index": 9,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showcasing detailed information about various features and improvements. The slide covers topics such as search, navigation, data management, and more.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "More Detail",
+        "Search",
+        "Navigation",
+        "Data Management",
+        "Bill of Material",
+        "Data Model",
+        "Numbering, Release, and Change Management",
+        "New User Onboarding"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\jqhrpZf7WN8\\frames\\frame_000020.jpg",
+      "timestamp_seconds": 570.0,
+      "frame_index": 20,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses transitioning from files to data with concepts like versioning on file save and time-based history.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Moving from Files to Data",
+        "Version on File Save",
+        "Time Based History"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\jqhrpZf7WN8\\frames\\frame_000022.jpg",
+      "timestamp_seconds": 630.0,
+      "frame_index": 22,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents 'Fusion Manage - Built for Integration' showcasing integration capabilities with various software such as SAP, Microsoft, and Oracle.",
+      "products_visible": [
+        "Autodesk",
+        "PLM",
+        "Fusion Manage"
+      ],
+      "ui_elements": [
+        "Integrate",
+        "Migrate",
+        "Consolidate"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\jqhrpZf7WN8\\frames\\frame_000023.jpg",
+      "timestamp_seconds": 660.0,
+      "frame_index": 23,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide with an overview of Autodesk Fusion, highlighting different modules like Fusion, Fusion Manage, and Fusion Operations, alongside APIs and platform services.",
+      "products_visible": [
+        "Autodesk Fusion",
+        "AUTODESK Platform Services"
+      ],
+      "ui_elements": [
+        "Design",
+        "Simulation",
+        "CAM",
+        "Machines",
+        "Data Mgt",
+        "Change Mgt",
+        "Supply Chain",
+        "Production",
+        "Scheduling",
+        "Tracking"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\jqhrpZf7WN8\\frames\\frame_000024.jpg",
+      "timestamp_seconds": 690.0,
+      "frame_index": 24,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide presentation for Autodesk DevCon regarding the MFG DM API discussing recent enhancements and version changes.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "MFG DM API",
+        "Recent Enhancements",
+        "V2 \u2192 V3 Changes"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\jqhrpZf7WN8\\frames\\frame_000025.jpg",
+      "timestamp_seconds": 720.0,
+      "frame_index": 25,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing the reasons for moving to the V3 data model in Autodesk Fusion, focusing on collaborative editing and model unification.",
+      "products_visible": [
+        "Autodesk",
+        "Fusion"
+      ],
+      "ui_elements": [
+        "Overview: Why V3?",
+        "Concurrent Collaboration Demands a New Data Model"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\jqhrpZf7WN8\\frames\\frame_000027.jpg",
+      "timestamp_seconds": 780.0,
+      "frame_index": 27,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide highlights major changes and concepts in the V3 API for Collaborative Editing Enabled Hubs, focusing on a unified object model and new features.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Highlights"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\jqhrpZf7WN8\\frames\\frame_000030.jpg",
+      "timestamp_seconds": 870.0,
+      "frame_index": 30,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide compares two API queries demonstrating a unified object model with no more versions.",
+      "products_visible": [
+        "AUTODESK DevCon"
+      ],
+      "ui_elements": [
+        "Unified Object Model: No More 'Versions'",
+        "Query Comparison"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\jqhrpZf7WN8\\frames\\frame_000031.jpg",
+      "timestamp_seconds": 900.0,
+      "frame_index": 31,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses the 'Model' object replacing 'ComponentVersion' in CAD data containers, detailing its properties and connections.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "The New 'Model' Object"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\jqhrpZf7WN8\\frames\\frame_000037.jpg",
+      "timestamp_seconds": 1080.0,
+      "frame_index": 37,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide provides information about BOM Relations & Component, explaining component exposure and direct access within the context of a Component in V3.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "BOM Relations & Component",
+        "Component in V3",
+        "GetBOM($componentId: ID)"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\jqhrpZf7WN8\\frames\\frame_000044.jpg",
+      "timestamp_seconds": 1290.0,
+      "frame_index": 44,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses bulk queries for performance in Autodesk DevCon, detailing methods to fetch multiple models and components in one call.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Bulk Queries for Performance"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\jqhrpZf7WN8\\frames\\frame_000048.jpg",
+      "timestamp_seconds": 1410.0,
+      "frame_index": 48,
+      "category": "slides",
+      "keep": true,
+      "description": "This slide provides resources for getting started with Autodesk's V3 API, including links to documentation, guides, and tutorials.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "V3 Documentation",
+        "Migration Guide",
+        "GraphQL Explorer",
+        "Samples",
+        "Tutorial",
+        "V3 GA Blog Post"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:17:10.427708+00:00"
+}

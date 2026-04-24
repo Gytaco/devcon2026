@@ -1,0 +1,42 @@
+{
+  "video_id": "JD8OfUPebMM",
+  "demo_timestamps": [
+    {
+      "start": 540.0,
+      "end": 840.0,
+      "description": "Building an app in Victor AI with challenges in authentication, updating app after feedback."
+    },
+    {
+      "start": 720.0,
+      "end": 840.0,
+      "description": "Rinsing and repeating to fix errors and adjust features in the developed app."
+    },
+    {
+      "start": 1020.0,
+      "end": 1080.0,
+      "description": "Using features of Victor such as chat interface for user interaction and code review."
+    }
+  ],
+  "themes": [
+    "Streamlining AEC app development with AI and collaborative tools"
+  ],
+  "client_mentions": [],
+  "autodesk_products": [
+    {
+      "name": "Autodesk Platform Services",
+      "is_api": false,
+      "timestamp": 328.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "Victor AI",
+      "category": "other",
+      "context": "Assisting in development and providing a platform to execute proof of concept.",
+      "timestamp": 530.0
+    }
+  ],
+  "summary": "The video highlights using Victor AI and Autodesk Platform Services to streamline and support the app development lifecycle for AEC applications. The presenters focus on reducing time spent in initial project scoping through automation and shared understanding between developers and end users. Demonstrations show how Victor AI assists in building, testing, and refining project apps, ultimately fostering collaboration.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:22:02.530821+00:00"
+}

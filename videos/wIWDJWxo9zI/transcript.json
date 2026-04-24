@@ -1,0 +1,679 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.0,
+      "text": "Welcome everyone and thanks for tuning in to this recorded session.",
+      "words": []
+    },
+    {
+      "start": 5.0,
+      "end": 14.0,
+      "text": "Today we will be talking about how we leveraged a case study of a government agency,",
+      "words": []
+    },
+    {
+      "start": 14.0,
+      "end": 18.0,
+      "text": "the building code, building construction authority of Singapore,",
+      "words": []
+    },
+    {
+      "start": 18.0,
+      "end": 29.0,
+      "text": "who leveraged Autodesk Assistant and AEC data model to automate a lot of their code compliance checks,",
+      "words": []
+    },
+    {
+      "start": 29.0,
+      "end": 40.0,
+      "text": "which essentially scales the design quality barriers and gateways that allows a construction company to move forward.",
+      "words": []
+    },
+    {
+      "start": 40.0,
+      "end": 46.0,
+      "text": "Today's speakers includes myself on the senior group product manager at Autodesk,",
+      "words": []
+    },
+    {
+      "start": 46.0,
+      "end": 50.0,
+      "text": "working on the data platform joined in by Magdalentan,",
+      "words": []
+    },
+    {
+      "start": 50.0,
+      "end": 57.0,
+      "text": "who is the customer representative of building construction authority,",
+      "words": []
+    },
+    {
+      "start": 57.0,
+      "end": 62.0,
+      "text": "the deputy director working at the agency for Singapore,",
+      "words": []
+    },
+    {
+      "start": 62.0,
+      "end": 70.0,
+      "text": "and also my colleague, Swati Agarwal, who is also a senior group product manager on the data platform.",
+      "words": []
+    },
+    {
+      "start": 70.0,
+      "end": 75.0,
+      "text": "And in today's agenda, we'll first start by setting the industry context,",
+      "words": []
+    },
+    {
+      "start": 75.0,
+      "end": 86.0,
+      "text": "talking through the current state of quality checks that most of you in the AEC world is facing.",
+      "words": []
+    },
+    {
+      "start": 86.0,
+      "end": 94.0,
+      "text": "And we'll then dive deep into a real world example by highlighting the building construction authority of Singapore",
+      "words": []
+    },
+    {
+      "start": 94.0,
+      "end": 104.0,
+      "text": "and how they're exploring Autodesk Assistant and AEC data model to be able to automate a lot of these quality checks.",
+      "words": []
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "text": "And then we'll essentially show a demo of how of the progress so far,",
+      "words": []
+    },
+    {
+      "start": 112.0,
+      "end": 127.0,
+      "text": "and then we'll find top things off with how we can engage with Autodesk to solve similar problems using AI and APS.",
+      "words": []
+    },
+    {
+      "start": 128.0,
+      "end": 138.0,
+      "text": "So this is more for the in-person session, but you guys can also relate to this virtually as you're watching this recording.",
+      "words": []
+    },
+    {
+      "start": 138.0,
+      "end": 148.0,
+      "text": "But if you ever caught, if you're in a construction project and you kind of go into the field from design to construction,",
+      "words": []
+    },
+    {
+      "start": 149.0,
+      "end": 161.0,
+      "text": "you've likely encountered issues that were that fell through the cracks of the quality checks that you currently have in place.",
+      "words": []
+    },
+    {
+      "start": 161.0,
+      "end": 176.0,
+      "text": "And you probably wondered yourself how we could prevent that and how automation can help reduce some of these design errors and omissions once the project gets into the field and starts construction.",
+      "words": []
+    },
+    {
+      "start": 177.0,
+      "end": 190.0,
+      "text": "So you're not alone. You're probably all raising your hands by now, but that's kind of put in perspective how those quality checks workflows are today.",
+      "words": []
+    },
+    {
+      "start": 190.0,
+      "end": 198.0,
+      "text": "So at the very top, we have a very simplistic view of how quality checks works today.",
+      "words": []
+    },
+    {
+      "start": 199.0,
+      "end": 213.0,
+      "text": "And then it all starts with essentially a very manual and tedious process where a 2D layout and ruleset that someone needs to manually verify against,",
+      "words": []
+    },
+    {
+      "start": 213.0,
+      "end": 222.0,
+      "text": "against rulesets in order to highlight errors and omissions before communicating them back to the responsible party.",
+      "words": []
+    },
+    {
+      "start": 222.0,
+      "end": 233.0,
+      "text": "In this process, it's quite slow and iterative. Each cycle takes weeks and often needs to be repeated multiple times, depending on the project complexity and regional requirements.",
+      "words": []
+    },
+    {
+      "start": 233.0,
+      "end": 246.0,
+      "text": "And as a result, issues are discovered pretty late in the process, which essentially drives increased change orders, budget overruns and scheduled delays.",
+      "words": []
+    },
+    {
+      "start": 246.0,
+      "end": 275.0,
+      "text": "And this is a systematic industry problem. And here at Autodesk, we're exploring this challenge to an experimental partnership with forward looking organizations like Singapore's building and construction authority, which brings together both our data and AI strategy through the Autodesk assistant and the AEC data model in order to test how we can move from this manual verification into more intelligence.",
+      "words": []
+    },
+    {
+      "start": 276.0,
+      "end": 304.0,
+      "text": "And so why does this matter? Because companies are dealing with increased project complexity and each of those complex projects essentially needs to run thousands of rules that are and",
+      "words": []
+    },
+    {
+      "start": 304.0,
+      "end": 333.0,
+      "text": "and different agencies need to run these rule checks in order to essentially get to those validations and all this done through very tight timelines and coordination between each agency, which takes a lot, a lot of time and really leaves a very tiny margin of error in between those qualities.",
+      "words": []
+    },
+    {
+      "start": 334.0,
+      "end": 342.0,
+      "text": "So the next step is to do a lot of the work that is going to be done through the process and the next step after a quality check.",
+      "words": []
+    },
+    {
+      "start": 347.0,
+      "end": 363.0,
+      "text": "And now I'll hand it off to Magdalen who will essentially give us a brief introduction of BCA and their industry and their problem they're currently facing and how their partnership with Autodesk is helping them explore some of ways to automate this.",
+      "words": []
+    },
+    {
+      "start": 364.0,
+      "end": 366.0,
+      "text": "This is challenged.",
+      "words": []
+    },
+    {
+      "start": 366.0,
+      "end": 377.0,
+      "text": "Hello everyone. I'm Magdalen from the building and construction authority in short BCA Singapore. At BCA we play a leading role in regulating and shaping the build environment sector.",
+      "words": []
+    },
+    {
+      "start": 377.0,
+      "end": 385.0,
+      "text": "So today I will share more about transformation of the regulatory approvals using BIM and how this sets the foundation for automated model checking.",
+      "words": []
+    },
+    {
+      "start": 386.0,
+      "end": 401.0,
+      "text": "So to give a bit of context, Singapore's construction industry is a significant sector of our economy. For a single project, project ends goes through more than 20 approval gates and navigate more than 6000 regulatory requirements across seven regulatory agencies.",
+      "words": []
+    },
+    {
+      "start": 401.0,
+      "end": 407.0,
+      "text": "So this adds up to an average of about 205,000 regulatory submissions every year.",
+      "words": []
+    },
+    {
+      "start": 408.0,
+      "end": 421.0,
+      "text": "Transformation has been a key focus for us. We have been driving digitalization across the sector, particularly to BIM for more than 10 years now to enable a more integrated and collaborative project delivery.",
+      "words": []
+    },
+    {
+      "start": 421.0,
+      "end": 428.0,
+      "text": "And today in Singapore, BIM adoption is at over 94% of newly built floor area.",
+      "words": []
+    },
+    {
+      "start": 429.0,
+      "end": 436.0,
+      "text": "However, despite this progress, we still see design conflicts, we work happening on site.",
+      "words": []
+    },
+    {
+      "start": 436.0,
+      "end": 442.0,
+      "text": "So while design has become digital, our industry workflows and regulatory processes are still fragmented.",
+      "words": []
+    },
+    {
+      "start": 442.0,
+      "end": 455.0,
+      "text": "So as you can see here, different stakeholders, architects, engineers and especially, they are developing their designs and silos for the regulatory agencies, review submissions within their own domain separately.",
+      "words": []
+    },
+    {
+      "start": 456.0,
+      "end": 461.0,
+      "text": "So these leads to issues often being discovered only much later in the project lifecycle.",
+      "words": []
+    },
+    {
+      "start": 464.0,
+      "end": 476.0,
+      "text": "So to address this, together with industry partners and six other regulatory agencies, we developed Connect X, which streamlines the regulatory approval process into three main gateways.",
+      "words": []
+    },
+    {
+      "start": 477.0,
+      "end": 494.0,
+      "text": "At each gateway, project demo co-ordinate and submit a set of co-ordinator BIM models thereafter, seven agencies will concurrently review these data reach BIM models for compliance with more than 6000 regulatory requirements and provide a consolidated reply.",
+      "words": []
+    },
+    {
+      "start": 494.0,
+      "end": 499.0,
+      "text": "To support Connect X, we have put in place several key technological enablers.",
+      "words": []
+    },
+    {
+      "start": 499.0,
+      "end": 519.0,
+      "text": "We have the submission portal for the co-ordinator BIM submissions in the middle, a collaboration platform for agencies to review submissions together on the right and the automated model checker for the IFC BIM model currently in its data trial phase to engender better quality submissions and facilitate review.",
+      "words": []
+    },
+    {
+      "start": 520.0,
+      "end": 529.0,
+      "text": "So far, Connect X has already been applied across more than 100 projects and we are starting to see its benefits and practice.",
+      "words": []
+    },
+    {
+      "start": 533.0,
+      "end": 539.0,
+      "text": "So now with the foundation in place, we see significant opportunity in the automated model checker.",
+      "words": []
+    },
+    {
+      "start": 540.0,
+      "end": 545.0,
+      "text": "Today, project teams are dealing with over 6000 regulatory requirements manually.",
+      "words": []
+    },
+    {
+      "start": 545.0,
+      "end": 555.0,
+      "text": "So we ask ourselves, can there be a greater ecosystem of tools better support for project teams during design and construction, helping them detect issues earlier?",
+      "words": []
+    },
+    {
+      "start": 556.0,
+      "end": 563.0,
+      "text": "So to elaborate a little more on this during design, project teams go through intensive iteration and constant changes.",
+      "words": []
+    },
+    {
+      "start": 564.0,
+      "end": 566.0,
+      "text": "At the same time, they must ensure compliance.",
+      "words": []
+    },
+    {
+      "start": 567.0,
+      "end": 572.0,
+      "text": "This can be especially challenging for new engineers and architects given the time line.",
+      "words": []
+    },
+    {
+      "start": 572.0,
+      "end": 584.0,
+      "text": "That's the result submissions often come in with gaps leading to an iterative cycle with agencies and in some cases, there may be a need for major redesign affecting multiple disciplines.",
+      "words": []
+    },
+    {
+      "start": 585.0,
+      "end": 591.0,
+      "text": "On average, project goes through four iterations of agencies each time.",
+      "words": []
+    },
+    {
+      "start": 591.0,
+      "end": 598.0,
+      "text": "With better upfront compliance, we conservatively estimate that at least one iteration can be reduced.",
+      "words": []
+    },
+    {
+      "start": 599.0,
+      "end": 609.0,
+      "text": "Assuming each iteration can take up to 60 mandates, in economic terms, this translates to roughly 139 million Singapore dollars worth of potential savings.",
+      "words": []
+    },
+    {
+      "start": 610.0,
+      "end": 613.0,
+      "text": "So there is clear value in addressing this earlier.",
+      "words": []
+    },
+    {
+      "start": 615.0,
+      "end": 626.0,
+      "text": "With the need for automated model checking upstream clear in mind, we have been exploring solutions and frameworks together with partners such as Autodesk to further advise these capabilities.",
+      "words": []
+    },
+    {
+      "start": 626.0,
+      "end": 633.0,
+      "text": "Conventional approach for the model checker development can be time consuming, slow and prone to miss communication.",
+      "words": []
+    },
+    {
+      "start": 634.0,
+      "end": 637.0,
+      "text": "So this is where we see AI playing a key role.",
+      "words": []
+    },
+    {
+      "start": 638.0,
+      "end": 647.0,
+      "text": "We are starting to see early promising results of AI supporting the interpretation of regulatory requirements, translating them into structured machine readable logic.",
+      "words": []
+    },
+    {
+      "start": 647.0,
+      "end": 655.0,
+      "text": "We see AI accelerating the development of the checks with automated code generation, reducing the time to implement and refine checks.",
+      "words": []
+    },
+    {
+      "start": 655.0,
+      "end": 666.0,
+      "text": "At the same time, AI can help to optimize human validation with faster feedback loop allowing rules to be iteratively improved as more scenarios are encountered.",
+      "words": []
+    },
+    {
+      "start": 667.0,
+      "end": 674.0,
+      "text": "And this is particularly important for geometrical and spatial checks where multiple design conditions need to be evaluated.",
+      "words": []
+    },
+    {
+      "start": 675.0,
+      "end": 682.0,
+      "text": "So we are glad today to share on the POC with Autodesk. I will now hand over to Sathi to share more on this solution.",
+      "words": []
+    },
+    {
+      "start": 682.0,
+      "end": 684.0,
+      "text": "Thank you, Magdalene.",
+      "words": []
+    },
+    {
+      "start": 684.0,
+      "end": 695.0,
+      "text": "That was a great overview of Singapore compliance and regulatory process today on how you've tried to streamline it with Gornet X and how you imagine AI to help you.",
+      "words": []
+    },
+    {
+      "start": 695.0,
+      "end": 697.0,
+      "text": "And AI has seen the industry as a whole.",
+      "words": []
+    },
+    {
+      "start": 697.0,
+      "end": 724.0,
+      "text": "So now let's see how automated quality check workflow as part of the POC and experiment helps multiple project stakeholders, whether it's Maya, who is a regulatory reviewer looking for faster quality checks or Lucas, who is a BIM manager looking to reduce rework or even Ryan, who is a BIM manager, BIM designer, who wishes to catch issues early.",
+      "words": []
+    },
+    {
+      "start": 724.0,
+      "end": 727.0,
+      "text": "With an automated model checker.",
+      "words": []
+    },
+    {
+      "start": 727.0,
+      "end": 739.0,
+      "text": "What we have envisioned in our POC is a unified quality check in platform, which is end to end from rules extraction to quality issue resolution.",
+      "words": []
+    },
+    {
+      "start": 739.0,
+      "end": 745.0,
+      "text": "And all this is integrated in a simple user friendly interface using Autodesk assistant.",
+      "words": []
+    },
+    {
+      "start": 745.0,
+      "end": 753.0,
+      "text": "This whole workflow is based on AEC data model and other APIs from Autodesk platform services.",
+      "words": []
+    },
+    {
+      "start": 753.0,
+      "end": 761.0,
+      "text": "In rules extraction rules are extracted into machine readable format and also map to AEC data model properties.",
+      "words": []
+    },
+    {
+      "start": 761.0,
+      "end": 769.0,
+      "text": "In quality check, revert models are validated against these extracted rules and results are summarized for the user.",
+      "words": []
+    },
+    {
+      "start": 769.0,
+      "end": 778.0,
+      "text": "We've also extended it to visualize failed elements in the 3D viewer right inside the Autodesk assistant experience.",
+      "words": []
+    },
+    {
+      "start": 778.0,
+      "end": 785.0,
+      "text": "And to close the loop, we added a third step of automated issue creation to drive faster resolution.",
+      "words": []
+    },
+    {
+      "start": 785.0,
+      "end": 792.0,
+      "text": "And in all this, how AI is leveraged here is that it is embedded across the workflow.",
+      "words": []
+    },
+    {
+      "start": 792.0,
+      "end": 796.0,
+      "text": "It interprets regulatory rules and converts them into structured logic.",
+      "words": []
+    },
+    {
+      "start": 796.0,
+      "end": 807.0,
+      "text": "It helps crafting deterministic and reusable logic and helps front rules checks in parallel and it generates actionable issues for resolution.",
+      "words": []
+    },
+    {
+      "start": 808.0,
+      "end": 822.0,
+      "text": "And in parallel, we have a workflow agent which orchestrates the entire workflow end to end coordinating each step while maintaining the context across the different phases of this workflow.",
+      "words": []
+    },
+    {
+      "start": 822.0,
+      "end": 834.0,
+      "text": "In the next demo slide, what you what you're going to see is the workflow this workflow in action where the rules are extracted from the file uploaded in your format project.",
+      "words": []
+    },
+    {
+      "start": 835.0,
+      "end": 841.0,
+      "text": "Quality checks done in real time and the user is provided feedback in the same conversation.",
+      "words": []
+    },
+    {
+      "start": 841.0,
+      "end": 849.0,
+      "text": "And finally, the workflow extension I talked about to create former design, former side design issues directly from the results.",
+      "words": []
+    },
+    {
+      "start": 849.0,
+      "end": 860.0,
+      "text": "We are focusing here on showing regulatory checks, specifically compliance related rules, but the same approach applies to broader design for the checks.",
+      "words": []
+    },
+    {
+      "start": 861.0,
+      "end": 867.0,
+      "text": "On the left here are the 12 parameter based rules that we checked as part of this experiment.",
+      "words": []
+    },
+    {
+      "start": 867.0,
+      "end": 878.0,
+      "text": "They varied in complexity from basic width like rules to more complex calculation based distance with distance related rules like distance between pull ups.",
+      "words": []
+    },
+    {
+      "start": 878.0,
+      "end": 880.0,
+      "text": "Now let's see the demo.",
+      "words": []
+    },
+    {
+      "start": 880.0,
+      "end": 889.0,
+      "text": "The other user is in former design site project and they simply ask to run regulatory quality check on their model using the Singapore building code.",
+      "words": []
+    },
+    {
+      "start": 889.0,
+      "end": 896.0,
+      "text": "The AI agent finds the project, the model and extracts the rules from the rules file.",
+      "words": []
+    },
+    {
+      "start": 896.0,
+      "end": 907.0,
+      "text": "From there the user stays in the loop because they can see the extracted rules once the agent is successfully extracted them.",
+      "words": []
+    },
+    {
+      "start": 907.0,
+      "end": 913.0,
+      "text": "These extracted rules are uploaded in the same project for user to review and update as well.",
+      "words": []
+    },
+    {
+      "start": 914.0,
+      "end": 925.0,
+      "text": "From here the AI agent runs the rules against the rabbit model in batches and it picks up the first batch and provides a result summary to the user.",
+      "words": []
+    },
+    {
+      "start": 925.0,
+      "end": 936.0,
+      "text": "User can also look at the details of the summary of the results and also see the violations in the 3D viewer.",
+      "words": []
+    },
+    {
+      "start": 937.0,
+      "end": 947.0,
+      "text": "In this case they are seeing BOLARDS height of BOLARDS violations and there were 4 BOLARDS that did not meet the rule definition right here.",
+      "words": []
+    },
+    {
+      "start": 947.0,
+      "end": 959.0,
+      "text": "You can also use the properties panel in this viewer to see the different properties of that specific BOLARDS that failed and check all the different elements.",
+      "words": []
+    },
+    {
+      "start": 960.0,
+      "end": 968.0,
+      "text": "These properties are coming from AC data model right here in order to assist them without losing their context.",
+      "words": []
+    },
+    {
+      "start": 968.0,
+      "end": 977.0,
+      "text": "From here the user can then create an issue related to the failed rules and assign them in former issue management.",
+      "words": []
+    },
+    {
+      "start": 978.0,
+      "end": 997.0,
+      "text": "You will see that all four issues are successfully created from the same AI agent in the same workflow and the user can confirm it and find them and manage them in the issues model of former issue management.",
+      "words": []
+    },
+    {
+      "start": 998.0,
+      "end": 1010.0,
+      "text": "In this next slide we took it one step further into geometry checks using data from data model and running a physics model on top.",
+      "words": []
+    },
+    {
+      "start": 1010.0,
+      "end": 1022.0,
+      "text": "We run four geometry checks mainly related to door maneuvering and lift maneuvering space inside and outside of the lift for a wheelchair.",
+      "words": []
+    },
+    {
+      "start": 1023.0,
+      "end": 1048.0,
+      "text": "In the demo now you will see the AI agent running these roles in the second batch and like parameter checks user will be able to see the results in a table and by clicking a link finding more showing and the user can see more details about the door specifically door pull side rules violation.",
+      "words": []
+    },
+    {
+      "start": 1049.0,
+      "end": 1075.0,
+      "text": "It shows them all the elements that failed and clicking on the view details the user can see truly visualize all the failed elements in this case door pull for a specific floor they can zoom in and see exactly that on the full side there were two rules one adjacent to the one was adjacent space to the door edge and one another one was for clear space in the front of the door.",
+      "words": []
+    },
+    {
+      "start": 1075.0,
+      "end": 1085.0,
+      "text": "And that you will see the wall the small wall that that has been obstructing the space next to the door and that's why both the rules fail.",
+      "words": []
+    },
+    {
+      "start": 1088.0,
+      "end": 1104.0,
+      "text": "And that is how we are reimagining quality assurance in building designs from manual checks at the late stage and siloed workflows to really automated checks with real time insights and connected workflows making quality check no longer of phase in the process.",
+      "words": []
+    },
+    {
+      "start": 1105.0,
+      "end": 1123.0,
+      "text": "And we heard this from Madeline earlier as well the goal overall in the industry is to move quality checks earlier so that the final step is much easier with reduced iterations.",
+      "words": []
+    },
+    {
+      "start": 1123.0,
+      "end": 1152.0,
+      "text": "And really if you take a step back it's not just about automating checks but this is about using AI to transform quality assurance workflows at scale and we believe that an AI power solution like this can position AC companies and regulatory agencies to scale submission volumes accelerate their approval cycles and ensure consistent quality thereby managing and minimizing the schedule and fast impact.",
+      "words": []
+    },
+    {
+      "start": 1154.0,
+      "end": 1172.0,
+      "text": "And this is just the beginning of our journey with AI from here we want to evolve this research further to more rules formats more complex rules and using the power of AI agents extend workflow to more stakeholders for quality management quality assurance.",
+      "words": []
+    },
+    {
+      "start": 1172.0,
+      "end": 1195.0,
+      "text": "Earlier we saw in the poll and we heard even from Madeline about you know many companies facing these issues quality check issues and that's exactly our goal to solve using workflows like this so if this is a problem you face currently or you're trying to solve to with your customers then we'd love to hear from you.",
+      "words": []
+    },
+    {
+      "start": 1195.0,
+      "end": 1203.0,
+      "text": "If you'd like to collaborate and influence our product roadmap then scan the code and let's build this together.",
+      "words": []
+    },
+    {
+      "start": 1204.0,
+      "end": 1205.0,
+      "text": "Thank you everyone.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:23:21.240441+00:00"
+}

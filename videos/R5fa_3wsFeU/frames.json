@@ -1,0 +1,272 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R5fa_3wsFeU\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing the integration of APS, AI, and Autodesk Tandem for real-time building operations.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Autodesk DevCon",
+        "From IoT to Intelligent Digital Twins",
+        "Integrating APS, AI, and Autodesk Tandem for Real-Time Building Operations"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R5fa_3wsFeU\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing the agenda for an Autodesk DevCon presentation, covering topics like Digital Twin System Architecture and Configuration.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Agenda",
+        "Introduction",
+        "Digital Twin System Architecture Implementation",
+        "Digital Twin Configuration + AI + Dashboard",
+        "Autodesk Tandem Connect Configuration",
+        "Final Considerations"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R5fa_3wsFeU\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide shows a circle labeled 'Main Challenges' with the Autodesk DevCon branding.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Main Challenges"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R5fa_3wsFeU\\frames\\frame_000006.jpg",
+      "timestamp_seconds": 150.0,
+      "frame_index": 6,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide discussing the concept of Digital Twins with a quote about measurement and management.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "What we can't measure, we can't manage.",
+        "Digital Twins give us vision, memory, and prediction \u2014 all in one platform."
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R5fa_3wsFeU\\frames\\frame_000007.jpg",
+      "timestamp_seconds": 180.0,
+      "frame_index": 7,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses the concept of a 'Digital Twin' with images of a physical and digital workspace.",
+      "products_visible": [
+        "AUTODESK",
+        "TEKLAB"
+      ],
+      "ui_elements": [
+        "Digital Twin",
+        "PHYSICAL",
+        "DIGITAL"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R5fa_3wsFeU\\frames\\frame_000008.jpg",
+      "timestamp_seconds": 210.0,
+      "frame_index": 8,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R5fa_3wsFeU\\frames\\frame_000009.jpg",
+      "timestamp_seconds": 240.0,
+      "frame_index": 9,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R5fa_3wsFeU\\frames\\frame_000010.jpg",
+      "timestamp_seconds": 270.0,
+      "frame_index": 10,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R5fa_3wsFeU\\frames\\frame_000011.jpg",
+      "timestamp_seconds": 300.0,
+      "frame_index": 11,
+      "category": "demo",
+      "keep": true,
+      "description": "The video frame demonstrates a reality capture and point cloud process with a split view.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Reality Capture",
+        "Point cloud"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R5fa_3wsFeU\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R5fa_3wsFeU\\frames\\frame_000013.jpg",
+      "timestamp_seconds": 360.0,
+      "frame_index": 13,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a person speaking and an IoT Gateway device on display, likely as part of a demonstration.",
+      "products_visible": [
+        "IoT Gateway"
+      ],
+      "ui_elements": [
+        "Autodesk DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R5fa_3wsFeU\\frames\\frame_000014.jpg",
+      "timestamp_seconds": 390.0,
+      "frame_index": 14,
+      "category": "demo",
+      "keep": true,
+      "description": "A demo of a camera system analyzing a workspace with labeled detections of people and probability scores using model Yolo12x.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "MAC Address",
+        "Techlab Stand",
+        "Yolo12x"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R5fa_3wsFeU\\frames\\frame_000015.jpg",
+      "timestamp_seconds": 420.0,
+      "frame_index": 15,
+      "category": "diagram",
+      "keep": true,
+      "description": "A speaker is discussing a diagram showing data flow involving AI Gateway, Cloud Azure API, and a database with PostgreSQL.",
+      "products_visible": [
+        "Autodesk",
+        "Azure"
+      ],
+      "ui_elements": [
+        "AI Gateway",
+        "CLOUD AZURE API",
+        "STREAM ID",
+        "DATABASE POSTGRE"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R5fa_3wsFeU\\frames\\frame_000017.jpg",
+      "timestamp_seconds": 480.0,
+      "frame_index": 17,
+      "category": "demo",
+      "keep": true,
+      "description": "A presenter is showcasing a 3D model in Autodesk software, highlighting connections and data overlays in an office environment.",
+      "products_visible": [
+        "AUTODESK",
+        "DevCon"
+      ],
+      "ui_elements": [
+        "CONNECTIONS",
+        "Search",
+        "Auto View"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R5fa_3wsFeU\\frames\\frame_000018.jpg",
+      "timestamp_seconds": 510.0,
+      "frame_index": 18,
+      "category": "demo",
+      "keep": true,
+      "description": "A presenter is demonstrating a 3D building model with temperature and humidity data analysis.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Sources",
+        "Levels",
+        "Spaces",
+        "Classifications",
+        "Parameters",
+        "Temperature",
+        "Umidade",
+        "Issues"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R5fa_3wsFeU\\frames\\frame_000021.jpg",
+      "timestamp_seconds": 600.0,
+      "frame_index": 21,
+      "category": "slides",
+      "keep": true,
+      "description": "A speaker is presenting slides that include images and interface of Autodesk software, possibly related to design or building modeling.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Alertas",
+        "Temperatura",
+        "Responder"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\R5fa_3wsFeU\\frames\\frame_000024.jpg",
+      "timestamp_seconds": 690.0,
+      "frame_index": 24,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide highlights the necessity of a multidisciplinary team and features a building layout diagram.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "Highlight Points",
+        "01 Necessity of multidisciplinary team"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:41:06.436609+00:00"
+}

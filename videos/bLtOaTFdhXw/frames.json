@@ -1,0 +1,113 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\bLtOaTFdhXw\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses leveraging AI in QA for Revit during a lightning talk at Autodesk DevCon.",
+      "products_visible": [
+        "Autodesk",
+        "Revit"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\bLtOaTFdhXw\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide shows speakers at Autodesk DevCon with names and roles.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Speakers",
+        "Pooja Rastogi",
+        "Kuber"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\bLtOaTFdhXw\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide discussing common QA/QC challenges faced by design teams with a speaker on the left.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "DevCon",
+        "Do you?",
+        "Common QA/QC Challenges faced by design teams"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\bLtOaTFdhXw\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide comparing traditional QA process with AI-assisted QA process, showing process steps and time saving.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Value & Time Saving",
+        "Comparison of a traditional QA process vs AI Assisted",
+        "Completing the Task"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\bLtOaTFdhXw\\frames\\frame_000006.jpg",
+      "timestamp_seconds": 150.0,
+      "frame_index": 6,
+      "category": "ui",
+      "keep": true,
+      "description": "A UI demonstrating a QC Agent Dashboard reviewing sheets in a model with details on passed and failed sheets.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "QC Agent Dashboard",
+        "AI Agent responding",
+        "Passed Sheets",
+        "Failed Sheets",
+        "Success Rate"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\bLtOaTFdhXw\\frames\\frame_000011.jpg",
+      "timestamp_seconds": 300.0,
+      "frame_index": 11,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide showing the outcomes of AI-assisted QA in Revit, highlighting benefits like reduced manual checking and improved design quality.",
+      "products_visible": [
+        "Revit"
+      ],
+      "ui_elements": [
+        "OUTCOMES",
+        "AI-assisted QA",
+        "Measurable Time Savings"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\bLtOaTFdhXw\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:56:00.218456+00:00"
+}

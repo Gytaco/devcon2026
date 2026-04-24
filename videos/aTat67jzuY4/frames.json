@@ -1,0 +1,112 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\aTat67jzuY4\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\aTat67jzuY4\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide explaining the MCP protocol as an open standard for communication between LLMs and external systems.",
+      "products_visible": [
+        "MCP",
+        "LLMs",
+        "Claude",
+        "ChatGPT",
+        "Gemini",
+        "Google Drive",
+        "VSCode",
+        "GitHub"
+      ],
+      "ui_elements": [
+        "Definition",
+        "The problem it solves",
+        "The solution"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\aTat67jzuY4\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide explaining the MCP flexibility in building and connecting with a 1-to-many approach, highlighting server-client compatibility and benefits like tool and server reuse.",
+      "products_visible": [
+        "MCP"
+      ],
+      "ui_elements": [
+        "MCP Flexibility: Build once, connect anywhere",
+        "Swap LLMs without rewriting",
+        "Add new tools without modifying",
+        "Reuse servers"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\aTat67jzuY4\\frames\\frame_000006.jpg",
+      "timestamp_seconds": 150.0,
+      "frame_index": 6,
+      "category": "slides",
+      "keep": true,
+      "description": "Comparison between MCP Server and Client is shown with distinct roles and functions outlined.",
+      "products_visible": [
+        "MCP"
+      ],
+      "ui_elements": [
+        "MCP Client (the host side)",
+        "MCP Server (the tool side)"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\aTat67jzuY4\\frames\\frame_000007.jpg",
+      "timestamp_seconds": 180.0,
+      "frame_index": 7,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide describes the 3 MCP primitives: Prompts, Resources, and Tools, outlining their control and usage.",
+      "products_visible": [
+        "MCP"
+      ],
+      "ui_elements": [
+        "Prompts",
+        "Resources",
+        "Tools"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\aTat67jzuY4\\frames\\frame_000013.jpg",
+      "timestamp_seconds": 360.0,
+      "frame_index": 13,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide explaining how GitHub Copilot works, detailing the initial step of the process.",
+      "products_visible": [
+        "GitHub Copilot"
+      ],
+      "ui_elements": [
+        "Practical example: how GitHub Copilot works",
+        "host (IDE) sends your complex prompt to the remote brain"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\aTat67jzuY4\\frames\\frame_000015.jpg",
+      "timestamp_seconds": 420.0,
+      "frame_index": 15,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [],
+      "ui_elements": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-23T00:06:03.087755+00:00"
+}

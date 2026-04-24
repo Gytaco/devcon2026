@@ -2,66 +2,80 @@
   "video_id": "KAe7IP49ywg",
   "demo_timestamps": [
     {
-      "start": 414.0,
-      "end": 648.0,
-      "description": "Interacting with Claude to automate BIM model creation tasks such as creating grids, levels, and columns."
+      "start": 441.0,
+      "end": 528.0,
+      "description": "LLM receives a PDF plan and creates grids, levels, and columns for a model automatically."
     },
     {
-      "start": 936.0,
-      "end": 1017.0,
-      "description": "Using ChatGPT to extract information from Revit models and generate reports."
+      "start": 942.0,
+      "end": 1045.0,
+      "description": "Using GPT to extract and verify information from Revit models."
     },
     {
-      "start": 1069.0,
-      "end": 1304.0,
-      "description": "Interaction with Cloud to access Autodesk Construction Cloud projects and issues."
+      "start": 1085.0,
+      "end": 1217.0,
+      "description": "Interacting with cloud to access Autodesk Form information and produce reports."
     },
     {
-      "start": 1253.0,
-      "end": 1385.0,
-      "description": "List of issues in BIM project being analyzed by a deterministic AI agent to produce a report"
+      "start": 1255.0,
+      "end": 1285.0,
+      "description": "Listing and reporting issues on a BIM project using an AI agent"
+    },
+    {
+      "start": 1345.0,
+      "end": 1375.0,
+      "description": "Accessing and generating a report of issues without specific platform reliance"
     }
   ],
   "themes": [
-    "Integration of AI in BIM processes",
-    "Utilizing LLMs for model interaction and data extraction",
-    "Deterministic AI for BIM QA",
-    "Efficiency in Building Information Modeling"
+    "Deterministic AI Agents for BIM QA",
+    "LLM-driven model information extraction",
+    "Deterministic AI in BIM Quality Assurance"
   ],
   "client_mentions": [],
   "autodesk_products": [
     {
       "name": "Revit",
       "is_api": false,
-      "timestamp": 582.0
+      "timestamp": 802.0
     },
     {
-      "name": "Autodesk Construction Cloud",
+      "name": "AutoCAD",
       "is_api": false,
-      "timestamp": 1069.0
+      "timestamp": 332.0
+    },
+    {
+      "name": "Civil 3D",
+      "is_api": false,
+      "timestamp": 332.0
+    },
+    {
+      "name": "Forge",
+      "is_api": false,
+      "timestamp": 1192.0
     }
   ],
   "ai_technologies": [
     {
       "name": "Claude",
       "category": "llm",
-      "context": "Automating model creation tasks in BIM.",
-      "timestamp": 414.0
+      "context": "Used to receive plans and produce architectural elements.",
+      "timestamp": 422.0
     },
     {
-      "name": "ChatGPT",
+      "name": "GPT",
       "category": "llm",
-      "context": "Extracting information from Revit models.",
-      "timestamp": 936.0
+      "context": "Extract information from Revit models.",
+      "timestamp": 1004.0
     },
     {
       "name": "LLM",
       "category": "llm",
-      "context": "Used to extract and analyze project issues in BIM",
+      "context": "Checking and extracting information about issues in projects",
       "timestamp": 1269.0
     }
   ],
-  "summary": "The video discusses building deterministic AI agents for BIM Quality Assurance using the Revit API, leveraging AI technologies like Claude and ChatGPT to automate model creation and extract information effectively. It also highlights the integration of these tools to improve efficiency in managing data from platforms like Revit and Autodesk Construction Cloud, while showcasing the use of language models to identify and report issues within BIM projects, addressing challenges such as context window limitations.",
+  "summary": "The video explores the development of a deterministic AI agent for BIM quality assurance using the Revit API and Model Context Protocol (MCP). It demonstrates leveraging large language models like Claude and GPT to automate tasks such as extracting information from Revit models, creating architectural elements, accessing Autodesk Form data, and generating reports of issues within BIM projects independently of specific platforms.",
   "_complete": true,
-  "_saved_at": "2026-04-22T04:59:20.400565+00:00"
+  "_saved_at": "2026-04-22T05:20:10.850041+00:00"
 }

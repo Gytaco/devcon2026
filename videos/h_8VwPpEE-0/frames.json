@@ -1,0 +1,1022 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide with geometric design elements and the text 'From tasks to systems'.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide contains a message emphasizing scalable design with the phrase 'Design what scales.'",
+      "products_visible": [],
+      "ui_elements": [
+        "Design what scales."
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "A person is presenting at Autodesk DevCon with a slide showing a celestial diagram or map.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000005.jpg",
+      "timestamp_seconds": 120.0,
+      "frame_index": 5,
+      "category": "slides",
+      "keep": true,
+      "description": "A presenter is onstage with a slide showing a solar system animation, possibly demonstrating a feature at Autodesk DevCon.",
+      "products_visible": [
+        "AUTODESK DevCon"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000007.jpg",
+      "timestamp_seconds": 180.0,
+      "frame_index": 7,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide displaying the Autodesk DevCon logo with a speaker on stage.",
+      "products_visible": [
+        "Autodesk DevCon"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000008.jpg",
+      "timestamp_seconds": 210.0,
+      "frame_index": 8,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide featuring images of construction professionals using digital tools, with the Autodesk DevCon logo.",
+      "products_visible": [
+        "Autodesk DevCon"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000009.jpg",
+      "timestamp_seconds": 240.0,
+      "frame_index": 9,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation showing themes: Build, Orchestrate, and Scale.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Build",
+        "Orchestrate",
+        "Scale"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide featuring the name and title of the EVP, Chief Technology Officer at Autodesk.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Raji Arasu",
+        "EVP, Chief Technology Officer"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000013.jpg",
+      "timestamp_seconds": 360.0,
+      "frame_index": 13,
+      "category": "code",
+      "keep": true,
+      "description": "The frame shows programming code along with function descriptions related to input characters and hex digit handling.",
+      "products_visible": [
+        "AUTODESK DevCon"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000015.jpg",
+      "timestamp_seconds": 420.0,
+      "frame_index": 15,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a speaker presenting at Autodesk DevCon alongside a slide showing a silhouette of a person in front of computer screens.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000016.jpg",
+      "timestamp_seconds": 450.0,
+      "frame_index": 16,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide with the text 'More meaningful work' and images of a speaker and a person working at a computer.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000018.jpg",
+      "timestamp_seconds": 510.0,
+      "frame_index": 18,
+      "category": "transition",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000019.jpg",
+      "timestamp_seconds": 540.0,
+      "frame_index": 19,
+      "category": "demo",
+      "keep": true,
+      "description": "An aerial view of a large industrial complex with the text about custom solutions and Autodesk branding visible.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "APS"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000020.jpg",
+      "timestamp_seconds": 570.0,
+      "frame_index": 20,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000021.jpg",
+      "timestamp_seconds": 600.0,
+      "frame_index": 21,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000022.jpg",
+      "timestamp_seconds": 630.0,
+      "frame_index": 22,
+      "category": "diagram",
+      "keep": true,
+      "description": "The frame shows a person presenting a technical diagram on a screen to a small group, wearing construction safety attire.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000023.jpg",
+      "timestamp_seconds": 660.0,
+      "frame_index": 23,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon indicating an 85% reduction in manual work.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "DevCon",
+        "85%",
+        "Less manual work",
+        "AUTODESK Platform Services"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000024.jpg",
+      "timestamp_seconds": 690.0,
+      "frame_index": 24,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide at Autodesk DevCon showing a graph with customer value versus time/maturity including task automation, workflow automation, and systems automation.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000025.jpg",
+      "timestamp_seconds": 720.0,
+      "frame_index": 25,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide showing a chart about automation with a speaker at Autodesk DevCon.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Systems Automation",
+        "Workflow Automation",
+        "TASK Automation",
+        "Autodesk AI Foundations",
+        "CUSTOMER VALUE",
+        "TIME / MATURITY"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000026.jpg",
+      "timestamp_seconds": 750.0,
+      "frame_index": 26,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide at Autodesk DevCon showing different levels of automation from 'Autodesk AI Foundations' to 'Systems Automation.'",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Autodesk AI Foundations",
+        "TASK Automation",
+        "Workflow Automation",
+        "Systems Automation"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000029.jpg",
+      "timestamp_seconds": 840.0,
+      "frame_index": 29,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide showing a person speaking and an image of a robotic hand fist bumping a human hand.",
+      "products_visible": [
+        "AUTODESK DevCon"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000032.jpg",
+      "timestamp_seconds": 930.0,
+      "frame_index": 32,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide showing a close-up image of a hand holding a gold nugget, with a speaker on the left side.",
+      "products_visible": [
+        "AUTODESK DevCon"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000033.jpg",
+      "timestamp_seconds": 960.0,
+      "frame_index": 33,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide shows 'AUTODESK ASSISTANT' with a speaker on the left side.",
+      "products_visible": [
+        "Autodesk Assistant"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000037.jpg",
+      "timestamp_seconds": 1080.0,
+      "frame_index": 37,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide with the text 'What will you build?' alongside a speaker on stage.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000038.jpg",
+      "timestamp_seconds": 1110.0,
+      "frame_index": 38,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk DevCon"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000039.jpg",
+      "timestamp_seconds": 1140.0,
+      "frame_index": 39,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide highlights a message about developers moving up the stack, with a presenter on stage.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Developers always move up the stack"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000041.jpg",
+      "timestamp_seconds": 1200.0,
+      "frame_index": 41,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000042.jpg",
+      "timestamp_seconds": 1230.0,
+      "frame_index": 42,
+      "category": "demo",
+      "keep": true,
+      "description": "A speaker is presenting at Autodesk DevCon with an image of an old fort on the screen.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000044.jpg",
+      "timestamp_seconds": 1290.0,
+      "frame_index": 44,
+      "category": "slides",
+      "keep": true,
+      "description": "A speaker is presenting about 'Structured Granular Data' with keywords 'Grounding', 'Context', and 'Focus' visible on the slide.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Grounding",
+        "Context",
+        "Focus"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000049.jpg",
+      "timestamp_seconds": 1440.0,
+      "frame_index": 49,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon showcasing the AEC Data Model with upcoming features like Plant 3D, Import & Export IFC, and Civil 3D.",
+      "products_visible": [
+        "AEC Data Model",
+        "Plant 3D",
+        "Import & Export IFC",
+        "Civil 3D"
+      ],
+      "ui_elements": [
+        "AEC Data Model API",
+        "Forma Data Management"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000051.jpg",
+      "timestamp_seconds": 1500.0,
+      "frame_index": 51,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide at Autodesk DevCon discussing interoperability as an industry problem.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Interoperability is an industry problem"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000054.jpg",
+      "timestamp_seconds": 1590.0,
+      "frame_index": 54,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon showing a DB train with text 'Engineering and Consulting'.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "DB",
+        "Engineering and Consulting"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000055.jpg",
+      "timestamp_seconds": 1620.0,
+      "frame_index": 55,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon featuring Dura Vermeer with an image of a bridge and infrastructure work.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "DURA VERMEER",
+        "Waarmaken van ambities"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000057.jpg",
+      "timestamp_seconds": 1680.0,
+      "frame_index": 57,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000058.jpg",
+      "timestamp_seconds": 1710.0,
+      "frame_index": 58,
+      "category": "demo",
+      "keep": true,
+      "description": "A presentation slide displays a comparison between Revit and Rhino 3D usage in architecture.",
+      "products_visible": [
+        "Autodesk Revit",
+        "Rhino 3D"
+      ],
+      "ui_elements": [
+        "RENDERING",
+        "VIEW"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000060.jpg",
+      "timestamp_seconds": 1770.0,
+      "frame_index": 60,
+      "category": "slides",
+      "keep": true,
+      "description": "A presenter stands next to a slide featuring a cityscape and the Autodesk DevCon logo.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000061.jpg",
+      "timestamp_seconds": 1800.0,
+      "frame_index": 61,
+      "category": "slides",
+      "keep": true,
+      "description": "This frame shows a presentation slide with the logo of the Building and Construction Authority at an Autodesk DevCon event.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Building and Construction Authority"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000062.jpg",
+      "timestamp_seconds": 1830.0,
+      "frame_index": 62,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000063.jpg",
+      "timestamp_seconds": 1860.0,
+      "frame_index": 63,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "AUTODESK DevCon"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000064.jpg",
+      "timestamp_seconds": 1890.0,
+      "frame_index": 64,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "AUTODESK DevCon"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000071.jpg",
+      "timestamp_seconds": 2100.0,
+      "frame_index": 71,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a speaker next to an image of a historical fort or castle by the sea, under the Autodesk DevCon banner.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000072.jpg",
+      "timestamp_seconds": 2130.0,
+      "frame_index": 72,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide from Autodesk DevCon is shown alongside a speaker on stage.",
+      "products_visible": [
+        "AUTODESK DevCon"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000073.jpg",
+      "timestamp_seconds": 2160.0,
+      "frame_index": 73,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "Vikram Dutt",
+        "VP, Industry, Product, & Emerging Business Marketing"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000074.jpg",
+      "timestamp_seconds": 2190.0,
+      "frame_index": 74,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presenter speaking at Autodesk DevCon with a slide featuring a person using VR equipment.",
+      "products_visible": [
+        "AUTODESK DevCon"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000075.jpg",
+      "timestamp_seconds": 2220.0,
+      "frame_index": 75,
+      "category": "ui",
+      "keep": true,
+      "description": "The frame shows a tablet screen displaying an interface with a prompt 'What's on the agenda today?' and various menu options like 'New Chat' and 'Settings' under the label 'ChatGPT'.",
+      "products_visible": [
+        "ChatGPT"
+      ],
+      "ui_elements": [
+        "What's on the agenda today?",
+        "New Chat",
+        "Settings",
+        "Ask anything"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000078.jpg",
+      "timestamp_seconds": 2310.0,
+      "frame_index": 78,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a presentation with a talking head and two women engaging with virtual structures on a tablet, likely discussing software or technology applications.",
+      "products_visible": [
+        "Autodesk DevCon"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000079.jpg",
+      "timestamp_seconds": 2340.0,
+      "frame_index": 79,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide at Autodesk DevCon showing topics 'Discovery' and 'Orchestration' with illustrative images.",
+      "products_visible": [
+        "Autodesk DevCon"
+      ],
+      "ui_elements": [
+        "Discovery",
+        "Orchestration"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000080.jpg",
+      "timestamp_seconds": 2370.0,
+      "frame_index": 80,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon showing a 'Discovery' theme with a colorful abstract design emanating from a laptop.",
+      "products_visible": [
+        "AUTODESK DevCon"
+      ],
+      "ui_elements": [
+        "Discovery"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000081.jpg",
+      "timestamp_seconds": 2400.0,
+      "frame_index": 81,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000083.jpg",
+      "timestamp_seconds": 2460.0,
+      "frame_index": 83,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk DevCon"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000084.jpg",
+      "timestamp_seconds": 2490.0,
+      "frame_index": 84,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide showing various team collaboration and design scenes with the Autodesk DevCon logo.",
+      "products_visible": [
+        "AUTODESK DevCon"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000085.jpg",
+      "timestamp_seconds": 2520.0,
+      "frame_index": 85,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide with the title 'Orchestration' and a speaker alongside.",
+      "products_visible": [
+        "AUTODESK DevCon"
+      ],
+      "ui_elements": [
+        "Orchestration"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000086.jpg",
+      "timestamp_seconds": 2550.0,
+      "frame_index": 86,
+      "category": "slides",
+      "keep": true,
+      "description": "A presenter is shown next to a slide displaying a complex metallic structure at Autodesk DevCon.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000087.jpg",
+      "timestamp_seconds": 2580.0,
+      "frame_index": 87,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon showing a comparison of '40% Lighter' and '20% Stronger'.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "40% Lighter",
+        "20% Stronger"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000088.jpg",
+      "timestamp_seconds": 2610.0,
+      "frame_index": 88,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide showing images related to Autodesk DevCon, including people working with technology and a speaker on stage.",
+      "products_visible": [
+        "AUTODESK DevCon"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000089.jpg",
+      "timestamp_seconds": 2640.0,
+      "frame_index": 89,
+      "category": "slides",
+      "keep": true,
+      "description": "A video frame showing a presentation slide related to a construction project by Norconsult Digital at Autodesk DevCon.",
+      "products_visible": [
+        "Autodesk DevCon",
+        "Norconsult Digital"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000090.jpg",
+      "timestamp_seconds": 2670.0,
+      "frame_index": 90,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents information about over 60 million data points coordinated in real-time, featuring designs and diagrams of infrastructure projects.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "60M",
+        "data points coordinated in real-time"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000091.jpg",
+      "timestamp_seconds": 2700.0,
+      "frame_index": 91,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide showcases a variety of professional scenarios, including construction, office work, and teamwork, under the Autodesk DevCon theme.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000094.jpg",
+      "timestamp_seconds": 2790.0,
+      "frame_index": 94,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide discussing Discovery, Orchestration, and Distribution with visuals and text.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Discovery",
+        "Orchestration",
+        "Distribution"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000095.jpg",
+      "timestamp_seconds": 2820.0,
+      "frame_index": 95,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide from Autodesk DevCon featuring a speaker and an illustration of teamwork with digital effects.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000097.jpg",
+      "timestamp_seconds": 2880.0,
+      "frame_index": 97,
+      "category": "demo",
+      "keep": true,
+      "description": "A speaker is presenting at Autodesk DevCon with a demo of the Autodesk Assistant interface shown on screen.",
+      "products_visible": [
+        "Autodesk Assistant"
+      ],
+      "ui_elements": [
+        "Tech Preview",
+        "Show open Issues",
+        "Show all project information related to trade",
+        "Ask Autodesk Assistant"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000098.jpg",
+      "timestamp_seconds": 2910.0,
+      "frame_index": 98,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk DevCon"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000099.jpg",
+      "timestamp_seconds": 2940.0,
+      "frame_index": 99,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a speaker presenting at Autodesk DevCon with a building floor plan and a text analysis with door specifications on the screen.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Two Story Studio Unit",
+        "Live/Work Unit",
+        "Corridor",
+        "Stair",
+        "Fire-rated doors"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000100.jpg",
+      "timestamp_seconds": 2970.0,
+      "frame_index": 100,
+      "category": "demo",
+      "keep": true,
+      "description": "A person is presenting at Autodesk DevCon, displaying a digital keyboard rendering on the screen along with a chat interface.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "How do I write a good function prompt?",
+        "Render this keyboard in a dark environment",
+        "Ask Autodesk Assistant"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000101.jpg",
+      "timestamp_seconds": 3000.0,
+      "frame_index": 101,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide showing '1000s of data points' with a network-like background. The frame is part of an Autodesk DevCon event.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000109.jpg",
+      "timestamp_seconds": 3240.0,
+      "frame_index": 109,
+      "category": "demo",
+      "keep": true,
+      "description": "A presentation slide at Autodesk DevCon showing a 3D building model with duct optimization analysis and interface featuring Autodesk Assistant.",
+      "products_visible": [
+        "Autodesk Assistant",
+        "Revit"
+      ],
+      "ui_elements": [
+        "VIKTOR QA/QC Rigid and Flex Duct Optimization Analysis",
+        "Proceed with actions",
+        "Open report"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000110.jpg",
+      "timestamp_seconds": 3270.0,
+      "frame_index": 110,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000114.jpg",
+      "timestamp_seconds": 3390.0,
+      "frame_index": 114,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon showing that AI generates insights and suggests further actions, with improvement opportunities identified.",
+      "products_visible": [
+        "AUTODESK",
+        "Arcadis"
+      ],
+      "ui_elements": [
+        "AI Generates insights and suggests further actions",
+        "Download Report",
+        "Suggest improvement actions",
+        "Create Autodesk Forma issues"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000115.jpg",
+      "timestamp_seconds": 3420.0,
+      "frame_index": 115,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation showing a construction site with the title 'Hours'.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Hours"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000117.jpg",
+      "timestamp_seconds": 3480.0,
+      "frame_index": 117,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide highlights AI integrations from the Autodesk community, showcasing different tools and plugins available.",
+      "products_visible": [
+        "AUTOM8LABS MCP Connector",
+        "NonicaTab PRO. Professional member",
+        "Sentinel QC with MCP AI Assistant for Revit"
+      ],
+      "ui_elements": [
+        "View details"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000119.jpg",
+      "timestamp_seconds": 3540.0,
+      "frame_index": 119,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presenter on the left and a collage of images on the right related to architecture, manufacturing, and technology. The event is Autodesk DevCon.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000120.jpg",
+      "timestamp_seconds": 3570.0,
+      "frame_index": 120,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide from an Autodesk DevCon presentation featuring images related to construction, architecture, and technology.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\h_8VwPpEE-0\\frames\\frame_000123.jpg",
+      "timestamp_seconds": 3660.0,
+      "frame_index": 123,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide from Autodesk DevCon featuring three executives and their roles.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "DevCon",
+        "Amy Bunszel",
+        "Srinath Jonnalagadda",
+        "Daniela Becker"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T21:44:50.926675+00:00"
+}

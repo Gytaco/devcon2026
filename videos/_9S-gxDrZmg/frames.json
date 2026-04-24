@@ -1,0 +1,239 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\_9S-gxDrZmg\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\_9S-gxDrZmg\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide shows an agenda for a presentation at Autodesk DevCon, discussing granular data, IFC Cloud Connector, and customer use-cases.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Agenda",
+        "01",
+        "02",
+        "03"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\_9S-gxDrZmg\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing enhancing interoperability through sharing curated subsets of data with an image of a spaceship model.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\_9S-gxDrZmg\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses enhancing interoperability through sharing curated subsets of data, comparing sharing entire files versus sharing subsets of data.",
+      "products_visible": [],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "Enhancing interoperability through sharing curated subsets of data"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\_9S-gxDrZmg\\frames\\frame_000005.jpg",
+      "timestamp_seconds": 120.0,
+      "frame_index": 5,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide displays a diagram showing the data exchange process between an authoring app and key workflows using Autodesk Forma. It highlights steps such as sharing subsets, data exchange, and the use of data connectors.",
+      "products_visible": [
+        "Autodesk Forma"
+      ],
+      "ui_elements": [
+        "Data Exchange \u2013 How it works",
+        "AUTHORIZING APP",
+        "DATA EXCHANGE",
+        "KEY WORKFLOWS"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\_9S-gxDrZmg\\frames\\frame_000006.jpg",
+      "timestamp_seconds": 150.0,
+      "frame_index": 6,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide shows a diagram explaining how data exchange works, detailing the process from an authoring app to key workflows.",
+      "products_visible": [
+        "AUTODESK Forma",
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Data Exchange",
+        "Authoring App",
+        "Key Workflows"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\_9S-gxDrZmg\\frames\\frame_000007.jpg",
+      "timestamp_seconds": 180.0,
+      "frame_index": 7,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses data exchange as part of the Autodesk Data Vision, highlighting connected ecosystems, gated workflows, and work packages.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Data Exchange as part of the Autodesk Data Vision",
+        "Connected Ecosystem",
+        "Gated Workflows",
+        "Work Packages"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\_9S-gxDrZmg\\frames\\frame_000009.jpg",
+      "timestamp_seconds": 240.0,
+      "frame_index": 9,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents information about the Data Exchange Cloud Connector for IFC, showing it will be available by default on all Forma Projects created after July 22nd, 2025.",
+      "products_visible": [
+        "Autodesk",
+        "Data Exchange Cloud Connector",
+        "Forma Projects"
+      ],
+      "ui_elements": [
+        "Data Exchange",
+        "IFC Attributes/IfcClass",
+        "Add and reorder filters"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\_9S-gxDrZmg\\frames\\frame_000011.jpg",
+      "timestamp_seconds": 300.0,
+      "frame_index": 11,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a 3D BIM model with a sidebar for data exchange functionality in Autodesk Forma.",
+      "products_visible": [
+        "Autodesk DevCon",
+        "Forma"
+      ],
+      "ui_elements": [
+        "Data Exchange",
+        "IFCBuildingElementProxy"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\_9S-gxDrZmg\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide discussing time saved using Autodesk technologies with comparisons between data exchange and IFC linking.",
+      "products_visible": [
+        "AUTODESK",
+        "Revit"
+      ],
+      "ui_elements": [
+        "Create Data Exchange + Load in Revit (Facade only)",
+        "Link the entire 1,3 GB IFC",
+        "Time saved"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\_9S-gxDrZmg\\frames\\frame_000013.jpg",
+      "timestamp_seconds": 360.0,
+      "frame_index": 13,
+      "category": "slides",
+      "keep": true,
+      "description": "Presentation slide showing details about Deutsche Bahn's Forma pilot project setup using IFC-based data exchanges.",
+      "products_visible": [
+        "AutoDesk",
+        "Revit",
+        "DX Connectors"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\_9S-gxDrZmg\\frames\\frame_000018.jpg",
+      "timestamp_seconds": 510.0,
+      "frame_index": 18,
+      "category": "diagram",
+      "keep": true,
+      "description": "The frame shows a diagram related to infrastructure restoration with labeled components such as steel banding and heritage restoration.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Steel banding",
+        "16 micropiles",
+        "Renovation of the waterproofing and drainage system",
+        "Heritage restoration",
+        "Rock armour"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\_9S-gxDrZmg\\frames\\frame_000019.jpg",
+      "timestamp_seconds": 540.0,
+      "frame_index": 19,
+      "category": "slides",
+      "keep": true,
+      "description": "The video frame shows a presenter alongside images of infrastructure inspection or repair work under bridges, with branding for Autodesk DevCon.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\_9S-gxDrZmg\\frames\\frame_000020.jpg",
+      "timestamp_seconds": 570.0,
+      "frame_index": 20,
+      "category": "demo",
+      "keep": true,
+      "description": "A presentation showing a data visualization dashboard with charts and status updates related to micropile tracking.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Suivi en cours des Micropieux",
+        "Statut",
+        "Date_D\u00e9but",
+        "% Avancement Micropieux"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\_9S-gxDrZmg\\frames\\frame_000021.jpg",
+      "timestamp_seconds": 600.0,
+      "frame_index": 21,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Get started & Stay in touch!",
+        "QR code",
+        "linktr.ee/autodeskdata"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:49:16.031644+00:00"
+}

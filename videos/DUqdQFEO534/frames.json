@@ -1,0 +1,348 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\DUqdQFEO534\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide about designing climate-resilient agroforestry systems with Autodesk Forma and APS, applied to coffee farming.",
+      "products_visible": [
+        "Autodesk Forma",
+        "APS"
+      ],
+      "ui_elements": [
+        "AUTODESK",
+        "DevCon",
+        "Designing Climate-Resilient Agroforestry Systems with Autodesk Forma and APS",
+        "Blue Bird Coffee"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\DUqdQFEO534\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide showing an aerial view of a coffee farm in the mountains of Colombia, labeled 'This is where everything begins!'",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\DUqdQFEO534\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\DUqdQFEO534\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide shows images of a person in various settings, likely illustrating 'Two Worlds Colliding' as both an engineer and a farmer.",
+      "products_visible": [
+        "Autodesk DevCon"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\DUqdQFEO534\\frames\\frame_000006.jpg",
+      "timestamp_seconds": 150.0,
+      "frame_index": 6,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide about coffee exposure conditions and industry statistics is shown alongside a talking head.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\DUqdQFEO534\\frames\\frame_000008.jpg",
+      "timestamp_seconds": 210.0,
+      "frame_index": 8,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide showing a graph of coffee production through the years alongside a speaker.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Real Farm Evidence"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\DUqdQFEO534\\frames\\frame_000010.jpg",
+      "timestamp_seconds": 270.0,
+      "frame_index": 10,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents economic benefits related to coffee quality, income streams, and carbon credits.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Economic Benefits"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\DUqdQFEO534\\frames\\frame_000011.jpg",
+      "timestamp_seconds": 300.0,
+      "frame_index": 11,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'The Productivity Sweet Spot' with an image of a person working out of a vehicle, with a focus on productivity under canopy cover.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "The Productivity Sweet Spot",
+        "35 - 50% Canopy"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\DUqdQFEO534\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide titled 'Need Predictive Tools' alongside a speaker in a video call format.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Need Predictive Tools"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\DUqdQFEO534\\frames\\frame_000013.jpg",
+      "timestamp_seconds": 360.0,
+      "frame_index": 13,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide shown in the Autodesk DevCon presentation titled 'A day in the farm' with an image of a vehicle in a rural setting.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "A day in the farm.."
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\DUqdQFEO534\\frames\\frame_000014.jpg",
+      "timestamp_seconds": 390.0,
+      "frame_index": 14,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\DUqdQFEO534\\frames\\frame_000015.jpg",
+      "timestamp_seconds": 420.0,
+      "frame_index": 15,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk DevCon"
+      ],
+      "ui_elements": [
+        "farming"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\DUqdQFEO534\\frames\\frame_000016.jpg",
+      "timestamp_seconds": 450.0,
+      "frame_index": 16,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\DUqdQFEO534\\frames\\frame_000017.jpg",
+      "timestamp_seconds": 480.0,
+      "frame_index": 17,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\DUqdQFEO534\\frames\\frame_000018.jpg",
+      "timestamp_seconds": 510.0,
+      "frame_index": 18,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide about 'Digital Twins Matter' with a 3D model of a farm.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Digital Twins Matter",
+        "A virtual Representation of the Farm"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\DUqdQFEO534\\frames\\frame_000019.jpg",
+      "timestamp_seconds": 540.0,
+      "frame_index": 19,
+      "category": "demo",
+      "keep": true,
+      "description": "A demonstration of a sun exposure analysis using Autodesk Forma is shown, highlighting sun hours on a site model.",
+      "products_visible": [
+        "Autodesk APS",
+        "Autodesk Forma"
+      ],
+      "ui_elements": [
+        "sun hours",
+        "toolbar",
+        "compare",
+        "highlights",
+        "current model"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\DUqdQFEO534\\frames\\frame_000021.jpg",
+      "timestamp_seconds": 600.0,
+      "frame_index": 21,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide comparing three agrofroestry scenarios with a speaker in view.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Scenarios Comparison",
+        "Scenario 1",
+        "Scenario 2",
+        "Scenario 3"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\DUqdQFEO534\\frames\\frame_000023.jpg",
+      "timestamp_seconds": 660.0,
+      "frame_index": 23,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide discussing assumptions and limitations of a simulation is shown alongside a presenter.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Assumptions & Limitations",
+        "Current layout vs projected agroforestry system"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\DUqdQFEO534\\frames\\frame_000024.jpg",
+      "timestamp_seconds": 690.0,
+      "frame_index": 24,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide details assumptions and limitations related to a climate dataset and simulation.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Assumptions & Limitations"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\DUqdQFEO534\\frames\\frame_000025.jpg",
+      "timestamp_seconds": 720.0,
+      "frame_index": 25,
+      "category": "slides",
+      "keep": true,
+      "description": "The video frame shows a presentation slide about a 'Structured Farm Database' using Autodesk Forma for data management, with a person talking and a phone screen displaying metadata.",
+      "products_visible": [
+        "AUTODESK Forma"
+      ],
+      "ui_elements": [
+        "Structured Farm Database",
+        "Details",
+        "Coordinates"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\DUqdQFEO534\\frames\\frame_000026.jpg",
+      "timestamp_seconds": 750.0,
+      "frame_index": 26,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses using Autodesk Construction Cloud API to extract data for custom apps and insights creation.",
+      "products_visible": [
+        "Autodesk Construction Cloud"
+      ],
+      "ui_elements": [
+        "APS OUR ALLY TO EXTRACT DATA!",
+        "Autodesk Construction Cloud API"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\DUqdQFEO534\\frames\\frame_000027.jpg",
+      "timestamp_seconds": 780.0,
+      "frame_index": 27,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide discusses the integration of simulation and field data for better decision-making in coffee science.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\DUqdQFEO534\\frames\\frame_000028.jpg",
+      "timestamp_seconds": 810.0,
+      "frame_index": 28,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'Roadmap \u2013 A Future with AI' outlines AI-driven initiatives such as tree layout design and crop disease detection.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "Roadmap \u2013 A Future with AI"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\DUqdQFEO534\\frames\\frame_000029.jpg",
+      "timestamp_seconds": 840.0,
+      "frame_index": 29,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing the future of farming, featuring a quote from Blue Bird Coffee against a natural backdrop.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Autodesk DevCon",
+        "quote"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:52:26.633506+00:00"
+}

@@ -1,0 +1,492 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide presenting about deterministic AI for Revit models, focusing on ADA compliance and bulk auditing.",
+      "products_visible": [
+        "Autodesk Revit"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "Deterministic AI for Revit Models: ADA Compliance",
+        "Edmundo Herrera, P.E.",
+        "Kevin OConnor, P.E."
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide showing the agenda for Autodesk DevCon, covering project overview, needs, workflow, and Revit auditing.",
+      "products_visible": [
+        "Autodesk",
+        "Revit",
+        "pyRevit",
+        "ACC"
+      ],
+      "ui_elements": [
+        "Agenda",
+        "Project overview",
+        "Project need",
+        "Workflow",
+        "Revit ADA Auditing on ACC",
+        "Issue Resolution in Revit using pyRevit"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents information about Parsons Corporation, highlighting their two segments: Federal Solutions and Critical Infrastructure, along with financial figures and company statistics.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Autodesk DevCon",
+        "Who is Parsons?",
+        "$7.0B",
+        "$6.8B"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000005.jpg",
+      "timestamp_seconds": 120.0,
+      "frame_index": 5,
+      "category": "slides",
+      "keep": true,
+      "description": "A presenter discusses the HART Project overview with a map of Europe shown.",
+      "products_visible": [
+        "AUTODESK",
+        "Google Earth"
+      ],
+      "ui_elements": [
+        "HART Project overview"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000006.jpg",
+      "timestamp_seconds": 150.0,
+      "frame_index": 6,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide provides an overview of the HART (Honolulu Authority for Rapid Transportation) project, detailing client, location, type, and cost.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "HART Project overview",
+        "Client",
+        "Location",
+        "Type",
+        "Cost",
+        "Legend"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000007.jpg",
+      "timestamp_seconds": 180.0,
+      "frame_index": 7,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'HART Project overview' with a focus on recently completed segments at Lagoon Drive and Honolulu Airport Station. Autodesk DevCon branding is visible.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Lagoon Drive",
+        "Honolulu Airport Station",
+        "HART Project overview"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000008.jpg",
+      "timestamp_seconds": 210.0,
+      "frame_index": 8,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'Current Project Summary' showing a map related to the City Center Guideway and Stations Project with company logos for HART, Tutor Perini, and Parsons.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Current Project Summary",
+        "HART",
+        "Tutor Perini",
+        "Parsons"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000009.jpg",
+      "timestamp_seconds": 240.0,
+      "frame_index": 9,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide discussing the need for auditing Revit files to verify model compliance against client standards and ADA requirements.",
+      "products_visible": [
+        "Autodesk",
+        "Revit"
+      ],
+      "ui_elements": [
+        "Project need",
+        "Verify Model Compliance against Client Standards and ADA requirements"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing project needs with priorities like repeatability, accuracy, and security, and mentioning Python and APIs as solutions.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000015.jpg",
+      "timestamp_seconds": 420.0,
+      "frame_index": 15,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide is about 'Workflow' at Autodesk DevCon.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Workflow"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000017.jpg",
+      "timestamp_seconds": 480.0,
+      "frame_index": 17,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'Safe, Accurate & Swift Workflow' describes a deterministic workflow involving 'Describe Intent', 'Translate Code', and 'Execute Logic'.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Describe Intent",
+        "Translate Code",
+        "Execute Logic"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000020.jpg",
+      "timestamp_seconds": 570.0,
+      "frame_index": 20,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation highlighting the importance of security, showing a comparison between executable files and environment variables.",
+      "products_visible": [
+        "AUTODESK",
+        "DevCon"
+      ],
+      "ui_elements": [
+        "Security above everything",
+        "exe",
+        ".env"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000021.jpg",
+      "timestamp_seconds": 600.0,
+      "frame_index": 21,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents a workflow diagram illustrating the integration of executable files with Autodesk Construction Cloud using APIs.",
+      "products_visible": [
+        "Autodesk Construction Cloud"
+      ],
+      "ui_elements": [
+        "exe",
+        "APIs",
+        "Workflow",
+        "RVT's, DWG's, PDF's",
+        "ACC Management",
+        "Insights into ACTIONS!!!!"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000025.jpg",
+      "timestamp_seconds": 720.0,
+      "frame_index": 25,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing 'Direct Cloud Issue Resolution in Revit pyRevit' with a UI screenshot of the Revit software interface.",
+      "products_visible": [
+        "Autodesk",
+        "Revit",
+        "pyRevit"
+      ],
+      "ui_elements": [
+        "ACC",
+        "Views",
+        "Issue"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000028.jpg",
+      "timestamp_seconds": 810.0,
+      "frame_index": 28,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'Demand for Automation' outlines challenges in large building projects, ADA compliance checks, manual Revit model review, and multiple project iterations.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "DevCon",
+        "Demand for Automation"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000031.jpg",
+      "timestamp_seconds": 900.0,
+      "frame_index": 31,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide discussing a solution for detecting non-compliant elements in Revit models.",
+      "products_visible": [
+        "Revit",
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Solution",
+        "DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000032.jpg",
+      "timestamp_seconds": 930.0,
+      "frame_index": 32,
+      "category": "slides",
+      "keep": true,
+      "description": "This frame shows a presentation slide from Autodesk DevCon featuring a building model and file navigation UI.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "PROJECT FILES",
+        "EXTRACT CATEGORIES",
+        "SHOW ALL",
+        "ADD STANDARDS",
+        "PROPERTY STRUCTURE"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000034.jpg",
+      "timestamp_seconds": 990.0,
+      "frame_index": 34,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide shows a solution overview with a 3D architectural model and audit standards related to ADA compliance.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Solution",
+        "AUDIT STANDARDS",
+        "ADA DOOR WIDTH AUDIT RESULTS"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000035.jpg",
+      "timestamp_seconds": 1020.0,
+      "frame_index": 35,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing a building design software interface and a speaker talking.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "File",
+        "Fix, Select & Edit",
+        "Reset Review",
+        "Properties",
+        "3D View"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000036.jpg",
+      "timestamp_seconds": 1050.0,
+      "frame_index": 36,
+      "category": "demo",
+      "keep": true,
+      "description": "A presenter is showing a software demo with a file structure and auditing tools visible in the interface.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Revit Model Standards Auditor",
+        "EXTRACT CATEGORIES",
+        "SHOW ALL",
+        "AUDIT STANDARDS",
+        "PROPERTY STRUCTURE"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000037.jpg",
+      "timestamp_seconds": 1080.0,
+      "frame_index": 37,
+      "category": "demo",
+      "keep": true,
+      "description": "A demonstration of Autodesk software showing a 3D model with options for viewing categories and auditing standards.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "EXTRACT CATEGORIES",
+        "SHOW ALL",
+        "AUDIT STANDARDS",
+        "PROPERTY STRUCTURE"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000038.jpg",
+      "timestamp_seconds": 1110.0,
+      "frame_index": 38,
+      "category": "demo",
+      "keep": true,
+      "description": "A document discussing queuing distance requirements is being presented, with a speaker visible beside the document.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Table of Contents",
+        "Technical Provisions - HartRules&RegulationsBldgs.pdf"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000039.jpg",
+      "timestamp_seconds": 1140.0,
+      "frame_index": 39,
+      "category": "ui",
+      "keep": true,
+      "description": "The frame displays an Autodesk interface with a 3D model and audit options for different building categories.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Run All Categories",
+        "HART COMPLIANCE AUDIT",
+        "Audit Standards",
+        "Property Structure"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000044.jpg",
+      "timestamp_seconds": 1290.0,
+      "frame_index": 44,
+      "category": "demo",
+      "keep": true,
+      "description": "A person is speaking alongside a demonstration of Autodesk Revit software showing project information and graphics.",
+      "products_visible": [
+        "Autodesk Revit"
+      ],
+      "ui_elements": [
+        "File",
+        "Architecture",
+        "Structure",
+        "Sheet",
+        "Starting View",
+        "Properties"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000045.jpg",
+      "timestamp_seconds": 1320.0,
+      "frame_index": 45,
+      "category": "demo",
+      "keep": true,
+      "description": "A side-by-side view of a live Autodesk software demonstration featuring 3D modeling in Revit.",
+      "products_visible": [
+        "Autodesk Revit"
+      ],
+      "ui_elements": [
+        "File",
+        "Architecture",
+        "Structure",
+        "Systems",
+        "ACC",
+        "3D View"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000047.jpg",
+      "timestamp_seconds": 1380.0,
+      "frame_index": 47,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses the transformation of design standards from PDF format to JSON using Large Language Models (LLM).",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Design Standards",
+        "PDF Format",
+        "json",
+        "LLM"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000048.jpg",
+      "timestamp_seconds": 1410.0,
+      "frame_index": 48,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents information about the Python script APIs used, including data management and model derivative operations.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000052.jpg",
+      "timestamp_seconds": 1530.0,
+      "frame_index": 52,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a software demonstration with project files and a 3D model interface related to Autodesk.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "EXTRACT CATEGORIES",
+        "SHOW ALL",
+        "AUDIT STANDARDS",
+        "project files"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\8EelSr-4c8Q\\frames\\frame_000053.jpg",
+      "timestamp_seconds": 1560.0,
+      "frame_index": 53,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a software demonstration with project files and a 3D model being displayed.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "PROJECT FILES",
+        "Extract Categories",
+        "Audit Standards",
+        "Loading Issue Types"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:39:12.085369+00:00"
+}

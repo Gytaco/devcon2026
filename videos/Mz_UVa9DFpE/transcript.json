@@ -1,0 +1,1189 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.92,
+      "text": "Hi everyone, good morning.",
+      "words": []
+    },
+    {
+      "start": 2.92,
+      "end": 5.28,
+      "text": "My name is Vasini Gowin the Rajan.",
+      "words": []
+    },
+    {
+      "start": 5.28,
+      "end": 8.0,
+      "text": "I'm a senior product manager at Autodesk.",
+      "words": []
+    },
+    {
+      "start": 8.0,
+      "end": 12.120000000000001,
+      "text": "And my primary area of focus is the Autodesk App Store.",
+      "words": []
+    },
+    {
+      "start": 12.120000000000001,
+      "end": 16.04,
+      "text": "You will also see me referencing this too as",
+      "words": []
+    },
+    {
+      "start": 16.04,
+      "end": 20.64,
+      "text": "the Autodesk Marketplace throughout the presentation.",
+      "words": []
+    },
+    {
+      "start": 20.64,
+      "end": 24.8,
+      "text": "Today, my presentation topic is accelerating publisher,",
+      "words": []
+    },
+    {
+      "start": 24.8,
+      "end": 29.04,
+      "text": "GoToMarket and Group on a trusted App Store platform.",
+      "words": []
+    },
+    {
+      "start": 29.439999999999998,
+      "end": 31.439999999999998,
+      "text": "And let's jump right in.",
+      "words": []
+    },
+    {
+      "start": 34.519999999999996,
+      "end": 37.76,
+      "text": "In a few weeks, we are launching the next generation",
+      "words": []
+    },
+    {
+      "start": 37.76,
+      "end": 40.76,
+      "text": "Autodesk App Store experience, designed specifically",
+      "words": []
+    },
+    {
+      "start": 40.76,
+      "end": 43.879999999999995,
+      "text": "to improve how customers discover solutions.",
+      "words": []
+    },
+    {
+      "start": 43.879999999999995,
+      "end": 46.04,
+      "text": "But what's more important is what this",
+      "words": []
+    },
+    {
+      "start": 46.04,
+      "end": 47.92,
+      "text": "unlocks for publishers.",
+      "words": []
+    },
+    {
+      "start": 47.92,
+      "end": 50.36,
+      "text": "Today, I'll walk through what's changing,",
+      "words": []
+    },
+    {
+      "start": 50.36,
+      "end": 52.239999999999995,
+      "text": "how the Marketplace is expanding,",
+      "words": []
+    },
+    {
+      "start": 52.239999999999995,
+      "end": 56.120000000000005,
+      "text": "and what you can do, start doing now to take advantage of it.",
+      "words": []
+    },
+    {
+      "start": 57.12,
+      "end": 60.12,
+      "text": "As always, we start with the Safe Harbor statement",
+      "words": []
+    },
+    {
+      "start": 60.12,
+      "end": 64.12,
+      "text": "to say that you will hear some forward looking statements",
+      "words": []
+    },
+    {
+      "start": 64.12,
+      "end": 65.12,
+      "text": "in this presentation.",
+      "words": []
+    },
+    {
+      "start": 65.12,
+      "end": 69.12,
+      "text": "And definitely consider these as estimates",
+      "words": []
+    },
+    {
+      "start": 69.12,
+      "end": 72.12,
+      "text": "before you make purchasing decisions.",
+      "words": []
+    },
+    {
+      "start": 72.12,
+      "end": 74.12,
+      "text": "Now, let's jump right in.",
+      "words": []
+    },
+    {
+      "start": 74.12,
+      "end": 77.12,
+      "text": "I'll start with what's launching in a few weeks.",
+      "words": []
+    },
+    {
+      "start": 77.12,
+      "end": 81.12,
+      "text": "The next gen, or the new App Store platform for",
+      "words": []
+    },
+    {
+      "start": 81.12,
+      "end": 84.12,
+      "text": "solution buyer customers.",
+      "words": []
+    },
+    {
+      "start": 84.52000000000001,
+      "end": 87.12,
+      "text": "This is going to be a comprehensive redesign",
+      "words": []
+    },
+    {
+      "start": 87.12,
+      "end": 90.2,
+      "text": "focused on one core goal, helping customers find",
+      "words": []
+    },
+    {
+      "start": 90.2,
+      "end": 93.16000000000001,
+      "text": "the right solutions faster and removing friction",
+      "words": []
+    },
+    {
+      "start": 93.16000000000001,
+      "end": 96.68,
+      "text": "from discovery all the way through purchase.",
+      "words": []
+    },
+    {
+      "start": 96.68,
+      "end": 99.36,
+      "text": "We've improved search and navigation,",
+      "words": []
+    },
+    {
+      "start": 99.36,
+      "end": 102.60000000000001,
+      "text": "so customers can quickly get to relevant solutions,",
+      "words": []
+    },
+    {
+      "start": 102.60000000000001,
+      "end": 106.12,
+      "text": "whether they are searching by product or by industry.",
+      "words": []
+    },
+    {
+      "start": 106.12,
+      "end": 109.72,
+      "text": "The product details page that you see and know",
+      "words": []
+    },
+    {
+      "start": 109.72,
+      "end": 112.72,
+      "text": "is completely revamped.",
+      "words": []
+    },
+    {
+      "start": 112.72,
+      "end": 115.72,
+      "text": "It is now much more structured and informative.",
+      "words": []
+    },
+    {
+      "start": 115.72,
+      "end": 118.52,
+      "text": "So buyers can understand value, pricing,",
+      "words": []
+    },
+    {
+      "start": 118.52,
+      "end": 122.03999999999999,
+      "text": "trial options quickly, and make more confident decisions.",
+      "words": []
+    },
+    {
+      "start": 123.28,
+      "end": 126.8,
+      "text": "We've also addressed key gaps for teams",
+      "words": []
+    },
+    {
+      "start": 126.8,
+      "end": 130.64,
+      "text": "so that buyers now can purchase multiple subscriptions",
+      "words": []
+    },
+    {
+      "start": 130.64,
+      "end": 133.92,
+      "text": "in a single transaction and easily manage those seats.",
+      "words": []
+    },
+    {
+      "start": 136.4,
+      "end": 140.52,
+      "text": "We've also improved search and navigations,",
+      "words": []
+    },
+    {
+      "start": 140.52,
+      "end": 143.68,
+      "text": "which I mentioned, and this is throughout the App Store",
+      "words": []
+    },
+    {
+      "start": 143.68,
+      "end": 144.76000000000002,
+      "text": "experience.",
+      "words": []
+    },
+    {
+      "start": 144.76000000000002,
+      "end": 147.28,
+      "text": "Finally, I also want to mention that we've streamlined",
+      "words": []
+    },
+    {
+      "start": 147.28,
+      "end": 150.68,
+      "text": "the post purchase experience, giving customers more control",
+      "words": []
+    },
+    {
+      "start": 150.68,
+      "end": 153.56,
+      "text": "over installation and what they deploy.",
+      "words": []
+    },
+    {
+      "start": 153.56,
+      "end": 156.24,
+      "text": "So for publishers, these directly translate",
+      "words": []
+    },
+    {
+      "start": 156.24,
+      "end": 160.56,
+      "text": "to higher visibility, less drop off, and better conversion.",
+      "words": []
+    },
+    {
+      "start": 166.92000000000002,
+      "end": 170.4,
+      "text": "So what we're launching is not just a better experience,",
+      "words": []
+    },
+    {
+      "start": 170.4,
+      "end": 173.88,
+      "text": "but it is a foundation for what comes next.",
+      "words": []
+    },
+    {
+      "start": 173.88,
+      "end": 178.04000000000002,
+      "text": "We are evolving from a traditional App listing model",
+      "words": []
+    },
+    {
+      "start": 178.04000000000002,
+      "end": 180.44,
+      "text": "to a broader marketplace platform, which",
+      "words": []
+    },
+    {
+      "start": 180.44,
+      "end": 183.28,
+      "text": "is designed to support new types of offerings",
+      "words": []
+    },
+    {
+      "start": 183.28,
+      "end": 185.44,
+      "text": "and new ways for customers to discover them.",
+      "words": []
+    },
+    {
+      "start": 185.44,
+      "end": 189.88,
+      "text": "And we will talk more about that in these following slides.",
+      "words": []
+    },
+    {
+      "start": 189.88,
+      "end": 192.76,
+      "text": "At the bottom, if you can draw your attention",
+      "words": []
+    },
+    {
+      "start": 192.76,
+      "end": 195.12,
+      "text": "to this visual on the screen, at the bottom,",
+      "words": []
+    },
+    {
+      "start": 195.12,
+      "end": 197.52,
+      "text": "that is the foundation that we are launching.",
+      "words": []
+    },
+    {
+      "start": 197.52,
+      "end": 200.32,
+      "text": "The next gen, the new App Store experience,",
+      "words": []
+    },
+    {
+      "start": 200.32,
+      "end": 202.16,
+      "text": "which is launching in a couple of weeks.",
+      "words": []
+    },
+    {
+      "start": 202.16,
+      "end": 205.2,
+      "text": "This improves how customers discover, evaluate,",
+      "words": []
+    },
+    {
+      "start": 205.2,
+      "end": 206.76,
+      "text": "and engage with solutions.",
+      "words": []
+    },
+    {
+      "start": 206.76,
+      "end": 211.04,
+      "text": "On top of that, we're investing in two key areas in parallel.",
+      "words": []
+    },
+    {
+      "start": 211.04,
+      "end": 213.79999999999998,
+      "text": "First, we're expanding the marketplace itself,",
+      "words": []
+    },
+    {
+      "start": 213.79999999999998,
+      "end": 215.84,
+      "text": "introducing new content types starting",
+      "words": []
+    },
+    {
+      "start": 215.84,
+      "end": 219.04,
+      "text": "with AI solutions and MCPs.",
+      "words": []
+    },
+    {
+      "start": 219.04,
+      "end": 221.28,
+      "text": "And the second AI power discovery",
+      "words": []
+    },
+    {
+      "start": 221.28,
+      "end": 224.2,
+      "text": "through auto-discusses and enabling",
+      "words": []
+    },
+    {
+      "start": 224.2,
+      "end": 226.24,
+      "text": "more conversational, intelligent ways",
+      "words": []
+    },
+    {
+      "start": 226.24,
+      "end": 229.07999999999998,
+      "text": "for customers to find solutions.",
+      "words": []
+    },
+    {
+      "start": 229.08,
+      "end": 231.8,
+      "text": "These parallel investments that expand,",
+      "words": []
+    },
+    {
+      "start": 231.8,
+      "end": 234.64000000000001,
+      "text": "it will expand what can be built, discovered,",
+      "words": []
+    },
+    {
+      "start": 234.64000000000001,
+      "end": 236.68,
+      "text": "and offered on the platform.",
+      "words": []
+    },
+    {
+      "start": 236.68,
+      "end": 238.44,
+      "text": "And when you bring these together,",
+      "words": []
+    },
+    {
+      "start": 238.44,
+      "end": 241.28,
+      "text": "the outcome is publisher growth, more visibility,",
+      "words": []
+    },
+    {
+      "start": 241.28,
+      "end": 243.28,
+      "text": "more adoption, and more opportunities",
+      "words": []
+    },
+    {
+      "start": 243.28,
+      "end": 244.56,
+      "text": "to scale your business.",
+      "words": []
+    },
+    {
+      "start": 250.36,
+      "end": 254.64000000000001,
+      "text": "This is where the marketplace really starts to evolve.",
+      "words": []
+    },
+    {
+      "start": 254.64000000000001,
+      "end": 257.24,
+      "text": "As I mentioned, we are expanding the marketplace.",
+      "words": []
+    },
+    {
+      "start": 257.24,
+      "end": 259.8,
+      "text": "Today on the App Store, the products",
+      "words": []
+    },
+    {
+      "start": 259.8,
+      "end": 264.44,
+      "text": "are primarily focused on desktop and cloud-based products.",
+      "words": []
+    },
+    {
+      "start": 264.44,
+      "end": 267.04,
+      "text": "But where we are going is we're expanding",
+      "words": []
+    },
+    {
+      "start": 267.04,
+      "end": 269.52,
+      "text": "beyond that into a much broader set of content types",
+      "words": []
+    },
+    {
+      "start": 269.52,
+      "end": 271.48,
+      "text": "that publishers can build and offer.",
+      "words": []
+    },
+    {
+      "start": 271.48,
+      "end": 275.48,
+      "text": "This is going to include things like libraries, templates,",
+      "words": []
+    },
+    {
+      "start": 275.48,
+      "end": 277.8,
+      "text": "learning content, data, and services,",
+      "words": []
+    },
+    {
+      "start": 277.8,
+      "end": 282.44,
+      "text": "each representing new ways to deliver values to customer.",
+      "words": []
+    },
+    {
+      "start": 282.44,
+      "end": 286.32,
+      "text": "Importantly, I want to highlight the MCP piece here,",
+      "words": []
+    },
+    {
+      "start": 286.32,
+      "end": 289.68,
+      "text": "which is the next step in this evolution,",
+      "words": []
+    },
+    {
+      "start": 289.68,
+      "end": 293.68,
+      "text": "where AI solutions can participate directly in workflows",
+      "words": []
+    },
+    {
+      "start": 293.68,
+      "end": 296.08,
+      "text": "that your customers are building today.",
+      "words": []
+    },
+    {
+      "start": 296.08,
+      "end": 300.28,
+      "text": "And at DevCon, we are announcing the AuditSk AI marketplace",
+      "words": []
+    },
+    {
+      "start": 300.28,
+      "end": 303.8,
+      "text": "where MCP-based solutions can be discovered and used.",
+      "words": []
+    },
+    {
+      "start": 303.8,
+      "end": 306.96,
+      "text": "And this is not just for AuditSk created MCPs,",
+      "words": []
+    },
+    {
+      "start": 306.96,
+      "end": 309.96,
+      "text": "but also built by developers such as yourselves in the room.",
+      "words": []
+    },
+    {
+      "start": 313.0,
+      "end": 315.08,
+      "text": "Okay, let's focus a little bit on the announcement",
+      "words": []
+    },
+    {
+      "start": 315.08,
+      "end": 316.2,
+      "text": "that we're about to make.",
+      "words": []
+    },
+    {
+      "start": 316.2,
+      "end": 319.12,
+      "text": "At DevCon, or probably have already made by now,",
+      "words": []
+    },
+    {
+      "start": 319.12,
+      "end": 322.0,
+      "text": "at DevCon, we're announcing the AuditSk AI marketplace,",
+      "words": []
+    },
+    {
+      "start": 322.0,
+      "end": 324.71999999999997,
+      "text": "starting with the pilot for MCP-based solutions.",
+      "words": []
+    },
+    {
+      "start": 324.71999999999997,
+      "end": 326.64,
+      "text": "For the very first time, publishers can build",
+      "words": []
+    },
+    {
+      "start": 326.64,
+      "end": 329.15999999999997,
+      "text": "and publish MCPs powered AI solutions",
+      "words": []
+    },
+    {
+      "start": 329.15999999999997,
+      "end": 331.2,
+      "text": "through AuditSk marketplace.",
+      "words": []
+    },
+    {
+      "start": 331.2,
+      "end": 333.56,
+      "text": "These solutions go beyond the traditional listings",
+      "words": []
+    },
+    {
+      "start": 333.56,
+      "end": 334.91999999999996,
+      "text": "as we talked earlier.",
+      "words": []
+    },
+    {
+      "start": 334.91999999999996,
+      "end": 336.28,
+      "text": "This is going to be the first step",
+      "words": []
+    },
+    {
+      "start": 336.28,
+      "end": 339.76,
+      "text": "towards supporting AI native offerings on the marketplace.",
+      "words": []
+    },
+    {
+      "start": 339.76,
+      "end": 343.68,
+      "text": "We're starting with a pilot set of MCPs we have",
+      "words": []
+    },
+    {
+      "start": 343.68,
+      "end": 347.48,
+      "text": "offer about six to 10 on the platform today.",
+      "words": []
+    },
+    {
+      "start": 348.6,
+      "end": 349.76,
+      "text": "And this is the first step.",
+      "words": []
+    },
+    {
+      "start": 349.76,
+      "end": 351.32,
+      "text": "And we are learning as we go.",
+      "words": []
+    },
+    {
+      "start": 351.32,
+      "end": 356.24,
+      "text": "We are also iterating on what is a review process?",
+      "words": []
+    },
+    {
+      "start": 356.24,
+      "end": 359.2,
+      "text": "What are the guidelines that we can provide publishers",
+      "words": []
+    },
+    {
+      "start": 359.2,
+      "end": 362.04,
+      "text": "to create successful MCPs?",
+      "words": []
+    },
+    {
+      "start": 362.04,
+      "end": 364.84000000000003,
+      "text": "But the direction and the signal is cleared.",
+      "words": []
+    },
+    {
+      "start": 364.84000000000003,
+      "end": 367.92,
+      "text": "For publishers who want to get started early,",
+      "words": []
+    },
+    {
+      "start": 367.92,
+      "end": 370.68,
+      "text": "there is a real first mover advantage",
+      "words": []
+    },
+    {
+      "start": 370.68,
+      "end": 372.12,
+      "text": "as this ecosystem expands.",
+      "words": []
+    },
+    {
+      "start": 372.12,
+      "end": 375.44,
+      "text": "And watch out for this information about this announcement.",
+      "words": []
+    },
+    {
+      "start": 375.44,
+      "end": 378.08,
+      "text": "And you will see something very similar",
+      "words": []
+    },
+    {
+      "start": 378.08,
+      "end": 380.56,
+      "text": "to what you're looking at on the right hand side, the visual.",
+      "words": []
+    },
+    {
+      "start": 383.04,
+      "end": 386.76,
+      "text": "Now, let's go into the next piece",
+      "words": []
+    },
+    {
+      "start": 386.76,
+      "end": 388.36,
+      "text": "which is about the Discovery piece.",
+      "words": []
+    },
+    {
+      "start": 388.36,
+      "end": 389.88,
+      "text": "Just as important as what you build",
+      "words": []
+    },
+    {
+      "start": 389.88,
+      "end": 391.68,
+      "text": "is how your customers find it.",
+      "words": []
+    },
+    {
+      "start": 391.68,
+      "end": 394.8,
+      "text": "Discovery has always meant browsing, searching, filtering,",
+      "words": []
+    },
+    {
+      "start": 394.8,
+      "end": 396.64,
+      "text": "scrolling through endless lists,",
+      "words": []
+    },
+    {
+      "start": 396.64,
+      "end": 399.92,
+      "text": "and then finding the solution.",
+      "words": []
+    },
+    {
+      "start": 399.92,
+      "end": 403.32,
+      "text": "Whether it is on the app store, or if the user",
+      "words": []
+    },
+    {
+      "start": 403.32,
+      "end": 406.40000000000003,
+      "text": "stops the journey on Google or other search engines.",
+      "words": []
+    },
+    {
+      "start": 406.40000000000003,
+      "end": 407.72,
+      "text": "But that's already changing.",
+      "words": []
+    },
+    {
+      "start": 407.72,
+      "end": 411.40000000000003,
+      "text": "Today, customers, they can describe what they're trying to do",
+      "words": []
+    },
+    {
+      "start": 411.40000000000003,
+      "end": 414.24,
+      "text": "and the right solution surfaces for them.",
+      "words": []
+    },
+    {
+      "start": 414.24,
+      "end": 418.96000000000004,
+      "text": "And that's what Autodesk Assistant will help us do.",
+      "words": []
+    },
+    {
+      "start": 418.96000000000004,
+      "end": 422.32,
+      "text": "We will, in the future, make Autodesk Assistant",
+      "words": []
+    },
+    {
+      "start": 422.32,
+      "end": 423.64,
+      "text": "available on the app store.",
+      "words": []
+    },
+    {
+      "start": 423.64,
+      "end": 426.96000000000004,
+      "text": "It is going to be a conversational, very contextual way",
+      "words": []
+    },
+    {
+      "start": 426.96000000000004,
+      "end": 429.28000000000003,
+      "text": "that doesn't require the customer to already know",
+      "words": []
+    },
+    {
+      "start": 429.28,
+      "end": 431.32,
+      "text": "what they're looking for.",
+      "words": []
+    },
+    {
+      "start": 431.32,
+      "end": 436.15999999999997,
+      "text": "And we also have enough context provider",
+      "words": []
+    },
+    {
+      "start": 436.15999999999997,
+      "end": 439.11999999999995,
+      "text": "to Autodesk Assistant so it can look through the list",
+      "words": []
+    },
+    {
+      "start": 439.11999999999995,
+      "end": 441.35999999999996,
+      "text": "of available app store solutions.",
+      "words": []
+    },
+    {
+      "start": 441.35999999999996,
+      "end": 444.44,
+      "text": "So your customer solution isn't just discovered.",
+      "words": []
+    },
+    {
+      "start": 444.44,
+      "end": 448.96,
+      "text": "It can be invoked if it is an MCP and used directly",
+      "words": []
+    },
+    {
+      "start": 448.96,
+      "end": 449.91999999999996,
+      "text": "in the workflow.",
+      "words": []
+    },
+    {
+      "start": 449.91999999999996,
+      "end": 454.32,
+      "text": "That is a fundamental shift in how value gets delivered.",
+      "words": []
+    },
+    {
+      "start": 454.32,
+      "end": 456.67999999999995,
+      "text": "So for you as publishers, this means your offerings",
+      "words": []
+    },
+    {
+      "start": 456.67999999999995,
+      "end": 458.59999999999997,
+      "text": "can be surface, not just to users,",
+      "words": []
+    },
+    {
+      "start": 458.6,
+      "end": 463.44,
+      "text": "but also to AI systems helping those users get work done.",
+      "words": []
+    },
+    {
+      "start": 463.44,
+      "end": 466.92,
+      "text": "And this is why we need to work together on listing optimization,",
+      "words": []
+    },
+    {
+      "start": 466.92,
+      "end": 471.20000000000005,
+      "text": "not just for SEO, but also for non-human agents.",
+      "words": []
+    },
+    {
+      "start": 471.20000000000005,
+      "end": 474.28000000000003,
+      "text": "And Autodesk team, the app store team will reach out to you,",
+      "words": []
+    },
+    {
+      "start": 474.28000000000003,
+      "end": 477.52000000000004,
+      "text": "collaborate with you to help you build those listing.",
+      "words": []
+    },
+    {
+      "start": 480.56,
+      "end": 485.68,
+      "text": "As the marketplace expands, trust enables growth at scale.",
+      "words": []
+    },
+    {
+      "start": 485.68,
+      "end": 489.64,
+      "text": "We've seen this over and over over the last decade",
+      "words": []
+    },
+    {
+      "start": 489.64,
+      "end": 492.56,
+      "text": "that we've operated the app store.",
+      "words": []
+    },
+    {
+      "start": 492.56,
+      "end": 496.08,
+      "text": "Trust signals help customers make confident purchase",
+      "words": []
+    },
+    {
+      "start": 496.08,
+      "end": 497.04,
+      "text": "decisions.",
+      "words": []
+    },
+    {
+      "start": 497.04,
+      "end": 500.52,
+      "text": "So especially with new content types like AI solutions,",
+      "words": []
+    },
+    {
+      "start": 500.52,
+      "end": 503.12,
+      "text": "trust becomes even more important.",
+      "words": []
+    },
+    {
+      "start": 503.12,
+      "end": 507.88,
+      "text": "This is a shared responsibility between Autodesk and publishers.",
+      "words": []
+    },
+    {
+      "start": 507.88,
+      "end": 510.44,
+      "text": "Autodesk provides the platform, the governance,",
+      "words": []
+    },
+    {
+      "start": 510.44,
+      "end": 511.72,
+      "text": "and the safeguards.",
+      "words": []
+    },
+    {
+      "start": 511.72,
+      "end": 515.0,
+      "text": "And publishers play a role by providing transparency,",
+      "words": []
+    },
+    {
+      "start": 515.0,
+      "end": 519.12,
+      "text": "building high quality solutions, and ensuring reliability.",
+      "words": []
+    },
+    {
+      "start": 519.12,
+      "end": 521.68,
+      "text": "Together, the goal is to give customers confidence",
+      "words": []
+    },
+    {
+      "start": 521.68,
+      "end": 523.92,
+      "text": "in what they're discovering and using.",
+      "words": []
+    },
+    {
+      "start": 523.92,
+      "end": 527.28,
+      "text": "Because ultimately, trust is what drives adoption",
+      "words": []
+    },
+    {
+      "start": 527.28,
+      "end": 528.72,
+      "text": "and enables growth at scale.",
+      "words": []
+    },
+    {
+      "start": 533.6,
+      "end": 537.64,
+      "text": "So what all this means for you as publishers?",
+      "words": []
+    },
+    {
+      "start": 537.64,
+      "end": 539.72,
+      "text": "First, start thinking beyond apps.",
+      "words": []
+    },
+    {
+      "start": 539.72,
+      "end": 543.36,
+      "text": "There's an opportunity to build AI solutions, work with data,",
+      "words": []
+    },
+    {
+      "start": 543.36,
+      "end": 546.8000000000001,
+      "text": "services, expanding basically how you deliver value",
+      "words": []
+    },
+    {
+      "start": 546.8000000000001,
+      "end": 548.88,
+      "text": "to your customers.",
+      "words": []
+    },
+    {
+      "start": 548.88,
+      "end": 552.76,
+      "text": "Second, prepare for a world where discovery is increasingly",
+      "words": []
+    },
+    {
+      "start": 552.76,
+      "end": 554.32,
+      "text": "AI-driven.",
+      "words": []
+    },
+    {
+      "start": 554.32,
+      "end": 557.44,
+      "text": "Your solutions won't just be found through browsing.",
+      "words": []
+    },
+    {
+      "start": 557.44,
+      "end": 562.24,
+      "text": "They can be surface and use through intelligent workflows.",
+      "words": []
+    },
+    {
+      "start": 562.24,
+      "end": 567.6,
+      "text": "Third, what we are launching at DevCon and in Q1",
+      "words": []
+    },
+    {
+      "start": 567.6,
+      "end": 571.0,
+      "text": "in a few weeks is a reliable scalable foundation.",
+      "words": []
+    },
+    {
+      "start": 571.0,
+      "end": 573.08,
+      "text": "And we will build directly on top of it",
+      "words": []
+    },
+    {
+      "start": 573.08,
+      "end": 577.32,
+      "text": "to make the publisher experience faster and simpler.",
+      "words": []
+    },
+    {
+      "start": 577.32,
+      "end": 580.4,
+      "text": "So you can spend less time getting your product live",
+      "words": []
+    },
+    {
+      "start": 580.4,
+      "end": 581.36,
+      "text": "on the marketplace.",
+      "words": []
+    },
+    {
+      "start": 581.36,
+      "end": 584.88,
+      "text": "And more time building what matters.",
+      "words": []
+    },
+    {
+      "start": 584.88,
+      "end": 587.0,
+      "text": "The publishers who begin experimenting",
+      "words": []
+    },
+    {
+      "start": 587.0,
+      "end": 590.0,
+      "text": "with these new models will now have a significant advantage",
+      "words": []
+    },
+    {
+      "start": 590.0,
+      "end": 592.96,
+      "text": "as the marketplace continues to evolve.",
+      "words": []
+    },
+    {
+      "start": 592.96,
+      "end": 596.2,
+      "text": "And this is a shift from listing apps",
+      "words": []
+    },
+    {
+      "start": 596.2,
+      "end": 599.28,
+      "text": "to building solutions that grow the platform.",
+      "words": []
+    },
+    {
+      "start": 599.28,
+      "end": 603.3199999999999,
+      "text": "And I can't emphasize on this enough.",
+      "words": []
+    },
+    {
+      "start": 603.3199999999999,
+      "end": 605.24,
+      "text": "The publishers who will start early",
+      "words": []
+    },
+    {
+      "start": 605.24,
+      "end": 607.28,
+      "text": "will have a significant advantage.",
+      "words": []
+    },
+    {
+      "start": 607.28,
+      "end": 610.9599999999999,
+      "text": "And that is the last start I would like to leave you with today.",
+      "words": []
+    },
+    {
+      "start": 610.9599999999999,
+      "end": 612.0,
+      "text": "Thank you for your time.",
+      "words": []
+    },
+    {
+      "start": 612.0,
+      "end": 614.12,
+      "text": "And have a great DevCon.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:45:22.324256+00:00"
+}

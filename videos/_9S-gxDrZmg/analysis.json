@@ -1,0 +1,69 @@
+{
+  "video_id": "_9S-gxDrZmg",
+  "demo_timestamps": [
+    {
+      "start": 415.0,
+      "end": 454.0,
+      "description": "Demonstration of the IFC connector filtering and sharing process in Revit"
+    },
+    {
+      "start": 601.0,
+      "end": 639.0,
+      "description": "Power BI workflow for validating IFC 4.3 model exports from Revit"
+    },
+    {
+      "start": 670.0,
+      "end": 729.0,
+      "description": "Fash's 4D dashboard using data exchanges for a reconstruction project"
+    }
+  ],
+  "themes": [
+    "interoperability",
+    "data exchange",
+    "granular data structures",
+    "cloud-based workflows"
+  ],
+  "client_mentions": [
+    {
+      "name": "Deutsche Bahn",
+      "context": "Early adopter of Revit and IFC connectors, using Forma for project management",
+      "timestamp": 609.0
+    },
+    {
+      "name": "Skanska UK",
+      "context": "Uses Power BI workflow for validating IFC model exports from Revit",
+      "timestamp": 673.0
+    },
+    {
+      "name": "Fash",
+      "context": "French construction company using 4D dashboard with data exchanges",
+      "timestamp": 731.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 314.0
+    },
+    {
+      "name": "Autodesk Construction Cloud",
+      "is_api": false,
+      "timestamp": 137.0
+    },
+    {
+      "name": "Forma",
+      "is_api": false,
+      "timestamp": 182.0
+    },
+    {
+      "name": "APS platform",
+      "is_api": false,
+      "timestamp": 7.0
+    }
+  ],
+  "ai_technologies": [],
+  "summary": "The video introduces the new IFC Cloud Connector, which is part of Autodesk's Data Exchange initiative. It highlights how converting file-based data to granular data can improve interoperability and efficiency in workflows. The video also showcases client examples utilizing the IFC connector with Autodesk tools and Power BI.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:49:23.017834+00:00"
+}

@@ -1,0 +1,751 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 15.0,
+      "text": "Hello, everyone. My name is Vladimir Vladokov-Lazov. I'm the CTO at Kero Software, and today I'm going to talk about AI for architectural visualization,",
+      "words": []
+    },
+    {
+      "start": 15.0,
+      "end": 29.0,
+      "text": "and how the work that we're doing can help architects and our users in general go from concept to finished image literally in a matter of minutes with the use of generative.",
+      "words": []
+    },
+    {
+      "start": 29.0,
+      "end": 43.0,
+      "text": "AI. So a few words, this is what the contents of our session is going to be like a few words about chaos, a little bit of an explanation of how AI rendering differs from traditional rendering.",
+      "words": []
+    },
+    {
+      "start": 43.0,
+      "end": 58.0,
+      "text": "Then we'll go through a few use cases of AI for radiation and concepts, and then we'll talk about AI for forecasting final renders, and then a few words on the future about a very",
+      "words": []
+    },
+    {
+      "start": 58.0,
+      "end": 73.0,
+      "text": "very high visualization. And no questions and that answers in the online version, but hopefully for the people who can attend, and all to the left, we'll have the K&A session.",
+      "words": []
+    },
+    {
+      "start": 74.0,
+      "end": 85.0,
+      "text": "A few words about chaos and myself, Kennedy Hills as a company is a collection of a few other companies that the oldest of which exists for more than 25 years.",
+      "words": []
+    },
+    {
+      "start": 85.0,
+      "end": 93.0,
+      "text": "We have traditionally been working on software for visualization, both real time and offline.",
+      "words": []
+    },
+    {
+      "start": 94.0,
+      "end": 108.0,
+      "text": "We have a few well known products, Viren, Corona for offline rendering and SK for real time rendering, and very recently we added various as our software for so called AI rendering for architecture.",
+      "words": []
+    },
+    {
+      "start": 108.0,
+      "end": 115.0,
+      "text": "Overall, and taking together we have more than 25 years of visualization software experience.",
+      "words": []
+    },
+    {
+      "start": 116.0,
+      "end": 130.0,
+      "text": "Our tools have deep integrations with a number of pieces of all to the software, including Revit and Forma for architecture, and also 3DS Max and Maya for architectural visualization and visual effects.",
+      "words": []
+    },
+    {
+      "start": 131.0,
+      "end": 148.0,
+      "text": "So AI has many use cases throughout the lifetime of an architecture project beginning with initial ideation and schematic design going through the development of the project and then final visualization.",
+      "words": []
+    },
+    {
+      "start": 149.0,
+      "end": 159.0,
+      "text": "So today we'll focus mostly on this first part and then on the last part, and we'll talk about a little bit about the future of the middle part.",
+      "words": []
+    },
+    {
+      "start": 159.0,
+      "end": 163.0,
+      "text": "So let's focus on the initial schematic design.",
+      "words": []
+    },
+    {
+      "start": 163.0,
+      "end": 172.0,
+      "text": "How does AI rendering differ from traditional rendering that we've had until a few years ago?",
+      "words": []
+    },
+    {
+      "start": 173.0,
+      "end": 199.0,
+      "text": "So traditionally you start with a 3D model that is developing some kind of platform like Revit or 3DS Max, then you enhance that model by adding furniture, vegetation, you apply all different materials for the surfaces in the scene, set up the lighting, set up the environment, render the final image and then to what the other post vacuum is necessary to get a good results.",
+      "words": []
+    },
+    {
+      "start": 200.0,
+      "end": 214.0,
+      "text": "This is a log in this process that could take multiple days and multiple revisions to get right, which AI rendering the second half of the project could be greatly accelerated.",
+      "words": []
+    },
+    {
+      "start": 214.0,
+      "end": 224.0,
+      "text": "So you can start with the 3D model and through a simple text prompt along with a few reference images you can get to final result, basically in a matter of minutes.",
+      "words": []
+    },
+    {
+      "start": 224.0,
+      "end": 238.0,
+      "text": "The extreme version of this is where you don't really have a model but you just have a sketch in mind or idea in mind of a building or another project and you can turn this into a photo real image.",
+      "words": []
+    },
+    {
+      "start": 238.0,
+      "end": 246.0,
+      "text": "Again, literally in a matter of minutes without having to model your render, but you can present a concept very, very quickly.",
+      "words": []
+    },
+    {
+      "start": 246.0,
+      "end": 256.0,
+      "text": "So overall a huge jump in efficiency through using generative AI, especially in the early stages of a project.",
+      "words": []
+    },
+    {
+      "start": 256.0,
+      "end": 263.0,
+      "text": "So for the first part of my presentation I'm going to focus on on various our latest tool for a rendering.",
+      "words": []
+    },
+    {
+      "start": 263.0,
+      "end": 268.0,
+      "text": "It has integrations for a number of auto desk products including Revit and Forma.",
+      "words": []
+    },
+    {
+      "start": 268.0,
+      "end": 281.0,
+      "text": "There is a standalone by application as well in case you really want to use it outside of any specific tool and we are also working on an integration with 3ds max.",
+      "words": []
+    },
+    {
+      "start": 281.0,
+      "end": 292.0,
+      "text": "So how does this work and it's very basic form you open your Revit project you just view that in your viewport your comparison.",
+      "words": []
+    },
+    {
+      "start": 292.0,
+      "end": 299.0,
+      "text": "Then you enter a prompt describing the scene, select the render model and then you generate the images that you want to get in the end.",
+      "words": []
+    },
+    {
+      "start": 299.0,
+      "end": 315.0,
+      "text": "So what it could look like and here is some example in Forma for example, you could go from this viewport grab to some kind of photo real versions of your image in literally a matter of minutes step by step.",
+      "words": []
+    },
+    {
+      "start": 315.0,
+      "end": 328.0,
+      "text": "This could look like this example is in Revit so we have our scene open, we have a 3d view and we have just very basic shapes, no materials assigned, no lighting.",
+      "words": []
+    },
+    {
+      "start": 328.0,
+      "end": 337.0,
+      "text": "But we still want to represent this project in some kind of photo real way so it can be shown to potential customers.",
+      "words": []
+    },
+    {
+      "start": 337.0,
+      "end": 350.0,
+      "text": "And the way you do this is from the chaos tab of the ribbon in Revit you open various where you can already see the viewport representation.",
+      "words": []
+    },
+    {
+      "start": 350.0,
+      "end": 355.0,
+      "text": "There is a field here at the text prompt where you kind of describe the new project.",
+      "words": []
+    },
+    {
+      "start": 355.0,
+      "end": 374.0,
+      "text": "In my case, I can start with a very simple prompt original English houses red bricks, autumn and after that is just a matter of picking the render bottom here that we have and you get a very nice photo real version of your model.",
+      "words": []
+    },
+    {
+      "start": 374.0,
+      "end": 380.0,
+      "text": "You can adjust this as necessary and you can do several different variations is needed.",
+      "words": []
+    },
+    {
+      "start": 380.0,
+      "end": 399.0,
+      "text": "This is a few different versions that have done and this is a really unique way of working going from from the original viewport render to something like this which would in previous years taken many, many hours of efforts to get to this type of image.",
+      "words": []
+    },
+    {
+      "start": 399.0,
+      "end": 403.0,
+      "text": "You can literally do a couple of seconds.",
+      "words": []
+    },
+    {
+      "start": 403.0,
+      "end": 408.0,
+      "text": "So this is one of the strengths of various.",
+      "words": []
+    },
+    {
+      "start": 408.0,
+      "end": 411.0,
+      "text": "One more variation here.",
+      "words": []
+    },
+    {
+      "start": 411.0,
+      "end": 422.0,
+      "text": "But you can also go even a step further even if you don't have a 3D model you can just start with a simple sketch and you can use that as your source of selection a very similar way.",
+      "words": []
+    },
+    {
+      "start": 422.0,
+      "end": 433.0,
+      "text": "So this is a sketch array do myself not not the perfect one but I can bring this into various and I can describe what kind of a project this is in my case it's two story building.",
+      "words": []
+    },
+    {
+      "start": 433.0,
+      "end": 442.0,
+      "text": "Jim on the bottom floor office is on the second floor and stairs on the on the left side of the building and this parking lot in the front.",
+      "words": []
+    },
+    {
+      "start": 442.0,
+      "end": 456.0,
+      "text": "And then what I get in a few minutes is kind of this image which is amazing just from going from my sketch to something that can show what what it could look like in the real world.",
+      "words": []
+    },
+    {
+      "start": 456.0,
+      "end": 460.0,
+      "text": "And then several different variations can be generated.",
+      "words": []
+    },
+    {
+      "start": 460.0,
+      "end": 471.0,
+      "text": "You can also in addition to just generating an entire image you can specify portions of the image that you want to update in my case I just select a lower portion.",
+      "words": []
+    },
+    {
+      "start": 471.0,
+      "end": 480.0,
+      "text": "I want that left wall to be concrete so kind of this is what I get as a result which which is more or less acceptable.",
+      "words": []
+    },
+    {
+      "start": 481.0,
+      "end": 494.0,
+      "text": "Super easy you can also change the weather so by adjusting the prompt in this case rain dark sky or you can make it a sunny sunny afternoon.",
+      "words": []
+    },
+    {
+      "start": 495.0,
+      "end": 504.0,
+      "text": "Now this is this was just the basic use case and it can be very quick and very fun to work with.",
+      "words": []
+    },
+    {
+      "start": 504.0,
+      "end": 518.0,
+      "text": "So if you want to go one step beyond the same make this experience slightly more controllable the way that you can do this is still the same basic approach start with the base image.",
+      "words": []
+    },
+    {
+      "start": 518.0,
+      "end": 527.0,
+      "text": "However you create a much more detailed prompt for that image using some kind of LLM could be the chat GPT or could be Gemini.",
+      "words": []
+    },
+    {
+      "start": 527.0,
+      "end": 532.0,
+      "text": "But you can use it to describe in great detail what your image should be.",
+      "words": []
+    },
+    {
+      "start": 532.0,
+      "end": 542.0,
+      "text": "This helps to make the generally a generation of more consistent so if you want to generate multiple views or you want to generate just one single portion of your image you can do that.",
+      "words": []
+    },
+    {
+      "start": 542.0,
+      "end": 550.0,
+      "text": "And this allows you to do a lot of interesting things as we will see in the next in the next few slides so.",
+      "words": []
+    },
+    {
+      "start": 551.0,
+      "end": 564.0,
+      "text": "This is kind of step by step the work for it to want to do is an LN to describe what the viewport image should look like using Gemini or chat GPT in my cases I used both.",
+      "words": []
+    },
+    {
+      "start": 564.0,
+      "end": 577.0,
+      "text": "And then you can optionally provide a reference mood board or enable bridge that will kind of get generation and then you can use the prompt further adjust the image.",
+      "words": []
+    },
+    {
+      "start": 577.0,
+      "end": 596.0,
+      "text": "So what do I mean by all this so we start with the base image from a card application we specify a reference image additional reference images as a mood board is not necessarily things that will be directly copied into the render but they just serve as a sort of a reference for the engine.",
+      "words": []
+    },
+    {
+      "start": 597.0,
+      "end": 602.0,
+      "text": "And you put them together all in the various.",
+      "words": []
+    },
+    {
+      "start": 605.0,
+      "end": 610.0,
+      "text": "There is a port by the end you have the base cat image you have the reference image here you have the text prompt.",
+      "words": []
+    },
+    {
+      "start": 611.0,
+      "end": 624.0,
+      "text": "And this allows you to generate images like this so if you are carefully you will see that all the basic layout of the room is is coming from the cat all the different objects in the city are taken.",
+      "words": []
+    },
+    {
+      "start": 624.0,
+      "end": 627.0,
+      "text": "Based on the reference image.",
+      "words": []
+    },
+    {
+      "start": 630.0,
+      "end": 642.0,
+      "text": "This also allows you to do after that focus on separate port just a pure image so you can use the same prompt but you can specify that it's a macro image so still the same.",
+      "words": []
+    },
+    {
+      "start": 643.0,
+      "end": 654.0,
+      "text": "Still the same base image so the same reference image but the process as it was the macro view so this allows us to focus on different parts of the large branded so.",
+      "words": []
+    },
+    {
+      "start": 655.0,
+      "end": 671.0,
+      "text": "Even though we don't have a 3d scene as such using this approach allows you to emulate this to certain extent so different version of the same setup we have our base cat image we have a different reference image as input and we get the.",
+      "words": []
+    },
+    {
+      "start": 672.0,
+      "end": 693.0,
+      "text": "This as a result and this example we used a Jason prompt text prompt generated from the original image basically just upload the image to charge it against a describe this image and as much detail as possible adjacent format and paste the result back in various.",
+      "words": []
+    },
+    {
+      "start": 693.0,
+      "end": 706.0,
+      "text": "And here we can find the portion that is responsible for just a table here that we have and we say it's a marble coffee table and then we are able to change just that table.",
+      "words": []
+    },
+    {
+      "start": 707.0,
+      "end": 722.0,
+      "text": "So this was the original render and this is the render with change material like coffee table so I am a kind of difference approach to modifying your scene even though we don't have a 3d scene we can still have some level of control over the edge.",
+      "words": []
+    },
+    {
+      "start": 723.0,
+      "end": 728.0,
+      "text": "So we are going to do a general generation.",
+      "words": []
+    },
+    {
+      "start": 729.0,
+      "end": 751.0,
+      "text": "Other use cases for for generative area populating an empty building interior so in this case we have some kind of office space from right so we take our screen shot and we want to populate it with furniture that kind of looks like this so against similar workflow we have the private screen shot as a base image we have our first.",
+      "words": []
+    },
+    {
+      "start": 751.0,
+      "end": 761.0,
+      "text": "We have our furniture reference we have our prompt describing what kind of space we want and this is the result that we get from.",
+      "words": []
+    },
+    {
+      "start": 762.0,
+      "end": 777.0,
+      "text": "From the AI engine super easy we don't have to go and find 3d assets to place in the scene we don't have to worry about the lighting where any of that the AI engine does this automatically for us.",
+      "words": []
+    },
+    {
+      "start": 777.0,
+      "end": 796.0,
+      "text": "Of course we can do the same with vegetation not just furniture so in this other example we have a top view of of a building and we want to try out different vegetation variations that are specific to certain geography.",
+      "words": []
+    },
+    {
+      "start": 796.0,
+      "end": 809.0,
+      "text": "We take the base rabbit screen grab but we also specify what kind of vegetation we want and then you can have general vegetation or you can have a.",
+      "words": []
+    },
+    {
+      "start": 809.0,
+      "end": 828.0,
+      "text": "For example, vegetation specific to where I was for example or vegetation specific to the Dominican Republic just this example and we have all these different versions of our image and super easy and done with just changing the text prompt.",
+      "words": []
+    },
+    {
+      "start": 828.0,
+      "end": 855.0,
+      "text": "I will use for examples kind of similar to the previous ones but this time with materials we start with a base cat image and then we upload several materials as references and then this allows us to control what the building will look like in a specified that these materials should be useful if it's out of the building and we can also specify the type of vegetation that we want.",
+      "words": []
+    },
+    {
+      "start": 855.0,
+      "end": 866.0,
+      "text": "Super easy work for us to get from a wireframe render to a photo real render and still have some degree of control ability.",
+      "words": []
+    },
+    {
+      "start": 867.0,
+      "end": 880.0,
+      "text": "This is kind of what the camera looked like again this one is generated with chat GPT so you don't have to type all this by hand you just need to upload the image to chat GPT and say this is.",
+      "words": []
+    },
+    {
+      "start": 880.0,
+      "end": 887.0,
+      "text": "Can you describe this image in as great detail as possible.",
+      "words": []
+    },
+    {
+      "start": 888.0,
+      "end": 909.0,
+      "text": "Other use cases for generative AI visualization also without needing to have an exact 3D model this one is going from a floor plan to 3D kind of the same approach upload the floor plan to chat GPT ask it to describe what it sees upload all this to various and then generate different versions of the.",
+      "words": []
+    },
+    {
+      "start": 910.0,
+      "end": 928.0,
+      "text": "All the floor plan so this is the adjacent format that came out of chat GPT and this is kind of the result that you get in various and you can have several different variations of that.",
+      "words": []
+    },
+    {
+      "start": 928.0,
+      "end": 939.0,
+      "text": "The interesting thing about the Jason for is that it's very structured so if you want to change just a piece of this you can go in and do is by hand.",
+      "words": []
+    },
+    {
+      "start": 941.0,
+      "end": 957.0,
+      "text": "Going one step further once you have an image that you like you can also generate a video out of this generating animations has traditionally been one of the slowest portions of architectural visualization not only because it requires setting up the animation itself.",
+      "words": []
+    },
+    {
+      "start": 957.0,
+      "end": 974.0,
+      "text": "But also because rendering creation it has been a slow process of fine renderer can take between hours and days to render for the realistic animations but with with AI you can do this much faster.",
+      "words": []
+    },
+    {
+      "start": 974.0,
+      "end": 985.0,
+      "text": "In this example, down with various again just to upload a starting frame and specify what kind of camera move I want and the AI system does the rest.",
+      "words": []
+    },
+    {
+      "start": 986.0,
+      "end": 996.0,
+      "text": "I'll generating this type of animation would require quite a bit of work and also rendering it out would actually take quite a bit of time as well.",
+      "words": []
+    },
+    {
+      "start": 996.0,
+      "end": 1006.0,
+      "text": "So, generative AI really helps a lot with was that kind of workflow and I will show you other examples as well.",
+      "words": []
+    },
+    {
+      "start": 1006.0,
+      "end": 1035.0,
+      "text": "Now, if you look very carefully at the people in the image is the thing kind of look okay ish but not personally now this is at the moment draw back of the specific video generation model that we are using but nevertheless it's a plausible animation it's good enough to demonstrate the usage of the space and what it could look like in the real world.",
+      "words": []
+    },
+    {
+      "start": 1036.0,
+      "end": 1058.0,
+      "text": "Now let's focus a little bit on how AI can be used to enhance final renders this is not for concept renders anymore this is when you already have a quite detailed 3d model and you want to improve aspects of it which aspects specifically well in our case.",
+      "words": []
+    },
+    {
+      "start": 1058.0,
+      "end": 1087.0,
+      "text": "This is people and vegetation because they are the hardest to render in a photorealistic way especially CG people are very complicated and and while it is possible to create photorealistic digital versions of humans it's typically a lot of process and in the context of architecture visualization is usually not enough time to do that or at least hasn't there hasn't been a way to listen to now.",
+      "words": []
+    },
+    {
+      "start": 1088.0,
+      "end": 1106.0,
+      "text": "Vegetations similar similar situation models typically have very high level of detail lots of little pieces of geometry like leaves and flowers and so on which typically very slow to render in a photoreal way.",
+      "words": []
+    },
+    {
+      "start": 1106.0,
+      "end": 1121.0,
+      "text": "Other things that we could do is adding perfection to large surfaces adding adding details to walls or floors and things like that which typically would take a lot of time to do in 3d can be done now quite easily with AI.",
+      "words": []
+    },
+    {
+      "start": 1121.0,
+      "end": 1128.0,
+      "text": "We can also enhance individual objects while preserving the rest of the image.",
+      "words": []
+    },
+    {
+      "start": 1128.0,
+      "end": 1149.0,
+      "text": "Other interesting uses for AI as a post process enhancing renders up to up to four times increasing the resolution which saves render time up to 16 times now all of this is part of our collaboration service so this is not at the moment done inside.",
+      "words": []
+    },
+    {
+      "start": 1149.0,
+      "end": 1159.0,
+      "text": "Host applications like ready to 3ds max but there is an easy way to go from those applications to our collaboration service and use.",
+      "words": []
+    },
+    {
+      "start": 1159.0,
+      "end": 1178.0,
+      "text": "Use all these features so in this example here we are focusing on the AI in cancer way we have uploaded a render from our escape render engine and it's a okay render but the 3d model and the trees are kind of okay for that level but not super photorealistic.",
+      "words": []
+    },
+    {
+      "start": 1178.0,
+      "end": 1207.0,
+      "text": "So our global enhancement algorithm automatically affects people in vegetation and makes them more realistic so this is a close up of the person and if we slip between the enhanced and the original version we can see that the person's face and clothes and everything is much better as well as vegetation in the background has a lot of added detail and overall the look image looks a lot more photorealistic but at the same time the actual building and the background is a lot more.",
+      "words": []
+    },
+    {
+      "start": 1207.0,
+      "end": 1218.0,
+      "text": "The actual building and the actual design everything is exactly the same which was a very important requirement for for the system.",
+      "words": []
+    },
+    {
+      "start": 1218.0,
+      "end": 1236.0,
+      "text": "You can also have some more targeted enhancement for people specifically oftentimes you need to depict a building or project that is specific to certain geographic locations so people have to look a certain way or they have to be dressed in a certain way.",
+      "words": []
+    },
+    {
+      "start": 1236.0,
+      "end": 1252.0,
+      "text": "And having a large library that represents all of these models or finding these 3D models online could be challenging but there is a way to do this as a post process through generative AI.",
+      "words": []
+    },
+    {
+      "start": 1252.0,
+      "end": 1262.0,
+      "text": "So in our example here you can select the face of the person you can specify you can make them older you can make them younger, change the hair color and so on.",
+      "words": []
+    },
+    {
+      "start": 1262.0,
+      "end": 1273.0,
+      "text": "So it's quite useful actually so in this case we could go from a middle-aged person to an older person to a person with a white hair quite easily.",
+      "words": []
+    },
+    {
+      "start": 1273.0,
+      "end": 1281.0,
+      "text": "And all of these things do not require any rebranders of the image of this can be done as a post process.",
+      "words": []
+    },
+    {
+      "start": 1281.0,
+      "end": 1291.0,
+      "text": "The large service in Hasmont works by allowing you to add some more details or imperfections to surface.",
+      "words": []
+    },
+    {
+      "start": 1291.0,
+      "end": 1301.0,
+      "text": "In my example here I was going for the wall that we have here on the buildings or wanted it to look damaged and it kind of managed to do this quite easily.",
+      "words": []
+    },
+    {
+      "start": 1301.0,
+      "end": 1308.0,
+      "text": "So if I flip between the images you can kind of see what this looks like.",
+      "words": []
+    },
+    {
+      "start": 1308.0,
+      "end": 1316.0,
+      "text": "And finally if you are happy with the result from a render of you can upscale it up to four times.",
+      "words": []
+    },
+    {
+      "start": 1316.0,
+      "end": 1327.0,
+      "text": "This is very useful because rendering at the original resolution can be very very slow so it can take minutes to hours.",
+      "words": []
+    },
+    {
+      "start": 1327.0,
+      "end": 1350.0,
+      "text": "If you use an offline render but with our image upscaling feature you can save quite a bit of render time just by upscaling this in post and the way this works was you upload an image to our cloud collaboration service you have the option to upscale it and you can choose the resolution to upscale to where it's two times or four times.",
+      "words": []
+    },
+    {
+      "start": 1350.0,
+      "end": 1363.0,
+      "text": "And automatically details where it's needed on this case you can see the difference here between the original render and the result also super useful and saves a lot of time.",
+      "words": []
+    },
+    {
+      "start": 1363.0,
+      "end": 1374.0,
+      "text": "And now a few words about the future and where we are looking at sometimes abusing AI.",
+      "words": []
+    },
+    {
+      "start": 1375.0,
+      "end": 1396.0,
+      "text": "Ideally we want to go beyond just images and videos those are useful but ultimately we are working with the 3D scene and we want to be able to go back from from the nice photo real render that we generated with Ferris we would like to go back to the 3D world and have this as a 3D scene.",
+      "words": []
+    },
+    {
+      "start": 1396.0,
+      "end": 1404.0,
+      "text": "This is useful for a number of reasons first a 3D scene can be now again in real time or in virtual reality.",
+      "words": []
+    },
+    {
+      "start": 1404.0,
+      "end": 1424.0,
+      "text": "You can also directly rearrange it anyway that you want you can do also simulations we have a module call in impact that can tell you what's the thermal comfort level of a building we will be adding daylight analysis to that and other simulation features and",
+      "words": []
+    },
+    {
+      "start": 1425.0,
+      "end": 1434.0,
+      "text": "they all work in 3D so going being able to go back from 30 to 3D or feel will be very valuable.",
+      "words": []
+    },
+    {
+      "start": 1434.0,
+      "end": 1451.0,
+      "text": "Other things that would be useful to do is at the moment you just get a static image or single video but it will be very interesting if what to get out of generative AI is a full of all three environment that you can navigate and you can explore.",
+      "words": []
+    },
+    {
+      "start": 1451.0,
+      "end": 1469.0,
+      "text": "Even VR or just as a game level style navigation this could make the experience a lot more interactive so this is also something that we are looking into and on a more mundane aspect.",
+      "words": []
+    },
+    {
+      "start": 1470.0,
+      "end": 1481.0,
+      "text": "At the end of your project when you need to produce construction documents it's all of tedious work that we feel can be to large extent automated so AI.",
+      "words": []
+    },
+    {
+      "start": 1481.0,
+      "end": 1487.0,
+      "text": "In all these things are aspects that we are working on.",
+      "words": []
+    },
+    {
+      "start": 1488.0,
+      "end": 1496.0,
+      "text": "You're also exploring generating 3D elements of buildings like lighting fixtures and air ducts.",
+      "words": []
+    },
+    {
+      "start": 1496.0,
+      "end": 1507.0,
+      "text": "We're not at a place where AI can generate a full building by itself but elements of that building could be potentially generated much faster using AI.",
+      "words": []
+    },
+    {
+      "start": 1508.0,
+      "end": 1531.0,
+      "text": "Landscaping is also an area that can be improved based on the geographical location and the time of the year and the system will be able to suggest possible plant species to use what they how they should be placed and it could give you some suggestion.",
+      "words": []
+    },
+    {
+      "start": 1532.0,
+      "end": 1548.0,
+      "text": "Also one thing that we have noticed as a potential use for AI is that architects sometimes struggle to find good camera angles to present their projects and this is maybe something that AI can help with.",
+      "words": []
+    },
+    {
+      "start": 1549.0,
+      "end": 1564.0,
+      "text": "Photographers can have very specific knowledge on how to do this in the best possible way and while AI can replace real photographers it can still suggest good camera angles and good ways to present a project.",
+      "words": []
+    },
+    {
+      "start": 1564.0,
+      "end": 1575.0,
+      "text": "It can also help with setting up the mood of the scene suitable assets to use for vegetation for furniture and all kinds of useful stuff.",
+      "words": []
+    },
+    {
+      "start": 1576.0,
+      "end": 1589.0,
+      "text": "What I show today is mostly 2D generation images and videos but the next step and what I hope to be able to show next year is how AI can be used to manipulate 3D scenes.",
+      "words": []
+    },
+    {
+      "start": 1591.0,
+      "end": 1595.0,
+      "text": "And that was everything from me for today.",
+      "words": []
+    },
+    {
+      "start": 1595.0,
+      "end": 1600.0,
+      "text": "Thank you so much. Looking forward to seeing you next year.",
+      "words": []
+    },
+    {
+      "start": 1605.0,
+      "end": 1615.0,
+      "text": "Thanks for watching.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:16:56.558905+00:00"
+}

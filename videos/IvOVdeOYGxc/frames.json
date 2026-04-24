@@ -1,0 +1,352 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\IvOVdeOYGxc\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide shows information about two team members from Avant Leap, along with their roles.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "Enrique Galicia",
+        "Director of Innovations and AI",
+        "Kuray Karaaslan",
+        "Software Developer",
+        "Avant Leap"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\IvOVdeOYGxc\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing the challenges of limited developer resources in firms, highlighting that queues for automation ideas often get backlogged.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "The queue never gets shorter",
+        "2-3 developers in many firms"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\IvOVdeOYGxc\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide with a quote about knowledge access alongside a presenter from Autodesk DevCon.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\IvOVdeOYGxc\\frames\\frame_000005.jpg",
+      "timestamp_seconds": 120.0,
+      "frame_index": 5,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation discussing the issue of automation demand outpacing delivery.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "AUTODESK",
+        "DevCon",
+        "The problem",
+        "Why automation demand keeps outrunning delivery"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\IvOVdeOYGxc\\frames\\frame_000006.jpg",
+      "timestamp_seconds": 150.0,
+      "frame_index": 6,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide explains reasons why AEC automation feels slow, mentioning workflow ideas, request handling, and technical group constraints.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "DevCon",
+        "Why AEC automation feels slow"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\IvOVdeOYGxc\\frames\\frame_000007.jpg",
+      "timestamp_seconds": 180.0,
+      "frame_index": 7,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide discussing different models for workflow collaboration involving domain experts and AI.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "What a different model looks like",
+        "Domain expert as co-creator",
+        "More contributors, not fewer guardrails"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\IvOVdeOYGxc\\frames\\frame_000008.jpg",
+      "timestamp_seconds": 210.0,
+      "frame_index": 8,
+      "category": "slides",
+      "keep": true,
+      "description": "This frame shows a presentation slide discussing redefined roles, with a focus on domain expert, AI generation, and validation and review.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Roles redefined",
+        "Domain Expert",
+        "AI Generation",
+        "Validation + Review"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\IvOVdeOYGxc\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide shows the system architecture of an MVP, detailing layers, technology used, and responsibilities.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "System Architecture of the MVP",
+        "Frontend",
+        "Backend orchestration",
+        "Generation assets"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\IvOVdeOYGxc\\frames\\frame_000015.jpg",
+      "timestamp_seconds": 420.0,
+      "frame_index": 15,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide from an Autodesk DevCon presentation discussing validation processes.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Validation",
+        "Generation is only useful if a team can inspect the result and trust what survives"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\IvOVdeOYGxc\\frames\\frame_000017.jpg",
+      "timestamp_seconds": 480.0,
+      "frame_index": 17,
+      "category": "slides",
+      "keep": true,
+      "description": "This slide presents the foundational Gates 1 and 2, focusing on syntax and MCP compliance for server behavior and code compilation.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Gate 1 \u2014 Syntax",
+        "Gate 2 \u2014 MCP compliance"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\IvOVdeOYGxc\\frames\\frame_000019.jpg",
+      "timestamp_seconds": 540.0,
+      "frame_index": 19,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon includes a quote about the utility of generated code after review and gating processes.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\IvOVdeOYGxc\\frames\\frame_000021.jpg",
+      "timestamp_seconds": 600.0,
+      "frame_index": 21,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide titled 'Example 1: Automation API batch orchestrator,' discussing the processing of RVT files.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Example 1: Automation API batch orchestrator",
+        "I need to process 20 RVT files..."
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\IvOVdeOYGxc\\frames\\frame_000023.jpg",
+      "timestamp_seconds": 660.0,
+      "frame_index": 23,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide discussing server validation considerations with four key questions highlighted.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Example 1: where validation matters",
+        "Four questions this server must answer before shipping"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\IvOVdeOYGxc\\frames\\frame_000026.jpg",
+      "timestamp_seconds": 750.0,
+      "frame_index": 26,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'Example 2 \u2014 How the tools work' lists tools with their intents and returns under an Autodesk DevCon logo.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Example 2 \u2014 How the tools work",
+        "Tool",
+        "Intent",
+        "Return"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\IvOVdeOYGxc\\frames\\frame_000032.jpg",
+      "timestamp_seconds": 930.0,
+      "frame_index": 32,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing Autodesk DevCon information with a website link and QR code for real-time interaction.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "devcon2026.avantleap.com",
+        "Try with Us",
+        "Real Time"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\IvOVdeOYGxc\\frames\\frame_000033.jpg",
+      "timestamp_seconds": 960.0,
+      "frame_index": 33,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation encouraging real-time participation with a QR code and URL.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Generate NCF Server",
+        "Configure New Server",
+        "Design Automation"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\IvOVdeOYGxc\\frames\\frame_000036.jpg",
+      "timestamp_seconds": 1050.0,
+      "frame_index": 36,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses the implementation details of VibeCodingMCP, including frontend, backend, and validation framework components.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Implementation \u2014 what you get",
+        "VibeCodingMCP",
+        "Frontend/",
+        "Backend/",
+        "ValidationFramework/",
+        "GeneratedServers/",
+        "Templates/"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\IvOVdeOYGxc\\frames\\frame_000038.jpg",
+      "timestamp_seconds": 1110.0,
+      "frame_index": 38,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide from Autodesk DevCon discussing the benefits and limitations of a particular approach.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "What this approach is good for",
+        "What it does not replace"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\IvOVdeOYGxc\\frames\\frame_000040.jpg",
+      "timestamp_seconds": 1170.0,
+      "frame_index": 40,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation on adoption strategies with steps outlined in four phases.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Phase 01",
+        "Phase 02",
+        "Phase 03",
+        "Phase 04"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\IvOVdeOYGxc\\frames\\frame_000042.jpg",
+      "timestamp_seconds": 1230.0,
+      "frame_index": 42,
+      "category": "slides",
+      "keep": true,
+      "description": "This frame shows a slide discussing automation and project response in AEC with the Autodesk DevCon branding visible.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "More people contributing automation. Faster project response. Reduced specialist dependency."
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\IvOVdeOYGxc\\frames\\frame_000043.jpg",
+      "timestamp_seconds": 1260.0,
+      "frame_index": 43,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide with contact information for Enrique Galicia, Director of AI and Innovation at Avant Leap, presented at Autodesk DevCon.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Contact us",
+        "Enrique Galicia",
+        "Avant Leap",
+        "QR Codes"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\IvOVdeOYGxc\\frames\\frame_000044.jpg",
+      "timestamp_seconds": 1290.0,
+      "frame_index": 44,
+      "category": "blank",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:09:13.346898+00:00"
+}

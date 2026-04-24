@@ -1,0 +1,89 @@
+{
+  "video_id": "Yck4v4chnew",
+  "demo_timestamps": [
+    {
+      "start": 0.07,
+      "end": 0.36,
+      "description": "Introduction to orchestrating engineering processes with AI agents."
+    },
+    {
+      "start": 6.56,
+      "end": 7.42,
+      "description": "Demo of building an application using Victor AI to calculate heat pump savings."
+    },
+    {
+      "start": 9.04,
+      "end": 10.23,
+      "description": "Demo of a street application built with Victor for manipulating street elements and downloading reports."
+    },
+    {
+      "start": 13.12,
+      "end": 15.16,
+      "description": "Demo of building workflows using Victor and connecting Autodesk Construction Cloud."
+    },
+    {
+      "start": 16.27,
+      "end": 17.02,
+      "description": "Converting an analytical model to a finite element model using Victor."
+    },
+    {
+      "start": 18.05,
+      "end": 21.43,
+      "description": "Analyzing a structural model's reaction loads using a finite element method."
+    },
+    {
+      "start": 1207.0,
+      "end": 1415.0,
+      "description": "Designing the pile foundation, checking reaction forces, and uploading the model back into ACC."
+    }
+  ],
+  "themes": [
+    "Automation in engineering through AI",
+    "Building engineering applications with Victor",
+    "Integration with cloud and local software solutions",
+    "AI in Engineering",
+    "Building Information Modeling (BIM)",
+    "Structural Design Optimization"
+  ],
+  "client_mentions": [
+    {
+      "name": "Sweco",
+      "context": "Sweco uses Victor to build applications and improve digital processes.",
+      "timestamp": 4.37
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 16.52
+    },
+    {
+      "name": "ACC (Autodesk Construction Cloud)",
+      "is_api": false,
+      "timestamp": 14.15
+    },
+    {
+      "name": "ACC",
+      "is_api": false,
+      "timestamp": 1327.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "AI agents",
+      "category": "agent",
+      "context": "Used for orchestrating engineering processes.",
+      "timestamp": 0.35
+    },
+    {
+      "name": "Victor AI",
+      "category": "other",
+      "context": "Used to build engineering applications quickly.",
+      "timestamp": 7.16
+    }
+  ],
+  "summary": "The video showcases the integration of AI and automation in engineering by demonstrating how Victor AI and Autodesk Construction Cloud can effectively build and orchestrate complex engineering applications and workflows. It features Sweco's digital transformation efforts, highlighting case studies and live demonstrations, including AI-driven processes for designing and optimizing a pile foundation, emphasizing the speed and ease of application development with these technologies.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:14:51.436390+00:00"
+}

@@ -1,0 +1,631 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 15.0,
+      "text": "Welcome back to the MCP Workshop series with covered all four pillars, data, AI, API,",
+      "words": []
+    },
+    {
+      "start": 15.0,
+      "end": 16.0,
+      "text": "and MCP.",
+      "words": []
+    },
+    {
+      "start": 16.0,
+      "end": 18.400000000000002,
+      "text": "Now let's talk about what we're going to build.",
+      "words": []
+    },
+    {
+      "start": 18.400000000000002,
+      "end": 22.68,
+      "text": "The full hands-on tutorial is linked in the description with complete source code for",
+      "words": []
+    },
+    {
+      "start": 22.68,
+      "end": 24.36,
+      "text": "every stage.",
+      "words": []
+    },
+    {
+      "start": 24.36,
+      "end": 28.44,
+      "text": "In this video, I want to walk you through the big picture.",
+      "words": []
+    },
+    {
+      "start": 28.44,
+      "end": 33.96,
+      "text": "What you're building in each chapter, how the pieces connect, and the key concepts",
+      "words": []
+    },
+    {
+      "start": 33.96,
+      "end": 36.480000000000004,
+      "text": "you need to understand before you start.",
+      "words": []
+    },
+    {
+      "start": 36.480000000000004,
+      "end": 40.68,
+      "text": "Before anything, make sure you have not JS18 or both.",
+      "words": []
+    },
+    {
+      "start": 40.68,
+      "end": 47.040000000000006,
+      "text": "VS Code with GitHub Copilot and an Autodesk APS account with application credentials.",
+      "words": []
+    },
+    {
+      "start": 47.040000000000006,
+      "end": 51.44,
+      "text": "The Workshop site has a prerequisite page that covers all of this.",
+      "words": []
+    },
+    {
+      "start": 51.44,
+      "end": 52.84,
+      "text": "Set it up first.",
+      "words": []
+    },
+    {
+      "start": 52.84,
+      "end": 55.16,
+      "text": "The Workshop has five parts.",
+      "words": []
+    },
+    {
+      "start": 55.16,
+      "end": 58.0,
+      "text": "Each one adds a new layer to the system.",
+      "words": []
+    },
+    {
+      "start": 58.0,
+      "end": 63.68,
+      "text": "In the first part, you set up the three core components of any MCP system.",
+      "words": []
+    },
+    {
+      "start": 63.68,
+      "end": 66.16,
+      "text": "At the bottom, you have the host.",
+      "words": []
+    },
+    {
+      "start": 66.16,
+      "end": 68.28,
+      "text": "That's VS Code with Copilot.",
+      "words": []
+    },
+    {
+      "start": 68.28,
+      "end": 71.4,
+      "text": "It's the application the user interacts with.",
+      "words": []
+    },
+    {
+      "start": 71.4,
+      "end": 73.48,
+      "text": "Above it, you have the brain.",
+      "words": []
+    },
+    {
+      "start": 73.48,
+      "end": 78.72,
+      "text": "That's the MCP client, the LLM that reasons about what tools to call.",
+      "words": []
+    },
+    {
+      "start": 78.72,
+      "end": 84.64,
+      "text": "In our case, the brain is powered by whatever model Copilot is using, whether that's",
+      "words": []
+    },
+    {
+      "start": 84.64,
+      "end": 87.84,
+      "text": "Cloud, GPT or Gemini.",
+      "words": []
+    },
+    {
+      "start": 87.84,
+      "end": 90.04,
+      "text": "And on the right, you have the hand.",
+      "words": []
+    },
+    {
+      "start": 90.04,
+      "end": 91.76,
+      "text": "That's your MCP server.",
+      "words": []
+    },
+    {
+      "start": 91.76,
+      "end": 96.08,
+      "text": "It's a Node.js process that exposes tools the brain can call.",
+      "words": []
+    },
+    {
+      "start": 96.08,
+      "end": 101.08,
+      "text": "You create a file called server.js and it registers two simple tools.",
+      "words": []
+    },
+    {
+      "start": 101.08,
+      "end": 102.68,
+      "text": "Add and grid.",
+      "words": []
+    },
+    {
+      "start": 102.68,
+      "end": 107.72,
+      "text": "The connection between the brain and the hand goes through the MCP endpoint.",
+      "words": []
+    },
+    {
+      "start": 107.72,
+      "end": 114.08,
+      "text": "There are different transport options in MCP, STDIO, SSC and Streamable HTTP.",
+      "words": []
+    },
+    {
+      "start": 114.08,
+      "end": 118.88,
+      "text": "We use Streamable HTTP because it works over the network and is the current recommended",
+      "words": []
+    },
+    {
+      "start": 118.88,
+      "end": 119.88,
+      "text": "standard.",
+      "words": []
+    },
+    {
+      "start": 119.88,
+      "end": 122.03999999999999,
+      "text": "Two things worth mentioning here.",
+      "words": []
+    },
+    {
+      "start": 122.03999999999999,
+      "end": 125.75999999999999,
+      "text": "First, register tool takes three arguments.",
+      "words": []
+    },
+    {
+      "start": 125.75999999999999,
+      "end": 130.36,
+      "text": "The name, a config with description and schema and the handler.",
+      "words": []
+    },
+    {
+      "start": 130.36,
+      "end": 136.24,
+      "text": "The description is what the LLM reads to decide whether to use this tool, so write it",
+      "words": []
+    },
+    {
+      "start": 136.24,
+      "end": 137.24,
+      "text": "clearly.",
+      "words": []
+    },
+    {
+      "start": 137.24,
+      "end": 140.04,
+      "text": "Second, the input schema uses Zod.",
+      "words": []
+    },
+    {
+      "start": 140.04,
+      "end": 147.16,
+      "text": "It not validates every parameter before your handler runs, so the LLM can't send garbage.",
+      "words": []
+    },
+    {
+      "start": 147.16,
+      "end": 153.23999999999998,
+      "text": "By the end of this part, VSCodeCopilot discovers your tools and calls them through natural",
+      "words": []
+    },
+    {
+      "start": 153.23999999999998,
+      "end": 154.23999999999998,
+      "text": "language.",
+      "words": []
+    },
+    {
+      "start": 154.23999999999998,
+      "end": 156.68,
+      "text": "Part 2 is simple but important.",
+      "words": []
+    },
+    {
+      "start": 156.68,
+      "end": 161.88,
+      "text": "You add a get weather tool that calls an external weather API from inside the handler.",
+      "words": []
+    },
+    {
+      "start": 161.88,
+      "end": 164.44,
+      "text": "The architecture doesn't change.",
+      "words": []
+    },
+    {
+      "start": 164.44,
+      "end": 167.48,
+      "text": "Same host, same brain, same server.",
+      "words": []
+    },
+    {
+      "start": 167.48,
+      "end": 170.6,
+      "text": "The server now reaches out to the internet.",
+      "words": []
+    },
+    {
+      "start": 170.6,
+      "end": 176.28,
+      "text": "The tool handler calls OpenMetio API internally and returns the result.",
+      "words": []
+    },
+    {
+      "start": 176.28,
+      "end": 181.95999999999998,
+      "text": "The key concept, the MCP client, has no idea what happens inside the handler.",
+      "words": []
+    },
+    {
+      "start": 181.95999999999998,
+      "end": 185.23999999999998,
+      "text": "It sends a tool call, it gets a response.",
+      "words": []
+    },
+    {
+      "start": 185.23999999999998,
+      "end": 193.23999999999998,
+      "text": "Whether that response came from a local calculation, a database query or a third party API, the protocol",
+      "words": []
+    },
+    {
+      "start": 193.23999999999998,
+      "end": 194.72,
+      "text": "doesn't care.",
+      "words": []
+    },
+    {
+      "start": 194.72,
+      "end": 197.76,
+      "text": "This is what makes MCP tools so flexible.",
+      "words": []
+    },
+    {
+      "start": 197.76,
+      "end": 199.76,
+      "text": "The handler is just a function.",
+      "words": []
+    },
+    {
+      "start": 199.76,
+      "end": 202.52,
+      "text": "What it does internally is your business.",
+      "words": []
+    },
+    {
+      "start": 202.52,
+      "end": 205.12,
+      "text": "This is where the architecture changes.",
+      "words": []
+    },
+    {
+      "start": 205.12,
+      "end": 209.28,
+      "text": "This is using tool led or auth and exposes two tools.",
+      "words": []
+    },
+    {
+      "start": 209.28,
+      "end": 213.84,
+      "text": "List buckets and create bucket for the object storage service.",
+      "words": []
+    },
+    {
+      "start": 213.84,
+      "end": 218.96,
+      "text": "The brain connects to both servers with separate MCP connections.",
+      "words": []
+    },
+    {
+      "start": 218.96,
+      "end": 221.76,
+      "text": "This is MCP's one-to-many model.",
+      "words": []
+    },
+    {
+      "start": 221.76,
+      "end": 225.95999999999998,
+      "text": "One client, multiple servers, each owning its own tools.",
+      "words": []
+    },
+    {
+      "start": 225.95999999999998,
+      "end": 228.07999999999998,
+      "text": "No proxy layers, no delegation.",
+      "words": []
+    },
+    {
+      "start": 228.07999999999998,
+      "end": 233.84,
+      "text": "You just add a second entry to your MCP.json and Copilot sees all the tools from both servers",
+      "words": []
+    },
+    {
+      "start": 233.84,
+      "end": 236.0,
+      "text": "as one united set.",
+      "words": []
+    },
+    {
+      "start": 236.0,
+      "end": 242.32,
+      "text": "You just add a second entry to your MCP.json and Copilot sees all the tools from both servers",
+      "words": []
+    },
+    {
+      "start": 242.32,
+      "end": 244.35999999999999,
+      "text": "as one unified set.",
+      "words": []
+    },
+    {
+      "start": 244.35999999999999,
+      "end": 247.35999999999999,
+      "text": "This is the architecture pattern that matters.",
+      "words": []
+    },
+    {
+      "start": 247.36,
+      "end": 252.32000000000002,
+      "text": "This server is independent, reusable and can be developed by a different team.",
+      "words": []
+    },
+    {
+      "start": 252.32000000000002,
+      "end": 254.32000000000002,
+      "text": "You don't need a single orchestrator.",
+      "words": []
+    },
+    {
+      "start": 254.32000000000002,
+      "end": 257.8,
+      "text": "The protocol handles discovery and routing.",
+      "words": []
+    },
+    {
+      "start": 257.8,
+      "end": 262.2,
+      "text": "For authentication, the key component is two-legged or auth.",
+      "words": []
+    },
+    {
+      "start": 262.2,
+      "end": 264.12,
+      "text": "This is up to service.",
+      "words": []
+    },
+    {
+      "start": 264.12,
+      "end": 269.40000000000003,
+      "text": "Your application authenticates with the client ID and secret and gets a token that sees",
+      "words": []
+    },
+    {
+      "start": 269.40000000000003,
+      "end": 272.36,
+      "text": "everything the app is provisioned for.",
+      "words": []
+    },
+    {
+      "start": 272.36,
+      "end": 274.12,
+      "text": "New user login required.",
+      "words": []
+    },
+    {
+      "start": 274.12,
+      "end": 280.04,
+      "text": "Part 4 adds user-level authentication to the same APS-server.js.",
+      "words": []
+    },
+    {
+      "start": 280.04,
+      "end": 282.92,
+      "text": "The server now has two additional routes.",
+      "words": []
+    },
+    {
+      "start": 282.92,
+      "end": 287.36,
+      "text": "Slash auth, slash login, and slash auth slash callback.",
+      "words": []
+    },
+    {
+      "start": 287.36,
+      "end": 291.96,
+      "text": "And there is a new tool, get user info, which returns the Autodesk profile of whoever",
+      "words": []
+    },
+    {
+      "start": 291.96,
+      "end": 293.12,
+      "text": "is logged in.",
+      "words": []
+    },
+    {
+      "start": 293.12,
+      "end": 296.2,
+      "text": "The key concept is three-legged or auth.",
+      "words": []
+    },
+    {
+      "start": 296.2,
+      "end": 301.44,
+      "text": "Unlike two-legged, where the app authenticates itself, three-legged puts the user in the",
+      "words": []
+    },
+    {
+      "start": 301.44,
+      "end": 302.44,
+      "text": "flow.",
+      "words": []
+    },
+    {
+      "start": 302.44,
+      "end": 307.68,
+      "text": "The user opens a login URL in their browser, sends in when their Autodesk accounts, and",
+      "words": []
+    },
+    {
+      "start": 307.68,
+      "end": 312.6,
+      "text": "the server receives a token, scoped to that specific user's permissions.",
+      "words": []
+    },
+    {
+      "start": 312.6,
+      "end": 314.64,
+      "text": "This is the human in the loop pattern.",
+      "words": []
+    },
+    {
+      "start": 314.64,
+      "end": 316.84,
+      "text": "The agent can't force login.",
+      "words": []
+    },
+    {
+      "start": 316.84,
+      "end": 322.8,
+      "text": "If no user has authenticated, the get user info tool returns a message, saying, please",
+      "words": []
+    },
+    {
+      "start": 322.8,
+      "end": 324.32,
+      "text": "open the login URL.",
+      "words": []
+    },
+    {
+      "start": 324.32,
+      "end": 328.56,
+      "text": "The user stays in control of when and whether to grant access.",
+      "words": []
+    },
+    {
+      "start": 328.56,
+      "end": 335.72,
+      "text": "After logging, the same APS-server.js supports both app-level operations, like creating buckets,",
+      "words": []
+    },
+    {
+      "start": 335.72,
+      "end": 339.24,
+      "text": "and user-level operations, like reading profile data.",
+      "words": []
+    },
+    {
+      "start": 339.24,
+      "end": 345.4,
+      "text": "There is also a fifth part where you build your own MCP client and wire in an LLM to see",
+      "words": []
+    },
+    {
+      "start": 345.4,
+      "end": 348.44,
+      "text": "how the agentic loop works under the hood.",
+      "words": []
+    },
+    {
+      "start": 348.44,
+      "end": 355.16,
+      "text": "And a production checklist that covers what needs to change before you ship any of this.",
+      "words": []
+    },
+    {
+      "start": 355.16,
+      "end": 356.8,
+      "text": "Both are in the tutorial.",
+      "words": []
+    },
+    {
+      "start": 356.8,
+      "end": 358.52,
+      "text": "That's the full workshop.",
+      "words": []
+    },
+    {
+      "start": 358.52,
+      "end": 363.96,
+      "text": "Five parts that take you from writing your first MCP server to connecting real Autodesk",
+      "words": []
+    },
+    {
+      "start": 363.96,
+      "end": 366.4,
+      "text": "data with user authentication.",
+      "words": []
+    },
+    {
+      "start": 366.4,
+      "end": 369.08,
+      "text": "This is the end of the MCP workshop series.",
+      "words": []
+    },
+    {
+      "start": 369.08,
+      "end": 374.96,
+      "text": "We started with the four pillars, data, AI, API, and MCP, and finished with a working",
+      "words": []
+    },
+    {
+      "start": 374.96,
+      "end": 377.84,
+      "text": "system that puts all four together.",
+      "words": []
+    },
+    {
+      "start": 377.84,
+      "end": 383.47999999999996,
+      "text": "If you followed along, you now have the foundation to build your own MCP servers.",
+      "words": []
+    },
+    {
+      "start": 383.48,
+      "end": 388.72,
+      "text": "Give them to any platform and start building intelligent tools for your projects.",
+      "words": []
+    },
+    {
+      "start": 388.72,
+      "end": 390.24,
+      "text": "Thank you for watching.",
+      "words": []
+    },
+    {
+      "start": 390.24,
+      "end": 393.72,
+      "text": "Leave your questions in the comments and I'll see you for the next series.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-23T00:03:13.477993+00:00"
+}

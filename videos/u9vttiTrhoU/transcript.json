@@ -1,0 +1,643 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.36,
+      "text": "Hello everyone and welcome to our session.",
+      "words": []
+    },
+    {
+      "start": 3.36,
+      "end": 5.76,
+      "text": "My name is Gaurav Bahamre.",
+      "words": []
+    },
+    {
+      "start": 5.76,
+      "end": 11.4,
+      "text": "I'm here along with Trevor and John from FCO.",
+      "words": []
+    },
+    {
+      "start": 11.4,
+      "end": 25.0,
+      "text": "And we will be talking about data exchanges and we'll be seeing how the team at FCO is leveraging data exchanges to break down silos and interrupt between inventor and revert and auto-cad work flows.",
+      "words": []
+    },
+    {
+      "start": 25.84,
+      "end": 47.0,
+      "text": "So what we'll be looking at today is a brief introduction of the data exchanges, how data exchange works and then quickly moving on to the real world use case at FCO, how the team is using data exchanges and solving their interoperability problem and how does it add more efficiency to the existing process.",
+      "words": []
+    },
+    {
+      "start": 47.0,
+      "end": 57.0,
+      "text": "Later we'll also have a week look at the roadmap for data exchange and you'll also receive some room for our question and answers.",
+      "words": []
+    },
+    {
+      "start": 57.0,
+      "end": 68.0,
+      "text": "Moving on next as all of our product statements and as we show new capabilities, here's a safe article statement you must have seen already.",
+      "words": []
+    },
+    {
+      "start": 68.0,
+      "end": 86.0,
+      "text": "So do not make any purchasing decisions based on the demos that we present today and so you you already are aware of rest of the safe hardware statement but yeah take a look at it and leave it just for a few seconds and then we can move on ahead.",
+      "words": []
+    },
+    {
+      "start": 87.0,
+      "end": 111.0,
+      "text": "Cool so first of all what is data exchange basically data exchange is a granular subset of your data which can be which can be shared with stakeholders downstream this aligns with Autodesk strategy to provide a platform where you can easily interrupt between autos and on Autodesk tools.",
+      "words": []
+    },
+    {
+      "start": 111.0,
+      "end": 120.0,
+      "text": "And we already have an existing robust ecosystem of connected apps like Revit, Inventor, Tecla, etc.",
+      "words": []
+    },
+    {
+      "start": 120.0,
+      "end": 140.0,
+      "text": "So the data exchange work like a gated workflows where you just share a smaller subset and that is controlled by your former permissions and teams and then you can you can granularize that and share it downstream with your users for their for their workflows like drawing creations and coordinations etc.",
+      "words": []
+    },
+    {
+      "start": 142.0,
+      "end": 169.0,
+      "text": "To take a look at the existing ecosystem we have a robust set of offerings in data exchange that comprises of the cloud connectors which enable the users to directly create these subsets or these granular exchanges from former and the next batch of offerings is our desktop connectors so the currently we have multiple desktop connectors if you can just press click.",
+      "words": []
+    },
+    {
+      "start": 169.0,
+      "end": 179.0,
+      "text": "So we have multiple desktop connectors in GA already available for production use cases like the Revit, Inventor, Rhino and Tecla.",
+      "words": []
+    },
+    {
+      "start": 179.0,
+      "end": 194.0,
+      "text": "So these connectors are already available in production and you can go ahead and write out and let us know your feedback along with that we have a few connectors in public beta where we are actively receiving feedback and improving those as we go ahead.",
+      "words": []
+    },
+    {
+      "start": 194.0,
+      "end": 204.0,
+      "text": "So that's about data exchange and a brief about me now let's take a look at what a genre team are doing at FCO using these tools.",
+      "words": []
+    },
+    {
+      "start": 204.0,
+      "end": 220.0,
+      "text": "Hi I'm Trevor love cat administrator I've been with FCO for 18 years some of my job responsibilities are database creation and maintenance along with technical support and some training.",
+      "words": []
+    },
+    {
+      "start": 220.0,
+      "end": 243.0,
+      "text": "So a little bit about FCO it was established in 1934 we are a showing and a concrete showing and forming supplier equipment supplier so we manufacture our own standard equipment along with some custom equipment that may be unique to that project.",
+      "words": []
+    },
+    {
+      "start": 243.0,
+      "end": 257.0,
+      "text": "So some other services that we do provide our engineering and some field service support and with that I'm going to pass it on to John for the next slide.",
+      "words": []
+    },
+    {
+      "start": 257.0,
+      "end": 273.0,
+      "text": "So like many people I'm sure in the industry we've had to transition from using AutoCAD to using Revit with that it was really a required a different workflow for how we transitioned and transferred data from from Inventor to AutoCAD and in an AutoCAD to Inventor.",
+      "words": []
+    },
+    {
+      "start": 273.0,
+      "end": 284.0,
+      "text": "So that's where data exchange really really shines for us. I want to talk a little bit about how we had to move from an event to AutoCAD.",
+      "words": []
+    },
+    {
+      "start": 284.0,
+      "end": 296.0,
+      "text": "Really we had to duplicate our processes with that so we would have to model in AutoCAD as well as model in Inventor and then transfer data back and forth and every time a change is made we'd have to update both sets of files.",
+      "words": []
+    },
+    {
+      "start": 296.0,
+      "end": 306.0,
+      "text": "So here on the left you can see that we have an AutoCAD model that shows the 2D drawing and then on the right hand side we see the 3D version of it.",
+      "words": []
+    },
+    {
+      "start": 306.0,
+      "end": 324.0,
+      "text": "So we have to place the equipment in our own standard equipment in an AutoCAD and get the general location of that then in Inventor place the second time so we can create our custom panels which are those those radial panels on the end of that that cap.",
+      "words": []
+    },
+    {
+      "start": 324.0,
+      "end": 329.0,
+      "text": "So here I'm going to demonstrate now how we would transition from Inventor into AutoCAD.",
+      "words": []
+    },
+    {
+      "start": 329.0,
+      "end": 342.0,
+      "text": "So the process we would take would be make over specials we place them on to 90W and then we would have to export that drawing from paper space so that we could then bring it into model space inside of AutoCAD.",
+      "words": []
+    },
+    {
+      "start": 342.0,
+      "end": 351.0,
+      "text": "With that we're going to get a lot of additional we'll call it garbage from the Inventor model that we don't need or don't want inside of AutoCAD.",
+      "words": []
+    },
+    {
+      "start": 351.0,
+      "end": 359.0,
+      "text": "So once it's been exported I will open the file and remove all of the extra items that I don't need so I'll get rid of the title block.",
+      "words": []
+    },
+    {
+      "start": 359.0,
+      "end": 366.0,
+      "text": "I'm going to perform an overkill so that all the additional geometry is no longer overlapping.",
+      "words": []
+    },
+    {
+      "start": 366.0,
+      "end": 371.0,
+      "text": "After that I'm going to create the layers that I need to see inside of AutoCAD.",
+      "words": []
+    },
+    {
+      "start": 371.0,
+      "end": 380.0,
+      "text": "Inventor does have its own layers it does have its own line types its own lineways things like that but I don't want to use those inside of AutoCAD because my project sort of set up.",
+      "words": []
+    },
+    {
+      "start": 380.0,
+      "end": 389.0,
+      "text": "So I create the layers that I want. I give it I'm going to use quick select to select the the layers that I want to change from Inventor.",
+      "words": []
+    },
+    {
+      "start": 389.0,
+      "end": 395.0,
+      "text": "I then I'll go back and I'll set the color to be the color that I want and then a wine type that I want to see.",
+      "words": []
+    },
+    {
+      "start": 395.0,
+      "end": 409.0,
+      "text": "So I'm going to have to do that for the hidden lines and then once this is done I'm going to go back a second time and I'm going to reproduce the same steps and I'm going to select the visible edges that came over from Inventor and change the layer to the to what I want to see.",
+      "words": []
+    },
+    {
+      "start": 409.0,
+      "end": 414.0,
+      "text": "AutoCAD as well as the color and the line type.",
+      "words": []
+    },
+    {
+      "start": 414.0,
+      "end": 424.0,
+      "text": "Once those have been modified the last step would be to add any additional center lines that I may want to see to make sure that I have holes that line up from one form to another.",
+      "words": []
+    },
+    {
+      "start": 424.0,
+      "end": 436.0,
+      "text": "It's really important for us to make sure that our forming equipment matches up otherwise if we send something out that doesn't work then our customer obviously gets form that they can't pull together.",
+      "words": []
+    },
+    {
+      "start": 436.0,
+      "end": 440.0,
+      "text": "So we need verification on all those holes.",
+      "words": []
+    },
+    {
+      "start": 440.0,
+      "end": 448.0,
+      "text": "Once we've added in all of our center lines to every whole location we'll go back and we'll create individual blocks for each view.",
+      "words": []
+    },
+    {
+      "start": 448.0,
+      "end": 452.0,
+      "text": "So here I have an elevation view.",
+      "words": []
+    },
+    {
+      "start": 452.0,
+      "end": 464.0,
+      "text": "Typically it's a L for elevation view and then the name of the file there will have an end view of the same block and then lastly we'll have a plan view for the same for the same element.",
+      "words": []
+    },
+    {
+      "start": 464.0,
+      "end": 474.0,
+      "text": "I keep in mind that at any point in time if we were to modify the Inventor model for whatever reason we would have to go back and reproduce all the steps that you're seeing here.",
+      "words": []
+    },
+    {
+      "start": 474.0,
+      "end": 481.0,
+      "text": "A second time or a third time or however many times you require so it does it could create a lot of rework for us.",
+      "words": []
+    },
+    {
+      "start": 481.0,
+      "end": 510.0,
+      "text": "Once I have all the blocks created I'm going to copy them and I'll paste them into my working file and after they're pasted on working file I can set the individual blocks where they need to go so that my I can create a drawing that goes up to my customer that shows them how to assemble all the formwork.",
+      "words": []
+    },
+    {
+      "start": 510.0,
+      "end": 523.0,
+      "text": "This is where with Revit we actually get a much better model so here I'm going to demonstrate now how to do that same process except from an AutoCAD standpoint that's from an Inventor standpoint.",
+      "words": []
+    },
+    {
+      "start": 523.0,
+      "end": 532.0,
+      "text": "So at this point in time I have my Inventor model or my Reddermodel opened up. I'm going to go to the Collaborate tab and I'm going to create a Data Exchange.",
+      "words": []
+    },
+    {
+      "start": 532.0,
+      "end": 543.0,
+      "text": "So once I start the Data Exchange process I will start to create one. I'm going to give it a name. I like to give it a name that is the name of the project followed by Revit to Inventor.",
+      "words": []
+    },
+    {
+      "start": 543.0,
+      "end": 552.0,
+      "text": "That lets me know that the Data Exchange is coming from Revit and then going into Inventor so I'm not happy to look at that file online and try to figure out what happens.",
+      "words": []
+    },
+    {
+      "start": 552.0,
+      "end": 559.0,
+      "text": "To note the Data Exchange does have to be contained on the formal website of otherwise does work.",
+      "words": []
+    },
+    {
+      "start": 559.0,
+      "end": 573.0,
+      "text": "From here you do have the option to filter out elements out by category selection. At FCO we prefer just to have a working view that shows what we need to see in that Data Exchange and then whatever is visible we know that that gets carried out.",
+      "words": []
+    },
+    {
+      "start": 573.0,
+      "end": 586.0,
+      "text": "From here I'll open up Inventor. I'll start into Assembly and this is going to allow me to load that Data Exchange that just created from Revit and bring it into Inventor so I can add any Inventor specials that I need to see.",
+      "words": []
+    },
+    {
+      "start": 586.0,
+      "end": 597.0,
+      "text": "So again I'll go to Collaborate tab, Data Exchange, I'll load the Exchange and I'll browse the same location on the formal website for the file location.",
+      "words": []
+    },
+    {
+      "start": 597.0,
+      "end": 609.0,
+      "text": "I pick the Data Exchange that I want to see and then I will load it and the cool thing with this is that it loads directly in where I need to which then allows me to place my special formwork.",
+      "words": []
+    },
+    {
+      "start": 609.0,
+      "end": 621.0,
+      "text": "I do want you to note that right now I don't have any whole locations those are important so with this same process I will demonstrate how to reload a Data Exchange after it needs to be modified.",
+      "words": []
+    },
+    {
+      "start": 621.0,
+      "end": 631.0,
+      "text": "Back in Revit I'll set the level of detail to find then I'm going to select the Data Exchange in the interface and I will update the Exchange.",
+      "words": []
+    },
+    {
+      "start": 631.0,
+      "end": 642.0,
+      "text": "This is going to create a whole new second exchange I'll have a version 2 back inside of Inventor. I will select that Data Exchange I have a blue dot next to it that allows me that lets me know that there's an update.",
+      "words": []
+    },
+    {
+      "start": 642.0,
+      "end": 652.0,
+      "text": "I'll set the three dots I will load latest and will notice that the Data Exchange has now been updated so I can see the holes in my formwork.",
+      "words": []
+    },
+    {
+      "start": 652.0,
+      "end": 665.0,
+      "text": "This now allows me to create my special formwork or to place my special formwork into this model pretty quickly easily and go from there so I can see the specials I've been added.",
+      "words": []
+    },
+    {
+      "start": 666.0,
+      "end": 679.0,
+      "text": "To bring this back into Revit I'm going to turn off the Data Exchange that I brought from Revit into Inventor. I'll turn that off and then I will create the Data Exchange now that just shows the special formwork editing.",
+      "words": []
+    },
+    {
+      "start": 679.0,
+      "end": 685.0,
+      "text": "I need to show that into my Revit model as well. So the file name is going to be the same file name, scatter falls.",
+      "words": []
+    },
+    {
+      "start": 685.0,
+      "end": 701.0,
+      "text": "In this case it's going to be the vendor to Revit. File location stays the same. I do need to set this to be a Z-up orientation. That's how Revit is a Z-up modeling software so I just need to make sure that I specify that so that it comes in the correct orientation.",
+      "words": []
+    },
+    {
+      "start": 701.0,
+      "end": 711.0,
+      "text": "I'll go back into Revit now and here instead of creating the Exchange I will load the Exchange that I just created from within Inventor.",
+      "words": []
+    },
+    {
+      "start": 711.0,
+      "end": 724.0,
+      "text": "We'll see the panels have now will be added into my project. The shrill is being black. Once they've been placed I can then go through and pick those and set them onto a specific phases, set the line.",
+      "words": []
+    },
+    {
+      "start": 724.0,
+      "end": 734.0,
+      "text": "The colors to be a certain way that I want to see. I can't import labels and groups when I create these. We prefer to do families. Trevor will touch on that a little bit later.",
+      "words": []
+    },
+    {
+      "start": 734.0,
+      "end": 747.0,
+      "text": "Once this process has been completed you'll see that the special former has been added in on both sides of that pure cap.",
+      "words": []
+    },
+    {
+      "start": 747.0,
+      "end": 757.0,
+      "text": "This is an example of finished drawing of what that file set of drawings would be. So we have some elements that came from Revit. We have some elements that came from Inventor.",
+      "words": []
+    },
+    {
+      "start": 757.0,
+      "end": 773.0,
+      "text": "In the end the drawing is still coming from Revit. With that I'll turn over to Trevor. He can talk about complex geometry and moving specifically from Revit directly into Revit.",
+      "words": []
+    },
+    {
+      "start": 773.0,
+      "end": 788.0,
+      "text": "Thanks, Sean. In some cases the concrete may be so complex that we'll have to create it in Inventor. First and then move it to Revit just because of the modeling tools in Inventor.",
+      "words": []
+    },
+    {
+      "start": 788.0,
+      "end": 805.0,
+      "text": "Maybe easier to create the structure within Inventor. From there we'll add a standard equipment and then we can push it back into Inventor so that we can create any custom formwork.",
+      "words": []
+    },
+    {
+      "start": 805.0,
+      "end": 822.0,
+      "text": "In the next slide there's a demo of this practice. Here the concrete was created in Inventor due to the complexity of the concrete. Once the modeling is done we can create our date exchange.",
+      "words": []
+    },
+    {
+      "start": 822.0,
+      "end": 846.0,
+      "text": "John said it needs to be on formwork for this to work and pay attention to the naming. We know which way the date exchange is going. We always like to put Inventor to Revit to Inventor and then changing that model orientation to Z up so it comes in correctly.",
+      "words": []
+    },
+    {
+      "start": 846.0,
+      "end": 863.0,
+      "text": "Once this is in Revit we'll start a new project and other collaborate tab date exchange. We can load in the concrete that we modeled in Inventor and place it into Revit.",
+      "words": []
+    },
+    {
+      "start": 863.0,
+      "end": 883.0,
+      "text": "This way we can add any of the standard equipment accessories, whatever you may need to be able to build off of to be able to create the customs off of when we go back from Revit to Inventor.",
+      "words": []
+    },
+    {
+      "start": 883.0,
+      "end": 907.0,
+      "text": "Here we're just saving the file out and then you'll see that the standard equipment has been placed and key thing here is just making sure that that level of detail is set to find so that the guy that's creating the person that's creating the customs and Inventor they have all the whole locations.",
+      "words": []
+    },
+    {
+      "start": 907.0,
+      "end": 914.0,
+      "text": "They have what they need to be able to build the custom formwork off so everything can bolt up correctly.",
+      "words": []
+    },
+    {
+      "start": 914.0,
+      "end": 931.0,
+      "text": "Here we're just creating the date exchange from Inventor back to Revit and there's that unique name that we give it Revit to Inventor so that we know which way the date exchange is going.",
+      "words": []
+    },
+    {
+      "start": 932.0,
+      "end": 950.0,
+      "text": "Once the exchange from Revit has been created and we'll want to push it back into Inventor, we'll start a new assembly file and load that new date exchange that has the concrete along with any of the standard equipment and accessories.",
+      "words": []
+    },
+    {
+      "start": 950.0,
+      "end": 968.0,
+      "text": "So here the person would be able to start creating the specials that would be needed and place any of the custom equipment onto the structure.",
+      "words": []
+    },
+    {
+      "start": 968.0,
+      "end": 984.0,
+      "text": "And here we're just turning off the duplicate Revit date exchanges so that way when we do create this new exchange from Inventor to Revit, we're not getting duplicate items that will be placed back on top each other.",
+      "words": []
+    },
+    {
+      "start": 984.0,
+      "end": 995.0,
+      "text": "It's also important to note that during this whole process somebody can be working and continue to work in Revit while the other person is working in Inventor.",
+      "words": []
+    },
+    {
+      "start": 995.0,
+      "end": 1010.0,
+      "text": "That way there's no downtime really between the processes so the custom formwork can be done along with the getting the standard erection drawings that the guys will be using in the field to build this.",
+      "words": []
+    },
+    {
+      "start": 1010.0,
+      "end": 1033.0,
+      "text": "So once we get the Inventor work done we can push that exchange back into Revit and we'll load the exchange into Revit and once we load it you'll see that any of the custom equipment that we've made an Inventor will show up in the proper location in Revit.",
+      "words": []
+    },
+    {
+      "start": 1033.0,
+      "end": 1050.0,
+      "text": "And from here we can go through and change the color of the custom formwork that way it's easier to see in our erection drawings and they stand out a little differently than our standard equipment.",
+      "words": []
+    },
+    {
+      "start": 1050.0,
+      "end": 1060.0,
+      "text": "So some other benefits for the Forma Cloud are it's a single model.",
+      "words": []
+    },
+    {
+      "start": 1060.0,
+      "end": 1066.0,
+      "text": "You do get the version history with it so you can see tell which version of the date exchange you're on.",
+      "words": []
+    },
+    {
+      "start": 1066.0,
+      "end": 1082.0,
+      "text": "It makes it easier to externally and internally share and lastly we had a case where we got a 2026 Revit file and we are as a company we were using 2025 Revit.",
+      "words": []
+    },
+    {
+      "start": 1082.0,
+      "end": 1107.0,
+      "text": "So instead of upgrading the whole entire company to 2026 we're able to create an exchange of the 2026 file and then import that into a 2025 Revit program and be able to use the concrete and to be able to build off of so that was that was a good thing that we had with the date exchange.",
+      "words": []
+    },
+    {
+      "start": 1108.0,
+      "end": 1131.0,
+      "text": "So here's a little here's a workflow chart of when we when we use date exchange so if changes are expected frequently and engineering owns the geometry but the model doesn't need any parametric functionality that's where we would use date exchange.",
+      "words": []
+    },
+    {
+      "start": 1131.0,
+      "end": 1153.0,
+      "text": "So if the model does need parametric functionality and there's certain parameters that need to be placed within it that's more or less where we would go to create a family but if it's just more of a coordination of visualization type of thing that's where the date exchange would come into play.",
+      "words": []
+    },
+    {
+      "start": 1154.0,
+      "end": 1167.0,
+      "text": "At this point I'll talk about some tangible benefits that we have with date exchange so obviously date exchange allows each software application to be used for strengths malling and a vendor I would argue is much easier than modeling and Revit.",
+      "words": []
+    },
+    {
+      "start": 1167.0,
+      "end": 1178.0,
+      "text": "It does allow us to create the model just one time as opposed to having to create the model in all the cat have to create the model and the vendor and then transfer back and forth and update as we need to.",
+      "words": []
+    },
+    {
+      "start": 1178.0,
+      "end": 1204.0,
+      "text": "date exchange does allow us to have a single process to export across all platforms so there's ways that we can open up a rev it files directly and then or and we can open up and then our files inside of rev it however that process can have can have some glitches with it with date exchange we know that it works it is one process it's easier to to explain to our people at work for instance he's are for us to troubleshoot as well.",
+      "words": []
+    },
+    {
+      "start": 1205.0,
+      "end": 1222.0,
+      "text": "Some other things that happen are that the element locations are automatically transferred back and forth we don't have to place it in to the new software and then move it or place it a second time and this date exchange did make the transition from a hot cat to rev it much much simpler.",
+      "words": []
+    },
+    {
+      "start": 1222.0,
+      "end": 1227.0,
+      "text": "So give it back to Trevor to talk about some areas of improvement.",
+      "words": []
+    },
+    {
+      "start": 1228.0,
+      "end": 1250.0,
+      "text": "So some some things that we've found that that could be beneficial for us were and some of these gravel talk about they already are in the works but first one is enabling the creation of families from inventor using date exchange so this this allows us to be able to create those unique parameters inside of the families.",
+      "words": []
+    },
+    {
+      "start": 1251.0,
+      "end": 1266.0,
+      "text": "That may need it to adjust the size of the geometry or another thing that we'd like to do is modify the object styles to give it that unique color so it does stand out in our erection drawings.",
+      "words": []
+    },
+    {
+      "start": 1267.0,
+      "end": 1285.0,
+      "text": "Something that we we don't like to see is when you create a date exchange from inventor to rev it you do get the properties from inventor so the property show up in the project parameters which then apply to any family that's within that project.",
+      "words": []
+    },
+    {
+      "start": 1286.0,
+      "end": 1303.0,
+      "text": "Another idea that we had was the possibility to add a category category for date exchange within the project browser this just helps make it easier to locate the date exchanges and help helps organize the project a little bit more.",
+      "words": []
+    },
+    {
+      "start": 1304.0,
+      "end": 1320.0,
+      "text": "So so another thing would be to acknowledge data carried from exchanges so there is no need to hide any of the elements from one program to the other so if I'm going from inventor into rev it and then I need to go back from rev it to inventor.",
+      "words": []
+    },
+    {
+      "start": 1320.0,
+      "end": 1343.0,
+      "text": "Rev it date exchange would know that the inventor exchange needs to be hidden before I can create the exchange to go back into inventor and then lastly the allowing version history to be changed through the formal website just so if you need to roll back to another version for whatever reason it may be easier to see.",
+      "words": []
+    },
+    {
+      "start": 1343.0,
+      "end": 1356.0,
+      "text": "Currently you're only able to view the the previous versions on on the former site and with that I will pass it off to craft.",
+      "words": []
+    },
+    {
+      "start": 1356.0,
+      "end": 1368.0,
+      "text": "Thanks Trevor so that's a great use case and thank you Trevor and John for sharing the use case and being such an awesome partners.",
+      "words": []
+    },
+    {
+      "start": 1369.0,
+      "end": 1391.0,
+      "text": "So based on the feedback we also have our roadmap for data exchange based on the feedback that the team has shared we are also expanding the and maturing the connector ecosystem, including features like adding data exchange as a family and also supporting category mapping from the from you know data exchange to your favorite family, your favorite categories.",
+      "words": []
+    },
+    {
+      "start": 1391.0,
+      "end": 1416.0,
+      "text": "Along with that we're also developing cloud capabilities like supporting data exchange in the model coordination space and you will hear an announcement about that very soon as well along with that we're also releasing a public beta for civil 3D connect cloud connector so you can easily create exchanges from civil 3D on former and then we're also building data specific data experiences you must have already seen the AI assistant.",
+      "words": []
+    },
+    {
+      "start": 1416.0,
+      "end": 1436.0,
+      "text": "So empowering that data exchange is something we are working on and along with that we closely follow the platform strategy for regional support so we're also planning additional regional support as and when former is available in those reasons.",
+      "words": []
+    },
+    {
+      "start": 1436.0,
+      "end": 1463.0,
+      "text": "So that's a quick leave on our roadmap 332 reach out to us and stay in touch with us through the data exchange community and the here is a quick link tree which provides you all the resources to know more about data exchanges and get get an on voting tutorials or even the downloads or our recent block post on data exchanges.",
+      "words": []
+    },
+    {
+      "start": 1463.0,
+      "end": 1472.0,
+      "text": "Thank you for attending this session and thank you for your support feel free to reach out to us.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:20:24.609216+00:00"
+}

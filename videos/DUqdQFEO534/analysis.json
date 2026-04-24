@@ -1,0 +1,49 @@
+{
+  "video_id": "DUqdQFEO534",
+  "demo_timestamps": [
+    {
+      "start": 540.0,
+      "end": 630.0,
+      "description": "Using Autodesk Forma on a coffee farm, including shadow simulation and comparing different layout proposals."
+    },
+    {
+      "start": 660.0,
+      "end": 780.0,
+      "description": "Using APS to extract data from field images, combined with custom mobile apps for location data."
+    }
+  ],
+  "themes": [
+    "Climate-resilient agriculture",
+    "Integration of technology and agriculture"
+  ],
+  "client_mentions": [
+    {
+      "name": "L\u00fabert Coffee",
+      "context": "A specialty coffee brand located in Colombia.",
+      "timestamp": 3.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "Forma",
+      "is_api": false,
+      "timestamp": 540.0
+    },
+    {
+      "name": "APS",
+      "is_api": false,
+      "timestamp": 780.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "Generative Design",
+      "category": "llm",
+      "context": "AI recommending tree layouts using generative design.",
+      "timestamp": 1270.0
+    }
+  ],
+  "summary": "The video discusses integrating advanced digital design and traditional agriculture to create climate-resilient agroforestry. It demonstrates using Autodesk Forma and APS for simulating shadow coverage on a coffee farm and collecting field data to optimize agricultural practices. The goal is to create data-driven, climate-resistant systems for improved agricultural sustainability.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:52:30.276724+00:00"
+}

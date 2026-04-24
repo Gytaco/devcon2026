@@ -1,0 +1,101 @@
+{
+  "video_id": "Azpc8l69S4M",
+  "demo_timestamps": [
+    {
+      "start": 5.0,
+      "end": 12.0,
+      "description": "Introduction to session - APS and AI for large-scale project delivery"
+    },
+    {
+      "start": 27.0,
+      "end": 120.0,
+      "description": "Explanation of project deliverables and challenges in AEC projects"
+    },
+    {
+      "start": 300.0,
+      "end": 360.0,
+      "description": "Demonstration of defining deliverables and supporting tools"
+    },
+    {
+      "start": 540.0,
+      "end": 600.0,
+      "description": "Centralization of deliverables using MongoDB and implementation in a real project"
+    },
+    {
+      "start": 844.0,
+      "end": 900.0,
+      "description": "Quality control and exporting automation for deliverables"
+    },
+    {
+      "start": 1040.0,
+      "end": 1140.0,
+      "description": "Integration of AI for insights and predictions"
+    },
+    {
+      "start": 1093.0,
+      "end": 1192.0,
+      "description": "AI model processes a user query about missing electrical scope details"
+    },
+    {
+      "start": 1192.0,
+      "end": 1202.0,
+      "description": "User asks AI for floor plans that need review in architectural scope"
+    }
+  ],
+  "themes": [
+    "Large-scale project delivery using APS and AI",
+    "Centralization and automation of deliverables in AEC projects",
+    "AI-assisted project delivery",
+    "Automation in construction documentation"
+  ],
+  "client_mentions": [
+    {
+      "name": "Dresund Somer",
+      "context": "Terrell Menesys works as an expert in tools development and automation workflows",
+      "timestamp": 0.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "Autodesk Platform Services",
+      "is_api": true,
+      "timestamp": 794.0
+    },
+    {
+      "name": "Autodesk Forma",
+      "is_api": false,
+      "timestamp": 480.0
+    },
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 793.0
+    },
+    {
+      "name": "Design Automation API",
+      "is_api": true,
+      "timestamp": 615.0
+    },
+    {
+      "name": "AEC Data Model API",
+      "is_api": true,
+      "timestamp": 837.0
+    },
+    {
+      "name": "APS",
+      "is_api": false,
+      "timestamp": 1292.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "GPT-4",
+      "category": "llm",
+      "context": "Used for parsing user queries and providing analysis",
+      "timestamp": 1128.0
+    }
+  ],
+  "summary": "The video explores how Autodesk Platform Services (APS) and AI, including GPT-4, can streamline large-scale AEC project delivery by centralizing and automating deliverables. It addresses challenges in managing deliverables and shows how these technologies enhance control and automate repetitive tasks, allowing users to focus on more intellectual aspects of project management.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:50:00.853853+00:00"
+}

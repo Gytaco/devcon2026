@@ -1,0 +1,1063 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.16,
+      "text": "Welcome everyone for the Bosch presentation of building digital twins in the Autodesk.com",
+      "words": []
+    },
+    {
+      "start": 7.16,
+      "end": 8.16,
+      "text": "2026.",
+      "words": []
+    },
+    {
+      "start": 8.16,
+      "end": 15.56,
+      "text": "Today we are talking about how we use open building services reference OBSR in the",
+      "words": []
+    },
+    {
+      "start": 15.56,
+      "end": 21.6,
+      "text": "chart with the help of Autodesk and the collaboration with Autodesk and Bosch and explain",
+      "words": []
+    },
+    {
+      "start": 21.6,
+      "end": 24.48,
+      "text": "what we achieved with this.",
+      "words": []
+    },
+    {
+      "start": 24.48,
+      "end": 26.28,
+      "text": "So here's the short agenda.",
+      "words": []
+    },
+    {
+      "start": 27.0,
+      "end": 29.880000000000003,
+      "text": "I go to Sunai will introduce ourselves.",
+      "words": []
+    },
+    {
+      "start": 29.880000000000003,
+      "end": 34.68,
+      "text": "We go through the strategic partnership between Bosch and Autodesk.",
+      "words": []
+    },
+    {
+      "start": 34.68,
+      "end": 40.400000000000006,
+      "text": "We also explain what the initial motivation for this collaboration is and what is open",
+      "words": []
+    },
+    {
+      "start": 40.400000000000006,
+      "end": 46.120000000000005,
+      "text": "building services reference and we also have a demo prepared where we show how we utilize",
+      "words": []
+    },
+    {
+      "start": 46.120000000000005,
+      "end": 50.52,
+      "text": "it.",
+      "words": []
+    },
+    {
+      "start": 50.52,
+      "end": 57.080000000000005,
+      "text": "So I myself Alvar and a senior solution architect with Bosch building technologies located",
+      "words": []
+    },
+    {
+      "start": 57.080000000000005,
+      "end": 62.36,
+      "text": "in Munich and very excited for the DevCon when you 26 in Amsterdam.",
+      "words": []
+    },
+    {
+      "start": 62.36,
+      "end": 67.04,
+      "text": "I had it all Augustus.",
+      "words": []
+    },
+    {
+      "start": 67.04,
+      "end": 68.04,
+      "text": "Thanks.",
+      "words": []
+    },
+    {
+      "start": 68.04,
+      "end": 73.48,
+      "text": "I'm also a senior architect at Bosch since a few years besides this first tech development",
+      "words": []
+    },
+    {
+      "start": 73.48,
+      "end": 79.28,
+      "text": "with the back-on and spatial data processing that applications and supply chain security",
+      "words": []
+    },
+    {
+      "start": 79.28,
+      "end": 82.0,
+      "text": "and then happy to be here with you.",
+      "words": []
+    },
+    {
+      "start": 82.0,
+      "end": 83.0,
+      "text": "Okay.",
+      "words": []
+    },
+    {
+      "start": 83.0,
+      "end": 87.36,
+      "text": "So let's talk about the strategic partnership between Bosch and Autodesk.",
+      "words": []
+    },
+    {
+      "start": 87.36,
+      "end": 89.6,
+      "text": "First of all Bosch is a big company.",
+      "words": []
+    },
+    {
+      "start": 89.6,
+      "end": 96.4,
+      "text": "We have several business sectors including mobility, industrial technology, consumer goods",
+      "words": []
+    },
+    {
+      "start": 96.4,
+      "end": 98.84,
+      "text": "and the energy and building technologies.",
+      "words": []
+    },
+    {
+      "start": 98.84,
+      "end": 104.96000000000001,
+      "text": "We belong to the energy and building technologies where we care about buildings and the energy",
+      "words": []
+    },
+    {
+      "start": 104.96000000000001,
+      "end": 108.84,
+      "text": "these buildings consume.",
+      "words": []
+    },
+    {
+      "start": 108.84,
+      "end": 114.72,
+      "text": "These building consists of heating ventilation air conditioning, fire alarm systems and",
+      "words": []
+    },
+    {
+      "start": 114.72,
+      "end": 116.64,
+      "text": "various other domains.",
+      "words": []
+    },
+    {
+      "start": 116.64,
+      "end": 125.52000000000001,
+      "text": "So we have a natural fit with what Autodesk supports us in these building domains.",
+      "words": []
+    },
+    {
+      "start": 125.52000000000001,
+      "end": 131.44,
+      "text": "So here in this slide what you see is what is it Bosch brings into the table and what",
+      "words": []
+    },
+    {
+      "start": 131.44,
+      "end": 137.6,
+      "text": "is it Autodesk brings into the table into this joint collaboration.",
+      "words": []
+    },
+    {
+      "start": 137.6,
+      "end": 140.0,
+      "text": "This of course has the ACC docs.",
+      "words": []
+    },
+    {
+      "start": 140.0,
+      "end": 142.4,
+      "text": "Now it is called as FERMA.",
+      "words": []
+    },
+    {
+      "start": 142.4,
+      "end": 148.79999999999998,
+      "text": "AC data model which helps us to bring hierarchical data of the building elements and also manipulate",
+      "words": []
+    },
+    {
+      "start": 148.79999999999998,
+      "end": 150.32,
+      "text": "them.",
+      "words": []
+    },
+    {
+      "start": 150.32,
+      "end": 156.28,
+      "text": "Autodesk platform services where we have the viewer, the model derivatives, the APIs as well",
+      "words": []
+    },
+    {
+      "start": 156.28,
+      "end": 164.79999999999998,
+      "text": "as the Autodesk rabbit files which help us to standardize building plannings.",
+      "words": []
+    },
+    {
+      "start": 164.8,
+      "end": 167.68,
+      "text": "On the other hand we are building the onboarding code.",
+      "words": []
+    },
+    {
+      "start": 167.68,
+      "end": 174.24,
+      "text": "Like it is an AI agentic process for orchestrating building onboarding.",
+      "words": []
+    },
+    {
+      "start": 174.24,
+      "end": 180.92000000000002,
+      "text": "Anthology central it is a domains ontologies domain standardization of various building",
+      "words": []
+    },
+    {
+      "start": 180.92000000000002,
+      "end": 185.20000000000002,
+      "text": "domains as well as the foundation.",
+      "words": []
+    },
+    {
+      "start": 185.20000000000002,
+      "end": 190.60000000000002,
+      "text": "Visualization libraries and templates which you will see later in during our demo as well",
+      "words": []
+    },
+    {
+      "start": 190.6,
+      "end": 197.6,
+      "text": "as patented dime concepts where domain inside expert models, domain expert inside models",
+      "words": []
+    },
+    {
+      "start": 197.6,
+      "end": 206.04,
+      "text": "where we bring in intelligent detection of what is going on within the building.",
+      "words": []
+    },
+    {
+      "start": 206.04,
+      "end": 209.07999999999998,
+      "text": "And what do we do with the joint development?",
+      "words": []
+    },
+    {
+      "start": 209.07999999999998,
+      "end": 213.07999999999998,
+      "text": "We are co-creating the OBSR process.",
+      "words": []
+    },
+    {
+      "start": 213.07999999999998,
+      "end": 216.16,
+      "text": "We have tested it and validated it together.",
+      "words": []
+    },
+    {
+      "start": 216.16,
+      "end": 225.96,
+      "text": "We are also collaborating in terms of the 2D and 3D model creation with various input formats",
+      "words": []
+    },
+    {
+      "start": 225.96,
+      "end": 230.12,
+      "text": "and we are in strategic exchanges and guidance and roadmap environment which is on the",
+      "words": []
+    },
+    {
+      "start": 230.12,
+      "end": 231.92,
+      "text": "go-aic.",
+      "words": []
+    },
+    {
+      "start": 231.92,
+      "end": 240.92,
+      "text": "So this is our joint work that we would like to present here today during the dev car.",
+      "words": []
+    },
+    {
+      "start": 240.92,
+      "end": 246.64,
+      "text": "Now I hand it over to Augustus to explain what is our current market situation and why",
+      "words": []
+    },
+    {
+      "start": 246.64,
+      "end": 249.35999999999999,
+      "text": "do we do what we do?",
+      "words": []
+    },
+    {
+      "start": 249.35999999999999,
+      "end": 256.12,
+      "text": "Well, it is gladly supporting its partners in 360 degree lifecycle.",
+      "words": []
+    },
+    {
+      "start": 256.12,
+      "end": 262.28,
+      "text": "We support the customers from the very beginning of the journey that they have with their buildings.",
+      "words": []
+    },
+    {
+      "start": 262.28,
+      "end": 267.59999999999997,
+      "text": "That is if they want to we would support them with designing and construction of the building",
+      "words": []
+    },
+    {
+      "start": 268.6,
+      "end": 277.12,
+      "text": "Bosch BT Acting Ascent Operator would also support with the installation and configure of the building",
+      "words": []
+    },
+    {
+      "start": 277.12,
+      "end": 284.32000000000005,
+      "text": "that specifically includes all the domain specific fields.",
+      "words": []
+    },
+    {
+      "start": 284.32000000000005,
+      "end": 289.36,
+      "text": "Then we would operate the building together with the customer, do maintenance and especially",
+      "words": []
+    },
+    {
+      "start": 289.36,
+      "end": 296.56,
+      "text": "predictive maintenance and then once the building needs to be replaced, recycling,",
+      "words": []
+    },
+    {
+      "start": 296.56,
+      "end": 299.52,
+      "text": "refurbished, you can also step in there.",
+      "words": []
+    },
+    {
+      "start": 299.52,
+      "end": 306.36,
+      "text": "We identify the bunch of cases and key use cases that we support with and this is in",
+      "words": []
+    },
+    {
+      "start": 306.36,
+      "end": 312.36,
+      "text": "response to the market dynamics that we are seeing and we want to provide a premium experience",
+      "words": []
+    },
+    {
+      "start": 312.36,
+      "end": 315.24,
+      "text": "to our customers via the next host base platform.",
+      "words": []
+    },
+    {
+      "start": 315.24,
+      "end": 320.36,
+      "text": "This is our digital services that we have.",
+      "words": []
+    },
+    {
+      "start": 321.36,
+      "end": 327.36,
+      "text": "This aims to add value for the client by emphasizing the IntellectGent Business Operations",
+      "words": []
+    },
+    {
+      "start": 327.36,
+      "end": 334.36,
+      "text": "and to provide improved safety, comfort and energy efficiency for our customers.",
+      "words": []
+    },
+    {
+      "start": 336.36,
+      "end": 343.36,
+      "text": "And the cases that we are focusing on are the smart buildings that drives the data",
+      "words": []
+    },
+    {
+      "start": 344.36,
+      "end": 347.36,
+      "text": "and the data gets the telemetry and allows us to the analytics.",
+      "words": []
+    },
+    {
+      "start": 347.36,
+      "end": 353.36,
+      "text": "Then for the domain specific services, one of the main focus here is the Fire Alarm Systems",
+      "words": []
+    },
+    {
+      "start": 353.36,
+      "end": 362.36,
+      "text": "where we manufacture the detectors, dimension detection systems, install them and also have",
+      "words": []
+    },
+    {
+      "start": 362.36,
+      "end": 366.36,
+      "text": "digital services to identify the operations of this.",
+      "words": []
+    },
+    {
+      "start": 366.36,
+      "end": 372.36,
+      "text": "We also identify the Spais and Energy Management as a key area where we have the energy",
+      "words": []
+    },
+    {
+      "start": 373.36,
+      "end": 379.36,
+      "text": "use to make the building more efficient, louder building size to potentially reduce",
+      "words": []
+    },
+    {
+      "start": 379.36,
+      "end": 383.36,
+      "text": "or improve the utility of the building with the same flow space.",
+      "words": []
+    },
+    {
+      "start": 383.36,
+      "end": 390.36,
+      "text": "Security and navigation is also a big area where we monitor the building and bring in regards",
+      "words": []
+    },
+    {
+      "start": 390.36,
+      "end": 392.36,
+      "text": "to intrusion detection.",
+      "words": []
+    },
+    {
+      "start": 394.36,
+      "end": 400.36,
+      "text": "What we need to know that all of this solutions here are not all, but most of the solutions",
+      "words": []
+    },
+    {
+      "start": 400.36,
+      "end": 405.36,
+      "text": "that we need to work with, brownfield building as well because this is the main areas",
+      "words": []
+    },
+    {
+      "start": 405.36,
+      "end": 409.36,
+      "text": "or main type of buildings that our customers have.",
+      "words": []
+    },
+    {
+      "start": 409.36,
+      "end": 414.36,
+      "text": "So we have four key pillars that underlie all of our digital services,",
+      "words": []
+    },
+    {
+      "start": 414.36,
+      "end": 418.36,
+      "text": "which is connectivity between the devices and cloud.",
+      "words": []
+    },
+    {
+      "start": 418.36,
+      "end": 424.36,
+      "text": "It's the building digital fields, the time series and simulation of building conditions.",
+      "words": []
+    },
+    {
+      "start": 424.36,
+      "end": 429.36,
+      "text": "So for the connectivity, there's a vast range of different protocols that we need to support",
+      "words": []
+    },
+    {
+      "start": 429.36,
+      "end": 436.36,
+      "text": "and unify so that downstream business services can build based analytics on top of something",
+      "words": []
+    },
+    {
+      "start": 436.36,
+      "end": 439.36,
+      "text": "already generalized.",
+      "words": []
+    },
+    {
+      "start": 439.36,
+      "end": 445.36,
+      "text": "Then the building digital twins, they capture the meaning of specific building elements.",
+      "words": []
+    },
+    {
+      "start": 445.36,
+      "end": 450.36,
+      "text": "We do this by enriching the bit model with our ontology,",
+      "words": []
+    },
+    {
+      "start": 450.36,
+      "end": 456.36,
+      "text": "thereby giving it a standardized language in which then downstream services can work.",
+      "words": []
+    },
+    {
+      "start": 456.36,
+      "end": 460.36,
+      "text": "For our time series and predictive maintenance, we collect telemetry,",
+      "words": []
+    },
+    {
+      "start": 460.36,
+      "end": 463.36,
+      "text": "we do calculations based on top of it.",
+      "words": []
+    },
+    {
+      "start": 463.36,
+      "end": 469.36,
+      "text": "We have a comparison with these ideal conditions so that we know when something arrives",
+      "words": []
+    },
+    {
+      "start": 469.36,
+      "end": 476.36,
+      "text": "from the ideal status, what needs to be the predicted reaction to bring it back to an ideal state.",
+      "words": []
+    },
+    {
+      "start": 476.36,
+      "end": 481.36,
+      "text": "And this can be done by an agentic systems or also by manual intervention.",
+      "words": []
+    },
+    {
+      "start": 481.36,
+      "end": 483.36,
+      "text": "Thank you all for this.",
+      "words": []
+    },
+    {
+      "start": 483.36,
+      "end": 488.36,
+      "text": "What we see here is the open building services reference in its full glory.",
+      "words": []
+    },
+    {
+      "start": 488.36,
+      "end": 496.36,
+      "text": "It has various aspects which will go through one by one in the next coming section.",
+      "words": []
+    },
+    {
+      "start": 496.36,
+      "end": 499.36,
+      "text": "So we are dealing with real buildings.",
+      "words": []
+    },
+    {
+      "start": 499.36,
+      "end": 507.36,
+      "text": "The OBSR was unveiled during the Autodesk DevCon by our chief architect, Andreas Mawa.",
+      "words": []
+    },
+    {
+      "start": 507.36,
+      "end": 512.36,
+      "text": "We deal with real buildings which have which have a variety of nature.",
+      "words": []
+    },
+    {
+      "start": 512.36,
+      "end": 517.36,
+      "text": "For example, there are officers, the airports, the malls, there are even small smart cities.",
+      "words": []
+    },
+    {
+      "start": 517.36,
+      "end": 521.36,
+      "text": "And we also, these buildings are installed with various domains.",
+      "words": []
+    },
+    {
+      "start": 521.36,
+      "end": 528.36,
+      "text": "For example, HVAC domains, fire alarms or energy related domains are onboarded in these buildings.",
+      "words": []
+    },
+    {
+      "start": 528.36,
+      "end": 532.36,
+      "text": "We need to serve these building with digital solutions.",
+      "words": []
+    },
+    {
+      "start": 532.36,
+      "end": 536.36,
+      "text": "Building digitalization is very important for us.",
+      "words": []
+    },
+    {
+      "start": 536.36,
+      "end": 543.36,
+      "text": "For onboarding such buildings to our digital solutions, we receive various types of info metals.",
+      "words": []
+    },
+    {
+      "start": 543.36,
+      "end": 547.36,
+      "text": "This can be 2D DWG files, 3D BIM drawings.",
+      "words": []
+    },
+    {
+      "start": 547.36,
+      "end": 557.36,
+      "text": "They can be PDFs or various different documents that we receive for onboarding these buildings.",
+      "words": []
+    },
+    {
+      "start": 557.36,
+      "end": 566.36,
+      "text": "At BT, we strive for standardization by either defining the ontologies of these domains ourselves.",
+      "words": []
+    },
+    {
+      "start": 566.36,
+      "end": 575.36,
+      "text": "Or in case there is open standard available, we reuse them for ontological purposes.",
+      "words": []
+    },
+    {
+      "start": 575.36,
+      "end": 582.36,
+      "text": "We have also defined remote connectivity specifications as standardizations",
+      "words": []
+    },
+    {
+      "start": 582.36,
+      "end": 590.36,
+      "text": "so that we can seamlessly connect these buildings and receive the data from these various domains.",
+      "words": []
+    },
+    {
+      "start": 590.36,
+      "end": 600.36,
+      "text": "Being in domains such as fire alarm systems, intrusion systems, we need to also adhere to various governing principles.",
+      "words": []
+    },
+    {
+      "start": 600.36,
+      "end": 609.36,
+      "text": "These are, for example, the obvious ISO or ESG standards that we need to get out to and adhere to.",
+      "words": []
+    },
+    {
+      "start": 609.36,
+      "end": 616.36,
+      "text": "These are the main aspects that we are dealing with in terms of the building.",
+      "words": []
+    },
+    {
+      "start": 616.36,
+      "end": 628.36,
+      "text": "As Augusto's alluded upon earlier, all these domains are connected or able to connect with a plot of protocols,",
+      "words": []
+    },
+    {
+      "start": 628.36,
+      "end": 632.36,
+      "text": "a backnet, OPC, UA, Modbus and so on.",
+      "words": []
+    },
+    {
+      "start": 632.36,
+      "end": 647.36,
+      "text": "We need to establish the connectivity from the buildings to our cloud solutions for which we partner with hyposcalers such as Azure and AWS.",
+      "words": []
+    },
+    {
+      "start": 647.36,
+      "end": 664.36,
+      "text": "We receive a lot of data, so we need to be able to manage this data in the data fabric by centralizing the telemetry and the time series data and the knowledge graphs that make up the building to enable our digital services.",
+      "words": []
+    },
+    {
+      "start": 665.36,
+      "end": 687.36,
+      "text": "The main centerpiece is our intelligent onboarding co-pilot which automates a lot of the tasks of int needed for bringing brown-sealed and green-field buildings into a digital connectivity platform and serve the IoT business services that you will see next.",
+      "words": []
+    },
+    {
+      "start": 688.36,
+      "end": 694.36,
+      "text": "So we need to operate the building which means we need to capture the buildings as digital twins.",
+      "words": []
+    },
+    {
+      "start": 694.36,
+      "end": 706.36,
+      "text": "We need to be able to configure the buildings and have system maps of the buildings so that users of the building are easily navigating inside the digital space.",
+      "words": []
+    },
+    {
+      "start": 706.36,
+      "end": 719.36,
+      "text": "On the build on top of that are the IoT service products for our fire system analyzer is one of the examples we have many of them which provide several benefits for our end customers.",
+      "words": []
+    },
+    {
+      "start": 719.36,
+      "end": 733.36,
+      "text": "This is in a nutshell what OBSR is to explain the process through which we utilize this OBSR I will hand it over back to our hostels.",
+      "words": []
+    },
+    {
+      "start": 734.36,
+      "end": 742.36,
+      "text": "So the OBSR process is comprised of various different steps that you work iteratively.",
+      "words": []
+    },
+    {
+      "start": 742.36,
+      "end": 746.36,
+      "text": "It can also work in a loop to improve the models over time.",
+      "words": []
+    },
+    {
+      "start": 746.36,
+      "end": 752.36,
+      "text": "But let's look into the main areas here in more detail.",
+      "words": []
+    },
+    {
+      "start": 753.36,
+      "end": 765.36,
+      "text": "So when we get information models from clients either in tenders or with existing clients they would provide us whatever is available to them.",
+      "words": []
+    },
+    {
+      "start": 765.36,
+      "end": 778.36,
+      "text": "This could be say paper map for old buildings could be various non-structured digital formats but could also be some drawings or even bin models.",
+      "words": []
+    },
+    {
+      "start": 779.36,
+      "end": 796.36,
+      "text": "Now the big challenge is that this is kind of a wild west we don't know what is what how to process what and it's then obviously taking quite a lot of time to do the onboarding if you do it in an additional additional way that is manually.",
+      "words": []
+    },
+    {
+      "start": 797.36,
+      "end": 812.36,
+      "text": "So we are building the onboarding co-pilot that orchestrates how to come from this non-structured data models to some sort of structure some sort of a standardized that we can then build on top of.",
+      "words": []
+    },
+    {
+      "start": 812.36,
+      "end": 822.36,
+      "text": "So the onboarding co-pilot takes the information models ensures that it satisfies a certain baseline.",
+      "words": []
+    },
+    {
+      "start": 822.36,
+      "end": 838.36,
+      "text": "It wants to look at the elements from the information models to figure out the meaning of it by figuring out the meaning it can establish a connection between our ontologies and the elements from the bin models.",
+      "words": []
+    },
+    {
+      "start": 838.36,
+      "end": 848.36,
+      "text": "To make the semantics available to the downstream services and that is regardless of what the customer was able to provide.",
+      "words": []
+    },
+    {
+      "start": 849.36,
+      "end": 857.36,
+      "text": "To do this we use agent existence to do the classification into ontology binding.",
+      "words": []
+    },
+    {
+      "start": 857.36,
+      "end": 874.36,
+      "text": "This can happen on top of an existing bin model or if this is not available we would retrospectively recreate a bin model and feed it back into the information model space so that we can iteratively improve on this and establish a bin model.",
+      "words": []
+    },
+    {
+      "start": 875.36,
+      "end": 895.36,
+      "text": "What also comes with this is that we have certain visualization library available where we then can build domain specific visualizations that allows our users to focus on the tasks at hand that they have the domain specific systems.",
+      "words": []
+    },
+    {
+      "start": 896.36,
+      "end": 924.36,
+      "text": "So once we establish the sum sort of ontology binding we can describe this in terms of our ontology we will make this available as digital twins meaning that the elements from the bin would then be available in the form of various API's and knowledge graphs.",
+      "words": []
+    },
+    {
+      "start": 925.36,
+      "end": 932.36,
+      "text": "So that humans can consume this downstream services can consume this and also agent existence can consume this.",
+      "words": []
+    },
+    {
+      "start": 932.36,
+      "end": 946.36,
+      "text": "So it's like a unified view that would then work across different incoming information models so that they are processable in the very same way which makes all the dance think process more efficient.",
+      "words": []
+    },
+    {
+      "start": 947.36,
+      "end": 975.36,
+      "text": "This also allows that we employ the concept of the dimes dimes is the main expert inside models that model the knowledge of our human in expats in terms of some sort of algorithms which one depends on the use case and this allows us to use the knowledge that is already in house applied to at a bigger scale than you could do if you would do this only versions.",
+      "words": []
+    },
+    {
+      "start": 975.36,
+      "end": 984.36,
+      "text": "And this gives you then the basic input that you need for predictive maintenance of the building systems.",
+      "words": []
+    },
+    {
+      "start": 985.36,
+      "end": 1003.36,
+      "text": "What we also have is the feedback channel where we can take a user input and feed it back to reflect changes to either the usage of the buildings or desired conditions that should be reached for example think about that approach or set points.",
+      "words": []
+    },
+    {
+      "start": 1005.36,
+      "end": 1019.36,
+      "text": "You see in the diagram there's two loops one is the information model on boarding and continuous improvements and the other is the feedback loop that reflects back changes from the usage of the building.",
+      "words": []
+    },
+    {
+      "start": 1020.36,
+      "end": 1026.3600000000001,
+      "text": "So that we can continuously improve and make the operations of the building more efficient.",
+      "words": []
+    },
+    {
+      "start": 1028.3600000000001,
+      "end": 1031.3600000000001,
+      "text": "With that said, let's come to a demo.",
+      "words": []
+    },
+    {
+      "start": 1036.36,
+      "end": 1051.36,
+      "text": "This demo can only show a small aspect of the obvious are this is the building blocks that we want to highlight demo consumes the bill model which is in the form of a of a rapid file.",
+      "words": []
+    },
+    {
+      "start": 1052.36,
+      "end": 1070.36,
+      "text": "Then the data is on board it's semantics are extracted ontology is bound to the rapid model in forms of an overlay in what was the easy to dox before in this form are in future.",
+      "words": []
+    },
+    {
+      "start": 1071.36,
+      "end": 1092.36,
+      "text": "This is then a custom property that you would overlay on top of your of your bill model so that you can put your own data site on top and you do not need to include this in whoever delivers you the data because who process the data is not the same that we deliver so this is nice to have this overlay to assign the semantic meaning.",
+      "words": []
+    },
+    {
+      "start": 1092.36,
+      "end": 1119.36,
+      "text": "There's also the the twin which serves as a description of what the element means what so we can use this to visualize and to derive the wanted visualization and show the see the model in a simpler way so that the user is not distracted by too much complexity.",
+      "words": []
+    },
+    {
+      "start": 1123.36,
+      "end": 1131.36,
+      "text": "This is what a part of this bill model looks like if you look at it in the model browser of ACC docs.",
+      "words": []
+    },
+    {
+      "start": 1131.36,
+      "end": 1137.36,
+      "text": "Specifically this is now a certain compressor of a HVAC system.",
+      "words": []
+    },
+    {
+      "start": 1138.36,
+      "end": 1154.36,
+      "text": "It has a lot of properties which are coming with the with the bill model and depending on who would produce the bill model you would expect to see different classification schemes and use and different qualities of description.",
+      "words": []
+    },
+    {
+      "start": 1155.36,
+      "end": 1170.36,
+      "text": "The agent system would have a look at this and would then the right classify it to describe the same thing in terms of our ontologies so that we have a standard as link for all the downstream services.",
+      "words": []
+    },
+    {
+      "start": 1171.36,
+      "end": 1186.36,
+      "text": "Once this classification was done it's now the means of using the custom properties that ACC docs provide and this is the extension attributes.",
+      "words": []
+    },
+    {
+      "start": 1187.36,
+      "end": 1212.36,
+      "text": "So we know now we classified this thing as a nice red chiller element and we would use the graph crawl API that auto does provides to bring this overlay into existence and say in our own ontology that the certain model element from the bill model was digital.",
+      "words": []
+    },
+    {
+      "start": 1213.36,
+      "end": 1223.36,
+      "text": "Once you have this done then all the downstream services can use the classification chiller to ask for element that have this meaning.",
+      "words": []
+    },
+    {
+      "start": 1223.36,
+      "end": 1238.36,
+      "text": "This is a process that for the term of the demo was done manually to show you here how it's done in the technical detail and in future the automatic classification by an agent would do this action.",
+      "words": []
+    },
+    {
+      "start": 1243.36,
+      "end": 1264.36,
+      "text": "So in the demo you see that the APS viewer is in use that loads the bill model from ACC docs but only displays it partially so we remove a lot of elements which are not relevant to our HVAC use case that we show in the demo.",
+      "words": []
+    },
+    {
+      "start": 1265.36,
+      "end": 1271.36,
+      "text": "We highlight here the chillers as blue boxes and the VIV as the yellowish boxes.",
+      "words": []
+    },
+    {
+      "start": 1272.36,
+      "end": 1286.36,
+      "text": "So the chillers cooled down the air and the VIVs output them in the control output the air in a controlled way and all the rest of the complexity of the model is not relevant or the use case here.",
+      "words": []
+    },
+    {
+      "start": 1287.36,
+      "end": 1300.36,
+      "text": "So we intentionally simplify this view here and you could imagine that you would instead of displaying this boxes use domain specific elements to describe these things and have nice visualizations.",
+      "words": []
+    },
+    {
+      "start": 1307.36,
+      "end": 1313.36,
+      "text": "And if you fade over to what the model actually looks like looks like you see it's much more complex.",
+      "words": []
+    },
+    {
+      "start": 1314.36,
+      "end": 1324.36,
+      "text": "We have a high detail in the model but for the main specific task at hand it's kind of unwanted to have this complexity.",
+      "words": []
+    },
+    {
+      "start": 1325.36,
+      "end": 1331.36,
+      "text": "You can compare it with a metrostyle view of a tube network where you want to know where your stations are.",
+      "words": []
+    },
+    {
+      "start": 1332.36,
+      "end": 1337.36,
+      "text": "You want to know that there is a connection but you want them in a simplified way and it's the same here.",
+      "words": []
+    },
+    {
+      "start": 1337.36,
+      "end": 1349.36,
+      "text": "You have a specific problem and you want a visualization that aids you in solving your specific problem and gets rid of the elements which are just adding visual overload to it.",
+      "words": []
+    },
+    {
+      "start": 1349.36,
+      "end": 1369.36,
+      "text": "Here you see the elements placed in three dimensional space so that the user can look based on what they want to do.",
+      "words": []
+    },
+    {
+      "start": 1370.36,
+      "end": 1387.36,
+      "text": "So what you see here now with thank you for Augustus for showing you what demo now has already achieved this slide also shows you what we would have is net net as the next steps.",
+      "words": []
+    },
+    {
+      "start": 1388.36,
+      "end": 1410.36,
+      "text": "Distilled wins not just represent the individual HVAC units as boxes we also need to map all these elements that are located in the building are connected to one another which be a V is serving which room and what is the parent equipment that is providing the required.",
+      "words": []
+    },
+    {
+      "start": 1410.36,
+      "end": 1437.36,
+      "text": "Temperature element air handling units to the specific VAB so this diagram shows that we don't not just care about the equipment but also the relationship between the equipment and this is what the digital pen would help us to provide such a connection diagram which is exactly the metrostime map that Augustus was mentioning earlier.",
+      "words": []
+    },
+    {
+      "start": 1437.36,
+      "end": 1466.36,
+      "text": "So not just that the encased an equipment has a critical error this can directly be highlighted in the map and also the current values of the temperature the pressure that CO2 etc of that equipment can be directly visualized on the map giving a unified seamless experience and allowing our users to debug the problem which can actually occur.",
+      "words": []
+    },
+    {
+      "start": 1467.36,
+      "end": 1477.36,
+      "text": "So we are up the chain where the actual building is getting the heating ventilation related circuitry.",
+      "words": []
+    },
+    {
+      "start": 1478.36,
+      "end": 1495.36,
+      "text": "So this is what the demo shows about vision is coming up in the next slide where you see this is this would be our typical IOT business service cockpit this is our vision to have such a macro style map where the equipment are",
+      "words": []
+    },
+    {
+      "start": 1495.36,
+      "end": 1509.36,
+      "text": "low key and only serving specific domain needs not just that we can link it to the time series data that the equipment's produce but also an system explorer experience.",
+      "words": []
+    },
+    {
+      "start": 1509.36,
+      "end": 1527.36,
+      "text": "So this shows you a little bit of a sneak peek of what we are working on behind the stage and what is coming up from wash building technologies with the power of autonomous technologies for our customers and our services.",
+      "words": []
+    },
+    {
+      "start": 1530.36,
+      "end": 1532.36,
+      "text": "Thank you very much.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:43:22.191349+00:00"
+}

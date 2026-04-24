@@ -1,0 +1,709 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.0,
+      "text": "Hi everyone, welcome. My name is Christian Guessner, I'm a co-founder and head of research and innovation at Cool Orange.",
+      "words": []
+    },
+    {
+      "start": 6.0,
+      "end": 14.0,
+      "text": "In this lightning talk, you will hear about three systems, Autodesk Fusion, Fusion Manage Extension and Microsoft Business Central.",
+      "words": []
+    },
+    {
+      "start": 14.0,
+      "end": 20.0,
+      "text": "And what happened when a fast growing power electronics company finally made them work as well.",
+      "words": []
+    },
+    {
+      "start": 20.0,
+      "end": 28.0,
+      "text": "If you've ever watched an engineer copy data from a cat tool into an ERP system by hand entering part numbers, filling in fields,",
+      "words": []
+    },
+    {
+      "start": 28.0,
+      "end": 32.0,
+      "text": "one item at a time, this session is for you.",
+      "words": []
+    },
+    {
+      "start": 32.0,
+      "end": 36.0,
+      "text": "We need to avoid these costly inefficiencies.",
+      "words": []
+    },
+    {
+      "start": 36.0,
+      "end": 40.0,
+      "text": "That's Leon Google, process an engineering-leaded IQTech.",
+      "words": []
+    },
+    {
+      "start": 40.0,
+      "end": 46.0,
+      "text": "Before we build an integration, I asked him what they were fighting with and he didn't hesitate.",
+      "words": []
+    },
+    {
+      "start": 46.0,
+      "end": 53.0,
+      "text": "He told me that this isn't just a data problem, it's a trust problem between departments and between systems.",
+      "words": []
+    },
+    {
+      "start": 53.0,
+      "end": 63.0,
+      "text": "When one system doesn't trust the data from another, people compensate with manual processes and manual processes are where arrows live.",
+      "words": []
+    },
+    {
+      "start": 63.0,
+      "end": 69.0,
+      "text": "So before we talk about the solution, let me briefly introduce the customer behind this story.",
+      "words": []
+    },
+    {
+      "start": 69.0,
+      "end": 82.0,
+      "text": "IQTech is a power electronics startup founded in 2022 in N\u00fcrnberg, Germany and they built laser-welded SMD-based assemblies for harsh environments, high temperatures, vibration, moisture.",
+      "words": []
+    },
+    {
+      "start": 82.0,
+      "end": 86.0,
+      "text": "For industries where failure is not an option.",
+      "words": []
+    },
+    {
+      "start": 86.0,
+      "end": 90.0,
+      "text": "They're young, fast growing and innovation driven.",
+      "words": []
+    },
+    {
+      "start": 90.0,
+      "end": 94.0,
+      "text": "That means they don't have a large IT department or a month to build on infrastructure.",
+      "words": []
+    },
+    {
+      "start": 94.0,
+      "end": 97.0,
+      "text": "They need solutions that work right now.",
+      "words": []
+    },
+    {
+      "start": 97.0,
+      "end": 105.0,
+      "text": "And most importantly, their products operate in demanding environments, which means data traceability and consistency are not optional.",
+      "words": []
+    },
+    {
+      "start": 105.0,
+      "end": 110.0,
+      "text": "A wrong build materials or a duplicate part number doesn't just create administrative headaches.",
+      "words": []
+    },
+    {
+      "start": 110.0,
+      "end": 119.0,
+      "text": "It can affect reliability and compliance of the final product, so they take this seriously.",
+      "words": []
+    },
+    {
+      "start": 119.0,
+      "end": 126.0,
+      "text": "Now let me set the scene for you, because in most manufacturing companies there are two separate worlds.",
+      "words": []
+    },
+    {
+      "start": 126.0,
+      "end": 128.0,
+      "text": "The first world is engineering.",
+      "words": []
+    },
+    {
+      "start": 128.0,
+      "end": 133.0,
+      "text": "The fusion is where parts are designed, assemblies are built and models are validated.",
+      "words": []
+    },
+    {
+      "start": 133.0,
+      "end": 140.0,
+      "text": "The fusion man actually sends you handles the lifecycle, so approvals, change orders and compliance stages.",
+      "words": []
+    },
+    {
+      "start": 140.0,
+      "end": 148.0,
+      "text": "Now the second world is the ERP, in this case Microsoft Business Central, which manages purchasing, stock and production.",
+      "words": []
+    },
+    {
+      "start": 148.0,
+      "end": 154.0,
+      "text": "And it needs complete and accurate master data, so items and build materials from engineering.",
+      "words": []
+    },
+    {
+      "start": 154.0,
+      "end": 157.0,
+      "text": "Two critical systems and here's the problem.",
+      "words": []
+    },
+    {
+      "start": 157.0,
+      "end": 166.0,
+      "text": "The design team does cat design, other teams do ERP, and someone, a human, stands in a middle entrance lanes between them.",
+      "words": []
+    },
+    {
+      "start": 166.0,
+      "end": 172.0,
+      "text": "This translator is expensive, error pro, and should not exist.",
+      "words": []
+    },
+    {
+      "start": 172.0,
+      "end": 185.0,
+      "text": "And that translator at IQOTEC was a designer and was challenged with time consuming data entry tasks in the ERP system to create this complete and accurate ERP master data.",
+      "words": []
+    },
+    {
+      "start": 185.0,
+      "end": 195.0,
+      "text": "So for every single item, a part number needed to be cascaded with the revision, and the prefix created by the fusion managed extension needed to be removed.",
+      "words": []
+    },
+    {
+      "start": 195.0,
+      "end": 206.0,
+      "text": "Then a description, the material name, and the lifecycle and lifecycle state from fusion managed, as well as the physical properties, such as mass or volume, needed to be entered.",
+      "words": []
+    },
+    {
+      "start": 206.0,
+      "end": 210.0,
+      "text": "That was a huge part, but that was not all.",
+      "words": []
+    },
+    {
+      "start": 210.0,
+      "end": 216.0,
+      "text": "Before the integration was spilled, here's what daily life looked at like at IQOTEC.",
+      "words": []
+    },
+    {
+      "start": 216.0,
+      "end": 221.0,
+      "text": "Designers would finish a part in fusion, and then the ERP was only half done.",
+      "words": []
+    },
+    {
+      "start": 221.0,
+      "end": 227.0,
+      "text": "They had to go to Business Central and manually create the item, one by one per item.",
+      "words": []
+    },
+    {
+      "start": 227.0,
+      "end": 233.0,
+      "text": "Leon told me that a single item creation took about 10 minutes. That doesn't sound like much.",
+      "words": []
+    },
+    {
+      "start": 233.0,
+      "end": 241.0,
+      "text": "Until you're doing it for every component in a complex electronics assembly, a designer simply didn't have time for it.",
+      "words": []
+    },
+    {
+      "start": 241.0,
+      "end": 257.0,
+      "text": "And the build materials, even worse, when a product had many components transferring the foldable material to the ERP, could take up to two hours, two hours of copy paste work for someone who had far more valuable things to do.",
+      "words": []
+    },
+    {
+      "start": 257.0,
+      "end": 267.0,
+      "text": "In the result, designers rushed through the item creation and made costly mistakes, and that's where the real problems started.",
+      "words": []
+    },
+    {
+      "start": 267.0,
+      "end": 272.0,
+      "text": "The consequences were predictable, but that doesn't make them less painful.",
+      "words": []
+    },
+    {
+      "start": 272.0,
+      "end": 276.0,
+      "text": "Designers were acting as data translators instead of engineers.",
+      "words": []
+    },
+    {
+      "start": 276.0,
+      "end": 285.0,
+      "text": "When a designer created a part, but didn't fully set it up in the ERP, purchasing had to track down the missing information and complete the data entry themselves.",
+      "words": []
+    },
+    {
+      "start": 286.0,
+      "end": 289.0,
+      "text": "Purchasing people becoming data clerics.",
+      "words": []
+    },
+    {
+      "start": 289.0,
+      "end": 295.0,
+      "text": "And then you get duplicate items. Leon mentioned this several times, an M4 screw.",
+      "words": []
+    },
+    {
+      "start": 295.0,
+      "end": 303.0,
+      "text": "Something as simple as a screw could end up in 10 different item numbers in the ERP created by 10 different engineers at different times.",
+      "words": []
+    },
+    {
+      "start": 303.0,
+      "end": 311.0,
+      "text": "When nobody knows which number to use, you lose purchasing efficiency, you lose stock visibility, and you lose compliance.",
+      "words": []
+    },
+    {
+      "start": 312.0,
+      "end": 319.0,
+      "text": "In an industry where traceability matters, ERP and CAD data being out of sync is not just inconvenient.",
+      "words": []
+    },
+    {
+      "start": 319.0,
+      "end": 322.0,
+      "text": "It's a business risk, and it was growing.",
+      "words": []
+    },
+    {
+      "start": 324.0,
+      "end": 326.0,
+      "text": "It was time to find a solution.",
+      "words": []
+    },
+    {
+      "start": 326.0,
+      "end": 338.0,
+      "text": "And that solution needed to be as simple as possible to get the buy-in from the designers, and obviously needed to be reliable to satisfy the quality needs of the departments working in business central.",
+      "words": []
+    },
+    {
+      "start": 339.0,
+      "end": 346.0,
+      "text": "So we ended up with a solution where in the managed type infusion, there was a single button.",
+      "words": []
+    },
+    {
+      "start": 346.0,
+      "end": 353.0,
+      "text": "When that button is clicked, a window opens showing the cat bomb as full componentry, every part and subassembly.",
+      "words": []
+    },
+    {
+      "start": 353.0,
+      "end": 358.0,
+      "text": "And there are two simple buttons, check and transfer.",
+      "words": []
+    },
+    {
+      "start": 358.0,
+      "end": 367.0,
+      "text": "Check fetches the items and build materials from business central, and highlight the differences to the CAD items and forms.",
+      "words": []
+    },
+    {
+      "start": 368.0,
+      "end": 373.0,
+      "text": "The transfer synchronizes all items and the complete build materials structure to business central.",
+      "words": []
+    },
+    {
+      "start": 373.0,
+      "end": 384.0,
+      "text": "And behind the scenes, we have a tiny fusion adding for the button and the dialog, and the web application connected to Fusions Cloud data and to business central.",
+      "words": []
+    },
+    {
+      "start": 385.0,
+      "end": 396.0,
+      "text": "Now let me show you what this actually looks like in practice, and to protect ISIQ, ISIQ, IP's, I use a bike frame demo assembly and not their data.",
+      "words": []
+    },
+    {
+      "start": 397.0,
+      "end": 404.0,
+      "text": "So what we see here in this video is the list of items in business central, and we look for bike frame and we don't find anything here.",
+      "words": []
+    },
+    {
+      "start": 404.0,
+      "end": 410.0,
+      "text": "And we do the same for the build materials, we search for bike frame and cannot find anything.",
+      "words": []
+    },
+    {
+      "start": 410.0,
+      "end": 416.0,
+      "text": "So this is where integration starts now. In Fusion, we have this ERP bomb button.",
+      "words": []
+    },
+    {
+      "start": 416.0,
+      "end": 422.0,
+      "text": "And when this is clicked, the user needs to authenticate using the Autodesk ID. This is done once.",
+      "words": []
+    },
+    {
+      "start": 422.0,
+      "end": 425.0,
+      "text": "Right after that, Fusion knows about credentials.",
+      "words": []
+    },
+    {
+      "start": 426.0,
+      "end": 431.0,
+      "text": "And once authenticated, it uses the manufacturing data API to fetch all the data.",
+      "words": []
+    },
+    {
+      "start": 431.0,
+      "end": 440.0,
+      "text": "So the build materials structure, as well as physical properties and the positions, quantities and thumbnails.",
+      "words": []
+    },
+    {
+      "start": 440.0,
+      "end": 447.0,
+      "text": "There is the check button, we see thumbnails get bigger when you hold them. So it's quite convenient inside of this dialog.",
+      "words": []
+    },
+    {
+      "start": 447.0,
+      "end": 454.0,
+      "text": "Now, when the user clicks check, it finds out that none of the items exist nor the build materials.",
+      "words": []
+    },
+    {
+      "start": 454.0,
+      "end": 462.0,
+      "text": "So the user can click transfer, and the system, the integration, now creates all the items with the right property mappings.",
+      "words": []
+    },
+    {
+      "start": 462.0,
+      "end": 470.0,
+      "text": "And also once the items are finished, creates the build materials with the right positions and the right quantities.",
+      "words": []
+    },
+    {
+      "start": 471.0,
+      "end": 480.0,
+      "text": "Right and over in the ERP system, if we search for the bike frame once again in the items list, we're going to find the bike frame.",
+      "words": []
+    },
+    {
+      "start": 481.0,
+      "end": 484.0,
+      "text": "And of course all this sub components of the bike frame.",
+      "words": []
+    },
+    {
+      "start": 484.0,
+      "end": 491.0,
+      "text": "And we see that there is the metadata such as number and description filled out. There is a nice picture displayed in Business Central.",
+      "words": []
+    },
+    {
+      "start": 491.0,
+      "end": 498.0,
+      "text": "And there are the physical properties displayed. Right. All this information got magically added to Business Central.",
+      "words": []
+    },
+    {
+      "start": 499.0,
+      "end": 510.0,
+      "text": "Same for the build materials. So we see the build material, the metadata, the header, and we see all the positions in that assembly with the right quantities and the right positions.",
+      "words": []
+    },
+    {
+      "start": 512.0,
+      "end": 519.0,
+      "text": "Same works for an existing item, right. If this if this build material existed in the Business Central, it just shows the differences.",
+      "words": []
+    },
+    {
+      "start": 520.0,
+      "end": 529.0,
+      "text": "What you can see here in this video is a couple of items have been added. There is a green plus icon indicating a new item is in that build material.",
+      "words": []
+    },
+    {
+      "start": 529.0,
+      "end": 540.0,
+      "text": "We also have items that have been updated. So descriptions can be changed or any other metadata could be changed in this case from L medium to steel.",
+      "words": []
+    },
+    {
+      "start": 540.0,
+      "end": 549.0,
+      "text": "And we also seen indicated that the build material got a new position or position removed or some quantities that have been changed or positions.",
+      "words": []
+    },
+    {
+      "start": 550.0,
+      "end": 561.0,
+      "text": "And with that transparency, designers can just click the transfer button. They know what's going on. And all this information get populated to Business Central.",
+      "words": []
+    },
+    {
+      "start": 563.0,
+      "end": 566.0,
+      "text": "So as simple as two buttons, but very efficient.",
+      "words": []
+    },
+    {
+      "start": 567.0,
+      "end": 582.0,
+      "text": "Let me walk you through how the integration works under the hood. The solution we build consists of two deliverables, the fusion add-in, written in Python, and a web application running locally at iQutac, written in C-sharp.",
+      "words": []
+    },
+    {
+      "start": 583.0,
+      "end": 592.0,
+      "text": "Now, when the cat designer finished the product, the managed extension creates item numbers and revisions and handles the complete lifecycle.",
+      "words": []
+    },
+    {
+      "start": 593.0,
+      "end": 602.0,
+      "text": "And then when the designer wants to hand over the finished product to Business Central, he doesn't need to switch applications, but just click the button in fusion.",
+      "words": []
+    },
+    {
+      "start": 603.0,
+      "end": 607.0,
+      "text": "This opens a window showing all items and the structure build of material.",
+      "words": []
+    },
+    {
+      "start": 609.0,
+      "end": 619.0,
+      "text": "At that time, the back end authenticates using the APS authentication API and queries all items in the build material structure using the manufacturing data model API.",
+      "words": []
+    },
+    {
+      "start": 620.0,
+      "end": 630.0,
+      "text": "When a user now clicks check, items and bombs are fetched from Business Central and the differences are highlighted in UI and from that.",
+      "words": []
+    },
+    {
+      "start": 631.0,
+      "end": 642.0,
+      "text": "And lastly, when a user clicks the transfer, all items and build materials are synchronized with the ERP using Business Central's O-Data API.",
+      "words": []
+    },
+    {
+      "start": 643.0,
+      "end": 646.0,
+      "text": "A simple solution that works very well.",
+      "words": []
+    },
+    {
+      "start": 647.0,
+      "end": 650.0,
+      "text": "And this is what changed with this integration.",
+      "words": []
+    },
+    {
+      "start": 651.0,
+      "end": 657.0,
+      "text": "So we have to one click transfer from fusion directly to Business Central, no manual data entry, no system switching.",
+      "words": []
+    },
+    {
+      "start": 658.0,
+      "end": 661.0,
+      "text": "The engineer doesn't need to open the ERP or even know how to create an item there.",
+      "words": []
+    },
+    {
+      "start": 662.0,
+      "end": 671.0,
+      "text": "Then we have standardized part numbers generated by the fusion managed extension and optimized by the integration, which leads to a consistent numbering across the entire organization.",
+      "words": []
+    },
+    {
+      "start": 672.0,
+      "end": 678.0,
+      "text": "And the time savings, item creation dropped from 10 minutes to under 60 seconds.",
+      "words": []
+    },
+    {
+      "start": 679.0,
+      "end": 685.0,
+      "text": "For a bill of materials with many components, what used to take two hours is now a single automated operation.",
+      "words": []
+    },
+    {
+      "start": 686.0,
+      "end": 696.0,
+      "text": "But beyond the time savings, and this is what Leon likes best, the data quality improvement changed the dynamic between departments, between teams.",
+      "words": []
+    },
+    {
+      "start": 696.0,
+      "end": 706.0,
+      "text": "Perched sync trusts the data and engineers feel like they've worked directly feeds the organization instead of creating more work for themselves and for someone else.",
+      "words": []
+    },
+    {
+      "start": 707.0,
+      "end": 711.0,
+      "text": "And numbers don't lie, so let me be concrete about the impact of this integration.",
+      "words": []
+    },
+    {
+      "start": 712.0,
+      "end": 724.0,
+      "text": "We have the item creation time from 10 minutes to under 60 seconds per item that's at 10 times improvement, multiplied it across every component in every product across a full development cycle.",
+      "words": []
+    },
+    {
+      "start": 725.0,
+      "end": 735.0,
+      "text": "And the full bill of material transfer, designers used to spend up to two hours transferring a complete bill of materials to business central.",
+      "words": []
+    },
+    {
+      "start": 736.0,
+      "end": 742.0,
+      "text": "That work is fully automated, not just faster but completely eliminated as a manual task.",
+      "words": []
+    },
+    {
+      "start": 743.0,
+      "end": 749.0,
+      "text": "The item, the duplicated part creation doesn't happen at all anymore.",
+      "words": []
+    },
+    {
+      "start": 749.0,
+      "end": 759.0,
+      "text": "And something that you can easily quantify is engineers feel like they're worked directly feeds the organization instead of creating more work.",
+      "words": []
+    },
+    {
+      "start": 760.0,
+      "end": 765.0,
+      "text": "That change in dynamic is real and it's what makes the return of investment sustainable.",
+      "words": []
+    },
+    {
+      "start": 769.0,
+      "end": 773.0,
+      "text": "And what I showed you is not the end, we are constantly improving the integration.",
+      "words": []
+    },
+    {
+      "start": 773.0,
+      "end": 786.0,
+      "text": "First, the fusion managed extension has been deprecated recently, so we are going to implement a full blown fusion managed PLM and establish supplier management, product introduction and quality management.",
+      "words": []
+    },
+    {
+      "start": 787.0,
+      "end": 795.0,
+      "text": "Then we are updating the front end to use the APS fewer, so the engineers get visual guidance when items and bombs are synchronized.",
+      "words": []
+    },
+    {
+      "start": 795.0,
+      "end": 805.0,
+      "text": "And we are also thinking about using the new APS machine translation API to let the backend translate descriptions in other languages.",
+      "words": []
+    },
+    {
+      "start": 808.0,
+      "end": 814.0,
+      "text": "And to wrap this up now, let me leave you with three things to take home from this session.",
+      "words": []
+    },
+    {
+      "start": 815.0,
+      "end": 819.0,
+      "text": "Number one, you don't need massive IT project to do this.",
+      "words": []
+    },
+    {
+      "start": 819.0,
+      "end": 829.0,
+      "text": "The entire integration was built using standard APIs, the manufacturing data model API, the authentication API, and business centrals or data before API.",
+      "words": []
+    },
+    {
+      "start": 830.0,
+      "end": 838.0,
+      "text": "Small development team, a fusion add-in, a lightweight backend, I think this is within reach of most for most manufacturing organizations.",
+      "words": []
+    },
+    {
+      "start": 839.0,
+      "end": 843.0,
+      "text": "Number two, the best automation is invisible.",
+      "words": []
+    },
+    {
+      "start": 843.0,
+      "end": 852.0,
+      "text": "From the engineers perspective, this is a button. They finish that design and click transfer. Zero learning curve, zero resistance.",
+      "words": []
+    },
+    {
+      "start": 853.0,
+      "end": 864.0,
+      "text": "And number three, and this is the most important one I think, the technology is the easy part. The real work is getting engineering, purchasing and production aligned on what clean data means.",
+      "words": []
+    },
+    {
+      "start": 865.0,
+      "end": 869.0,
+      "text": "For instance, what fields are required or who owns what?",
+      "words": []
+    },
+    {
+      "start": 869.0,
+      "end": 879.0,
+      "text": "Those are process conversations, not technology conversations. When you get that aligned right, the integration almost writes itself.",
+      "words": []
+    },
+    {
+      "start": 881.0,
+      "end": 897.0,
+      "text": "So, if you are working on cat to ERP integration challenges in your organization, whether it's fusion, inventor, vault or any other autos product, and whether your ERP is business central, SAP or something else, the patterns we've seen apply broadly.",
+      "words": []
+    },
+    {
+      "start": 897.0,
+      "end": 909.0,
+      "text": "Cool orange has built these connections across many customer environments, and we would love to talk to you about yours. So, feel free to reach out. Thank you and goodbye.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:50:32.265534+00:00"
+}

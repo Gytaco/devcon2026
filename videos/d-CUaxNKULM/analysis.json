@@ -1,0 +1,91 @@
+{
+  "video_id": "d-CUaxNKULM",
+  "demo_timestamps": [
+    {
+      "start": 317.0,
+      "end": 375.0,
+      "description": "Physical experiential walkthrough project with the Bentway showcasing an exhibition setup with screens and touchscreen for data interaction."
+    },
+    {
+      "start": 807.0,
+      "end": 947.0,
+      "description": "Virtual reality experiential walkthrough using Workshop XR, capturing data with VR devices, focusing on emotion and sentiment analysis from user interactions."
+    },
+    {
+      "start": 1162.0,
+      "end": 1173.0,
+      "description": "Demonstration of using Whisper for transcription and Facebook AI's Robert for emotion detection"
+    },
+    {
+      "start": 1173.0,
+      "end": 1205.0,
+      "description": "Description of the Experention Knowledge Graph and its components"
+    },
+    {
+      "start": 1205.0,
+      "end": 1248.0,
+      "description": "View and query the Experention Graph by emotions and artifacts"
+    },
+    {
+      "start": 1292.0,
+      "end": 1313.0,
+      "description": "Exploring experience data using a knowledge graph with a NCP server"
+    }
+  ],
+  "themes": [
+    "Simulation of human experience in design",
+    "Data-driven design processes",
+    "Physical vs. virtual experiential walkthroughs",
+    "Simulation of human experiences in design",
+    "Emotion recognition in digital environments",
+    "Knowledge graph for data representation"
+  ],
+  "client_mentions": [
+    {
+      "name": "The Bentway",
+      "context": "Collaboration on a project to capture human experience data using physical experiential walkthroughs.",
+      "timestamp": 379.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "Workshop XR",
+      "is_api": false,
+      "timestamp": 454.0
+    },
+    {
+      "name": "APS",
+      "is_api": false,
+      "timestamp": 11.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "Facebook AI's RoBERTa",
+      "category": "llm",
+      "context": "Used for sentiment analysis in a two-step approach with OpenAI's Whisper.",
+      "timestamp": 1045.0
+    },
+    {
+      "name": "OpenAI's Whisper",
+      "category": "llm",
+      "context": "Used as part of a two-step process for audio transcription.",
+      "timestamp": 1031.0
+    },
+    {
+      "name": "OpenAI Whisper",
+      "category": "other",
+      "context": "Used for audio transcription in emotion detection process",
+      "timestamp": 1169.0
+    },
+    {
+      "name": "Facebook AI Robert",
+      "category": "llm",
+      "context": "Used as an LLM for emotion detection after transcription with Whisper",
+      "timestamp": 1173.0
+    }
+  ],
+  "summary": "The video explores a new workflow for integrating human experience into design through Autodesk Platform Services (APS), featuring experiential walkthroughs using both physical setups and virtual reality. It employs AI technologies like OpenAI's Whisper for transcription and Facebook AI's LLM, Robert, for emotion detection, with outputs stored in an Experention Knowledge Graph, to enhance design insights by simulating human interactions in digital environments.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:20:10.414502+00:00"
+}

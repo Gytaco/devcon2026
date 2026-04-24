@@ -1,0 +1,63 @@
+{
+  "video_id": "SqmnPK57FAc",
+  "demo_timestamps": [
+    {
+      "start": 0.0,
+      "end": 0.0,
+      "description": "Introduction to Fabrics and overview of its platform capabilities"
+    },
+    {
+      "start": 0.02,
+      "end": 0.05,
+      "description": "Demo of measure repair via Autodesk Design Automation API"
+    },
+    {
+      "start": 0.06,
+      "end": 0.09,
+      "description": "Automatic build generation using Autodesk APS"
+    },
+    {
+      "start": 0.11,
+      "end": 0.18,
+      "description": "CNC quoting and simulation using machine learning and Autodesk APS"
+    }
+  ],
+  "themes": [
+    "Manufacturing Automation",
+    "AI-driven Efficiency",
+    "Digital Transformation"
+  ],
+  "client_mentions": [
+    {
+      "name": "HP",
+      "context": "Partnership with HP for integrating build sending and status tracking",
+      "timestamp": 0.1
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "AutoDESKPS",
+      "is_api": false,
+      "timestamp": 0.0
+    },
+    {
+      "name": "Design Automation API",
+      "is_api": true,
+      "timestamp": 0.04
+    },
+    {
+      "name": "APS",
+      "is_api": true,
+      "timestamp": 0.06
+    },
+    {
+      "name": "Autodesk feature extraction",
+      "is_api": false,
+      "timestamp": 0.14
+    }
+  ],
+  "ai_technologies": [],
+  "summary": "The video presents how Fabrics leverages Autodesk technology to automate and optimize manufacturing processes. It highlights use cases in measure repair, automatic build generation, and CNC quoting, showcasing significant time savings and efficiency improvements. Partnerships and integration with companies like HP are also discussed as part of Fabrics' solution offerings.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:30:29.237352+00:00"
+}

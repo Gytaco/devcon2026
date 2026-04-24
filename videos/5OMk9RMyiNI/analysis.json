@@ -1,0 +1,74 @@
+{
+  "video_id": "5OMk9RMyiNI",
+  "demo_timestamps": [
+    {
+      "start": 1665.0,
+      "end": 1710.0,
+      "description": "Explanation of technical room compliance services using AI, Autodesk Platform Services and AG Automation Platform."
+    }
+  ],
+  "themes": [
+    "Automated Compliance in BIM",
+    "AI Integration with Autodesk Platform",
+    "Automated Technical Room Compliance",
+    "AI and Machine Learning in Construction",
+    "Integration of Autodesk Technology"
+  ],
+  "client_mentions": [
+    {
+      "name": "Agis",
+      "context": "Global consulting and engineering group using Autodesk and AI technologies",
+      "timestamp": 81.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 389.0
+    },
+    {
+      "name": "APS",
+      "is_api": false,
+      "timestamp": 482.0
+    },
+    {
+      "name": "Platform Services",
+      "is_api": false,
+      "timestamp": 482.0
+    },
+    {
+      "name": "Design Automation API",
+      "is_api": true,
+      "timestamp": 2382.0
+    },
+    {
+      "name": "Viewer",
+      "is_api": true,
+      "timestamp": 2774.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "LLM",
+      "category": "llm",
+      "context": "Used by IRIS platform to read and translate specification documents.",
+      "timestamp": 2123.0
+    },
+    {
+      "name": "IRIS",
+      "category": "agent",
+      "context": "AI platform to integrate engineering and project management workflows.",
+      "timestamp": 1303.0
+    },
+    {
+      "name": "AI agents",
+      "category": "agent",
+      "context": "Agents that monitor models continuously and propose fixes.",
+      "timestamp": 0.29
+    }
+  ],
+  "summary": "The video explores the integration of AI and Autodesk technologies, such as APS and Revit, to automate compliance checks in technical room design for large infrastructure projects. It showcases how Agis uses these tools to streamline BIM processes by automating validation and coordination tasks, while AI strategies aid in monitoring and proposing fixes. The emphasis is on augmenting human expertise with AI to enhance construction compliance verification.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:21:52.317772+00:00"
+}

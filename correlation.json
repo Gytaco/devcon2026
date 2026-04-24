@@ -1,15 +1,128 @@
 {
   "shared_themes": [
     {
-      "theme": "Automation in Design and Construction",
+      "theme": "AI integration in workflows",
       "video_ids": [
-        "KAe7IP49ywg",
-        "CIs6Zz1ARFM"
+        "IdGdruRnmB0",
+        "Tn-HH0sY8d8",
+        "jqhrpZf7WN8"
       ],
-      "description": "Both videos explore the use of automation in improving efficiency in design and construction processes, with one focusing on BIM Quality Assurance and the other on sustainability metrics."
+      "description": "This theme focuses on how AI technologies are being integrated into various workflows, enhancing efficiency, and enabling automation across industries like architecture, engineering, and construction."
+    },
+    {
+      "theme": "Automation in construction project management",
+      "video_ids": [
+        "Qe99VANs_r8",
+        "CfMp1HpavWE"
+      ],
+      "description": "These videos highlight the use of AI and low-code solutions to automate tasks in construction project management, improving efficiency and reducing manual efforts."
+    },
+    {
+      "theme": "Sustainability in construction",
+      "video_ids": [
+        "UoVJAD1I9js",
+        "NweySvbh9ns"
+      ],
+      "description": "The theme emphasizes the integration of technology to support sustainable construction practices, focusing on data-driven solutions to minimize environmental impact."
+    },
+    {
+      "theme": "Data management and interoperability",
+      "video_ids": [
+        "99aJ81s2CiQ",
+        "zYV-jznr2Fs"
+      ],
+      "description": "These videos explore methods to improve data management and ensure interoperability among different software tools used in architecture and engineering."
+    },
+    {
+      "theme": "Digital twins and real-time data integration",
+      "video_ids": [
+        "o5yxG0RcoyU",
+        "R5fa_3wsFeU"
+      ],
+      "description": "This theme discusses the deployment of digital twins to enhance real-time data integration for better decision-making and operations in building and infrastructure management."
     }
   ],
   "client_matrix": [
+    {
+      "client": "Chaos",
+      "video_ids": [
+        "IdGdruRnmB0"
+      ]
+    },
+    {
+      "client": "SWECCO",
+      "video_ids": [
+        "IdGdruRnmB0"
+      ]
+    },
+    {
+      "client": "Sweco",
+      "video_ids": [
+        "IdGdruRnmB0",
+        "Yck4v4chnew"
+      ]
+    },
+    {
+      "client": "Novo Nordus",
+      "video_ids": [
+        "Tn-HH0sY8d8"
+      ]
+    },
+    {
+      "client": "Bosch",
+      "video_ids": [
+        "Tn-HH0sY8d8",
+        "ro4wW2GUspo"
+      ]
+    },
+    {
+      "client": "Microsoft",
+      "video_ids": [
+        "Tn-HH0sY8d8"
+      ]
+    },
+    {
+      "client": "Andrids",
+      "video_ids": [
+        "h_8VwPpEE-0"
+      ]
+    },
+    {
+      "client": "Deutsche Bahn",
+      "video_ids": [
+        "h_8VwPpEE-0"
+      ]
+    },
+    {
+      "client": "Building and Construction Authority (BCA) Singapore",
+      "video_ids": [
+        "h_8VwPpEE-0"
+      ]
+    },
+    {
+      "client": "General Motors",
+      "video_ids": [
+        "h_8VwPpEE-0"
+      ]
+    },
+    {
+      "client": "Nour Consult",
+      "video_ids": [
+        "h_8VwPpEE-0"
+      ]
+    },
+    {
+      "client": "Victory AI",
+      "video_ids": [
+        "h_8VwPpEE-0"
+      ]
+    },
+    {
+      "client": "Arquedes",
+      "video_ids": [
+        "h_8VwPpEE-0"
+      ]
+    },
     {
       "client": "Heimungst",
       "video_ids": [
@@ -19,63 +132,63 @@
   ],
   "product_matrix": [
     {
-      "product": "Autodesk Construction Cloud",
+      "product": "APS",
       "video_ids": [
-        "KAe7IP49ywg",
-        "CIs6Zz1ARFM"
+        "IdGdruRnmB0",
+        "CIs6Zz1ARFM",
+        "CfMp1HpavWE"
       ],
-      "usage_context": "Used as a platform for integrating AI technologies to enhance efficiency and sustainability within construction management and data interactions."
+      "usage_context": "APS is often mentioned in the context of enhancing workflows, interoperability, and automation across various construction and design projects."
     },
     {
       "product": "Revit",
       "video_ids": [
-        "KAe7IP49ywg"
+        "IdGdruRnmB0",
+        "CIs6Zz1ARFM",
+        "CfMp1HpavWE"
       ],
-      "usage_context": "Utilized for developing deterministic AI agents to automate BIM Quality Assurance processes."
+      "usage_context": "Revit is used for design tasks and is frequently integrated with AI and automation tools to improve efficiency and decision-making in architectural projects."
     },
     {
-      "product": "APS",
+      "product": "Fusion",
       "video_ids": [
-        "CIs6Zz1ARFM"
+        "IdGdruRnmB0",
+        "Tn-HH0sY8d8",
+        "jqhrpZf7WN8"
       ],
-      "usage_context": "Used in conjunction with AI technologies to automate data extraction and processing related to sustainability metrics."
+      "usage_context": "Fusion is utilized for manufacturing and design processes, with automation and AI to enhance workflow and data management."
     }
   ],
   "ai_matrix": [
     {
-      "technology": "Claude",
+      "technology": "Claude Cod",
       "category": "llm",
       "video_ids": [
-        "KAe7IP49ywg"
+        "IdGdruRnmB0",
+        "76Sy5bvgCyQ"
       ],
-      "context": "Used for automating model creation and information extraction in BIM processes."
+      "context": "Claude Cod is used for information extraction and decision-making in workflows, supporting automation and efficiency."
     },
     {
-      "technology": "ChatGPT",
+      "technology": "GPT",
       "category": "llm",
       "video_ids": [
-        "KAe7IP49ywg"
+        "IdGdruRnmB0",
+        "Azpc8l69S4M"
       ],
-      "context": "Used alongside Claude to improve model interaction through advanced language understanding and data extraction."
+      "context": "GPT is employed for generating insights and automating various design and compliance tasks in BIM and construction projects."
     },
     {
-      "technology": "Co-Pilot",
+      "technology": "AI agents",
       "category": "agent",
       "video_ids": [
-        "CIs6Zz1ARFM"
+        "IdGdruRnmB0",
+        "cKFfbmObO78"
       ],
-      "context": "Used to assist in building data pipelines for automating sustainability metrics generation from construction models."
-    },
-    {
-      "technology": "MCP",
-      "category": "agent",
-      "video_ids": [
-        "CIs6Zz1ARFM"
-      ],
-      "context": "Facilitates automated processes related to environmental impact assessments in infrastructure projects."
+      "context": "AI agents facilitate process automation, enhance decision-making, and streamline workflows in engineering and architecture."
     }
   ],
-  "executive_summary": "The analyzed videos highlight the integration of AI and automation to enhance design and construction processes. One video emphasizes deterministic AI agents for BIM Quality Assurance using technologies like Claude and ChatGPT, focusing on efficiency and integration with Autodesk Construction Cloud. The other video demonstrates the use of AI agents like Co-Pilot and MCP to automate sustainability metrics assessment, leveraging Autodesk Platform Services. The client Heimungst is involved in projects using these advanced technologies to improve infrastructure impacts. Overall, Autodesk products like Revit and Construction Cloud are pivotal in achieving these automation goals.",
+  "executive_summary": "Across the analyzed videos, there is a strong focus on integrating AI technologies in architecture, engineering, and construction workflows to enhance automation, sustainability, and data management. Key themes include the utilization of digital twins for real-time data integration, improving sustainability in construction, and automating project management tasks. Companies like Sweco and Bosch are prominent, showcasing their collaborative efforts with Autodesk products such as APS, Revit, and Fusion. AI technologies like GPT and AI agents are consistently employed to support decision-making, process automation, and increased efficiency in design and construction workflows.",
   "_complete": true,
-  "_saved_at": "2026-04-22T05:01:22.285178+00:00"
+  "_saved_at": "2026-04-23T00:11:20.815349+00:00"
 }

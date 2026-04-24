@@ -1,0 +1,37 @@
+{
+  "video_id": "o3j2oN2kaHo",
+  "demo_timestamps": [
+    {
+      "start": 329.0,
+      "end": 489.0,
+      "description": "Short proof of concept demonstration of the decision engines approach, applying decision intelligence with data context and custom KPIs"
+    }
+  ],
+  "themes": [
+    "Digital Twin Intelligence in Maintenance Operations"
+  ],
+  "client_mentions": [],
+  "autodesk_products": [
+    {
+      "name": "Tandem",
+      "is_api": false,
+      "timestamp": 69.0
+    },
+    {
+      "name": "Forma",
+      "is_api": false,
+      "timestamp": 301.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "Agentic AI",
+      "category": "agent",
+      "context": "Combining operational context with AI reasoning to support better operational decisions",
+      "timestamp": 59.0
+    }
+  ],
+  "summary": "The video discusses how digital twin technology, combined with AI, can enhance maintenance operations by transforming them into decision engines. By leveraging Autodesk Tandem, operational intelligence is improved, reducing downtime and optimizing maintenance strategies. This approach aims to enhance decision quality and return on investment in industrial settings.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:45:39.314293+00:00"
+}

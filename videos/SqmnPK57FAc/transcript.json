@@ -1,0 +1,1009 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.84,
+      "text": "Hello everyone, I'm Paul Giche and the CEO at Fabrics.",
+      "words": []
+    },
+    {
+      "start": 3.84,
+      "end": 12.0,
+      "text": "Today I'm going to show you how are we using the AutoDESKPS to build an M2N manufacturing automation system.",
+      "words": []
+    },
+    {
+      "start": 14.88,
+      "end": 19.04,
+      "text": "First of all, we're going to start with what is Fabrics and then we're going to show you three",
+      "words": []
+    },
+    {
+      "start": 19.04,
+      "end": 22.64,
+      "text": "different use cases on how are we using the AutoDESKPS API.",
+      "words": []
+    },
+    {
+      "start": 23.52,
+      "end": 28.88,
+      "text": "And finally, we're just going to ensure some of the results and the impact of what we are seeing.",
+      "words": []
+    },
+    {
+      "start": 30.72,
+      "end": 38.56,
+      "text": "So, what is Fabrics? Fabrics is an M2N platform for managing factories. We help",
+      "words": []
+    },
+    {
+      "start": 38.56,
+      "end": 45.36,
+      "text": "digitize factories from gold to the actual shipping of the part. That means that we are able to offer",
+      "words": []
+    },
+    {
+      "start": 46.4,
+      "end": 52.480000000000004,
+      "text": "quoting and we do have and one of this is going to be some of the topics we are going to discuss today.",
+      "words": []
+    },
+    {
+      "start": 52.480000000000004,
+      "end": 58.400000000000006,
+      "text": "We are based on different information that the clients provide. We're able to automate their",
+      "words": []
+    },
+    {
+      "start": 58.879999999999995,
+      "end": 63.92,
+      "text": "information. These information could be from obviously 3D files but also then all the",
+      "words": []
+    },
+    {
+      "start": 63.92,
+      "end": 71.03999999999999,
+      "text": "characteristics which different products they want to purchase from finishes and so on and so forth.",
+      "words": []
+    },
+    {
+      "start": 71.68,
+      "end": 79.2,
+      "text": "We do this pretty much on additive manufacturing, CNC, injection molding, sheet metal fabrication",
+      "words": []
+    },
+    {
+      "start": 79.2,
+      "end": 84.32,
+      "text": "and we also have some clients on the packaging sector. So, depending we call them configure",
+      "words": []
+    },
+    {
+      "start": 84.39999999999999,
+      "end": 88.47999999999999,
+      "text": "the different products that they offer and this is something that they can either use for their",
+      "words": []
+    },
+    {
+      "start": 88.47999999999999,
+      "end": 93.44,
+      "text": "internal team, for their commercial team or is it something that they can also offer to their",
+      "words": []
+    },
+    {
+      "start": 93.44,
+      "end": 100.88,
+      "text": "clients as a B2B platform or as we call it a customer portal platform. From there once they have",
+      "words": []
+    },
+    {
+      "start": 101.67999999999999,
+      "end": 107.11999999999999,
+      "text": "once the the quote is defined and the customer accepts the quote, pay we can capture the payment",
+      "words": []
+    },
+    {
+      "start": 107.11999999999999,
+      "end": 114.08,
+      "text": "if required then the manufacturing order automatically generated and then we are able to",
+      "words": []
+    },
+    {
+      "start": 114.08,
+      "end": 120.24,
+      "text": "orchestrate the production as says that do the quality assurance and reporting and also managing",
+      "words": []
+    },
+    {
+      "start": 120.24,
+      "end": 130.0,
+      "text": "the logistics to get the parts to the to the final customer. One of the first use cases I'm",
+      "words": []
+    },
+    {
+      "start": 130.0,
+      "end": 136.4,
+      "text": "going to explain is measure repair via API as you can imagine and this especially is very useful",
+      "words": []
+    },
+    {
+      "start": 136.4,
+      "end": 142.24,
+      "text": "in the wall of addedismo manufacturing. We do get our client the clients that we have that are",
+      "words": []
+    },
+    {
+      "start": 142.32000000000002,
+      "end": 148.4,
+      "text": "either service buddhas or corporates that are running an internal service buddha for their for",
+      "words": []
+    },
+    {
+      "start": 148.4,
+      "end": 158.4,
+      "text": "their companies and often they get broken files and that are not possible to be manufactured or",
+      "words": []
+    },
+    {
+      "start": 158.4,
+      "end": 165.44,
+      "text": "even be quoted in in some cases. Measure repair is a difficult topic and thanks to the auto-desk",
+      "words": []
+    },
+    {
+      "start": 166.0,
+      "end": 176.72,
+      "text": "automation API we are able to we are able to solve it. In this case as mentioned we do we do",
+      "words": []
+    },
+    {
+      "start": 176.72,
+      "end": 184.07999999999998,
+      "text": "force we do see different issues in broken measures this especially is the case on addedismo",
+      "words": []
+    },
+    {
+      "start": 184.07999999999998,
+      "end": 189.6,
+      "text": "manufacturing. On CNC we are not seeing this issue because in the CNC wall they would work with",
+      "words": []
+    },
+    {
+      "start": 190.07999999999998,
+      "end": 196.16,
+      "text": "step files or other formats that prevent this kind of issues but on the addedismo manufacturing",
+      "words": []
+    },
+    {
+      "start": 196.16,
+      "end": 202.72,
+      "text": "wall where fortunately or unfortunately STLs are still the norm and we do get off and",
+      "words": []
+    },
+    {
+      "start": 203.92,
+      "end": 214.32,
+      "text": "in our case we across the platform we see that roughly 20 to 24% of the files are broken or",
+      "words": []
+    },
+    {
+      "start": 214.32,
+      "end": 221.2,
+      "text": "need some repair and here we have from holes to non-manifold ages or self-intersection on some",
+      "words": []
+    },
+    {
+      "start": 221.2,
+      "end": 227.84,
+      "text": "of the polyons. The issue here is that manual repair is then consuming and require specialized",
+      "words": []
+    },
+    {
+      "start": 227.84,
+      "end": 233.04,
+      "text": "cut expertise not only so not everyone can do it in the company they need to have like a minimum",
+      "words": []
+    },
+    {
+      "start": 234.32,
+      "end": 241.76,
+      "text": "training and this sometimes means that requires back and forth internally between different teams",
+      "words": []
+    },
+    {
+      "start": 241.84,
+      "end": 247.28,
+      "text": "between the commercial team or between the commercial team and the technical team or the engineering",
+      "words": []
+    },
+    {
+      "start": 247.28,
+      "end": 255.92,
+      "text": "office and this could slow down the protein process or the validation process as well as it's",
+      "words": []
+    },
+    {
+      "start": 255.92,
+      "end": 265.36,
+      "text": "a protocol that maybe even is not even accepted and that's why what we do have is what we have",
+      "words": []
+    },
+    {
+      "start": 265.36,
+      "end": 271.76,
+      "text": "enabled is a misrepair workflow when a part is uploaded to fabrics we are able to",
+      "words": []
+    },
+    {
+      "start": 271.76,
+      "end": 278.16,
+      "text": "identify if that part is broken that it has like any of the issues mentioned before and then with",
+      "words": []
+    },
+    {
+      "start": 278.16,
+      "end": 286.8,
+      "text": "just one click we are able to send a file to the design automation API on Autodesk the file gets",
+      "words": []
+    },
+    {
+      "start": 286.8,
+      "end": 296.40000000000003,
+      "text": "repaired and then the file is returned for continuing the quoting process so and these are in the",
+      "words": []
+    },
+    {
+      "start": 296.40000000000003,
+      "end": 301.36,
+      "text": "clients that we have been testing it we estimate that they are saving roughly five hours per week",
+      "words": []
+    },
+    {
+      "start": 302.24,
+      "end": 307.52,
+      "text": "or manual work and that depends obviously on the volume that you're getting on on quotes but",
+      "words": []
+    },
+    {
+      "start": 307.52,
+      "end": 313.6,
+      "text": "if you have like a few tens of parts or even hundreds of parts per week this could this could",
+      "words": []
+    },
+    {
+      "start": 313.6,
+      "end": 322.40000000000003,
+      "text": "add up very quickly the amount of time that you are saving here then the other use case that we see",
+      "words": []
+    },
+    {
+      "start": 324.08000000000004,
+      "end": 336.0,
+      "text": "that that we are using the Autodesk API is for automatic build generation this is another case very",
+      "words": []
+    },
+    {
+      "start": 336.0,
+      "end": 342.64000000000004,
+      "text": "particular on the added manufacturing industry where when you have several of when you have several",
+      "words": []
+    },
+    {
+      "start": 342.64,
+      "end": 350.08,
+      "text": "machines and you need to do these builds you need to do one build per machine a day or even two",
+      "words": []
+    },
+    {
+      "start": 350.08,
+      "end": 359.12,
+      "text": "builds per machine a day it could become quite time consuming and inefficient to do it manually and",
+      "words": []
+    },
+    {
+      "start": 359.12,
+      "end": 363.84,
+      "text": "when I mean manual is not doing the nesting manually is not adding the parts doing it's",
+      "words": []
+    },
+    {
+      "start": 363.91999999999996,
+      "end": 370.32,
+      "text": "planning the nesting themselves and so build the main issues here are",
+      "words": []
+    },
+    {
+      "start": 372.0,
+      "end": 376.96,
+      "text": "when you are planning these several builds you need to juggle between order of priorities resource",
+      "words": []
+    },
+    {
+      "start": 376.96,
+      "end": 383.44,
+      "text": "availability and also a production strategy to ensure the quality of the parts and other geometric",
+      "words": []
+    },
+    {
+      "start": 383.44,
+      "end": 388.4,
+      "text": "constraints all you need to consider all these simultaneously when you're planning for for your builds",
+      "words": []
+    },
+    {
+      "start": 389.2,
+      "end": 395.67999999999995,
+      "text": "as the number of parts is growing and it's very difficult for an operator or for an engineer",
+      "words": []
+    },
+    {
+      "start": 395.67999999999995,
+      "end": 404.15999999999997,
+      "text": "to consistently optimize across all these different dimensions so either it takes them a lot of time",
+      "words": []
+    },
+    {
+      "start": 404.15999999999997,
+      "end": 410.88,
+      "text": "or it's done not up to the standards of the quality that the company wants wants to offer",
+      "words": []
+    },
+    {
+      "start": 413.03999999999996,
+      "end": 417.91999999999996,
+      "text": "what we are building in fabrics what we have is we do have a parts bug look",
+      "words": []
+    },
+    {
+      "start": 418.4,
+      "end": 421.91999999999996,
+      "text": "of all the parts that need to be previous and it to go through this process",
+      "words": []
+    },
+    {
+      "start": 422.47999999999996,
+      "end": 428.88,
+      "text": "and then we can build automation tasks as we call it so all the incoming orders populate the build",
+      "words": []
+    },
+    {
+      "start": 428.88,
+      "end": 435.35999999999996,
+      "text": "cube automatically and then we are able each part for each part we do have the material",
+      "words": []
+    },
+    {
+      "start": 435.35999999999996,
+      "end": 442.71999999999997,
+      "text": "the priority whether there's any deadline and any information on the geometry based on that we",
+      "words": []
+    },
+    {
+      "start": 442.72,
+      "end": 448.64000000000004,
+      "text": "are able also as you can see on the right we are able to create an automation task for",
+      "words": []
+    },
+    {
+      "start": 448.64000000000004,
+      "end": 455.44000000000005,
+      "text": "these nesting for this nesting task and we can say hey I need I need to execute this every day",
+      "words": []
+    },
+    {
+      "start": 456.48,
+      "end": 461.92,
+      "text": "I need to generate two builds for this machine and this material and I want to choose between",
+      "words": []
+    },
+    {
+      "start": 461.92,
+      "end": 470.48,
+      "text": "three different iterations that means that we could as you know a lot of the nesting solutions are",
+      "words": []
+    },
+    {
+      "start": 470.48,
+      "end": 475.84000000000003,
+      "text": "non-determined even though you could fix although we could fix the orientation of the parts",
+      "words": []
+    },
+    {
+      "start": 478.08000000000004,
+      "end": 483.52000000000004,
+      "text": "the as these are algorithms they use different seeds every time they're run we could get up to",
+      "words": []
+    },
+    {
+      "start": 483.52000000000004,
+      "end": 489.36,
+      "text": "different results so we we are able to run these different iterations not only with different",
+      "words": []
+    },
+    {
+      "start": 489.36,
+      "end": 491.76,
+      "text": "seeds but although with different configurations such as",
+      "words": []
+    },
+    {
+      "start": 492.56,
+      "end": 502.4,
+      "text": "and prioritizing small parts prioritizing a mix number of parts or doing a more compact build",
+      "words": []
+    },
+    {
+      "start": 502.4,
+      "end": 507.92,
+      "text": "so the the either the engineer or the operator can choose which build they want to send to",
+      "words": []
+    },
+    {
+      "start": 507.92,
+      "end": 515.92,
+      "text": "production for the nesting automation then we get and we use the APS nesting engine we generate",
+      "words": []
+    },
+    {
+      "start": 516.88,
+      "end": 524.4799999999999,
+      "text": "as as you saw before different candidates based on different settings and here the goal is in",
+      "words": []
+    },
+    {
+      "start": 524.4799999999999,
+      "end": 533.04,
+      "text": "in an nesting exercise we do have is always to minimize try to optimize the pattern factor while",
+      "words": []
+    },
+    {
+      "start": 533.04,
+      "end": 538.16,
+      "text": "respecting the thermals and spacing constraints and as we were saying the user is able to pick the",
+      "words": []
+    },
+    {
+      "start": 538.16,
+      "end": 547.92,
+      "text": "best iteration or even suggest changes like I want I they can once they have the the draft of the",
+      "words": []
+    },
+    {
+      "start": 547.92,
+      "end": 553.92,
+      "text": "batch or the build they are able to go and make changes like I don't want this part I want to add",
+      "words": []
+    },
+    {
+      "start": 553.92,
+      "end": 560.48,
+      "text": "this other part we run the nesting but at least they have like a first draft and the goal is to",
+      "words": []
+    },
+    {
+      "start": 561.28,
+      "end": 566.0,
+      "text": "capture more and more of the inputs that they need so we are able to",
+      "words": []
+    },
+    {
+      "start": 566.24,
+      "end": 575.52,
+      "text": "create successful builds or builds that can go straight to production in a more efficient way",
+      "words": []
+    },
+    {
+      "start": 576.56,
+      "end": 582.0,
+      "text": "at the same time we we get the different the schedule of the different of the different builds",
+      "words": []
+    },
+    {
+      "start": 582.0,
+      "end": 590.96,
+      "text": "and the operator can also rearrange any of the builds or any of the schedules as as it might be required",
+      "words": []
+    },
+    {
+      "start": 591.12,
+      "end": 600.8000000000001,
+      "text": "the savings that we have seen here is that normally when you do one single",
+      "words": []
+    },
+    {
+      "start": 602.64,
+      "end": 609.2,
+      "text": "build is not that time consuming because you don't have to do one but once you start adding more and more",
+      "words": []
+    },
+    {
+      "start": 609.2,
+      "end": 615.84,
+      "text": "builds the to put it in a way the cognitive load that the human needs to handle increases and then",
+      "words": []
+    },
+    {
+      "start": 616.72,
+      "end": 622.5600000000001,
+      "text": "the time period to manage the that build increases because and when you have two three machines to",
+      "words": []
+    },
+    {
+      "start": 622.5600000000001,
+      "end": 631.44,
+      "text": "handle and that can save up to four hours per build just having like a draft one completed and just",
+      "words": []
+    },
+    {
+      "start": 631.44,
+      "end": 635.6800000000001,
+      "text": "being able to iterate it a bit or sending it to the sending it to the machine straight away",
+      "words": []
+    },
+    {
+      "start": 636.4799999999999,
+      "end": 646.56,
+      "text": "also here we are working with HP we do have a partnership with HP that allows us to send the builds",
+      "words": []
+    },
+    {
+      "start": 646.56,
+      "end": 653.92,
+      "text": "straight from our platform to their printers and as well as keeping status of what's happening",
+      "words": []
+    },
+    {
+      "start": 653.92,
+      "end": 659.12,
+      "text": "on their printers and understanding when a build has finished also gets some of the logs and",
+      "words": []
+    },
+    {
+      "start": 659.2,
+      "end": 665.6,
+      "text": "communicate that to the client and then what we do have as well or what allows fabrics to have is a",
+      "words": []
+    },
+    {
+      "start": 666.4,
+      "end": 673.6,
+      "text": "QA system that whenever a device is completed we are able to generate any detect any",
+      "words": []
+    },
+    {
+      "start": 674.5600000000001,
+      "end": 679.92,
+      "text": "any quality assurance or non-conformity issues track those and be able to send those parts",
+      "words": []
+    },
+    {
+      "start": 679.92,
+      "end": 686.24,
+      "text": "automatically back to the queue so they are pick up on the next builds automatically so this is",
+      "words": []
+    },
+    {
+      "start": 686.24,
+      "end": 694.64,
+      "text": "very useful for when you are operating in an intense environment of production to just have the",
+      "words": []
+    },
+    {
+      "start": 694.64,
+      "end": 703.52,
+      "text": "things running smoothly and in an automated way and then the final use case is the CNC",
+      "words": []
+    },
+    {
+      "start": 703.52,
+      "end": 711.04,
+      "text": "quilting and simulation and here is like an interesting topic what we what we have seen so far with",
+      "words": []
+    },
+    {
+      "start": 711.04,
+      "end": 721.4399999999999,
+      "text": "CNC is that as it's a difficult topic and it's very difficult to build rules to quote CNC based on",
+      "words": []
+    },
+    {
+      "start": 721.4399999999999,
+      "end": 728.0799999999999,
+      "text": "just the geometry itself and where we have seen that calls requires senior knowledge to an analyst",
+      "words": []
+    },
+    {
+      "start": 728.0799999999999,
+      "end": 733.52,
+      "text": "they made cycle times tooling and different costs and this senior knowledge are also sometimes quite",
+      "words": []
+    },
+    {
+      "start": 733.52,
+      "end": 738.64,
+      "text": "busy in the companies and there are normally the knowledge that has been more times either like",
+      "words": []
+    },
+    {
+      "start": 738.64,
+      "end": 745.28,
+      "text": "programming the machines and so this could be as an entire bottleneck on the quoting process",
+      "words": []
+    },
+    {
+      "start": 745.28,
+      "end": 753.92,
+      "text": "the goal is to be able to reduce this quoting loop cycle and the accuracy",
+      "words": []
+    },
+    {
+      "start": 756.0,
+      "end": 765.04,
+      "text": "so basically if reduce the the code cycle from days to hours and then increase also quite a lot",
+      "words": []
+    },
+    {
+      "start": 765.04,
+      "end": 769.92,
+      "text": "of the accuracy and the consistency because sometimes when these are these estimates sometimes are",
+      "words": []
+    },
+    {
+      "start": 769.92,
+      "end": 777.12,
+      "text": "not consistent across different experts within the same company so sometimes this means like losing",
+      "words": []
+    },
+    {
+      "start": 777.12,
+      "end": 784.24,
+      "text": "margin on certain jobs or losing or losing opportunities on the ones that are overpriced so the",
+      "words": []
+    },
+    {
+      "start": 784.24,
+      "end": 791.28,
+      "text": "goal is to also have like a consistent baseline which can be tweaked up or down and based on the",
+      "words": []
+    },
+    {
+      "start": 791.28,
+      "end": 805.68,
+      "text": "strategy of each company in order to tackle this problem we are we have implemented this",
+      "words": []
+    },
+    {
+      "start": 805.68,
+      "end": 814.24,
+      "text": "solution and it leverages some of the current process some of the current algorithms in fabrics",
+      "words": []
+    },
+    {
+      "start": 814.32,
+      "end": 823.6800000000001,
+      "text": "as well as interactions with the auto escape APS everything starts with like the in this case we need",
+      "words": []
+    },
+    {
+      "start": 823.6800000000001,
+      "end": 830.32,
+      "text": "a cut file input and we don't have a we are also running tests and experiments with to the drawings",
+      "words": []
+    },
+    {
+      "start": 830.32,
+      "end": 837.2,
+      "text": "which are still quite common on the CNC wall and here we are able to strike on the cut files we're",
+      "words": []
+    },
+    {
+      "start": 837.2,
+      "end": 843.84,
+      "text": "able to strike geometry geometry specs we're able to build geometry segmentation so we separate the",
+      "words": []
+    },
+    {
+      "start": 843.84,
+      "end": 850.5600000000001,
+      "text": "parts between turning milling and complex milling so anything out of three access and then also",
+      "words": []
+    },
+    {
+      "start": 850.5600000000001,
+      "end": 857.12,
+      "text": "material properties so it's not the same to machine peak or machining aluminum or titanium",
+      "words": []
+    },
+    {
+      "start": 858.08,
+      "end": 865.52,
+      "text": "and then we use the auto desk feature extraction which enables us to get a list of all threads,",
+      "words": []
+    },
+    {
+      "start": 865.52,
+      "end": 871.2800000000001,
+      "text": "pockets, chamber, fillets, slots so anything that that we could identify as a CNC feature",
+      "words": []
+    },
+    {
+      "start": 871.8399999999999,
+      "end": 877.6,
+      "text": "and we are able to list those and also extract information on the orientation of those",
+      "words": []
+    },
+    {
+      "start": 877.6,
+      "end": 885.28,
+      "text": "so all these adds up into the into the inference or into the machine learning prediction engine",
+      "words": []
+    },
+    {
+      "start": 886.0,
+      "end": 893.76,
+      "text": "based on then we are able to run this data through the machine the machine learning engine",
+      "words": []
+    },
+    {
+      "start": 894.3199999999999,
+      "end": 899.8399999999999,
+      "text": "and normally we use different strategies so we try to come up with an estimation using to",
+      "words": []
+    },
+    {
+      "start": 899.9200000000001,
+      "end": 906.72,
+      "text": "different at least to different ways and we are testing more based on also the different ways",
+      "words": []
+    },
+    {
+      "start": 906.72,
+      "end": 916.88,
+      "text": "we are handling geometry and if the if those values are close enough the confidence level is high",
+      "words": []
+    },
+    {
+      "start": 916.88,
+      "end": 923.76,
+      "text": "and therefore we can move and generate a quote an estimate based on the on the output of the AI",
+      "words": []
+    },
+    {
+      "start": 924.56,
+      "end": 932.0,
+      "text": "and if the confidence is low then what we are doing is we run a simulation this simulation is run",
+      "words": []
+    },
+    {
+      "start": 932.0,
+      "end": 941.84,
+      "text": "through also in the cloud using auto escapees and we do have different different CNC strategies that",
+      "words": []
+    },
+    {
+      "start": 941.84,
+      "end": 950.48,
+      "text": "we applied to the part to come up with like a successful CNC strategy we are fully aware that this",
+      "words": []
+    },
+    {
+      "start": 950.64,
+      "end": 956.16,
+      "text": "is not the one that is going to be in production but it just needs to be close and also consistent",
+      "words": []
+    },
+    {
+      "start": 956.8000000000001,
+      "end": 965.76,
+      "text": "across the different ports so other what is playing here and when the confidence is low and",
+      "words": []
+    },
+    {
+      "start": 966.5600000000001,
+      "end": 976.48,
+      "text": "the we launch that asking the auto escapees and what we are able here is to identify and test",
+      "words": []
+    },
+    {
+      "start": 976.48,
+      "end": 985.6,
+      "text": "different CNC strategies on different setups different tooling that declines us to see which would",
+      "words": []
+    },
+    {
+      "start": 985.6,
+      "end": 994.0,
+      "text": "give us the best the best basically machining time based on also a number of setups we are able to",
+      "words": []
+    },
+    {
+      "start": 994.0,
+      "end": 1000.48,
+      "text": "estimate setup time and with all this information we are able to produce a quote",
+      "words": []
+    },
+    {
+      "start": 1000.96,
+      "end": 1011.9200000000001,
+      "text": "so how are we getting the how are we doing the the AI protein so what we have is a machine learning",
+      "words": []
+    },
+    {
+      "start": 1011.9200000000001,
+      "end": 1018.48,
+      "text": "model trained with on years of production data this model gets tweaked for every customer with their",
+      "words": []
+    },
+    {
+      "start": 1018.48,
+      "end": 1028.0,
+      "text": "own data these data comes from setup times machining times as well as as well as",
+      "words": []
+    },
+    {
+      "start": 1031.04,
+      "end": 1039.04,
+      "text": "real data in terms of like geometries and the incoming what we do is in coming parts as we",
+      "words": []
+    },
+    {
+      "start": 1039.04,
+      "end": 1044.24,
+      "text": "have explained we do have all these historical data that helps people with the model and then",
+      "words": []
+    },
+    {
+      "start": 1045.2,
+      "end": 1051.44,
+      "text": "in to put it very simple the models what they what they do is try to check and they try to extrapolate",
+      "words": []
+    },
+    {
+      "start": 1051.44,
+      "end": 1057.2,
+      "text": "the new data through historical data in different ways and they try to match all to whether if they",
+      "words": []
+    },
+    {
+      "start": 1057.2,
+      "end": 1063.76,
+      "text": "match the confidence if they match closely the confidence the confidence in the prediction is",
+      "words": []
+    },
+    {
+      "start": 1063.76,
+      "end": 1071.28,
+      "text": "is high and if not is what we run in we run the the simulation as we set and all what we get",
+      "words": []
+    },
+    {
+      "start": 1071.36,
+      "end": 1077.36,
+      "text": "here is what we call near-instein price estimation because as you put imagine like the machine learning",
+      "words": []
+    },
+    {
+      "start": 1077.36,
+      "end": 1086.8,
+      "text": "inference is it's it's fast and it's not super super fast I mean but it's fast in terms of like",
+      "words": []
+    },
+    {
+      "start": 1086.8,
+      "end": 1093.84,
+      "text": "user experience so in less than a minute we could get an inference if we then we need to run into",
+      "words": []
+    },
+    {
+      "start": 1093.9199999999998,
+      "end": 1102.72,
+      "text": "the simulation then the the user experience changes a bit and we are communicating to define the",
+      "words": []
+    },
+    {
+      "start": 1102.72,
+      "end": 1109.28,
+      "text": "users when the estimated once once as successful simulation has been completed it doesn't take hours",
+      "words": []
+    },
+    {
+      "start": 1109.28,
+      "end": 1114.72,
+      "text": "but it's more than the time that someone is willing to spend in front of a screen just waiting",
+      "words": []
+    },
+    {
+      "start": 1114.72,
+      "end": 1123.52,
+      "text": "looking at a loading bar or like a progress a progress circle what we have achieved here is",
+      "words": []
+    },
+    {
+      "start": 1124.48,
+      "end": 1131.28,
+      "text": "the lead time for quotes goes from days to hours and also the consistency has has increased",
+      "words": []
+    },
+    {
+      "start": 1133.2,
+      "end": 1139.44,
+      "text": "finally just a catch up as just a sum up on the different performance what we are able is to",
+      "words": []
+    },
+    {
+      "start": 1139.44,
+      "end": 1147.68,
+      "text": "increase our voting so especially in inactive manufacturing we're able to go from hours to minutes",
+      "words": []
+    },
+    {
+      "start": 1148.24,
+      "end": 1158.5600000000002,
+      "text": "thanks for fixing the using the automated may repair fixes and cold volume has also increased",
+      "words": []
+    },
+    {
+      "start": 1158.5600000000002,
+      "end": 1164.64,
+      "text": "so the same team is able to produce three times more quotes accuracy has increased more than 50",
+      "words": []
+    },
+    {
+      "start": 1164.64,
+      "end": 1173.2,
+      "text": "percent on on CNC times productivity and also the productivity has increased more than 20 percent",
+      "words": []
+    },
+    {
+      "start": 1173.8400000000001,
+      "end": 1179.3600000000001,
+      "text": "thanks to the automatic build generation the business value that we're seeing is like",
+      "words": []
+    },
+    {
+      "start": 1179.3600000000001,
+      "end": 1187.3600000000001,
+      "text": "eliminating Mano Kat clean up on tasks that don't add a lot of value the automatic nesting",
+      "words": []
+    },
+    {
+      "start": 1187.3600000000001,
+      "end": 1193.52,
+      "text": "increases factory resilience because sometimes it's not only the increased productivity but also we are",
+      "words": []
+    },
+    {
+      "start": 1194.64,
+      "end": 1201.04,
+      "text": "these tasks that are normally centered across key people around the factories are able to be",
+      "words": []
+    },
+    {
+      "start": 1201.04,
+      "end": 1206.8,
+      "text": "automated or or done in a different way so it's it's a skill or it's it's a way that helps",
+      "words": []
+    },
+    {
+      "start": 1206.8,
+      "end": 1213.12,
+      "text": "the factory build resilience and then we are able to enable these into an automation from cold",
+      "words": []
+    },
+    {
+      "start": 1213.12,
+      "end": 1219.44,
+      "text": "to production especially with AM technologies and also in the future with CNC",
+      "words": []
+    },
+    {
+      "start": 1221.76,
+      "end": 1226.56,
+      "text": "and so I hope you enjoyed and thank you very much for your attention",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:29:53.103962+00:00"
+}

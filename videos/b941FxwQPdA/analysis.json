@@ -1,0 +1,88 @@
+{
+  "video_id": "b941FxwQPdA",
+  "demo_timestamps": [
+    {
+      "start": 19.0,
+      "end": 64.0,
+      "description": "Overview of lifecycle management from CAD Designer to BIM Consultant"
+    },
+    {
+      "start": 394.0,
+      "end": 447.0,
+      "description": "Demonstrating the system of connecting data and structuring information"
+    },
+    {
+      "start": 1187.0,
+      "end": 1451.0,
+      "description": "Technical office demonstration for data layer integration"
+    },
+    {
+      "start": 1344.0,
+      "end": 1373.0,
+      "description": "Checking and completing asset information on a mobile device, and submitting reports to the data layer."
+    },
+    {
+      "start": 1413.0,
+      "end": 1488.0,
+      "description": "Explaining how a system like datum helps manage structured information of a fixed bridge project."
+    }
+  ],
+  "themes": [
+    "Data integration in construction projects",
+    "Lifecycle data management",
+    "BIM implementation and collaboration",
+    "Data Management in Construction",
+    "Integration of Mobile and Desktop Applications",
+    "System Engineering Process"
+  ],
+  "client_mentions": [
+    {
+      "name": "Basics",
+      "context": "Belgium contractor with a strong international footprint.",
+      "timestamp": 144.0
+    },
+    {
+      "name": "Atlantis",
+      "context": "Collaboration on large infrastructure projects in Belgium.",
+      "timestamp": 64.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "APS",
+      "is_api": false,
+      "timestamp": 13.0
+    },
+    {
+      "name": "Forma",
+      "is_api": false,
+      "timestamp": 469.0
+    },
+    {
+      "name": "Platform Services",
+      "is_api": false,
+      "timestamp": 1712.0
+    },
+    {
+      "name": "Civil 3D",
+      "is_api": false,
+      "timestamp": 1174.0
+    },
+    {
+      "name": "ACC",
+      "is_api": false,
+      "timestamp": 0.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "machine learning",
+      "category": "ml",
+      "context": "Describing needs to integrate AI and machine learning requirements with data management on-site.",
+      "timestamp": 1551.0
+    }
+  ],
+  "summary": "The video outlines the integration of lifecycle data in construction projects using Autodesk Construction Cloud (ACC) and Autodesk Platform Services (APS), featuring case studies from the contractor Basics. It highlights efficient data management, collaboration across teams, and the integration of mobile and desktop applications for asset information verification, focusing on creating a 'single source of truth' through structured data and unified digital asset lifecycle processes. The workflow employs system engineering tools and emphasizes aligning digital construction processes with robust data architecture to prepare for future advancements.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:12:36.090411+00:00"
+}

@@ -1,0 +1,36 @@
+{
+  "video_id": "aHBpuwX5eZE",
+  "demo_timestamps": [
+    {
+      "start": 812.0,
+      "end": 1260.0,
+      "description": "Scenario analysis of governance architecture plays out in BIM clashes, document compliance, and schedule deviation."
+    }
+  ],
+  "themes": [
+    "AI-assisted decision making in construction platforms"
+  ],
+  "client_mentions": [
+    {
+      "name": "DBLab",
+      "context": "CEO Kenji Sassin introduces as specializing in data-driven platforms for AEC.",
+      "timestamp": 0.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "ACC",
+      "is_api": false,
+      "timestamp": 1467.0
+    },
+    {
+      "name": "Model Context Protocol",
+      "is_api": true,
+      "timestamp": 1836.0
+    }
+  ],
+  "ai_technologies": [],
+  "summary": "The video discusses how AI platforms shape decision making in construction projects, emphasizing the need for trustworthy design in AI workflows. It highlights the role of different automation levels (assist, augment, automate) and the importance of governance, particularly in platforms like Autodesk, to manage AI-driven actions responsibly.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:28:19.077224+00:00"
+}

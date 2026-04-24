@@ -1,0 +1,1165 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.5600000000000005,
+      "text": "Hi, everyone. My name's Anne. Thanks to Torian. I'm an account typical lead with water desk.",
+      "words": []
+    },
+    {
+      "start": 5.44,
+      "end": 12.24,
+      "text": "Low code and AI are enabling us to build like we've never had been able to before solving our own specific",
+      "words": []
+    },
+    {
+      "start": 12.52,
+      "end": 18.64,
+      "text": "problems. I've experienced this firsthand as I'm not from coding or AI background.",
+      "words": []
+    },
+    {
+      "start": 19.12,
+      "end": 23.28,
+      "text": "Yet the technology has enabled me to start building solutions.",
+      "words": []
+    },
+    {
+      "start": 24.400000000000002,
+      "end": 27.6,
+      "text": "The large majority of AI prototypes fail though.",
+      "words": []
+    },
+    {
+      "start": 28.240000000000002,
+      "end": 35.36,
+      "text": "There's many reasons for that. But AI is not just hype. I really do think that with the right",
+      "words": []
+    },
+    {
+      "start": 35.36,
+      "end": 42.32,
+      "text": "approach, which improves success and build real world solutions. So today, I'm going to try and",
+      "words": []
+    },
+    {
+      "start": 42.32,
+      "end": 48.16,
+      "text": "demonstrate this through examples which I built using both flow code and AI on all this platform",
+      "words": []
+    },
+    {
+      "start": 48.16,
+      "end": 57.36,
+      "text": "services. When we think about the journey of building a solution, it's pretty tempting to think",
+      "words": []
+    },
+    {
+      "start": 57.36,
+      "end": 63.76,
+      "text": "that it's this nice linear path. We have a problem that we're trying to solve. We create a prototype,",
+      "words": []
+    },
+    {
+      "start": 63.76,
+      "end": 69.6,
+      "text": "tested and we send it into production. But in reality, that only works with the foundations",
+      "words": []
+    },
+    {
+      "start": 69.6,
+      "end": 78.24,
+      "text": "are right from the start. If not, usually what happens is the prototype becomes a dead end.",
+      "words": []
+    },
+    {
+      "start": 78.88,
+      "end": 84.96000000000001,
+      "text": "Or you end up rebuilding it from scratch. Maybe that's because we build a very simplified",
+      "words": []
+    },
+    {
+      "start": 84.96,
+      "end": 92.39999999999999,
+      "text": "version in like an ideal environment. So we need to think consciously about proving both",
+      "words": []
+    },
+    {
+      "start": 92.39999999999999,
+      "end": 99.75999999999999,
+      "text": "that the solution is possible and then it's possible at scale. So what I hope to provide here is",
+      "words": []
+    },
+    {
+      "start": 99.75999999999999,
+      "end": 107.28,
+      "text": "some ways of thinking about this and some examples which help prevent that negative scenario and",
+      "words": []
+    },
+    {
+      "start": 107.28,
+      "end": 110.72,
+      "text": "help take those prototypes forward to successful implementations.",
+      "words": []
+    },
+    {
+      "start": 111.44,
+      "end": 119.44,
+      "text": "So when we're considering AI, it's first important to just take that step back and understand",
+      "words": []
+    },
+    {
+      "start": 120.16,
+      "end": 126.08,
+      "text": "what is the problem that we're trying to solve and is it or do parts of it make sense to address",
+      "words": []
+    },
+    {
+      "start": 126.08,
+      "end": 131.92,
+      "text": "with AI? There's actually this report from OpenAI on finding AI use kettysys,",
+      "words": []
+    },
+    {
+      "start": 132.56,
+      "end": 136.96,
+      "text": "bubbling tip here and there's going to be a few other QR codes throughout this presentation",
+      "words": []
+    },
+    {
+      "start": 137.04000000000002,
+      "end": 144.24,
+      "text": "as well with some resources. And in this they suggest that there's three areas to focus on when",
+      "words": []
+    },
+    {
+      "start": 144.24,
+      "end": 151.52,
+      "text": "searching for these problems. Firstly, repetitive load value tasks is a task that are high volume",
+      "words": []
+    },
+    {
+      "start": 151.52,
+      "end": 156.64000000000001,
+      "text": "where AI can reduce the manual effort and improve the speed of completing them.",
+      "words": []
+    },
+    {
+      "start": 157.76000000000002,
+      "end": 163.04000000000002,
+      "text": "Skill bottlenecks where somebody actually lacks the special expertise that's needed to complete",
+      "words": []
+    },
+    {
+      "start": 163.28,
+      "end": 170.32,
+      "text": "at task at the navigating ambiguity. The blank can this problem. How do we spark an idea or get",
+      "words": []
+    },
+    {
+      "start": 170.32,
+      "end": 176.32,
+      "text": "started with insight? Well, we have nothing to be in with. And at each of these examples, I'm going",
+      "words": []
+    },
+    {
+      "start": 176.32,
+      "end": 183.51999999999998,
+      "text": "to touch on, I'm going to try and cover them through an actual prototype of a solution that I have",
+      "words": []
+    },
+    {
+      "start": 183.51999999999998,
+      "end": 190.39999999999998,
+      "text": "built. Okay, so let's say that we've actually identified some candidate use cases,",
+      "words": []
+    },
+    {
+      "start": 191.12,
+      "end": 197.76000000000002,
+      "text": "usually when prioritizing solutions, we run the process of assessing value versus effort.",
+      "words": []
+    },
+    {
+      "start": 199.36,
+      "end": 204.88,
+      "text": "And we target things that are high value and ideally low effort too.",
+      "words": []
+    },
+    {
+      "start": 205.92000000000002,
+      "end": 210.96,
+      "text": "What AI and low code tools are doing is fundamentally shifting that equation.",
+      "words": []
+    },
+    {
+      "start": 211.68,
+      "end": 218.24,
+      "text": "It means that initiatives which would have been major projects can have their efforts and time",
+      "words": []
+    },
+    {
+      "start": 218.24,
+      "end": 228.64000000000001,
+      "text": "frame significantly reduced. That means more ideas move into the low effort category and they start",
+      "words": []
+    },
+    {
+      "start": 228.64000000000001,
+      "end": 235.76000000000002,
+      "text": "to become viable candidates but quick, valuable wins. Now, if you want proof of this,",
+      "words": []
+    },
+    {
+      "start": 236.64000000000001,
+      "end": 242.24,
+      "text": "these are the major releases that Anthropic has made in the first three months of this year.",
+      "words": []
+    },
+    {
+      "start": 243.04000000000002,
+      "end": 247.20000000000002,
+      "text": "Now, there's two takeaways or two different ways to breed this.",
+      "words": []
+    },
+    {
+      "start": 248.0,
+      "end": 254.8,
+      "text": "Firstly, that technology is changing really quickly. They'll develop a new advice to even",
+      "words": []
+    },
+    {
+      "start": 254.8,
+      "end": 261.44,
+      "text": "what I'm saying here in one year's time. For instance, when all this have released RMCPs and",
+      "words": []
+    },
+    {
+      "start": 261.44,
+      "end": 268.96000000000004,
+      "text": "found a real chance to start building and exploring those. And second, the standard for how quickly",
+      "words": []
+    },
+    {
+      "start": 268.96,
+      "end": 277.84,
+      "text": "you can build and improve is completely shifting. You need to build like at this rate just to keep up,",
+      "words": []
+    },
+    {
+      "start": 278.88,
+      "end": 282.64,
+      "text": "which is possible if we have the right processes and the right tools.",
+      "words": []
+    },
+    {
+      "start": 286.15999999999997,
+      "end": 291.2,
+      "text": "Okay, at this point you might say, if AI is moving so fast and so great, why don't I just",
+      "words": []
+    },
+    {
+      "start": 291.2,
+      "end": 300.15999999999997,
+      "text": "buy code all of these customer solutions? Well, both AI and low code lower the barrier to getting",
+      "words": []
+    },
+    {
+      "start": 300.15999999999997,
+      "end": 308.32,
+      "text": "started creating solutions, but each has distinct advantages. So AI system coding, why coding",
+      "words": []
+    },
+    {
+      "start": 308.32,
+      "end": 315.91999999999996,
+      "text": "is incredibly flexible. It's incredibly fast to spin up at MVP and it doesn't really have that",
+      "words": []
+    },
+    {
+      "start": 315.91999999999996,
+      "end": 320.71999999999997,
+      "text": "much of a learning curve to get started. You can just start prompting and end up with a really",
+      "words": []
+    },
+    {
+      "start": 320.72,
+      "end": 326.40000000000003,
+      "text": "quick result. But there's some real gaps, which low code confidence very well.",
+      "words": []
+    },
+    {
+      "start": 327.04,
+      "end": 333.6,
+      "text": "Results transparency, low code is visually inspectable in its nature. So a less technical",
+      "words": []
+    },
+    {
+      "start": 333.6,
+      "end": 339.92,
+      "text": "user can actually look at the logic and understand what a application is doing. They also often have",
+      "words": []
+    },
+    {
+      "start": 339.92,
+      "end": 346.16,
+      "text": "security baked in and they can be deployed and updated in a more controlled way, which is again",
+      "words": []
+    },
+    {
+      "start": 346.16,
+      "end": 352.32000000000005,
+      "text": "often a barrier between some vibe code that they deployed solution. Now to be honest,",
+      "words": []
+    },
+    {
+      "start": 353.36,
+      "end": 359.84000000000003,
+      "text": "many times it's worthwhile considering using the two forms of solution together. That might mean",
+      "words": []
+    },
+    {
+      "start": 359.84000000000003,
+      "end": 367.12,
+      "text": "writing up a single script to run within a low code tool or developing some kind of trusted",
+      "words": []
+    },
+    {
+      "start": 367.12,
+      "end": 373.76000000000005,
+      "text": "assets like custom nodes that can be shared across an organization and used to build up the workflows",
+      "words": []
+    },
+    {
+      "start": 373.76,
+      "end": 381.92,
+      "text": "in a low code tool. And there's many other architectural decisions that need to be made when",
+      "words": []
+    },
+    {
+      "start": 381.92,
+      "end": 388.4,
+      "text": "we're thinking about AI powered solutions. And so today I'm going to talk about a bit more of each",
+      "words": []
+    },
+    {
+      "start": 388.4,
+      "end": 397.52,
+      "text": "of these aspects, which make that solution successful. Basically usability, just selecting the right",
+      "words": []
+    },
+    {
+      "start": 397.52,
+      "end": 402.08,
+      "text": "form, making sure that people actually can and want to interact with the tool.",
+      "words": []
+    },
+    {
+      "start": 402.47999999999996,
+      "end": 410.15999999999997,
+      "text": "Reliability. This is critical with AI because of its probabilistic nature. We've all heard",
+      "words": []
+    },
+    {
+      "start": 410.15999999999997,
+      "end": 416.32,
+      "text": "responses from JetJPT that are wrong, which just completely undermides our willingness to give it",
+      "words": []
+    },
+    {
+      "start": 416.32,
+      "end": 423.52,
+      "text": "actual turn masks. And scalability, taking something that is for one user and rolling it out to",
+      "words": []
+    },
+    {
+      "start": 423.52,
+      "end": 430.79999999999995,
+      "text": "an entire organization. So I'm going to discuss each of these through the lens of actual examples,",
+      "words": []
+    },
+    {
+      "start": 430.88,
+      "end": 438.40000000000003,
+      "text": "which addressed some of these different aspects. And just before I get into that,",
+      "words": []
+    },
+    {
+      "start": 438.40000000000003,
+      "end": 444.08000000000004,
+      "text": "there are a range of low code tools we could use. These are ones which have native order",
+      "words": []
+    },
+    {
+      "start": 444.08000000000004,
+      "end": 450.48,
+      "text": "disconnected. And yes, there is a heap of others out there. Depending on your use case or the",
+      "words": []
+    },
+    {
+      "start": 450.48,
+      "end": 455.44,
+      "text": "flexibility you want in your development stack. These are some of the things you may",
+      "words": []
+    },
+    {
+      "start": 455.52,
+      "end": 462.16,
+      "text": "want to work with. For instance, can you create user interfaces? Can you edit geometry",
+      "words": []
+    },
+    {
+      "start": 463.52,
+      "end": 472.0,
+      "text": "to have built-in capabilities like Ragn and AI tools? How easy is it to connect to GraphQL APIs",
+      "words": []
+    },
+    {
+      "start": 472.0,
+      "end": 479.76,
+      "text": "like all the desks acd idima? And all of this is a little bit subjective. But if you do want to dive",
+      "words": []
+    },
+    {
+      "start": 479.76,
+      "end": 485.76,
+      "text": "a bit deeper into the list, you can take a look at this in more detail in this summary, which I've",
+      "words": []
+    },
+    {
+      "start": 485.76,
+      "end": 497.12,
+      "text": "provided here in the link. Okay, so for me, usability with respect to AI is about thinking consciously",
+      "words": []
+    },
+    {
+      "start": 497.12,
+      "end": 504.56,
+      "text": "about how AI is best deployed as part of the solution in service of an outcome. When we think",
+      "words": []
+    },
+    {
+      "start": 504.64,
+      "end": 511.92,
+      "text": "about AI, the default mode of interaction is usually a chatbot. There's actually a lot more",
+      "words": []
+    },
+    {
+      "start": 511.92,
+      "end": 519.76,
+      "text": "interesting variety out there to choose from. Okay, so in doing this, we can consider where, when,",
+      "words": []
+    },
+    {
+      "start": 519.76,
+      "end": 527.6,
+      "text": "and how a user is interacting with AI. There's again, a bit of a sense that chat is this ideal",
+      "words": []
+    },
+    {
+      "start": 527.6800000000001,
+      "end": 535.36,
+      "text": "intuitive interface. But sometimes simple is better. I don't want to have to type the same prompt",
+      "words": []
+    },
+    {
+      "start": 535.36,
+      "end": 541.6,
+      "text": "every time I want to complete a similar task. So don't be afraid of taking some of the flexibility",
+      "words": []
+    },
+    {
+      "start": 541.6,
+      "end": 550.16,
+      "text": "of AI and baking in-c and workflows, adding buttons, adding dashboards, or having the process run",
+      "words": []
+    },
+    {
+      "start": 550.16,
+      "end": 558.56,
+      "text": "automatically in the background. We've seen a huge amount of interests of the explosion of",
+      "words": []
+    },
+    {
+      "start": 558.56,
+      "end": 566.9599999999999,
+      "text": "open-claw in the past few months. A big reason for that is that the interaction with AI, it took",
+      "words": []
+    },
+    {
+      "start": 566.9599999999999,
+      "end": 574.3199999999999,
+      "text": "it from being again in-h at bot to a place where people were already sitting. So in channels like WhatsApp.",
+      "words": []
+    },
+    {
+      "start": 575.2,
+      "end": 581.12,
+      "text": "So think about how delivering the experience in a tool which has already been used,",
+      "words": []
+    },
+    {
+      "start": 581.12,
+      "end": 585.9200000000001,
+      "text": "or in the context of the work being done, might make it more accessible as well.",
+      "words": []
+    },
+    {
+      "start": 586.96,
+      "end": 592.48,
+      "text": "Okay, let's look at the progression of different solutions to the same problem.",
+      "words": []
+    },
+    {
+      "start": 593.2800000000001,
+      "end": 598.8800000000001,
+      "text": "One challenge from when I was back working a very general contractor is I would get hundreds of",
+      "words": []
+    },
+    {
+      "start": 598.88,
+      "end": 604.96,
+      "text": "these reinforcement, like very dockets. And I'd need to manually enter the information into a",
+      "words": []
+    },
+    {
+      "start": 604.96,
+      "end": 612.72,
+      "text": "spreadsheet. So I tried to solve this by writing a customs group, pre-chat GPD, so you can",
+      "words": []
+    },
+    {
+      "start": 612.72,
+      "end": 620.72,
+      "text": "imagine it took me a bit of time. And that worked. At a needed setup, I couldn't share it with other",
+      "words": []
+    },
+    {
+      "start": 620.72,
+      "end": 627.36,
+      "text": "people. And it wasn't robust enough to work with anything outside of one specific docket.",
+      "words": []
+    },
+    {
+      "start": 627.52,
+      "end": 635.44,
+      "text": "So a next attempt at this was building a custom GPD in chat GPD, which could scan dockets.",
+      "words": []
+    },
+    {
+      "start": 636.5600000000001,
+      "end": 639.6,
+      "text": "Again, really simple setup, basically done with the actual plan, but",
+      "words": []
+    },
+    {
+      "start": 641.28,
+      "end": 650.32,
+      "text": "began due to the limitations of GPDs. It only worked for specific formats of docket on a specific",
+      "words": []
+    },
+    {
+      "start": 650.32,
+      "end": 656.0,
+      "text": "project. And I think it was actually still pretty manual, because scan those dockets one at the time.",
+      "words": []
+    },
+    {
+      "start": 657.84,
+      "end": 666.96,
+      "text": "So what I have now is I think a bit of form on this. I've created this up in Microsoft Power Amps,",
+      "words": []
+    },
+    {
+      "start": 666.96,
+      "end": 672.48,
+      "text": "which is powered in the back end by Power Automate. So dockets are stored up on SharePoint,",
+      "words": []
+    },
+    {
+      "start": 672.48,
+      "end": 678.72,
+      "text": "scanned up to there. I can select my project in a specific form, then bulk extract from the docket",
+      "words": []
+    },
+    {
+      "start": 678.72,
+      "end": 685.52,
+      "text": "on SharePoint, send that to ACC, where I've all of my other project formed. So it's really getting",
+      "words": []
+    },
+    {
+      "start": 685.52,
+      "end": 691.92,
+      "text": "to the heart of what is the best way to automate that repetitive low value task to achieve the",
+      "words": []
+    },
+    {
+      "start": 691.92,
+      "end": 702.24,
+      "text": "outcome that I wanted at the end. Trust is one of the most important components for successful AI.",
+      "words": []
+    },
+    {
+      "start": 702.72,
+      "end": 708.16,
+      "text": "And we'll know the adage trust is in and in drops, and it's lost in buckets.",
+      "words": []
+    },
+    {
+      "start": 709.4399999999999,
+      "end": 714.96,
+      "text": "It gets incorrect, incorrect results back from AI once. And all that excitement about this new",
+      "words": []
+    },
+    {
+      "start": 714.96,
+      "end": 721.44,
+      "text": "technology will really quickly disavail us. So there's a few ways that we can try and mitigate that,",
+      "words": []
+    },
+    {
+      "start": 721.44,
+      "end": 727.0400000000001,
+      "text": "including looking at the logic of the actual application, like how do we handle errors?",
+      "words": []
+    },
+    {
+      "start": 727.9200000000001,
+      "end": 734.64,
+      "text": "Are we using deterministic solutions for the deterministic problems? Where do we have human in the",
+      "words": []
+    },
+    {
+      "start": 734.64,
+      "end": 739.6800000000001,
+      "text": "loop to intervene? All of which, you know, low code is actually quite good at mapping out and",
+      "words": []
+    },
+    {
+      "start": 739.68,
+      "end": 747.5999999999999,
+      "text": "incrementing, making sure that data and context that goes to AI is in the best possible condition.",
+      "words": []
+    },
+    {
+      "start": 747.5999999999999,
+      "end": 754.2399999999999,
+      "text": "So there's less likely to loosen it. We don't want to confuse AI by having too much or messy",
+      "words": []
+    },
+    {
+      "start": 754.2399999999999,
+      "end": 760.16,
+      "text": "data going to it, which it won't be able to make sense of. And other methods that help to",
+      "words": []
+    },
+    {
+      "start": 760.16,
+      "end": 765.5999999999999,
+      "text": "see AI, like giving access to tools and having a more transparent conversation,",
+      "words": []
+    },
+    {
+      "start": 765.6,
+      "end": 770.08,
+      "text": "be it reasoning and feedback that we can try and understand what it's actually doing.",
+      "words": []
+    },
+    {
+      "start": 770.96,
+      "end": 776.72,
+      "text": "But adding in code that any of that's actually working? Well, because AI is probabilistic,",
+      "words": []
+    },
+    {
+      "start": 776.72,
+      "end": 782.64,
+      "text": "it is so important to test and know that getting it right once, it doesn't actually mean",
+      "words": []
+    },
+    {
+      "start": 782.64,
+      "end": 789.2,
+      "text": "that results can be correct every time. So starting small piloting, get real use of feedback for",
+      "words": []
+    },
+    {
+      "start": 789.2,
+      "end": 799.44,
+      "text": "all different scenarios is incredibly important. Another challenge that we have on projects",
+      "words": []
+    },
+    {
+      "start": 799.44,
+      "end": 806.6400000000001,
+      "text": "is just navigating the complexity of all the project data that's created. And how do we effectively",
+      "words": []
+    },
+    {
+      "start": 806.6400000000001,
+      "end": 815.12,
+      "text": "work with that and respond to it? To my earlier point on usability? One way to surface is in",
+      "words": []
+    },
+    {
+      "start": 815.12,
+      "end": 823.6,
+      "text": "teams. So I created this demo using my Chris Oskar pilot studio to show that. But I was actually",
+      "words": []
+    },
+    {
+      "start": 823.6,
+      "end": 829.2,
+      "text": "thinking, you know, I can bring up some of this project information in teams and interact with",
+      "words": []
+    },
+    {
+      "start": 829.2,
+      "end": 837.12,
+      "text": "it. But what I would really like is to be able to help navigate the ambiguity by surfacing",
+      "words": []
+    },
+    {
+      "start": 837.12,
+      "end": 842.88,
+      "text": "some insights from similar circumstances across other projects, maybe historical projects.",
+      "words": []
+    },
+    {
+      "start": 845.44,
+      "end": 853.2,
+      "text": "So the improvement on this was rather than giving AI access to the APIs, to give it access to a",
+      "words": []
+    },
+    {
+      "start": 853.2,
+      "end": 859.76,
+      "text": "vector data database containing other project information, which can then be used in retrieval",
+      "words": []
+    },
+    {
+      "start": 859.76,
+      "end": 866.0,
+      "text": "augmented generation, basically learning the AI, search the organizational knowledge database,",
+      "words": []
+    },
+    {
+      "start": 866.8,
+      "end": 874.16,
+      "text": "which is made for finding relationships, a vector database. Now I served this up in a custom",
+      "words": []
+    },
+    {
+      "start": 874.16,
+      "end": 880.0,
+      "text": "Chrome extension, which uses NAN as the actual application logic in the backend, again, for the",
+      "words": []
+    },
+    {
+      "start": 880.0,
+      "end": 888.0799999999999,
+      "text": "kind of reasons why I was saying earlier that like to use this. And just a bit of a sneak peek",
+      "words": []
+    },
+    {
+      "start": 888.0799999999999,
+      "end": 894.88,
+      "text": "about how this is working. So this is the NAN workflow. It receives a message from that",
+      "words": []
+    },
+    {
+      "start": 894.88,
+      "end": 902.8,
+      "text": "Chrome extension. Then it does a bit of pre-processing to get the RFI or issue in question. And then",
+      "words": []
+    },
+    {
+      "start": 902.8,
+      "end": 910.16,
+      "text": "NAN has this built-in AI orchestration node, which itself has access to the two vector databases,",
+      "words": []
+    },
+    {
+      "start": 910.16,
+      "end": 917.8399999999999,
+      "text": "which I created, based on that data from ACC. I'm using pine cone, that's not really important,",
+      "words": []
+    },
+    {
+      "start": 917.8399999999999,
+      "end": 924.7199999999999,
+      "text": "which kind of vectors are that databases used. But AI can use this to find similar items.",
+      "words": []
+    },
+    {
+      "start": 925.52,
+      "end": 930.3199999999999,
+      "text": "And then return back a response to the Chrome extension via a web port.",
+      "words": []
+    },
+    {
+      "start": 930.5600000000001,
+      "end": 938.88,
+      "text": "To build this, I used a Cloud Code to actually create the extension. And I used it to create a set",
+      "words": []
+    },
+    {
+      "start": 938.88,
+      "end": 945.5200000000001,
+      "text": "of custom nodes in NAN, which you can see on the side here. Now then not order this official,",
+      "words": []
+    },
+    {
+      "start": 945.5200000000001,
+      "end": 950.24,
+      "text": "but I've included the link to that here so you can download, give them the try, and start playing",
+      "words": []
+    },
+    {
+      "start": 950.24,
+      "end": 958.8000000000001,
+      "text": "with NAN with all the disk. What final difference between prototype and production application",
+      "words": []
+    },
+    {
+      "start": 959.4399999999999,
+      "end": 964.3199999999999,
+      "text": "is actually getting it out to users and making sure that it works at a larger scale.",
+      "words": []
+    },
+    {
+      "start": 966.8,
+      "end": 971.4399999999999,
+      "text": "So you may be familiar with a lot of the standard application considerations,",
+      "words": []
+    },
+    {
+      "start": 973.12,
+      "end": 978.9599999999999,
+      "text": "which the simple solution to is to select a platform that's appropriate to your needs,",
+      "words": []
+    },
+    {
+      "start": 978.9599999999999,
+      "end": 982.7199999999999,
+      "text": "meets the requirements of what your eventual application is going to look like.",
+      "words": []
+    },
+    {
+      "start": 983.28,
+      "end": 987.3599999999999,
+      "text": "So you know, assess the different low code solutions that are out there. If you are going down",
+      "words": []
+    },
+    {
+      "start": 987.36,
+      "end": 993.28,
+      "text": "that path, and understand how things like authentication and permissions work in APS,",
+      "words": []
+    },
+    {
+      "start": 993.28,
+      "end": 999.2,
+      "text": "which again, there's plenty of them content out there on that. When working with AI, there's",
+      "words": []
+    },
+    {
+      "start": 999.2,
+      "end": 1009.44,
+      "text": "some special considerations. Since has had a promise to scale tools effectively at zero cost.",
+      "words": []
+    },
+    {
+      "start": 1010.08,
+      "end": 1017.2,
+      "text": "And while it may only be a few cents to run a prototype that involves AI, those API costs",
+      "words": []
+    },
+    {
+      "start": 1017.2,
+      "end": 1023.9200000000001,
+      "text": "can add up really quickly when you do go out to a much larger scale. So consider ways that you",
+      "words": []
+    },
+    {
+      "start": 1023.9200000000001,
+      "end": 1029.76,
+      "text": "might manage that. Things like caching of problems, potentially of local hosted models, which",
+      "words": []
+    },
+    {
+      "start": 1029.76,
+      "end": 1035.68,
+      "text": "have other advantages around security as well. And keeping up to date with the latest models,",
+      "words": []
+    },
+    {
+      "start": 1035.68,
+      "end": 1041.3600000000001,
+      "text": "both from the perspective of customer optimization, but also performance improvements and user",
+      "words": []
+    },
+    {
+      "start": 1041.36,
+      "end": 1049.4399999999998,
+      "text": "experience. And I haven't touched on this, but the people aspect needs to be considered at all",
+      "words": []
+    },
+    {
+      "start": 1049.4399999999998,
+      "end": 1056.9599999999998,
+      "text": "stages in making any change to technology successful. So the education, the training, the change",
+      "words": []
+    },
+    {
+      "start": 1056.9599999999998,
+      "end": 1062.8799999999999,
+      "text": "management, I feel that's even more critical with AI, where there can be that kind of apprehension",
+      "words": []
+    },
+    {
+      "start": 1062.8799999999999,
+      "end": 1068.7199999999998,
+      "text": "about this new technology. And as I mentioned, that really to establish trust in the solution.",
+      "words": []
+    },
+    {
+      "start": 1071.52,
+      "end": 1082.32,
+      "text": "Okay, back to one more time to the problem stage. I've been model with all of this valuable data,",
+      "words": []
+    },
+    {
+      "start": 1083.12,
+      "end": 1088.9599999999998,
+      "text": "but it's incredibly complex. And not everyone is a rev it user able to extract that use to all",
+      "words": []
+    },
+    {
+      "start": 1088.9599999999998,
+      "end": 1098.1599999999999,
+      "text": "the information. Now, we could give everyone access to rev it MCPs and automate that interaction",
+      "words": []
+    },
+    {
+      "start": 1098.16,
+      "end": 1105.68,
+      "text": "with the model. And at the moment, getting that out to everyone requires custom installations.",
+      "words": []
+    },
+    {
+      "start": 1107.2,
+      "end": 1111.8400000000001,
+      "text": "You know, caveat to that is that updates to all the risk assistant in the near future will",
+      "words": []
+    },
+    {
+      "start": 1111.8400000000001,
+      "end": 1116.96,
+      "text": "probably change that dynamic, but still, why do we want some custom workflows that are built on top",
+      "words": []
+    },
+    {
+      "start": 1116.96,
+      "end": 1127.0400000000002,
+      "text": "on that model? So here I'm using Victor, which is a deployment platform for building engineering",
+      "words": []
+    },
+    {
+      "start": 1127.04,
+      "end": 1134.32,
+      "text": "applications. I'm using it to interact with the model data, send it to AI, Bora and Alasus,",
+      "words": []
+    },
+    {
+      "start": 1134.32,
+      "end": 1140.32,
+      "text": "asking questions like the service and insights for me, which I may not have the skill to try and",
+      "words": []
+    },
+    {
+      "start": 1140.32,
+      "end": 1147.36,
+      "text": "analyze and can get those insights myself. And then use it in downstream calculations as well.",
+      "words": []
+    },
+    {
+      "start": 1147.36,
+      "end": 1152.8799999999999,
+      "text": "So by passing some of the knowledge that's needed to work with the model, that to make sense to",
+      "words": []
+    },
+    {
+      "start": 1152.88,
+      "end": 1159.44,
+      "text": "the data. Victor includes setup for authentication, also access to all of the best APIs.",
+      "words": []
+    },
+    {
+      "start": 1160.4,
+      "end": 1166.72,
+      "text": "I can increase compute resources so for scale it further if needs be. The AI features,",
+      "words": []
+    },
+    {
+      "start": 1166.72,
+      "end": 1173.8400000000001,
+      "text": "and this is really interesting, it also baked in. So I'm not running a separate API bill. I'm using",
+      "words": []
+    },
+    {
+      "start": 1173.8400000000001,
+      "end": 1180.0,
+      "text": "that as a built-in tool, all of the things which help to make sure that this is scalable to",
+      "words": []
+    },
+    {
+      "start": 1180.08,
+      "end": 1188.08,
+      "text": "whatever size that I need to be. So this is just a bit of a sneak peek into the",
+      "words": []
+    },
+    {
+      "start": 1188.08,
+      "end": 1193.92,
+      "text": "overall process flow. But is that the main thing to note here is that Victor has these building blocks",
+      "words": []
+    },
+    {
+      "start": 1194.48,
+      "end": 1200.72,
+      "text": "baked in for the auditors. You are for the AC data model, which allows it to draw the geometry",
+      "words": []
+    },
+    {
+      "start": 1200.72,
+      "end": 1206.72,
+      "text": "and probably data from all the disk, which can then be very quickly turned into product features,",
+      "words": []
+    },
+    {
+      "start": 1207.3600000000001,
+      "end": 1213.84,
+      "text": "like rank calculations and the AI analysis. And if you want to explore more on this,",
+      "words": []
+    },
+    {
+      "start": 1213.84,
+      "end": 1219.1200000000001,
+      "text": "I've actually included the QR code here to a sample for some code that the Victor team have,",
+      "words": []
+    },
+    {
+      "start": 1219.1200000000001,
+      "end": 1224.0,
+      "text": "which I based at earlier example on. So you can use that and start to explore it.",
+      "words": []
+    },
+    {
+      "start": 1227.6000000000001,
+      "end": 1232.96,
+      "text": "So I just wanted to leave with some key takeaways. As I mentioned right up at the top,",
+      "words": []
+    },
+    {
+      "start": 1233.04,
+      "end": 1239.1200000000001,
+      "text": "things are changing really quickly. So having some core principles, which remain relevant,",
+      "words": []
+    },
+    {
+      "start": 1239.1200000000001,
+      "end": 1247.44,
+      "text": "is very important. Firstly, develop the systems, get the processes within your business,",
+      "words": []
+    },
+    {
+      "start": 1247.44,
+      "end": 1253.44,
+      "text": "like identifying champions, creating centers of excellence, or technical ones,",
+      "words": []
+    },
+    {
+      "start": 1253.44,
+      "end": 1260.64,
+      "text": "like the process to vet solutions before they get rolled out, and create reusable components",
+      "words": []
+    },
+    {
+      "start": 1260.64,
+      "end": 1266.88,
+      "text": "that those SMEs can try and build with. The things that are going to make solving problems",
+      "words": []
+    },
+    {
+      "start": 1266.88,
+      "end": 1275.6000000000001,
+      "text": "the part of the actual company's DNA. Find problems, because one of those systems should be actually",
+      "words": []
+    },
+    {
+      "start": 1275.6000000000001,
+      "end": 1282.0,
+      "text": "the process to find problems and select which ones attack them. And now, let the organization",
+      "words": []
+    },
+    {
+      "start": 1282.0,
+      "end": 1286.96,
+      "text": "know that you're actively looking and give frameworks like some of what we've discussed today,",
+      "words": []
+    },
+    {
+      "start": 1287.92,
+      "end": 1294.4,
+      "text": "how to consider those solutions. And there is a huge amount of value in working closely with",
+      "words": []
+    },
+    {
+      "start": 1294.4,
+      "end": 1300.56,
+      "text": "companies that provide the technology that you're building with, because their roadmap may",
+      "words": []
+    },
+    {
+      "start": 1300.56,
+      "end": 1305.8400000000001,
+      "text": "address the challenge that you will try to solve, and may change how you will build.",
+      "words": []
+    },
+    {
+      "start": 1307.04,
+      "end": 1311.44,
+      "text": "And you can also leverage their technical guidance to accelerate your own development.",
+      "words": []
+    },
+    {
+      "start": 1312.16,
+      "end": 1317.68,
+      "text": "So there's plenty of opportunities to start those conversations with companies like",
+      "words": []
+    },
+    {
+      "start": 1317.68,
+      "end": 1323.52,
+      "text": "Autodesk, and around you'll see a lot of other content around DevCon to help accelerate that as well.",
+      "words": []
+    },
+    {
+      "start": 1324.64,
+      "end": 1328.64,
+      "text": "So I hope you reach out. If there is anything here that you'd like to understand more of,",
+      "words": []
+    },
+    {
+      "start": 1328.64,
+      "end": 1334.3200000000002,
+      "text": "and enjoy the rest of the presentations and sessions from DevCon. Thank you.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:04:06.863893+00:00"
+}

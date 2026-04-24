@@ -1,0 +1,72 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\EnCsTr2FH-Y\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation titled 'Auth Patterns for MCP & APS'.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Auth Patterns for MCP & APS",
+        "AUTODESK DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\EnCsTr2FH-Y\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide at Autodesk DevCon describing the scope including third-party MCP server, integration with APS, cloud deployment, and streamable HTTP.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Scope"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\EnCsTr2FH-Y\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses OAuth and MCP, outlining roles and flows for OAuth and detailing MCP specifics.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "OAuth",
+        "MCP",
+        "Roles",
+        "Flows",
+        "Authorization optional"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\EnCsTr2FH-Y\\frames\\frame_000017.jpg",
+      "timestamp_seconds": 480.0,
+      "frame_index": 17,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide discussing the 2LO Pattern with a flow diagram and pros and cons listed.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "2LO Pattern",
+        "Layer 1",
+        "Layer 2",
+        "Pros",
+        "Cons",
+        "MCP Auth Extension"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:56:30.596371+00:00"
+}

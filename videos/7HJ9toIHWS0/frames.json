@@ -1,0 +1,224 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\7HJ9toIHWS0\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\7HJ9toIHWS0\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide introduces the speakers at Autodesk DevCon with their roles and visual images.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "About the speakers",
+        "Michael Mair",
+        "Revit & BIM-Specialist",
+        "Samuel Mair",
+        "Software Engineer"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\7HJ9toIHWS0\\frames\\frame_000006.jpg",
+      "timestamp_seconds": 150.0,
+      "frame_index": 6,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide discussing IGO industries' integrated construction and development technologies.",
+      "products_visible": [
+        "Autodesk",
+        "IGO industries",
+        "ORTNER",
+        "Bacon",
+        "ELIN",
+        "SMB",
+        "DOOR",
+        "TKT",
+        "bluecode",
+        "Ascense",
+        "AURIMOD",
+        "morphomed",
+        "NANOVOXEL",
+        "REGENERA",
+        "IUPNANO"
+      ],
+      "ui_elements": [
+        "Autodesk DevCon",
+        "IGO Technologies",
+        "IGO Construction",
+        "IGO Development",
+        "IGO Innovation"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\7HJ9toIHWS0\\frames\\frame_000008.jpg",
+      "timestamp_seconds": 210.0,
+      "frame_index": 8,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide displays numbers and facts about a company's annual revenue, employees, and locations for 2024, with an accompanying speaker.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Numbers and Facts",
+        "Annual Revenue 2024",
+        "Employees 2024",
+        "Locations"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\7HJ9toIHWS0\\frames\\frame_000009.jpg",
+      "timestamp_seconds": 240.0,
+      "frame_index": 9,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a speaker next to a slide with an agenda listing topics such as Fragmented Reality and Low-Code, alongside an image of a building.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Agenda",
+        "Fragmented Reality",
+        "IGO-Reporting",
+        "Low-Code",
+        "Scaling beyond"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\7HJ9toIHWS0\\frames\\frame_000010.jpg",
+      "timestamp_seconds": 270.0,
+      "frame_index": 10,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing 'Fragmented Reality' at Autodesk DevCon, highlighting challenges with project management tools.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Fragmented Reality",
+        "Every project runs on different tools \u2014 and none of them fit together."
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\7HJ9toIHWS0\\frames\\frame_000020.jpg",
+      "timestamp_seconds": 570.0,
+      "frame_index": 20,
+      "category": "ui",
+      "keep": true,
+      "description": "The frame shows a UI with an application window for a daily construction report, specifically an 'Add work' dialog.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Add work",
+        "Description",
+        "# Workers",
+        "Save"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\7HJ9toIHWS0\\frames\\frame_000026.jpg",
+      "timestamp_seconds": 750.0,
+      "frame_index": 26,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'Our journey' with information about datasets used for IGO-Reporting, including relationships, photos, assets, issues, locations, and forms.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Our journey",
+        "Number of datasets used for IGO-Reporting"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\7HJ9toIHWS0\\frames\\frame_000033.jpg",
+      "timestamp_seconds": 960.0,
+      "frame_index": 33,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide titled 'Lessons learned' about Low-Code at an Autodesk DevCon event.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Lessons learned",
+        "Low-Code"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\7HJ9toIHWS0\\frames\\frame_000034.jpg",
+      "timestamp_seconds": 990.0,
+      "frame_index": 34,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents the strengths and challenges of low-code development.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Low-Code: strengths",
+        "Low-Code: challenges"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\7HJ9toIHWS0\\frames\\frame_000038.jpg",
+      "timestamp_seconds": 1110.0,
+      "frame_index": 38,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide from Autodesk DevCon about scaling and future readiness.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Scaling beyond limits",
+        "Fit for the future"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\7HJ9toIHWS0\\frames\\frame_000039.jpg",
+      "timestamp_seconds": 1140.0,
+      "frame_index": 39,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'Scaling beyond limits' with bullet points about transitioning to pro-code and integration challenges.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Scaling beyond limits",
+        "Transition to Pro-Code",
+        "Reducing load times from minutes to seconds",
+        "Reusable code",
+        "No vendor lock in",
+        "3rd party integration needs more effort"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\7HJ9toIHWS0\\frames\\frame_000044.jpg",
+      "timestamp_seconds": 1290.0,
+      "frame_index": 44,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T21:47:18.778600+00:00"
+}

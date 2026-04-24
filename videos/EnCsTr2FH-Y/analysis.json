@@ -1,0 +1,80 @@
+{
+  "video_id": "EnCsTr2FH-Y",
+  "demo_timestamps": [],
+  "themes": [
+    "OAuth authentication and integration patterns",
+    "Autodesk Platform Services and MCP servers",
+    "MCP server patterns",
+    "API usage",
+    "security concerns",
+    "automation workflows"
+  ],
+  "client_mentions": [],
+  "autodesk_products": [
+    {
+      "name": "Autodesk Platform Services",
+      "is_api": false,
+      "timestamp": 0.0
+    },
+    {
+      "name": "Model Derivative API",
+      "is_api": true,
+      "timestamp": 0.0
+    },
+    {
+      "name": "AEC Data Model API",
+      "is_api": true,
+      "timestamp": 0.0
+    },
+    {
+      "name": "Fusion",
+      "is_api": false,
+      "timestamp": 1223.0
+    },
+    {
+      "name": "OSS",
+      "is_api": true,
+      "timestamp": 1248.0
+    },
+    {
+      "name": "Model Derivative",
+      "is_api": true,
+      "timestamp": 1248.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "Claude",
+      "category": "llm",
+      "context": "Example of an MCP client connecting to MCP server",
+      "timestamp": 0.0
+    },
+    {
+      "name": "Chat GPT",
+      "category": "llm",
+      "context": "Example of an MCP client connecting to MCP server",
+      "timestamp": 0.0
+    },
+    {
+      "name": "VS Code GitHub Copilot",
+      "category": "llm",
+      "context": "Considered an OAuth client according to MCP specification",
+      "timestamp": 0.0
+    },
+    {
+      "name": "CHGPD",
+      "category": "llm",
+      "context": "Accessing own data with MCP server",
+      "timestamp": 1234.0
+    },
+    {
+      "name": "Clawed",
+      "category": "llm",
+      "context": "Accessing own data with MCP server",
+      "timestamp": 1235.0
+    }
+  ],
+  "summary": "The video introduces OAuth authentication patterns for custom MCP servers integrated with Autodesk Platform Services, focusing on two-legged OAuth (2LO), Secure Service Account (SSA), and three-legged OAuth, along with their use cases and potential challenges. It discusses accessing Autodesk services like OSS and Model Derivative APIs using these patterns and emphasizes the importance of security considerations when utilizing the three-legged pattern.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:56:40.712651+00:00"
+}

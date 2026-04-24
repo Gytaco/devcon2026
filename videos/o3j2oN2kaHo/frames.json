@@ -1,0 +1,136 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\o3j2oN2kaHo\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\o3j2oN2kaHo\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide titled 'Operational Intelligence with Tandem' from an Autodesk DevCon presentation, focused on driving maintenance ROI from digital twins.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Operational Intelligence with Tandem",
+        "Driving Maintenance ROI from Digital Twins",
+        "Autodesk DevCon"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\o3j2oN2kaHo\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide discussing the manufacturing industry context, highlighting pain points and opportunities for maintenance efficiency.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Manufacturing industry context",
+        "Pain Points",
+        "Opportunities"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\o3j2oN2kaHo\\frames\\frame_000009.jpg",
+      "timestamp_seconds": 240.0,
+      "frame_index": 9,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide discussing the role of Autodesk Tandem in providing context for reasoning in decision engines, highlighting aspects like asset structure, integration, and operational dashboards.",
+      "products_visible": [
+        "Autodesk Tandem"
+      ],
+      "ui_elements": [
+        "DevCon",
+        "Starting from Tandem",
+        "Digital Twins are the foundation for decision engines",
+        "Tandem provides context for reasoning",
+        "Asset structure and context",
+        "CMMS/CAFM integration",
+        "Live device data",
+        "Operational dashboards",
+        "Digital Twins can evolve from monitoring systems to decision engines"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\o3j2oN2kaHo\\frames\\frame_000010.jpg",
+      "timestamp_seconds": 270.0,
+      "frame_index": 10,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide discussing Agentic orchestration in the context of how Digital Twins can become decision engines.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "User interaction",
+        "Agent Orchestrator",
+        "MCP Structured Context, tools and prompts",
+        "AI-advised decisions"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\o3j2oN2kaHo\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide shows agentic architecture for connecting enterprise data and utilizing AI for decision-making with Autodesk Forma and Tandem mentioned.",
+      "products_visible": [
+        "Autodesk Forma",
+        "Tandem"
+      ],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\o3j2oN2kaHo\\frames\\frame_000014.jpg",
+      "timestamp_seconds": 390.0,
+      "frame_index": 14,
+      "category": "demo",
+      "keep": true,
+      "description": "A person presents a software demo featuring an asset health management interface with KPIs and asset lists.",
+      "products_visible": [
+        "AUTODESK",
+        "Operations Intelligence Digital Twins"
+      ],
+      "ui_elements": [
+        "Asset health overview",
+        "Maintenance activator KPIs",
+        "Asset health scores",
+        "Asset Lister"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\o3j2oN2kaHo\\frames\\frame_000019.jpg",
+      "timestamp_seconds": 540.0,
+      "frame_index": 19,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses how agentic AI can increase ROI in operations, contrasting dashboard-based and agentic reasoning approaches.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "When Twins Start Reasoning",
+        "Dashboard-based",
+        "Agentic reasoning",
+        "Cumulative value",
+        "ROI Gap"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:45:36.533904+00:00"
+}

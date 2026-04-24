@@ -1,0 +1,559 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.0,
+      "text": "Hello, I'm James Cook, Director of Industry and Technology Partnerships for the AEC Space within Autodesk.",
+      "words": []
+    },
+    {
+      "start": 7.0,
+      "end": 18.0,
+      "text": "I'm here today to talk to you about Forma Construction Connect and how that integration platform as a service can help customers automate a wide variety of construction workflows.",
+      "words": []
+    },
+    {
+      "start": 19.0,
+      "end": 26.0,
+      "text": "As you might expect, we have our State Harbor Statement here as a public company. We need to caution you against forward looking statements.",
+      "words": []
+    },
+    {
+      "start": 26.0,
+      "end": 33.0,
+      "text": "You can always pause this recording and read it at your leisure. So with that, I will move on.",
+      "words": []
+    },
+    {
+      "start": 33.0,
+      "end": 38.0,
+      "text": "Today, I'm going to talk to you about the Forma Industry Cloud very briefly.",
+      "words": []
+    },
+    {
+      "start": 38.0,
+      "end": 53.0,
+      "text": "I'll spend most of my time talking about Forma Construction Connect, including an integration demo with SharePoint, and talk to you a little bit about how you as a partner or customer can get started.",
+      "words": []
+    },
+    {
+      "start": 54.0,
+      "end": 65.0,
+      "text": "First off, Autodesk Forma is our Industry Cloud for AECO. We connect data, workflows, and teams across the entire asset lifecycle from early planning all the way through operations.",
+      "words": []
+    },
+    {
+      "start": 65.0,
+      "end": 79.0,
+      "text": "We support planning and analysis to enable better site, understanding, and early decision making, design and authoring where Forma can connect design tools and collaboration so teams can iterate faster and with more context.",
+      "words": []
+    },
+    {
+      "start": 80.0,
+      "end": 88.0,
+      "text": "Model management estimating and bid management helps bridge the gap into pre-construction, ensuring decisions made early carry forward with integrity.",
+      "words": []
+    },
+    {
+      "start": 88.0,
+      "end": 98.0,
+      "text": "And our capabilities extend strongly into construction where we can support project execution, cost, quality, and ultimately long-term asset performance and operations.",
+      "words": []
+    },
+    {
+      "start": 99.0,
+      "end": 112.0,
+      "text": "Underpinning all of this is a common set of platform capabilities, including data management, insights, AI, and a connected data foundation so that information flows seamlessly across all of these phases.",
+      "words": []
+    },
+    {
+      "start": 112.0,
+      "end": 122.0,
+      "text": "Forma is not a point solution. It's a unified platform that connects the entire AECO lifecycle with shared connected data.",
+      "words": []
+    },
+    {
+      "start": 123.0,
+      "end": 130.0,
+      "text": "Having a bit deeper, Forma delivers depth across each phase of the project. Today I'll focus specifically on construction.",
+      "words": []
+    },
+    {
+      "start": 130.0,
+      "end": 138.0,
+      "text": "So in pre-construction, we support quantification estimating and bid management, helping teams improve accuracy and win rates.",
+      "words": []
+    },
+    {
+      "start": 138.0,
+      "end": 149.0,
+      "text": "During the actual build phases of a project, Forma brings together project management, cost control, quality, and safety, giving teams real-time visibility and control on the site.",
+      "words": []
+    },
+    {
+      "start": 149.0,
+      "end": 155.0,
+      "text": "And we also provide a handover and closeout to help project data carry forward all the way into operations.",
+      "words": []
+    },
+    {
+      "start": 155.0,
+      "end": 164.0,
+      "text": "Across all of this, the platform capabilities such as document management, insights, and audit SKI help teams make faster, more informed decisions.",
+      "words": []
+    },
+    {
+      "start": 164.0,
+      "end": 175.0,
+      "text": "Critically, this is all built on an open ecosystem with APIs, integrations, and industry partners so that customers can connect formate to the tools and workflows they rely on.",
+      "words": []
+    },
+    {
+      "start": 175.0,
+      "end": 186.0,
+      "text": "Through this, Forma combines end-to-end workflow coverage with deep construction capabilities, and it does it in an open, connect ecosystem that customers can then extend.",
+      "words": []
+    },
+    {
+      "start": 186.0,
+      "end": 192.0,
+      "text": "One of the key ways that we facilitate that open platform is through our Forma construction connect offering.",
+      "words": []
+    },
+    {
+      "start": 192.0,
+      "end": 200.0,
+      "text": "This is our no-code, low-code, integration platform as a service or I-PASS, powered by our partnership with workado.",
+      "words": []
+    },
+    {
+      "start": 201.0,
+      "end": 212.0,
+      "text": "Forma construction connect is a cloud-based service that allows customers to create bespoke workflows or recipes between leading SaaS solutions and various form of projects.",
+      "words": []
+    },
+    {
+      "start": 212.0,
+      "end": 222.0,
+      "text": "Rather than requiring our customers to write software, we provide this powerful middleware between form applications and hundreds of leading SaaS and cloud software offerings.",
+      "words": []
+    },
+    {
+      "start": 223.0,
+      "end": 233.0,
+      "text": "As you can see on the right-hand side, it's a visual interface with pre-built connectors to those applications to allow you to build integrations just as if you were laying out a flow chart.",
+      "words": []
+    },
+    {
+      "start": 233.0,
+      "end": 249.0,
+      "text": "But each box in the flow chart is actually a potential trigger based on activity in a cloud application, or an action pushing or pulling documents or data between applications, or logic to help you route those files or information to suit your business processes and needs.",
+      "words": []
+    },
+    {
+      "start": 250.0,
+      "end": 256.0,
+      "text": "Essentially, it allows you to create a custom integration rather than just a pre-built one.",
+      "words": []
+    },
+    {
+      "start": 258.0,
+      "end": 273.0,
+      "text": "In addition to the hundreds of third-party SaaS applications I mentioned, which form a construction connect can integrate with, it's pre-built connectors to several components of Forma help you automate workflows with a variety of data and documents that you trust to our platform.",
+      "words": []
+    },
+    {
+      "start": 273.0,
+      "end": 280.0,
+      "text": "Things such as drawings, forms, issues, assets, cost information, bid information, and even more.",
+      "words": []
+    },
+    {
+      "start": 282.0,
+      "end": 286.0,
+      "text": "So what do you do with all that data and those data types?",
+      "words": []
+    },
+    {
+      "start": 286.0,
+      "end": 290.0,
+      "text": "The most common workflows that customers automate fall into two categories.",
+      "words": []
+    },
+    {
+      "start": 290.0,
+      "end": 292.0,
+      "text": "The first is document management.",
+      "words": []
+    },
+    {
+      "start": 292.0,
+      "end": 301.0,
+      "text": "Customers synchronize documents between Forma and popular industry agnostic document management systems such as SharePoint, Box, Ignite.",
+      "words": []
+    },
+    {
+      "start": 301.0,
+      "end": 306.0,
+      "text": "It helps enhance business building processes and manage data retention needs in particular.",
+      "words": []
+    },
+    {
+      "start": 306.0,
+      "end": 313.0,
+      "text": "And you can sync in both directions between Autodesk Forma and these applications.",
+      "words": []
+    },
+    {
+      "start": 313.0,
+      "end": 316.0,
+      "text": "The second category is project management and analytics.",
+      "words": []
+    },
+    {
+      "start": 317.0,
+      "end": 327.0,
+      "text": "Customers will sync data in Forma with tools such as Smartsheet, Google Sheets, Air Table, or even SharePoint lists to help streamline project tracking and management.",
+      "words": []
+    },
+    {
+      "start": 327.0,
+      "end": 345.0,
+      "text": "They'll often use Forma construction connect to feed construction information into data lakes such as snowflake or MS SQL or other databases and then run analytics and visualization tools such as Microsoft Power BI or Tableau or others to help analyze and visualize that data alongside information.",
+      "words": []
+    },
+    {
+      "start": 346.0,
+      "end": 352.0,
+      "text": "And then we'll also use the data management tool to help you find information from other applications or sources.",
+      "words": []
+    },
+    {
+      "start": 352.0,
+      "end": 367.0,
+      "text": "To show you what this means in real terms, we're going to go through a demo of how form a construction connect can automatically push files from form a data management or form a build into a SharePoint folder.",
+      "words": []
+    },
+    {
+      "start": 367.0,
+      "end": 372.0,
+      "text": "What you're seeing on the screen right now is form a and we're in project folders.",
+      "words": []
+    },
+    {
+      "start": 372.0,
+      "end": 377.0,
+      "text": "Switching over to SharePoint you'll see a folder that we designated as the destination.",
+      "words": []
+    },
+    {
+      "start": 377.0,
+      "end": 380.0,
+      "text": "This is where the files perform will be delivered.",
+      "words": []
+    },
+    {
+      "start": 380.0,
+      "end": 384.0,
+      "text": "Now I'll jump into form a construction connect.",
+      "words": []
+    },
+    {
+      "start": 384.0,
+      "end": 391.0,
+      "text": "What I'm showing here is a prebuilt recipe that customers can use as a starting point and I'll walk through the setup quickly.",
+      "words": []
+    },
+    {
+      "start": 391.0,
+      "end": 395.0,
+      "text": "So first we'll hit edit.",
+      "words": []
+    },
+    {
+      "start": 396.0,
+      "end": 401.0,
+      "text": "And then we're going to open the trigger. This is where we define what events we want to monitor.",
+      "words": []
+    },
+    {
+      "start": 401.0,
+      "end": 410.0,
+      "text": "In this case, it'll be newer updated files from form a data management and form a build.",
+      "words": []
+    },
+    {
+      "start": 410.0,
+      "end": 417.0,
+      "text": "We've already connected this to point to the same form of project that we were just looking at and specify the project files directory.",
+      "words": []
+    },
+    {
+      "start": 417.0,
+      "end": 423.0,
+      "text": "So any new or updated file in this project will be automatically detected.",
+      "words": []
+    },
+    {
+      "start": 423.0,
+      "end": 428.0,
+      "text": "Next we'll define the destination folder in SharePoint.",
+      "words": []
+    },
+    {
+      "start": 428.0,
+      "end": 439.0,
+      "text": "Here we'll select the site and the specific folder where those files should be stored.",
+      "words": []
+    },
+    {
+      "start": 439.0,
+      "end": 445.0,
+      "text": "For this recipe, once that's set, that's all really all that's really required.",
+      "words": []
+    },
+    {
+      "start": 445.0,
+      "end": 452.0,
+      "text": "The rest of the recipe handles the synchronization automatically detecting changes in format and pushing them to SharePoint.",
+      "words": []
+    },
+    {
+      "start": 452.0,
+      "end": 463.0,
+      "text": "So we'll save the recipe.",
+      "words": []
+    },
+    {
+      "start": 463.0,
+      "end": 466.0,
+      "text": "We'll exit.",
+      "words": []
+    },
+    {
+      "start": 466.0,
+      "end": 471.0,
+      "text": "And then we'll start it.",
+      "words": []
+    },
+    {
+      "start": 471.0,
+      "end": 474.0,
+      "text": "From here, the recipe is running the background.",
+      "words": []
+    },
+    {
+      "start": 474.0,
+      "end": 478.0,
+      "text": "It continuously monitors the project for newer updated files.",
+      "words": []
+    },
+    {
+      "start": 478.0,
+      "end": 493.0,
+      "text": "So we'll go back to form.",
+      "words": []
+    },
+    {
+      "start": 493.0,
+      "end": 501.0,
+      "text": "We're going to create a new folder.",
+      "words": []
+    },
+    {
+      "start": 501.0,
+      "end": 511.0,
+      "text": "And then upload a few files into it.",
+      "words": []
+    },
+    {
+      "start": 511.0,
+      "end": 519.0,
+      "text": "As those files are uploaded, you can see formers processing them in the background, whether they're PDF, DWGs, or Reddit files.",
+      "words": []
+    },
+    {
+      "start": 519.0,
+      "end": 532.0,
+      "text": "At the same time, form a construction connect is detecting those uploads as they happen.",
+      "words": []
+    },
+    {
+      "start": 532.0,
+      "end": 542.0,
+      "text": "So if we switch back over to the recipe and it's jobs dashboard and we'll hit refresh because it's a browser based app.",
+      "words": []
+    },
+    {
+      "start": 542.0,
+      "end": 561.0,
+      "text": "You can see that the activity in fact, those files has already been picked up and you'll see details, including the file name and the both the source and destination folder paths in form and SharePoint.",
+      "words": []
+    },
+    {
+      "start": 561.0,
+      "end": 568.0,
+      "text": "So now we go back to SharePoint and again browser based apps so we'll refresh.",
+      "words": []
+    },
+    {
+      "start": 568.0,
+      "end": 571.0,
+      "text": "And you can see the results.",
+      "words": []
+    },
+    {
+      "start": 571.0,
+      "end": 574.0,
+      "text": "The recipe has recreated the project structure automatically.",
+      "words": []
+    },
+    {
+      "start": 574.0,
+      "end": 588.0,
+      "text": "At the top level, we have the project name and within that, the same folder hierarchy that we had in form a, including the folder that we just created and the files inside it.",
+      "words": []
+    },
+    {
+      "start": 588.0,
+      "end": 600.0,
+      "text": "If we open one of these documents, we'll open it first in form a and compare it to the version in SharePoint.",
+      "words": []
+    },
+    {
+      "start": 600.0,
+      "end": 609.0,
+      "text": "You'll see, well, so here it is in form a.",
+      "words": []
+    },
+    {
+      "start": 610.0,
+      "end": 619.0,
+      "text": "And we can compare it into SharePoint and you'll see it's the identical file confirming that we've had a successful transfer from one to the other.",
+      "words": []
+    },
+    {
+      "start": 619.0,
+      "end": 632.0,
+      "text": "This also works with versioning. So if I were to upload a new version of the file in form that updated version will also be reflected in SharePoint.",
+      "words": []
+    },
+    {
+      "start": 632.0,
+      "end": 649.0,
+      "text": "So this is a simple but powerful example of how form a construction connect can enable clean file synchronization keeping the systems aligned, preserving structure and ensuring everyone has access to the latest information.",
+      "words": []
+    },
+    {
+      "start": 649.0,
+      "end": 654.0,
+      "text": "So now that you understand what it can do for customers, what does this mean for our partners?",
+      "words": []
+    },
+    {
+      "start": 655.0,
+      "end": 660.0,
+      "text": "If you're a system integrator or developer, we would love to talk to you about how you can support form a construction connect.",
+      "words": []
+    },
+    {
+      "start": 660.0,
+      "end": 673.0,
+      "text": "Rather than having to duplicate development work already done to connect to any of the hundreds of horizontal SaaS tools out there, you can leverage these prebuilt connectors that were Cato has already provided us in form a construction connect.",
+      "words": []
+    },
+    {
+      "start": 673.0,
+      "end": 683.0,
+      "text": "Then you can focus instead on using those tools to customize solutions and workflows to customer specific needs instead of having to develop new code.",
+      "words": []
+    },
+    {
+      "start": 683.0,
+      "end": 694.0,
+      "text": "We have training curriculum materials that can jumpstart and accelerate your team's capabilities with the tool both on how to position and sell it and also on how to deploy it for customers and create services around that.",
+      "words": []
+    },
+    {
+      "start": 694.0,
+      "end": 702.0,
+      "text": "Whether it's extending workflows, connecting systems or tailoring solutions for customers, there's a lot of room to differentiate.",
+      "words": []
+    },
+    {
+      "start": 702.0,
+      "end": 707.0,
+      "text": "For software partners, particularly in the context space, this is about amplification.",
+      "words": []
+    },
+    {
+      "start": 707.0,
+      "end": 716.0,
+      "text": "If you already have a solution that solves a specific problem well, integrating with form up becomes a way to embed that into a much larger connected workflow.",
+      "words": []
+    },
+    {
+      "start": 716.0,
+      "end": 724.0,
+      "text": "What we hear from customers is that there's growing demand for connected end to end solutions, not siloed point tools.",
+      "words": []
+    },
+    {
+      "start": 724.0,
+      "end": 729.0,
+      "text": "That creates real opening for partners who can integrate and add value across the life cycle.",
+      "words": []
+    },
+    {
+      "start": 729.0,
+      "end": 737.0,
+      "text": "The obvious question is why not just integrate with APS. Obviously that's what this whole conference is about. We give you some amazing tools to do that.",
+      "words": []
+    },
+    {
+      "start": 737.0,
+      "end": 748.0,
+      "text": "For most of our software partners, that's exactly what they do. For anyone who has a well thought out, repeatable integration workflow with form up. That's almost certainly the route you should take.",
+      "words": []
+    },
+    {
+      "start": 748.0,
+      "end": 758.0,
+      "text": "But we do have a small set of partners where every customer needs some kind of custom workflow between form up and their application.",
+      "words": []
+    },
+    {
+      "start": 758.0,
+      "end": 767.0,
+      "text": "For those folks, it might make sense to create a work auto connector and leverage form a construction connect with our customers.",
+      "words": []
+    },
+    {
+      "start": 767.0,
+      "end": 775.0,
+      "text": "In either situation, we'd love to talk through the options and possibilities to figure out what's right for you and most importantly what's right for our mutual customers.",
+      "words": []
+    },
+    {
+      "start": 775.0,
+      "end": 786.0,
+      "text": "At the end of the day, this is about co-creating solutions with Autodesk and with customers, meeting the customers where they are and helping them move toward a more connected data driven project delivery.",
+      "words": []
+    },
+    {
+      "start": 786.0,
+      "end": 795.0,
+      "text": "If this aligns with what you're building or where you want to go, the next step is easy. Just start a conversation with us and we'll figure out how we can work together.",
+      "words": []
+    },
+    {
+      "start": 795.0,
+      "end": 800.0,
+      "text": "Thanks for your time today and I look forward to talking to you soon.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:25:14.506144+00:00"
+}

@@ -1,0 +1,66 @@
+{
+  "video_id": "IvOVdeOYGxc",
+  "demo_timestamps": [
+    {
+      "start": 619.0,
+      "end": 691.0,
+      "description": "First demo of automation API batch orchestrator"
+    },
+    {
+      "start": 719.0,
+      "end": 807.0,
+      "description": "Second demo of Dynamo workplace standard server"
+    },
+    {
+      "start": 832.0,
+      "end": 932.0,
+      "description": "Third demo of Revit parameter query server"
+    },
+    {
+      "start": 943.0,
+      "end": 1111.0,
+      "description": "Live demo of building MCP servers"
+    }
+  ],
+  "themes": [
+    "AEC Automation",
+    "Bytecoding Approach",
+    "Custom Autodesk API Integrations"
+  ],
+  "client_mentions": [
+    {
+      "name": "Avonlib",
+      "context": "Enrique and Kurai from Avonlib build AI and automation tools for AEC teams",
+      "timestamp": 12.0
+    }
+  ],
+  "autodesk_products": [
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 741.0
+    },
+    {
+      "name": "APS",
+      "is_api": false,
+      "timestamp": 0.0
+    }
+  ],
+  "ai_technologies": [
+    {
+      "name": "AI agents",
+      "category": "agent",
+      "context": "AI agents are used to track tasks and ensure compliance",
+      "timestamp": 803.0
+    },
+    {
+      "name": "AI clients",
+      "category": "agent",
+      "context": "AI clients use MCP servers to run tasks",
+      "timestamp": 190.0
+    }
+  ],
+  "summary": "The video discusses the AEC automation using bytecoding to build MCP servers for Autodesk APS. It covers a structure for code generation through describe, generate, validate, and deploy stages. The video includes demos of different server setups and highlights the role of AI in accelerating workflow automation.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T23:09:18.709304+00:00"
+}

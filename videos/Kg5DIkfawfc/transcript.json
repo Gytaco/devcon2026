@@ -1,0 +1,1459 @@
+{
+  "language": "en",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.48,
+      "text": "Hello, my name is Nathin Weissmann.",
+      "words": []
+    },
+    {
+      "start": 2.48,
+      "end": 5.6000000000000005,
+      "text": "I'm a Senior Engineering Manager at Autodesk.",
+      "words": []
+    },
+    {
+      "start": 5.6000000000000005,
+      "end": 7.44,
+      "text": "I'm Scott Anderson,",
+      "words": []
+    },
+    {
+      "start": 7.44,
+      "end": 9.6,
+      "text": "I'm a Principal Engineer at Autodesk.",
+      "words": []
+    },
+    {
+      "start": 9.6,
+      "end": 12.24,
+      "text": "Today, we will present to you",
+      "words": []
+    },
+    {
+      "start": 12.24,
+      "end": 18.400000000000002,
+      "text": "how to automate design and manufacturing workflows with Fusion in the Cloud.",
+      "words": []
+    },
+    {
+      "start": 18.400000000000002,
+      "end": 24.32,
+      "text": "We'll start off by giving a bit of a background about Fusion and manufacturing at Autodesk.",
+      "words": []
+    },
+    {
+      "start": 24.48,
+      "end": 30.240000000000002,
+      "text": "We'll tell you the value that the Fusion Automation API provides.",
+      "words": []
+    },
+    {
+      "start": 30.96,
+      "end": 35.92,
+      "text": "Scott will do a deep dive and a demo of the Fusion Automation API.",
+      "words": []
+    },
+    {
+      "start": 35.92,
+      "end": 42.32,
+      "text": "And we'll leave you with some concrete steps to get started with the Fusion Automation API.",
+      "words": []
+    },
+    {
+      "start": 44.64,
+      "end": 48.480000000000004,
+      "text": "On a quick word on the content of the presentation,",
+      "words": []
+    },
+    {
+      "start": 48.480000000000004,
+      "end": 52.56,
+      "text": "there will be some forward-looking statements about future developments.",
+      "words": []
+    },
+    {
+      "start": 52.64,
+      "end": 61.36,
+      "text": "So please do not make any purchasing decisions or the like according to some details of the presentation.",
+      "words": []
+    },
+    {
+      "start": 64.24000000000001,
+      "end": 71.68,
+      "text": "Alright, so after this presentation today, you will know what the Fusion Automation API is,",
+      "words": []
+    },
+    {
+      "start": 71.68,
+      "end": 75.68,
+      "text": "what kind of problems it can solve for you and your business.",
+      "words": []
+    },
+    {
+      "start": 76.96000000000001,
+      "end": 80.24000000000001,
+      "text": "You'll get a bit of an understanding of how it works on the inside.",
+      "words": []
+    },
+    {
+      "start": 81.03999999999999,
+      "end": 87.19999999999999,
+      "text": "Bruce Lee will explain to you how your data and content is being handled and how you can control that.",
+      "words": []
+    },
+    {
+      "start": 87.75999999999999,
+      "end": 90.24,
+      "text": "And finally, we'll leave you with the action.",
+      "words": []
+    },
+    {
+      "start": 92.64,
+      "end": 99.19999999999999,
+      "text": "So what is Fusion? I'm sure most of you will be aware of it, but it's a bit more than you might",
+      "words": []
+    },
+    {
+      "start": 99.19999999999999,
+      "end": 103.75999999999999,
+      "text": "think. It is really Autodesk unified design and manufacturing platform.",
+      "words": []
+    },
+    {
+      "start": 104.16000000000001,
+      "end": 112.08000000000001,
+      "text": "It allows you to design mechanical components from the simplest of screws to assembling them",
+      "words": []
+    },
+    {
+      "start": 112.08000000000001,
+      "end": 117.36,
+      "text": "to very large assemblies of hundreds or even thousands of bots.",
+      "words": []
+    },
+    {
+      "start": 118.88000000000001,
+      "end": 123.92,
+      "text": "It has a big focus on manufacturing functionality.",
+      "words": []
+    },
+    {
+      "start": 124.48,
+      "end": 131.6,
+      "text": "Though with it you can define milling and turning tool paths and processes.",
+      "words": []
+    },
+    {
+      "start": 132.0,
+      "end": 137.35999999999999,
+      "text": "It is a relatively manufacturing and even performance section workflows.",
+      "words": []
+    },
+    {
+      "start": 138.72,
+      "end": 143.35999999999999,
+      "text": "Fusion has built in rendering and animation capabilities to visualize",
+      "words": []
+    },
+    {
+      "start": 145.28,
+      "end": 148.0,
+      "text": "designs and assemblies and realistic environments.",
+      "words": []
+    },
+    {
+      "start": 148.56,
+      "end": 156.4,
+      "text": "There are ample capabilities to simulate the designs you make to see how they perform",
+      "words": []
+    },
+    {
+      "start": 156.48000000000002,
+      "end": 159.04,
+      "text": "under stress or under load or under heat.",
+      "words": []
+    },
+    {
+      "start": 160.72,
+      "end": 167.92000000000002,
+      "text": "And finally, it has a very sophisticated electronics CAD suite to design, for example,",
+      "words": []
+    },
+    {
+      "start": 168.72,
+      "end": 175.84,
+      "text": "printed circuit balls. Very importantly, Fusion also comes with an integrated product data management",
+      "words": []
+    },
+    {
+      "start": 175.84,
+      "end": 183.76,
+      "text": "solution called FusionTip and has a product lifecycle management tool called Fusion Managed.",
+      "words": []
+    },
+    {
+      "start": 183.84,
+      "end": 188.07999999999998,
+      "text": "And all of this is what we call Fusion Industry Cloud.",
+      "words": []
+    },
+    {
+      "start": 189.35999999999999,
+      "end": 193.6,
+      "text": "All the screenshots here on the right are from the Fusion Desktop Cloud, which is one of the",
+      "words": []
+    },
+    {
+      "start": 193.6,
+      "end": 203.04,
+      "text": "main ways you interact with this industry cloud. And I'd like to explain a bit how workflows can",
+      "words": []
+    },
+    {
+      "start": 203.04,
+      "end": 210.88,
+      "text": "be automated in Fusion. So as I mentioned, Fusion is usually interact with a user interface,",
+      "words": []
+    },
+    {
+      "start": 210.88,
+      "end": 218.64,
+      "text": "where you own design and manufacturing tasks. But in addition to that, Fusion has a scripting",
+      "words": []
+    },
+    {
+      "start": 218.64,
+      "end": 225.92,
+      "text": "environment, not just for simple macros, but in fact to write fully fletched plugins or scripts.",
+      "words": []
+    },
+    {
+      "start": 227.04,
+      "end": 232.32,
+      "text": "This has been available for about a decade now. It's very sophisticated and stable.",
+      "words": []
+    },
+    {
+      "start": 232.32,
+      "end": 236.8,
+      "text": "It allows you to essentially automate anything that you can do with the UI.",
+      "words": []
+    },
+    {
+      "start": 237.60000000000002,
+      "end": 243.68,
+      "text": "Either Python or C++, and we are in the process of adding TypeScript as a new language.",
+      "words": []
+    },
+    {
+      "start": 244.96,
+      "end": 252.32000000000002,
+      "text": "Now, more recently, Autodesk, we have developed the Fusion Automation API. It was released",
+      "words": []
+    },
+    {
+      "start": 252.32000000000002,
+      "end": 261.6,
+      "text": "commercially in May of 2025. And it works a bit differently. We essentially run workers,",
+      "words": []
+    },
+    {
+      "start": 262.16,
+      "end": 269.20000000000005,
+      "text": "then virtual machines that run a server version of Fusion in the cloud. And in addition to that,",
+      "words": []
+    },
+    {
+      "start": 269.20000000000005,
+      "end": 276.48,
+      "text": "the Fusion Automation API offers a web API to which you can submit one of these scripts that you",
+      "words": []
+    },
+    {
+      "start": 276.48,
+      "end": 283.84000000000003,
+      "text": "have developed for the desktop client. And then they will be executed in the cloud without any user",
+      "words": []
+    },
+    {
+      "start": 283.84,
+      "end": 292.56,
+      "text": "interface. So these are really the two ways you can automate. We will obviously focus on",
+      "words": []
+    },
+    {
+      "start": 292.56,
+      "end": 299.35999999999996,
+      "text": "the cloud-based execution today, this cloud-based API. But I do want to explain how this",
+      "words": []
+    },
+    {
+      "start": 300.15999999999997,
+      "end": 307.52,
+      "text": "Fusion Automation API fits against the backdrop of all the other APIs in the Autodesk platform",
+      "words": []
+    },
+    {
+      "start": 307.52,
+      "end": 313.28,
+      "text": "services. And in the manufacturing context, you hear a lot about the manufacturing data model.",
+      "words": []
+    },
+    {
+      "start": 313.28,
+      "end": 319.76,
+      "text": "A couple of other APIs. So I really want to highlight the differences in similarities and how they",
+      "words": []
+    },
+    {
+      "start": 319.76,
+      "end": 327.59999999999997,
+      "text": "complement each other. Manufacturing data model API is really focused on accessing granular data",
+      "words": []
+    },
+    {
+      "start": 327.59999999999997,
+      "end": 338.4,
+      "text": "on the Fusion Industry Cloud. It is data-centric. So you'll hear on you'll use endpoints or mutations",
+      "words": []
+    },
+    {
+      "start": 338.4,
+      "end": 343.35999999999996,
+      "text": "queries that are focused on getting and setting data. Maybe you can perform. You can also perform",
+      "words": []
+    },
+    {
+      "start": 344.79999999999995,
+      "end": 353.52,
+      "text": "access management. It is very good at providing fast and accurate read access to data in the",
+      "words": []
+    },
+    {
+      "start": 353.52,
+      "end": 358.96,
+      "text": "Fusion Industry Cloud. However, the manufacturing data model somewhat limited when it comes to",
+      "words": []
+    },
+    {
+      "start": 358.96,
+      "end": 366.08,
+      "text": "performing a write or modification and operations. And fundamentally, the manufacturing data model",
+      "words": []
+    },
+    {
+      "start": 366.08,
+      "end": 371.84,
+      "text": "will always be at a somewhat lower cost. Business models changed, but it will always remain a",
+      "words": []
+    },
+    {
+      "start": 372.64,
+      "end": 380.71999999999997,
+      "text": "more affordable option. Contrast that to the Fusion Automation API. This API is focused on",
+      "words": []
+    },
+    {
+      "start": 380.71999999999997,
+      "end": 386.24,
+      "text": "computing and performing actions on the Fusion Industry Cloud. So the vocabulary is about",
+      "words": []
+    },
+    {
+      "start": 387.59999999999997,
+      "end": 393.84,
+      "text": "jobs or work items. So you will use terms like starting a work item, monitoring its progress,",
+      "words": []
+    },
+    {
+      "start": 393.84,
+      "end": 400.79999999999995,
+      "text": "looking at the results or cancelling long-lasting jobs. With that, naturally, it's somewhat",
+      "words": []
+    },
+    {
+      "start": 400.79999999999995,
+      "end": 408.56,
+      "text": "slower for data read, but it is much more versatile. In particular, you can bring any script that you",
+      "words": []
+    },
+    {
+      "start": 408.56,
+      "end": 414.4,
+      "text": "would execute usually in the desktop client and all of its power to the automation API. And we",
+      "words": []
+    },
+    {
+      "start": 414.4,
+      "end": 423.03999999999996,
+      "text": "sadly can perform arbitrary read, write, create, and modify operations. Downside is that it is at a",
+      "words": []
+    },
+    {
+      "start": 423.04,
+      "end": 431.20000000000005,
+      "text": "higher cost. Currently, it is charged at three APS tokens per computer. Both of these APIs",
+      "words": []
+    },
+    {
+      "start": 431.84000000000003,
+      "end": 438.64000000000004,
+      "text": "work together well with even more general data management API, which really gives you access to",
+      "words": []
+    },
+    {
+      "start": 439.20000000000005,
+      "end": 445.44,
+      "text": "the documents stored on Fusion Team to download or upload them. And there's the Autodesk Viewer,",
+      "words": []
+    },
+    {
+      "start": 445.52,
+      "end": 453.6,
+      "text": "with which you can visualize designs in the browser. And finally, the Model Derivatives API allows",
+      "words": []
+    },
+    {
+      "start": 453.6,
+      "end": 462.08,
+      "text": "you to translate sign files from one CAD format into another. With that theory out of the way,",
+      "words": []
+    },
+    {
+      "start": 462.88,
+      "end": 468.96,
+      "text": "let's focus on a few use cases and the value proposition of the API. The first one is around,",
+      "words": []
+    },
+    {
+      "start": 469.68,
+      "end": 478.08,
+      "text": "is the first use case in the run, manufacturing. Imagine this company called ProParts, it's a",
+      "words": []
+    },
+    {
+      "start": 478.08,
+      "end": 484.79999999999995,
+      "text": "manufacturing company that manufactures workpieces or mechanical parts. What they offer on their",
+      "words": []
+    },
+    {
+      "start": 484.79999999999995,
+      "end": 491.28,
+      "text": "webpage is an upload for designs. You upload your file, a step file of this gear, and you select",
+      "words": []
+    },
+    {
+      "start": 491.28,
+      "end": 496.79999999999995,
+      "text": "material, finish and tolerance, and request a put. In the background, this webpage uses the",
+      "words": []
+    },
+    {
+      "start": 496.8,
+      "end": 504.56,
+      "text": "automation API for Fusion to analyze the part, suggest manufacturing setup and prepare a quote",
+      "words": []
+    },
+    {
+      "start": 504.56,
+      "end": 509.76,
+      "text": "that can be presented to the user and they can pick off the manufacturing or actually order the",
+      "words": []
+    },
+    {
+      "start": 509.76,
+      "end": 515.44,
+      "text": "part. Once this happens, pretty much immediately after that automatically, manufacturing engineer",
+      "words": []
+    },
+    {
+      "start": 515.44,
+      "end": 521.28,
+      "text": "in the company can pick up the manufacturing setup and the toolposts and put them onto their",
+      "words": []
+    },
+    {
+      "start": 521.76,
+      "end": 528.0,
+      "text": "milling machine. This is just one example of how you can connect the Fusion Automation API to",
+      "words": []
+    },
+    {
+      "start": 528.0,
+      "end": 536.9599999999999,
+      "text": "existing order systems, CRM or PLM systems. Really, the extra API allows you to",
+      "words": []
+    },
+    {
+      "start": 538.0799999999999,
+      "end": 543.12,
+      "text": "analyze parts or other kinds of requirements and generate these manufacturing setups.",
+      "words": []
+    },
+    {
+      "start": 543.84,
+      "end": 554.0,
+      "text": "I can take an example with more design focused. What you see here is the Autodesk viewer showing",
+      "words": []
+    },
+    {
+      "start": 554.0,
+      "end": 560.4,
+      "text": "the content on Fusion team. It's actually already launched the first automation API computer",
+      "words": []
+    },
+    {
+      "start": 560.4,
+      "end": 566.24,
+      "text": "job that read out all the design parameters. Then a second job was started that changed one of",
+      "words": []
+    },
+    {
+      "start": 566.24,
+      "end": 572.24,
+      "text": "the design parameters. Once the job is finished, a new model is created and can be visualized with the",
+      "words": []
+    },
+    {
+      "start": 572.24,
+      "end": 582.0,
+      "text": "large model viewer. This design configuration can easily be integrated into your webpage or your",
+      "words": []
+    },
+    {
+      "start": 582.0,
+      "end": 592.16,
+      "text": "back office workflows. Obviously, it is easy to automate, you can perform a form of design",
+      "words": []
+    },
+    {
+      "start": 592.16,
+      "end": 601.6800000000001,
+      "text": "variation of her emitter, sweeps automatically. Another loose case is the offloading of time",
+      "words": []
+    },
+    {
+      "start": 601.92,
+      "end": 608.2399999999999,
+      "text": "computing sends if tasks to the cloud. This example here is focused on additive manufacturing.",
+      "words": []
+    },
+    {
+      "start": 610.88,
+      "end": 616.8,
+      "text": "There is a process called multi-jet Fusion with which you can manufacture high numbers of parts in",
+      "words": []
+    },
+    {
+      "start": 616.8,
+      "end": 624.56,
+      "text": "one go. If you wanted to manufacture not just these eight parts but hundreds or thousands of copies",
+      "words": []
+    },
+    {
+      "start": 624.56,
+      "end": 629.8399999999999,
+      "text": "of these parts, one would need to nest them into a very large build room of such a machine.",
+      "words": []
+    },
+    {
+      "start": 629.84,
+      "end": 636.8000000000001,
+      "text": "This is a very time consuming process. We wrote a little sample script that offloads this task",
+      "words": []
+    },
+    {
+      "start": 636.8000000000001,
+      "end": 642.72,
+      "text": "to the cloud. It uses your credentials and a local step file uploads it to the cloud and then",
+      "words": []
+    },
+    {
+      "start": 642.72,
+      "end": 649.6,
+      "text": "performs the nesting operation in the cloud not using your local machine at all other than to",
+      "words": []
+    },
+    {
+      "start": 649.6,
+      "end": 659.6,
+      "text": "monitor the progress. Once it's done, you can see the final act build room with hundreds of parts",
+      "words": []
+    },
+    {
+      "start": 659.6800000000001,
+      "end": 668.48,
+      "text": "on Fusion team. Since the Fusion desktop client uses Fusion team as the source of truth for its",
+      "words": []
+    },
+    {
+      "start": 668.48,
+      "end": 681.52,
+      "text": "data, you can open the same act build room in the desktop client easily. Again, this is just one",
+      "words": []
+    },
+    {
+      "start": 681.52,
+      "end": 687.52,
+      "text": "example of time consuming tasks in the manufacturer for the other days. Generation of tool parts post",
+      "words": []
+    },
+    {
+      "start": 687.52,
+      "end": 697.28,
+      "text": "processing of NC code and exactly sheet metal nesting at high scale. That usually takes minutes",
+      "words": []
+    },
+    {
+      "start": 697.28,
+      "end": 702.4,
+      "text": "to hours that you can simply offload to the cloud and you can run this at scale so you can run",
+      "words": []
+    },
+    {
+      "start": 702.4,
+      "end": 708.96,
+      "text": "experiments and really find the optimal parameters for these kinds of workflows of tasks.",
+      "words": []
+    },
+    {
+      "start": 709.6,
+      "end": 718.48,
+      "text": "So summing up that value that this adds to your business, your engineers can spend less time on",
+      "words": []
+    },
+    {
+      "start": 718.48,
+      "end": 726.24,
+      "text": "repetitive structure tasks and focus more on problems that are harder to solve, maybe even more",
+      "words": []
+    },
+    {
+      "start": 726.24,
+      "end": 733.9200000000001,
+      "text": "interesting, but definitely ones that are for more value. And you can do this by coding",
+      "words": []
+    },
+    {
+      "start": 734.88,
+      "end": 742.4,
+      "text": "by encoding the workflow into TypeScript scripts and then execute them in the cloud. And with this,",
+      "words": []
+    },
+    {
+      "start": 742.4,
+      "end": 749.5999999999999,
+      "text": "by codifying these workflows, you make things more reliable, more predictable, and also reduce",
+      "words": []
+    },
+    {
+      "start": 749.5999999999999,
+      "end": 756.0799999999999,
+      "text": "the number of errors and mistakes. You've seen in the manufacturing example, the quoting example,",
+      "words": []
+    },
+    {
+      "start": 757.0400000000001,
+      "end": 762.96,
+      "text": "that these workflows can start in many seconds after the job is being",
+      "words": []
+    },
+    {
+      "start": 764.1600000000001,
+      "end": 770.32,
+      "text": "then to the certain automation API. And depending on the task, these jobs finish in seconds,",
+      "words": []
+    },
+    {
+      "start": 770.32,
+      "end": 777.2,
+      "text": "or minutes, maybe hours. But overall, you can really reduce the lead times of any of your operations.",
+      "words": []
+    },
+    {
+      "start": 778.24,
+      "end": 785.9200000000001,
+      "text": "And last point, there is no infrastructure for you to provision or maintain or scale.",
+      "words": []
+    },
+    {
+      "start": 786.08,
+      "end": 794.0,
+      "text": "Once your business scales, or to scale down during downtime. In addition, the automation API",
+      "words": []
+    },
+    {
+      "start": 794.0,
+      "end": 801.84,
+      "text": "can handle individual jobs, tens of jobs or hundreds of jobs with ease. And overall, the model",
+      "words": []
+    },
+    {
+      "start": 801.84,
+      "end": 807.6,
+      "text": "is on a pay per use basis. So if you're not sending us any business, you will not be charged.",
+      "words": []
+    },
+    {
+      "start": 808.24,
+      "end": 816.24,
+      "text": "With that theory out of the way, I'd like to hand it over to Scott for a deep dive of how to",
+      "words": []
+    },
+    {
+      "start": 816.24,
+      "end": 821.44,
+      "text": "actually develop for the fusion automation API. Thanks, Martin. Okay, let's look at the typical",
+      "words": []
+    },
+    {
+      "start": 821.44,
+      "end": 829.52,
+      "text": "process you will use to execute a script on the service. So first of all, you'll want it to find",
+      "words": []
+    },
+    {
+      "start": 829.52,
+      "end": 836.08,
+      "text": "the workflow. And when you have that figured out, you will then probably want to start an",
+      "words": []
+    },
+    {
+      "start": 836.08,
+      "end": 843.9200000000001,
+      "text": "fusion itself on the desktop client and write a script and test it locally. Once you're happy",
+      "words": []
+    },
+    {
+      "start": 843.9200000000001,
+      "end": 850.5600000000001,
+      "text": "with that, then you'll want to define the inputs and any outputs that you want to pass to the script",
+      "words": []
+    },
+    {
+      "start": 850.5600000000001,
+      "end": 856.72,
+      "text": "when it's running on the cloud. And then you're going to actually execute the script on the cloud.",
+      "words": []
+    },
+    {
+      "start": 857.9200000000001,
+      "end": 861.9200000000001,
+      "text": "Then optionally, if there's any more work that needs to be done, start over at step three and",
+      "words": []
+    },
+    {
+      "start": 861.92,
+      "end": 868.88,
+      "text": "iterate. And when you're happy with that, then you will integrate this in your larger process,",
+      "words": []
+    },
+    {
+      "start": 868.88,
+      "end": 873.36,
+      "text": "whether that's just fusion team or PLM or your own web application, etc.",
+      "words": []
+    },
+    {
+      "start": 876.3199999999999,
+      "end": 882.56,
+      "text": "All right, so now let's see a demo of how this works. So we're showing a model that's of a lamp",
+      "words": []
+    },
+    {
+      "start": 882.56,
+      "end": 890.4,
+      "text": "that has some parameters. And one of the parameters is height or D1. And what we will show is",
+      "words": []
+    },
+    {
+      "start": 891.36,
+      "end": 898.8,
+      "text": "we will create a new script using the Add in Scripts dialog. And we will give it the name DevConDemo.",
+      "words": []
+    },
+    {
+      "start": 900.8,
+      "end": 903.52,
+      "text": "And then we're going to select the programming language as TypeScript.",
+      "words": []
+    },
+    {
+      "start": 905.36,
+      "end": 911.1999999999999,
+      "text": "And once we create that, we see it in our list here. If we right-click and edit encode editor,",
+      "words": []
+    },
+    {
+      "start": 911.84,
+      "end": 918.4,
+      "text": "we'll have a Hello World application that's created for us in VS Code. I'm going to replace that",
+      "words": []
+    },
+    {
+      "start": 918.48,
+      "end": 925.28,
+      "text": "with something a little more interesting that actually will get the parameter D1 and set the height",
+      "words": []
+    },
+    {
+      "start": 925.28,
+      "end": 932.16,
+      "text": "to 200 millimeters. So we'll replace the Hello World app with that text and save it.",
+      "words": []
+    },
+    {
+      "start": 933.1999999999999,
+      "end": 938.64,
+      "text": "Then we'll go back to Fusion and we will go back to the Addins and run it from here.",
+      "words": []
+    },
+    {
+      "start": 939.6,
+      "end": 944.88,
+      "text": "And we'll be able to see the height of the base increase. So let's say you're happy with that.",
+      "words": []
+    },
+    {
+      "start": 944.96,
+      "end": 951.76,
+      "text": "Now you want to try running on the cloud. So you can write your script with the same API",
+      "words": []
+    },
+    {
+      "start": 951.76,
+      "end": 956.32,
+      "text": "with a few more changes. So I have that pre-prepared in advance as well.",
+      "words": []
+    },
+    {
+      "start": 957.68,
+      "end": 962.72,
+      "text": "The first change is that we're going to use a well-known",
+      "words": []
+    },
+    {
+      "start": 964.0,
+      "end": 970.88,
+      "text": "ADSK parameters object to be able to pass the file that we want to use and the parameters that we",
+      "words": []
+    },
+    {
+      "start": 970.88,
+      "end": 978.08,
+      "text": "want to change. Since we're not working locally, we need to tell the service what the file is",
+      "words": []
+    },
+    {
+      "start": 978.08,
+      "end": 983.4399999999999,
+      "text": "that we want to use. And in Fusion we can find that out by using the data.property.txt command.",
+      "words": []
+    },
+    {
+      "start": 984.0,
+      "end": 985.4399999999999,
+      "text": "So you can see there's an example here.",
+      "words": []
+    },
+    {
+      "start": 988.48,
+      "end": 992.64,
+      "text": "Then with that we're going to change the parameter as we did before with the same API.",
+      "words": []
+    },
+    {
+      "start": 993.36,
+      "end": 997.6,
+      "text": "But then we're going to save the new document and we'll change the name so that it can easily see",
+      "words": []
+    },
+    {
+      "start": 997.6,
+      "end": 1001.12,
+      "text": "it in Fusion team. And then we'll wait for it to upload in Fusion team.",
+      "words": []
+    },
+    {
+      "start": 1004.5600000000001,
+      "end": 1010.64,
+      "text": "Now to use the service we have in our documentation this walkthrough that uses a sample postman",
+      "words": []
+    },
+    {
+      "start": 1010.64,
+      "end": 1017.28,
+      "text": "collection. So we're going to go ahead and use that. The first step with that is to get your",
+      "words": []
+    },
+    {
+      "start": 1017.28,
+      "end": 1025.44,
+      "text": "two-legged auth token. So we'll do that. Then the next step is to create the app bundle which has",
+      "words": []
+    },
+    {
+      "start": 1025.44,
+      "end": 1033.52,
+      "text": "our script in it. And then another required file and in a well-known format for us.",
+      "words": []
+    },
+    {
+      "start": 1034.4,
+      "end": 1042.24,
+      "text": "So here I have the files that we need and we will run a command that zips these two up into the",
+      "words": []
+    },
+    {
+      "start": 1042.24,
+      "end": 1049.8400000000001,
+      "text": "format that the service wants. Once we do that and we have a file there for the app bundle,",
+      "words": []
+    },
+    {
+      "start": 1049.84,
+      "end": 1055.76,
+      "text": "we can use the postman collection to upload it. The first step of that is to create the",
+      "words": []
+    },
+    {
+      "start": 1056.8,
+      "end": 1063.36,
+      "text": "version for the app bundle. And when you do that it will create a pre-signed URL that we can use",
+      "words": []
+    },
+    {
+      "start": 1063.36,
+      "end": 1068.3999999999999,
+      "text": "to upload the zip file. And the collection handles setting all that up for us. So we just need to",
+      "words": []
+    },
+    {
+      "start": 1069.36,
+      "end": 1075.76,
+      "text": "find our zip file here. And once we have that we will upload it to that pre-signed URL.",
+      "words": []
+    },
+    {
+      "start": 1076.72,
+      "end": 1082.56,
+      "text": "Then when that's done we want to create an alias for the app bundle that we can easily reference.",
+      "words": []
+    },
+    {
+      "start": 1082.56,
+      "end": 1089.36,
+      "text": "So here is called my reconversion. And the next step after that is to create an activity which defines",
+      "words": []
+    },
+    {
+      "start": 1090.16,
+      "end": 1096.64,
+      "text": "the inputs and the app bundle that we want to use. So here we'll create that activity. You can see",
+      "words": []
+    },
+    {
+      "start": 1096.64,
+      "end": 1102.08,
+      "text": "it has this task parameters object as well as the app bundle that we just defined.",
+      "words": []
+    },
+    {
+      "start": 1102.08,
+      "end": 1108.8,
+      "text": "And once we create that we also want to create the alias for the activity. Here it is my",
+      "words": []
+    },
+    {
+      "start": 1108.8,
+      "end": 1115.4399999999998,
+      "text": "current version. And then once that done we can submit the job using the work item.",
+      "words": []
+    },
+    {
+      "start": 1117.4399999999998,
+      "end": 1124.0,
+      "text": "In the same collection we have a creative work item. And in that we'll reference the activity we",
+      "words": []
+    },
+    {
+      "start": 1124.0,
+      "end": 1129.84,
+      "text": "just created as well as define the parameters. First one being the file urn that we're going to",
+      "words": []
+    },
+    {
+      "start": 1129.84,
+      "end": 1135.9199999999998,
+      "text": "have a copy and paste from fusion like we saw earlier. And then also set the parameter D1 with",
+      "words": []
+    },
+    {
+      "start": 1135.9199999999998,
+      "end": 1143.36,
+      "text": "the value 300 millimeters. Then we'll run that and we'll see that the job is pending. We can get the",
+      "words": []
+    },
+    {
+      "start": 1143.36,
+      "end": 1148.8799999999999,
+      "text": "status of the work item and see it's in progress. Then we can open the report that is being generated",
+      "words": []
+    },
+    {
+      "start": 1148.8799999999999,
+      "end": 1157.1999999999998,
+      "text": "for us and see that it's working but not finished yet. So we can continue to check the status until",
+      "words": []
+    },
+    {
+      "start": 1157.2,
+      "end": 1163.8400000000001,
+      "text": "the job is finished. In the meantime we can go and look at fusion team and we can see that the",
+      "words": []
+    },
+    {
+      "start": 1163.8400000000001,
+      "end": 1171.6000000000001,
+      "text": "original file is there. And once the script is done we should see the new file. So we'll check this",
+      "words": []
+    },
+    {
+      "start": 1171.6000000000001,
+      "end": 1180.0800000000002,
+      "text": "again a couple times in progress. One more time we'll see it we'll say success. So we can look at",
+      "words": []
+    },
+    {
+      "start": 1180.1599999999999,
+      "end": 1186.48,
+      "text": "the final report and see that it has all of the log statements that we expect.",
+      "words": []
+    },
+    {
+      "start": 1188.08,
+      "end": 1194.48,
+      "text": "Then we will go back to fusion team and refresh the page. And we will go up a level in the",
+      "words": []
+    },
+    {
+      "start": 1194.48,
+      "end": 1201.36,
+      "text": "full-ditch structure and then we'll see the new file that has the devcon name appended there.",
+      "words": []
+    },
+    {
+      "start": 1202.56,
+      "end": 1208.0,
+      "text": "So we select that. See there it is in the thumbnail that with the increased height.",
+      "words": []
+    },
+    {
+      "start": 1208.96,
+      "end": 1213.28,
+      "text": "And we'll open it up in the viewer after a couple of moments we'll be able to interact with that.",
+      "words": []
+    },
+    {
+      "start": 1215.68,
+      "end": 1218.4,
+      "text": "Just a couple more seconds. Well it does its thing.",
+      "words": []
+    },
+    {
+      "start": 1222.56,
+      "end": 1226.4,
+      "text": "And there it is. And that's our demo. So Dr. Eumartin.",
+      "words": []
+    },
+    {
+      "start": 1227.44,
+      "end": 1232.96,
+      "text": "I wanted to also talk about the way data is handled. And in Scott's workflow he actually",
+      "words": []
+    },
+    {
+      "start": 1233.04,
+      "end": 1240.08,
+      "text": "demonstrated the first model in which the automation API deals with inputs and outputs. And that's",
+      "words": []
+    },
+    {
+      "start": 1240.08,
+      "end": 1248.48,
+      "text": "being fully integrated into the fusion ecosystem. So the input to the job was a design on fusion",
+      "words": []
+    },
+    {
+      "start": 1248.48,
+      "end": 1256.16,
+      "text": "team and the output was again stolen fusion team. This has many advantages. Fusion team versions",
+      "words": []
+    },
+    {
+      "start": 1256.16,
+      "end": 1261.2,
+      "text": "all files automatically there's all four words and four backwards is supported. And it's very",
+      "words": []
+    },
+    {
+      "start": 1261.2,
+      "end": 1268.0800000000002,
+      "text": "easy to keep a human in the loop to review the outputs before both the actions are taken on the",
+      "words": []
+    },
+    {
+      "start": 1268.0800000000002,
+      "end": 1276.0,
+      "text": "out come of an automation. And also this integration allows you to leverage these connected APIs",
+      "words": []
+    },
+    {
+      "start": 1276.0,
+      "end": 1279.8400000000001,
+      "text": "on the on-test platform services like the manufacturing data model. Fusion managed for",
+      "words": []
+    },
+    {
+      "start": 1279.8400000000001,
+      "end": 1289.44,
+      "text": "bombs on the viewer webhook sensor. And if you are already forming your design or manufacturing",
+      "words": []
+    },
+    {
+      "start": 1289.44,
+      "end": 1293.76,
+      "text": "work on fusion or fusion team then this is an excellent model for you.",
+      "words": []
+    },
+    {
+      "start": 1295.2,
+      "end": 1301.28,
+      "text": "There is another model which is much more lightweight. And that's suited if you're not in the fusion",
+      "words": []
+    },
+    {
+      "start": 1301.28,
+      "end": 1307.68,
+      "text": "ecosystem fully yet. But you're still interested in many of these design and manufacturing capabilities",
+      "words": []
+    },
+    {
+      "start": 1307.68,
+      "end": 1316.0,
+      "text": "of fusion. And that model is bringing your own CAD data. Be it fusion data or third party CAD from",
+      "words": []
+    },
+    {
+      "start": 1316.0,
+      "end": 1322.08,
+      "text": "all sorts of different formats. Huge list of formats is supported. And you simply bring",
+      "words": []
+    },
+    {
+      "start": 1322.08,
+      "end": 1329.36,
+      "text": "that data in the blob storage of your choice. You perform past two post generation design",
+      "words": []
+    },
+    {
+      "start": 1329.36,
+      "end": 1338.88,
+      "text": "variation extraction of metadata or analyzing designs as a one off. And again you put the outcomes",
+      "words": []
+    },
+    {
+      "start": 1338.88,
+      "end": 1346.72,
+      "text": "into whichever storage you like. And here you're using fusion as a as a raw compute engine.",
+      "words": []
+    },
+    {
+      "start": 1350.8000000000002,
+      "end": 1357.3600000000001,
+      "text": "For both models it's important to understand and to be assuring, to understand how fusion works.",
+      "words": []
+    },
+    {
+      "start": 1357.3600000000001,
+      "end": 1364.88,
+      "text": "And eventually fusion always runs in the context of a user. Importantly that can be either a human",
+      "words": []
+    },
+    {
+      "start": 1364.88,
+      "end": 1374.0,
+      "text": "user but it can also be a non-human service account. Autodesk has recently released this capability",
+      "words": []
+    },
+    {
+      "start": 1374.0,
+      "end": 1378.96,
+      "text": "called secure service accounts. And it allows you to automatically provision these kinds of",
+      "words": []
+    },
+    {
+      "start": 1380.0,
+      "end": 1385.92,
+      "text": "bot non-human accounts. The great thing about them is they can be treated for the most part",
+      "words": []
+    },
+    {
+      "start": 1385.92,
+      "end": 1391.5200000000002,
+      "text": "just like any other Autodesk user account. Though all the access control that's available on fusion",
+      "words": []
+    },
+    {
+      "start": 1391.6,
+      "end": 1396.96,
+      "text": "team and so on is all inherited by these secure service accounts. In particular you can have a full",
+      "words": []
+    },
+    {
+      "start": 1396.96,
+      "end": 1405.2,
+      "text": "audit tray of what happens in the automations. And potentially very, very reassuring is that",
+      "words": []
+    },
+    {
+      "start": 1405.2,
+      "end": 1414.96,
+      "text": "the fusion automation API is sought to compliant already. Now if you would like to get started",
+      "words": []
+    },
+    {
+      "start": 1414.96,
+      "end": 1421.04,
+      "text": "with this, we have some clear steps for you to take. If you're a business leader, product manager,",
+      "words": []
+    },
+    {
+      "start": 1421.04,
+      "end": 1427.36,
+      "text": "some form of decision making in your company. Especially if you ask yourself the question,",
+      "words": []
+    },
+    {
+      "start": 1427.36,
+      "end": 1434.72,
+      "text": "what kind of structured processes in your company exists between user requirements,",
+      "words": []
+    },
+    {
+      "start": 1434.72,
+      "end": 1441.44,
+      "text": "requests from the delivered product or outcome in your company. And if you've identified one of",
+      "words": []
+    },
+    {
+      "start": 1441.44,
+      "end": 1449.52,
+      "text": "those, whether they involve any form of design or manufacturing work. If you have identified",
+      "words": []
+    },
+    {
+      "start": 1449.6,
+      "end": 1455.52,
+      "text": "one or multiple of these cases, then step two is to assemble just a very small team and put them",
+      "words": []
+    },
+    {
+      "start": 1455.52,
+      "end": 1462.0,
+      "text": "and put them on the task of exploring the automation API. And what you'll need is two or three people.",
+      "words": []
+    },
+    {
+      "start": 1462.0,
+      "end": 1466.24,
+      "text": "One of them needs to fully understand what's the process that needs to be automated.",
+      "words": []
+    },
+    {
+      "start": 1467.12,
+      "end": 1472.8799999999999,
+      "text": "And the other one or two people are software developers. And you need two people because the",
+      "words": []
+    },
+    {
+      "start": 1472.88,
+      "end": 1479.68,
+      "text": "automation API system, kind of two ingredients. You need a bit of desktop development knowledge of",
+      "words": []
+    },
+    {
+      "start": 1479.68,
+      "end": 1485.2,
+      "text": "how to script the fusion desktop application. And then you need someone who knows how to deal with",
+      "words": []
+    },
+    {
+      "start": 1485.2,
+      "end": 1492.5600000000002,
+      "text": "web APIs and potentially integrate the web API surface of the automation API into your existing",
+      "words": []
+    },
+    {
+      "start": 1492.5600000000002,
+      "end": 1502.3200000000002,
+      "text": "product or processes that you have. Then if you are a developer, maybe a part of this small team,",
+      "words": []
+    },
+    {
+      "start": 1502.32,
+      "end": 1507.12,
+      "text": "there are a couple of steps you need to do. Step one is a bit of bookkeeping. You need to set up",
+      "words": []
+    },
+    {
+      "start": 1507.12,
+      "end": 1514.24,
+      "text": "your APS application. Basically, the first thing you need to do to deal with any form of",
+      "words": []
+    },
+    {
+      "start": 1514.24,
+      "end": 1521.52,
+      "text": "or task web APIs. And you can walk through the official tutorial that Scott shared or simply follow",
+      "words": []
+    },
+    {
+      "start": 1521.52,
+      "end": 1529.6799999999998,
+      "text": "along essentially the video of Scott's deep dive just now. If you want even more details,",
+      "words": []
+    },
+    {
+      "start": 1529.76,
+      "end": 1537.04,
+      "text": "there's a presentation from last year's DevCon. That's, if you also have input on how to manage",
+      "words": []
+    },
+    {
+      "start": 1537.04,
+      "end": 1542.48,
+      "text": "these app bundles and activities and is in general much more details. And finally, we have",
+      "words": []
+    },
+    {
+      "start": 1542.48,
+      "end": 1550.0,
+      "text": "blog posts and the forum in which you can stay up to date with the latest changes or best practices.",
+      "words": []
+    },
+    {
+      "start": 1550.88,
+      "end": 1556.64,
+      "text": "One thing that works surprisingly, well, maybe not surprisingly. One thing that works well these days",
+      "words": []
+    },
+    {
+      "start": 1556.72,
+      "end": 1564.72,
+      "text": "is really to just use an AI coding agent of your choice, pointed at the sets of documentation",
+      "words": []
+    },
+    {
+      "start": 1565.2800000000002,
+      "end": 1571.1200000000001,
+      "text": "and give that system a go. And we've seen lots of cases where this actually worked out of the",
+      "words": []
+    },
+    {
+      "start": 1571.1200000000001,
+      "end": 1580.24,
+      "text": "box and wrote some pretty good automations easily. With this setup, here's what you can expect.",
+      "words": []
+    },
+    {
+      "start": 1580.32,
+      "end": 1587.92,
+      "text": "And we've in this with many partners or customers. And following these steps, you can hopefully expect",
+      "words": []
+    },
+    {
+      "start": 1587.92,
+      "end": 1594.88,
+      "text": "to run your first automated job in the cloud somewhere between one hour and one day to this endeavor.",
+      "words": []
+    },
+    {
+      "start": 1595.44,
+      "end": 1602.8,
+      "text": "There's a proof of concept for the actual workflow in your business takes between one day and one",
+      "words": []
+    },
+    {
+      "start": 1602.8,
+      "end": 1608.64,
+      "text": "week. And finally, the integration into your real business, your real processes,",
+      "words": []
+    },
+    {
+      "start": 1609.2800000000002,
+      "end": 1621.2800000000002,
+      "text": "takes somewhere between one and three months. And with that, I have a list of links that we",
+      "words": []
+    },
+    {
+      "start": 1621.2800000000002,
+      "end": 1626.48,
+      "text": "mentioned early in the presentation. There's the official news, there's the tutorial,",
+      "words": []
+    },
+    {
+      "start": 1626.48,
+      "end": 1633.1200000000001,
+      "text": "that configurates the demo from an earlier video is fully open source. There's utility to manage",
+      "words": []
+    },
+    {
+      "start": 1633.84,
+      "end": 1641.1999999999998,
+      "text": "the app bundles and activities. Importantly, please check the APS pricing page to understand",
+      "words": []
+    },
+    {
+      "start": 1641.1999999999998,
+      "end": 1646.3999999999999,
+      "text": "what your running costs will be when using the service and the presentation from last year.",
+      "words": []
+    },
+    {
+      "start": 1648.1599999999999,
+      "end": 1654.3999999999999,
+      "text": "There is the scripts and add-ins forum that also covers the automation API. If you'd like to reach",
+      "words": []
+    },
+    {
+      "start": 1654.3999999999999,
+      "end": 1662.4799999999998,
+      "text": "out to Scott or me on the rest of the team directly, please reach out to DA4F at Autodesk.com.",
+      "words": []
+    },
+    {
+      "start": 1663.1999999999998,
+      "end": 1669.6,
+      "text": "And importantly, if you want real in-depth support for your integration with the Fusion Automation",
+      "words": []
+    },
+    {
+      "start": 1669.6,
+      "end": 1675.9199999999998,
+      "text": "API or any other of the Autodesk platform services APIs, consider joining the Autodesk developer",
+      "words": []
+    },
+    {
+      "start": 1675.9199999999998,
+      "end": 1682.56,
+      "text": "network. And with that, I thank you for your attention.",
+      "words": []
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:32:07.520064+00:00"
+}

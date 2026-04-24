@@ -1,0 +1,60 @@
+{
+  "video_id": "zYV-jznr2Fs",
+  "demo_timestamps": [
+    {
+      "start": 428.0,
+      "end": 557.0,
+      "description": "Demonstration of AEC Data Model API showing version updates and change tracking"
+    },
+    {
+      "start": 743.0,
+      "end": 782.0,
+      "description": "Model coordination extension properties demonstration"
+    },
+    {
+      "start": 901.0,
+      "end": 953.0,
+      "description": "Demonstration of creating and updating extension properties using GraphQL API"
+    }
+  ],
+  "themes": [
+    "AEC data management",
+    "data accessibility",
+    "APIs for architecture and engineering",
+    "AEC Data Model features",
+    "Beta updates",
+    "User involvement"
+  ],
+  "client_mentions": [],
+  "autodesk_products": [
+    {
+      "name": "AEC Data Model API",
+      "is_api": true,
+      "timestamp": 5.0
+    },
+    {
+      "name": "Revit",
+      "is_api": false,
+      "timestamp": 190.0
+    },
+    {
+      "name": "ACC",
+      "is_api": false,
+      "timestamp": 605.0
+    },
+    {
+      "name": "Model Coordination in ACC",
+      "is_api": true,
+      "timestamp": 681.0
+    },
+    {
+      "name": "Forma Data Management",
+      "is_api": true,
+      "timestamp": 720.0
+    }
+  ],
+  "ai_technologies": [],
+  "summary": "The video covers the latest features and roadmap of the AEC Data Model API by Autodesk, focusing on Revit sync data integration, Delta queries for change tracking, and extension properties for improved data connectivity. It also discusses upcoming enhancements, including updates from Revit's public beta with new filtering options and SDK support, and invites user feedback to shape future development.",
+  "_complete": true,
+  "_saved_at": "2026-04-22T22:53:35.897285+00:00"
+}

@@ -1,0 +1,494 @@
+{
+  "frames": [
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\X9IQ7Ss2kJg\\frames\\frame_000001.jpg",
+      "timestamp_seconds": 0.0,
+      "frame_index": 1,
+      "category": "talking_head",
+      "keep": false,
+      "description": "",
+      "products_visible": [],
+      "ui_elements": []
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\X9IQ7Ss2kJg\\frames\\frame_000002.jpg",
+      "timestamp_seconds": 30.0,
+      "frame_index": 2,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide showing a Safe Harbor Statement with legal disclaimers related to forward-looking statements at an Autodesk DevCon event.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Safe Harbor Statement"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\X9IQ7Ss2kJg\\frames\\frame_000003.jpg",
+      "timestamp_seconds": 60.0,
+      "frame_index": 3,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide about enhancing interoperability through sharing curated subsets of data with an image of a spaceship model.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Enhancing interoperability through sharing curated subsets of data"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\X9IQ7Ss2kJg\\frames\\frame_000004.jpg",
+      "timestamp_seconds": 90.0,
+      "frame_index": 4,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from an Autodesk DevCon presentation about enhancing interoperability by sharing curated data subsets, featuring an image of a model.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Enhancing interoperability through sharing curated subsets of data",
+        "Sharing entire files"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\X9IQ7Ss2kJg\\frames\\frame_000005.jpg",
+      "timestamp_seconds": 120.0,
+      "frame_index": 5,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide explains the data exchange process in Autodesk Construction Cloud, showing how data is shared from an authoring app to support key workflows.",
+      "products_visible": [
+        "AUTODESK",
+        "AUTODESK Construction Cloud"
+      ],
+      "ui_elements": [
+        "AUTHORING APP",
+        "DATA EXCHANGE",
+        "KEY WORKFLOWS",
+        "COORDINATION",
+        "DOCUMENTATION",
+        "DASHBOARDS"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\X9IQ7Ss2kJg\\frames\\frame_000007.jpg",
+      "timestamp_seconds": 180.0,
+      "frame_index": 7,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide detailing Autodesk's data exchange vision, highlighting a connected ecosystem, gated workflows, and work packages.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Connected Ecosystem",
+        "Gated Workflows",
+        "Work Packages"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\X9IQ7Ss2kJg\\frames\\frame_000009.jpg",
+      "timestamp_seconds": 240.0,
+      "frame_index": 9,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a slide from Autodesk DevCon about Data Exchange Connectors, listing different software and tools available under Cloud, GA, and Public Beta categories.",
+      "products_visible": [
+        "Autodesk Revit",
+        "IFC",
+        "Microsoft PowerAutomate",
+        "Autodesk Civil 3D",
+        "Microsoft PowerBI",
+        "Autodesk Inventor",
+        "McNeel Rhino",
+        "Trimble Tekla",
+        "Autodesk Navisworks",
+        "Autodesk AutoCAD",
+        "Dynamo",
+        "McNeel Grasshopper",
+        "Dassault Solidworks"
+      ],
+      "ui_elements": [
+        "Cloud Connectors",
+        "GA (Generally Available)",
+        "In Public Beta"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\X9IQ7Ss2kJg\\frames\\frame_000010.jpg",
+      "timestamp_seconds": 270.0,
+      "frame_index": 10,
+      "category": "demo",
+      "keep": true,
+      "description": "This frame shows an Autodesk software demo, featuring a 3D model and data interface within the program's UI.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Quick Properties",
+        "Appearance Profiler",
+        "Selection Tree"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\X9IQ7Ss2kJg\\frames\\frame_000012.jpg",
+      "timestamp_seconds": 330.0,
+      "frame_index": 12,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide discussing the features and benefits of the Civil 3D Cloud Connector, including the types of data supported and upcoming public beta release.",
+      "products_visible": [
+        "Civil 3D Cloud Connector",
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Data Exchange",
+        "PUBLIC BETA \u2013 coming soon!"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\X9IQ7Ss2kJg\\frames\\frame_000014.jpg",
+      "timestamp_seconds": 390.0,
+      "frame_index": 14,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents information about the next generation of Data Connector for Power BI, highlighting performance improvements and new features.",
+      "products_visible": [
+        "Autodesk",
+        "Power BI"
+      ],
+      "ui_elements": [
+        "Data Connector for Power BI: The Next Generation",
+        "Feedback",
+        "Completely re-designed the software architecture",
+        "What we did",
+        "PUBLIC BETA \u2013 coming soon!",
+        "COMING SOON"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\X9IQ7Ss2kJg\\frames\\frame_000015.jpg",
+      "timestamp_seconds": 420.0,
+      "frame_index": 15,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide discussing Model Coordination features including data exchanges, clash-detection, and federated models in a technology context.",
+      "products_visible": [
+        "Autodesk DevCon"
+      ],
+      "ui_elements": [
+        "Model Coordination",
+        "Use data exchanges",
+        "Perform clash-detection",
+        "Join the Waitlist"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\X9IQ7Ss2kJg\\frames\\frame_000016.jpg",
+      "timestamp_seconds": 450.0,
+      "frame_index": 16,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide discusses 'DX LIVE: A new way of collaboration', showcasing features like streaming changes using Autodesk Forma and compatibility details.",
+      "products_visible": [
+        "Autodesk DevCon",
+        "Revit 2026",
+        "Rhino 8",
+        "Autodesk Forma"
+      ],
+      "ui_elements": [
+        "DX LIVE: A new way of collaboration",
+        "Stream changes between different tools",
+        "Join the waitlist",
+        "Data Exchange Live"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\X9IQ7Ss2kJg\\frames\\frame_000017.jpg",
+      "timestamp_seconds": 480.0,
+      "frame_index": 17,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide presentation about DX LIVE, a collaboration tool using Autodesk Forma, supporting Revit 2026 and Rhino 8.",
+      "products_visible": [
+        "Autodesk",
+        "DX LIVE",
+        "Autodesk Forma",
+        "Revit 2026",
+        "Rhino 8"
+      ],
+      "ui_elements": [
+        "QR code",
+        "Revit User, Boston",
+        "Rhino 3D User, Oslo",
+        "Stream changes",
+        "Join the waitlist"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\X9IQ7Ss2kJg\\frames\\frame_000018.jpg",
+      "timestamp_seconds": 510.0,
+      "frame_index": 18,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame shows a presentation slide from Autodesk DevCon about EFCO's use of Autodesk tools like Inventor and Revit for migrating from 2D to 3D workflows.",
+      "products_visible": [
+        "Autodesk",
+        "Inventor",
+        "Revit",
+        "AutoCAD"
+      ],
+      "ui_elements": [
+        "EFCO",
+        "DX Connectors used:"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\X9IQ7Ss2kJg\\frames\\frame_000019.jpg",
+      "timestamp_seconds": 540.0,
+      "frame_index": 19,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing EFCO's migration from 2D to 3D workflows using Autodesk products like AutoCAD and Inventor.",
+      "products_visible": [
+        "AutoCAD",
+        "Inventor",
+        "Revit"
+      ],
+      "ui_elements": [
+        "AUTODESK",
+        "EFCO"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\X9IQ7Ss2kJg\\frames\\frame_000022.jpg",
+      "timestamp_seconds": 630.0,
+      "frame_index": 22,
+      "category": "slides",
+      "keep": true,
+      "description": "Slide discussing 'The BIM - Commercial Handshake' by Khansaheb Civil Engineering with points on team communication and information accessibility.",
+      "products_visible": [
+        "Autodesk",
+        "Revit",
+        "Power BI"
+      ],
+      "ui_elements": [
+        "KCE-Level",
+        "KCE-Category",
+        "KCE-Type"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\X9IQ7Ss2kJg\\frames\\frame_000023.jpg",
+      "timestamp_seconds": 660.0,
+      "frame_index": 23,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a 3D model rendering interface with various UI elements for navigating and manipulating the model, alongside a speaker providing a demo.",
+      "products_visible": [
+        "AUTODESK"
+      ],
+      "ui_elements": [
+        "Model",
+        "KCE-Level",
+        "KCE-Category",
+        "3D navigation controls"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\X9IQ7Ss2kJg\\frames\\frame_000031.jpg",
+      "timestamp_seconds": 900.0,
+      "frame_index": 31,
+      "category": "slides",
+      "keep": true,
+      "description": "A presentation slide discusses the use of Data Exchange for IFC in a Deutsche Bahn project, highlighting its benefits for collaboration and version management.",
+      "products_visible": [
+        "Autodesk DevCon",
+        "Deutsche Bahn"
+      ],
+      "ui_elements": [
+        "DX Connectors",
+        "Data Exchange for IFC"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\X9IQ7Ss2kJg\\frames\\frame_000032.jpg",
+      "timestamp_seconds": 930.0,
+      "frame_index": 32,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide about extending data exchange with options for using prebuilt connectors or building custom workflows/connectors.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Use Prebuilt Connectors",
+        "Build Your Own Workflows/Connectors"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\X9IQ7Ss2kJg\\frames\\frame_000033.jpg",
+      "timestamp_seconds": 960.0,
+      "frame_index": 33,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide presents information about a BIMDex data exchange from Plant3D to Revit.",
+      "products_visible": [
+        "AUTODESK",
+        "Plant3D",
+        "Revit",
+        "BIMDex"
+      ],
+      "ui_elements": [
+        "Custom Connectors: BIMDEX Public Beta!",
+        "Plant3D to Revit",
+        "BIMDex Data Exchange"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\X9IQ7Ss2kJg\\frames\\frame_000034.jpg",
+      "timestamp_seconds": 990.0,
+      "frame_index": 34,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a demonstration of Autodesk Revit 2024 with a BIMExExchange import process being initiated.",
+      "products_visible": [
+        "Autodesk Revit 2024"
+      ],
+      "ui_elements": [
+        "File",
+        "Architecture",
+        "Import From ACC",
+        "Load an exchange",
+        "Load"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\X9IQ7Ss2kJg\\frames\\frame_000036.jpg",
+      "timestamp_seconds": 1050.0,
+      "frame_index": 36,
+      "category": "demo",
+      "keep": true,
+      "description": "A demonstration of creating a data exchange in Autodesk Civil 3D.",
+      "products_visible": [
+        "Autodesk Civil 3D"
+      ],
+      "ui_elements": [
+        "Active Drawing View",
+        "Data Exchange",
+        "Civil 3D sample file 4"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\X9IQ7Ss2kJg\\frames\\frame_000037.jpg",
+      "timestamp_seconds": 1080.0,
+      "frame_index": 37,
+      "category": "demo",
+      "keep": true,
+      "description": "A demonstration of Autodesk Revit 2024 is shown with a focus on creating model annotations.",
+      "products_visible": [
+        "Autodesk Revit"
+      ],
+      "ui_elements": [
+        "Create Model Annotations",
+        "3D View",
+        "Fine",
+        "Visibility/Graphics Overrides",
+        "Show Original"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\X9IQ7Ss2kJg\\frames\\frame_000038.jpg",
+      "timestamp_seconds": 1110.0,
+      "frame_index": 38,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide discussing the integration of InCitu AR with Autodesk products, highlighting the use of DX SDK for an AR workflow.",
+      "products_visible": [
+        "AUTODESK",
+        "InCitu AR",
+        "DX SDK"
+      ],
+      "ui_elements": [
+        "Integration: InCitu AR",
+        "DX SDK to go from Revit",
+        "App available",
+        "inCituAR dashboard"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\X9IQ7Ss2kJg\\frames\\frame_000040.jpg",
+      "timestamp_seconds": 1170.0,
+      "frame_index": 40,
+      "category": "slides",
+      "keep": true,
+      "description": "The frame describes an internal Autodesk project exploring data exchange on Apple Vision Pro, with goals of creating tutorials on APS Blog and GitHub.",
+      "products_visible": [
+        "Apple Vision Pro",
+        "Revit",
+        "DX .NET SDK"
+      ],
+      "ui_elements": [
+        "AUTODESK DevCon",
+        "Exploration: DX on Apple Vision Pro",
+        "AU 2025"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\X9IQ7Ss2kJg\\frames\\frame_000041.jpg",
+      "timestamp_seconds": 1200.0,
+      "frame_index": 41,
+      "category": "demo",
+      "keep": true,
+      "description": "The frame shows a person discussing a 3D terrain model displayed on a computer screen, likely related to Autodesk software.",
+      "products_visible": [
+        "Autodesk Model Coordination"
+      ],
+      "ui_elements": [
+        "Filters",
+        "Model Tree",
+        "Select models"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\X9IQ7Ss2kJg\\frames\\frame_000043.jpg",
+      "timestamp_seconds": 1260.0,
+      "frame_index": 43,
+      "category": "slides",
+      "keep": true,
+      "description": "The slide introduces an upcoming data exchange feature for Archicad by GRAPHISOFT, highlighting integration with Autodesk Forma.",
+      "products_visible": [
+        "Autodesk",
+        "Graphisoft",
+        "Archicad",
+        "Autodesk Forma"
+      ],
+      "ui_elements": [
+        "Data Exchange for Archicad",
+        "GRAPHISOFT",
+        "Forma"
+      ]
+    },
+    {
+      "path": "output\\_autodeskplatformservices_videos\\20260422_1511\\videos\\X9IQ7Ss2kJg\\frames\\frame_000045.jpg",
+      "timestamp_seconds": 1320.0,
+      "frame_index": 45,
+      "category": "slides",
+      "keep": true,
+      "description": "A slide from Autodesk DevCon featuring a 'Link Collection' with a QR code and a URL.",
+      "products_visible": [
+        "Autodesk"
+      ],
+      "ui_elements": [
+        "Link Collection",
+        "QR Code",
+        "linktr.ee/autodeskdata"
+      ]
+    }
+  ],
+  "_complete": true,
+  "_saved_at": "2026-04-22T12:31:07.586646+00:00"
+}
