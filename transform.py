@@ -9,7 +9,7 @@ Converts report.html → index.html:
   • Improved per-video search (all card text, not just title)
   • Hash-based deep linking (#video-ID auto-opens card)
 """
-import re, os, sys
+import re, os, sys, html as html_lib
 # Force UTF-8 output on Windows
 if sys.stdout.encoding != 'utf-8':
     sys.stdout.reconfigure(encoding='utf-8', errors='replace')
@@ -381,11 +381,15 @@ function togglePagefindSearch() {
   var show = ov.style.display === 'none' || !ov.style.display;
   ov.style.display = show ? 'flex' : 'none';
   if (show && !_pfInit && window.PagefindUI) {
+    // Derive bundlePath relative to this page so it works on GitHub Pages
+    // subdirectories (e.g. /repo-name/pagefind/) as well as at root.
+    var bundlePath = window.location.pathname.replace(/[^/]*$/, '') + 'pagefind/';
     new PagefindUI({
       element: '#pf-search',
       showSubResults: true,
       excerptLength: 20,
-      highlightParam: 'highlight'
+      highlightParam: 'highlight',
+      bundlePath: bundlePath
     });
     _pfInit = true;
   }
@@ -568,6 +572,34 @@ def main():
         html,
     )
     print(f"  + data-pagefind-meta added to {n} title links")
+
+    # 8b ── Inject hidden <h2> anchors inside each data-pagefind-body div ───────
+    # Pagefind needs a heading with an id inside each section to create separate
+    # search results (one per video) rather than one result for the whole page.
+    title_map = {}
+    for m in re.finditer(r'id="video-([^"]+)"[^>]+data-title="([^"]*)"', html):
+        title_map[m.group(1)] = m.group(2)
+    # Also handle reverse attribute order
+    for m in re.finditer(r'data-title="([^"]*)"[^>]+id="video-([^"]+)"', html):
+        title_map[m.group(2)] = m.group(1)
+
+    def inject_h2(m):
+        full_tag = m.group(1)
+        vid_id   = m.group(2)
+        raw      = title_map.get(vid_id, vid_id)
+        title    = html_lib.escape(raw.title())
+        h2 = (f'<h2 id="video-{vid_id}" '
+              f'style="position:absolute;width:1px;height:1px;overflow:hidden;'
+              f'clip:rect(0,0,0,0);white-space:nowrap">'
+              f'{title}</h2>')
+        return full_tag + h2
+
+    html, n = re.subn(
+        r'(<div class="video-body" data-pagefind-body id="body-([^"]+)">)',
+        inject_h2,
+        html,
+    )
+    print(f"  ✓ Injected Pagefind h2 anchors into {n} video-body divs")
 
     # 9 ── Upgrade the search input ────────────────────────────────────────────
     OLD_SEARCH = '<input type="text" class="search-box" placeholder="Search videos…" id="video-search" oninput="filterVideos(this.value)">'
