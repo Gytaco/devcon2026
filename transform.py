@@ -260,6 +260,29 @@ OLD_EXEC_SUMMARY_P = "Across the analyzed videos, there is a strong focus on int
 
 # ─────────────────────────────────────────────────────────────────────────────
 NEW_JS = """<script>
+// ── Auto cache-bust on new deployments ────────────────────────────────────
+// Fetches HEAD of the current page with cache:no-store to get the server's
+// live ETag (GitHub Pages / Fastly updates it on every deploy).  If it
+// differs from the value stored in sessionStorage the user has a stale copy,
+// so we redirect to ?v=<etag> which forces the browser to fetch fresh HTML.
+// The ?v guard prevents the check re-running after the redirect.
+(function checkForUpdates() {
+  if (new URLSearchParams(window.location.search).get('v')) return;
+  var pageUrl = window.location.protocol + '//' + window.location.host + window.location.pathname;
+  fetch(pageUrl, { method: 'HEAD', cache: 'no-store' })
+    .then(function(r) {
+      var sig = r.headers.get('ETag') || r.headers.get('Last-Modified') || '';
+      if (!sig) return;
+      var key = 'pv_sig_' + window.location.pathname;
+      var stored = sessionStorage.getItem(key);
+      sessionStorage.setItem(key, sig);
+      if (stored && stored !== sig) {
+        window.location.replace(pageUrl + '?v=' + encodeURIComponent(sig) + window.location.hash);
+      }
+    })
+    .catch(function() {});
+})();
+
 // ── Tab switching ─────────────────────────────────────────────────────────
 function switchTab(name) {
   document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
