@@ -93,10 +93,13 @@ NEW_CSS = """<style>
 
   /* Aggregate tables */
   .agg-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(430px,1fr));gap:20px}
-  .agg-card{background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:16px}
-  .agg-card-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
-  .agg-card-title{font-size:.95rem;font-weight:700;color:var(--text)}
-  .count-badge{background:var(--primary);color:#FFF;font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px}
+  .agg-card{background:var(--bg);border:1px solid var(--border);border-radius:8px;overflow:hidden}
+  .agg-card-header{display:flex;align-items:center;gap:8px;padding:14px 16px;cursor:pointer;user-select:none;transition:background .15s}
+  .agg-card-header:hover{background:#EEF5FF}
+  .agg-card-arrow{font-size:11px;color:var(--muted);flex-shrink:0;transition:transform .2s;display:inline-block}
+  .agg-card-title{font-size:.95rem;font-weight:700;color:var(--text);flex:1}
+  .count-badge{background:var(--primary);color:#FFF;font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;flex-shrink:0}
+  .agg-card-body{padding:0 16px 16px;border-top:1px solid var(--border)}
   .agg-filter{width:100%;padding:6px 10px;margin-bottom:10px;border:1px solid var(--border);border-radius:6px;font-size:13px;color:var(--text);background:var(--surface)}
   .agg-filter:focus{outline:none;border-color:var(--primary)}
   .agg-table{width:100%;border-collapse:collapse;font-size:13px}
@@ -212,41 +215,53 @@ AGG_SECTION = """
   <div class="section" id="agg-section">
     <div class="section-title">&#128202; Session Intelligence &mdash; Full Breakdown</div>
     <p style="color:var(--muted);margin-bottom:20px;font-size:13px;line-height:1.7">
-      Every topic, product, client, and AI technology that appeared across all 78 DevCon 2026 sessions, ranked by frequency.
-      <strong>Click any item name</strong> to jump to matching sessions in the Session Explorer.
+      Every topic, product, client, and AI technology across all 78 sessions, ranked by frequency.
+      <strong>Click a panel to expand it</strong>, then click any item name to jump to matching sessions.
     </p>
     <div class="agg-grid">
 
       <div class="agg-card">
-        <div class="agg-card-header">
+        <div class="agg-card-header" onclick="toggleAggCard('themes')" aria-expanded="false">
+          <span class="agg-card-arrow" id="agg-arrow-themes">&#9654;</span>
           <span class="agg-card-title">&#127991;&nbsp; Topics &amp; Themes</span>
           <span class="count-badge" id="count-themes">&#8230;</span>
         </div>
-        <div id="agg-themes"><p style="color:var(--muted);font-size:12px;padding:8px 0">Building&hellip;</p></div>
+        <div class="agg-card-body" id="agg-body-themes" style="display:none">
+          <div id="agg-themes" style="padding-top:12px"><p style="color:var(--muted);font-size:12px">Building&hellip;</p></div>
+        </div>
       </div>
 
       <div class="agg-card">
-        <div class="agg-card-header">
+        <div class="agg-card-header" onclick="toggleAggCard('products')" aria-expanded="false">
+          <span class="agg-card-arrow" id="agg-arrow-products">&#9654;</span>
           <span class="agg-card-title">&#128295;&nbsp; Autodesk Products &amp; APIs</span>
           <span class="count-badge" id="count-products">&#8230;</span>
         </div>
-        <div id="agg-products"><p style="color:var(--muted);font-size:12px;padding:8px 0">Building&hellip;</p></div>
+        <div class="agg-card-body" id="agg-body-products" style="display:none">
+          <div id="agg-products" style="padding-top:12px"><p style="color:var(--muted);font-size:12px">Building&hellip;</p></div>
+        </div>
       </div>
 
       <div class="agg-card">
-        <div class="agg-card-header">
-          <span class="agg-card-title">&#127970;&nbsp; Clients &amp; Partners</span>
+        <div class="agg-card-header" onclick="toggleAggCard('clients')" aria-expanded="false">
+          <span class="agg-card-arrow" id="agg-arrow-clients">&#9654;</span>
+          <span class="agg-card-title">&#127962;&nbsp; Clients &amp; Partners</span>
           <span class="count-badge" id="count-clients">&#8230;</span>
         </div>
-        <div id="agg-clients"><p style="color:var(--muted);font-size:12px;padding:8px 0">Building&hellip;</p></div>
+        <div class="agg-card-body" id="agg-body-clients" style="display:none">
+          <div id="agg-clients" style="padding-top:12px"><p style="color:var(--muted);font-size:12px">Building&hellip;</p></div>
+        </div>
       </div>
 
       <div class="agg-card">
-        <div class="agg-card-header">
+        <div class="agg-card-header" onclick="toggleAggCard('ai')" aria-expanded="false">
+          <span class="agg-card-arrow" id="agg-arrow-ai">&#9654;</span>
           <span class="agg-card-title">&#129302;&nbsp; AI Technologies</span>
           <span class="count-badge" id="count-ai">&#8230;</span>
         </div>
-        <div id="agg-ai"><p style="color:var(--muted);font-size:12px;padding:8px 0">Building&hellip;</p></div>
+        <div class="agg-card-body" id="agg-body-ai" style="display:none">
+          <div id="agg-ai" style="padding-top:12px"><p style="color:var(--muted);font-size:12px">Building&hellip;</p></div>
+        </div>
       </div>
 
     </div>
@@ -315,6 +330,18 @@ function openAndScrollTo(id) {
     }
   }, 50);
   return false;
+}
+
+// ── Aggregate card collapse/expand ────────────────────────────────────────
+function toggleAggCard(id) {
+  var body  = document.getElementById('agg-body-' + id);
+  var arrow = document.getElementById('agg-arrow-' + id);
+  var hdr   = arrow && arrow.closest('.agg-card-header');
+  if (!body) return;
+  var open = body.style.display !== 'none';
+  body.style.display = open ? 'none' : '';
+  if (arrow) arrow.textContent = open ? '►' : '▼';
+  if (hdr)   hdr.setAttribute('aria-expanded', String(!open));
 }
 
 // ── Transcript toggle ─────────────────────────────────────────────────────
