@@ -188,7 +188,7 @@ NEW_NAV = """<!-- NAV -->
     <span class="brand-sep">|</span>
     <span class="brand-event">DevCon 2026</span>
   </div>
-  <button class="tab-btn active" onclick="switchTab('combined')">Intelligence Hub</button>
+  <button class="tab-btn active" onclick="switchTab('combined')">Summaries</button>
   <button class="tab-btn" onclick="switchTab('perVideo')">Session Explorer</button>
   <div class="nav-search-btn" onclick="togglePagefindSearch()">&#128269;&nbsp; Search all content</div>
   <div class="meta">78 sessions &nbsp;&middot;&nbsp; April 2026</div>
@@ -328,6 +328,7 @@ function filterVideos(query) {
 }
 
 // ── Aggregate table: filter-and-navigate ─────────────────────────────────
+// IMPORTANT: called via element.dataset.filter to avoid HTML attribute quoting issues
 function filterAndGo(query) {
   document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
   document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
@@ -422,6 +423,110 @@ document.addEventListener('keydown', function(e) {
   }
 });
 
+// ── Chip normalisation ────────────────────────────────────────────────────
+// Runs at page-load and rewrites verbose AI-generated chip text into clean
+// canonical group names so the aggregate tables are actually readable and
+// clicking a row correctly filters sessions in the Session Explorer.
+function normalizeTheme(raw) {
+  var t = raw.toLowerCase();
+  if (/\bmcp\b|model context protocol/.test(t))                                    return 'MCP & APS Integration';
+  if (/digital twin|facility manag|intelligent operat/.test(t))                    return 'Digital Twins & Facility Management';
+  if (/sustainab|carbon|climate|green build|digital product passport/.test(t))     return 'Sustainability & Carbon';
+  if (/bim.*qualit|bim.*compli|bim.*automat|automat.*bim|deterministic ai.*bim|bim.*qa/.test(t)) return 'BIM Quality & Compliance Automation';
+  if (/interoperab|data exchange|granular data/.test(t))                           return 'Data Interoperability & Exchange';
+  if (/data.*integrat|integrat.*data|data management|data.*access|lifecycle data|data.*pipeline|data.*quality|data.*model|data.*process/.test(t)) return 'Data Management & Integration';
+  if (/ai agent|agentic|llm.driven|generative ai|human.ai/.test(t))               return 'AI Agents & LLMs';
+  if (/design automat|automat.*design|computational design|facade|automat.*architectural|automat.*revit|revit.*automat/.test(t)) return 'Design & Workflow Automation';
+  if (/\bbim\b|building information model/.test(t))                               return 'BIM & Design';
+  if (/construction.*workflow|automat.*construction|construction.*automat|project deliver|site safety|safety.*notif|rework/.test(t)) return 'Construction Workflows & Automation';
+  if (/project manag|enterprise.*project|project lifecycle/.test(t))              return 'Project & Enterprise Management';
+  if (/\bapi\b|\bapis\b|autodesk platform service|aps.*business|aps.*subscript|api.*capacit|securing api|oauth/.test(t)) return 'APS & API Development';
+  if (/urban planning|geobim|gis.*bim|bim.*gis|infrastructure design|dam project/.test(t)) return 'Urban Planning & Infrastructure';
+  if (/manufactur|plm|mes |erp|fusion.*automat|fabricat/.test(t))                 return 'Manufacturing & PLM';
+  if (/visual|render|xr |walkthrough|experiential/.test(t))                       return 'Visualization & Simulation';
+  if (/cloud.based|cloud.*workflow|platform.*evolution|scalab|backend|architecture transit/.test(t)) return 'Cloud & Platform Scalability';
+  if (/securit|authoriz/.test(t))                                                 return 'Security & Authentication';
+  if (/knowledge.*graph|knowledge.*manag|knowledge evolut/.test(t))               return 'Knowledge Management';
+  if (/ai.*integrat|integrat.*ai|ai.*transform|ai.*workflow|workflow.*ai|ai.*aec|aec.*ai|ai.driven|ai.powered|ai.assisted|ai.enhanced|ai.based|ai.*automat|automat.*ai|ai renais|ai in |ai and /.test(t)) return 'AI Integration in AEC';
+  if (/automat|digital transform|workflow|integrat/.test(t))                      return 'Automation & Digital Transformation';
+  return raw.length > 55 ? 'AEC Innovation' : raw;
+}
+
+function normalizeProduct(raw) {
+  var t = raw.toLowerCase().trim();
+  if (/\baps\b|autodesk platform service|platform service/.test(t))   return 'APS';
+  if (/\bacc\b|autodesk construction cloud|acc docs/.test(t))          return 'ACC';
+  if (/\bforma\b|autodesk forma|forma.*build|forma construct/.test(t)) return 'Forma';
+  if (/\bfusion\b/.test(t))                                            return 'Fusion';
+  if (/\brevit\b/.test(t))                                             return 'Revit';
+  if (/viewer sdk|aps viewer|\bviewer\b/.test(t))                      return 'Viewer SDK';
+  if (/model derivative/.test(t))                                      return 'Model Derivative API';
+  if (/aec data model/.test(t))                                        return 'AEC Data Model API';
+  if (/\btandem\b/.test(t))                                            return 'Tandem';
+  if (/navisworks/.test(t))                                            return 'Navisworks';
+  if (/civil 3d/.test(t))                                              return 'Civil 3D';
+  if (/\bautocad\b/.test(t))                                           return 'AutoCAD';
+  if (/design automation api/.test(t))                                 return 'Design Automation API';
+  if (/data management api/.test(t))                                   return 'Data Management API';
+  if (/\bforge\b/.test(t))                                             return 'Forge';
+  if (/autodesk assistant/.test(t))                                    return 'Autodesk Assistant';
+  if (/app store/.test(t))                                             return 'Autodesk App Store';
+  if (/bim 360/.test(t))                                               return 'BIM 360';
+  if (/model context protocol|\bmcp\b/.test(t))                        return 'MCP Server';
+  if (/\binventor\b/.test(t))                                          return 'Inventor';
+  if (/\bdynamo\b/.test(t))                                            return 'Dynamo';
+  if (/infraworks/.test(t))                                            return 'InfraWorks';
+  if (/\bgraphql\b/.test(t))                                           return 'GraphQL';
+  if (/workshop xr/.test(t))                                           return 'Workshop XR';
+  return raw;
+}
+
+function normalizeAI(raw) {
+  var t = raw.toLowerCase().trim();
+  if (/\bclaude\b|clawed|claude cod/.test(t))                          return 'Claude (Anthropic)';
+  if (/chatgpt|chat gpt/.test(t))                                      return 'ChatGPT';
+  if (/\bgpt\b/.test(t))                                               return 'GPT / ChatGPT';
+  if (/copilot studio/.test(t))                                        return 'Microsoft Copilot Studio';
+  if (/\bcopilot\b|co-pilot|github copilot/.test(t))                  return 'Microsoft Copilot';
+  if (/ai coding agent|ai client|agentic system|onboarding co-pilot/.test(t)) return 'AI Agents';
+  if (/\bai agent/.test(t))                                            return 'AI Agents';
+  if (/large language model|llm/.test(t))                              return 'LLMs (General)';
+  if (/azure openai|azure ai foundry/.test(t))                        return 'Azure OpenAI';
+  if (/amazon bedrock|bedrock knowledge/.test(t))                      return 'Amazon Bedrock';
+  if (/openai whisper|whisper/.test(t))                                return 'OpenAI Whisper';
+  if (/\bopenai\b/.test(t))                                            return 'OpenAI';
+  if (/\brag\b/.test(t))                                               return 'RAG';
+  if (/machine learning|reinforcement learning/.test(t))               return 'Machine Learning';
+  if (/generative ai|generative design/.test(t))                       return 'Generative AI';
+  if (/autodesk assistant/.test(t))                                    return 'Autodesk Assistant';
+  if (/victor ai/.test(t))                                             return 'Victor AI';
+  if (/\biot\b/.test(t))                                               return 'IoT';
+  if (/roberta|facebook ai/.test(t))                                   return 'RoBERTa';
+  if (/pinecone/.test(t))                                              return 'Pinecone';
+  if (/\bgemini\b/.test(t))                                            return 'Google Gemini';
+  return raw;
+}
+
+function normalizeClient(raw) {
+  var t = raw.toLowerCase().trim();
+  // discard clearly bad AI extraction artefacts
+  if (/^(partners or customers|basics|atlantis|valley|brazil|fash|swiss|suez|others?|n[/]a)$/.test(t)) return '';
+  if (/sweco|swecco/.test(t))                                          return 'Sweco';
+  if (/bca singapore|building and construction authority/.test(t))     return 'BCA Singapore';
+  if (/deutsche bahn/.test(t))                                         return 'Deutsche Bahn';
+  if (/\bbosch\b/.test(t))                                             return 'Bosch';
+  if (/\baws\b|amazon web services/.test(t))                           return 'AWS';
+  if (/\baecom\b/.test(t))                                             return 'AECOM';
+  if (/\bwsp\b/.test(t))                                               return 'WSP';
+  if (/arcadis/.test(t))                                               return 'Arcadis';
+  if (/\besri\b/.test(t))                                              return 'Esri';
+  if (/skanska/.test(t))                                               return 'Skanska';
+  if (/parsons/.test(t))                                               return 'Parsons';
+  if (/microsoft/.test(t))                                             return 'Microsoft';
+  if (/novo nordisk|novo nordus/.test(t))                              return 'Novo Nordisk';
+  return raw;
+}
+
 // ── Build aggregate tables from chip data already in the DOM ─────────────
 function _esc(s) {
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
@@ -429,14 +534,34 @@ function _esc(s) {
 function _trunc(s, n) { return s.length > n ? s.slice(0, n) + '…' : s; }
 
 function buildAggregateTables() {
+  // Step 1: rewrite chip text in the DOM to canonical names.
+  // This ensures filterVideos() matches correctly when a row is clicked.
+  var chipNorm = [
+    ['#pv-content .video-card .chip-theme',   normalizeTheme],
+    ['#pv-content .video-card .chip-product', normalizeProduct],
+    ['#pv-content .video-card .chip-ai',      normalizeAI],
+    ['#pv-content .video-card .chip-client',  normalizeClient]
+  ];
+  chipNorm.forEach(function(pair) {
+    document.querySelectorAll(pair[0]).forEach(function(el) {
+      var n = pair[1](el.textContent.trim());
+      if (n) { el.textContent = n; }
+      else   { el.style.display = 'none'; } // hide invalid/noise chips
+    });
+  });
+
+  // Step 2: collect from the now-normalised DOM (dedup per video per key)
   var themeMap = {}, prodMap = {}, clientMap = {}, aiMap = {};
   document.querySelectorAll('#pv-content .video-card').forEach(function(card) {
     var vid   = card.id.replace('video-', '');
     var title = card.dataset.title || vid;
     function collect(sel, map) {
+      var seen = {};
       card.querySelectorAll(sel).forEach(function(el) {
+        if (el.style.display === 'none') return;
         var k = el.textContent.trim();
-        if (!k) return;
+        if (!k || seen[k]) return;
+        seen[k] = true;
         if (!map[k]) map[k] = [];
         map[k].push({ id: vid, title: title });
       });
@@ -457,28 +582,41 @@ function buildAggregateTables() {
     var el = document.getElementById(pair[0]);
     if (el) el.textContent = Object.keys(pair[1]).length;
   });
+
+  // Update top stat cards with real counts
+  function setStat(id, val) { var e = document.getElementById(id); if (e) e.textContent = val; }
+  setStat('stat-sessions', _totalCards);
+  setStat('stat-themes',   Object.keys(themeMap).length);
+  setStat('stat-clients',  Object.keys(clientMap).length);
+  setStat('stat-products', Object.keys(prodMap).length);
+  setStat('stat-ai',       Object.keys(aiMap).length);
 }
 
 function renderAggTable(cid, map, colName, chipType) {
   var container = document.getElementById(cid);
   if (!container) return;
   var entries = Object.entries(map).sort(function(a, b) { return b[1].length - a[1].length; });
-  var h = '<input class="agg-filter" placeholder="Filter ' + colName.toLowerCase() + 's…" oninput="filterAggTable(this)">';
+  var h = '<input class="agg-filter" placeholder="Filter ' + _esc(colName.toLowerCase()) + 's&hellip;" oninput="filterAggTable(this)">';
   h += '<div style="overflow-x:auto"><table class="agg-table" data-sort-dir="desc" data-sort-col="1">';
   h += '<thead><tr>';
-  h += '<th onclick="sortAggTable(this,0)" style="cursor:pointer;min-width:160px">' + _esc(colName) + ' <span class="sort-arrow">↕</span></th>';
-  h += '<th onclick="sortAggTable(this,1)" style="cursor:pointer;text-align:center;width:78px">Sessions <span class="sort-arrow">▼</span></th>';
+  h += '<th onclick="sortAggTable(this,0)" style="cursor:pointer;min-width:160px">' + _esc(colName) + ' <span class="sort-arrow">&#8597;</span></th>';
+  h += '<th onclick="sortAggTable(this,1)" style="cursor:pointer;text-align:center;width:78px">Sessions <span class="sort-arrow">&#9660;</span></th>';
   h += '<th>Sample sessions (click to explore)</th>';
   h += '</tr></thead><tbody>';
   entries.forEach(function(entry) {
     var name   = entry[0];
     var videos = entry[1];
+    // Use data-filter attribute to avoid HTML attribute quoting issues with
+    // JSON.stringify which produces double-quoted strings inside onclick="..."
     var chips  = videos.slice(0, 5).map(function(v) {
-      return '<a href="#" class="chip chip-' + chipType + '" style="font-size:10px" onclick="filterAndGo(' + JSON.stringify(name) + ');return false">' + _esc(_trunc(v.title, 30)) + '</a>';
+      return '<a href="#" class="chip chip-' + chipType + '" style="font-size:10px"'
+           + ' data-filter="' + _esc(name) + '"'
+           + ' onclick="filterAndGo(this.dataset.filter);return false">'
+           + _esc(_trunc(v.title, 30)) + '</a>';
     }).join('');
     if (videos.length > 5) chips += '<span class="chip" style="background:#EEF2F7;color:#6B7280;font-size:10px">+' + (videos.length - 5) + ' more</span>';
     h += '<tr>';
-    h += '<td><span class="agg-name" onclick="filterAndGo(' + JSON.stringify(name) + ')">' + _esc(name) + '</span></td>';
+    h += '<td><span class="agg-name" data-filter="' + _esc(name) + '" onclick="filterAndGo(this.dataset.filter)">' + _esc(name) + '</span></td>';
     h += '<td style="text-align:center;font-weight:700;color:var(--primary)">' + videos.length + '</td>';
     h += '<td>' + chips + '</td>';
     h += '</tr>';
@@ -501,7 +639,7 @@ window.addEventListener('load', function() {
   var meta = document.getElementById('search-count');
   if (meta) meta.textContent = _totalCards + ' sessions';
 
-  // Build aggregate tables
+  // Build aggregate tables (normalises chip text first, then aggregates)
   buildAggregateTables();
 
   // Hash-based deep linking: index.html#video-XYZ
@@ -538,12 +676,65 @@ def main():
     # 4 ── Update page title ──────────────────────────────────────────────────
     html = html.replace(
         "<title>YouTube Channel Analysis Report</title>",
-        "<title>Autodesk DevCon 2026 — Intelligence Hub</title>",
+        "<title>Autodesk DevCon 2026 — Summaries</title>",
         1,
     )
     print("  ✓ Page title updated")
 
-    # 5 ── Update executive summary text ─────────────────────────────────────
+    # 5a ── Replace hardcoded stats section with dynamic IDs ─────────────────
+    OLD_STATS = """  <!-- Stats -->
+  <div class="stats">
+    <div class="stat-card">
+      <div class="stat-num">78</div>
+      <div class="stat-label">Videos analysed</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">5</div>
+      <div class="stat-label">Shared themes</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">14</div>
+      <div class="stat-label">Clients identified</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">3</div>
+      <div class="stat-label">Autodesk products/APIs</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">3</div>
+      <div class="stat-label">AI technologies</div>
+    </div>
+  </div>"""
+    NEW_STATS = """  <!-- Stats -->
+  <div class="stats">
+    <div class="stat-card">
+      <div class="stat-num" id="stat-sessions">78</div>
+      <div class="stat-label">Sessions</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num" id="stat-themes">&mdash;</div>
+      <div class="stat-label">Unique topics</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num" id="stat-clients">&mdash;</div>
+      <div class="stat-label">Clients &amp; partners</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num" id="stat-products">&mdash;</div>
+      <div class="stat-label">Autodesk products</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num" id="stat-ai">&mdash;</div>
+      <div class="stat-label">AI technologies</div>
+    </div>
+  </div>"""
+    if OLD_STATS in html:
+        html = html.replace(OLD_STATS, NEW_STATS, 1)
+        print("  ✓ Stats section updated with dynamic IDs")
+    else:
+        print("  ⚠ Stats section pattern not matched")
+
+    # 5b ── Update executive summary text ─────────────────────────────────────
     if OLD_EXEC_SUMMARY_P in html:
         html = html.replace(OLD_EXEC_SUMMARY_P, NEW_EXEC_SUMMARY_P, 1)
         print("  ✓ Executive summary updated")
@@ -557,6 +748,15 @@ def main():
         print("  ✓ Aggregate tables section inserted")
     else:
         print("  ⚠ Themes Matrix comment not found – tables not inserted")
+
+    # 6b ── Remove 3 stale legacy sections (Clients, Products, AI tables) ─────
+    start = html.find("  <!-- Clients -->")
+    end   = html.find("\n\n</div>\n</div>\n\n<!-- ===================== TAB 2")
+    if start != -1 and end != -1:
+        html = html[:start] + html[end:]
+        print("  ✓ Removed 3 stale legacy sections (Clients, Products, AI tables)")
+    else:
+        print("  ⚠ Stale sections markers not found (may already be removed)")
 
     # 7 ── Bulk-add data-pagefind-body to all .video-body divs ───────────────
     before = html.count('class="video-body"')
